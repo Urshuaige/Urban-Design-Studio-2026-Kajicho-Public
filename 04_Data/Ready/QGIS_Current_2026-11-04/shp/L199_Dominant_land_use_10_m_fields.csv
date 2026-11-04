@@ -1,0 +1,13 @@
+﻿source_field,shp_field,shp_type,dbf_width_bytes,null_bit,storage,source_non_null,source_null,source_max_text_bytes
+__wider_pk,wider_pk,integer,11,0,shp_and_csv,4426,0,
+cell_id,cell_id,integer,11,1,shp_and_csv,4426,0,
+coverage_pct,coverage_p,real,20,2,shp_and_csv,4426,0,
+far_est,far_est,real,20,3,shp_and_csv,4045,381,
+floor_support,floor_supp,real,20,4,shp_and_csv,4426,0,
+land_use,land_use,text,20,5,shp_and_csv,4426,0,20
+land_support,land_suppo,real,20,6,shp_and_csv,4426,0,
+mix_entropy,mix_entrop,real,20,7,shp_and_csv,3884,542,
+mix_support,mix_suppor,real,20,8,shp_and_csv,4426,0,
+delivery_source_fid,delivery_s,integer,11,9,shp_and_csv,4426,0,
+delivery_geometry,delivery_g,text,16,10,shp_and_csv,4426,0,16
+delivery_value_scope,delivery_v,text,66,11,shp_and_csv,4426,0,66

@@ -1,0 +1,24 @@
+[
+  {
+    "target_dataset": "D031_buildings_town_context",
+    "join_dataset": "D050_town_context_2026_2021",
+    "target_layer": "Buildings — town context and OSM links",
+    "join_layer": "Whole town outlines — 2020 geometry",
+    "target_field": "census_town_key",
+    "join_field": "town_key",
+    "prefix": "Town_",
+    "fields": [
+      "town_name_ja",
+      "ward_ja",
+      "census2020_suppression",
+      "reg2026_population",
+      "reg2026_households",
+      "econ2021_establishments",
+      "econ2021_workers",
+      "stats_scope",
+      "reg2026_density_per_ha",
+      "reg2026_age65_pct"
+    ],
+    "source_project": "06_Outputs/Building_Age_2011_2026-11-04/Delivery/Kanda_Building_Age_2011.qgz"
+  }
+]

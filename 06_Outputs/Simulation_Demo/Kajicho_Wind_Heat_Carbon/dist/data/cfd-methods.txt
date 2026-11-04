@@ -1,0 +1,89 @@
+# Kajicho wind and heat comparison: first trial plan
+
+2026-10-14 · SHI Dingchao · Baseline and cool roofs
+
+Archived plan and development notes from 2026-10-14. Current completed-trial status is in repository docs/CFD_STATUS.md; the reference 6000 and light 2000 trials remain numerically unaccepted. No new CFD run is started by this document.
+
+With weather, geometry and background conditions held fixed, does reducing prescribed core-roof sensible heat change pedestrian wind speed and the air-temperature rise contributed by those roofs? The first trial uses reproducible steady buoyant Reynolds-averaged flow (RANS). It provides a conditional comparison; complete surface energy balance and actual building energy require further data.
+
+## Data and extent
+
+- Core: existing Kajicho 1 & 2 study boundary, 277 PLATEAU objects; originals unchanged.
+- Context: Chiyoda/Chuo 2025 CityGML. Include objects within 500 m of the core or six times their own height. The 12 source meshes are listed in domain.json.
+- Legacy geometry retains 3,805 objects, including 3,528 context objects, with maximum height 235.2 m. LOD 1 volumes and flat ground are used; original base elevations remain available for terrain sensitivity.
+- Starting from COST 732 §§5.4–5.6, use tallest retained height H for upstream 5H, downstream 15H and a top 5H above the tallest building. This conservative implementation is not a universal mandatory distance for urban arrays. The §5.5 6H screening uses each building's own height. Lateral extent reaches a frontal-projection blockage ratio of 2.8%; the legacy air domain is about 6.18 × 7.30 × 1.41 km.
+- These sizes meet the stated geometric controls. Their numerical effects require boundary, mesh and inflow-preservation checks.
+
+## Paired cases
+
+JMA Tokyo, 2025-08-30 13:00 JST: 38.4 °C, southerly wind 2.5 m/s, reference height 35.3 m, global horizontal radiation 866.67 W/m². Observations come from the saved hourly CSV; anemometer height comes from the official JMA station table.
+
+Assumed core-roof albedo is 0.20 for baseline and 0.60 for cool roofs, applied to all core roofs. qH = (1 − albedo) × GHI × fH, with assumed fH=0.20 and low/high sensitivity values 0.10/0.30. The first-trial fluxes are 138.67 and 69.33 W/m². fH is not field-calibrated; absorbed radiation is not treated as measured sensible heat.
+
+Other walls, ground and context roofs are adiabatic in both cases. Air-temperature rise therefore represents the prescribed core-roof contribution, not the full summer urban thermal environment. Solar shade remains a separate analysis. Add DECC by-use energy when available; roof flux does not determine electricity savings.
+
+## Software, parallel execution and boundaries
+
+OpenCFD OpenFOAM 2412, official image opencfd/openfoam-default:2412; buoyantBoussinesqSimpleFoam, k-epsilon and Boussinesq buoyancy. Neutral logarithmic inflow and consistent near-ground z 0=0.1 m are used. Stability on a hot afternoon remains an assumption to check.
+
+Historical first-trial allocation on mdx 1:72 logical CPUs, CPU 8–71 for this work,64 mesh ranks and 32 ranks per paired solver, reserving 8 CPUs for existing work. Historical directory: /fast/SHI/urban_design_studio_2026/cfd_v3_20261014. Combined memory budget was 96 GiB, with available-memory checks. These are recorded settings, not current host-capacity claims or instructions to run.
+
+Derived building prisms undergo Manifold solid union to remove shared internal walls and check closure/positive volume. Initial targets were about 0.5 m near core ground,1 m around principal core volumes and coarser context. Pedestrian samples are 1.5 m high. Record actual mesh resolution, street-width representation and checks. Final advection uses second order; both options share one mesh.
+
+The incompressible temperature equation uses kinematic thermal diffusivity. Divide atmTurbulentHeatFluxTemperature q by air density before the boundary condition divides by Cp. Retain physical sensible heat in W/m² in the scenario manifest.
+
+## Checks and stopping criteria in the first plan
+
+1. Run surfaceCheck/checkMesh and record cell count, non-orthogonality, skewness and failures; address failures or explicitly restrict result use.
+2. Check finite U/T/k/epsilon, required positivity, residuals and pedestrian-statistic stability. Normal exit does not establish convergence.
+3. Check applied roof area, sensible power and sign against boundary heat transport/source terms. The provisional 1% energy-gap target is a project criterion, not a universal AIJ threshold.
+4. Compare wind in m/s, roof-contribution temperature rise in K and option-minus-baseline at common 1.5 m samples/masks.
+5. Add empty-domain inflow preservation, low/high fH, at least two mesh resolutions and boundary-distance sensitivity. List unfinished checks explicitly.
+6. The original plan called for stopping only project containers if fields became invalid or available memory crossed its budget threshold, retaining logs and leaving other jobs untouched. Future runs follow the current project resource instructions.
+
+## Data gaps
+
+DECC awaits the user's registered file. Reliable individual core tree locations, crowns and heights are missing. Unlocated trees are not evidence of no trees. Both initial options share that geometry gap; green-street options await adequate data. The 26 cross-FAR objects have official Chiyoda GIS reference checks; footprint/zone overlays do not establish legal sites.
+
+## Sources
+
+- COST Action732 (2007), Best Practice Guideline §5.5: https://www.airshed.co.uk/wp-content/uploads/2018/03/COST-732-Best-Practice-Guideline-May-2007.pdf
+- Tominaga et al. (2008), AIJ guidelines: https://doi.org/10.1016/j.jweia.2008.02.058
+- OpenFOAM atmospheric inlet: https://doc.openfoam.com/2306/tools/processing/boundary-conditions/rtm/derived/atmospheric/atmBoundaryLayerInletVelocity/
+- Exact OpenFOAM 2412 solver and heat-boundary source are in the pinned container.
+- JMA station list, 2026-03-24: https://www.jma.go.jp/jma/kishou/know/amedas/ame_master.pdf
+- Chiyoda official zoning GIS: https://tokei-gis2.chiyodatoshikei.jp/server/rest/services/Map_services/youtochiiki/MapServer
+
+## Early fitted mesh and migration
+
+The early fitted mesh had 8,187,077 cells, maximum non-orthogonality 64.9908°, maximum skewness 3.99423 and minimum face interpolation weight 0.0501854. Volume, face-pyramid and face-tetrahedron checks passed. Local repair removed 17 weakly connected fluid cells and assigned added faces to adiabatic context walls. Two nonzero but weak connections remained outside the core, at least 82.6 m from its boundary. allGeometry flagged 163,934 concave cells. snappy configuration checks and allGeometry use different criteria, recorded separately. After two exploratory trials developed local nonphysical wind, this mesh was withdrawn from benefit comparisons and kept as a diagnostic record.
+
+At the user's request, the main work moved to mdx 1 and the two project containers on mdx 2 stopped. Both earlier solvers had waited at the custom iteration 20 heat diagnostic because MPI ranks had different processor-boundary counts. The repaired diagnostic globally sums physical boundaries only. Both cases restarted from initial fields on mdx 1, saving every 50 iterations and retaining the latest checkpoint. Historical state/log locations were recorded in the local project registry.
+
+## Numerical startup
+
+The direct second-order startup produced nonphysical local wind outside the core, concentrated in narrow passages near the eastern refinement boundary. It was excluded from design comparisons and retained remotely as trials/01_linearupwind_unstable. A new startup used the same physics/mesh with first-order U/T upwind, lower relaxation and a log-profile initialisation consistent with inflow. See numerical_startup.json for settings and software-source interpretation. The plan was to return to second order after wind/probes/pressure stabilised and compare convergence/results.
+
+First-order fields were progress snapshots. Full heat conservation, second-order convergence, empty-domain inflow and mesh/boundary sensitivity were required before final benefit claims.
+
+- Relaxation: https://doc.openfoam.com/2306/tools/processing/numerics/solvers/under-relaxation/
+- Native expression initialisation: https://api.openfoam.com/2412/setExprFields_8C.html
+- This v2412 pressure equation has no SIMPLEC branch: https://api.openfoam.com/2412/heatTransfer_2buoyantBoussinesqSimpleFoam_2pEqn_8H_source.html
+
+The second gentler startup still had local anomalies; a short window with tighter absolute pressure tolerance did not immediately resolve them. The next diagnostic used native snap false Cartesian refinement on the same STL. Its stepped fluid boundary can differ by about one local cell size and close narrow gaps. Both options shared the derived mesh; roof area and applied heat were recalculated. This tested fitted-boundary distortion while preserving PLATEAU and previous trials. Mesh quality, street connectivity and refinement sensitivity remained part of interpretation.
+
+Official switches: https://doc.openfoam.com/2312/tools/pre-processing/mesh/generation/snappyhexmesh/global/
+
+## Stepped mesh and shared samples
+
+The subsequent mesh had 8,187,492 cells, maximum non-orthogonality 26.03°, maximum skewness 1.00, minimum face interpolation weight 0.333, minimum internal connection determinant 0.1249 and face flatness 1. Native checks located four zero-determinant cells in a small pocket about 18 m north of the core. Only those four cells were removed, without expanding the neighbourhood; derived volume difference was about 3.78 m³. Locations are in cartesian_removed_cells.json. Original building data stayed unchanged.
+
+allGeometry still flagged 300,673 concave cells. Volume, connectivity, flatness, skewness and interpolation checks passed. This qualified exploratory solving, not wind stability, heat balance or refinement equivalence. Both cases used the same inflow profile and exported the same-height samples every 50 iterations.
+
+After the shared iteration 50 checkpoint, partitioned fields were retained and both cases returned to second-order linearUpwind. Temperature linear tolerance became 1e-10, relative tolerance 0.001 and outer-temperature residual target 1e-8, to resolve a small source response on an absolute-temperature background. Heat checks still used physical boundary fluxes. Historical restart command: PAIR_ALREADY_PREPARED=1 REUSE_DECOMPOSITION=1 bash run_cfd_pair_v3.sh. Repartitioning overwrites saved partitioned fields; restart must skip it.
+
+Display separates fixed colour scales from automatic contrast. Automatic mode shares the current paired fields'98th percentile only for visibility; metric values retain units. Wind is the initial quantity, with temperature rise and differences selectable. Sampling is a 5 m grid at 1.5 m height. Core samples are kept only within 0.75 m of a native sample; building masks and paired valid locations are consistent.
+
+## Extent review recorded on 2026-10-14
+
+The original pair ended normally at 1000 without residual convergence or the 1% heat-balance target. The subsequent completed reference candidate used 3,806 objects,72 mesh processes and 36 processes per roof case. The 750 m +10H candidate contains 6,520 objects; other conditions and domains are in Sensitivity_Plan.json. The earlier 3,805-object geometry and CPU allocation above describe the original trial. Later completed 6000/2000 results are summarised in docs/CFD_STATUS.md; local run receipts are retained outside the shared repository.

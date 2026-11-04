@@ -1,0 +1,47 @@
+[
+  {
+    "filename": "01_kouenryokuchi.zip",
+    "url": "https://data.storage.data.metro.tokyo.lg.jp/toshiseibi/01_kouenryokuchi.zip",
+    "bytes": 3685167,
+    "sha256": "dad9c8c5d308270951c10de6f55b37d3dc5c68f9db72d020cfc9268ccdaa00ce",
+    "retrieved": "2026-11-02",
+    "source_dates": "See green_filelist.pdf and green_teigisho.pdf",
+    "license": "CC BY; no farmland datasets used"
+  },
+  {
+    "filename": "02_gairoju.zip",
+    "url": "https://data.storage.data.metro.tokyo.lg.jp/toshiseibi/02_gairoju.zip",
+    "bytes": 7056985,
+    "sha256": "a700ab4e5caa05ca706db29f2b9bb271c01fb9f4885ab98ef78c39e74c7eee52",
+    "retrieved": "2026-11-02",
+    "source_dates": "See green_filelist.pdf and green_teigisho.pdf",
+    "license": "CC BY; no farmland datasets used"
+  },
+  {
+    "filename": "03_jurinchi.zip",
+    "url": "https://data.storage.data.metro.tokyo.lg.jp/toshiseibi/03_jurinchi.zip",
+    "bytes": 474264148,
+    "sha256": "f3d2a5eb09bfd6519dba2be8526d6efd1159efef6f2ceb17de3cb47904217944",
+    "retrieved": "2026-11-02",
+    "source_dates": "See green_filelist.pdf and green_teigisho.pdf",
+    "license": "CC BY; no farmland datasets used"
+  },
+  {
+    "filename": "09_minkan.zip",
+    "url": "https://data.storage.data.metro.tokyo.lg.jp/toshiseibi/09_minkan.zip",
+    "bytes": 2872281,
+    "sha256": "67d620b880742156a9143c5c3cf67f53e9109c93d1b6981494f4c1a57d2399f1",
+    "retrieved": "2026-11-02",
+    "source_dates": "See green_filelist.pdf and green_teigisho.pdf",
+    "license": "CC BY; no farmland datasets used"
+  },
+  {
+    "filename": "10_koukyoushisetsu.zip",
+    "url": "https://data.storage.data.metro.tokyo.lg.jp/toshiseibi/10_koukyoushisetsu.zip",
+    "bytes": 592138896,
+    "sha256": "cd9b034834952c464af3565530049ee4d6e3f15fac22f07c4357e8be30a4cdaf",
+    "retrieved": "2026-11-02",
+    "source_dates": "See green_filelist.pdf and green_teigisho.pdf",
+    "license": "CC BY; no farmland datasets used"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "layer": "Rail tracks",
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Master_Map_Compact.gpkg|layername=gsi_railtrcl",
+    "subset": "",
+    "output_table": "base_rail_tracks",
+    "count": 292,
+    "crs": "EPSG:6677"
+  },
+  {
+    "layer": "Road edges — GSI",
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Master_Context_GSI_2026.gpkg|layername=detail_rdedg",
+    "subset": "",
+    "output_table": "base_road_edges___gsi",
+    "count": 622,
+    "crs": "EPSG:6677"
+  },
+  {
+    "layer": "Buildings",
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Wider_Building_Update_2026-10-28/Wider_Building_Update_2026-10-28.gpkg|layername=buildings_current|subset=\"in_research_set\"=1",
+    "subset": "\"in_research_set\"=1",
+    "output_table": "base_buildings",
+    "count": 1064,
+    "crs": "EPSG:6677"
+  },
+  {
+    "layer": "Context buildings",
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Master_Map_Compact.gpkg|layername=gsi_buildings|subset=(\"inside_wider\" <> '1' AND coalesce(\"street_frontage\",0) <> 1) AND \"fid\" NOT IN (804,806,808,824,825,876,877,2989,2990,2992,2994,2997,3000,3001,3002,3003,3004,3005,3006,3007)",
+    "subset": "(\"inside_wider\" <> '1' AND coalesce(\"street_frontage\",0) <> 1) AND \"fid\" NOT IN (804,806,808,824,825,876,877,2989,2990,2992,2994,2997,3000,3001,3002,3003,3004,3005,3006,3007)",
+    "output_table": "base_context_buildings",
+    "count": 4057,
+    "crs": "EPSG:6677"
+  },
+  {
+    "layer": "Water",
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Master_Map_Compact.gpkg|layername=gsi_wa",
+    "subset": "",
+    "output_table": "base_water",
+    "count": 14,
+    "crs": "EPSG:6677"
+  }
+]

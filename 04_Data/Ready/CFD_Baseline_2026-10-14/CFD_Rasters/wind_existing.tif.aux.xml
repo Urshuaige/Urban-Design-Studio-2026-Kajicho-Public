@@ -1,0 +1,19 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="DESCRIPTION">Wind · Existing / m/s</MDI>
+    <MDI key="ITERATION">100</MDI>
+    <MDI key="SOURCE">OpenFOAM 2412 paired native export; nearest resampling</MDI>
+    <MDI key="STATUS">Intermediate; convergence and heat balance pending</MDI>
+    <MDI key="VELOCITY">3D magnitude; plan arrows use horizontal direction</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <UnitType>m/s</UnitType>
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">2.2785482406616</MDI>
+      <MDI key="STATISTICS_MEAN">0.49285229455513</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">0.44821086618442</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">25.62</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

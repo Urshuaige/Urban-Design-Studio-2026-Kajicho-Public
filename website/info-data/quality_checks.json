@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "boundary_count": 2,
+  "boundary_revision": "2026-10-18-brief-figure5",
+  "source": "Official brief p4 Figure5",
+  "geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+  "primary_geometry_sha256": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8",
+  "source_boundary_file_sha256": "1a1c6938ed7636e3d3f7fef91f2dde89ecb6a1c5a12468a17169319e4aac6cd7",
+  "area_ha": 41.98967122381172,
+  "selected_models": 1074,
+  "boundary_crossing_plateau": 22,
+  "boundary_crossing_osm": 24,
+  "analysis_boundary_crossings": {
+    "study_area": 0,
+    "primary_brief": 0
+  },
+  "exterior_analysis_buildings": {
+    "study_area": 0,
+    "primary_brief": 0
+  },
+  "building_membership_rule": "Complete original source building footprint covered by the fixed outline; exterior and crossing objects are excluded from all building analysis.",
+  "building_audit": {
+    "study_area": {
+      "buildings": {
+        "outside_or_touch_only": 8148,
+        "crossing_outline": 22,
+        "fully_covered": 1074
+      },
+      "osm_buildings": {
+        "outside_or_touch_only": 7959,
+        "fully_covered": 1029,
+        "crossing_outline": 24
+      }
+    },
+    "primary_brief": {
+      "buildings": {
+        "outside_or_touch_only": 8961,
+        "fully_covered": 277,
+        "crossing_outline": 6
+      },
+      "osm_buildings": {
+        "outside_or_touch_only": 8775,
+        "fully_covered": 232,
+        "crossing_outline": 5
+      }
+    }
+  },
+  "northern_reported_model_excluded": true,
+  "source_building_geometry_unchanged": true,
+  "png_maps": 10,
+  "thematic_maps": 9,
+  "crs": "EPSG:6677",
+  "new_cfd": false,
+  "gis_export_status": "passed",
+  "qgis_project": "05_QGIS/Projects/Kanda_Nihonbashi_Study_2026-10-18.qgz",
+  "gpkg": "04_Data/Ready/Study_Area_2026-10-18/Kanda_Nihonbashi_Study.gpkg",
+  "gis_spatial_layers": 20,
+  "gis_attribute_tables": 1,
+  "poi_counts": {
+    "study_area": 353,
+    "primary_brief": 178
+  },
+  "street_frontage": {
+    "status": "passed",
+    "original_models": 1074,
+    "supplement_models": 10,
+    "total_models": 1084,
+    "official_source_matches": 10,
+    "supplement_known_use": 9,
+    "supplement_official_heights": 9,
+    "supplement_official_storeys": 9,
+    "supplement_construction_years": 0,
+    "supplement_basement_storeys": 9,
+    "land_use_matches": 10,
+    "zone_matches": 10,
+    "town_matches": 10,
+    "source_links": 85,
+    "unchanged_study_boundaries": true,
+    "whole_source_footprints": true,
+    "new_by_corridor": {
+      "edo_south": 6,
+      "showa_east": 4
+    },
+    "removed_corner_ids": [
+      "13101-bldg-8755",
+      "13102-bldg-15199"
+    ]
+  },
+  "current_revision": {
+    "date": "2026-10-28",
+    "stock": 1064,
+    "wider": 1054,
+    "primary": 257,
+    "removed_old_objects": 21,
+    "new_mapped_footprints": 1,
+    "public_year_models": 34,
+    "maps": 12,
+    "unknowns_retained": true,
+    "historical_simulations_not_recomputed": true
+  }
+}

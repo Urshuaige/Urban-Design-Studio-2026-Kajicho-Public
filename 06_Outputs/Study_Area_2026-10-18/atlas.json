@@ -1,0 +1,2772 @@
+{
+  "schema_version": 6,
+  "date": "2026-10-18",
+  "crs": "EPSG:6677",
+  "study_area": {
+    "id": "study_area",
+    "name": {
+      "en": "Kanda–Nihonbashi wider area (approx.)",
+      "zh": "神田—日本桥外围区（概略）",
+      "ja": "神田・日本橋の周辺区域（概略）"
+    },
+    "source": "Theme B official brief, page 4, Figure 5 dashed black outline",
+    "source_pixel_vertices": [
+      [
+        463,
+        192
+      ],
+      [
+        798,
+        203
+      ],
+      [
+        819,
+        281
+      ],
+      [
+        813,
+        333
+      ],
+      [
+        798,
+        454
+      ],
+      [
+        803,
+        579
+      ],
+      [
+        905,
+        848
+      ],
+      [
+        831,
+        878
+      ],
+      [
+        890,
+        1085
+      ],
+      [
+        149,
+        1375
+      ],
+      [
+        90,
+        1290
+      ],
+      [
+        146,
+        1116
+      ],
+      [
+        191,
+        986
+      ],
+      [
+        198,
+        936
+      ],
+      [
+        221,
+        829
+      ],
+      [
+        249,
+        756
+      ],
+      [
+        279,
+        682
+      ],
+      [
+        320,
+        577
+      ],
+      [
+        343,
+        505
+      ],
+      [
+        344,
+        413
+      ],
+      [
+        403,
+        392
+      ],
+      [
+        463,
+        192
+      ]
+    ],
+    "source_raster": "PDF page 4 /Im8",
+    "source_image_size": [
+      917,
+      1495
+    ],
+    "source_original": "01_Course/2026_Briefs/2026_Theme_B_Official_Brief.pdf",
+    "source_url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+    "source_document_year": 2026,
+    "download_date": "2026-10-13",
+    "approximate": true,
+    "boundary_status": "Cartographic source-stroke trace; geographic registration uncertainty retained",
+    "outline_definition": "Stroke center, preserving visible bends; separate traces by source",
+    "registration": {
+      "method": "Least-squares affine; no snapping to census edges",
+      "pixel_origin": "upper-left; x right; y down",
+      "formula": "[E,N] = [pixel_x,pixel_y,1] @ affine_matrix",
+      "affine_matrix": [
+        [
+          0.8387638791007319,
+          0.0051573376769899325
+        ],
+        [
+          0.008216805349101186,
+          -0.8459880729333378
+        ],
+        [
+          -5883.508614679498,
+          -33543.69145658741
+        ]
+      ],
+      "rmse_m": 7.434546907555709,
+      "max_residual_m": 12.403582146416428,
+      "leave_one_out_errors_m": [
+        17.03365541822816,
+        9.854233324057127,
+        5.868724448252816,
+        16.73935647747208,
+        6.6818272968231165,
+        20.17459698242739
+      ],
+      "uncertainty_m": 25,
+      "uncertainty_definition": "Conservative cartographic screening band; includes leave-one-control-out error, source stroke width and manual point reading. Not a statistical confidence interval.",
+      "control_source": "OSM source snapshot 2026-10-13, common foundation roads; average mapped carriageway intersections when divided",
+      "controls": [
+        {
+          "name": "Chuo Street / Yasukuni-dori",
+          "pixel": [
+            225,
+            249
+          ],
+          "epsg6677": [
+            -5690.995051723813,
+            -33749.83993563471
+          ],
+          "residual_m": 3.770604150938839
+        },
+        {
+          "name": "Showa-dori / Yasukuni-dori",
+          "pixel": [
+            750,
+            273
+          ],
+          "epsg6677": [
+            -5250.270550754818,
+            -33772.84055002165
+          ],
+          "residual_m": 2.8190876430477854
+        },
+        {
+          "name": "Chuo Street / Kanda Kanamono-dori",
+          "pixel": [
+            389,
+            881
+          ],
+          "epsg6677": [
+            -5548.128027964524,
+            -34290.42172377812
+          ],
+          "residual_m": 3.895093470165984
+        },
+        {
+          "name": "Showa-dori / Kanda Kanamono-dori",
+          "pixel": [
+            707,
+            778
+          ],
+          "epsg6677": [
+            -5296.374687292489,
+            -34200.074153934875
+          ],
+          "residual_m": 12.403582146416428
+        },
+        {
+          "name": "Chuo Street / Edo-dori",
+          "pixel": [
+            494,
+            1184
+          ],
+          "epsg6677": [
+            -5462.715752102546,
+            -34544.06082370612
+          ],
+          "residual_m": 3.5211236394364116
+        },
+        {
+          "name": "Showa-dori / Edo-dori",
+          "pixel": [
+            772,
+            1081
+          ],
+          "epsg6677": [
+            -5217.080637092027,
+            -34448.96448885104
+          ],
+          "residual_m": 11.315975460966104
+        }
+      ]
+    },
+    "area_ha": 41.98967122381172,
+    "bounds_wgs84": [
+      139.76927957909675,
+      35.687160199653924,
+      139.77678982873212,
+      35.69619718557399
+    ],
+    "source_scope_id": "secondary_brief",
+    "geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+    "boundary_revision": "2026-10-18-brief-figure5",
+    "authority": "Official Theme B brief p.4 Figure 5 source stroke. Raster reference; geographic registration uncertainty retained.",
+    "basis": "Figure 5 dashed secondary outline",
+    "line_style": "dash",
+    "selection_rule": "The fixed registered Figure 5 outline covers the complete original source footprint; exterior and crossing objects are context only, with no clipping.",
+    "source_outline_role": "Two official study levels overlaid in one common map view. No poster, census boundary or inferred operational outline.",
+    "construction_method": "Source-pixel vertices transformed with the recorded affine matrix; no road snapping, building expansion, straight trimming or branch interpretation.",
+    "date": "2026-10-18",
+    "crs": "EPSG:6677"
+  },
+  "boundaries": {
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "EPSG:6677"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "study_area",
+          "name": {
+            "en": "Kanda–Nihonbashi wider area (approx.)",
+            "zh": "神田—日本桥外围区（概略）",
+            "ja": "神田・日本橋の周辺区域（概略）"
+          },
+          "source": "Theme B official brief, page 4, Figure 5 dashed black outline",
+          "source_pixel_vertices": [
+            [
+              463,
+              192
+            ],
+            [
+              798,
+              203
+            ],
+            [
+              819,
+              281
+            ],
+            [
+              813,
+              333
+            ],
+            [
+              798,
+              454
+            ],
+            [
+              803,
+              579
+            ],
+            [
+              905,
+              848
+            ],
+            [
+              831,
+              878
+            ],
+            [
+              890,
+              1085
+            ],
+            [
+              149,
+              1375
+            ],
+            [
+              90,
+              1290
+            ],
+            [
+              146,
+              1116
+            ],
+            [
+              191,
+              986
+            ],
+            [
+              198,
+              936
+            ],
+            [
+              221,
+              829
+            ],
+            [
+              249,
+              756
+            ],
+            [
+              279,
+              682
+            ],
+            [
+              320,
+              577
+            ],
+            [
+              343,
+              505
+            ],
+            [
+              344,
+              413
+            ],
+            [
+              403,
+              392
+            ],
+            [
+              463,
+              192
+            ]
+          ],
+          "source_raster": "PDF page 4 /Im8",
+          "source_image_size": [
+            917,
+            1495
+          ],
+          "source_original": "01_Course/2026_Briefs/2026_Theme_B_Official_Brief.pdf",
+          "source_url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+          "source_document_year": 2026,
+          "download_date": "2026-10-13",
+          "approximate": true,
+          "boundary_status": "Cartographic source-stroke trace; geographic registration uncertainty retained",
+          "outline_definition": "Stroke center, preserving visible bends; separate traces by source",
+          "registration": {
+            "method": "Least-squares affine; no snapping to census edges",
+            "pixel_origin": "upper-left; x right; y down",
+            "formula": "[E,N] = [pixel_x,pixel_y,1] @ affine_matrix",
+            "affine_matrix": [
+              [
+                0.8387638791007319,
+                0.0051573376769899325
+              ],
+              [
+                0.008216805349101186,
+                -0.8459880729333378
+              ],
+              [
+                -5883.508614679498,
+                -33543.69145658741
+              ]
+            ],
+            "rmse_m": 7.434546907555709,
+            "max_residual_m": 12.403582146416428,
+            "leave_one_out_errors_m": [
+              17.03365541822816,
+              9.854233324057127,
+              5.868724448252816,
+              16.73935647747208,
+              6.6818272968231165,
+              20.17459698242739
+            ],
+            "uncertainty_m": 25,
+            "uncertainty_definition": "Conservative cartographic screening band; includes leave-one-control-out error, source stroke width and manual point reading. Not a statistical confidence interval.",
+            "control_source": "OSM source snapshot 2026-10-13, common foundation roads; average mapped carriageway intersections when divided",
+            "controls": [
+              {
+                "name": "Chuo Street / Yasukuni-dori",
+                "pixel": [
+                  225,
+                  249
+                ],
+                "epsg6677": [
+                  -5690.995051723813,
+                  -33749.83993563471
+                ],
+                "residual_m": 3.770604150938839
+              },
+              {
+                "name": "Showa-dori / Yasukuni-dori",
+                "pixel": [
+                  750,
+                  273
+                ],
+                "epsg6677": [
+                  -5250.270550754818,
+                  -33772.84055002165
+                ],
+                "residual_m": 2.8190876430477854
+              },
+              {
+                "name": "Chuo Street / Kanda Kanamono-dori",
+                "pixel": [
+                  389,
+                  881
+                ],
+                "epsg6677": [
+                  -5548.128027964524,
+                  -34290.42172377812
+                ],
+                "residual_m": 3.895093470165984
+              },
+              {
+                "name": "Showa-dori / Kanda Kanamono-dori",
+                "pixel": [
+                  707,
+                  778
+                ],
+                "epsg6677": [
+                  -5296.374687292489,
+                  -34200.074153934875
+                ],
+                "residual_m": 12.403582146416428
+              },
+              {
+                "name": "Chuo Street / Edo-dori",
+                "pixel": [
+                  494,
+                  1184
+                ],
+                "epsg6677": [
+                  -5462.715752102546,
+                  -34544.06082370612
+                ],
+                "residual_m": 3.5211236394364116
+              },
+              {
+                "name": "Showa-dori / Edo-dori",
+                "pixel": [
+                  772,
+                  1081
+                ],
+                "epsg6677": [
+                  -5217.080637092027,
+                  -34448.96448885104
+                ],
+                "residual_m": 11.315975460966104
+              }
+            ]
+          },
+          "area_ha": 41.98967122381172,
+          "bounds_wgs84": [
+            139.76927957909675,
+            35.687160199653924,
+            139.77678982873212,
+            35.69619718557399
+          ],
+          "source_scope_id": "secondary_brief",
+          "geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+          "boundary_revision": "2026-10-18-brief-figure5",
+          "authority": "Official Theme B brief p.4 Figure 5 source stroke. Raster reference; geographic registration uncertainty retained.",
+          "basis": "Figure 5 dashed secondary outline",
+          "line_style": "dash",
+          "selection_rule": "The fixed registered Figure 5 outline covers the complete original source footprint; exterior and crossing objects are context only, with no clipping.",
+          "source_outline_role": "Two official study levels overlaid in one common map view. No poster, census boundary or inferred operational outline.",
+          "construction_method": "Source-pixel vertices transformed with the recorded affine matrix; no road snapping, building expansion, straight trimming or branch interpretation.",
+          "date": "2026-10-18",
+          "crs": "EPSG:6677"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -5493.583312028832,
+                -33703.73331924617
+              ],
+              [
+                -5212.507027671247,
+                -33711.31147992664
+              ],
+              [
+                -5194.252075392901,
+                -33777.19024552422
+              ],
+              [
+                -5198.857384789353,
+                -33821.21256934282
+              ],
+              [
+                -5210.444609528622,
+                -33923.65448623291
+              ],
+              [
+                -5205.223689464481,
+                -34029.37720866119
+              ],
+              [
+                -5117.459453157298,
+                -34256.421951837205
+              ],
+              [
+                -5179.281476050279,
+                -34282.183237013305
+              ],
+              [
+                -5128.093528476073,
+                -34456.99848518756
+              ],
+              [
+                -5747.234689338475,
+                -34706.15661355688
+              ],
+              [
+                -5797.4201866600915,
+                -34634.55191028049
+              ],
+              [
+                -5751.879133561195,
+                -34487.06117468017
+              ],
+              [
+                -5715.202943697045,
+                -34376.850645003375
+              ],
+              [
+                -5709.742436810795,
+                -34334.51513999297
+              ],
+              [
+                -5691.330065763832,
+                -34243.87579742253
+              ],
+              [
+                -5668.444503939496,
+                -34181.974262643445
+              ],
+              [
+                -5643.8896311623075,
+                -34119.216425116065
+              ],
+              [
+                -5610.363076680833,
+                -34030.17622661331
+              ],
+              [
+                -5591.663117446651,
+                -33969.146466595535
+              ],
+              [
+                -5591.580299659668,
+                -33891.31040654799
+              ],
+              [
+                -5542.265783705056,
+                -33873.24037409345
+              ],
+              [
+                -5493.583312028832,
+                -33703.73331924617
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "primary_brief",
+          "name": {
+            "en": "Kajicho 1 & 2 primary area",
+            "zh": "鍛冶町一、二丁目重点区",
+            "ja": "鍛冶町一・二丁目の重点区域"
+          },
+          "source": "Theme B official brief, page 4, Figure 5 solid black outline",
+          "source_pixel_vertices": [
+            [
+              403,
+              392
+            ],
+            [
+              344,
+              413
+            ],
+            [
+              343,
+              505
+            ],
+            [
+              320,
+              577
+            ],
+            [
+              279,
+              682
+            ],
+            [
+              249,
+              756
+            ],
+            [
+              221,
+              829
+            ],
+            [
+              198,
+              936
+            ],
+            [
+              191,
+              986
+            ],
+            [
+              146,
+              1116
+            ],
+            [
+              590,
+              936
+            ],
+            [
+              403,
+              392
+            ]
+          ],
+          "source_raster": "PDF page 4 /Im8",
+          "source_image_size": [
+            917,
+            1495
+          ],
+          "source_original": "01_Course/2026_Briefs/2026_Theme_B_Official_Brief.pdf",
+          "source_url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+          "source_document_year": 2026,
+          "download_date": "2026-10-13",
+          "approximate": false,
+          "boundary_status": "Cartographic source-stroke trace; geographic registration uncertainty retained",
+          "outline_definition": "Stroke center, preserving visible bends; separate traces by source",
+          "registration": {
+            "method": "Least-squares affine; no snapping to census edges",
+            "pixel_origin": "upper-left; x right; y down",
+            "formula": "[E,N] = [pixel_x,pixel_y,1] @ affine_matrix",
+            "affine_matrix": [
+              [
+                0.8387638791007319,
+                0.0051573376769899325
+              ],
+              [
+                0.008216805349101186,
+                -0.8459880729333378
+              ],
+              [
+                -5883.508614679498,
+                -33543.69145658741
+              ]
+            ],
+            "rmse_m": 7.434546907555709,
+            "max_residual_m": 12.403582146416428,
+            "leave_one_out_errors_m": [
+              17.03365541822816,
+              9.854233324057127,
+              5.868724448252816,
+              16.73935647747208,
+              6.6818272968231165,
+              20.17459698242739
+            ],
+            "uncertainty_m": 25,
+            "uncertainty_definition": "Conservative cartographic screening band; includes leave-one-control-out error, source stroke width and manual point reading. Not a statistical confidence interval.",
+            "control_source": "OSM source snapshot 2026-10-13, common foundation roads; average mapped carriageway intersections when divided",
+            "controls": [
+              {
+                "name": "Chuo Street / Yasukuni-dori",
+                "pixel": [
+                  225,
+                  249
+                ],
+                "epsg6677": [
+                  -5690.995051723813,
+                  -33749.83993563471
+                ],
+                "residual_m": 3.770604150938839
+              },
+              {
+                "name": "Showa-dori / Yasukuni-dori",
+                "pixel": [
+                  750,
+                  273
+                ],
+                "epsg6677": [
+                  -5250.270550754818,
+                  -33772.84055002165
+                ],
+                "residual_m": 2.8190876430477854
+              },
+              {
+                "name": "Chuo Street / Kanda Kanamono-dori",
+                "pixel": [
+                  389,
+                  881
+                ],
+                "epsg6677": [
+                  -5548.128027964524,
+                  -34290.42172377812
+                ],
+                "residual_m": 3.895093470165984
+              },
+              {
+                "name": "Showa-dori / Kanda Kanamono-dori",
+                "pixel": [
+                  707,
+                  778
+                ],
+                "epsg6677": [
+                  -5296.374687292489,
+                  -34200.074153934875
+                ],
+                "residual_m": 12.403582146416428
+              },
+              {
+                "name": "Chuo Street / Edo-dori",
+                "pixel": [
+                  494,
+                  1184
+                ],
+                "epsg6677": [
+                  -5462.715752102546,
+                  -34544.06082370612
+                ],
+                "residual_m": 3.5211236394364116
+              },
+              {
+                "name": "Showa-dori / Edo-dori",
+                "pixel": [
+                  772,
+                  1081
+                ],
+                "epsg6677": [
+                  -5217.080637092027,
+                  -34448.96448885104
+                ],
+                "residual_m": 11.315975460966104
+              }
+            ]
+          },
+          "area_ha": 10.703830447464894,
+          "bounds_wgs84": [
+            139.76978169220754,
+            35.68913503365098,
+            139.7738790292947,
+            35.69466902875228
+          ],
+          "source_scope_id": "primary_brief",
+          "geometry_sha256": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8",
+          "boundary_revision": "2026-10-18-brief-figure5",
+          "authority": "Official Theme B brief p.4 Figure 5 source stroke. Raster reference; geographic registration uncertainty retained.",
+          "basis": "Figure 5 solid primary outline",
+          "line_style": "solid",
+          "selection_rule": "The fixed registered Figure 5 outline covers the complete original source footprint; exterior and crossing objects are context only, with no clipping.",
+          "source_outline_role": "Two official study levels overlaid in one common map view. No poster, census boundary or inferred operational outline.",
+          "construction_method": "Source-pixel vertices transformed with the recorded affine matrix; no road snapping, building expansion, straight trimming or branch interpretation.",
+          "date": "2026-10-18",
+          "crs": "EPSG:6677"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -5542.265783705056,
+                -33873.24037409345
+              ],
+              [
+                -5591.580299659668,
+                -33891.31040654799
+              ],
+              [
+                -5591.663117446651,
+                -33969.146466595535
+              ],
+              [
+                -5610.363076680833,
+                -34030.17622661331
+              ],
+              [
+                -5643.8896311623075,
+                -34119.216425116065
+              ],
+              [
+                -5668.444503939496,
+                -34181.974262643445
+              ],
+              [
+                -5691.330065763832,
+                -34243.87579742253
+              ],
+              [
+                -5709.742436810795,
+                -34334.51513999297
+              ],
+              [
+                -5715.202943697045,
+                -34376.850645003375
+              ],
+              [
+                -5751.879133561195,
+                -34487.06117468017
+              ],
+              [
+                -5380.946996203308,
+                -34332.49346362359
+              ],
+              [
+                -5542.265783705056,
+                -33873.24037409345
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "plates": [
+    {
+      "id": "00_study_area",
+      "kind": "overview",
+      "theme": null,
+      "scope": "study_area",
+      "overlaid_scopes": [
+        "study_area",
+        "primary_brief"
+      ],
+      "primary_boundary_geometry_sha256": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8",
+      "title": {
+        "en": "Study area",
+        "zh": "研究区总图",
+        "ja": "Study area"
+      },
+      "file": "study-atlas/maps/00_study_area.png",
+      "preview": "study-atlas/maps/previews/00_study_area.jpg",
+      "pixels": [
+        2800,
+        2520
+      ],
+      "preview_kind": "map_only",
+      "preview_pixels": [
+        1026,
+        1411
+      ],
+      "extent_6677": [
+        -5887.41942548878,
+        -34796.15658052117,
+        -5027.47299919954,
+        -33613.76601226577
+      ],
+      "boundary_geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+      "legend": [
+        {
+          "label": {
+            "en": "Primary area · brief solid",
+            "zh": "重点区 · 任务书实线",
+            "ja": "重点区域・課題書の実線"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Wider area · brief dashed (approx.)",
+            "zh": "外围区 · 任务书虚线（概略）",
+            "ja": "周辺区域・課題書の破線（概略）"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": true
+        },
+        {
+          "label": {
+            "en": "Building model",
+            "zh": "建筑模型",
+            "ja": "建物モデル"
+          },
+          "color": "#36353a",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Surrounding building",
+            "zh": "周边建筑",
+            "ja": "周辺建物"
+          },
+          "color": "#dcdad3",
+          "kind": "fill",
+          "dash": false
+        }
+      ],
+      "reading_note": {
+        "en": "Only complete footprints covered by the fixed outline enter building analysis. Exterior and crossing models stay grey.",
+        "zh": "建筑分析仅纳入边界完整覆盖的原始轮廓；外部和跨界模型统一显示为浅灰。",
+        "ja": "Only complete footprints covered by the fixed outline enter building analysis. Exterior and crossing models stay grey."
+      },
+      "text_sizes": {
+        "export_legend_pt": 17,
+        "export_map_labels_pt": 18,
+        "web_legend_css_px": 17
+      },
+      "metrics": {
+        "area_ha": 41.98967122381172,
+        "building_models": 1074
+      }
+    },
+    {
+      "id": "01_figure_ground",
+      "kind": "theme",
+      "theme": "01_figure_ground",
+      "scope": "study_area",
+      "overlaid_scopes": [
+        "study_area",
+        "primary_brief"
+      ],
+      "primary_boundary_geometry_sha256": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8",
+      "title": {
+        "en": "Building footprints",
+        "zh": "建筑与开放空间",
+        "ja": "Building footprints"
+      },
+      "file": "study-atlas/maps/01_figure_ground.png",
+      "preview": "study-atlas/maps/previews/01_figure_ground.jpg",
+      "pixels": [
+        2800,
+        2520
+      ],
+      "preview_kind": "map_only",
+      "preview_pixels": [
+        1026,
+        1411
+      ],
+      "extent_6677": [
+        -5887.41942548878,
+        -34796.15658052117,
+        -5027.47299919954,
+        -33613.76601226577
+      ],
+      "boundary_geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+      "legend": [
+        {
+          "label": {
+            "en": "Primary area · brief solid",
+            "zh": "重点区 · 任务书实线",
+            "ja": "重点区域・課題書の実線"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Wider area · brief dashed (approx.)",
+            "zh": "外围区 · 任务书虚线（概略）",
+            "ja": "周辺区域・課題書の破線（概略）"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": true
+        },
+        {
+          "label": {
+            "en": "Building model",
+            "zh": "建筑模型",
+            "ja": "建物モデル"
+          },
+          "color": "#36353a",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Surrounding building",
+            "zh": "周边建筑",
+            "ja": "周辺建物"
+          },
+          "color": "#dcdad3",
+          "kind": "fill",
+          "dash": false
+        }
+      ],
+      "reading_note": {
+        "en": "Only complete footprints covered by the fixed outline enter building analysis. Exterior and crossing models stay grey.",
+        "zh": "建筑分析仅纳入边界完整覆盖的原始轮廓；外部和跨界模型统一显示为浅灰。",
+        "ja": "Only complete footprints covered by the fixed outline enter building analysis. Exterior and crossing models stay grey."
+      },
+      "text_sizes": {
+        "export_legend_pt": 17,
+        "export_map_labels_pt": 18,
+        "web_legend_css_px": 17
+      },
+      "metrics": {
+        "area_ha": 41.98967122381172,
+        "building_models": 1074
+      }
+    },
+    {
+      "id": "02_connections",
+      "kind": "theme",
+      "theme": "02_connections",
+      "scope": "study_area",
+      "overlaid_scopes": [
+        "study_area",
+        "primary_brief"
+      ],
+      "primary_boundary_geometry_sha256": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8",
+      "title": {
+        "en": "Streets and rail",
+        "zh": "道路与铁路",
+        "ja": "Streets and rail"
+      },
+      "file": "study-atlas/maps/02_connections.png",
+      "preview": "study-atlas/maps/previews/02_connections.jpg",
+      "pixels": [
+        2800,
+        2520
+      ],
+      "preview_kind": "map_only",
+      "preview_pixels": [
+        1026,
+        1411
+      ],
+      "extent_6677": [
+        -5887.41942548878,
+        -34796.15658052117,
+        -5027.47299919954,
+        -33613.76601226577
+      ],
+      "boundary_geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+      "legend": [
+        {
+          "label": {
+            "en": "Primary area · brief solid",
+            "zh": "重点区 · 任务书实线",
+            "ja": "重点区域・課題書の実線"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Wider area · brief dashed (approx.)",
+            "zh": "外围区 · 任务书虚线（概略）",
+            "ja": "周辺区域・課題書の破線（概略）"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": true
+        },
+        {
+          "label": {
+            "en": "Main road",
+            "zh": "主要道路",
+            "ja": "主要道路"
+          },
+          "color": "#ad6659",
+          "kind": "line",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Local road",
+            "zh": "地区道路",
+            "ja": "地区道路"
+          },
+          "color": "#c39f4e",
+          "kind": "line",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Pedestrian path",
+            "zh": "步行通道",
+            "ja": "歩行者通路"
+          },
+          "color": "#54877d",
+          "kind": "line",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Context buildings",
+            "zh": "背景建筑",
+            "ja": "背景建物"
+          },
+          "color": "#dcdad3",
+          "kind": "fill",
+          "dash": false
+        }
+      ],
+      "reading_note": {
+        "en": "Road lengths describe mapped source lines, including separate carriageways.",
+        "zh": "道路长度统计源线，分隔车道分别保留。",
+        "ja": "Road lengths describe mapped source lines, including separate carriageways."
+      },
+      "text_sizes": {
+        "export_legend_pt": 17,
+        "export_map_labels_pt": 18,
+        "web_legend_css_px": 17
+      },
+      "metrics": {
+        "area_ha": 41.98967122381172,
+        "building_models": 1074
+      }
+    },
+    {
+      "id": "03_building_use",
+      "kind": "theme",
+      "theme": "03_building_use",
+      "scope": "study_area",
+      "overlaid_scopes": [
+        "study_area",
+        "primary_brief"
+      ],
+      "primary_boundary_geometry_sha256": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8",
+      "title": {
+        "en": "Building use",
+        "zh": "建筑用途",
+        "ja": "Building use"
+      },
+      "file": "study-atlas/maps/03_building_use.png",
+      "preview": "study-atlas/maps/previews/03_building_use.jpg",
+      "pixels": [
+        2800,
+        2520
+      ],
+      "preview_kind": "map_only",
+      "preview_pixels": [
+        1026,
+        1411
+      ],
+      "extent_6677": [
+        -5887.41942548878,
+        -34796.15658052117,
+        -5027.47299919954,
+        -33613.76601226577
+      ],
+      "boundary_geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+      "legend": [
+        {
+          "label": {
+            "en": "Primary area · brief solid",
+            "zh": "重点区 · 任务书实线",
+            "ja": "重点区域・課題書の実線"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Wider area · brief dashed (approx.)",
+            "zh": "外围区 · 任务书虚线（概略）",
+            "ja": "周辺区域・課題書の破線（概略）"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": true
+        },
+        {
+          "label": {
+            "en": "Office",
+            "zh": "Office",
+            "ja": "Office"
+          },
+          "color": "#be1e32",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Retail",
+            "zh": "Retail",
+            "ja": "Retail"
+          },
+          "color": "#785028",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Hotel",
+            "zh": "Hotel",
+            "ja": "Hotel"
+          },
+          "color": "#f08cbe",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "House",
+            "zh": "House",
+            "ja": "House"
+          },
+          "color": "#f0f0a0",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Apartments",
+            "zh": "Apartments",
+            "ja": "Apartments"
+          },
+          "color": "#faaaa0",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Shop + house",
+            "zh": "Shop + house",
+            "ja": "Shop + house"
+          },
+          "color": "#f5f05a",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Workshop + house",
+            "zh": "Workshop + house",
+            "ja": "Workshop + house"
+          },
+          "color": "#b48cbe",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Government",
+            "zh": "Government",
+            "ja": "Government"
+          },
+          "color": "#0a78be",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Education / welfare",
+            "zh": "Education / welfare",
+            "ja": "Education / welfare"
+          },
+          "color": "#faa032",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Transport / storage",
+            "zh": "Transport / storage",
+            "ja": "Transport / storage"
+          },
+          "color": "#283c8c",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Utilities",
+            "zh": "Utilities",
+            "ja": "Utilities"
+          },
+          "color": "#505050",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Other",
+            "zh": "Other",
+            "ja": "Other"
+          },
+          "color": "#828282",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Unknown",
+            "zh": "Unknown",
+            "ja": "Unknown"
+          },
+          "color": "#bebebe",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Context buildings",
+            "zh": "背景建筑",
+            "ja": "背景建物"
+          },
+          "color": "#dcdad3",
+          "kind": "fill",
+          "dash": false
+        }
+      ],
+      "reading_note": {
+        "en": "Use classes come from source building attributes. Unknown uses remain visible.",
+        "zh": "用途来自模型源属性，未知用途单列。",
+        "ja": "Use classes come from source building attributes. Unknown uses remain visible."
+      },
+      "text_sizes": {
+        "export_legend_pt": 17,
+        "export_map_labels_pt": 18,
+        "web_legend_css_px": 17
+      },
+      "metrics": {
+        "area_ha": 41.98967122381172,
+        "building_models": 1074
+      }
+    },
+    {
+      "id": "04_building_height",
+      "kind": "theme",
+      "theme": "04_building_height",
+      "scope": "study_area",
+      "overlaid_scopes": [
+        "study_area",
+        "primary_brief"
+      ],
+      "primary_boundary_geometry_sha256": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8",
+      "title": {
+        "en": "Building height",
+        "zh": "建筑高度",
+        "ja": "Building height"
+      },
+      "file": "study-atlas/maps/04_building_height.png",
+      "preview": "study-atlas/maps/previews/04_building_height.jpg",
+      "pixels": [
+        2800,
+        2520
+      ],
+      "preview_kind": "map_only",
+      "preview_pixels": [
+        1026,
+        1411
+      ],
+      "extent_6677": [
+        -5887.41942548878,
+        -34796.15658052117,
+        -5027.47299919954,
+        -33613.76601226577
+      ],
+      "boundary_geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+      "legend": [
+        {
+          "label": {
+            "en": "Primary area · brief solid",
+            "zh": "重点区 · 任务书实线",
+            "ja": "重点区域・課題書の実線"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Wider area · brief dashed (approx.)",
+            "zh": "外围区 · 任务书虚线（概略）",
+            "ja": "周辺区域・課題書の破線（概略）"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": true
+        },
+        {
+          "label": {
+            "en": "<10 m",
+            "zh": "<10 m",
+            "ja": "<10 m"
+          },
+          "color": "#dedbd3",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "10–20 m",
+            "zh": "10–20 m",
+            "ja": "10–20 m"
+          },
+          "color": "#b8cac5",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "20–30 m",
+            "zh": "20–30 m",
+            "ja": "20–30 m"
+          },
+          "color": "#82aaa1",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "30–45 m",
+            "zh": "30–45 m",
+            "ja": "30–45 m"
+          },
+          "color": "#508179",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "≥45 m",
+            "zh": "≥45 m",
+            "ja": "≥45 m"
+          },
+          "color": "#355c59",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Proxy / unavailable",
+            "zh": "Proxy / unavailable",
+            "ja": "Proxy / unavailable"
+          },
+          "color": "#e3ded3",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Context buildings",
+            "zh": "背景建筑",
+            "ja": "背景建物"
+          },
+          "color": "#dcdad3",
+          "kind": "fill",
+          "dash": false
+        }
+      ],
+      "reading_note": {
+        "en": "Measured-height source values and proxy heights remain separate.",
+        "zh": "源高度与代理高度分列。",
+        "ja": "Measured-height source values and proxy heights remain separate."
+      },
+      "text_sizes": {
+        "export_legend_pt": 17,
+        "export_map_labels_pt": 18,
+        "web_legend_css_px": 17
+      },
+      "metrics": {
+        "area_ha": 41.98967122381172,
+        "building_models": 1074
+      }
+    },
+    {
+      "id": "05_land_use",
+      "kind": "theme",
+      "theme": "05_land_use",
+      "scope": "study_area",
+      "overlaid_scopes": [
+        "study_area",
+        "primary_brief"
+      ],
+      "primary_boundary_geometry_sha256": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8",
+      "title": {
+        "en": "Observed land use",
+        "zh": "现状土地利用",
+        "ja": "Observed land use"
+      },
+      "file": "study-atlas/maps/05_land_use.png",
+      "preview": "study-atlas/maps/previews/05_land_use.jpg",
+      "pixels": [
+        2800,
+        2520
+      ],
+      "preview_kind": "map_only",
+      "preview_pixels": [
+        1026,
+        1411
+      ],
+      "extent_6677": [
+        -5887.41942548878,
+        -34796.15658052117,
+        -5027.47299919954,
+        -33613.76601226577
+      ],
+      "boundary_geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+      "legend": [
+        {
+          "label": {
+            "en": "Primary area · brief solid",
+            "zh": "重点区 · 任务书实线",
+            "ja": "重点区域・課題書の実線"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Wider area · brief dashed (approx.)",
+            "zh": "外围区 · 任务书虚线（概略）",
+            "ja": "周辺区域・課題書の破線（概略）"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": true
+        },
+        {
+          "label": {
+            "en": "Housing / mixed",
+            "zh": "Housing / mixed",
+            "ja": "Housing / mixed"
+          },
+          "color": "#ffff00",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Commercial",
+            "zh": "Commercial",
+            "ja": "Commercial"
+          },
+          "color": "#e65050",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Public facilities",
+            "zh": "Public facilities",
+            "ja": "Public facilities"
+          },
+          "color": "#c800dc",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Road",
+            "zh": "Road",
+            "ja": "Road"
+          },
+          "color": "#ffffff",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Rail / logistics",
+            "zh": "Rail / logistics",
+            "ja": "Rail / logistics"
+          },
+          "color": "#8c8c8c",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Park / open space",
+            "zh": "Park / open space",
+            "ja": "Park / open space"
+          },
+          "color": "#c8ffc8",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Water",
+            "zh": "Water",
+            "ja": "Water"
+          },
+          "color": "#78dcff",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Outdoor parking",
+            "zh": "Outdoor parking",
+            "ja": "Outdoor parking"
+          },
+          "color": "#e1d7c6",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Other outdoor use",
+            "zh": "Other outdoor use",
+            "ja": "Other outdoor use"
+          },
+          "color": "#ddd7c9",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Unused land",
+            "zh": "Unused land",
+            "ja": "Unused land"
+          },
+          "color": "#eee6d3",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Context buildings",
+            "zh": "背景建筑",
+            "ja": "背景建物"
+          },
+          "color": "#dcdad3",
+          "kind": "fill",
+          "dash": false
+        }
+      ],
+      "reading_note": {
+        "en": "Observed land use uses the survey classification, separate from legal planning zones.",
+        "zh": "现状土地利用与法定用途地域分别读取。",
+        "ja": "Observed land use uses the survey classification, separate from legal planning zones."
+      },
+      "text_sizes": {
+        "export_legend_pt": 17,
+        "export_map_labels_pt": 18,
+        "web_legend_css_px": 17
+      },
+      "metrics": {
+        "area_ha": 41.98967122381172,
+        "building_models": 1074
+      }
+    },
+    {
+      "id": "06_planning_zones",
+      "kind": "theme",
+      "theme": "06_planning_zones",
+      "scope": "study_area",
+      "overlaid_scopes": [
+        "study_area",
+        "primary_brief"
+      ],
+      "primary_boundary_geometry_sha256": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8",
+      "title": {
+        "en": "Planning zones",
+        "zh": "规划用途地域",
+        "ja": "Planning zones"
+      },
+      "file": "study-atlas/maps/06_planning_zones.png",
+      "preview": "study-atlas/maps/previews/06_planning_zones.jpg",
+      "pixels": [
+        2800,
+        2520
+      ],
+      "preview_kind": "map_only",
+      "preview_pixels": [
+        1026,
+        1411
+      ],
+      "extent_6677": [
+        -5887.41942548878,
+        -34796.15658052117,
+        -5027.47299919954,
+        -33613.76601226577
+      ],
+      "boundary_geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+      "legend": [
+        {
+          "label": {
+            "en": "Primary area · brief solid",
+            "zh": "重点区 · 任务书实线",
+            "ja": "重点区域・課題書の実線"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Wider area · brief dashed (approx.)",
+            "zh": "外围区 · 任务书虚线（概略）",
+            "ja": "周辺区域・課題書の破線（概略）"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": true
+        },
+        {
+          "label": {
+            "en": "FAR reference 600%",
+            "zh": "FAR reference 600%",
+            "ja": "FAR reference 600%"
+          },
+          "color": "#e3d9eb",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "FAR reference 700%",
+            "zh": "FAR reference 700%",
+            "ja": "FAR reference 700%"
+          },
+          "color": "#cb90c5",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "FAR reference 800%",
+            "zh": "FAR reference 800%",
+            "ja": "FAR reference 800%"
+          },
+          "color": "#e62d8d",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "FAR reference 900%",
+            "zh": "FAR reference 900%",
+            "ja": "FAR reference 900%"
+          },
+          "color": "#a20347",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Context buildings",
+            "zh": "背景建筑",
+            "ja": "背景建物"
+          },
+          "color": "#dcdad3",
+          "kind": "fill",
+          "dash": false
+        }
+      ],
+      "reading_note": {
+        "en": "Reference FAR is a planning layer; parcel controls require site-specific checks.",
+        "zh": "图层为规划参考容积率，地块条件须逐宗核查。",
+        "ja": "Reference FAR is a planning layer; parcel controls require site-specific checks."
+      },
+      "text_sizes": {
+        "export_legend_pt": 17,
+        "export_map_labels_pt": 18,
+        "web_legend_css_px": 17
+      },
+      "metrics": {
+        "area_ha": 41.98967122381172,
+        "building_models": 1074
+      }
+    },
+    {
+      "id": "07_green_water",
+      "kind": "theme",
+      "theme": "07_green_water",
+      "scope": "study_area",
+      "overlaid_scopes": [
+        "study_area",
+        "primary_brief"
+      ],
+      "primary_boundary_geometry_sha256": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8",
+      "title": {
+        "en": "Green and water",
+        "zh": "绿化与水系",
+        "ja": "Green and water"
+      },
+      "file": "study-atlas/maps/07_green_water.png",
+      "preview": "study-atlas/maps/previews/07_green_water.jpg",
+      "pixels": [
+        2800,
+        2520
+      ],
+      "preview_kind": "map_only",
+      "preview_pixels": [
+        1026,
+        1411
+      ],
+      "extent_6677": [
+        -5887.41942548878,
+        -34796.15658052117,
+        -5027.47299919954,
+        -33613.76601226577
+      ],
+      "boundary_geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+      "legend": [
+        {
+          "label": {
+            "en": "Primary area · brief solid",
+            "zh": "重点区 · 任务书实线",
+            "ja": "重点区域・課題書の実線"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Wider area · brief dashed (approx.)",
+            "zh": "外围区 · 任务书虚线（概略）",
+            "ja": "周辺区域・課題書の破線（概略）"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": true
+        },
+        {
+          "label": {
+            "en": "Park inventory",
+            "zh": "公园记录",
+            "ja": "公園記録"
+          },
+          "color": "#8eac8e",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Tree-route record",
+            "zh": "行道树路线记录",
+            "ja": "街路樹路線の記録"
+          },
+          "color": "#568f73",
+          "kind": "line",
+          "dash": true
+        },
+        {
+          "label": {
+            "en": "Tree point record",
+            "zh": "单株树记录",
+            "ja": "単木の記録"
+          },
+          "color": "#446a55",
+          "kind": "point",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Water",
+            "zh": "水系",
+            "ja": "水域"
+          },
+          "color": "#a8c8d1",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Context buildings",
+            "zh": "背景建筑",
+            "ja": "背景建物"
+          },
+          "color": "#dcdad3",
+          "kind": "fill",
+          "dash": false
+        }
+      ],
+      "reading_note": {
+        "en": "Point, route and park records have different units and coverage.",
+        "zh": "单株、路线和公园记录采用不同单位与覆盖范围。",
+        "ja": "Point, route and park records have different units and coverage."
+      },
+      "text_sizes": {
+        "export_legend_pt": 17,
+        "export_map_labels_pt": 18,
+        "web_legend_css_px": 17
+      },
+      "metrics": {
+        "area_ha": 41.98967122381172,
+        "building_models": 1074
+      }
+    },
+    {
+      "id": "08_flood",
+      "kind": "theme",
+      "theme": "08_flood",
+      "scope": "study_area",
+      "overlaid_scopes": [
+        "study_area",
+        "primary_brief"
+      ],
+      "primary_boundary_geometry_sha256": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8",
+      "title": {
+        "en": "Flood source overlap",
+        "zh": "洪水源图层叠加",
+        "ja": "Flood source overlap"
+      },
+      "file": "study-atlas/maps/08_flood.png",
+      "preview": "study-atlas/maps/previews/08_flood.jpg",
+      "pixels": [
+        2800,
+        2520
+      ],
+      "preview_kind": "map_only",
+      "preview_pixels": [
+        1026,
+        1411
+      ],
+      "extent_6677": [
+        -5887.41942548878,
+        -34796.15658052117,
+        -5027.47299919954,
+        -33613.76601226577
+      ],
+      "boundary_geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+      "legend": [
+        {
+          "label": {
+            "en": "Primary area · brief solid",
+            "zh": "重点区 · 任务书实线",
+            "ja": "重点区域・課題書の実線"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Wider area · brief dashed (approx.)",
+            "zh": "外围区 · 任务书虚线（概略）",
+            "ja": "周辺区域・課題書の破線（概略）"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": true
+        },
+        {
+          "label": {
+            "en": "Kanda 2018 L2 overlap",
+            "zh": "神田川 2018 L2 相交范围",
+            "ja": "神田川2018 L2の重なり"
+          },
+          "color": "#73a7bf",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "No recorded overlap",
+            "zh": "无相交记录",
+            "ja": "記録上の重なりなし"
+          },
+          "color": "#eeece5",
+          "kind": "fill",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Context buildings",
+            "zh": "背景建筑",
+            "ja": "背景建物"
+          },
+          "color": "#dcdad3",
+          "kind": "fill",
+          "dash": false
+        }
+      ],
+      "reading_note": {
+        "en": "No recorded flood-polygon overlap does not establish safety.",
+        "zh": "无洪水源面相交记录不代表安全。",
+        "ja": "No recorded flood-polygon overlap does not establish safety."
+      },
+      "text_sizes": {
+        "export_legend_pt": 17,
+        "export_map_labels_pt": 18,
+        "web_legend_css_px": 17
+      },
+      "metrics": {
+        "area_ha": 41.98967122381172,
+        "building_models": 1074
+      }
+    },
+    {
+      "id": "09_poi",
+      "kind": "theme",
+      "theme": "09_poi",
+      "scope": "study_area",
+      "overlaid_scopes": [
+        "study_area",
+        "primary_brief"
+      ],
+      "primary_boundary_geometry_sha256": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8",
+      "title": {
+        "en": "POI functions",
+        "zh": "POI 功能",
+        "ja": "POI functions"
+      },
+      "file": "study-atlas/maps/09_poi.png",
+      "preview": "study-atlas/maps/previews/09_poi.jpg",
+      "pixels": [
+        2800,
+        2520
+      ],
+      "preview_kind": "map_only",
+      "preview_pixels": [
+        1026,
+        1411
+      ],
+      "extent_6677": [
+        -5887.41942548878,
+        -34796.15658052117,
+        -5027.47299919954,
+        -33613.76601226577
+      ],
+      "boundary_geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+      "legend": [
+        {
+          "label": {
+            "en": "Primary area · brief solid",
+            "zh": "重点区 · 任务书实线",
+            "ja": "重点区域・課題書の実線"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Wider area · brief dashed (approx.)",
+            "zh": "外围区 · 任务书虚线（概略）",
+            "ja": "周辺区域・課題書の破線（概略）"
+          },
+          "color": "#36353a",
+          "kind": "line",
+          "dash": true
+        },
+        {
+          "label": {
+            "en": "Food & drink",
+            "zh": "餐饮",
+            "ja": "Food & drink"
+          },
+          "color": "#c66b43",
+          "kind": "point",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Shops & daily needs",
+            "zh": "零售与日常采购",
+            "ja": "Shops & daily needs"
+          },
+          "color": "#bc9a34",
+          "kind": "point",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Work & services",
+            "zh": "办公与服务",
+            "ja": "Work & services"
+          },
+          "color": "#6965a7",
+          "kind": "point",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Health",
+            "zh": "健康医疗",
+            "ja": "Health"
+          },
+          "color": "#b86485",
+          "kind": "point",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Hotels & stays",
+            "zh": "旅宿",
+            "ja": "Hotels & stays"
+          },
+          "color": "#8c6a50",
+          "kind": "point",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Civic & learning",
+            "zh": "公共服务与教育",
+            "ja": "Civic & learning"
+          },
+          "color": "#4c8c91",
+          "kind": "point",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Culture & leisure",
+            "zh": "文化与休闲",
+            "ja": "Culture & leisure"
+          },
+          "color": "#638c60",
+          "kind": "point",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Mobility services",
+            "zh": "交通与出行服务",
+            "ja": "Mobility services"
+          },
+          "color": "#4c7195",
+          "kind": "point",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Other named places",
+            "zh": "其他有名场所",
+            "ja": "Other named places"
+          },
+          "color": "#858078",
+          "kind": "point",
+          "dash": false
+        },
+        {
+          "label": {
+            "en": "Context buildings",
+            "zh": "背景建筑",
+            "ja": "背景建物"
+          },
+          "color": "#dcdad3",
+          "kind": "fill",
+          "dash": false
+        }
+      ],
+      "reading_note": {
+        "en": "OSM function tags describe mapped destinations. Counts and local mixes reflect source coverage.",
+        "zh": "OSM 功能标签描述已记录目的地；数量与局部功能构成受来源覆盖影响。",
+        "ja": "OSM function tags describe mapped destinations. Counts and local mixes reflect source coverage."
+      },
+      "text_sizes": {
+        "export_legend_pt": 17,
+        "export_map_labels_pt": 18,
+        "web_legend_css_px": 17
+      },
+      "metrics": {
+        "area_ha": 41.98967122381172,
+        "building_models": 1074
+      }
+    }
+  ],
+  "scopes": {
+    "study_area": {
+      "name": {
+        "en": "Kanda–Nihonbashi wider area (approx.)",
+        "zh": "神田—日本桥外围区（概略）",
+        "ja": "神田・日本橋の周辺区域（概略）"
+      },
+      "area_m2": 419896.7122381172,
+      "area_ha": 41.98967122381172,
+      "selected_models": 1074,
+      "positive_overlap_models": 1074,
+      "boundary_crossing_selected_models": 0,
+      "gross_footprint_union_m2": 153194.4868346335,
+      "gross_footprint_coverage_pct": 36.48385004447456,
+      "models_per_ha": 25.577718726955656,
+      "known_use_models": 993,
+      "unknown_use_models": 81,
+      "source_height_models": 1044,
+      "height_proxy_models": 30,
+      "source_height_median_m": 17.2,
+      "full_selected_model_floor_proxy_m2": 1144554.5387723676,
+      "land_use_covered_m2": 419896.71223811683,
+      "land_use_coverage_pct": 99.99999999999993,
+      "land_use_unmapped_m2": 0.0,
+      "land_use_between_class_overlap_m2": -1.1641532182693481e-10,
+      "road_mapped_length_m": 33182.4227426048,
+      "tree_point_records": 125,
+      "tree_route_intersections": 17,
+      "park_inventory_union_m2": 2828.15521557977,
+      "flood": [
+        {
+          "scope": "study_area",
+          "scenario": "荒川水系神田川流域（想定最大規模）",
+          "source_date": "2024-02-15",
+          "recorded_overlap_m2": 18923.558917108243,
+          "scope_overlap_pct": 4.506717572576985,
+          "exposed_selected_models": 25,
+          "source_domain_note": "Available source polygons; no recorded overlap is not zero risk."
+        },
+        {
+          "scope": "study_area",
+          "scenario": "荒川水系神田川流域（計画規模）",
+          "source_date": "2024-02-15",
+          "recorded_overlap_m2": 0.0,
+          "scope_overlap_pct": 0.0,
+          "exposed_selected_models": 0,
+          "source_domain_note": "Available source polygons; no recorded overlap is not zero risk."
+        },
+        {
+          "scope": "study_area",
+          "scenario": "神田川流域（想定最大規模）",
+          "source_date": "2018-03-30",
+          "recorded_overlap_m2": 209320.45941985064,
+          "scope_overlap_pct": 49.8504640115277,
+          "exposed_selected_models": 675,
+          "source_domain_note": "Available source polygons; no recorded overlap is not zero risk."
+        },
+        {
+          "scope": "study_area",
+          "scenario": "隅田川・新河岸川流域（想定最大規模）",
+          "source_date": "2021-03-30",
+          "recorded_overlap_m2": 0.0,
+          "scope_overlap_pct": 0.0,
+          "exposed_selected_models": 0,
+          "source_domain_note": "Available source polygons; no recorded overlap is not zero risk."
+        }
+      ],
+      "boundary_uncertainty_m": 25.0,
+      "model_membership_sensitivity": {
+        "eroded_count": 967,
+        "traced_count": 1074,
+        "buffered_count": 1211,
+        "rule": "Complete footprint covered by boundary eroded/buffered by registration and stroke uncertainty; sensitivity, not a confidence interval."
+      },
+      "selection_rule": "Complete original source building footprint covered by the fixed outline; exterior and crossing objects are excluded from all building analysis.",
+      "source_outline": {
+        "id": "study_area",
+        "name": {
+          "en": "Kanda–Nihonbashi wider area (approx.)",
+          "zh": "神田—日本桥外围区（概略）",
+          "ja": "神田・日本橋の周辺区域（概略）"
+        },
+        "source": "Theme B official brief, page 4, Figure 5 dashed black outline",
+        "source_pixel_vertices": [
+          [
+            463,
+            192
+          ],
+          [
+            798,
+            203
+          ],
+          [
+            819,
+            281
+          ],
+          [
+            813,
+            333
+          ],
+          [
+            798,
+            454
+          ],
+          [
+            803,
+            579
+          ],
+          [
+            905,
+            848
+          ],
+          [
+            831,
+            878
+          ],
+          [
+            890,
+            1085
+          ],
+          [
+            149,
+            1375
+          ],
+          [
+            90,
+            1290
+          ],
+          [
+            146,
+            1116
+          ],
+          [
+            191,
+            986
+          ],
+          [
+            198,
+            936
+          ],
+          [
+            221,
+            829
+          ],
+          [
+            249,
+            756
+          ],
+          [
+            279,
+            682
+          ],
+          [
+            320,
+            577
+          ],
+          [
+            343,
+            505
+          ],
+          [
+            344,
+            413
+          ],
+          [
+            403,
+            392
+          ],
+          [
+            463,
+            192
+          ]
+        ],
+        "source_raster": "PDF page 4 /Im8",
+        "source_image_size": [
+          917,
+          1495
+        ],
+        "source_original": "01_Course/2026_Briefs/2026_Theme_B_Official_Brief.pdf",
+        "source_url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+        "source_document_year": 2026,
+        "download_date": "2026-10-13",
+        "approximate": true,
+        "boundary_status": "Cartographic source-stroke trace; geographic registration uncertainty retained",
+        "outline_definition": "Stroke center, preserving visible bends; separate traces by source",
+        "registration": {
+          "method": "Least-squares affine; no snapping to census edges",
+          "pixel_origin": "upper-left; x right; y down",
+          "formula": "[E,N] = [pixel_x,pixel_y,1] @ affine_matrix",
+          "affine_matrix": [
+            [
+              0.8387638791007319,
+              0.0051573376769899325
+            ],
+            [
+              0.008216805349101186,
+              -0.8459880729333378
+            ],
+            [
+              -5883.508614679498,
+              -33543.69145658741
+            ]
+          ],
+          "rmse_m": 7.434546907555709,
+          "max_residual_m": 12.403582146416428,
+          "leave_one_out_errors_m": [
+            17.03365541822816,
+            9.854233324057127,
+            5.868724448252816,
+            16.73935647747208,
+            6.6818272968231165,
+            20.17459698242739
+          ],
+          "uncertainty_m": 25,
+          "uncertainty_definition": "Conservative cartographic screening band; includes leave-one-control-out error, source stroke width and manual point reading. Not a statistical confidence interval.",
+          "control_source": "OSM source snapshot 2026-10-13, common foundation roads; average mapped carriageway intersections when divided",
+          "controls": [
+            {
+              "name": "Chuo Street / Yasukuni-dori",
+              "pixel": [
+                225,
+                249
+              ],
+              "epsg6677": [
+                -5690.995051723813,
+                -33749.83993563471
+              ],
+              "residual_m": 3.770604150938839
+            },
+            {
+              "name": "Showa-dori / Yasukuni-dori",
+              "pixel": [
+                750,
+                273
+              ],
+              "epsg6677": [
+                -5250.270550754818,
+                -33772.84055002165
+              ],
+              "residual_m": 2.8190876430477854
+            },
+            {
+              "name": "Chuo Street / Kanda Kanamono-dori",
+              "pixel": [
+                389,
+                881
+              ],
+              "epsg6677": [
+                -5548.128027964524,
+                -34290.42172377812
+              ],
+              "residual_m": 3.895093470165984
+            },
+            {
+              "name": "Showa-dori / Kanda Kanamono-dori",
+              "pixel": [
+                707,
+                778
+              ],
+              "epsg6677": [
+                -5296.374687292489,
+                -34200.074153934875
+              ],
+              "residual_m": 12.403582146416428
+            },
+            {
+              "name": "Chuo Street / Edo-dori",
+              "pixel": [
+                494,
+                1184
+              ],
+              "epsg6677": [
+                -5462.715752102546,
+                -34544.06082370612
+              ],
+              "residual_m": 3.5211236394364116
+            },
+            {
+              "name": "Showa-dori / Edo-dori",
+              "pixel": [
+                772,
+                1081
+              ],
+              "epsg6677": [
+                -5217.080637092027,
+                -34448.96448885104
+              ],
+              "residual_m": 11.315975460966104
+            }
+          ]
+        },
+        "area_ha": 41.98967122381172,
+        "bounds_wgs84": [
+          139.76927957909675,
+          35.687160199653924,
+          139.77678982873212,
+          35.69619718557399
+        ],
+        "source_scope_id": "secondary_brief",
+        "geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+        "boundary_revision": "2026-10-18-brief-figure5",
+        "authority": "Official Theme B brief p.4 Figure 5 source stroke. Raster reference; geographic registration uncertainty retained.",
+        "basis": "Figure 5 dashed secondary outline",
+        "line_style": "dash",
+        "selection_rule": "The fixed registered Figure 5 outline covers the complete original source footprint; exterior and crossing objects are context only, with no clipping.",
+        "source_outline_role": "Two official study levels overlaid in one common map view. No poster, census boundary or inferred operational outline.",
+        "construction_method": "Source-pixel vertices transformed with the recorded affine matrix; no road snapping, building expansion, straight trimming or branch interpretation.",
+        "date": "2026-10-18",
+        "crs": "EPSG:6677"
+      },
+      "boundary_geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+      "boundary_revision": "2026-10-18-brief-figure5",
+      "selected_ward_models": {
+        "13101": 764,
+        "13102": 310
+      },
+      "raw_boundary_crossing_models": 22,
+      "raw_boundary_crossing_osm": 24,
+      "selected_osm_context_footprints": 1029
+    },
+    "primary_brief": {
+      "name": {
+        "en": "Kajicho 1 & 2 primary area",
+        "zh": "鍛冶町一、二丁目重点区",
+        "ja": "鍛冶町一・二丁目の重点区域"
+      },
+      "area_m2": 107038.30447464893,
+      "area_ha": 10.703830447464894,
+      "selected_models": 277,
+      "positive_overlap_models": 277,
+      "boundary_crossing_selected_models": 0,
+      "gross_footprint_union_m2": 37031.60122431046,
+      "gross_footprint_coverage_pct": 34.59658802151623,
+      "models_per_ha": 25.87858630230872,
+      "known_use_models": 250,
+      "unknown_use_models": 27,
+      "source_height_models": 261,
+      "height_proxy_models": 16,
+      "source_height_median_m": 16.2,
+      "full_selected_model_floor_proxy_m2": 229755.67182867168,
+      "land_use_covered_m2": 107038.30447464909,
+      "land_use_coverage_pct": 100.00000000000016,
+      "land_use_unmapped_m2": 0.0,
+      "land_use_between_class_overlap_m2": -1.4551915228366852e-11,
+      "road_mapped_length_m": 8402.468737921175,
+      "tree_point_records": 0,
+      "tree_route_intersections": 8,
+      "park_inventory_union_m2": 0.0,
+      "flood": [
+        {
+          "scope": "primary_brief",
+          "scenario": "荒川水系神田川流域（想定最大規模）",
+          "source_date": "2024-02-15",
+          "recorded_overlap_m2": 0.0,
+          "scope_overlap_pct": 0.0,
+          "exposed_selected_models": 0,
+          "source_domain_note": "Available source polygons; no recorded overlap is not zero risk."
+        },
+        {
+          "scope": "primary_brief",
+          "scenario": "荒川水系神田川流域（計画規模）",
+          "source_date": "2024-02-15",
+          "recorded_overlap_m2": 0.0,
+          "scope_overlap_pct": 0.0,
+          "exposed_selected_models": 0,
+          "source_domain_note": "Available source polygons; no recorded overlap is not zero risk."
+        },
+        {
+          "scope": "primary_brief",
+          "scenario": "神田川流域（想定最大規模）",
+          "source_date": "2018-03-30",
+          "recorded_overlap_m2": 40607.919361661596,
+          "scope_overlap_pct": 37.93774533422213,
+          "exposed_selected_models": 144,
+          "source_domain_note": "Available source polygons; no recorded overlap is not zero risk."
+        },
+        {
+          "scope": "primary_brief",
+          "scenario": "隅田川・新河岸川流域（想定最大規模）",
+          "source_date": "2021-03-30",
+          "recorded_overlap_m2": 0.0,
+          "scope_overlap_pct": 0.0,
+          "exposed_selected_models": 0,
+          "source_domain_note": "Available source polygons; no recorded overlap is not zero risk."
+        }
+      ],
+      "boundary_uncertainty_m": 25.0,
+      "model_membership_sensitivity": {
+        "eroded_count": 195,
+        "traced_count": 277,
+        "buffered_count": 381,
+        "rule": "Complete footprint covered by boundary eroded/buffered by registration and stroke uncertainty; sensitivity, not a confidence interval."
+      },
+      "selection_rule": "Complete original source building footprint covered by the fixed outline; exterior and crossing objects are excluded from all building analysis.",
+      "source_outline": {
+        "id": "primary_brief",
+        "name": {
+          "en": "Kajicho 1 & 2 primary area",
+          "zh": "鍛冶町一、二丁目重点区",
+          "ja": "鍛冶町一・二丁目の重点区域"
+        },
+        "source": "Theme B official brief, page 4, Figure 5 solid black outline",
+        "source_pixel_vertices": [
+          [
+            403,
+            392
+          ],
+          [
+            344,
+            413
+          ],
+          [
+            343,
+            505
+          ],
+          [
+            320,
+            577
+          ],
+          [
+            279,
+            682
+          ],
+          [
+            249,
+            756
+          ],
+          [
+            221,
+            829
+          ],
+          [
+            198,
+            936
+          ],
+          [
+            191,
+            986
+          ],
+          [
+            146,
+            1116
+          ],
+          [
+            590,
+            936
+          ],
+          [
+            403,
+            392
+          ]
+        ],
+        "source_raster": "PDF page 4 /Im8",
+        "source_image_size": [
+          917,
+          1495
+        ],
+        "source_original": "01_Course/2026_Briefs/2026_Theme_B_Official_Brief.pdf",
+        "source_url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+        "source_document_year": 2026,
+        "download_date": "2026-10-13",
+        "approximate": false,
+        "boundary_status": "Cartographic source-stroke trace; geographic registration uncertainty retained",
+        "outline_definition": "Stroke center, preserving visible bends; separate traces by source",
+        "registration": {
+          "method": "Least-squares affine; no snapping to census edges",
+          "pixel_origin": "upper-left; x right; y down",
+          "formula": "[E,N] = [pixel_x,pixel_y,1] @ affine_matrix",
+          "affine_matrix": [
+            [
+              0.8387638791007319,
+              0.0051573376769899325
+            ],
+            [
+              0.008216805349101186,
+              -0.8459880729333378
+            ],
+            [
+              -5883.508614679498,
+              -33543.69145658741
+            ]
+          ],
+          "rmse_m": 7.434546907555709,
+          "max_residual_m": 12.403582146416428,
+          "leave_one_out_errors_m": [
+            17.03365541822816,
+            9.854233324057127,
+            5.868724448252816,
+            16.73935647747208,
+            6.6818272968231165,
+            20.17459698242739
+          ],
+          "uncertainty_m": 25,
+          "uncertainty_definition": "Conservative cartographic screening band; includes leave-one-control-out error, source stroke width and manual point reading. Not a statistical confidence interval.",
+          "control_source": "OSM source snapshot 2026-10-13, common foundation roads; average mapped carriageway intersections when divided",
+          "controls": [
+            {
+              "name": "Chuo Street / Yasukuni-dori",
+              "pixel": [
+                225,
+                249
+              ],
+              "epsg6677": [
+                -5690.995051723813,
+                -33749.83993563471
+              ],
+              "residual_m": 3.770604150938839
+            },
+            {
+              "name": "Showa-dori / Yasukuni-dori",
+              "pixel": [
+                750,
+                273
+              ],
+              "epsg6677": [
+                -5250.270550754818,
+                -33772.84055002165
+              ],
+              "residual_m": 2.8190876430477854
+            },
+            {
+              "name": "Chuo Street / Kanda Kanamono-dori",
+              "pixel": [
+                389,
+                881
+              ],
+              "epsg6677": [
+                -5548.128027964524,
+                -34290.42172377812
+              ],
+              "residual_m": 3.895093470165984
+            },
+            {
+              "name": "Showa-dori / Kanda Kanamono-dori",
+              "pixel": [
+                707,
+                778
+              ],
+              "epsg6677": [
+                -5296.374687292489,
+                -34200.074153934875
+              ],
+              "residual_m": 12.403582146416428
+            },
+            {
+              "name": "Chuo Street / Edo-dori",
+              "pixel": [
+                494,
+                1184
+              ],
+              "epsg6677": [
+                -5462.715752102546,
+                -34544.06082370612
+              ],
+              "residual_m": 3.5211236394364116
+            },
+            {
+              "name": "Showa-dori / Edo-dori",
+              "pixel": [
+                772,
+                1081
+              ],
+              "epsg6677": [
+                -5217.080637092027,
+                -34448.96448885104
+              ],
+              "residual_m": 11.315975460966104
+            }
+          ]
+        },
+        "area_ha": 10.703830447464894,
+        "bounds_wgs84": [
+          139.76978169220754,
+          35.68913503365098,
+          139.7738790292947,
+          35.69466902875228
+        ],
+        "source_scope_id": "primary_brief",
+        "geometry_sha256": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8",
+        "boundary_revision": "2026-10-18-brief-figure5",
+        "authority": "Official Theme B brief p.4 Figure 5 source stroke. Raster reference; geographic registration uncertainty retained.",
+        "basis": "Figure 5 solid primary outline",
+        "line_style": "solid",
+        "selection_rule": "The fixed registered Figure 5 outline covers the complete original source footprint; exterior and crossing objects are context only, with no clipping.",
+        "source_outline_role": "Two official study levels overlaid in one common map view. No poster, census boundary or inferred operational outline.",
+        "construction_method": "Source-pixel vertices transformed with the recorded affine matrix; no road snapping, building expansion, straight trimming or branch interpretation.",
+        "date": "2026-10-18",
+        "crs": "EPSG:6677"
+      },
+      "boundary_geometry_sha256": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8",
+      "boundary_revision": "2026-10-18-brief-figure5",
+      "selected_ward_models": {
+        "13101": 277
+      },
+      "raw_boundary_crossing_models": 6,
+      "raw_boundary_crossing_osm": 5,
+      "selected_osm_context_footprints": 232
+    }
+  },
+  "map_export_formats": [
+    "PNG"
+  ],
+  "no_new_cfd": true
+}

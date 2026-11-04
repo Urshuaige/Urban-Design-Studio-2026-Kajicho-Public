@@ -1,0 +1,25 @@
+{
+  "case": "Cool roofs in Kajicho 1 & 2",
+  "weather_timestamp_jst": "2025-08-30T13:00:00+09:00",
+  "air_temperature_c": 38.4,
+  "wind_from_deg": 180,
+  "wind_speed_ms": 2.5,
+  "wind_reference_height_m": 35.3,
+  "GHI_W_m2": 866.6666666667,
+  "baseline_albedo": 0.2,
+  "retrofit_albedo": 0.6,
+  "sensible_conversion_fraction": 0.2,
+  "fH_sensitivity": [
+    0.1,
+    0.3
+  ],
+  "baseline_roof_heat_W_m2": 138.66666666667203,
+  "retrofit_roof_heat_W_m2": 69.33333333333601,
+  "rho_kg_m3": 1.13,
+  "Cp_J_kgK": 1006,
+  "thermal_scope": "Core-roof imposed sensible heat; other surfaces adiabatic. Coupled Boussinesq buoyancy, no closed outdoor surface-energy model.",
+  "missing_core_trees": "same unmapped-tree assumption in pair",
+  "DECC": "pending user; no building energy savings inferred",
+  "ranks_per_case": 32,
+  "mesh_ranks": 64
+}

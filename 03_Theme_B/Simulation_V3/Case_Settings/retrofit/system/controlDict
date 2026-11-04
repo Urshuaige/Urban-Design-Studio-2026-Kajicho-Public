@@ -1,0 +1,42 @@
+FoamFile { version 2.0; format ascii; class dictionary; object controlDict; }
+application buoyantBoussinesqSimpleFoam;startFrom latestTime;startTime 0;stopAt endTime;endTime 1000;deltaT 1;writeControl timeStep;writeInterval 50;purgeWrite 1;writeFormat binary;writePrecision 14;writeCompression off;timeFormat general;runTimeModifiable true;libs ("libatmosphericModels.so");functions {
+ monitoringPoints {type probes;libs (sampling);writeControl timeStep;writeInterval 10;fields (U T);probeLocations ((-121.36 -118.116 1.5) (-121.36 -71.1189 1.5) (4.64101 -71.1189 1.5) (130.642 -24.1212 1.5) (-79.3597 22.8764 1.5) (46.6414 22.8764 1.5) (-37.3593 69.874 1.5) (172.642 69.874 1.5) (46.6414 116.872 1.5) (4.64101 163.869 1.5) (-37.3593 210.867 1.5) (4.64101 257.865 1.5));}
+
+ roofHeatBalance {
+  type coded; libs (utilityFunctionObjects); name roofHeatBalance;
+  writeControl timeStep; writeInterval 20;
+  codeInclude #{ #include <fstream> #};
+  codeOptions #{ -I$(LIB_SRC)/finiteVolume/lnInclude -I$(LIB_SRC)/meshTools/lnInclude #};
+  codeLibs #{ -lfiniteVolume -lmeshTools #};
+  codeWrite #{
+   const fvMesh& m=mesh();
+   const volScalarField& Tf=m.lookupObject<volScalarField>("T");
+   const volScalarField& at=m.lookupObject<volScalarField>("alphat");
+   const surfaceScalarField& ph=m.lookupObject<surfaceScalarField>("phi");
+   tmp<surfaceScalarField> dn=fvc::snGrad(Tf);
+   scalar net=0,roof=0,mass=0,roofArea=0;
+   forAll(m.boundary(),pi) { if(m.boundary()[pi].coupled()) continue;
+    const scalarField alpha=at.boundaryField()[pi]+1.65e-5/.71;
+    const scalar diff=-1.13*1006*gSum(alpha*dn().boundaryField()[pi]*m.magSf().boundaryField()[pi]);
+    const scalar adv=1.13*1006*gSum(ph.boundaryField()[pi]*(Tf.boundaryField()[pi]-311.55));
+    net+=diff+adv;mass+=gSum(ph.boundaryField()[pi]);
+    if(m.boundary()[pi].name()=="buildings_coreRoofs") {roof=-diff;roofArea=gSum(m.magSf().boundaryField()[pi]);}
+   }
+   if(Pstream::master()) {
+    fileName dir=m.time().globalPath()/"postProcessing";mkDir(dir);
+    std::ofstream out((dir/"roofHeatBalance.csv").c_str(),std::ios::app);
+    out.precision(14);out<<m.time().value()<<","<<roof<<","<<net+roof<<","<<net<<","<<mass<<","<<roofArea<<std::endl;
+   }
+  #};
+ }
+
+ extrema {type fieldMinMax;libs (fieldFunctionObjects);fields (T U k epsilon);writeControl timeStep;writeInterval 20;}
+ pedestrian {type surfaces;libs (sampling);writeControl writeTime;surfaceFormat raw;interpolationScheme cellPoint;fields (U T);surfaces {pedestrian {type cuttingPlane;planeType pointAndNormal;pointAndNormalDict {point (0 0 1.5);normal (0 0 1);}interpolate true;}}}
+
+ inletMeanT {type surfaceFieldValue;libs (fieldFunctionObjects);regionType patch;name inlet;operation areaAverage;fields (T);writeFields false;writeControl timeStep;writeInterval 20;}
+ inletFluxT {type surfaceFieldValue;libs (fieldFunctionObjects);regionType patch;name inlet;operation weightedAverage;weightField phi;fields (T);writeFields false;writeControl timeStep;writeInterval 20;}
+ inletFlow {type surfaceFieldValue;libs (fieldFunctionObjects);regionType patch;name inlet;operation sum;fields (phi);writeFields false;writeControl timeStep;writeInterval 20;}
+ outletMeanT {type surfaceFieldValue;libs (fieldFunctionObjects);regionType patch;name outlet;operation areaAverage;fields (T);writeFields false;writeControl timeStep;writeInterval 20;}
+ outletFluxT {type surfaceFieldValue;libs (fieldFunctionObjects);regionType patch;name outlet;operation weightedAverage;weightField phi;fields (T);writeFields false;writeControl timeStep;writeInterval 20;}
+ outletFlow {type surfaceFieldValue;libs (fieldFunctionObjects);regionType patch;name outlet;operation sum;fields (phi);writeFields false;writeControl timeStep;writeInterval 20;}
+ buildings_coreRoofsMeanT {type surfaceFieldValue;libs (fieldFunctionObjects);regionType patch;name buildings_coreRoofs;operation areaAverage;fields (T);writeFields false;writeControl timeStep;writeInterval 20;}}

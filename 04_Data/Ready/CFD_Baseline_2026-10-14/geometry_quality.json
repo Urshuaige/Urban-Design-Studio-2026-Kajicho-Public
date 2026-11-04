@@ -1,0 +1,16 @@
+{
+  "method": "Manifold boolean union of earcut-triangulated LOD1 prisms; internal party walls removed",
+  "input_prisms": 3805,
+  "vertices": 43683,
+  "faces": 72238,
+  "watertight": true,
+  "positive_volume": true,
+  "volume_m3": 59765692.79189503,
+  "core_roof_area_m2": 37034.52166129333,
+  "regions": {
+    "context": 66822,
+    "coreRoofs": 1077,
+    "coreWalls": 4339
+  },
+  "wall_seconds": 8.295807361602783
+}

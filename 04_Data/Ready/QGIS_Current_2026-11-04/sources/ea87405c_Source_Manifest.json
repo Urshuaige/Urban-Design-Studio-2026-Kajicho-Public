@@ -1,0 +1,53 @@
+[
+  {
+    "period": "1936–1942",
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/history/prewar.tif",
+    "sha256": "843442f16e5d42ebb018c78f74b0d632143f5598e7384add88287c9ae96aa458",
+    "institution": "Geospatial Information Authority of Japan (GSI)",
+    "dataset": "ort_riku10",
+    "source_url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/{z}/{x}/{y}.png",
+    "website_year": "not separately verified",
+    "acquisition_year": "source layer window: 1936–1942",
+    "download_date": "2026-10-24",
+    "derived_date_utc": "2026-11-01T15:42:19.616694+00:00",
+    "source_crs": "EPSG:3857",
+    "working_crs": "EPSG:6677",
+    "unit": "1.12 × 1.30 km district image window; selected visual roof forms, street axes and corridors",
+    "license": "GSI Content Terms; https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html",
+    "processing": "Existing mosaics reprojected nearest-neighbour at1m; grayscale P2–P98 display stretch; manual selective same-period interpretation; independent QGIS layouts."
+  },
+  {
+    "period": "1945–1950",
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/history/postwar.tif",
+    "sha256": "090cb063c88b369779aecfa5cb2d8dee89b475abb0490228d3099e1d0829c222",
+    "institution": "Geospatial Information Authority of Japan (GSI)",
+    "dataset": "ort_USA10",
+    "source_url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/{z}/{x}/{y}.png",
+    "website_year": "not separately verified",
+    "acquisition_year": "source layer window: 1945–1950",
+    "download_date": "2026-10-24",
+    "derived_date_utc": "2026-11-01T15:42:19.621537+00:00",
+    "source_crs": "EPSG:3857",
+    "working_crs": "EPSG:6677",
+    "unit": "1.12 × 1.30 km district image window; selected visual roof forms, street axes and corridors",
+    "license": "GSI Content Terms; https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html",
+    "processing": "Existing mosaics reprojected nearest-neighbour at1m; grayscale P2–P98 display stretch; manual selective same-period interpretation; independent QGIS layouts."
+  },
+  {
+    "period": "FY2019",
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/history/recent.tif",
+    "sha256": "8b62474c65f8fd50d9d09b1ff10a2057efb2afb75d0c1be61bbb131c634d7648",
+    "institution": "Geospatial Information Authority of Japan (GSI)",
+    "dataset": "nendophoto2019",
+    "source_url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/{z}/{x}/{y}.png",
+    "website_year": "not separately verified",
+    "acquisition_year": "source layer window: FY2019",
+    "download_date": "2026-10-24",
+    "derived_date_utc": "2026-11-01T15:42:19.631290+00:00",
+    "source_crs": "EPSG:3857",
+    "working_crs": "EPSG:6677",
+    "unit": "1.12 × 1.30 km district image window; selected visual roof forms, street axes and corridors",
+    "license": "GSI Content Terms; https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html",
+    "processing": "Existing mosaics reprojected nearest-neighbour at1m; grayscale P2–P98 display stretch; manual selective same-period interpretation; independent QGIS layouts."
+  }
+]

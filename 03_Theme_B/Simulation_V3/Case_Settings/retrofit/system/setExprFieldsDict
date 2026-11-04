@@ -1,0 +1,6 @@
+FoamFile {version 2.0;format ascii;class dictionary;object setExprFieldsDict;}
+expressions (
+ wind {field U;expression "vector(0,2.5*log((pos().z()+0.1)/0.1)/log(354),0)";keepPatches true;}
+ tke {field k;expression "0.101661";keepPatches true;}
+ dissipation {field epsilon;expression "0.00532615/(0.41*(pos().z()+0.1))";keepPatches true;}
+);

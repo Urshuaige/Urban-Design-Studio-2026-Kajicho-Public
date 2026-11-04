@@ -1,0 +1,8 @@
+﻿source_field,shp_field,shp_type,dbf_width_bytes,null_bit,storage,source_non_null,source_null,source_max_text_bytes
+__wider_pk,wider_pk,integer,11,0,shp_and_csv,2,0,
+code,code,text,6,1,shp_and_csv,2,0,6
+name_en,name_en,text,28,2,shp_and_csv,2,0,28
+basis,basis,text,154,3,shp_and_csv,2,0,154
+delivery_source_fid,delivery_s,integer,11,4,shp_and_csv,2,0,
+delivery_geometry,delivery_g,text,12,5,shp_and_csv,2,0,12
+delivery_value_scope,delivery_v,text,66,6,shp_and_csv,2,0,66

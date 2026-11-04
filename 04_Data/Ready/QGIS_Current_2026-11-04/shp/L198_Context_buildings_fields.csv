@@ -1,0 +1,16 @@
+﻿source_field,shp_field,shp_type,dbf_width_bytes,null_bit,storage,source_non_null,source_null,source_max_text_bytes
+__wider_pk,wider_pk,integer,11,0,shp_and_csv,15,0,
+map_id,map_id,text,12,1,shp_and_csv,15,0,12
+ward_code,ward_code,text,6,2,shp_and_csv,15,0,6
+ward_name_en,ward_en,text,12,3,shp_and_csv,15,0,12
+ward_name_ja,ward_name,text,12,4,shp_and_csv,15,0,12
+inside_wider,inside_wid,text,6,5,shp_and_csv,15,0,6
+crosses_wider,crosses_wi,text,6,6,shp_and_csv,15,0,6
+data_date,data_date,text,10,7,shp_and_csv,15,0,10
+geometry_note,geometry_n,text,88,8,shp_and_csv,15,0,88
+source_fid,source_fid,integer,11,9,shp_and_csv,15,0,
+cut_by_frame,cut_by_fra,integer,11,10,shp_and_csv,15,0,
+street_frontage,street_fro,integer,11,11,shp_and_csv,12,3,
+delivery_source_fid,delivery_s,integer,11,12,shp_and_csv,15,0,
+delivery_geometry,delivery_g,text,31,13,shp_and_csv,15,0,31
+delivery_value_scope,delivery_v,text,79,14,shp_and_csv,15,0,79

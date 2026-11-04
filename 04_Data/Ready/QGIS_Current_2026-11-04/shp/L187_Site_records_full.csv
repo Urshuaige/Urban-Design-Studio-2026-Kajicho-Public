@@ -1,0 +1,3 @@
+﻿ROW_ID,__wider_pk,case_id,name,status,geometry_basis,source_url,note,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,1,D01,School north — Sumitomo cleared core,cleared,Former building footprint extent,https://www.kensetsunews.com/web-kan/1055748,"Former footprint extents only; not a full parcel, ownership or approved development boundary.",1,inside_wider,Original source feature or statistical unit; values not recomputed
+2,2,D02,Former SMBC bank — demolition site,demolition_site,Former building footprint extent,https://www.kensetsu-databank.co.jp/kaitai-tokyo/osirase/month.php?target=202412,Former baseline footprint extents; OSM construction parcel used for cross-check.,2,inside_wider,Original source feature or statistical unit; values not recomputed

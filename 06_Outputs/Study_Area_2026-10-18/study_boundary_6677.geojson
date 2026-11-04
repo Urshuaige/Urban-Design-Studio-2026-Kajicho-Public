@@ -1,0 +1,597 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:6677"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "study_area",
+        "name": {
+          "en": "Kanda–Nihonbashi wider area (approx.)",
+          "zh": "神田—日本桥外围区（概略）",
+          "ja": "神田・日本橋の周辺区域（概略）"
+        },
+        "source": "Theme B official brief, page 4, Figure 5 dashed black outline",
+        "source_pixel_vertices": [
+          [
+            463,
+            192
+          ],
+          [
+            798,
+            203
+          ],
+          [
+            819,
+            281
+          ],
+          [
+            813,
+            333
+          ],
+          [
+            798,
+            454
+          ],
+          [
+            803,
+            579
+          ],
+          [
+            905,
+            848
+          ],
+          [
+            831,
+            878
+          ],
+          [
+            890,
+            1085
+          ],
+          [
+            149,
+            1375
+          ],
+          [
+            90,
+            1290
+          ],
+          [
+            146,
+            1116
+          ],
+          [
+            191,
+            986
+          ],
+          [
+            198,
+            936
+          ],
+          [
+            221,
+            829
+          ],
+          [
+            249,
+            756
+          ],
+          [
+            279,
+            682
+          ],
+          [
+            320,
+            577
+          ],
+          [
+            343,
+            505
+          ],
+          [
+            344,
+            413
+          ],
+          [
+            403,
+            392
+          ],
+          [
+            463,
+            192
+          ]
+        ],
+        "source_raster": "PDF page 4 /Im8",
+        "source_image_size": [
+          917,
+          1495
+        ],
+        "source_original": "01_Course/2026_Briefs/2026_Theme_B_Official_Brief.pdf",
+        "source_url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+        "source_document_year": 2026,
+        "download_date": "2026-10-13",
+        "approximate": true,
+        "boundary_status": "Cartographic source-stroke trace; geographic registration uncertainty retained",
+        "outline_definition": "Stroke center, preserving visible bends; separate traces by source",
+        "registration": {
+          "method": "Least-squares affine; no snapping to census edges",
+          "pixel_origin": "upper-left; x right; y down",
+          "formula": "[E,N] = [pixel_x,pixel_y,1] @ affine_matrix",
+          "affine_matrix": [
+            [
+              0.8387638791007319,
+              0.0051573376769899325
+            ],
+            [
+              0.008216805349101186,
+              -0.8459880729333378
+            ],
+            [
+              -5883.508614679498,
+              -33543.69145658741
+            ]
+          ],
+          "rmse_m": 7.434546907555709,
+          "max_residual_m": 12.403582146416428,
+          "leave_one_out_errors_m": [
+            17.03365541822816,
+            9.854233324057127,
+            5.868724448252816,
+            16.73935647747208,
+            6.6818272968231165,
+            20.17459698242739
+          ],
+          "uncertainty_m": 25,
+          "uncertainty_definition": "Conservative cartographic screening band; includes leave-one-control-out error, source stroke width and manual point reading. Not a statistical confidence interval.",
+          "control_source": "OSM source snapshot 2026-10-13, common foundation roads; average mapped carriageway intersections when divided",
+          "controls": [
+            {
+              "name": "Chuo Street / Yasukuni-dori",
+              "pixel": [
+                225,
+                249
+              ],
+              "epsg6677": [
+                -5690.995051723813,
+                -33749.83993563471
+              ],
+              "residual_m": 3.770604150938839
+            },
+            {
+              "name": "Showa-dori / Yasukuni-dori",
+              "pixel": [
+                750,
+                273
+              ],
+              "epsg6677": [
+                -5250.270550754818,
+                -33772.84055002165
+              ],
+              "residual_m": 2.8190876430477854
+            },
+            {
+              "name": "Chuo Street / Kanda Kanamono-dori",
+              "pixel": [
+                389,
+                881
+              ],
+              "epsg6677": [
+                -5548.128027964524,
+                -34290.42172377812
+              ],
+              "residual_m": 3.895093470165984
+            },
+            {
+              "name": "Showa-dori / Kanda Kanamono-dori",
+              "pixel": [
+                707,
+                778
+              ],
+              "epsg6677": [
+                -5296.374687292489,
+                -34200.074153934875
+              ],
+              "residual_m": 12.403582146416428
+            },
+            {
+              "name": "Chuo Street / Edo-dori",
+              "pixel": [
+                494,
+                1184
+              ],
+              "epsg6677": [
+                -5462.715752102546,
+                -34544.06082370612
+              ],
+              "residual_m": 3.5211236394364116
+            },
+            {
+              "name": "Showa-dori / Edo-dori",
+              "pixel": [
+                772,
+                1081
+              ],
+              "epsg6677": [
+                -5217.080637092027,
+                -34448.96448885104
+              ],
+              "residual_m": 11.315975460966104
+            }
+          ]
+        },
+        "area_ha": 41.98967122381172,
+        "bounds_wgs84": [
+          139.76927957909675,
+          35.687160199653924,
+          139.77678982873212,
+          35.69619718557399
+        ],
+        "source_scope_id": "secondary_brief",
+        "geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+        "boundary_revision": "2026-10-18-brief-figure5",
+        "authority": "Official Theme B brief p.4 Figure 5 source stroke. Raster reference; geographic registration uncertainty retained.",
+        "basis": "Figure 5 dashed secondary outline",
+        "line_style": "dash",
+        "selection_rule": "The fixed registered Figure 5 outline covers the complete original source footprint; exterior and crossing objects are context only, with no clipping.",
+        "source_outline_role": "Two official study levels overlaid in one common map view. No poster, census boundary or inferred operational outline.",
+        "construction_method": "Source-pixel vertices transformed with the recorded affine matrix; no road snapping, building expansion, straight trimming or branch interpretation.",
+        "date": "2026-10-18",
+        "crs": "EPSG:6677"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5493.583312028832,
+              -33703.73331924617
+            ],
+            [
+              -5212.507027671247,
+              -33711.31147992664
+            ],
+            [
+              -5194.252075392901,
+              -33777.19024552422
+            ],
+            [
+              -5198.857384789353,
+              -33821.21256934282
+            ],
+            [
+              -5210.444609528622,
+              -33923.65448623291
+            ],
+            [
+              -5205.223689464481,
+              -34029.37720866119
+            ],
+            [
+              -5117.459453157298,
+              -34256.421951837205
+            ],
+            [
+              -5179.281476050279,
+              -34282.183237013305
+            ],
+            [
+              -5128.093528476073,
+              -34456.99848518756
+            ],
+            [
+              -5747.234689338475,
+              -34706.15661355688
+            ],
+            [
+              -5797.4201866600915,
+              -34634.55191028049
+            ],
+            [
+              -5751.879133561195,
+              -34487.06117468017
+            ],
+            [
+              -5715.202943697045,
+              -34376.850645003375
+            ],
+            [
+              -5709.742436810795,
+              -34334.51513999297
+            ],
+            [
+              -5691.330065763832,
+              -34243.87579742253
+            ],
+            [
+              -5668.444503939496,
+              -34181.974262643445
+            ],
+            [
+              -5643.8896311623075,
+              -34119.216425116065
+            ],
+            [
+              -5610.363076680833,
+              -34030.17622661331
+            ],
+            [
+              -5591.663117446651,
+              -33969.146466595535
+            ],
+            [
+              -5591.580299659668,
+              -33891.31040654799
+            ],
+            [
+              -5542.265783705056,
+              -33873.24037409345
+            ],
+            [
+              -5493.583312028832,
+              -33703.73331924617
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "primary_brief",
+        "name": {
+          "en": "Kajicho 1 & 2 primary area",
+          "zh": "鍛冶町一、二丁目重点区",
+          "ja": "鍛冶町一・二丁目の重点区域"
+        },
+        "source": "Theme B official brief, page 4, Figure 5 solid black outline",
+        "source_pixel_vertices": [
+          [
+            403,
+            392
+          ],
+          [
+            344,
+            413
+          ],
+          [
+            343,
+            505
+          ],
+          [
+            320,
+            577
+          ],
+          [
+            279,
+            682
+          ],
+          [
+            249,
+            756
+          ],
+          [
+            221,
+            829
+          ],
+          [
+            198,
+            936
+          ],
+          [
+            191,
+            986
+          ],
+          [
+            146,
+            1116
+          ],
+          [
+            590,
+            936
+          ],
+          [
+            403,
+            392
+          ]
+        ],
+        "source_raster": "PDF page 4 /Im8",
+        "source_image_size": [
+          917,
+          1495
+        ],
+        "source_original": "01_Course/2026_Briefs/2026_Theme_B_Official_Brief.pdf",
+        "source_url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+        "source_document_year": 2026,
+        "download_date": "2026-10-13",
+        "approximate": false,
+        "boundary_status": "Cartographic source-stroke trace; geographic registration uncertainty retained",
+        "outline_definition": "Stroke center, preserving visible bends; separate traces by source",
+        "registration": {
+          "method": "Least-squares affine; no snapping to census edges",
+          "pixel_origin": "upper-left; x right; y down",
+          "formula": "[E,N] = [pixel_x,pixel_y,1] @ affine_matrix",
+          "affine_matrix": [
+            [
+              0.8387638791007319,
+              0.0051573376769899325
+            ],
+            [
+              0.008216805349101186,
+              -0.8459880729333378
+            ],
+            [
+              -5883.508614679498,
+              -33543.69145658741
+            ]
+          ],
+          "rmse_m": 7.434546907555709,
+          "max_residual_m": 12.403582146416428,
+          "leave_one_out_errors_m": [
+            17.03365541822816,
+            9.854233324057127,
+            5.868724448252816,
+            16.73935647747208,
+            6.6818272968231165,
+            20.17459698242739
+          ],
+          "uncertainty_m": 25,
+          "uncertainty_definition": "Conservative cartographic screening band; includes leave-one-control-out error, source stroke width and manual point reading. Not a statistical confidence interval.",
+          "control_source": "OSM source snapshot 2026-10-13, common foundation roads; average mapped carriageway intersections when divided",
+          "controls": [
+            {
+              "name": "Chuo Street / Yasukuni-dori",
+              "pixel": [
+                225,
+                249
+              ],
+              "epsg6677": [
+                -5690.995051723813,
+                -33749.83993563471
+              ],
+              "residual_m": 3.770604150938839
+            },
+            {
+              "name": "Showa-dori / Yasukuni-dori",
+              "pixel": [
+                750,
+                273
+              ],
+              "epsg6677": [
+                -5250.270550754818,
+                -33772.84055002165
+              ],
+              "residual_m": 2.8190876430477854
+            },
+            {
+              "name": "Chuo Street / Kanda Kanamono-dori",
+              "pixel": [
+                389,
+                881
+              ],
+              "epsg6677": [
+                -5548.128027964524,
+                -34290.42172377812
+              ],
+              "residual_m": 3.895093470165984
+            },
+            {
+              "name": "Showa-dori / Kanda Kanamono-dori",
+              "pixel": [
+                707,
+                778
+              ],
+              "epsg6677": [
+                -5296.374687292489,
+                -34200.074153934875
+              ],
+              "residual_m": 12.403582146416428
+            },
+            {
+              "name": "Chuo Street / Edo-dori",
+              "pixel": [
+                494,
+                1184
+              ],
+              "epsg6677": [
+                -5462.715752102546,
+                -34544.06082370612
+              ],
+              "residual_m": 3.5211236394364116
+            },
+            {
+              "name": "Showa-dori / Edo-dori",
+              "pixel": [
+                772,
+                1081
+              ],
+              "epsg6677": [
+                -5217.080637092027,
+                -34448.96448885104
+              ],
+              "residual_m": 11.315975460966104
+            }
+          ]
+        },
+        "area_ha": 10.703830447464894,
+        "bounds_wgs84": [
+          139.76978169220754,
+          35.68913503365098,
+          139.7738790292947,
+          35.69466902875228
+        ],
+        "source_scope_id": "primary_brief",
+        "geometry_sha256": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8",
+        "boundary_revision": "2026-10-18-brief-figure5",
+        "authority": "Official Theme B brief p.4 Figure 5 source stroke. Raster reference; geographic registration uncertainty retained.",
+        "basis": "Figure 5 solid primary outline",
+        "line_style": "solid",
+        "selection_rule": "The fixed registered Figure 5 outline covers the complete original source footprint; exterior and crossing objects are context only, with no clipping.",
+        "source_outline_role": "Two official study levels overlaid in one common map view. No poster, census boundary or inferred operational outline.",
+        "construction_method": "Source-pixel vertices transformed with the recorded affine matrix; no road snapping, building expansion, straight trimming or branch interpretation.",
+        "date": "2026-10-18",
+        "crs": "EPSG:6677"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5542.265783705056,
+              -33873.24037409345
+            ],
+            [
+              -5591.580299659668,
+              -33891.31040654799
+            ],
+            [
+              -5591.663117446651,
+              -33969.146466595535
+            ],
+            [
+              -5610.363076680833,
+              -34030.17622661331
+            ],
+            [
+              -5643.8896311623075,
+              -34119.216425116065
+            ],
+            [
+              -5668.444503939496,
+              -34181.974262643445
+            ],
+            [
+              -5691.330065763832,
+              -34243.87579742253
+            ],
+            [
+              -5709.742436810795,
+              -34334.51513999297
+            ],
+            [
+              -5715.202943697045,
+              -34376.850645003375
+            ],
+            [
+              -5751.879133561195,
+              -34487.06117468017
+            ],
+            [
+              -5380.946996203308,
+              -34332.49346362359
+            ],
+            [
+              -5542.265783705056,
+              -33873.24037409345
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

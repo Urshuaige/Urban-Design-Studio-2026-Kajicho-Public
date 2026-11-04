@@ -1,0 +1,105 @@
+﻿ROW_ID,__wider_pk,cover_type,source_file,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,3,Public-site green,official_10_koukyoushisetsu_0.geojson,3,inside_wider,Original source feature or statistical unit; values not recomputed
+2,5,Public-site green,official_10_koukyoushisetsu_0.geojson,5,inside_wider,Original source feature or statistical unit; values not recomputed
+3,6,Public-site green,official_10_koukyoushisetsu_0.geojson,6,inside_wider,Original source feature or statistical unit; values not recomputed
+4,8,Public-site green,official_10_koukyoushisetsu_0.geojson,8,inside_wider,Original source feature or statistical unit; values not recomputed
+5,9,Public-site green,official_10_koukyoushisetsu_0.geojson,9,inside_wider,Original source feature or statistical unit; values not recomputed
+6,10,Public-site green,official_10_koukyoushisetsu_0.geojson,10,inside_wider,Original source feature or statistical unit; values not recomputed
+7,12,Public-site green,official_10_koukyoushisetsu_0.geojson,12,inside_wider,Original source feature or statistical unit; values not recomputed
+8,13,Public-site green,official_10_koukyoushisetsu_0.geojson,13,inside_wider,Original source feature or statistical unit; values not recomputed
+9,15,Public-site green,official_10_koukyoushisetsu_0.geojson,15,inside_wider,Original source feature or statistical unit; values not recomputed
+10,17,Development-site green,official_09_minkan_4.geojson,17,inside_wider,Original source feature or statistical unit; values not recomputed
+11,22,Development-site green,official_09_minkan_4.geojson,22,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+12,46,Tree crown projection from recorded crown spread,02_gairoju.zip,46,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+13,47,Tree crown projection from recorded crown spread,02_gairoju.zip,47,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+14,49,Tree crown projection from recorded crown spread,02_gairoju.zip,49,inside_wider,Original source feature or statistical unit; values not recomputed
+15,50,Tree crown projection from recorded crown spread,02_gairoju.zip,50,inside_wider,Original source feature or statistical unit; values not recomputed
+16,51,Tree crown projection from recorded crown spread,02_gairoju.zip,51,inside_wider,Original source feature or statistical unit; values not recomputed
+17,52,Tree crown projection from recorded crown spread,02_gairoju.zip,52,inside_wider,Original source feature or statistical unit; values not recomputed
+18,53,Tree crown projection from recorded crown spread,02_gairoju.zip,53,inside_wider,Original source feature or statistical unit; values not recomputed
+19,54,Tree crown projection from recorded crown spread,02_gairoju.zip,54,inside_wider,Original source feature or statistical unit; values not recomputed
+20,55,Tree crown projection from recorded crown spread,02_gairoju.zip,55,inside_wider,Original source feature or statistical unit; values not recomputed
+21,56,Tree crown projection from recorded crown spread,02_gairoju.zip,56,inside_wider,Original source feature or statistical unit; values not recomputed
+22,57,Tree crown projection from recorded crown spread,02_gairoju.zip,57,inside_wider,Original source feature or statistical unit; values not recomputed
+23,60,Tree crown projection from recorded crown spread,02_gairoju.zip,60,inside_wider,Original source feature or statistical unit; values not recomputed
+24,61,Tree crown projection from recorded crown spread,02_gairoju.zip,61,inside_wider,Original source feature or statistical unit; values not recomputed
+25,63,Tree crown projection from recorded crown spread,02_gairoju.zip,63,inside_wider,Original source feature or statistical unit; values not recomputed
+26,65,Tree crown projection from recorded crown spread,02_gairoju.zip,65,inside_wider,Original source feature or statistical unit; values not recomputed
+27,66,Tree crown projection from recorded crown spread,02_gairoju.zip,66,inside_wider,Original source feature or statistical unit; values not recomputed
+28,67,Tree crown projection from recorded crown spread,02_gairoju.zip,67,inside_wider,Original source feature or statistical unit; values not recomputed
+29,68,Tree crown projection from recorded crown spread,02_gairoju.zip,68,inside_wider,Original source feature or statistical unit; values not recomputed
+30,69,Tree crown projection from recorded crown spread,02_gairoju.zip,69,inside_wider,Original source feature or statistical unit; values not recomputed
+31,70,Tree crown projection from recorded crown spread,02_gairoju.zip,70,inside_wider,Original source feature or statistical unit; values not recomputed
+32,72,Tree crown projection from recorded crown spread,02_gairoju.zip,72,inside_wider,Original source feature or statistical unit; values not recomputed
+33,74,Tree crown projection from recorded crown spread,02_gairoju.zip,74,inside_wider,Original source feature or statistical unit; values not recomputed
+34,75,Tree crown projection from recorded crown spread,02_gairoju.zip,75,inside_wider,Original source feature or statistical unit; values not recomputed
+35,77,Tree crown projection from recorded crown spread,02_gairoju.zip,77,inside_wider,Original source feature or statistical unit; values not recomputed
+36,79,Tree crown projection from recorded crown spread,02_gairoju.zip,79,inside_wider,Original source feature or statistical unit; values not recomputed
+37,83,Tree crown projection from recorded crown spread,02_gairoju.zip,83,inside_wider,Original source feature or statistical unit; values not recomputed
+38,87,Tree crown projection from recorded crown spread,02_gairoju.zip,87,inside_wider,Original source feature or statistical unit; values not recomputed
+39,89,Tree crown projection from recorded crown spread,02_gairoju.zip,89,inside_wider,Original source feature or statistical unit; values not recomputed
+40,90,Tree crown projection from recorded crown spread,02_gairoju.zip,90,inside_wider,Original source feature or statistical unit; values not recomputed
+41,91,Tree crown projection from recorded crown spread,02_gairoju.zip,91,inside_wider,Original source feature or statistical unit; values not recomputed
+42,92,Tree crown projection from recorded crown spread,02_gairoju.zip,92,inside_wider,Original source feature or statistical unit; values not recomputed
+43,93,Tree crown projection from recorded crown spread,02_gairoju.zip,93,inside_wider,Original source feature or statistical unit; values not recomputed
+44,96,Tree crown projection from recorded crown spread,02_gairoju.zip,96,inside_wider,Original source feature or statistical unit; values not recomputed
+45,97,Tree crown projection from recorded crown spread,02_gairoju.zip,97,inside_wider,Original source feature or statistical unit; values not recomputed
+46,98,Tree crown projection from recorded crown spread,02_gairoju.zip,98,inside_wider,Original source feature or statistical unit; values not recomputed
+47,99,Tree crown projection from recorded crown spread,02_gairoju.zip,99,inside_wider,Original source feature or statistical unit; values not recomputed
+48,100,Tree crown projection from recorded crown spread,02_gairoju.zip,100,inside_wider,Original source feature or statistical unit; values not recomputed
+49,101,Tree crown projection from recorded crown spread,02_gairoju.zip,101,inside_wider,Original source feature or statistical unit; values not recomputed
+50,102,Tree crown projection from recorded crown spread,02_gairoju.zip,102,inside_wider,Original source feature or statistical unit; values not recomputed
+51,103,Tree crown projection from recorded crown spread,02_gairoju.zip,103,inside_wider,Original source feature or statistical unit; values not recomputed
+52,104,Tree crown projection from recorded crown spread,02_gairoju.zip,104,inside_wider,Original source feature or statistical unit; values not recomputed
+53,105,Tree crown projection from recorded crown spread,02_gairoju.zip,105,inside_wider,Original source feature or statistical unit; values not recomputed
+54,106,Tree crown projection from recorded crown spread,02_gairoju.zip,106,inside_wider,Original source feature or statistical unit; values not recomputed
+55,107,Tree crown projection from recorded crown spread,02_gairoju.zip,107,inside_wider,Original source feature or statistical unit; values not recomputed
+56,108,Tree crown projection from recorded crown spread,02_gairoju.zip,108,inside_wider,Original source feature or statistical unit; values not recomputed
+57,109,Tree crown projection from recorded crown spread,02_gairoju.zip,109,inside_wider,Original source feature or statistical unit; values not recomputed
+58,110,Tree crown projection from recorded crown spread,02_gairoju.zip,110,inside_wider,Original source feature or statistical unit; values not recomputed
+59,111,Tree crown projection from recorded crown spread,02_gairoju.zip,111,inside_wider,Original source feature or statistical unit; values not recomputed
+60,112,Tree crown projection from recorded crown spread,02_gairoju.zip,112,inside_wider,Original source feature or statistical unit; values not recomputed
+61,113,Tree crown projection from recorded crown spread,02_gairoju.zip,113,inside_wider,Original source feature or statistical unit; values not recomputed
+62,125,Tree crown projection from recorded crown spread,02_gairoju.zip,125,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+63,129,Tree crown projection from recorded crown spread,02_gairoju.zip,129,inside_wider,Original source feature or statistical unit; values not recomputed
+64,131,Tree crown projection from recorded crown spread,02_gairoju.zip,131,inside_wider,Original source feature or statistical unit; values not recomputed
+65,140,Tree crown projection from recorded crown spread,02_gairoju.zip,140,inside_wider,Original source feature or statistical unit; values not recomputed
+66,142,Tree crown projection from recorded crown spread,02_gairoju.zip,142,inside_wider,Original source feature or statistical unit; values not recomputed
+67,149,Tree crown projection from recorded crown spread,02_gairoju.zip,149,inside_wider,Original source feature or statistical unit; values not recomputed
+68,151,Tree crown projection from recorded crown spread,02_gairoju.zip,151,inside_wider,Original source feature or statistical unit; values not recomputed
+69,152,Tree crown projection from recorded crown spread,02_gairoju.zip,152,inside_wider,Original source feature or statistical unit; values not recomputed
+70,153,Tree crown projection from recorded crown spread,02_gairoju.zip,153,inside_wider,Original source feature or statistical unit; values not recomputed
+71,154,Tree crown projection from recorded crown spread,02_gairoju.zip,154,inside_wider,Original source feature or statistical unit; values not recomputed
+72,155,Tree crown projection from recorded crown spread,02_gairoju.zip,155,inside_wider,Original source feature or statistical unit; values not recomputed
+73,156,Tree crown projection from recorded crown spread,02_gairoju.zip,156,inside_wider,Original source feature or statistical unit; values not recomputed
+74,157,Tree crown projection from recorded crown spread,02_gairoju.zip,157,inside_wider,Original source feature or statistical unit; values not recomputed
+75,158,Tree crown projection from recorded crown spread,02_gairoju.zip,158,inside_wider,Original source feature or statistical unit; values not recomputed
+76,159,Tree crown projection from recorded crown spread,02_gairoju.zip,159,inside_wider,Original source feature or statistical unit; values not recomputed
+77,160,Tree crown projection from recorded crown spread,02_gairoju.zip,160,inside_wider,Original source feature or statistical unit; values not recomputed
+78,161,Tree crown projection from recorded crown spread,02_gairoju.zip,161,inside_wider,Original source feature or statistical unit; values not recomputed
+79,162,Tree crown projection from recorded crown spread,02_gairoju.zip,162,inside_wider,Original source feature or statistical unit; values not recomputed
+80,163,Tree crown projection from recorded crown spread,02_gairoju.zip,163,inside_wider,Original source feature or statistical unit; values not recomputed
+81,164,Tree crown projection from recorded crown spread,02_gairoju.zip,164,inside_wider,Original source feature or statistical unit; values not recomputed
+82,165,Tree crown projection from recorded crown spread,02_gairoju.zip,165,inside_wider,Original source feature or statistical unit; values not recomputed
+83,166,Tree crown projection from recorded crown spread,02_gairoju.zip,166,inside_wider,Original source feature or statistical unit; values not recomputed
+84,167,Tree crown projection from recorded crown spread,02_gairoju.zip,167,inside_wider,Original source feature or statistical unit; values not recomputed
+85,168,Tree crown projection from recorded crown spread,02_gairoju.zip,168,inside_wider,Original source feature or statistical unit; values not recomputed
+86,169,Tree crown projection from recorded crown spread,02_gairoju.zip,169,inside_wider,Original source feature or statistical unit; values not recomputed
+87,170,Tree crown projection from recorded crown spread,02_gairoju.zip,170,inside_wider,Original source feature or statistical unit; values not recomputed
+88,171,Tree crown projection from recorded crown spread,02_gairoju.zip,171,inside_wider,Original source feature or statistical unit; values not recomputed
+89,172,Tree crown projection from recorded crown spread,02_gairoju.zip,172,inside_wider,Original source feature or statistical unit; values not recomputed
+90,173,Tree crown projection from recorded crown spread,02_gairoju.zip,173,inside_wider,Original source feature or statistical unit; values not recomputed
+91,174,Tree crown projection from recorded crown spread,02_gairoju.zip,174,inside_wider,Original source feature or statistical unit; values not recomputed
+92,175,Tree crown projection from recorded crown spread,02_gairoju.zip,175,inside_wider,Original source feature or statistical unit; values not recomputed
+93,176,Tree crown projection from recorded crown spread,02_gairoju.zip,176,inside_wider,Original source feature or statistical unit; values not recomputed
+94,177,Tree crown projection from recorded crown spread,02_gairoju.zip,177,inside_wider,Original source feature or statistical unit; values not recomputed
+95,178,Tree crown projection from recorded crown spread,02_gairoju.zip,178,inside_wider,Original source feature or statistical unit; values not recomputed
+96,179,Tree crown projection from recorded crown spread,02_gairoju.zip,179,inside_wider,Original source feature or statistical unit; values not recomputed
+97,180,Tree crown projection from recorded crown spread,02_gairoju.zip,180,inside_wider,Original source feature or statistical unit; values not recomputed
+98,181,Tree crown projection from recorded crown spread,02_gairoju.zip,181,inside_wider,Original source feature or statistical unit; values not recomputed
+99,182,Tree crown projection from recorded crown spread,02_gairoju.zip,182,inside_wider,Original source feature or statistical unit; values not recomputed
+100,183,Tree crown projection from recorded crown spread,02_gairoju.zip,183,inside_wider,Original source feature or statistical unit; values not recomputed
+101,184,Tree crown projection from recorded crown spread,02_gairoju.zip,184,inside_wider,Original source feature or statistical unit; values not recomputed
+102,185,Tree crown projection from recorded crown spread,02_gairoju.zip,185,inside_wider,Original source feature or statistical unit; values not recomputed
+103,186,Tree crown projection from recorded crown spread,02_gairoju.zip,186,inside_wider,Original source feature or statistical unit; values not recomputed
+104,187,Tree crown projection from recorded crown spread,02_gairoju.zip,187,inside_wider,Original source feature or statistical unit; values not recomputed

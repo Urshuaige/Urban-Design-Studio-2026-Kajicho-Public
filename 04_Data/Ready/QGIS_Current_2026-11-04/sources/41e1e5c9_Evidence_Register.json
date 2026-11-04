@@ -1,0 +1,78 @@
+[
+  {
+    "id": "E01",
+    "source": "User field photograph IMG_0505",
+    "captured_at": "2026-10-25T11:07:52+09:00",
+    "path": "06_Outputs/Kajicho_Site_Info_2026-10-25/source-snapshot/dist/impressions/photos/IMG_0505.jpg",
+    "supports": "Hoarded cleared east core north of the former school; surrounding surviving facades constrain the selection",
+    "position_error_m": 39.99756345,
+    "note": "GPS alone does not define parcel boundaries; used with heading, surviving facades, street block and address points."
+  },
+  {
+    "id": "E02",
+    "source": "Community interview P080",
+    "date": "2026-10-25",
+    "path": "07_Team/Fieldwork/2026-10-25_Community_Interview/Translation/Chinese_Translation.json",
+    "audio_anchor_seconds": 1461.459,
+    "supports": "Large cleared Sumitomo site observed and discussed; temporary parking discussed as future use. Does not establish parcel ownership boundaries."
+  },
+  {
+    "id": "E03",
+    "source": "Original demolition report, Kensetsutsushin Shimbun",
+    "published_on": "2025-03-06",
+    "url": "https://www.kensetsunews.com/web-kan/1055748",
+    "supports": "14 physical buildings planned for demolition at Kajicho 2-5-1,4,7,8,9,10,11,12,14. The GIS-object selection is not a one-to-one match to that physical-building count."
+  },
+  {
+    "id": "E04",
+    "source": "GSI AddressSearch house-reference points",
+    "retrieved_on": "2026-10-28",
+    "raw": "04_Data/Raw/Building_Update_2026-10-28/GSI_Block_Address_Points.json",
+    "supports": "Geolocate addresses 1–16 of Kajicho 2-5. Address points are not cadastral polygons; ambiguous west/south cases are retained for review."
+  },
+  {
+    "id": "E05",
+    "source": "Live OpenStreetMap API extract",
+    "retrieved_on": "2026-10-28",
+    "raw": "04_Data/Raw/Building_Update_2026-10-28/OSM_Live_2026-10-28.osm",
+    "license": "© OpenStreetMap contributors; ODbL 1.0",
+    "supports": "Current mapped building and parking/construction references. Missing building coverage alone is not demolition evidence."
+  },
+  {
+    "id": "E06",
+    "source": "GSI existing road/building-map snapshot",
+    "dataset_date": "2026-07-01",
+    "supports": "Independent geometry comparison. Dataset release date is not a building-observation date; source disagreements retained."
+  },
+  {
+    "id": "E07",
+    "source": "Bank demolition public construction register and live land-use polygon",
+    "url": "https://www.kensetsu-databank.co.jp/kaitai-tokyo/osirase/month.php?target=202412",
+    "osm_url": "https://www.openstreetmap.org/way/1465785089",
+    "osm_updated_on": "2026-01-10",
+    "supports": "Mitsui Sumitomo Bank Kanda station-front building demolition, Kajicho 2-2-1; start scheduled 2025-01-14. Live OSM maps the parcel as construction. Treat as demolition/construction site, not as a completed-standing old building; exact clearance date not assigned."
+  },
+  {
+    "id": "E08",
+    "source": "Live surface-parking polygon",
+    "url": "https://www.openstreetmap.org/way/174758249",
+    "osm_updated_on": "2016-11-22",
+    "supports": "Footprint 426 lies within mapped surface parking, with no current OSM or GSI building coverage and an open/shadowed surface in the imagery. Does not date the demolition."
+  },
+  {
+    "id": "E09",
+    "source": "Esri World Imagery / Vantor",
+    "metadata_acquisition_date": "2026-01-16",
+    "native_resolution_m": 0.34,
+    "stated_accuracy_m": 8.47,
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "raw": "04_Data/Raw/Building_Update_2026-10-28/Esri_Identify_School.json",
+    "supports": "High-resolution visual comparison and ground/roof check. Still shows structures removed in the later field evidence; not sufficient to establish October 2026 presence."
+  },
+  {
+    "id": "E10",
+    "source": "Public parking register for address 2-5-14",
+    "url": "https://www.s-park.jp/map/512704",
+    "supports": "Parking activity at the address; exact correspondence to model 830 is uncertain, so model 830 is retained for review."
+  }
+]

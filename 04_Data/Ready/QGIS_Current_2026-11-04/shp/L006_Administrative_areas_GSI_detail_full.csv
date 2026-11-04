@@ -1,0 +1,9 @@
+﻿ROW_ID,__wider_pk,vt_code,source_tile,source_feature,data_date,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,2,1103,16/58212/25803,0,2026-07-01,2,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+2,3,1103,16/58212/25804,0,2026-07-01,3,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+3,4,1103,16/58212/25804,1,2026-07-01,4,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+4,6,1103,16/58212/25805,1,2026-07-01,6,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+5,7,1103,16/58213/25803,0,2026-07-01,7,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+6,8,1103,16/58213/25804,0,2026-07-01,8,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+7,9,1103,16/58213/25804,1,2026-07-01,9,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+8,10,1103,16/58213/25805,0,2026-07-01,10,clipped_to_wider,Original source feature or statistical unit; values not recomputed

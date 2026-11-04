@@ -1,0 +1,9 @@
+﻿source_field,shp_field,shp_type,dbf_width_bytes,null_bit,storage,source_non_null,source_null,source_max_text_bytes
+__wider_pk,wider_pk,integer,11,0,shp_and_csv,1,0,
+name_en,name_en,text,20,1,shp_and_csv,1,0,20
+side_m,side_m,integer,11,2,shp_and_csv,1,0,
+area_km2,area_km2,real,20,3,shp_and_csv,1,0,
+purpose,purpose,text,53,4,shp_and_csv,1,0,53
+delivery_source_fid,delivery_s,integer,11,5,shp_and_csv,1,0,
+delivery_geometry,delivery_g,text,16,6,shp_and_csv,1,0,16
+delivery_value_scope,delivery_v,text,66,7,shp_and_csv,1,0,66

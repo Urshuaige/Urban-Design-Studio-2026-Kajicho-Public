@@ -1,0 +1,20 @@
+name: Current team package
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare one current map and GIS package
+        run: python3 08_Scripts/prepare_current_team_package.py --output delivery/current
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Kajicho_Current_2026-10-18
+          path: delivery/current/
+          include-hidden-files: false
+          compression-level: 6
+          retention-days: 30
+          if-no-files-found: error

@@ -1,0 +1,17 @@
+﻿ROW_ID,__wider_pk,osm_id,name_en,scope_relation,ward_relation,source_date,source,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,5585,way/190375727,Context footprint,crosses wider boundary,inside,2026-10-25,OpenStreetMap,5585,whole_building_intersects_wider,Complete source building; original attributes and analysis membership unchanged
+2,5587,way/190424877,Context footprint,crosses wider boundary,inside,2026-10-25,OpenStreetMap,5587,whole_building_intersects_wider,Complete source building; original attributes and analysis membership unchanged
+3,5633,way/191732164,Context footprint,crosses wider boundary,inside,2026-10-25,OpenStreetMap,5633,whole_building_intersects_wider,Complete source building; original attributes and analysis membership unchanged
+4,5691,way/208431942,Context footprint,crosses wider boundary,inside,2026-10-25,OpenStreetMap,5691,whole_building_intersects_wider,Complete source building; original attributes and analysis membership unchanged
+5,5702,way/208431954,Context footprint,crosses wider boundary,inside,2026-10-25,OpenStreetMap,5702,whole_building_intersects_wider,Complete source building; original attributes and analysis membership unchanged
+6,6080,way/217378908,Context footprint,crosses wider boundary,inside,2026-10-25,OpenStreetMap,6080,whole_building_intersects_wider,Complete source building; original attributes and analysis membership unchanged
+7,6081,way/217378909,Context footprint,crosses wider boundary,inside,2026-10-25,OpenStreetMap,6081,whole_building_intersects_wider,Complete source building; original attributes and analysis membership unchanged
+8,6091,way/217380129,Context footprint,crosses wider boundary,inside,2026-10-25,OpenStreetMap,6091,whole_building_intersects_wider,Complete source building; original attributes and analysis membership unchanged
+9,7857,way/231715907,Context footprint,outside wider area,crosses ward boundary,2026-10-25,OpenStreetMap,7857,whole_building_intersects_wider,Complete source building; original attributes and analysis membership unchanged
+10,8058,way/231716182,Context footprint,outside wider area,inside,2026-10-25,OpenStreetMap,8058,whole_building_intersects_wider,Complete source building; original attributes and analysis membership unchanged
+11,8061,way/231716185,Context footprint,outside wider area,crosses ward boundary,2026-10-25,OpenStreetMap,8061,whole_building_intersects_wider,Complete source building; original attributes and analysis membership unchanged
+12,8562,way/237806303,Context footprint,crosses wider boundary,inside,2026-10-25,OpenStreetMap,8562,whole_building_intersects_wider,Complete source building; original attributes and analysis membership unchanged
+13,9632,way/651691592,Context footprint,crosses wider boundary,inside,2026-10-25,OpenStreetMap,9632,whole_building_intersects_wider,Complete source building; original attributes and analysis membership unchanged
+14,10243,way/679217136,Context footprint,crosses wider boundary,inside,2026-10-25,OpenStreetMap,10243,whole_building_intersects_wider,Complete source building; original attributes and analysis membership unchanged
+15,10253,way/679217147,Context footprint,crosses wider boundary,inside,2026-10-25,OpenStreetMap,10253,whole_building_intersects_wider,Complete source building; original attributes and analysis membership unchanged
+16,10254,way/679217148,Context footprint,crosses wider boundary,inside,2026-10-25,OpenStreetMap,10254,whole_building_intersects_wider,Complete source building; original attributes and analysis membership unchanged

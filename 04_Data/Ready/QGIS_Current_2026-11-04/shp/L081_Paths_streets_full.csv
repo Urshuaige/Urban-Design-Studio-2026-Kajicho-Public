@@ -1,0 +1,5 @@
+﻿ROW_ID,__wider_pk,name_en,source,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,1,Kanda Kanamono-dori St.,"OSM streets, project snapshot 2026-10-13",1,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+2,2,Kanda Fureai-dori St.,"OSM streets, project snapshot 2026-10-13",2,inside_wider,Original source feature or statistical unit; values not recomputed
+3,3,Kanda Heisei-dori St.,"OSM streets, project snapshot 2026-10-13",3,inside_wider,Original source feature or statistical unit; values not recomputed
+4,4,Kamishirakabebashi underpass,"OSM way 1436770441, approximate",4,clipped_to_wider,Original source feature or statistical unit; values not recomputed

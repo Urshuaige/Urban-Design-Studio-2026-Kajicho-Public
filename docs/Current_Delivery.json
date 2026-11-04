@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-18",
+  "package_url": "https://drive.google.com/file/d/1zSJaSWM6WXMdMsgJQJG5Nd6M9kechosz/view",
+  "source_url": "https://github.com/Urshuaige/Urban-Design-Studio-2026-Kajicho",
+  "qgis": "05_QGIS/Projects/Kanda_Nihonbashi_Study_2026-10-18.qgz",
+  "gis": "04_Data/Ready/Study_Area_2026-10-18/Kanda_Nihonbashi_Study.gpkg",
+  "maps": "06_Outputs/Study_Area_2026-10-18/maps",
+  "building_rule": "Exact covers(full footprint); original geometry unchanged",
+  "wider_models": 1074,
+  "primary_models": 277,
+  "spatial_layers": 20,
+  "analysis_layers": [
+    "analysis_buildings_wider",
+    "analysis_buildings_primary"
+  ],
+  "context_role": "Raw surroundings are retained separately; excluded from current building statistics.",
+  "archive_policy": "One current Drive ZIP. Superseded generated packages and map exports removed from active delivery.",
+  "delivery_receipt": "Delivery_Receipt_2026-10-18.json",
+  "package_source_commit": "77060f5361dbf9e1d4f121932f84f0c28347110e",
+  "drive_write_status": "succeeded"
+}

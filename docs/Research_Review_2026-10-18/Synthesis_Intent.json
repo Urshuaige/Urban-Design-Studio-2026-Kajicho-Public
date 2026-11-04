@@ -1,0 +1,104 @@
+{
+  "manifest_version": "1.0",
+  "manifest_id": "kajicho-integrative-20261018",
+  "emitted_by": "root-synthesis",
+  "mode": "lit-review",
+  "form": "integrative",
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim_text": "The course joins planning support and implementation support toward2050.",
+      "planned_refs": [
+        "brief-2026"
+      ],
+      "intended_evidence_kind": "normative"
+    },
+    {
+      "claim_id": "C02",
+      "claim_text": "Urban-systems design links goals, stocks/flows, performance models and decisions.",
+      "planned_refs": [
+        "yang-yamagata-2019",
+        "jica-2022-smart-city",
+        "ramnarine-2025-canvas"
+      ],
+      "intended_evidence_kind": "theoretical"
+    },
+    {
+      "claim_id": "C03",
+      "claim_text": "Building energy scenarios require climate, geometry, archetypes and use inputs; whole-life carbon is a separate accounting frame.",
+      "planned_refs": [
+        "reinhart-cerezo-2016-ubem",
+        "alorabi-2025-net-zero",
+        "rics-2023-wlca-v3",
+        "wri-c40-iclei-2021-gpc11"
+      ],
+      "intended_evidence_kind": "methodological"
+    },
+    {
+      "claim_id": "C04",
+      "claim_text": "Radiation and wind matter for pedestrian thermal interpretation; a heat-index routing prototype does not validate street microclimate or health outcomes.",
+      "planned_refs": [
+        "broede-2012-utci",
+        "umep-solweig-manual",
+        "zeng-2025-heat"
+      ],
+      "intended_evidence_kind": "methodological"
+    },
+    {
+      "claim_id": "C05",
+      "claim_text": "Wind CFD needs numerical and physical validation; neutral-flow guidance alone does not establish wind–heat validity.",
+      "planned_refs": [
+        "franke-2007-cost732",
+        "tominaga-2008-aij-cfd"
+      ],
+      "intended_evidence_kind": "methodological"
+    },
+    {
+      "claim_id": "C06",
+      "claim_text": "Runoff and blue-green options require catchment and drainage relationships as well as public-space design.",
+      "planned_refs": [
+        "epa-swmm",
+        "copenhagen-enghaveparken-cph1",
+        "copenhagen-enghaveparken-cph2"
+      ],
+      "intended_evidence_kind": "methodological"
+    },
+    {
+      "claim_id": "C07",
+      "claim_text": "Collaboration has institutional, leadership, trust and responsibility conditions; multiple actors alone do not establish effectiveness.",
+      "planned_refs": [
+        "ansell-gash-2008-collaborative",
+        "ostrom-2010-polycentric",
+        "jica-2022-smart-city"
+      ],
+      "intended_evidence_kind": "theoretical"
+    },
+    {
+      "claim_id": "C08",
+      "claim_text": "Selected global practices illustrate transferable mechanisms under local conditions; observed, modelled and intended outcomes remain distinct.",
+      "planned_refs": [
+        "barcelona-superblocks-bcn2",
+        "paris-oasis-par2",
+        "punggol-digital-district-pdd1",
+        "new-york-cool-neighborhoods-nyc1",
+        "london-better-bankside-lon2"
+      ],
+      "intended_evidence_kind": "empirical"
+    },
+    {
+      "claim_id": "C09",
+      "claim_text": "Candidate studio paths and suggested team tasks are proposals for discussion, not a selected pilot, consensus or simulation result.",
+      "planned_refs": [
+        "brief-2026"
+      ],
+      "intended_evidence_kind": "proposal"
+    }
+  ],
+  "manifest_negative_constraints": [
+    "No exhaustive systematic-review, PRISMA, causal health benefit or universal effect-size claim.",
+    "No modelled energy/heat savings transferred numerically to Kajicho.",
+    "No structural/parcel judgement or mandatory demolition inferred solely from building age.",
+    "No OSM POI count interpreted as footfall, employment or a complete business census.",
+    "No human-read attestation, accepted CFD baseline, field data collection or new numerical experiment claimed."
+  ]
+}

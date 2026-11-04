@@ -1,0 +1,170 @@
+{
+  "host": "ubuntu-2004",
+  "method": "Official recorded planted green and crown-spread projections; UMEP directional morphology on10m main and5m sensitivity grids;2m building-only shadows; Google satellite screenshot reference",
+  "umep_commit": "0a4b7f97391ac1b9188ee49aa76f078bb3d389de",
+  "area_m2": 424371.22196776327,
+  "buildings_context": 3535,
+  "height_imputed": 14,
+  "height_median_fallback": 0,
+  "weather": {
+    "summer_day": {
+      "requested_hours": 828,
+      "valid_hours": 827,
+      "calm_hours": 0,
+      "missing_hours": 1,
+      "mean_speed_ms": 3.7413542926239423,
+      "median_speed_ms": 3.8,
+      "top_directions": [
+        {
+          "direction": "SSE",
+          "pct_noncalm": 32.769044740024185
+        },
+        {
+          "direction": "SE",
+          "pct_noncalm": 19.830713422007253
+        },
+        {
+          "direction": "S",
+          "pct_noncalm": 18.016928657799276
+        }
+      ]
+    },
+    "summer_night": {
+      "requested_hours": 1380,
+      "valid_hours": 1380,
+      "calm_hours": 1,
+      "missing_hours": 0,
+      "mean_speed_ms": 2.71804347826087,
+      "median_speed_ms": 2.5,
+      "top_directions": [
+        {
+          "direction": "S",
+          "pct_noncalm": 29.296591733139955
+        },
+        {
+          "direction": "SSE",
+          "pct_noncalm": 19.289340101522843
+        },
+        {
+          "direction": "SSW",
+          "pct_noncalm": 9.717186366932559
+        }
+      ]
+    },
+    "hot_day": {
+      "requested_hours": 501,
+      "valid_hours": 501,
+      "calm_hours": 0,
+      "missing_hours": 0,
+      "mean_speed_ms": 3.88562874251497,
+      "median_speed_ms": 4.0,
+      "top_directions": [
+        {
+          "direction": "SSE",
+          "pct_noncalm": 35.528942115768466
+        },
+        {
+          "direction": "SE",
+          "pct_noncalm": 24.550898203592812
+        },
+        {
+          "direction": "S",
+          "pct_noncalm": 15.169660678642716
+        }
+      ]
+    }
+  },
+  "official_sources": [
+    {
+      "layer": "official_01_kouenryokuchi_0",
+      "features": 4,
+      "geometry_types": {
+        "Polygon": 4
+      }
+    },
+    {
+      "layer": "official_01_kouenryokuchi_1",
+      "features": 8,
+      "geometry_types": {
+        "Polygon": 8
+      }
+    },
+    {
+      "layer": "official_02_gairoju_2",
+      "features": 25,
+      "geometry_types": {
+        "LineString": 25
+      }
+    },
+    {
+      "layer": "official_02_gairoju_3",
+      "features": 267,
+      "geometry_types": {
+        "Point": 267
+      }
+    },
+    {
+      "layer": "official_09_minkan_4",
+      "features": 8,
+      "geometry_types": {
+        "Polygon": 5,
+        "MultiPolygon": 3
+      }
+    }
+  ],
+  "limitations": [
+    "Recorded green cover is incomplete, with mixed source dates; absence of records does not prove absence of vegetation.",
+    "Crown projection uses measured spread as a circle; it is not time-specific tree shade.",
+    "UMEP morphology shows building obstruction, not local wind speed; tree drag not modeled.",
+    "Building-only geometric shade uses 21 July 09/12/15 JST. No tree shadow, cooling-load or air-temperature prediction.",
+    "Google Maps imagery has unverified capture date;2026 copyright is not a capture date."
+  ],
+  "adopted_vegetation_method": "Official recorded planted green and tree crown-spread circles, unioned without overlap double counting. RGB classification rejected after visual QA and poor threshold stability.",
+  "rgb_status": "Not adopted. Exploratory masks and photo samples retained only as QA evidence.",
+  "recorded_green": {
+    "area_m2": 5426.7333118063625,
+    "coverage_pct": 1.2787703385359614,
+    "tree_points_wider": 125,
+    "tree_points_context": 267,
+    "trees_with_crown_spread_wider": 91,
+    "crown_area_wider_m2": 1146.1330228741263,
+    "planted_green_wider_m2": 4280.600288932238,
+    "union_crown_width_minus20_pct": 1.181838118615447,
+    "union_crown_width_plus20_pct": 1.3946023413006796
+  },
+  "open_ground_building_shade_pct": {
+    "9": 59.03397043564564,
+    "12": 23.060497150333088,
+    "15": 52.35717830343314
+  },
+  "validation": {
+    "all_fai_finite": true,
+    "all_green_pct_in_range": true,
+    "cells_valid": true,
+    "sum_cell_area_matches_aoi_m2": 1.7462298274040222e-10
+  },
+  "current_grid_summary": "Fine_Grid_Summary.json",
+  "current_image_reference": "Google_Reference_QA.json",
+  "superseded_50m_screening_counts": {
+    "Low recorded green": 116,
+    "Low recorded green / high obstruction": 64,
+    "Other cells": 20,
+    "High obstruction": 4
+  },
+  "superseded_50m_run_metadata": {
+    "cells": 204,
+    "wind_radius_rank_correlation": {
+      "50": 0.8399940632266363,
+      "150": 0.8536104769914694
+    },
+    "fai_high_threshold": 1.0575898452445123,
+    "wall_seconds": 10.115012960042804,
+    "workers": 67,
+    "pid": 17523,
+    "image_valid_pct": 100.0
+  },
+  "current_grid_counts": {
+    "10m": 4424,
+    "5m": 17310
+  }
+}

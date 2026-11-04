@@ -1,0 +1,163 @@
+{
+  "snapshot_utc": "2026-10-18T04:36:20+00:00",
+  "hosts": [
+    {
+      "hostname": "owner-Super-Server",
+      "logical_cpus": 40,
+      "load_1_5_15": [
+        12.236328125,
+        7.3408203125,
+        5.140625
+      ],
+      "cpu_idle_fraction": 0.615365302535777,
+      "unused_core_equivalent": 24.6,
+      "memory_gib": {
+        "MemTotal": 251.3,
+        "MemAvailable": 133.1
+      },
+      "gpu": [
+        {
+          "index": "0",
+          "uuid": "GPU-36f20f8e-2709-5446-28d5-09ee0f10fb7a",
+          "name": "NVIDIA GeForce RTX 4090",
+          "total_memory_mib": "24564",
+          "free_memory_mib": "8284",
+          "utilization_pct": "100"
+        }
+      ],
+      "gpu_processes": [
+        "GPU-36f20f8e-2709-5446-28d5-09ee0f10fb7a, 2164329, /home/sasaki/anaconda3/envs/mapmatch/bin/python, 956",
+        "GPU-36f20f8e-2709-5446-28d5-09ee0f10fb7a, 3231353, /mnt/free/evacfusion/EvacFusion_PaperBaselines_v3_20260923/.venv-baselines/bin/python, 7124",
+        "GPU-36f20f8e-2709-5446-28d5-09ee0f10fb7a, 3242554, python, 4292",
+        "GPU-36f20f8e-2709-5446-28d5-09ee0f10fb7a, 3246268, python, 3340"
+      ],
+      "scheduler_commands": [],
+      "alias": "iis-lab",
+      "reachable": true
+    },
+    {
+      "hostname": "ubuntu-2004",
+      "logical_cpus": 72,
+      "load_1_5_15": [
+        0.05,
+        0.1,
+        3.78
+      ],
+      "cpu_idle_fraction": 0.997919267582189,
+      "unused_core_equivalent": 71.9,
+      "memory_gib": {
+        "MemTotal": 226.7,
+        "MemAvailable": 141.4
+      },
+      "gpu": [
+        {
+          "index": "0",
+          "uuid": "GPU-a28636f1-044d-3eed-d64d-e7024685404b",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "total_memory_mib": "40960",
+          "free_memory_mib": "40428",
+          "utilization_pct": "0"
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-19ef3b1c-2ea4-f745-51bb-6a8506d4e0e0",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "total_memory_mib": "40960",
+          "free_memory_mib": "40428",
+          "utilization_pct": "0"
+        },
+        {
+          "index": "2",
+          "uuid": "GPU-08d6656c-38a8-c5ea-eda0-270be26485d5",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "total_memory_mib": "40960",
+          "free_memory_mib": "40428",
+          "utilization_pct": "0"
+        },
+        {
+          "index": "3",
+          "uuid": "GPU-9404f6db-fd9b-c8bd-a53e-6ddd4c6a123c",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "total_memory_mib": "40960",
+          "free_memory_mib": "40428",
+          "utilization_pct": "0"
+        }
+      ],
+      "gpu_processes": [],
+      "scheduler_commands": [],
+      "alias": "mdx1",
+      "reachable": true
+    },
+    {
+      "hostname": "ubuntu-2004",
+      "logical_cpus": 72,
+      "load_1_5_15": [
+        23.63,
+        22.85,
+        25.3
+      ],
+      "cpu_idle_fraction": 0.7024403771491958,
+      "unused_core_equivalent": 50.6,
+      "memory_gib": {
+        "MemTotal": 226.7,
+        "MemAvailable": 185.5
+      },
+      "gpu": [
+        {
+          "index": "0",
+          "uuid": "GPU-1aa9a351-0dd2-370a-8c1b-43cc75e2cffc",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "total_memory_mib": "40960",
+          "free_memory_mib": "23260",
+          "utilization_pct": "100"
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-8cc5c72b-f492-4b6e-365b-627cb15df3d6",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "total_memory_mib": "40960",
+          "free_memory_mib": "21540",
+          "utilization_pct": "98"
+        },
+        {
+          "index": "2",
+          "uuid": "GPU-0ea7be6e-d5c8-e091-acc6-92cf1b6cc1ea",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "total_memory_mib": "40960",
+          "free_memory_mib": "30952",
+          "utilization_pct": "88"
+        },
+        {
+          "index": "3",
+          "uuid": "GPU-b7cf67ab-5152-fa77-2751-4d28a432b40c",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "total_memory_mib": "40960",
+          "free_memory_mib": "40428",
+          "utilization_pct": "0"
+        }
+      ],
+      "gpu_processes": [
+        "GPU-1aa9a351-0dd2-370a-8c1b-43cc75e2cffc, 3465152, /fast/Wang/ChangeState/.venv/bin/python, 8958",
+        "GPU-1aa9a351-0dd2-370a-8c1b-43cc75e2cffc, 3465232, /fast/Wang/ChangeState/.venv/bin/python, 8192",
+        "GPU-8cc5c72b-f492-4b6e-365b-627cb15df3d6, 3497508, /fast/Wang/ChangeState/.venv/bin/python, 9466",
+        "GPU-8cc5c72b-f492-4b6e-365b-627cb15df3d6, 3498628, /fast/Wang/ChangeState/.venv/bin/python, 9402",
+        "GPU-0ea7be6e-d5c8-e091-acc6-92cf1b6cc1ea, 3498725, /fast/Wang/ChangeState/.venv/bin/python, 9466"
+      ],
+      "scheduler_commands": [],
+      "alias": "mdx2",
+      "reachable": true
+    }
+  ],
+  "capacity_hint": {
+    "cpu": "mdx1",
+    "gpu": {
+      "host": "mdx2",
+      "index": "3"
+    }
+  },
+  "selection_note": "Capacity hints only: check job memory, GPU compatibility, running processes and scheduler allocation. Explicit user placement overrides these hints.",
+  "selected_cpu_host": "mdx1",
+  "selection_reason": "Largest compatible unused CPU capacity for the nine-worker PNG batch; GIS separately saved/read on IIS QGIS3.44 after older mdx1 provider failure.",
+  "workers": 9,
+  "process_tree_address_space_cap_gib": 44
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "Shinkosai",
+    "path": "04_Data/Raw/Festival_Routes_2025/Shinkosai_2025.pdf",
+    "url": "https://kandamatsuri.com/img/download/pdf/root_shinkosai.pdf?date=20250415",
+    "source_year": 2025,
+    "download_date": "2026-10-27",
+    "bytes": 844202,
+    "copyright": "Publisher retains copyright; source original unchanged"
+  },
+  {
+    "id": "Mikoshi_Miyairi",
+    "path": "04_Data/Raw/Festival_Routes_2025/Mikoshi_Miyairi_2025.pdf",
+    "url": "https://kandamatsuri.com/img/download/pdf/root_mikoshimiyairi.pdf?date=2025",
+    "source_year": 2025,
+    "download_date": "2026-10-27",
+    "bytes": 853480,
+    "copyright": "Publisher retains copyright; source original unchanged"
+  },
+  {
+    "id": "Tsukematsuri",
+    "path": "04_Data/Raw/Festival_Routes_2025/Tsukematsuri_2025.pdf",
+    "url": "https://kandamatsuri.com/img/download/pdf/root_tsukematsuri.pdf?date=2025",
+    "source_year": 2025,
+    "download_date": "2026-10-27",
+    "bytes": 890760,
+    "copyright": "Publisher retains copyright; source original unchanged"
+  },
+  {
+    "id": "GSI_Roads",
+    "url": "https://github.com/gsi-cyberjapan/optimal_bvmap",
+    "source_file": "Master_Context_GSI_2026.gpkg / gsi_rdcl",
+    "data_date": "2026-07-01",
+    "download_date": "2026-10-26",
+    "crs": "EPSG:6677",
+    "license": "GSI Content Use Terms; attribution required",
+    "role": "Road geometry; original geometry retained alongside derived routes"
+  },
+  {
+    "id": "OSM_Reference",
+    "url": "https://www.openstreetmap.org/copyright",
+    "data_date": "2026-10-25; additional Nominatim read 2026-10-27",
+    "license": "OpenStreetMap contributors, ODbL 1.0",
+    "role": "Street names, junctions and named places. One crossing way/556882330 supports intersection reconstruction."
+  },
+  {
+    "id": "Official_Descriptions",
+    "urls": [
+      "https://kandamatsuri.com/shinkosai/",
+      "https://kandamatsuri.com/mikoshimiyairi/",
+      "https://kandamatsuri.com/tsukematsuri/",
+      "https://kandamatsuri.ch/page/11",
+      "https://kandamatsuri.ch/page/10",
+      "https://kandamatsuri.ch/page/9",
+      "https://kandamatsuri.ch/page/8",
+      "https://kandamatsuri.ch/page/12"
+    ],
+    "source_year": 2025,
+    "read_date": "2026-10-27",
+    "role": "Route order, named streets, bridges, participant groups and event checkpoints"
+  },
+  {
+    "id": "Masakado_Heritage_Position",
+    "url": "https://heritagemap.nabunken.go.jp/statistic/95009711-将門塚.html",
+    "role": "Published heritage location; not exact procession position"
+  },
+  {
+    "id": "Chiyoda_Combined_Map",
+    "url": "https://visit-chiyoda.tokyo/kandamatsuri/img/kanda-fes_2025.pdf",
+    "source_year": 2025,
+    "read_date": "2026-10-27",
+    "status": "Read through web tool; local download returned HTTP 503. Not bundled."
+  }
+]

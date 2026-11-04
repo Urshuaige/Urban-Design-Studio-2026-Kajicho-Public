@@ -1,0 +1,544 @@
+{
+  "source_snapshot_date": "2026-10-18",
+  "original_source_version": 25,
+  "topics": [
+    {
+      "id": "climate_mechanisms",
+      "title": {
+        "zh": "为什么先看楼宇用能，同时保住街道上的人",
+        "en": "Prioritize building energy while protecting daily users",
+        "ja": "建物のエネルギーと利用者の安全を同時に扱う"
+      },
+      "source_fact": {
+        "zh": "区2021减碳计划以2013年为基准，设定2030年能源起源CO₂总量减少42.3%的目标；其2018年基线中业务部门约占79%。适应计划则把高龄者、儿童和基础疾病人群列为暑热重点，提出冷房设施的「ひと涼みスポット」、信息提醒和遮阳，并要求同时检查对周边环境的影响。",
+        "en": "The 2021 ward mitigation plan targets a 42.3% cut in energy-related CO₂ by 2030 from 2013; business uses accounted for about 79% in its 2018 baseline. The adaptation plan prioritizes vulnerable users, cooled rest spaces, warnings and shade, while asking that wider environmental effects be checked.",
+        "ja": "区の2021計画は2013年比で2030年度のエネルギー起源CO₂42.3％削減を目標とし、2018年の業務部門は約79％を占める。適応計画は高齢者、子ども、基礎疾患のある人を重視し、冷房休憩所、情報、日除けと周辺への影響確認を挙げる。"
+      },
+      "scope": {
+        "zh": "2021区级计划；地方应用需要鍛冶町的用能和使用者资料。",
+        "en": "The 2021 ward plans; local application needs Kajicho energy and user evidence.",
+        "ja": "2021年の区計画。適用には鍛冶町のエネルギーと利用者資料が必要。"
+      },
+      "evidence": [
+        {
+          "source_id": "mitigation",
+          "document_title": "千代田区地球温暖化対策地域推進計画2021",
+          "url": "https://www.city.chiyoda.lg.jp/documents/27609/suishinkekaku2021_2.pdf",
+          "year": 2021,
+          "page": "pp.19,27–28",
+          "pdf_page": [
+            25,
+            33,
+            34
+          ],
+          "excerpt": "",
+          "note": "2018 baseline; 2030 target against 2013 energy-related CO2"
+        },
+        {
+          "source_id": "adaptation",
+          "document_title": "千代田区気候変動適応計画2021",
+          "url": "https://www.city.chiyoda.lg.jp/documents/27610/kikohendotekiokeikaku2021_2.pdf",
+          "year": 2021,
+          "page": "pp.16,27–30",
+          "pdf_page": [
+            22,
+            33,
+            34,
+            35,
+            36
+          ],
+          "excerpt": "",
+          "note": "Named cooling and shade measures; short- and long-term tradeoffs"
+        }
+      ]
+    },
+    {
+      "id": "two_precincts",
+      "title": {
+        "zh": "本场地跨两个地区策略，需要分段回应",
+        "en": "The core area intersects two planning strategies",
+        "ja": "対象地は二つの地区方針にまたがる"
+      },
+      "source_fact": {
+        "zh": "区 Master Plan 正文 p.184 将鍛冶町二丁目「一部」列入地区③，重点是秋叶原、神田、岩本町三站邻近性、第三空间和住宅商办协调；同页把鍛冶町一・二丁目「一部」列入地区④，强调从神田站东口到日本桥的复合城区、地上地下连接、绿化与环境防灾节点。",
+        "en": "Printed page 184 includes part of Kajicho 2 in precinct ③, emphasizing access to three stations, third places and a balance of housing and business. Precinct ④ includes parts of Kajicho 1 and 2 and focuses on the east Kanda Station–Nihonbashi mixed district, connections, green space and resilient hubs.",
+        "ja": "本文184頁では鍛冶町二丁目の一部を地区③とし、3駅への近接性、サードプレイス、住商業務の調和を重視する。鍛冶町一・二丁目の一部を含む地区④は、神田駅東口から日本橋へ続く複合市街地、地上地下の接続、緑、環境・防災拠点を重視する。"
+      },
+      "scope": {
+        "zh": "地区③含二丁目部分；地区④含一、二丁目部分。",
+        "en": "Precinct ③: part of Kajicho 2; precinct ④: parts of Kajicho 1 and 2.",
+        "ja": "地区③は二丁目の一部、地区④は一・二丁目の一部。"
+      },
+      "evidence": [
+        {
+          "source_id": "ward4",
+          "document_title": "千代田区都市計画マスタープラン 第4章",
+          "url": "https://www.city.chiyoda.lg.jp/documents/17862/toshimasu-4_2.pdf",
+          "year": 2021,
+          "page": "pp.182,184",
+          "pdf_page": [
+            72,
+            74
+          ],
+          "excerpt": "鍛冶町一・二丁目（一部）",
+          "note": "Both original page and policy map visually checked; PNGs retained"
+        }
+      ]
+    },
+    {
+      "id": "station_network",
+      "title": {
+        "zh": "把神田站、旧今川中学校与两条街道轴接成日常网络",
+        "en": "Connect the station, local hub and street axes",
+        "ja": "神田駅・旧今川中学校・街路軸をつなぐ"
+      },
+      "source_fact": {
+        "zh": "Master Plan p.182、184、186 将神田站周边列为魅力再生据点；中央通り连接秋叶原—神田—日本桥，神田平成通り承担东西回游，昭和通り等需要保持横断联系。地区④明确把「旧今川中学校」作为社区形成和防灾的核心；原图将其标在神田站东侧。",
+        "en": "Pages 182, 184 and 186 identify Kanda Station as a renewal hub. Chuo-dori links Akihabara, Kanda and Nihonbashi; Kanda Heisei-dori carries east–west circulation. Precinct ④ names the former Imagawa Junior High School as a community and disaster-management hub east of the station.",
+        "ja": "182・184・186頁は神田駅を魅力再生の拠点、中央通りを南北連携、神田平成通りを東西回遊の軸とする。地区④は「旧今川中学校」をコミュニティ形成と防災の核とし、図では駅東側に示す。"
+      },
+      "scope": {
+        "zh": "和泉桥地区方针；旧今川中学校是规划命名节点。",
+        "en": "Izumibashi guidance; the former school is a named planning node.",
+        "ja": "和泉橋地域の方針。旧今川中学校は計画上の指定地点。"
+      },
+      "evidence": [
+        {
+          "source_id": "ward4",
+          "document_title": "千代田区都市計画マスタープラン 第4章",
+          "url": "https://www.city.chiyoda.lg.jp/documents/17862/toshimasu-4_2.pdf",
+          "year": 2021,
+          "page": "pp.182,184,186",
+          "pdf_page": [
+            72,
+            74,
+            76
+          ],
+          "excerpt": "旧今川中学校",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "small_green",
+      "title": {
+        "zh": "绿化要适应小地块，并转化为可使用的空间",
+        "en": "Make limited green space useful at street level",
+        "ja": "限られた緑を使える空間にする"
+      },
+      "source_fact": {
+        "zh": "绿地计划 p.4以2018年资料给出和泉桥绿被率3.58%、千代田区23.22%；p.83解释多数町丁目低于5%，小地块与窄巷限制绿化余地。p.59提出地先、屋顶和墙面绿化；p.84要求有限绿地同时服务日常交流、雨水滞蓄和多主体维护。",
+        "en": "The green plan reports 2018 coverage of 3.58% in Izumibashi versus 23.22% for Chiyoda. It links limited planting space to small plots and narrow alleys. Its measures include frontage, roof and wall greening, social use, rainwater functions and shared maintenance.",
+        "ja": "緑の計画は2018年の和泉橋3.58％、区23.22％を示し、小敷地と路地による緑化余地の制約を説明する。地先・屋上・壁面緑化に加え、交流、雨水機能、複数主体の維持管理を求める。"
+      },
+      "scope": {
+        "zh": "和泉桥地区旧统计与区级绿化政策；实施候选需逐地点调查。",
+        "en": "Historic Izumibashi figures and ward greening policy; inspect individual candidate sites.",
+        "ja": "和泉橋の過去統計と区の緑化方針。各候補地点は要調査。"
+      },
+      "evidence": [
+        {
+          "source_id": "green1",
+          "document_title": "千代田区緑の基本計画 第1–4章",
+          "url": "https://www.city.chiyoda.lg.jp/documents/17827/01midori-keikaku-1-4_2.pdf",
+          "year": 2021,
+          "page": "p.4",
+          "pdf_page": [
+            7
+          ],
+          "excerpt": "",
+          "note": "2018 observation year; 2021 publication"
+        },
+        {
+          "source_id": "green2",
+          "document_title": "千代田区緑の基本計画 第5–7章",
+          "url": "https://www.city.chiyoda.lg.jp/documents/17827/02midori-keikaku-5-7_2.pdf",
+          "year": 2021,
+          "page": "pp.59,83–85",
+          "pdf_page": [
+            16,
+            40,
+            41,
+            42
+          ],
+          "excerpt": "",
+          "note": "p83 visually checked; figures refer to Izumibashi, not just Kajicho"
+        }
+      ]
+    },
+    {
+      "id": "street_identity",
+      "title": {
+        "zh": "把地方性落实到首层、巷道和立面连续性",
+        "en": "Translate local character into street-level decisions",
+        "ja": "界隈らしさを低層部と路地に具体化する"
+      },
+      "source_fact": {
+        "zh": "任务书把鍛冶町的地方性写为金物批零、手工业与办公商业积累；神田景观指南进一步把这种历史落实到砖砌高架、稲荷、巷道、历史立面，以及金物通り等街道的高度、面宽和墙面连续性。2020年7月清单列出山梨中央銀行東京支店（1-6-10）和太洋／丸石ビルディング（1-10-4）。",
+        "en": "The brief locates Kajicho’s identity in hardware trade, crafts and later office-commercial activity. The Kanda guide translates history into brick viaducts, shrines, alleys, façades and continuous height, frontage and wall alignment. Its July 2020 list identifies the Yamanashi Chuo Bank branch and Taiyo/Maruishi Building in Kajicho.",
+        "ja": "課題書は金物流通、手仕事、業務・商業の積み重ねを記す。景観指針は煉瓦高架、稲荷、路地、歴史的壁面と、通りの高さ・間口・壁面位置の連続へ具体化する。2020年7月の一覧には鍛冶町の山梨中央銀行東京支店、太洋・丸石ビルディングを挙げる。"
+      },
+      "scope": {
+        "zh": "神田地域景观指引；两项资源在鍛冶町一丁目。",
+        "en": "Kanda guidance; two named resources lie in Kajicho 1.",
+        "ja": "神田地域の指針。例示した2資源は鍛冶町一丁目。"
+      },
+      "evidence": [
+        {
+          "source_id": "landscape",
+          "document_title": "千代田区界隈別・重点地区景観まちづくりガイドライン 神田地域",
+          "url": "https://www.city.chiyoda.lg.jp/documents/4204/guideline-3_1.pdf",
+          "year": 2021,
+          "page": "PDF pp.23–26",
+          "pdf_page": [
+            23,
+            24,
+            25,
+            26
+          ],
+          "excerpt": "路地を活かす",
+          "note": "Resource list dated 2020-07; regional guidance revised 2021"
+        },
+        {
+          "source_id": "brief",
+          "document_title": "2026 Theme B: Building an Area Management Model for Decarbonization and Climate Resilience",
+          "url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+          "year": 2026,
+          "page": "p.5",
+          "pdf_page": [
+            5
+          ],
+          "excerpt": "Kanda Kanamono-dori",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "wider_links",
+      "title": {
+        "zh": "外围日本桥提供连接对象与比较经验",
+        "en": "Use Nihonbashi for connections and comparison",
+        "ja": "日本橋を接続先と比較対象として読む"
+      },
+      "source_fact": {
+        "zh": "日本桥川2021愿景把地上、地下、桥头和水岸步行网络连起来，并将建筑更新、开放空间、能源协作和地区持续运行并列。七之部2022愿景针对兜町—茅场町金融片区，指出办公偏重、停留功能不足和小街区更新困难，提出逐街道特色与分期更新。",
+        "en": "The 2021 river vision connects ground, underground, bridgehead and waterside routes with building renewal, open space, energy cooperation and district continuity. The 2022 Nanobe vision addresses Kabutocho–Kayabacho: office-heavy uses, limited places to stay and difficult renewal of small blocks.",
+        "ja": "川沿い2021ビジョンは地上・地下・橋詰・水辺の歩行網を、建物更新、空地、エネルギー連携、地区継続と結ぶ。七の部2022は兜町・茅場町の業務偏重、滞在機能不足、小街区更新を扱い、通りの特色と段階的更新を示す。"
+      },
+      "scope": {
+        "zh": "中央区官方愿景范围；是核心区的外围联系与对照。",
+        "en": "Official Chuo vision areas, used as wider links and comparison.",
+        "ja": "中央区ビジョンの対象範囲。重点範囲の周辺連携と比較。"
+      },
+      "evidence": [
+        {
+          "source_id": "river",
+          "document_title": "日本橋川沿いエリアのまちづくりビジョン2021",
+          "url": "https://www.city.chuo.lg.jp/documents/5126/kawazoivis2021.pdf",
+          "year": 2021,
+          "page": "pp.1,3–9",
+          "pdf_page": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "excerpt": "",
+          "note": ""
+        },
+        {
+          "source_id": "nanobe",
+          "document_title": "日本橋七の部地域まちづくりビジョン2022",
+          "url": "https://www.city.chuo.lg.jp/documents/5126/nihonbashi_2022_.pdf",
+          "year": 2022,
+          "page": "pp.1–3,6–8",
+          "pdf_page": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "excerpt": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "rules-site-capacity",
+      "title": {
+        "zh": "地块容量要沿街核算",
+        "en": "Capacity depends on the street",
+        "ja": "建築可能量は接道条件から読む"
+      },
+      "source_fact": {
+        "zh": "区官方图层在本区复核所涉及的用途地域为商业地域，指定容积率600%或800%、建蔽率80%，并属防火地域。建築基準法第43条原则上要求敷地与法定道路接触至少2 m；第52条还按前面道路宽度和跨分区敷地比例计算容积率，第53、56、61条分别涉及建蔽率、高度和防火。",
+        "en": "The reviewed ward zones are commercial, with designated FAR of 600% or 800%, a base building coverage ratio of 80%, and fire-zone designation. Article 43 of the Building Standards Act generally requires at least 2 m of legal-road frontage; Articles 52, 53, 56 and 61 govern FAR, coverage, height and fire performance. Road width and a site spanning zones affect permitted floor area.",
+        "ja": "区の公式図で今回照合した区域は商業地域で、指定容積率600％または800％、建ぺい率80％、防火地域である。建築基準法第43条は原則2 m以上の接道、第52条は前面道路幅員や複数区域にまたがる敷地の容積率を扱う。第53・56・61条は建ぺい率、高さ、防火性能に関わる。"
+      },
+      "scope": {
+        "zh": "鍛冶町一・二丁目；法律敷地和道路条件逐址确认",
+        "en": "Kajicho 1–2; legal sites and roads require individual confirmation",
+        "ja": "鍛冶町一・二丁目。敷地・道路条件は各地点で確認"
+      },
+      "evidence": [
+        {
+          "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/toshi/yotochiiki/chikuzu.html",
+          "document_title": "千代田区 都市計画情報・公式用途地域GIS",
+          "year": "map 2026-03-31",
+          "page": "GIS layer 11; reviewed objects 44,45,57",
+          "excerpt": "Official zone attributes: commercial; FAR 600/800; coverage 80; fire zone.",
+          "excerpt_kind": "source locator / concise paraphrase",
+          "verified_on": "2026-10-15",
+          "website_updated": "2026-05-28",
+          "download_date": "2026-10-14"
+        },
+        {
+          "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+          "document_title": "建築基準法",
+          "year": "1950; current API checked 2026-10-15",
+          "page": "Articles 43,52(2),(7),53,56,61",
+          "excerpt": "Site frontage; road-width FAR limit; area-weighted limits across zones.",
+          "excerpt_kind": "source locator / concise paraphrase",
+          "verified_on": "2026-10-15",
+          "download_date": "2026-10-15"
+        },
+        {
+          "url": "https://tokei-gis2.chiyodatoshikei.jp/server/rest/services/Map_services/youtochiiki/MapServer",
+          "document_title": "Official GIS overlay review",
+          "year": "2026",
+          "page": "26-footprint review, derived on 2026-10-14",
+          "excerpt": "25 of 26 flagged footprints cross official FAR boundaries.",
+          "excerpt_kind": "source locator / concise paraphrase",
+          "verified_on": "2026-10-15",
+          "processing": "Building projection intersection; significant overlap >=1 m² AND >=0.5%; EPSG:6677; legal sites not derived."
+        }
+      ]
+    },
+    {
+      "id": "rules-nearby-districts",
+      "title": {
+        "zh": "邻区如何保留居住与路地",
+        "en": "Nearby plans protect homes and lanes",
+        "ja": "隣接地区計画が守る住まいと路地"
+      },
+      "source_fact": {
+        "zh": "神田紺屋町周边地区计划针对批发业与居住共存的约4.5 ha：通过住宅导入、建筑更新及后退形成步行空间。中神田中央约14.8 ha，位于神田站西北，强调上层住宅、低层商办、连续街景和路地的生活尺度；其位置表列有神田鍛冶町三丁目。",
+        "en": "The 4.5 ha Kanda Konyacho plan combines housing retention, mixed uses and setback space for walking. The 14.8 ha Naka-Kanda Chuo plan northwest of Kanda Station promotes homes above shops and offices while retaining lanes and a continuous street edge. Its named area includes Kanda-Kajicho 3.",
+        "ja": "約4.5 haの神田紺屋町周辺地区計画は、居住継続と複合用途、壁面後退による歩行空間を扱う。神田駅北西の約14.8 haの中神田中央地区計画は、低層部の商業・業務と上層住宅、連続する街並み、路地の生活空間を重視し、位置欄に神田鍛冶町三丁目を含む。"
+      },
+      "scope": {
+        "zh": "邻接神田紺屋町及神田站西北；未将两计划套用于核心区",
+        "en": "Adjacent Konyacho and northwest Kanda; not applied as core-area rules",
+        "ja": "隣接する神田紺屋町・神田駅北西。対象地へ数値規制を転用しない"
+      },
+      "evidence": [
+        {
+          "url": "https://www.city.chiyoda.lg.jp/documents/4355/13konyachou20151023.pdf",
+          "document_title": "神田紺屋町周辺地区 地区計画",
+          "year": "last change 2004-06-21",
+          "page": "PDF pp.1,3–5; plan drawings",
+          "excerpt": "Housing continuity, mixed use and pedestrian space formed by setbacks.",
+          "excerpt_kind": "source locator / concise paraphrase",
+          "verified_on": "2026-10-15",
+          "download_date": "2026-10-13"
+        },
+        {
+          "url": "https://www.city.chiyoda.lg.jp/documents/4355/16nakakanda_1.pdf",
+          "document_title": "中神田中央地区 地区計画",
+          "year": "last change 2004-06-21",
+          "page": "PDF pp.1–2; plan drawings",
+          "excerpt": "Northwest of Kanda Station; Kanda-Kajicho 3; housing and lane character.",
+          "excerpt_kind": "source locator / concise paraphrase",
+          "verified_on": "2026-10-15",
+          "download_date": "2026-10-13"
+        },
+        {
+          "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/toshi/chikukekaku/gaiyo.html",
+          "document_title": "千代田区 地区計画図書一覧",
+          "year": "2026 webpage",
+          "page": "Items 13 and 16",
+          "excerpt": "Both adopted plans remain listed with their 2004 amendment dates.",
+          "excerpt_kind": "source locator / concise paraphrase",
+          "verified_on": "2026-10-15",
+          "website_updated": "2026-07-31"
+        }
+      ]
+    },
+    {
+      "id": "rules-building-environment",
+      "title": {
+        "zh": "节能、屋面与防浸水一起设计",
+        "en": "Energy, roofs and flood protection",
+        "ja": "省エネ・屋根・浸水対策を一緒に考える"
+      },
+      "source_fact": {
+        "zh": "千代田区建筑物环境计划书制度对符合条件、涉及300 m²以上新建或增改建部分的工程设事前协商程序。官网将非住宅BEI≤0.65、住宅暂行BEI≤0.80列为努力目标；BEI是设计一次能源量相对标准量的比值。第14版手册同时列出电气设备抬高、挡水、保水铺装、绿化和高反射屋面等考虑项。",
+        "en": "Chiyoda requires prior environmental consultation for qualifying new or extended/rebuilt parts of at least 300 m². Its effort targets are BEI ≤0.65 for non-residential uses and, provisionally, ≤0.80 for housing. BEI compares design primary energy with the standard value. Manual v14 also covers flood-safe electrical equipment, water barriers, vegetation and roof/surface treatments.",
+        "ja": "千代田区は対象条件を満たす新築・増改築部分300 m²以上に事前協議を求める。努力目標は非住宅BEI≤0.65、住宅は当面≤0.80。BEIは設計一次エネルギー消費量と基準量の比率である。第14版手引きは電気設備の浸水対策、止水、緑化、屋根・地表面の対策も扱う。"
+      },
+      "scope": {
+        "zh": "千代田区适用建筑工程；具体用途与申报方式须核对",
+        "en": "Qualifying building works in Chiyoda; check use and filing route",
+        "ja": "千代田区の対象建築行為。用途・申請方法を個別確認"
+      },
+      "evidence": [
+        {
+          "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/kenchiku/jizentetsuzuki/sin-kekakushosedo.html",
+          "document_title": "千代田区建築物環境計画書制度",
+          "year": "current 2026",
+          "page": "対象となる建築物; 努力目標; 手続き",
+          "excerpt": "300 m² threshold and effort targets; early consultation and filing procedure.",
+          "excerpt_kind": "source locator / concise paraphrase",
+          "verified_on": "2026-10-15",
+          "website_updated": "2026-04-01"
+        },
+        {
+          "url": "https://www.city.chiyoda.lg.jp/documents/15421/jigyoshamanual14_2.pdf",
+          "document_title": "千代田区建築物環境計画書制度 事前協議マニュアル 第14版",
+          "year": "version 14; retrieved 2026",
+          "page": "PDF pp.4–5,21–22 / printed pp.1–2,18–19",
+          "excerpt": "BEI targets; equipment above flood depth; surface and water-cycle considerations.",
+          "excerpt_kind": "source locator / concise paraphrase",
+          "verified_on": "2026-10-15",
+          "download_date": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "context-walking",
+      "title": {
+        "zh": "从通行网络读到停留生活",
+        "en": "Read walking as everyday use",
+        "ja": "通行と滞在を一緒に読む"
+      },
+      "source_fact": {
+        "zh": "2022年区步行城市设计把可坐、可吃饭、有阴影和夜间照明纳入空间质量，并要求同时观察通行、休息、交谈等活动。实施章节提出道路角色分工：步行专用、步行优先、人车共存与汽车优先；试点选择结合当地组织、道路功能和沿街资源。",
+        "en": "The 2022 walking strategy assesses sitting, eating, shade and evening lighting alongside walking, rest and conversation. It differentiates pedestrian-only, pedestrian-priority, shared and vehicle-priority streets. Pilot locations should combine local partners, road functions and useful street-level places.",
+        "ja": "2022年の区のデザインは、座る場所、飲食、日陰、夜間照明と、通行・休息・会話を併せて評価する。歩行者専用、歩行者優先、人車共存、自動車優先の道路を区別し、地域の担い手、道路機能、沿道資源から試行場所を選ぶ。"
+      },
+      "scope": {
+        "zh": "全区政策；观察与街段选择落实到鍛冶町",
+        "en": "Ward policy applied through Kajicho street observations",
+        "ja": "区の方針を鍛冶町の街路観察に具体化"
+      },
+      "evidence": [
+        {
+          "url": "https://www.city.chiyoda.lg.jp/documents/28082/walkable-honpen_1.pdf",
+          "document_title": "千代田区ウォーカブルまちづくりデザイン",
+          "year": "2022-06",
+          "page": "PDF pp.15,23–27 / printed pp.13,21–25",
+          "excerpt": "Space quality, activities, roles and street-function-based pilot selection.",
+          "excerpt_kind": "source locator / concise paraphrase",
+          "verified_on": "2026-10-15",
+          "download_date": "2026-10-13"
+        },
+        {
+          "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/toshi/walkable/design.html",
+          "document_title": "千代田区ウォーカブルまちづくりデザイン official page",
+          "year": "2026 webpage",
+          "page": "本編・検討経緯",
+          "excerpt": "Current page links the adopted 2022 design.",
+          "excerpt_kind": "source locator / concise paraphrase",
+          "verified_on": "2026-10-15",
+          "website_updated": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "id": "context-flood",
+      "title": {
+        "zh": "水害从入口和设备继续读",
+        "en": "Follow flood risk to entrances and services",
+        "ja": "浸水を入口と設備まで読み込む"
+      },
+      "source_fact": {
+        "zh": "区2025年3月更新的神田川版洪水图合并引用2018/2021年浸水予想与2024年河川洪水资料，想定最大降雨为总量690 mm、小时最大153 mm，并区分浸水深与持续时间。荒川堤防决口和高潮另有图层，属于不同情景。区建筑环境手册要求查浸水位置，考虑电气设备设于浸水深以上、入口挡水和住户告知。",
+        "en": "Chiyoda’s March 2025 Kanda map cites 2018/2021 inundation forecasts and 2024 river-flood data, with 690 mm total and 153 mm peak hourly rain. Depth and duration are separate. Arakawa breach and storm surge have different scenarios. The building manual calls for flood-aware electrical equipment, entrance protection and occupant preparation.",
+        "ja": "2025年3月改訂の神田川版は、2018・2021年の浸水予想と2024年の河川洪水資料を参照し、総雨量690 mm・時間最大153 mmを想定する。浸水深と継続時間、荒川破堤、高潮は区別する。建築環境手引きは電気設備の配置、入口の止水、利用者への周知を扱う。"
+      },
+      "scope": {
+        "zh": "分开的神田川浸水予想、河川洪水、荒川及高潮情景",
+        "en": "Separate Kanda inundation, river-flood, Arakawa and storm-surge scenarios",
+        "ja": "神田川浸水予想、河川洪水、荒川、高潮を分ける"
+      },
+      "evidence": [
+        {
+          "url": "https://www.city.chiyoda.lg.jp/koho/kurashi/bosai/bosai-taisaku/fusui-dosha-saigai/map.html",
+          "document_title": "千代田区ハザードマップ（洪水・高潮・土砂災害）",
+          "year": "Kanda map revised 2025-03; source data 2018/2021/2024",
+          "page": "改訂一覧・洪水ハザードマップ（神田川版）",
+          "excerpt": "Scenario provenance, rainfall, depth and duration; separate Arakawa and surge maps.",
+          "excerpt_kind": "source locator / concise paraphrase",
+          "verified_on": "2026-10-15",
+          "download_date": "2026-10-15",
+          "redistribute_original": false
+        },
+        {
+          "url": "https://www.city.chiyoda.lg.jp/documents/15421/jigyoshamanual14_2.pdf",
+          "document_title": "建築物環境計画書制度 事前協議マニュアル 第14版",
+          "year": "version 14",
+          "page": "PDF p.21 / printed p.18, section 4.6",
+          "excerpt": "Electrical equipment above relevant flood depth; barriers; occupant preparation.",
+          "excerpt_kind": "source locator / concise paraphrase",
+          "verified_on": "2026-10-15",
+          "download_date": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "context-earthquake",
+      "title": {
+        "zh": "两个町丁目都需要看建筑倒塌",
+        "en": "Both chome need a collapse-risk view",
+        "ja": "両町丁目で建物倒壊を確認する"
+      },
+      "source_fact": {
+        "zh": "东京都第9回地域危险度调查（2022年9月）给鍛冶町一、二丁目的建筑倒塌等级均为3/5，危险量分别4.15与3.81棟/ha；火灾等级分别2和1，综合等级均为2。评价以相同基盘摇晃强度比较5,192个町丁目，综合指标还含灾时活动困难系数。",
+        "en": "Tokyo’s ninth survey, released in September 2022, assigns both Kajicho chome collapse rank 3 of 5, with risk quantities of 4.15 and 3.81 buildings/ha. Fire ranks are 2 and 1; both composite ranks are 2. It compares 5,192 areas under equal bedrock shaking and includes emergency-response difficulty.",
+        "ja": "東京都第9回調査（2022年9月）では、鍛冶町一・二丁目の倒壊ランクはともに3／5、危険量は4.15・3.81棟/ha。火災ランクは2・1、総合ランクはともに2である。同じ基盤の揺れを仮定して5,192町丁目を比較し、総合値には災害時活動困難係数を含む。"
+      },
+      "scope": {
+        "zh": "鍛冶町一・二丁目；2022町丁目评价",
+        "en": "Kajicho 1–2; 2022 area-level assessment",
+        "ja": "鍛冶町一・二丁目の2022年町丁目評価"
+      },
+      "evidence": [
+        {
+          "url": "https://www.funenka.metro.tokyo.lg.jp/area-hazard-level/regional-risk-list/chiyoda/index.html",
+          "document_title": "地震に関する地域危険度測定調査 第9回 千代田区",
+          "year": "2022-09",
+          "page": "鍛冶町1丁目・2丁目 rows",
+          "excerpt": "Official chome values for collapse, fire, emergency-response coefficient and composite risk.",
+          "excerpt_kind": "source locator / concise paraphrase",
+          "verified_on": "2026-10-15",
+          "download_date": "2026-10-15"
+        },
+        {
+          "url": "https://www.funenka.metro.tokyo.lg.jp/2024/01/all2.csv",
+          "document_title": "第9回地域危険度 全町丁目公式CSV",
+          "year": "2022 data; 2024 hosting path",
+          "page": "CSV exact rows: 千代田区 / 鍛冶町１丁目・２丁目",
+          "excerpt": "Original numeric table; 5,192 town units.",
+          "excerpt_kind": "source locator / concise paraphrase",
+          "verified_on": "2026-10-15",
+          "download_date": "2026-10-15"
+        },
+        {
+          "url": "https://www.funenka.metro.tokyo.lg.jp/2024/02/kikendo_japanese.pdf",
+          "document_title": "地震に関する地域危険度測定調査 第9回 パンフレット",
+          "year": "2022 survey",
+          "page": "地域危険度とは",
+          "excerpt": "Equal bedrock shaking; five relative ranks; not a specific earthquake prediction.",
+          "excerpt_kind": "source locator / concise paraphrase",
+          "verified_on": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

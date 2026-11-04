@@ -1,0 +1,5 @@
+﻿ROW_ID,__wider_pk,label,kind,source_note,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,1,Chuo-dori,road,Current OSM/GSI road reference; displayed for orientation,1,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+2,2,Yasukuni-dori,road,Current OSM/GSI road reference; displayed for orientation,2,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+3,3,Showa-dori,road,Current OSM/GSI road reference; displayed for orientation,3,inside_wider,Original source feature or statistical unit; values not recomputed
+4,4,Edo-dori,road,Current OSM/GSI road reference; displayed for orientation,4,clipped_to_wider,Original source feature or statistical unit; values not recomputed

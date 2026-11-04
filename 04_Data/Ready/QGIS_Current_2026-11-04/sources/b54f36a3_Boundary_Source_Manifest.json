@@ -1,0 +1,42 @@
+{
+  "source_site": "https://kajicho-wind-heat-carbon-demo.specialgooood.chatgpt.site",
+  "published_version": 27,
+  "source_commit": "39d19b9cd4ac53421468350e18654a207836081c",
+  "source_files": [
+    "study-atlas/study_boundary.geojson",
+    "impressions/teacher-areas.geojson",
+    "study-atlas/source_manifest.json"
+  ],
+  "source_crs": "EPSG:6677",
+  "GeoJSON_crs": "EPSG:4326",
+  "project_crs": "EPSG:6677",
+  "user_direction": "Keep primary and wider boundaries; reconstruct internal teacher areas using coherent existing blocks and road midlines, excluding the school from the developer-related area.",
+  "derived_qgis_vertices": "As of 29 October 2026, the primary boundary is the union of the 2020 e-Stat Kajicho 1-chome and 2-chome polygons. The wider outline follows the same western town boundary and continues southwest in a straight line to the existing southern edge. Teacher vertices use authored road-corridor intersections.",
+  "teacher_revision": "2026-10-26 authored street-block interpretation",
+  "teacher_source": "data/Teacher_Block_Boundaries.geojson",
+  "primary_boundary_update": {
+    "date": "2026-10-29",
+    "source": "e-Stat 2020 census town polygons in Kajicho_Base_Map.gpkg / census_towns",
+    "town_codes": [
+      "13101035001",
+      "13101035002"
+    ],
+    "area_m2": 107914.38707340788,
+    "outside_existing_wider_m2": 2705.6549972578464,
+    "earlier_geometry_backup": "qa/Boundary_Update_2026-10-29/Before_and_Plan.json",
+    "notes": "Existing wider boundary and prior model exports retain their previous geometry. Primary-area pilot grids were not recomputed."
+  },
+  "wider_boundary_update": {
+    "date": "2026-10-29",
+    "method": "Align the western wider edge to the Kajicho 2020 census-town boundary and extend the southwest slope in a straight line to the existing southern edge.",
+    "neighbor_town_codes": [
+      "13101029003",
+      "131010360"
+    ],
+    "area_m2": 424371.2219677621,
+    "primary_outside_wider_m2": 0,
+    "old_wider_backup": "qa/Boundary_Update_2026-10-29/Wider_Before_and_Plan.json",
+    "notes": "The straight southwest extension is a study-boundary line, not a separately surveyed administrative line. Building classification is unchanged; town overlap areas were updated. Pilot grids remain tied to earlier boundaries.",
+    "straight_extension_backup": "qa/Boundary_Update_2026-10-29/Wider_Extension_Before_and_Plan.json"
+  }
+}

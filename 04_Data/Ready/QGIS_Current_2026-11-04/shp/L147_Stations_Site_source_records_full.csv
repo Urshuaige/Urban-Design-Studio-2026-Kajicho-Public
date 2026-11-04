@@ -1,0 +1,5 @@
+﻿ROW_ID,__wider_pk,ward_code,name,line,source_member,name_ja,display_name_en,scope_note,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,1,13101,岩本町駅,10号線新宿線,plateau/13101_related.zip::13101_chiyoda-ku_pref_2025_station.geojson,岩本町駅,Stations (岩本町駅),Accepted Site wider-area boundary; source dates preserved,1,inside_wider,Original source feature or statistical unit; values not recomputed
+2,2,13101,神田駅,中央線,plateau/13101_related.zip::13101_chiyoda-ku_pref_2025_station.geojson,神田駅,Stations (神田駅),Accepted Site wider-area boundary; source dates preserved,2,inside_wider,Original source feature or statistical unit; values not recomputed
+3,3,13101,神田駅,東北線,plateau/13101_related.zip::13101_chiyoda-ku_pref_2025_station.geojson,神田駅,Stations (神田駅),Accepted Site wider-area boundary; source dates preserved,3,inside_wider,Original source feature or statistical unit; values not recomputed
+4,4,13102,新日本橋駅,総武線,plateau/13102_related.zip::13102_chuo-ku_pref_2025_station.geojson,新日本橋駅,Stations (新日本橋駅),Accepted Site wider-area boundary; source dates preserved,4,inside_wider,Original source feature or statistical unit; values not recomputed

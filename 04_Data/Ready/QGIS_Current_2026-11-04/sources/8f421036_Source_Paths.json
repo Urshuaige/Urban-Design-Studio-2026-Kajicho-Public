@@ -1,0 +1,42 @@
+{
+  "renewal_v1": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/Building_Renewal_2026-11-03/data/Building_Renewal.gpkg|layername=renewal_buildings",
+    "features": 1069
+  },
+  "grid": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/QGIS_Increment_Merge_2026-11-03/Kajicho_QGIS_Increment_2026-11-03_2233JST/refine_grids/Fine_Grid_Analysis.gpkg|layername=metrics_10m",
+    "features": 11070
+  },
+  "risk": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/QGIS_Increment_Merge_2026-11-03/Kajicho_QGIS_Increment_2026-11-03_2233JST/refine_grids/Fine_Grid_Analysis.gpkg|layername=buildings_town_risk",
+    "features": 1077
+  },
+  "poi_counts": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/QGIS_Increment_Merge_2026-11-03/Kajicho_QGIS_Increment_2026-11-03_2233JST/recovered_visuals/POI_Category_Counts.gpkg|layername=category_counts_100m",
+    "features": 158
+  },
+  "poi_source": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/QGIS_Vector_Handoff_2026-11-03/Kajicho_QGIS_Vectors_2026-11-03/data/09_Kajicho_Base_Map.gpkg|layername=points_of_interest",
+    "features": 353
+  },
+  "traffic": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/QGIS_Increment_Merge_2026-11-03/Kajicho_QGIS_Increment_2026-11-03_2233JST/traffic_clean/traffic_trends.gpkg|layername=corridor_trends",
+    "features": 168
+  },
+  "environment": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/QGIS_Increment_Merge_2026-11-03/Kajicho_QGIS_Increment_2026-11-03_2233JST/recovered_visuals/Environment_Full_Cells.gpkg|layername=cells_10m_full",
+    "features": 4424
+  },
+  "grid_building_source": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/QGIS_Vector_Handoff_2026-11-03/Kajicho_QGIS_Vectors_2026-11-03/data/14_Master_Map_Compact.gpkg|layername=gsi_buildings",
+    "features": 16423
+  },
+  "floor_use_source": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/QGIS_Vector_Handoff_2026-11-03/Kajicho_QGIS_Vectors_2026-11-03/data/28_Building_Population_Energy.gpkg|layername=current_building_allocation",
+    "features": 2006
+  },
+  "clearance_records": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/Building_Renewal_2026-11-03/data/Building_Renewal.gpkg|layername=cleared_records",
+    "features": 2
+  }
+}

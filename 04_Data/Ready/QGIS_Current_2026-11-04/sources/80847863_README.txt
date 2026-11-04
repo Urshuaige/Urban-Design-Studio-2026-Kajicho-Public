@@ -1,0 +1,62 @@
+# Kanda Festival routes — 2025 reference
+
+17 approximate route reconstructions, in **JGD2011 / Japan Plane Rectangular CS IX (EPSG:6677, metres)**. These are historical planned routes interpreted for urban-design analysis. They are not surveyed festival tracks or confirmed routes for a later festival.
+
+| Event | Routes | Published scope |
+|---|---:|---|
+| Shinkosai | 2 | Morning and afternoon, 10 May 2025 |
+| Mikoshi Miyairi | 11 | Groups 1–8: union approach; groups 9–11: only the local union route drawn in the official PDF |
+| Tsukematsuri | 4 | Floats, Soma horses, Bando warriors and Tokyo Arts joining leg |
+
+Group 7 is **Kanda Station East**, including **Kajicho 1-chome and Kajicho 2-chome**. It is highlighted in purple. The group's approach route does not establish each town association's internal mikoshi route.
+
+## Open in QGIS
+
+In the main map, expand **Festival routes — 2025 reference → Routes — choose an event**. The three event groups are mutually exclusive. Mikoshi is the saved default. Use **Sources and review — optional** to inspect review parts, road links, named places and interpreted turns.
+
+The main map also has two themes: **Base map — before festival routes** restores the previous view; **Festival 2025 — Mikoshi** returns to the festival view. Original layers and styles remain in the project. A wider GSI backdrop covers the full festival area.
+
+The separate delivery folder contains `Kanda_Festival_2025.qgz` and `data/`. Keep them together. It uses local files and installed QGIS, without web maps, project macros or extra plugins.
+
+## Method and line shape
+
+1. Read the three official 2025 PDFs and the organizer's web descriptions. Check street names, bridges, event order and named places against existing OpenStreetMap references and geocoded landmarks.
+2. Interpret the ordered road turns. The PDFs are raster diagrams with displaced parallel coloured lines; pixels provide corridor hints rather than final geometry. The coarse control-point warp is not a certified georeference.
+3. Route each interpreted leg over the existing GSI road-centreline network dated **2026-07-01**. Motorways are excluded. Source tile and feature IDs are retained in `road_source_links`.
+4. Reconcile near-coincident GSI tile-cut endpoints within 0.5 m. At Showa-dori north of Akihabara station, reconstruct **one 28.865 m intersection crossing** between existing road stubs. The official route and OSM crossing **way/556882330** support it. This avoids an implausible detour north. Its source type is recorded explicitly.
+5. Following the user's preference for a clear approximate line, remove short snapping spurs and simplify the display geometry within **1.5 m** of the source-road path. Use round caps and joins. Major street turns remain. Unmodified GSI originals and unsimplified road links remain separate.
+
+The display route is a generalized planning reference. Its length is the drawn geometry length; do not interpret it as the organizer's surveyed procession distance. Source road geometry is from 2026, while the festival plan is from 2025.
+
+## Evidence and review
+
+`route_legs` retains 270 interpreted legs; `review=1` flags 81 parts for source-diagram ambiguity, local origin/gate interpretation or a larger corridor-to-network offset. All three local union routes (groups 9–11) retain review flags because the organizer does not publish their full approach to the shrine in that diagram. An unflagged part is not a survey certification.
+
+The horse procession's Horitome Park spur has no fully specified travel direction. The Koamicho Park location is grounded by a nearby named OSM bike station; the exact procession gate remains approximate. Named-place points show the reference location, not the exact position of a procession on the street. Planned times follow the PDF; the official live blog sometimes records later actual passage.
+
+## Data tables
+
+| Table | Purpose |
+|---|---|
+| `festival_routes` | 17 simplified display lines with event, group, year, scope and source |
+| `route_legs` | Ordered interpreted legs, review flags and diagnostic offsets |
+| `road_source_links` | Ordered unsimplified road pieces, source IDs and source type |
+| `festival_places` | Named place references and selected planned times |
+| `route_turns` | Interpreted road turns for audit |
+| `source_gsi_roads` | Selected original GSI roads; the documented junction connector is separately identified |
+| `road_context` | Local road context for the standalone offline project |
+
+## Sources
+
+- [Official download page](https://kandamatsuri.com/download/)
+- [Shinkosai official PDF](https://kandamatsuri.com/img/download/pdf/root_shinkosai.pdf?date=20250415)
+- [Mikoshi Miyairi official PDF](https://kandamatsuri.com/img/download/pdf/root_mikoshimiyairi.pdf?date=2025)
+- [Tsukematsuri official PDF](https://kandamatsuri.com/img/download/pdf/root_tsukematsuri.pdf?date=2025)
+- [Organizer's Shinkosai description](https://kandamatsuri.com/shinkosai/), [Mikoshi groups](https://kandamatsuri.com/mikoshimiyairi/), [Tsukematsuri participants](https://kandamatsuri.com/tsukematsuri/)
+- [Official live route descriptions](https://kandamatsuri.ch/page/11), [Higashi-Kanda](https://kandamatsuri.ch/page/10), [Ryogoku and Meijiza](https://kandamatsuri.ch/page/9)
+- [GSI optimal vector tiles](https://github.com/gsi-cyberjapan/optimal_bvmap), [GSI use terms](https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html)
+- [OpenStreetMap contributors — ODbL](https://www.openstreetmap.org/copyright), [crossing evidence](https://www.openstreetmap.org/way/556882330)
+
+Original PDFs are retained unchanged in `sources/`. Source year, network date and download date are recorded separately in `Source_Register.json`. Attribution: 国土地理院の最適化ベクトルタイルを加工して作成; © OpenStreetMap contributors. Festival diagrams remain copyright of their publisher.
+
+中文：本数据是根据 2025 年官方路线图、文字说明和实际路网重建的近似路线；已按要求清理短折返、简化细碎折点。鍛冶町一、二丁目属于第 7 组。待核对段保留在辅助图层中，不能据此补出未公布的町内渡御路线。

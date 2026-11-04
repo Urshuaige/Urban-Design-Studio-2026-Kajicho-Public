@@ -1,0 +1,34 @@
+{
+  "source_ids": 1981,
+  "matched_ids": 1981,
+  "missing_ids": [],
+  "duplicate_ids": [],
+  "bbox": [
+    139.767,
+    35.687,
+    139.776,
+    35.695
+  ],
+  "layers": {
+    "urf": {
+      "files": 1,
+      "scanned_objects": 2234,
+      "bbox_selected_objects": 37
+    },
+    "luse": {
+      "files": 1,
+      "scanned_objects": 188273,
+      "bbox_selected_objects": 1315
+    },
+    "tran": {
+      "files": 4,
+      "scanned_objects": 4715,
+      "bbox_selected_objects": 969
+    },
+    "fld": {
+      "files": 14,
+      "scanned_objects": 782,
+      "bbox_selected_objects": 60
+    }
+  }
+}

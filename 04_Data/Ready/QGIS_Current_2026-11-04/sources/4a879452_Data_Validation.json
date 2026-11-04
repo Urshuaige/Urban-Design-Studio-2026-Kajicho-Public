@@ -1,0 +1,17 @@
+{
+  "original_columns_identical": true,
+  "original_columns": 162,
+  "rows": 1064,
+  "epoch_counts": {
+    "After 2011": 24,
+    "Before 2011": 250,
+    "Unresolved around 2011": 790
+  },
+  "reviewed_layer_paths": [
+    "./data/Building_2011_Evidence.gpkg|layername=building_2011_evidence|subset=\"in_research_set\"=1",
+    "./data/Building_2011_Evidence.gpkg|layername=building_2011_evidence",
+    "./data/Building_2011_Evidence.gpkg|layername=building_2011_evidence|subset=\"in_research_set\"=1",
+    "./data/Building_2011_Evidence.gpkg|layername=building_2011_evidence|subset=\"rebuild_post2011\"=1"
+  ],
+  "standalone_package": false
+}

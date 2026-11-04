@@ -1,0 +1,65 @@
+/* Current study maps: live legends remain readable at the page scale. */
+body{font-size:18px}
+#mapping .section-head p,#study-area .section-head p,#context .section-head p,#simulation-plan .section-head p{font-size:18px}
+.all-maps{grid-template-columns:minmax(0,1fr);gap:58px}
+.map-reading h3{font-size:30px;margin-bottom:22px}
+.map-sheet{display:grid;grid-template-columns:minmax(0,1fr) minmax(245px,295px);gap:30px;align-items:start}
+.map-sheet .study-figure{min-width:0}
+.map-sheet .study-figure img{width:100%;height:auto;object-fit:contain;display:block}
+.map-sheet .study-figure figcaption{font-size:16px;line-height:1.6;padding:14px 0}
+.map-legend{font:17px/1.6 var(--font-ui);border-left:2px solid var(--rule);padding-left:26px;min-width:0}
+.map-legend h4{font:650 22px/1.4 var(--font-ui);margin:0 0 18px}
+.map-legend ul{list-style:none;padding:0;margin:0 0 24px;display:grid;gap:10px}
+.map-legend li{display:grid;grid-template-columns:30px minmax(0,1fr);align-items:center;gap:12px}
+.map-key{display:inline-block;width:28px;height:19px;background:var(--key-color);border:1px solid #a6a19a}
+.map-key.line{height:0;background:none;border:0;border-top:4px solid var(--key-color)}
+.map-key.line.dash{border-top-style:dashed}
+.map-key.point{width:12px;height:12px;border-radius:50%;border:0;margin-left:8px}
+.map-note{font:17px/1.65 var(--font-ui);color:var(--muted);margin:0 0 18px}
+.map-source{font:700 18px/1.6 var(--font-ui);color:var(--accent);border-bottom:1px solid var(--rule)}
+.study-boundary-note{font-size:18px;line-height:1.8;max-width:980px;margin:24px 0 16px}
+#study-area .evidence-sources{font-size:19px;font-weight:700;margin:16px 0}
+.status-line,.style-note{font-size:16px;line-height:1.7}
+.evidence-data-only{display:block}
+.evidence-data-only .chart-reading{max-width:1100px}
+.evidence-data-only .chart-reading>a{font:650 17px/1.6 var(--font-ui);color:var(--accent);display:inline-block;border-bottom:1px solid var(--rule);margin-bottom:18px}
+.chart-method{font-size:16px;line-height:1.7}
+.table-scroll table{font-size:16px;line-height:1.7}
+.table-scroll th,.table-scroll td{padding:11px 12px}
+.table-scroll thead th{font-weight:650}
+.evidence-sources{font-size:18px;font-weight:700;line-height:1.7}
+.metric>p:last-child{font-size:16px;line-height:1.7}
+.folio-hero figcaption{font-size:16px;line-height:1.6}
+.folio-hero img{object-fit:contain}
+@media(max-width:960px){
+.map-sheet{grid-template-columns:minmax(0,1fr);gap:18px}
+.map-legend{border-left:0;border-top:2px solid var(--rule);padding:22px 0 0;font-size:17px}
+.map-legend ul{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 20px}
+}
+@media(max-width:600px){
+body{font-size:18px}
+.map-legend ul{grid-template-columns:minmax(0,1fr)}
+.map-reading h3{font-size:27px}
+.all-maps{gap:40px}
+.map-sheet .study-figure figcaption{font-size:16px;flex-wrap:wrap}
+.table-scroll table{font-size:16px}
+#mapping .section-head p,#study-area .section-head p,#context .section-head p,#simulation-plan .section-head p{font-size:17px}
+.metric-grid{grid-template-columns:minmax(0,1fr)}
+.metric>p:last-child{font-size:16px}
+}
+@media print{.map-sheet{grid-template-columns:minmax(0,1fr) 250px}.map-legend{font-size:13pt}.map-source{font-size:13pt}}
+
+
+/* Whole-town source risk values remain native, readable text. */
+.risk-matrix table{font-size:17px;min-width:880px}
+.risk-matrix thead th{vertical-align:bottom}
+.risk-matrix tbody th{min-width:240px;font-weight:500}
+.risk-rank{font-weight:750!important;text-align:center!important}
+.risk-rank.rank-1{background:#e9ece3;color:#344937}
+.risk-rank.rank-2{background:#d7e0d5;color:#344937}
+.risk-rank.rank-3{background:#e5dcbb;color:#5c4d26}
+.risk-rank.rank-4{background:#d2b19e;color:#5d3023}
+.risk-rank.rank-5{background:#865b70;color:#fff}
+.risk-focus th{font-weight:750!important;border-left:4px solid var(--accent);padding-left:12px!important}
+.risk-focus-label{display:block;font:650 15px/1.5 var(--font-ui);color:var(--accent)}
+#seismic-risk>p{font-size:17px;line-height:1.7}

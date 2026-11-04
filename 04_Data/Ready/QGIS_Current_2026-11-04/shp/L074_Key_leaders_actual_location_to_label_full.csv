@@ -1,0 +1,15 @@
+﻿ROW_ID,__wider_pk,key,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,1,A1,1,inside_wider,Original source feature or statistical unit; values not recomputed
+2,2,A2,2,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+3,3,C1,3,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+4,4,D1,4,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+5,5,D2,5,inside_wider,Original source feature or statistical unit; values not recomputed
+6,6,D3,6,inside_wider,Original source feature or statistical unit; values not recomputed
+7,7,D4,7,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+8,8,D5,8,inside_wider,Original source feature or statistical unit; values not recomputed
+9,9,C2,9,inside_wider,Original source feature or statistical unit; values not recomputed
+10,10,C3,10,inside_wider,Original source feature or statistical unit; values not recomputed
+11,11,B,11,inside_wider,Original source feature or statistical unit; values not recomputed
+12,12,E,12,inside_wider,Original source feature or statistical unit; values not recomputed
+13,13,F2,13,inside_wider,Original source feature or statistical unit; values not recomputed
+14,14,F1,14,inside_wider,Original source feature or statistical unit; values not recomputed

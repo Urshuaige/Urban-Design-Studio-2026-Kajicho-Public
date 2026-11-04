@@ -1,0 +1,18 @@
+{
+  "scope": "Wider boundary selection with complete intersecting buildings",
+  "area_ha": 42.43712219677629,
+  "unique_datasets": 192,
+  "shapefiles": 178,
+  "tables": 14,
+  "project_views": 351,
+  "rasters": 17,
+  "source_links": 9603,
+  "source_documents": 59,
+  "qgis_version": "3.32.3-Lima",
+  "max_shp_fields": 255,
+  "new_analysis": false,
+  "spatial_extraction": "Select whole intersecting building footprints; other data retain wider clipping",
+  "git_lfs_required": false,
+  "whole_building_datasets": 31,
+  "whole_building_records_checked": 22302
+}

@@ -1,0 +1,7 @@
+{
+  "mesh": "castellated Cartesian/octree",
+  "startup": "upwind U/T, inlet-consistent log-law U/k/epsilon, low relaxation",
+  "pressure_relTol": 0.01,
+  "end_iteration": 300,
+  "interpretation": "provisional startup; same physical conditions; second-order and sensitivity pending"
+}

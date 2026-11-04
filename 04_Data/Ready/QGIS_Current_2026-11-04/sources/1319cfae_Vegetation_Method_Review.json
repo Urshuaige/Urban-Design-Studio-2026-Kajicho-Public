@@ -1,0 +1,26 @@
+{
+  "decision": "Do not adopt RGB threshold mask",
+  "review": "AI visual interpretation of the stratified image QA sheet; not independent human ground truth",
+  "observed_errors": {
+    "sports_surface_false_positives": [
+      3,
+      8,
+      15,
+      16,
+      17,
+      22,
+      24
+    ],
+    "other_suspected_artificial_surface": [
+      5,
+      6,
+      18
+    ]
+  },
+  "threshold_rank_correlation": {
+    "loose": 0.8602258123039633,
+    "strict": 0.23138468508854126
+  },
+  "adopted_alternative": "Official tree crown-spread projections plus public/development planted-green polygons",
+  "consequence": "No claims of full canopy cover or 2026 image-based vegetation truth"
+}

@@ -1,0 +1,1192 @@
+{
+  "schema": "kajicho-deep-context-v1",
+  "checked_on": "2026-10-15",
+  "topics": [
+    {
+      "id": "district_climate",
+      "title": {
+        "zh": "地区尺度要同时回答减碳与适应",
+        "en": "Carbon and adaptation at district scale",
+        "ja": "地区で脱炭素と適応を結ぶ"
+      },
+      "source_fact": {
+        "zh": "任务书将城市视为气候变化的排放来源和受影响者，要求在建筑、开放空间、公共空间与基础设施中同时考虑减缓与适应。第2页把平台的分析对象写为建筑和车辆的能耗、碳排放；第4页将鍛冶町一、二丁目定为细化重点，神田—日本桥为约略外围，目标到2050年。",
+        "en": "The brief links mitigation and adaptation across buildings, open spaces, public spaces and infrastructure. Its platform covers building and vehicle energy and carbon. Kajicho 1 & 2 is the detailed primary area; Kanda–Nihonbashi is an approximate wider area, with a 2050 horizon.",
+        "ja": "課題書は建物、オープンスペース、公共空間、インフラで緩和と適応を扱う。プラットフォームの対象は建物と車両のエネルギー・炭素である。鍛冶町一・二丁目を詳細検討、神田・日本橋を概略の周辺範囲とし、2050年を目指す。"
+      },
+      "local_meaning": {
+        "zh": "场地问题因此包含两条相连的线：现有经营与居住活动怎样少用能源，以及步行、停留和日常服务怎样应对暑热及水害。两者可能涉及同一栋楼或街段，但对象、时间和证据需要分别说明。",
+        "en": "The local questions concern both energy used by daily activities and continuity of walking, staying and services during heat or flooding. These can share a building or street while needing different evidence.",
+        "ja": "日常の活動の省エネと、暑熱・水害時の歩行、滞在、生活機能の継続を併せて問う。同じ建物や街路でも、対象、時間、必要な証拠は異なる。"
+      },
+      "design_response": {
+        "zh": "用一张范围图和一张系统边界表起步：楼宇购电/燃料、车辆活动、街道暴露分别列入或说明待定；随后把每条分析连到具体的设计决定。车辆核算范围由团队明确，现阶段继续整理数据与场地，不增加 CFD。",
+        "en": "Start with a scope map and a system-boundary table for building electricity and fuels, vehicle activity and street exposure. Link each analysis to a design decision. The team defines the transport boundary; this stage adds no CFD.",
+        "ja": "範囲図と、建物電力・燃料、車両活動、街路曝露の対象表を作り、各分析を設計判断につなぐ。交通の算定範囲はチームで決め、現段階ではCFDを追加しない。"
+      },
+      "evidence": [
+        {
+          "source_id": "brief",
+          "document_title": "2026 Theme B: Building an Area Management Model for Decarbonization and Climate Resilience",
+          "url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+          "year": 2026,
+          "page": "pp.1–4",
+          "pdf_page": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "excerpt": "Planning Support and Implementation Support",
+          "note": ""
+        }
+      ],
+      "strength": "brief requirement",
+      "scope": {
+        "zh": "课程研究范围；外围边界为约略范围。",
+        "en": "Course scope; the outer boundary is approximate.",
+        "ja": "授業の対象。周辺境界は概略。"
+      },
+      "missing": {
+        "zh": "正式外围边界、车辆核算边界、场景与指标仍需团队确认。",
+        "en": "Confirm the outer boundary, transport scope, scenarios and metrics.",
+        "ja": "周辺境界、交通算定、シナリオ、指標はチームで確認する。"
+      },
+      "visible_outputs": [
+        "Primary/context map",
+        "System-boundary table",
+        "Issue-to-design links"
+      ],
+      "field_roles": {
+        "source_fact": "Source statement",
+        "local_meaning": "Studio interpretation",
+        "design_response": "Proposed studio action"
+      }
+    },
+    {
+      "id": "climate_mechanisms",
+      "title": {
+        "zh": "为什么先看楼宇用能，同时保住街道上的人",
+        "en": "Prioritize building energy while protecting daily users",
+        "ja": "建物のエネルギーと利用者の安全を同時に扱う"
+      },
+      "source_fact": {
+        "zh": "区2021减碳计划以2013年为基准，设定2030年能源起源CO₂总量减少42.3%的目标；其2018年基线中业务部门约占79%。适应计划则把高龄者、儿童和基础疾病人群列为暑热重点，提出冷房设施的「ひと涼みスポット」、信息提醒和遮阳，并要求同时检查对周边环境的影响。",
+        "en": "The 2021 ward mitigation plan targets a 42.3% cut in energy-related CO₂ by 2030 from 2013; business uses accounted for about 79% in its 2018 baseline. The adaptation plan prioritizes vulnerable users, cooled rest spaces, warnings and shade, while asking that wider environmental effects be checked.",
+        "ja": "区の2021計画は2013年比で2030年度のエネルギー起源CO₂42.3％削減を目標とし、2018年の業務部門は約79％を占める。適応計画は高齢者、子ども、基礎疾患のある人を重視し、冷房休憩所、情報、日除けと周辺への影響確認を挙げる。"
+      },
+      "local_meaning": {
+        "zh": "这为办公商业集聚的鍛冶町提供了楼宇优先的政策理由，但79%是区级旧统计，仍需本地账单和用途确认。街道适应则要问谁在何时经过、是否能休息及避暑；仅有树冠面积或一张温度图，无法说明脆弱使用者是否得到支持。",
+        "en": "This supports a building focus in office-commercial Kajicho, but the 79% is a dated ward figure, requiring local bills and use checks. Street adaptation asks who is exposed, when, and whether usable relief is available; canopy area or temperature alone cannot answer that.",
+        "ja": "業務・商業の多い鍛冶町で建物を重視する理由となるが、79％は区の過去値であり、現地の請求書と用途確認が必要となる。適応では誰がいつ通り、使える休憩・避暑場所へ届くかを問う。樹冠面積や温度だけでは足りない。"
+      },
+      "design_response": {
+        "zh": "在同一行动页并排写两种结果：预计节电/减碳所用基线和假设，以及暑热时可达、开放并有维护主体的休息空间。对冷房避暑点同时记录新增用电；对绿化和雨水措施检查是否挤占通行、把积水转给邻地。区级42.3%作为背景方向，不直接设为每栋楼的强制减幅。",
+        "en": "Pair the energy baseline and assumptions with accessible, open and maintained heat-relief spaces. Record cooling electricity and check effects on walking space and neighboring drainage. Use the ward’s 42.3% as context, not as an automatic reduction requirement for every building.",
+        "ja": "基準と仮定を示した省エネ結果と、到達・利用・維持管理が可能な暑熱休憩場所を並記する。冷房電力、歩行幅、隣地の排水への影響も確認する。区の42.3％を各建物の一律義務にはしない。"
+      },
+      "evidence": [
+        {
+          "source_id": "mitigation",
+          "document_title": "千代田区地球温暖化対策地域推進計画2021",
+          "url": "https://www.city.chiyoda.lg.jp/documents/27609/suishinkekaku2021_2.pdf",
+          "year": 2021,
+          "page": "pp.19,27–28",
+          "pdf_page": [
+            25,
+            33,
+            34
+          ],
+          "excerpt": "",
+          "note": "2018 baseline; 2030 target against 2013 energy-related CO2"
+        },
+        {
+          "source_id": "adaptation",
+          "document_title": "千代田区気候変動適応計画2021",
+          "url": "https://www.city.chiyoda.lg.jp/documents/27610/kikohendotekiokeikaku2021_2.pdf",
+          "year": 2021,
+          "page": "pp.16,27–30",
+          "pdf_page": [
+            22,
+            33,
+            34,
+            35,
+            36
+          ],
+          "excerpt": "",
+          "note": "Named cooling and shade measures; short- and long-term tradeoffs"
+        }
+      ],
+      "strength": "plan direction",
+      "scope": {
+        "zh": "2021区级计划；地方应用需要鍛冶町的用能和使用者资料。",
+        "en": "The 2021 ward plans; local application needs Kajicho energy and user evidence.",
+        "ja": "2021年の区計画。適用には鍛冶町のエネルギーと利用者資料が必要。"
+      },
+      "missing": {
+        "zh": "实际建筑能耗、易受热人群的出行需求、避暑点当前开放情况待查。",
+        "en": "Check actual energy, heat-vulnerable users’ needs and current access to cool spaces.",
+        "ja": "実使用量、暑熱に弱い人の移動需要、避暑場所の現在の利用条件を確認する。"
+      },
+      "visible_outputs": [
+        "Building energy priority rationale",
+        "Cooling access and operation table",
+        "Carbon–adaptation tradeoff check"
+      ],
+      "field_roles": {
+        "source_fact": "Source statement",
+        "local_meaning": "Studio interpretation",
+        "design_response": "Proposed studio action"
+      }
+    },
+    {
+      "id": "two_supports",
+      "title": {
+        "zh": "交付的是能作出决定并落实行动的管理模式",
+        "en": "A model that connects decisions to action",
+        "ja": "意思決定から実行までをつなぐモデル"
+      },
+      "source_fact": {
+        "zh": "Planning Support 要用平台组织问题、愿景和行动；Implementation Support 要让企业、政府、学术界与居民组成工作组、共享计划、开展个体与集体行动并提出公共支持。成果是解释这套模式及其在本场地应用的 Booklet，以及概括成果的 PowerPoint。",
+        "en": "Planning Support uses a platform to develop issues, visions and actions. Implementation Support organizes businesses, government, academics and citizens to share a plan, act and propose public support. The required outputs are an explanatory booklet and a summary PowerPoint.",
+        "ja": "計画支援はプラットフォームで課題・将来像・行動を組み立てる。実行支援は企業、行政、大学、市民による体制、計画共有、個別・共同の行動、公共支援を扱う。成果はモデルと現地適用を説明する冊子とPowerPoint。"
+      },
+      "local_meaning": {
+        "zh": "只有模拟结果，读者仍不知道谁会改造、谁支付或谁维护；只有活动愿景，也无法判断行动针对何种场地问题。每个方案需要同时回答空间与实施两方面，并在图纸旁直接说明。任务书已列出 Watage 的学习与行动平台及地方企业主、学者支持的 CWL；可从这些既有关系核实合作需求与分工。",
+        "en": "A result needs an actor, resources and maintenance; an activity proposal needs a local problem and evidence. Every proposal therefore needs both a spatial explanation and a delivery explanation beside its drawings. The brief names Watage and the business-owner/academic CWL initiative; use those existing relationships to verify needs and roles.",
+        "ja": "計算結果には実施者、資源、維持管理が必要であり、活動案には現地の課題と根拠が必要となる。各提案の図面に空間と実行の両方を示す。 課題書が挙げるWatageと、地元事業者・研究者が関わるCWLを起点に、既存の関係から需要と役割を確認する。"
+      },
+      "design_response": {
+        "zh": "把每项行动编成一页：问题与现状图、愿景、空间措施、比较依据、参与者、实施步骤和待协商项。网站作为共享证据与讨论入口，Booklet 保留完整论证，PPT 展示核心判断；页面的课程交付清单用于逐项自查。",
+        "en": "Use one spread per action: issue, baseline map, vision, spatial measure, comparison, actors, sequence and open decisions. The site supports shared evidence, the booklet keeps the argument, and the slides communicate the key judgments.",
+        "ja": "各行動を、課題、現状図、将来像、空間対策、比較根拠、主体、手順、協議事項の見開きにする。サイトで根拠を共有し、冊子に論証、スライドに主要判断を残す。"
+      },
+      "evidence": [
+        {
+          "source_id": "brief",
+          "document_title": "2026 Theme B: Building an Area Management Model for Decarbonization and Climate Resilience",
+          "url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+          "year": 2026,
+          "page": "pp.2,4,6–7",
+          "pdf_page": [
+            2,
+            4,
+            6,
+            7
+          ],
+          "excerpt": "Booklet; PowerPoint presentation",
+          "note": ""
+        },
+        {
+          "source_id": "brief",
+          "document_title": "2026 Theme B: Building an Area Management Model for Decarbonization and Climate Resilience",
+          "url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+          "year": 2026,
+          "page": "p.5",
+          "pdf_page": [
+            5
+          ],
+          "excerpt": "Watage; CWL",
+          "note": ""
+        }
+      ],
+      "strength": "brief requirement",
+      "scope": {
+        "zh": "课程明示要求；未给出量化评分表。",
+        "en": "Explicit course requirements; no quantitative grading rubric is supplied.",
+        "ja": "課題書の明示要件。定量的な採点表は記載されていない。"
+      },
+      "missing": {
+        "zh": "成员分工、试点、成本和指标权重待团队决定。",
+        "en": "The team must decide roles, pilots, costs and metric weights.",
+        "ja": "役割、試行地点、費用、指標の重みはチームで決める。"
+      },
+      "visible_outputs": [
+        "Action spreads",
+        "Stakeholder-role diagram",
+        "Booklet and slides checklist"
+      ],
+      "field_roles": {
+        "source_fact": "Source statement",
+        "local_meaning": "Studio interpretation",
+        "design_response": "Proposed studio action"
+      }
+    },
+    {
+      "id": "two_precincts",
+      "title": {
+        "zh": "本场地跨两个地区策略，需要分段回应",
+        "en": "The core area intersects two planning strategies",
+        "ja": "対象地は二つの地区方針にまたがる"
+      },
+      "source_fact": {
+        "zh": "区 Master Plan 正文 p.184 将鍛冶町二丁目「一部」列入地区③，重点是秋叶原、神田、岩本町三站邻近性、第三空间和住宅商办协调；同页把鍛冶町一・二丁目「一部」列入地区④，强调从神田站东口到日本桥的复合城区、地上地下连接、绿化与环境防灾节点。",
+        "en": "Printed page 184 includes part of Kajicho 2 in precinct ③, emphasizing access to three stations, third places and a balance of housing and business. Precinct ④ includes parts of Kajicho 1 and 2 and focuses on the east Kanda Station–Nihonbashi mixed district, connections, green space and resilient hubs.",
+        "ja": "本文184頁では鍛冶町二丁目の一部を地区③とし、3駅への近接性、サードプレイス、住商業務の調和を重視する。鍛冶町一・二丁目の一部を含む地区④は、神田駅東口から日本橋へ続く複合市街地、地上地下の接続、緑、環境・防災拠点を重視する。"
+      },
+      "local_meaning": {
+        "zh": "因此，核心区不是一种均质的更新对象。北侧联系与站东口—日本桥联系具有不同的政策着眼点；「一部」也说明不能按一丁目、二丁目各分一块，更不能把整片神田公园地区的统计量当作核心区现状。",
+        "en": "The core is not a single uniform renewal area. Its northern links and east-station–Nihonbashi links have different emphases. The word “part” prevents a simple one-chome/one-precinct split or substitution of wider-area statistics for core evidence.",
+        "ja": "一丁目・二丁目をそれぞれ一つの方針区域とみなすことはできない。北側の連携と駅東口・日本橋方向では重点が異なり、広域統計を対象地の現況値として扱うことも避ける。"
+      },
+      "design_response": {
+        "zh": "先叠合课程核心、地区③/④参考范围与真实道路，再为每个街段写清采用哪条方向：三站之间的停留服务与连接，或站东口向日本桥的连续首层、绿色节点和公共通路。地块建设参数仍由法定图则另行核对。",
+        "en": "Overlay the course core, the reference precinct boundaries and streets. State which direction each segment addresses: links and places to pause between stations, or active edges, green nodes and public passages toward Nihonbashi. Check parcel controls separately.",
+        "ja": "課題範囲、地区③・④の参考境界、道路を重ね、街路ごとの応答を示す。3駅間の滞在・サービスか、日本橋方向の低層部・緑・通路かを明確にし、敷地規制は別途確認する。"
+      },
+      "evidence": [
+        {
+          "source_id": "ward4",
+          "document_title": "千代田区都市計画マスタープラン 第4章",
+          "url": "https://www.city.chiyoda.lg.jp/documents/17862/toshimasu-4_2.pdf",
+          "year": 2021,
+          "page": "pp.182,184",
+          "pdf_page": [
+            72,
+            74
+          ],
+          "excerpt": "鍛冶町一・二丁目（一部）",
+          "note": "Both original page and policy map visually checked; PNGs retained"
+        }
+      ],
+      "strength": "plan direction",
+      "scope": {
+        "zh": "地区③含二丁目部分；地区④含一、二丁目部分。",
+        "en": "Precinct ③: part of Kajicho 2; precinct ④: parts of Kajicho 1 and 2.",
+        "ja": "地区③は二丁目の一部、地区④は一・二丁目の一部。"
+      },
+      "missing": {
+        "zh": "两地区政策边界尚未完成正式GIS叠合；原图用于解释，不作为测绘边界。",
+        "en": "A formal GIS overlay is pending; the policy diagram is explanatory, not a surveyed boundary.",
+        "ja": "正式なGIS重ね合わせは未実施。方針図は測量境界ではない。"
+      },
+      "visible_outputs": [
+        "Policy-to-site overlay",
+        "Segment-by-segment policy response"
+      ],
+      "field_roles": {
+        "source_fact": "Source statement",
+        "local_meaning": "Studio interpretation",
+        "design_response": "Proposed studio action"
+      }
+    },
+    {
+      "id": "station_network",
+      "title": {
+        "zh": "把神田站、旧今川中学校与两条街道轴接成日常网络",
+        "en": "Connect the station, local hub and street axes",
+        "ja": "神田駅・旧今川中学校・街路軸をつなぐ"
+      },
+      "source_fact": {
+        "zh": "Master Plan p.182、184、186 将神田站周边列为魅力再生据点；中央通り连接秋叶原—神田—日本桥，神田平成通り承担东西回游，昭和通り等需要保持横断联系。地区④明确把「旧今川中学校」作为社区形成和防灾的核心；原图将其标在神田站东侧。",
+        "en": "Pages 182, 184 and 186 identify Kanda Station as a renewal hub. Chuo-dori links Akihabara, Kanda and Nihonbashi; Kanda Heisei-dori carries east–west circulation. Precinct ④ names the former Imagawa Junior High School as a community and disaster-management hub east of the station.",
+        "ja": "182・184・186頁は神田駅を魅力再生の拠点、中央通りを南北連携、神田平成通りを東西回遊の軸とする。地区④は「旧今川中学校」をコミュニティ形成と防災の核とし、図では駅東側に示す。"
+      },
+      "local_meaning": {
+        "zh": "这给场地分析一个具体顺序：从车站出口出发，追踪经过商业首层、路口和停留节点的完整路径，再检查能否到达地区公共活动点。可达性既涉及路网连通，也涉及横断、入口、坡差、遮阴与实际开放时间。",
+        "en": "Start with real station exits and follow complete paths through shop edges, crossings and places to pause toward community facilities. Connectivity alone does not show usable access; entrances, levels, shade and opening times matter.",
+        "ja": "実際の駅出口から店舗前、交差点、滞在地点をたどり、地域の活動拠点へ至る連続した経路を調べる。接続だけでなく、入口、高低差、日陰、開放時間も利用可能性を左右する。"
+      },
+      "design_response": {
+        "zh": "将这些路径编成小尺度地图与断面，优先标出中断点和可补连续性的机会。旧今川中学校在本轮作为规划中明确点名的待核节点：确认当前用途、管理与进入条件后，再讨论其能否承担团队方案的活动或支持功能。",
+        "en": "Draw route maps and sections that expose breaks in continuity. Treat the former school as a named planning node to verify; confirm current use, management and access before proposing a role in the studio scheme.",
+        "ja": "経路図と断面で連続性の切れる場所を示す。旧今川中学校は計画が名指す確認対象とし、現用途、管理、入場条件を確認してから提案上の役割を考える。"
+      },
+      "evidence": [
+        {
+          "source_id": "ward4",
+          "document_title": "千代田区都市計画マスタープラン 第4章",
+          "url": "https://www.city.chiyoda.lg.jp/documents/17862/toshimasu-4_2.pdf",
+          "year": 2021,
+          "page": "pp.182,184,186",
+          "pdf_page": [
+            72,
+            74,
+            76
+          ],
+          "excerpt": "旧今川中学校",
+          "note": ""
+        }
+      ],
+      "strength": "plan direction",
+      "scope": {
+        "zh": "和泉桥地区方针；旧今川中学校是规划命名节点。",
+        "en": "Izumibashi guidance; the former school is a named planning node.",
+        "ja": "和泉橋地域の方針。旧今川中学校は計画上の指定地点。"
+      },
+      "missing": {
+        "zh": "校舍现用途、运营/进入条件与路段实况待核；本轮未确定其为试点。",
+        "en": "Current school use, access and route conditions need checking; it is not a selected pilot.",
+        "ja": "現在の利用・入場条件と街路状況は要確認。試行地として選定していない。"
+      },
+      "visible_outputs": [
+        "Station-to-hub route map",
+        "Crossing and entrance sections",
+        "Node access record"
+      ],
+      "field_roles": {
+        "source_fact": "Source statement",
+        "local_meaning": "Studio interpretation",
+        "design_response": "Proposed studio action"
+      }
+    },
+    {
+      "id": "time_and_stock",
+      "title": {
+        "zh": "用不同层级的时间目标安排渐进更新",
+        "en": "Plan change across different time horizons",
+        "ja": "異なる時間軸で段階的な更新を考える"
+      },
+      "source_fact": {
+        "zh": "东京都2021区域 Master Plan 把城市愿景放在2040年代、主要设施等目标放在2030年；2025正式版《2050東京戦略》强调人本空间、历史景观与区域个性。2026 Grand Design「中间总结」提出转向2050年代，并指出中小楼宇潜力、商街巷道流失和车站周边趋同问题。",
+        "en": "The 2021 Tokyo area master plan uses the 2040s for the urban vision and 2030 for major facilities. The final 2025 Tokyo strategy values people, history and local character. The 2026 interim Grand Design identifies unused potential in small buildings, loss of distinctive streets and uniform station areas.",
+        "ja": "2021年の区域マスタープランは都市像を2040年代、主要施設等を2030年に置く。2025年の正式戦略は人、歴史、地域の個性を重視する。2026年の中間まとめは中小ビルの可能性、商店街・路地の喪失、駅周辺の画一化を課題とする。"
+      },
+      "local_meaning": {
+        "zh": "课程2050目标可承接长期变化，但无需把每条短街立即画成一次性重建。鍛冶町的小楼、店铺和多个产权主体，更适合比较可先试行、可随维护改造、需要长期协同的不同措施；这是由规划与场地结构推得的工作室判断。",
+        "en": "A 2050 horizon can include long-term change without turning every small block into a single redevelopment project. Small buildings and multiple actors invite comparison of trials, routine retrofits and measures needing sustained coordination. This is a studio inference.",
+        "ja": "2050年の目標は一斉再開発を意味しない。小規模建物と複数主体を踏まえ、試行、維持更新に合わせた改修、長期協働が必要な施策を比較する、というスタジオの判断につながる。"
+      },
+      "design_response": {
+        "zh": "作品集把「现状—可逆试行—建筑维护/更新—片区长期协同」并排，标出每一步触发条件和责任人。官方计划的年限保留在背景层；我们提出的阶段与完成时间单列，避免将中间稿或邻区工程日期写成已获批准的本地计划。",
+        "en": "Show baseline, reversible trials, building maintenance or renewal, and longer-term area coordination side by side. Give each a trigger and actor. Keep official horizons distinct from studio dates, interim documents and neighboring project schedules.",
+        "ja": "現状、可逆的試行、建物維持更新、長期の地区連携を並べ、開始条件と主体を示す。公式目標年と提案日程、中間資料、隣接事業の予定を区別する。"
+      },
+      "evidence": [
+        {
+          "source_id": "area_master",
+          "document_title": "東京都市計画 都市計画区域の整備、開発及び保全の方針",
+          "url": "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_seisaku_master_plan_data_pdf_toshi_1?2021=",
+          "year": 2021,
+          "page": "p.1",
+          "pdf_page": [
+            5
+          ],
+          "excerpt": "",
+          "note": ""
+        },
+        {
+          "source_id": "2050",
+          "document_title": "2050東京戦略 ～東京もっとよくなる～ 正式版",
+          "url": "https://www.spt.metro.tokyo.lg.jp/seisakukikaku/2050tokyo/book.pdf",
+          "year": 2025,
+          "page": "pp.251–252",
+          "pdf_page": [
+            253,
+            254
+          ],
+          "excerpt": "",
+          "note": ""
+        },
+        {
+          "source_id": "interim",
+          "document_title": "都市づくりのグランドデザイン 改定に向けた中間のまとめ",
+          "url": "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/grand-design-mainpart",
+          "year": 2026,
+          "page": "pp.1–4",
+          "pdf_page": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "excerpt": "改定に向けた中間のまとめ",
+          "note": ""
+        }
+      ],
+      "strength": "studio inference",
+      "scope": {
+        "zh": "东京都上位方向；课程2050为本场地工作期限。",
+        "en": "Tokyo-wide directions; the course supplies the local 2050 horizon.",
+        "ja": "東京都全体の方針と課題の2050年目標。"
+      },
+      "missing": {
+        "zh": "阶段划分为工作室建议；2026材料为中间稿，东京2021原文在线刷新返回403。",
+        "en": "Phases are studio proposals; the 2026 document is interim, and the 2021 live PDF returned 403.",
+        "ja": "段階分けは提案。2026年資料は中間まとめ、2021年PDFのオンライン再確認は403。"
+      },
+      "visible_outputs": [
+        "Phased action matrix",
+        "Reuse/retrofit/rebuild comparison"
+      ],
+      "field_roles": {
+        "source_fact": "Source statement",
+        "local_meaning": "Studio interpretation",
+        "design_response": "Proposed studio action"
+      }
+    },
+    {
+      "id": "energy_fabric",
+      "title": {
+        "zh": "神田的环境更新先从旧楼与冷点之间的联系展开",
+        "en": "Link building retrofit with a network of cooler places",
+        "ja": "既存建物の改修と涼しい場所をつなぐ"
+      },
+      "source_fact": {
+        "zh": "区 Master Plan p.103指出当时减碳工作多停留在单个开发，尚需形成地区协作；p.107针对秋叶原—神田—神保町，强调冷点串联、空地和建筑布置，以及旧楼功能更新与改修。区域供热设施利用则另在神田骏河台等特定地区讨论，不能直接认作鍛冶町现有条件。",
+        "en": "The ward plan notes a gap between individual developments and area-wide carbon action. For Akihabara–Kanda–Jimbocho, page 107 emphasizes connected cool spots, open space, building arrangement and retrofit. Existing district-heating assets are discussed for other specific areas, not established for Kajicho.",
+        "ja": "区計画は個別開発の対策から地区全体の連携へ進む必要を述べる。107頁の秋葉原・神田・神保町では、クールスポット、空地、配置、旧建物の更新・改修を重視する。地域冷暖房の既存設備は別地域の記述であり、鍛冶町の条件とは確定しない。"
+      },
+      "local_meaning": {
+        "zh": "对于本场地，楼宇节能和街道舒适可以在同一更新机会中讨论：设备维护、外立面/屋面改造、首层开放与邻近休息点各由谁负责。能否形成片区节能协作，取决于参与者和能源数据，而不是先画出一条没有证据的能源管网。",
+        "en": "For Kajicho, one renewal opportunity can connect equipment, envelope or roof work, ground-floor access and nearby rest space. Area cooperation depends on willing actors and energy evidence; a network diagram alone does not establish infrastructure.",
+        "ja": "設備保守、外壁・屋根改修、低層部の開放、近くの休憩場所を同じ更新機会として考えられる。地区協働の成立には参加者とエネルギー資料が必要で、模式的な管網だけでは設備の存在を示せない。"
+      },
+      "design_response": {
+        "zh": "建立建筑—街段候选表：现状用途与能耗证据、维护周期、可采取的措施、影响的室内/街道对象、参与主体。先用已有数据做机会识别，待实际账单与运行条件取得后比较节能量；遮阴改善单独记录覆盖位置与时段。",
+        "en": "Build a building–street opportunity table: use, energy evidence, maintenance timing, options, affected spaces and actors. Identify opportunities now, estimate savings when bills and operating conditions are available, and record shade by place and time.",
+        "ja": "建物・街路の候補表に用途、使用量の根拠、保守時期、施策、影響空間、主体をまとめる。現データで機会を見つけ、請求書・運転条件の取得後に削減量を比較し、日陰は場所と時間で別記する。"
+      },
+      "evidence": [
+        {
+          "source_id": "ward3",
+          "document_title": "千代田区都市計画マスタープラン 第3章 テーマ4–7",
+          "url": "https://www.city.chiyoda.lg.jp/documents/17862/toshimasu-3_2-2.pdf",
+          "year": 2021,
+          "page": "pp.103–107",
+          "pdf_page": [
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "excerpt": "地域の特性に応じた",
+          "note": ""
+        }
+      ],
+      "strength": "plan direction",
+      "scope": {
+        "zh": "秋叶原—神田—神保町的分区方向；本场地措施为推导。",
+        "en": "Area-specific direction for Akihabara–Kanda–Jimbocho; local measures are derived proposals.",
+        "ja": "秋葉原・神田・神保町の方向を対象地へ具体化する提案。"
+      },
+      "missing": {
+        "zh": "楼宇实际能耗、设备、管网和参与意愿待补；政策潜力不等于现场已安装能力。",
+        "en": "Actual energy, equipment, networks and participation remain unknown; policy potential is not installed capacity.",
+        "ja": "実使用量、設備、配管、参加意向は未確認。潜在性は既設能力ではない。"
+      },
+      "visible_outputs": [
+        "Building–street retrofit table",
+        "Energy evidence gaps",
+        "Shade and rest-place links"
+      ],
+      "field_roles": {
+        "source_fact": "Source statement",
+        "local_meaning": "Studio interpretation",
+        "design_response": "Proposed studio action"
+      }
+    },
+    {
+      "id": "small_green",
+      "title": {
+        "zh": "绿化要适应小地块，并转化为可使用的空间",
+        "en": "Make limited green space useful at street level",
+        "ja": "限られた緑を使える空間にする"
+      },
+      "source_fact": {
+        "zh": "绿地计划 p.4以2018年资料给出和泉桥绿被率3.58%、千代田区23.22%；p.83解释多数町丁目低于5%，小地块与窄巷限制绿化余地。p.59提出地先、屋顶和墙面绿化；p.84要求有限绿地同时服务日常交流、雨水滞蓄和多主体维护。",
+        "en": "The green plan reports 2018 coverage of 3.58% in Izumibashi versus 23.22% for Chiyoda. It links limited planting space to small plots and narrow alleys. Its measures include frontage, roof and wall greening, social use, rainwater functions and shared maintenance.",
+        "ja": "緑の計画は2018年の和泉橋3.58％、区23.22％を示し、小敷地と路地による緑化余地の制約を説明する。地先・屋上・壁面緑化に加え、交流、雨水機能、複数主体の維持管理を求める。"
+      },
+      "local_meaning": {
+        "zh": "这些数据解释为什么需要寻找分散的小空间，却不能代替鍛冶町2026年的树冠调查。屋顶绿化面积、从街道看见的绿和行人真正能使用的阴凉处是不同对象；增加一个面积值未必增加午间休息机会。",
+        "en": "These figures motivate dispersed small-space opportunities but do not measure Kajicho’s 2026 canopy. Roof area, visible greenery and accessible shade are different quantities; more green area does not automatically create a useful lunchtime rest place.",
+        "ja": "この値は分散する小空間を探す根拠となるが、2026年の樹冠調査の代替ではない。屋上面積、見える緑、利用できる日陰は異なり、緑の面積増加が昼休みの休憩機会を必ず増やすとは限らない。"
+      },
+      "design_response": {
+        "zh": "为门前、街角、屋顶和临时空地建立候选清单，逐项记录日照、进入时间、净通行宽度、雨水条件和浇灌维护者。图版分别显示树冠、可使用的停留点与屋顶机会，并把实际树位缺口留给现场补查。",
+        "en": "Screen frontages, corners, roofs and temporary plots using sun, access hours, clear width, drainage and maintenance. Show canopy, usable places to pause and roof opportunities separately, and retain missing tree locations as field tasks.",
+        "ja": "地先、角地、屋上、暫定空地を、日照、利用時間、有効幅、排水、維持管理者で確認する。樹冠、滞在地点、屋上の機会を分けて描き、不足する樹木位置を現地調査につなぐ。"
+      },
+      "evidence": [
+        {
+          "source_id": "green1",
+          "document_title": "千代田区緑の基本計画 第1–4章",
+          "url": "https://www.city.chiyoda.lg.jp/documents/17827/01midori-keikaku-1-4_2.pdf",
+          "year": 2021,
+          "page": "p.4",
+          "pdf_page": [
+            7
+          ],
+          "excerpt": "",
+          "note": "2018 observation year; 2021 publication"
+        },
+        {
+          "source_id": "green2",
+          "document_title": "千代田区緑の基本計画 第5–7章",
+          "url": "https://www.city.chiyoda.lg.jp/documents/17827/02midori-keikaku-5-7_2.pdf",
+          "year": 2021,
+          "page": "pp.59,83–85",
+          "pdf_page": [
+            16,
+            40,
+            41,
+            42
+          ],
+          "excerpt": "",
+          "note": "p83 visually checked; figures refer to Izumibashi, not just Kajicho"
+        }
+      ],
+      "strength": "plan direction",
+      "scope": {
+        "zh": "和泉桥地区旧统计与区级绿化政策；实施候选需逐地点调查。",
+        "en": "Historic Izumibashi figures and ward greening policy; inspect individual candidate sites.",
+        "ja": "和泉橋の過去統計と区の緑化方針。各候補地点は要調査。"
+      },
+      "missing": {
+        "zh": "现树冠、土壤/地下设施、屋顶承载、开放条件与管理者待核。",
+        "en": "Check canopy, soil and utilities, roof capacity, access and maintenance.",
+        "ja": "樹冠、土壌・地下設備、屋上荷重、開放条件、管理者は要確認。"
+      },
+      "visible_outputs": [
+        "Green/use/access map",
+        "Small-space candidate inventory"
+      ],
+      "field_roles": {
+        "source_fact": "Source statement",
+        "local_meaning": "Studio interpretation",
+        "design_response": "Proposed studio action"
+      }
+    },
+    {
+      "id": "street_identity",
+      "title": {
+        "zh": "把地方性落实到首层、巷道和立面连续性",
+        "en": "Translate local character into street-level decisions",
+        "ja": "界隈らしさを低層部と路地に具体化する"
+      },
+      "source_fact": {
+        "zh": "任务书把鍛冶町的地方性写为金物批零、手工业与办公商业积累；神田景观指南进一步把这种历史落实到砖砌高架、稲荷、巷道、历史立面，以及金物通り等街道的高度、面宽和墙面连续性。2020年7月清单列出山梨中央銀行東京支店（1-6-10）和太洋／丸石ビルディング（1-10-4）。",
+        "en": "The brief locates Kajicho’s identity in hardware trade, crafts and later office-commercial activity. The Kanda guide translates history into brick viaducts, shrines, alleys, façades and continuous height, frontage and wall alignment. Its July 2020 list identifies the Yamanashi Chuo Bank branch and Taiyo/Maruishi Building in Kajicho.",
+        "ja": "課題書は金物流通、手仕事、業務・商業の積み重ねを記す。景観指針は煉瓦高架、稲荷、路地、歴史的壁面と、通りの高さ・間口・壁面位置の連続へ具体化する。2020年7月の一覧には鍛冶町の山梨中央銀行東京支店、太洋・丸石ビルディングを挙げる。"
+      },
+      "local_meaning": {
+        "zh": "这使「保留神田风貌」成为可观察的设计条件：商业入口节奏、檐口和退线、从主街进入巷道的尺度变化，以及新设备或绿化如何接在旧立面上。景观关系需要一段街道一起看，不能只挑一栋历史楼拍照。",
+        "en": "Character becomes observable through entrances, cornices, setbacks, transitions into alleys and how new equipment or planting meets old façades. Assess a street sequence, rather than only an isolated landmark.",
+        "ja": "入口のリズム、軒線、壁面、主街路から路地への尺度変化、設備や植栽と既存立面の接続として観察できる。歴史建物単体だけでなく、通りの連続を読む。"
+      },
+      "design_response": {
+        "zh": "制作连续街景与一组断面，标注需要保留的尺度和可以调整的构件；将节能改造与首层可见性、巷道连通一并比较。历史建筑名录保留2020年时点，2026现用途与保存状况另做现场记录。",
+        "en": "Draw continuous street elevations and sections, separating retained proportions from adaptable elements. Compare energy retrofit with ground-floor visibility and alley connections. Keep the inventory date explicit and survey current use and condition.",
+        "ja": "連続立面と断面で継承する尺度と変更可能な要素を分け、省エネ改修、低層部の見通し、路地接続を比較する。名簿の2020年時点を示し、現用途と保存状態を別途記録する。"
+      },
+      "evidence": [
+        {
+          "source_id": "landscape",
+          "document_title": "千代田区界隈別・重点地区景観まちづくりガイドライン 神田地域",
+          "url": "https://www.city.chiyoda.lg.jp/documents/4204/guideline-3_1.pdf",
+          "year": 2021,
+          "page": "PDF pp.23–26",
+          "pdf_page": [
+            23,
+            24,
+            25,
+            26
+          ],
+          "excerpt": "路地を活かす",
+          "note": "Resource list dated 2020-07; regional guidance revised 2021"
+        },
+        {
+          "source_id": "brief",
+          "document_title": "2026 Theme B: Building an Area Management Model for Decarbonization and Climate Resilience",
+          "url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+          "year": 2026,
+          "page": "p.5",
+          "pdf_page": [
+            5
+          ],
+          "excerpt": "Kanda Kanamono-dori",
+          "note": ""
+        }
+      ],
+      "strength": "plan direction",
+      "scope": {
+        "zh": "神田地域景观指引；两项资源在鍛冶町一丁目。",
+        "en": "Kanda guidance; two named resources lie in Kajicho 1.",
+        "ja": "神田地域の指針。例示した2資源は鍛冶町一丁目。"
+      },
+      "missing": {
+        "zh": "名录中的现用途、立面状态和权利关系待核；图示不能代替保存或施工许可。",
+        "en": "Verify present use, condition and ownership; drawings do not supply conservation or construction permission.",
+        "ja": "現用途、状態、権利関係は要確認。図示は保存・工事許可を代替しない。"
+      },
+      "visible_outputs": [
+        "Street elevation sequence",
+        "Material and frontage field record",
+        "Retrofit-detail comparison"
+      ],
+      "field_roles": {
+        "source_fact": "Source statement",
+        "local_meaning": "Studio interpretation",
+        "design_response": "Proposed studio action"
+      }
+    },
+    {
+      "id": "wider_links",
+      "title": {
+        "zh": "外围日本桥提供连接对象与比较经验",
+        "en": "Use Nihonbashi for connections and comparison",
+        "ja": "日本橋を接続先と比較対象として読む"
+      },
+      "source_fact": {
+        "zh": "日本桥川2021愿景把地上、地下、桥头和水岸步行网络连起来，并将建筑更新、开放空间、能源协作和地区持续运行并列。七之部2022愿景针对兜町—茅场町金融片区，指出办公偏重、停留功能不足和小街区更新困难，提出逐街道特色与分期更新。",
+        "en": "The 2021 river vision connects ground, underground, bridgehead and waterside routes with building renewal, open space, energy cooperation and district continuity. The 2022 Nanobe vision addresses Kabutocho–Kayabacho: office-heavy uses, limited places to stay and difficult renewal of small blocks.",
+        "ja": "川沿い2021ビジョンは地上・地下・橋詰・水辺の歩行網を、建物更新、空地、エネルギー連携、地区継続と結ぶ。七の部2022は兜町・茅場町の業務偏重、滞在機能不足、小街区更新を扱い、通りの特色と段階的更新を示す。"
+      },
+      "local_meaning": {
+        "zh": "鍛冶町可从中追问：神田站走向日本桥的路线是否连续、哪里能停留、不同时间谁会使用；也可比较小业主更新如何累积成街区改善。金融拠点的引入功能和川岸开发条件具有特定范围，不能整套移植到核心区。",
+        "en": "For Kajicho, ask whether routes to Nihonbashi are continuous, where people can stay and who uses them at different times. Compare how small-owner renewal adds up to district improvement. Finance-hub programs and riverfront conditions retain their own geographic scope.",
+        "ja": "鍛冶町では日本橋への連続経路、滞在場所、時間帯別利用を問い、小規模更新の積み重ねを比較する。金融拠点の導入機能や河岸条件は、それぞれの範囲を持つ。"
+      },
+      "design_response": {
+        "zh": "外围图显示中央通り及通向桥头/河岸的连接，核心图则落实为实际路口、街段和首层活动。并列一张比较表：可借鉴的连接与运营机制、需本地验证的条件、仅属邻区的功能；旧版工程时间表只作历史背景。",
+        "en": "Show wider links toward bridges and the river, then resolve them into core crossings, street segments and ground-floor uses. Separate transferable mechanisms, local conditions to test and neighbor-specific programs. Treat archived project schedules as historical context.",
+        "ja": "周辺図の橋詰・河岸への線を、対象地の交差点、街路、低層活動に落とす。参考にできる仕組み、現地確認が必要な条件、隣接地固有の機能を比較し、旧日程は歴史的背景として扱う。"
+      },
+      "evidence": [
+        {
+          "source_id": "river",
+          "document_title": "日本橋川沿いエリアのまちづくりビジョン2021",
+          "url": "https://www.city.chuo.lg.jp/documents/5126/kawazoivis2021.pdf",
+          "year": 2021,
+          "page": "pp.1,3–9",
+          "pdf_page": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "excerpt": "",
+          "note": ""
+        },
+        {
+          "source_id": "nanobe",
+          "document_title": "日本橋七の部地域まちづくりビジョン2022",
+          "url": "https://www.city.chuo.lg.jp/documents/5126/nihonbashi_2022_.pdf",
+          "year": 2022,
+          "page": "pp.1–3,6–8",
+          "pdf_page": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "excerpt": "",
+          "note": ""
+        }
+      ],
+      "strength": "studio inference",
+      "scope": {
+        "zh": "中央区官方愿景范围；是核心区的外围联系与对照。",
+        "en": "Official Chuo vision areas, used as wider links and comparison.",
+        "ja": "中央区ビジョンの対象範囲。重点範囲の周辺連携と比較。"
+      },
+      "missing": {
+        "zh": "当前工程进展、跨区通行断点和具体开发条件未在本轮更新。",
+        "en": "Current construction progress, cross-ward barriers and development conditions were not refreshed in this study.",
+        "ja": "工事進捗、区境の通行課題、個別開発条件は今回更新していない。"
+      },
+      "visible_outputs": [
+        "Wider connection map",
+        "Transferability comparison"
+      ],
+      "field_roles": {
+        "source_fact": "Source statement",
+        "local_meaning": "Studio interpretation",
+        "design_response": "Proposed studio action"
+      }
+    }
+  ],
+  "brief_checklist": [
+    {
+      "requirement": {
+        "zh": "明确核心、外围与2050时间范围",
+        "en": "Define core, context and the 2050 horizon",
+        "ja": "重点・周辺・2050年の範囲を示す"
+      },
+      "response": {
+        "zh": "范围图＋边界状态＋时间范围。",
+        "en": "Scope map, boundary status and time horizon.",
+        "ja": "範囲図、境界の状態、対象期間。"
+      },
+      "evidence": [
+        {
+          "source_id": "brief",
+          "document_title": "2026 Theme B: Building an Area Management Model for Decarbonization and Climate Resilience",
+          "url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+          "year": 2026,
+          "page": "p.4",
+          "pdf_page": [
+            4
+          ],
+          "excerpt": "",
+          "note": ""
+        }
+      ],
+      "id": "scope",
+      "requirement_status": "Explicit brief requirement; response is the proposed evidence of completion"
+    },
+    {
+      "requirement": {
+        "zh": "从场地问题形成愿景与行动",
+        "en": "Develop issues, visions and actions",
+        "ja": "課題から将来像と行動を組み立てる"
+      },
+      "response": {
+        "zh": "每个行动可回溯到现状证据与设计问题。",
+        "en": "Each action traces to baseline evidence and a design question.",
+        "ja": "各行動が現況の根拠と設計課題へ戻れる。"
+      },
+      "evidence": [
+        {
+          "source_id": "brief",
+          "document_title": "2026 Theme B: Building an Area Management Model for Decarbonization and Climate Resilience",
+          "url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+          "year": 2026,
+          "page": "pp.2,4",
+          "pdf_page": [
+            2,
+            4,
+            7
+          ],
+          "excerpt": "",
+          "note": ""
+        }
+      ],
+      "id": "issues_visions_actions",
+      "requirement_status": "Explicit brief requirement; response is the proposed evidence of completion"
+    },
+    {
+      "requirement": {
+        "zh": "说明数据/平台怎样支持规划判断",
+        "en": "Explain how data and the platform support decisions",
+        "ja": "データと基盤が判断をどう支えるか示す"
+      },
+      "response": {
+        "zh": "分析对象、假设、比较与对应设计决定；背景平台包括建筑和车辆能源碳。",
+        "en": "Objects, assumptions, comparisons and decisions; the background platform covers buildings and vehicles.",
+        "ja": "対象、仮定、比較、設計判断。背景の基盤は建物と車両を扱う。"
+      },
+      "evidence": [
+        {
+          "source_id": "brief",
+          "document_title": "2026 Theme B: Building an Area Management Model for Decarbonization and Climate Resilience",
+          "url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+          "year": 2026,
+          "page": "pp.2,4",
+          "pdf_page": [
+            2,
+            4,
+            7
+          ],
+          "excerpt": "",
+          "note": ""
+        }
+      ],
+      "id": "platform",
+      "requirement_status": "Explicit brief requirement; response is the proposed evidence of completion"
+    },
+    {
+      "requirement": {
+        "zh": "组织企业、政府、学者与居民的实施关系",
+        "en": "Organize implementation across stakeholders",
+        "ja": "企業・行政・大学・市民の実行関係を示す"
+      },
+      "response": {
+        "zh": "工作组、计划共享、个体/共同活动与公共支持的关系。",
+        "en": "Task force, plan sharing, individual and collective action, public support.",
+        "ja": "体制、計画共有、個別・共同活動、公共支援の関係。"
+      },
+      "evidence": [
+        {
+          "source_id": "brief",
+          "document_title": "2026 Theme B: Building an Area Management Model for Decarbonization and Climate Resilience",
+          "url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+          "year": 2026,
+          "page": "pp.2,4",
+          "pdf_page": [
+            2,
+            4,
+            7
+          ],
+          "excerpt": "",
+          "note": ""
+        }
+      ],
+      "id": "stakeholders",
+      "requirement_status": "Explicit brief requirement; response is the proposed evidence of completion"
+    },
+    {
+      "requirement": {
+        "zh": "把管理模式应用到鍛冶町及周边",
+        "en": "Apply the model to Kajicho and its wider area",
+        "ja": "モデルを鍛冶町と周辺に適用する"
+      },
+      "response": {
+        "zh": "有地点、对象、实施主体和待协商条件的行动。",
+        "en": "Actions tied to places, objects, actors and open decisions.",
+        "ja": "場所、対象、主体、協議条件が明確な行動。"
+      },
+      "evidence": [
+        {
+          "source_id": "brief",
+          "document_title": "2026 Theme B: Building an Area Management Model for Decarbonization and Climate Resilience",
+          "url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+          "year": 2026,
+          "page": "pp.4,7",
+          "pdf_page": [
+            2,
+            4,
+            7
+          ],
+          "excerpt": "",
+          "note": ""
+        }
+      ],
+      "id": "application",
+      "requirement_status": "Explicit brief requirement; response is the proposed evidence of completion"
+    },
+    {
+      "requirement": {
+        "zh": "完成解释模式与场地应用的Booklet",
+        "en": "Deliver the explanatory booklet",
+        "ja": "モデルと現地適用を説明する冊子"
+      },
+      "response": {
+        "zh": "完整叙事、地图、比较依据与实施说明。",
+        "en": "A complete argument, maps, comparisons and delivery explanation.",
+        "ja": "論証、地図、比較根拠、実行の説明。"
+      },
+      "evidence": [
+        {
+          "source_id": "brief",
+          "document_title": "2026 Theme B: Building an Area Management Model for Decarbonization and Climate Resilience",
+          "url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+          "year": 2026,
+          "page": "p.7",
+          "pdf_page": [
+            7
+          ],
+          "excerpt": "",
+          "note": ""
+        }
+      ],
+      "id": "booklet",
+      "requirement_status": "Explicit brief requirement; response is the proposed evidence of completion"
+    },
+    {
+      "requirement": {
+        "zh": "用PowerPoint概括主要成果",
+        "en": "Summarize the work in PowerPoint",
+        "ja": "PowerPointで成果を要約する"
+      },
+      "response": {
+        "zh": "与Booklet一致的核心判断及图纸。",
+        "en": "Key judgments and drawings consistent with the booklet.",
+        "ja": "冊子と整合する主要判断と図面。"
+      },
+      "evidence": [
+        {
+          "source_id": "brief",
+          "document_title": "2026 Theme B: Building an Area Management Model for Decarbonization and Climate Resilience",
+          "url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+          "year": 2026,
+          "page": "p.7",
+          "pdf_page": [
+            7
+          ],
+          "excerpt": "",
+          "note": ""
+        }
+      ],
+      "id": "slides",
+      "requirement_status": "Explicit brief requirement; response is the proposed evidence of completion"
+    }
+  ],
+  "course_schedule": {
+    "source_id": "brief",
+    "page": "p.6",
+    "timezone": "Asia/Tokyo",
+    "milestones": [
+      {
+        "date": "2026-10-21",
+        "time": "17:00–18:30",
+        "name": "Kick-off"
+      },
+      {
+        "date": "2026-11-18",
+        "time": "17:00–18:30",
+        "name": "Interim presentation"
+      },
+      {
+        "date": "2026-12-16",
+        "time": "17:00–18:30",
+        "name": "Final presentation"
+      }
+    ],
+    "sequence": [
+      {
+        "stage": "Week 1",
+        "work": "Site visit; current conditions, issues and possibilities; plans and initiatives"
+      },
+      {
+        "stage": "Week 2",
+        "work": "Stakeholders; mitigation/adaptation; define both support systems and model; data/software instruction"
+      },
+      {
+        "stage": "Week 3",
+        "work": "Issues, visions, actions; concept and drawings"
+      },
+      {
+        "stage": "Weeks 4–8",
+        "work": "Interim review, refinement and final presentation"
+      }
+    ],
+    "source_note": "The source contains overlapping week ranges and an incomplete Week 6 end date; milestone dates are reproduced as printed. Confirm course updates before scheduling."
+  },
+  "not_specified_by_brief": {
+    "zh": "任务书未列量化评分权重、指定CFD方法、必算温度/碳指标、已批准试点或已分配团队角色。",
+    "en": "The brief gives no quantitative grading weights, required CFD method, fixed temperature/carbon metrics, approved pilot or assigned team roles.",
+    "ja": "定量採点の重み、指定CFD手法、必須の温度・炭素指標、承認済み試行地、担当は課題書にない。"
+  },
+  "source_catalog": {
+    "brief": {
+      "document_title": "2026 Theme B: Building an Area Management Model for Decarbonization and Climate Resilience",
+      "url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+      "year": 2026,
+      "document_date": "2026",
+      "download_date": "2026-10-13",
+      "website_updated": null,
+      "local_path": "01_Course/2026_Briefs/2026_Theme_B_Official_Brief.pdf"
+    },
+    "ward4": {
+      "document_title": "千代田区都市計画マスタープラン 第4章",
+      "url": "https://www.city.chiyoda.lg.jp/documents/17862/toshimasu-4_2.pdf",
+      "year": 2021,
+      "document_date": "2021-05",
+      "download_date": "2026-10-13",
+      "website_updated": "2025-06-06",
+      "local_path": "04_Data/Raw/Planning_Policy_2026-10-13/03_Chiyoda/Master_Plan_2021/toshimasu-4_2.pdf"
+    },
+    "ward3": {
+      "document_title": "千代田区都市計画マスタープラン 第3章 テーマ4–7",
+      "url": "https://www.city.chiyoda.lg.jp/documents/17862/toshimasu-3_2-2.pdf",
+      "year": 2021,
+      "document_date": "2021-05",
+      "download_date": "2026-10-13",
+      "website_updated": "2025-06-06",
+      "local_path": "04_Data/Raw/Planning_Policy_2026-10-13/03_Chiyoda/Master_Plan_2021/toshimasu-3_2-2.pdf"
+    },
+    "green1": {
+      "document_title": "千代田区緑の基本計画 第1–4章",
+      "url": "https://www.city.chiyoda.lg.jp/documents/17827/01midori-keikaku-1-4_2.pdf",
+      "year": 2021,
+      "document_date": "2021-07",
+      "download_date": "2026-10-13",
+      "website_updated": "2025-06-06",
+      "local_path": "04_Data/Raw/Planning_Policy_2026-10-13/03_Chiyoda/Green_Plan_2021/01midori-keikaku-1-4_2.pdf"
+    },
+    "green2": {
+      "document_title": "千代田区緑の基本計画 第5–7章",
+      "url": "https://www.city.chiyoda.lg.jp/documents/17827/02midori-keikaku-5-7_2.pdf",
+      "year": 2021,
+      "document_date": "2021-07",
+      "download_date": "2026-10-13",
+      "website_updated": "2025-06-06",
+      "local_path": "04_Data/Raw/Planning_Policy_2026-10-13/03_Chiyoda/Green_Plan_2021/02midori-keikaku-5-7_2.pdf"
+    },
+    "area_master": {
+      "document_title": "東京都市計画 都市計画区域の整備、開発及び保全の方針",
+      "url": "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_seisaku_master_plan_data_pdf_toshi_1?2021=",
+      "year": 2021,
+      "document_date": "2021-03",
+      "download_date": "2026-10-13",
+      "website_updated": null,
+      "local_path": "04_Data/Raw/Planning_Policy_2026-10-13/02_Tokyo/Tokyo_Statutory_Area_Master_2021.pdf",
+      "live_access": "2026-10-15 web PDF returned 403; dated official local copy used"
+    },
+    "2050": {
+      "document_title": "2050東京戦略 ～東京もっとよくなる～ 正式版",
+      "url": "https://www.spt.metro.tokyo.lg.jp/seisakukikaku/2050tokyo/book.pdf",
+      "year": 2025,
+      "document_date": "2025-03",
+      "download_date": "2026-10-13",
+      "website_updated": null,
+      "local_path": "04_Data/Raw/Planning_Policy_2026-10-13/02_Tokyo/Tokyo_2050_Strategy_Final_March2025.pdf"
+    },
+    "interim": {
+      "document_title": "都市づくりのグランドデザイン 改定に向けた中間のまとめ",
+      "url": "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/grand-design-mainpart",
+      "year": 2026,
+      "document_date": "2026-03",
+      "download_date": "2026-10-13",
+      "website_updated": null,
+      "local_path": "04_Data/Raw/Planning_Policy_2026-10-13/02_Tokyo/Tokyo_Grand_Design_Interim_2026.pdf",
+      "version_status": "Interim revision document, not a final replacement plan"
+    },
+    "landscape": {
+      "document_title": "千代田区界隈別・重点地区景観まちづくりガイドライン 神田地域",
+      "url": "https://www.city.chiyoda.lg.jp/documents/4204/guideline-3_1.pdf",
+      "year": 2021,
+      "document_date": "2020-06; revised 2021-03-31",
+      "download_date": null,
+      "website_updated": "2025-05-09",
+      "local_path": null,
+      "access": "Official PDF read through web on 2026-10-15"
+    },
+    "river": {
+      "document_title": "日本橋川沿いエリアのまちづくりビジョン2021",
+      "url": "https://www.city.chuo.lg.jp/documents/5126/kawazoivis2021.pdf",
+      "year": 2021,
+      "document_date": "2021-06",
+      "download_date": "2026-10-13",
+      "website_updated": "2026-08-03",
+      "local_path": "04_Data/Raw/Planning_Policy_2026-10-13/04_Chuo/Nihonbashi_Riverside_Vision_2021.pdf"
+    },
+    "nanobe": {
+      "document_title": "日本橋七の部地域まちづくりビジョン2022",
+      "url": "https://www.city.chuo.lg.jp/documents/5126/nihonbashi_2022_.pdf",
+      "year": 2022,
+      "document_date": "2022-09",
+      "download_date": "2026-10-13",
+      "website_updated": "2026-08-03",
+      "local_path": "04_Data/Raw/Planning_Policy_2026-10-13/04_Chuo/Nihonbashi_Nanobe_Vision_2022.pdf"
+    },
+    "mitigation": {
+      "document_title": "千代田区地球温暖化対策地域推進計画2021",
+      "url": "https://www.city.chiyoda.lg.jp/documents/27609/suishinkekaku2021_2.pdf",
+      "year": 2021,
+      "document_date": "2021-11",
+      "download_date": "2026-10-13",
+      "website_updated": "2022-03-24",
+      "local_path": "04_Data/Raw/Planning_Policy_2026-10-13/03_Chiyoda/Climate_Mitigation_2021.pdf"
+    },
+    "adaptation": {
+      "document_title": "千代田区気候変動適応計画2021",
+      "url": "https://www.city.chiyoda.lg.jp/documents/27610/kikohendotekiokeikaku2021_2.pdf",
+      "year": 2021,
+      "document_date": "2021-11",
+      "download_date": "2026-10-13",
+      "website_updated": "2022-03-24",
+      "local_path": "04_Data/Raw/Planning_Policy_2026-10-13/03_Chiyoda/Climate_Adaptation_2021.pdf"
+    }
+  },
+  "previous_context_coverage": [
+    {
+      "previous_id": "brief",
+      "coverage": "Deep read complete, all 7 pages",
+      "topics": [
+        "district_climate",
+        "two_supports",
+        "street_identity"
+      ],
+      "owner": "brief_plans"
+    },
+    {
+      "previous_id": "rules",
+      "coverage": "Detailed law/zoning synthesis delegated; master-plan directions kept distinct",
+      "topics": [
+        "two_precincts"
+      ],
+      "owner": "regulatory_context"
+    },
+    {
+      "previous_id": "tokyo",
+      "coverage": "2021 area plan + 2025 final strategy + 2026 interim revision read at cited pages",
+      "topics": [
+        "time_and_stock"
+      ],
+      "owner": "brief_plans"
+    },
+    {
+      "previous_id": "chiyoda",
+      "coverage": "Core-specific precincts and energy-area distinctions read; p182/p184 visually checked",
+      "topics": [
+        "two_precincts",
+        "station_network",
+        "energy_fabric"
+      ],
+      "owner": "brief_plans"
+    },
+    {
+      "previous_id": "character",
+      "coverage": "Course place history + Kanda landscape instructions and dated resource list read",
+      "topics": [
+        "street_identity",
+        "street_identity"
+      ],
+      "owner": "brief_plans"
+    },
+    {
+      "previous_id": "green",
+      "coverage": "General baseline, small-plot measures and Izumibashi chapter read; p83 visually checked",
+      "topics": [
+        "small_green"
+      ],
+      "owner": "brief_plans"
+    },
+    {
+      "previous_id": "walking",
+      "coverage": "Master-plan street axes read here; detailed walkable-design guidance delegated",
+      "topics": [
+        "station_network"
+      ],
+      "owner": "regulatory_context"
+    },
+    {
+      "previous_id": "delivery",
+      "coverage": "Brief requirements and named local foundations read here; permits/funding/area guide delegated",
+      "topics": [
+        "two_supports",
+        "street_identity"
+      ],
+      "owner": "regulatory_context"
+    },
+    {
+      "previous_id": "climate",
+      "coverage": "Mitigation pp19/27/28 and adaptation pp16/27–30 deep-read; local energy priority, usable cooling and tradeoffs synthesized",
+      "topics": [
+        "district_climate",
+        "climate_mechanisms",
+        "energy_fabric"
+      ],
+      "owner": "brief_plans"
+    },
+    {
+      "previous_id": "energy_rules",
+      "coverage": "Area energy policy read here; BEI and legal applicability delegated",
+      "topics": [
+        "energy_fabric"
+      ],
+      "owner": "regulatory_context"
+    },
+    {
+      "previous_id": "nihonbashi",
+      "coverage": "Riverside and Nanobe purposes, scope, issues and design mechanisms read",
+      "topics": [
+        "wider_links"
+      ],
+      "owner": "brief_plans"
+    },
+    {
+      "previous_id": "data",
+      "coverage": "Parent/map agent owns live dataset audit; this study preserves source observation/document/download dates",
+      "topics": [
+        "small_green",
+        "two_precincts"
+      ],
+      "owner": "parent_and_mapping"
+    }
+  ],
+  "evidence_method": "Read the full course brief and cited original official plan pages, not only the prior policy matrix. Visually checked Chiyoda p182/p184 and green p83. Existing official originals remained unchanged; dated observations, document years and downloads are separate.",
+  "claim_policy": "Source facts summarize the document. Local meaning is an attributed studio interpretation. Design response is a proposed application, not an approved scheme or completed analysis.",
+  "ai_assistance": "AI-assisted primary-source reading, synthesis and translation; evidence and open checks are retained.",
+  "new_cfd": false
+}

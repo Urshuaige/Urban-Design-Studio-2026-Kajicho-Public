@@ -1,0 +1,20 @@
+{
+  "13102:bldg_fafd9cfb-ab08-4a82-8678-dfba1a2fdc7c": {
+    "rebuild_post2011": 1,
+    "rebuild_code": "A",
+    "rebuild_name": "Nichigin-dori Building",
+    "rebuild_year": 2014,
+    "rebuild_source": "https://www.kamipa.co.jp/news/20140903/5562/",
+    "rebuild_note": "Owner identifies the former head-office site and completion in 2014. Replacement/development after 2011; no 2011-earthquake cause established.",
+    "eq2011_cause": "Not established by reviewed source"
+  },
+  "13102:bldg_e9bfe6ac-a2de-443a-970e-d21da91e7eca": {
+    "rebuild_post2011": 1,
+    "rebuild_code": "B",
+    "rebuild_name": "Hotel Kazusaya",
+    "rebuild_year": 2020,
+    "rebuild_source": "https://www.h-kazusaya.co.jp/135th_anniversary/",
+    "rebuild_note": "Owner records closure for rebuilding in June 2018, completion in June 2020 and opening in July 2020. The separate 1923-earthquake rebuilding belongs to the previous hotel history.",
+    "eq2011_cause": "Not established by reviewed source"
+  }
+}

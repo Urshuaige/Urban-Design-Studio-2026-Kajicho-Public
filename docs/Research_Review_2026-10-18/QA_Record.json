@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-18",
+  "source_records": 38,
+  "course_references": 6,
+  "technical_paths": 6,
+  "practice_cases": 8,
+  "body_cited_records": 31,
+  "reference_resolution": "pass",
+  "reading_pages": 6,
+  "actual_read_scope_recorded": true,
+  "human_read_status": "unknown",
+  "new_simulations": false,
+  "review_form": "integrative",
+  "browser_checks": {
+    "preview_origin": "http://127.0.0.1:9490",
+    "pages": [
+      "index",
+      "research",
+      "cfd",
+      "team",
+      "style-guide",
+      "studies"
+    ],
+    "research": "Six paths, filter, EN/ZH, source links and readable framework inspected",
+    "team": "EN/ZH rerender updates outline; review link follows language",
+    "style_guide": "EN/JA, no hidden-language outline targets",
+    "cfd": "Static header offset 0px; mobile foundation jump top 24.15px; no horizontal overflow",
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "toggle_height_px": 44,
+      "panel_inside_viewport": true
+    },
+    "desktop": "Hierarchical marks and chapter/subsection links; sources omitted from outline marks"
+  },
+  "methods_faithfulness_check": "See Methods_Faithfulness_Check.json; bounded check, not independent formal review",
+  "repository_checks": [
+    "check_team_repository.py passed",
+    "check_portfolio.py passed (current Figure 5/POIs unchanged)",
+    "check_repository_language.py passed",
+    "check_context_study.py passed",
+    "Node 22 syntax checks: research.js and page-outline.js passed",
+    "git diff --check passed"
+  ],
+  "published_site": {
+    "version": 20,
+    "status": "succeeded",
+    "paths": 6,
+    "cases": 8,
+    "sources": 38,
+    "reference_title_px": 18,
+    "languages": "Existing saved choice retained; EN/ZH switching verified live",
+    "outline": "Shared component loaded; chapter jump verified"
+  }
+}

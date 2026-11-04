@@ -1,0 +1,9 @@
+﻿source_field,shp_field,shp_type,dbf_width_bytes,null_bit,storage,source_non_null,source_null,source_max_text_bytes
+__wider_pk,wider_pk,integer,11,0,shp_and_csv,204,0,
+cell_id,cell_id,text,12,1,shp_and_csv,204,0,12
+nonres_floor_m2,nonres_flo,real,20,2,shp_and_csv,204,0,
+res_floor_m2,res_floor,real,20,3,shp_and_csv,204,0,
+nonres_far_proxy,nonres_far,real,20,4,shp_and_csv,204,0,
+delivery_source_fid,delivery_s,integer,11,5,shp_and_csv,204,0,
+delivery_geometry,delivery_g,text,16,6,shp_and_csv,204,0,16
+delivery_value_scope,delivery_v,text,66,7,shp_and_csv,204,0,66

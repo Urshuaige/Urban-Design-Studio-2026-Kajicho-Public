@@ -1,0 +1,15 @@
+{
+  "count": 26,
+  "classes": {
+    "crosses official FAR boundary": 25,
+    "single official zone": 1
+  },
+  "threshold": "significant overlap >=1 m2 AND >=0.5% of building footprint; all raw overlaps retained",
+  "source_url": "https://tokei-gis2.chiyodatoshikei.jp/server/rest/services/Map_services/youtochiiki/MapServer",
+  "source_crs": "EPSG:2451, official service transforms to requested EPSG:6677",
+  "download_date": "2026-10-14",
+  "website_year": "current service; individual decision date not exposed",
+  "official_map_document_date": "2026-03-31",
+  "legal_scope": "building projection intersection; legal site/parcel and frontage constraints remain pending",
+  "original_baseline_unchanged": true
+}

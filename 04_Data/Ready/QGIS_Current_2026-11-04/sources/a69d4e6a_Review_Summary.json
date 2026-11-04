@@ -1,0 +1,64 @@
+{
+  "rows": 1069,
+  "original_primary35": 35,
+  "adopted_primary_priority": 35,
+  "adopted_grade_changes": 0,
+  "source_stock_changes": [],
+  "clearance_audit": [
+    {
+      "record": "D01",
+      "record_area_m2": 656.7704922357043,
+      "gsi_overlap_m2": 641.8279159664999,
+      "overlap_pct": 97.72484049666443
+    },
+    {
+      "record": "D02",
+      "record_area_m2": 884.0902275022818,
+      "gsi_overlap_m2": 879.6090858364478,
+      "overlap_pct": 99.49313525628554
+    }
+  ],
+  "grid_variant_all_changes": 49,
+  "grid_variant_primary_priority": 43,
+  "original35_grid_variant": {
+    "U1": 34,
+    "U2": 1
+  },
+  "original35_clear_adjusted_variant": {
+    "U1": 33,
+    "U2": 2
+  },
+  "primary_grid_new_entries": [
+    "13101:bldg_07f2a6c9-718e-441f-ae5c-32e4ac3409b5",
+    "13101:bldg_0ec03c4b-7087-4aa3-a247-09c052cf3e28",
+    "13101:bldg_29bee402-bddd-4c33-9f6f-4ec13bdaa726",
+    "13101:bldg_5a05f90a-7ae7-403a-a419-125c0b7f2073",
+    "13101:bldg_b76dc402-42ce-483f-8348-a28eb1b8001a",
+    "13101:bldg_c4398d86-bc59-4f86-937f-fd4b388d2057",
+    "13101:bldg_d98628d4-bf91-4677-ac70-d81ad42410c4",
+    "13101:bldg_f12c9d1c-9186-408a-8306-557d8451bb39",
+    "13101:bldg_fcebad47-b784-496e-8eff-4ef1a367ce5a"
+  ],
+  "original35_grid_exits": [
+    "13101:bldg_05763454-2770-46ec-bb3c-92ef4d8040fc"
+  ],
+  "primary35_town_risk": {
+    "2.0": 35
+  },
+  "primary35_risk_mismatches": 0,
+  "primary35_clearance_overlap_count": 11,
+  "poi_source_count": 353,
+  "poi_bin_count_total": 353,
+  "formula_changed": false,
+  "weights_changed": false,
+  "green_penalty_added": false,
+  "primary35_review": {
+    "Stable priority": 32,
+    "Source-sensitive priority": 3
+  },
+  "primary_extra_compare": 5,
+  "primary_review_pool": 40,
+  "primary35_cell_link_count": 2334,
+  "fields": 165,
+  "manual_decisions_preserved": true
+}

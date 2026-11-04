@@ -1,0 +1,2 @@
+FoamFile { version 2.0; format ascii; class volScalarField; object T; }
+dimensions [0 0 0 1 0 0 0];internalField uniform 311.55;boundaryField {inlet {type fixedValue;value uniform 311.55;} outlet {type inletOutlet;inletValue uniform 311.55;value uniform 311.55;} sides {type symmetry;} top {type symmetryPlane;} ground {type zeroGradient;} buildings_coreRoofs {type atmTurbulentHeatFluxTemperature;heatSource flux;alphaEff alphaEff;Cp0 1006;q uniform 122.71386430678942;value uniform 311.55;} "buildings_(coreWalls|context)" {type zeroGradient;}}

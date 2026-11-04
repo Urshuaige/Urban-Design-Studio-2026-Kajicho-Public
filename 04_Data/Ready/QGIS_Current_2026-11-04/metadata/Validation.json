@@ -1,0 +1,1652 @@
+{
+  "scope": "Wider boundary selects complete intersecting buildings; other spatial data retain wider clipping",
+  "area_ha": 42.43712219677629,
+  "qgis_reopened": true,
+  "valid_project_layers": 368,
+  "invalid_layers": [],
+  "relative_paths": true,
+  "external_data_sources": 0,
+  "project_macros": false,
+  "native_values_checked": 116025,
+  "shapefiles_checked": 178,
+  "max_dbf_fields": 255,
+  "gpkg_quick_check": "all passed",
+  "kanto_tables": 0,
+  "git_lfs_required": false,
+  "datasets": [
+    {
+      "dataset": "D001_cells_10m",
+      "records": 4424,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D002_50_m_cells",
+      "records": 204,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D003_open_ground_5m",
+      "records": 14595,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D004_festival_routes",
+      "records": 8,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D005_Reviewed_project_label_positions",
+      "records": 10,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D006_detail_admarea",
+      "records": 8,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D007_detail_admbdry",
+      "records": 5,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D008_building_2011_evidence",
+      "records": 1064,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D009_building_energy_carbon",
+      "records": 1067,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D010_removed_buildings",
+      "records": 17,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D011_superseded_buildings",
+      "records": 4,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D012_planning_blocks",
+      "records": 3,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D014_land_use_zones",
+      "records": 14,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D015_grid_25m_primary",
+      "records": 211,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D016_grid_25m_wider",
+      "records": 738,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D017_grid_50m_wider",
+      "records": 201,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D018_grid_50m_primary",
+      "records": 64,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D019_open_ground_10m",
+      "records": 4217,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D020_buildings_height",
+      "records": 1078,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D021_detail_blda",
+      "records": 1181,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D024_building_use_floor",
+      "records": 1067,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D026_buildings_current",
+      "records": 1064,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D027_gsi_buildings",
+      "records": 1099,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D029_chiyoda_building_context",
+      "records": 16,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D030_gsi_buildings",
+      "records": 1099,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D031_buildings_town_context",
+      "records": 1064,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D032_groups_1945_candidates",
+      "records": 124,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D033_groups_1974_candidates",
+      "records": 179,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D034_census_towns",
+      "records": 24,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D036_chiyoda_ward",
+      "records": 1,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D037_development_areas",
+      "records": 3,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D038_concept_districts",
+      "records": 4,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D039_construction_reference_areas",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D040_recorded_tree_crowns",
+      "records": 93,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D041_current_buildings",
+      "records": 1064,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D042_change_sites",
+      "records": 3,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D043_destination_connectors",
+      "records": 40,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D044_district_plans",
+      "records": 6,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D045_earthquake_town_risk",
+      "records": 23,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D046_efficient_land_use",
+      "records": 1,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D047_related_route",
+      "records": 10,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D048_historical_worker_allocation",
+      "records": 1098,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D050_town_context_2026_2021",
+      "records": 24,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D051_buildings_1945_candidates",
+      "records": 308,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D052_buildings_1974_candidates",
+      "records": 276,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D053_related_shelter",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D054_roads_expressway",
+      "records": 1,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D055_facility_facts",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D056_gsi_railcl",
+      "records": 29,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D057_gsi_rdcl",
+      "records": 522,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D058_gsi_wa",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D059_field_renewal_leads",
+      "records": 3,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D060_field_photos",
+      "records": 22,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D061_fire_prevention",
+      "records": 7,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D062_flood_scenarios",
+      "records": 55,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D063_study_boundaries",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D064_concept_label_points",
+      "records": 4,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D065_road_source_links",
+      "records": 432,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D066_terrain_contours",
+      "records": 546,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D070_route_turns",
+      "records": 22,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D074_Reviewed_project_leaders",
+      "records": 14,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D075_key_nodes",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D076_land_use_current_v2",
+      "records": 757,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D078_lynch_edges",
+      "records": 14,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D079_lynch_landmarks",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D080_lynch_nodes",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D081_lynch_paths",
+      "records": 4,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D082_detail_anno",
+      "records": 47,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D083_destinations",
+      "records": 53,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D084_mapping_frame",
+      "records": 1,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D085_town_mobility_census_2020",
+      "records": 24,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D087_network_review_cells",
+      "records": 6,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D088_current_building_allocation",
+      "records": 1077,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D089_osm_building_footprints_2026",
+      "records": 1056,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D090_osm_places_2026",
+      "records": 505,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D092_official_01_kouenryokuchi_0",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D093_official_02_gairoju_2",
+      "records": 17,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D094_official_01_kouenryokuchi_1",
+      "records": 4,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D095_context_parks",
+      "records": 3,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D096_related_park",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D097_site_parks",
+      "records": 6,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D098_route_legs",
+      "records": 30,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D100_reference_points",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D101_points_of_interest",
+      "records": 353,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D104_town_population_census_2020",
+      "records": 24,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D106_Reviewed_project_points",
+      "records": 14,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D107_development_sites",
+      "records": 10,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D108_rail_ground",
+      "records": 1,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D109_rail_underground",
+      "records": 15,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D110_gsi_railtrcl",
+      "records": 85,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D113_detail_railcl",
+      "records": 29,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D114_location_rail_labels",
+      "records": 3,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D115_detail_railtrcl",
+      "records": 85,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D116_gsi_railtrcl",
+      "records": 85,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D118_context_rail",
+      "records": 125,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D119_gsi_railcl",
+      "records": 29,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D121_recorded_green_parts",
+      "records": 104,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D122_official_trees",
+      "records": 125,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D123_planning_citygml",
+      "records": 23,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D124_site_osm_reference",
+      "records": 1053,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D125_site_boundary_reference",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D126_town_resident_employment_census_2020",
+      "records": 24,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D127_Retained_building_footprints",
+      "records": 3,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D128_review_buildings",
+      "records": 4,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D130_reference_lines",
+      "records": 4,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D131_site_centerline_reference",
+      "records": 641,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D132_detail_rdcl",
+      "records": 522,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D133_context_roads",
+      "records": 641,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D134_roads_context",
+      "records": 641,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D135_detail_rdedg",
+      "records": 360,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D136_detail_rdcompt",
+      "records": 10,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D137_road_surfaces",
+      "records": 497,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D139_roads_ground",
+      "records": 452,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D141_routing_domain",
+      "records": 1,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D142_angular_segments",
+      "records": 1049,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D143_source_gsi_roads",
+      "records": 114,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D145_detail_spcfarea",
+      "records": 5,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D146_station_names_en",
+      "records": 3,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D147_site_stations",
+      "records": 4,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D149_street_names",
+      "records": 16,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D150_grid_25m_primary_origins",
+      "records": 172,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D151_grid_25m_wider_origins",
+      "records": 629,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D152_grid_50m_primary_origins",
+      "records": 57,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D153_grid_50m_wider_origins",
+      "records": 181,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D154_street_trees",
+      "records": 125,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D155_tree_routes",
+      "records": 17,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D156_study_roads",
+      "records": 627,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D157_dated_survivors",
+      "records": 59,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D158_teacher_boundaries",
+      "records": 4,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D159_town_names_en",
+      "records": 24,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D160_transit_reach_10min",
+      "records": 1395,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D161_transit_reach_15min",
+      "records": 1395,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D162_transit_reach_5min",
+      "records": 1398,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D163_tree_crowns",
+      "records": 53,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D164_walk_network",
+      "records": 1474,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D165_context_wards",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D166_context_wards",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D173_ward_economy_2024",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D175_gsi_wa",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D177_context_water",
+      "records": 1,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D178_detail_wa",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D180_gsi_wl",
+      "records": 5,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D181_detail_wl",
+      "records": 5,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D182_gsi_wl",
+      "records": 5,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D185_development_completed_buildings",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D186_development_reference_blocks",
+      "records": 3,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D187_development_site_extents",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D188_planned_block_references",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D189_corridor_trends",
+      "records": 31,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D190_floor_clusters_50m",
+      "records": 204,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D191_renewal_buildings",
+      "records": 1069,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D192_facility_review",
+      "records": 23,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D193_reachable_segments",
+      "records": 11114,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D194_reviewed_connectors",
+      "records": 6,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D195_coverage_circles_10m",
+      "records": 4237,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D197_base_buildings",
+      "records": 1064,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D198_base_context_buildings",
+      "records": 15,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D199_metrics_10m",
+      "records": 4426,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D203_cells_10m_full",
+      "records": 4424,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D204_traffic_sections",
+      "records": 4,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D205_category_counts_100m",
+      "records": 146,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D206_base_rail_tracks",
+      "records": 85,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D207_recent_geometry_review",
+      "records": 3,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D209_Orientation_Landmarks",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D210_statistical_towns",
+      "records": 21,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D212_surface_walk_network",
+      "records": 1440,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D218_section_labels",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D221_base_water",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D222_nearest_parking_segments",
+      "records": 1909,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D223_buildings_town_risk",
+      "records": 1077,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D224_cleared_records",
+      "records": 2,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D229_project_records",
+      "records": 14,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D233_source_stock",
+      "records": 1064,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D236_renewal_buildings",
+      "records": 1069,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D237_case_labels",
+      "records": 3,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D238_proposal_buildings",
+      "records": 1069,
+      "source_values": "matched by input feature ID",
+      "shp_valid": true,
+      "complete_source_building_intersects_wider": true
+    },
+    {
+      "dataset": "D239_proposal_nodes",
+      "records": 4,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D240_block_sites",
+      "records": 3,
+      "source_values": "matched by input feature ID",
+      "inside_wider": true,
+      "shp_valid": true
+    },
+    {
+      "dataset": "D013_building_town_overlaps",
+      "records": 1077,
+      "source_values": "matched by input feature ID",
+      "inside_wider": "linked/supporting table",
+      "shp_valid": false
+    },
+    {
+      "dataset": "D022_building_control_links_v2",
+      "records": 3845,
+      "source_values": "matched by input feature ID",
+      "inside_wider": "linked/supporting table",
+      "shp_valid": false
+    },
+    {
+      "dataset": "D023_building_theme_links_v2",
+      "records": 3213,
+      "source_values": "matched by input feature ID",
+      "inside_wider": "linked/supporting table",
+      "shp_valid": false
+    },
+    {
+      "dataset": "D049_english_terms",
+      "records": 4,
+      "source_values": "matched by input feature ID",
+      "inside_wider": "linked/supporting table",
+      "shp_valid": false
+    },
+    {
+      "dataset": "D067_history_events",
+      "records": 27,
+      "source_values": "matched by input feature ID",
+      "inside_wider": "linked/supporting table",
+      "shp_valid": false
+    },
+    {
+      "dataset": "D068_history_sources",
+      "records": 20,
+      "source_values": "matched by input feature ID",
+      "inside_wider": "linked/supporting table",
+      "shp_valid": false
+    },
+    {
+      "dataset": "D069_town_economy_industry_2021",
+      "records": 13056,
+      "source_values": "matched by input feature ID",
+      "inside_wider": "linked/supporting table",
+      "shp_valid": false
+    },
+    {
+      "dataset": "D091_reference_documents",
+      "records": 7,
+      "source_values": "matched by input feature ID",
+      "inside_wider": "linked/supporting table",
+      "shp_valid": false
+    },
+    {
+      "dataset": "D099_photo_register",
+      "records": 24,
+      "source_values": "matched by input feature ID",
+      "inside_wider": "linked/supporting table",
+      "shp_valid": false
+    },
+    {
+      "dataset": "D102_planning_coverage",
+      "records": 8,
+      "source_values": "matched by input feature ID",
+      "inside_wider": "linked/supporting table",
+      "shp_valid": false
+    },
+    {
+      "dataset": "D103_reference_documents",
+      "records": 12,
+      "source_values": "matched by input feature ID",
+      "inside_wider": "linked/supporting table",
+      "shp_valid": false
+    },
+    {
+      "dataset": "D144_town_age_single_year_2026",
+      "records": 1904,
+      "source_values": "matched by input feature ID",
+      "inside_wider": "linked/supporting table",
+      "shp_valid": false
+    },
+    {
+      "dataset": "D148_source_links",
+      "records": 85,
+      "source_values": "matched by input feature ID",
+      "inside_wider": "linked/supporting table",
+      "shp_valid": false
+    },
+    {
+      "dataset": "D169_ward_industry_sales_2024",
+      "records": 324,
+      "source_values": "matched by input feature ID",
+      "inside_wider": "linked/supporting table",
+      "shp_valid": false
+    }
+  ],
+  "nonbuilding_spatial_containment": "Unchanged from verified wider delivery",
+  "shp_ring_reassembly_cases": [
+    {
+      "dataset": "D048_historical_worker_allocation",
+      "source_fid": 606,
+      "status": "Identical ring coordinates; SHP reader reassembles microscopic rings differently; exact native geometry retained"
+    }
+  ],
+  "whole_building_source_geometry_and_attributes_checked": 22302,
+  "whole_building_datasets_checked": [
+    {
+      "dataset": "D008_building_2011_evidence",
+      "records": 1064,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 10
+    },
+    {
+      "dataset": "D009_building_energy_carbon",
+      "records": 1067,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 13
+    },
+    {
+      "dataset": "D010_removed_buildings",
+      "records": 17,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 0
+    },
+    {
+      "dataset": "D011_superseded_buildings",
+      "records": 4,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 0
+    },
+    {
+      "dataset": "D020_buildings_height",
+      "records": 1078,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 24
+    },
+    {
+      "dataset": "D021_detail_blda",
+      "records": 1181,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 25
+    },
+    {
+      "dataset": "D024_building_use_floor",
+      "records": 1067,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 13
+    },
+    {
+      "dataset": "D026_buildings_current",
+      "records": 1064,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 10
+    },
+    {
+      "dataset": "D027_gsi_buildings",
+      "records": 1099,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 24
+    },
+    {
+      "dataset": "D029_chiyoda_building_context",
+      "records": 16,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 16
+    },
+    {
+      "dataset": "D030_gsi_buildings",
+      "records": 1099,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 24
+    },
+    {
+      "dataset": "D031_buildings_town_context",
+      "records": 1064,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 10
+    },
+    {
+      "dataset": "D041_current_buildings",
+      "records": 1064,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 10
+    },
+    {
+      "dataset": "D048_historical_worker_allocation",
+      "records": 1098,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 23
+    },
+    {
+      "dataset": "D051_buildings_1945_candidates",
+      "records": 308,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 21
+    },
+    {
+      "dataset": "D052_buildings_1974_candidates",
+      "records": 276,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 24
+    },
+    {
+      "dataset": "D062_flood_scenarios",
+      "records": 55,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 10
+    },
+    {
+      "dataset": "D088_current_building_allocation",
+      "records": 1077,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 23
+    },
+    {
+      "dataset": "D089_osm_building_footprints_2026",
+      "records": 1056,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 27
+    },
+    {
+      "dataset": "D124_site_osm_reference",
+      "records": 1053,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 24
+    },
+    {
+      "dataset": "D127_Retained_building_footprints",
+      "records": 3,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 0
+    },
+    {
+      "dataset": "D128_review_buildings",
+      "records": 4,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 0
+    },
+    {
+      "dataset": "D157_dated_survivors",
+      "records": 59,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 2
+    },
+    {
+      "dataset": "D185_development_completed_buildings",
+      "records": 2,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 0
+    },
+    {
+      "dataset": "D191_renewal_buildings",
+      "records": 1069,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 15
+    },
+    {
+      "dataset": "D197_base_buildings",
+      "records": 1064,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 10
+    },
+    {
+      "dataset": "D198_base_context_buildings",
+      "records": 15,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 15
+    },
+    {
+      "dataset": "D223_buildings_town_risk",
+      "records": 1077,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 23
+    },
+    {
+      "dataset": "D233_source_stock",
+      "records": 1064,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 10
+    },
+    {
+      "dataset": "D236_renewal_buildings",
+      "records": 1069,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 15
+    },
+    {
+      "dataset": "D238_proposal_buildings",
+      "records": 1069,
+      "complete_source_geometry": "matched",
+      "original_attributes": "matched",
+      "shp_geometry": "Source footprint coordinates preserved; any ring reassembly cases recorded",
+      "all_intersecting_source_buildings_retained": true,
+      "boundary_intersecting_buildings": 15
+    }
+  ]
+}

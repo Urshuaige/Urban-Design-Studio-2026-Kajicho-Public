@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-18",
+  "feature": "Hover page outline",
+  "chapters": 8,
+  "subsections": 27,
+  "site": {
+    "project_id": "appgprj_6ace04f6c3848191b6db1d072ec879fb",
+    "version": 19,
+    "source_commit": "f36ca9b2933ef546c1e6a1fef1a03416ea48008d",
+    "version_id": "appgprj_6ace04f6c3848191b6db1d072ec879fb~appgver_4b292fe7644c8191ad9b43801d067468",
+    "deployment_id": "appgdep_6ad47a33e91081918351a21fc7263911"
+  },
+  "behavior": {
+    "collapsed": "Long chapter marks, short indented subsection marks",
+    "desktop": "Pointer hover unfolds the outline",
+    "active": "Current location and parent chapter follow scroll",
+    "keyboard": "Enter opens; links move focus to the target; Escape closes",
+    "narrow": "Contents button toggles a bounded panel",
+    "languages": [
+      "en",
+      "zh-CN",
+      "ja"
+    ],
+    "default_language": "en"
+  },
+  "validation": {
+    "javascript_syntax": "passed",
+    "single_asset_references": "passed",
+    "site_repository_asset_parity": "passed",
+    "desktop_child_jump": "Streets and rail target below header; matching active child and parent",
+    "language_switch": "English, Chinese and Japanese labels checked",
+    "keyboard": "Enter and Escape checked",
+    "narrow_outline": "390 px: first tap open, second tap closed, panel right 316 px",
+    "desktop_overflow": "none"
+  },
+  "results_copied_locally": false
+}

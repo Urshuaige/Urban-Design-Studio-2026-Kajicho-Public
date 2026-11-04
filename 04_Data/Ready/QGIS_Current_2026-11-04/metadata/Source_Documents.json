@@ -1,0 +1,356 @@
+[
+  {
+    "source_file": "04_Data/Metadata/Data_Sources.csv",
+    "archived_file": "sources/7eb0b523_Data_Sources.csv",
+    "sha256": "eefdafea44ecf6d09568325c17f9df2493f0f7797f8018ffec250b5129e8adeb",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Building_Age_Development_2026-10-28/README.md",
+    "archived_file": "sources/7c81fe1d_README.txt",
+    "sha256": "4780b5ca39e2e87dcdc541b96b4e2bf69a556ed16e8346718707723f29f3b927",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Building_Update_2026-10-28/Decision_Register.json",
+    "archived_file": "sources/eaf09b2d_Decision_Register.json",
+    "sha256": "84b5ef4c2fd45ee40d32d10c403cb0e2ed4407f6b72f2cf3154a495037f1e449",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Building_Update_2026-10-28/Evidence_Register.json",
+    "archived_file": "sources/41e1e5c9_Evidence_Register.json",
+    "sha256": "c5035e6f58d5a59f77e1f3492c7dcb4998117a5e8e07d797dfa1256896c706e8",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Building_Update_2026-10-28/README.md",
+    "archived_file": "sources/480c7a42_README.txt",
+    "sha256": "f19956e6bd61f8728733beb8a2a79571707c4054477cd5cde0a85822c3aa355e",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Festival_Routes_2025/README.md",
+    "archived_file": "sources/80847863_README.txt",
+    "sha256": "b2c5ddcac73f9972435c5d4dfedbef77bba3266d6ecfe6907c31fedfa2d80bfc",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Festival_Routes_2025/Source_Register.json",
+    "archived_file": "sources/4f3746aa_Source_Register.json",
+    "sha256": "a51e53a5ed8ce72e3f121604d4e414743eda514bb7508e9d0ae960ced26e28ec",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Historical_Layers_2026-11-01/README.md",
+    "archived_file": "sources/7ba132a0_README.txt",
+    "sha256": "00c4a06b999e7c1179fbf0d090c9b720be004d4d9c9fec7c618269d912b8803f",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Historical_Layers_2026-11-01/aerial_sources.json",
+    "archived_file": "sources/47aeb468_aerial_sources.json",
+    "sha256": "63ecd757af1793e874025e9414536bc430af64f0a8d7d68f9f7b538d0be51a0b",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Macro_Context_Koto_2026-10-31/README.md",
+    "archived_file": "sources/b379dd0e_README.txt",
+    "sha256": "c10a200fcc03d7a356ec88f09a3b1f827f3369136677ecb10d761b573a060430",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Macro_Context_Sumida_2026-10-31/README.md",
+    "archived_file": "sources/b9e38c63_README.txt",
+    "sha256": "92a0b3d38a90a6e61ca3d418bbf9a06cf0525ad995cba7e569bffc5f2e34f422",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Transport_Extension_2026-11-01/README.md",
+    "archived_file": "sources/07c1f262_README.txt",
+    "sha256": "cffe2333cad396ef80d8a7de278f00f216cf16223d335e5d5619e209e0b1acaa",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/metadata/Boundary_Source_Manifest.json",
+    "archived_file": "sources/b54f36a3_Boundary_Source_Manifest.json",
+    "sha256": "3087fce6ae860caead7030d3c9bf6670119926f54ea7462ef24437ac7cc08bd8",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/metadata/History_Source_Metadata.json",
+    "archived_file": "sources/9c31da20_History_Source_Metadata.json",
+    "sha256": "f86b6d78c34a8a4b2d2b140697962d45de024e21a3bd75c0f7bc432b036de467",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/metadata/Site_Source_Manifest.json",
+    "archived_file": "sources/79d9e3e7_Site_Source_Manifest.json",
+    "sha256": "5e35d4e367261d6856ab61231f21dd82a04f2c9c18a566b619508375de2066ea",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/metadata/Source_Register.csv",
+    "archived_file": "sources/e2a76e2b_Source_Register.csv",
+    "sha256": "7b8fa2be0b08bfc80e5b27ff2a94588b394f5b0a941aea24886f2c0d1715747a",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/metadata/Source_Register.json",
+    "archived_file": "sources/55ea33ea_Source_Register.json",
+    "sha256": "cf3d037322164a4d8c4c4a78bb2bc47ce76f1302011a8c019c007c42d8109d94",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Building_Age_2011_2026-11-04/Audit.json",
+    "archived_file": "sources/331e62d2_Audit.json",
+    "sha256": "d8d353ee17bd72e49542a67b93b5f2cd32887fbe7664e083f3bcc90e90a227eb",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Building_Age_2011_2026-11-04/Building_2011_Classification.csv",
+    "archived_file": "sources/149970e4_Building_2011_Classification.csv",
+    "sha256": "acc8987f8d0abddfdfa76c6c1b0295fe44e963586218423763c5e2253f996aeb",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Building_Age_2011_2026-11-04/Delivery/Data_Validation.json",
+    "archived_file": "sources/4a879452_Data_Validation.json",
+    "sha256": "31ae3d226a4fe2e6e21bf1ac8f168e0f8d1a9d20937153b865fcaf7ae160ab1b",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Building_Age_2011_2026-11-04/Delivery/Rebuilding_Evidence.json",
+    "archived_file": "sources/ab274dd7_Rebuilding_Evidence.json",
+    "sha256": "44a17ed4c4b72e373e882f70ddec33ce7587118002338e822bd3759a6ba7a60a",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Building_Age_2011_2026-11-04/Delivery/Validation.json",
+    "archived_file": "sources/155806aa_Validation.json",
+    "sha256": "0b4ca9e3b4565bd7a2ae37ebaa49fc7b2fbbb0bc248740200636104b934721bf",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Building_Age_2011_2026-11-04/README.md",
+    "archived_file": "sources/683e8aa4_README.txt",
+    "sha256": "6063a97bc2f4fc422442c9d6b83ab82937f2ae0ec455fab1b37f807fbc3c925d",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Building_Age_2011_2026-11-04/pilot_method.json",
+    "archived_file": "sources/de6b8a03_pilot_method.json",
+    "sha256": "173107880ab6c3fb14fd26ae1966ee33814e730f1b38af5e190d9c1a1aae9120",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Building_Renewal_2026-11-03/Revision_2/QA/Review_Summary.json",
+    "archived_file": "sources/a69d4e6a_Review_Summary.json",
+    "sha256": "3da8104a31f9a1eb768098fc95758bef52131681c149f910aa5af0b07e16dd31",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Building_Renewal_2026-11-03/Revision_2/QA/Source_Paths.json",
+    "archived_file": "sources/8f421036_Source_Paths.json",
+    "sha256": "40b118e5506f77489049f7a0f224f5622dc59b6db2227d7ffd7c1c47c30b49ac",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Building_Renewal_2026-11-03/Revision_2/QA/Validation.json",
+    "archived_file": "sources/d1d7e86d_Validation.json",
+    "sha256": "c9f3c926acf84c1fded1e6efd58746961f585d481d7cd86da546411c2e5c2369",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Building_Renewal_2026-11-03/Revision_2/README.md",
+    "archived_file": "sources/9f341a28_README.txt",
+    "sha256": "f6e1aefc8068b11f715b49610128a729c7e7fd97dc45965fd45a93dd757c3404",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Building_Renewal_2026-11-03/Revision_2/Source_Register.json",
+    "archived_file": "sources/5bd4dee9_Source_Register.json",
+    "sha256": "d4e2b025a4c76cff320567ad196e0e9da036308ba661e5ce75254abeee352036",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/QGIS_Analysis_Foundation_2026-10-30/README.md",
+    "archived_file": "sources/bd05fb43_README.txt",
+    "sha256": "8d314465d849667e1f04b1a4aaa84d1d0022d3448a4dbed5cdda5a74d4672bc5",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Building_Energy_Carbon_2026-11-02/Delivery/Methods_and_Findings_EN.md",
+    "archived_file": "sources/a748274d_Methods_and_Findings_EN.txt",
+    "sha256": "6cc3c8ce4337d34bc338c8e5fd2b5c5ef5b7ed4eaf617187ba803f26e565b812",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Building_Energy_Carbon_2026-11-02/QA/Analysis_Summary.json",
+    "archived_file": "sources/fcba16f7_Analysis_Summary.json",
+    "sha256": "6d1366f72930277674243428c746f1c2cc2d7f61c9ff933b79e14fe6bef73bd3",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Building_Energy_Carbon_2026-11-02/QA/Input_Manifest.json",
+    "archived_file": "sources/c6cbb467_Input_Manifest.json",
+    "sha256": "b33000dfa877d003615c3ffc998fd058aabcb592beb9715ea57400b605dfdd8d",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Building_Energy_Carbon_2026-11-02/QA/Source_Manifest.json",
+    "archived_file": "sources/f7591a4f_Source_Manifest.json",
+    "sha256": "ea9a52318f355fc6cc0f2f5c75ad45be2c2da0b973dbce90b0b5a3c6ca6b9813",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Building_Energy_Carbon_2026-11-02/README.md",
+    "archived_file": "sources/57c485c1_README.txt",
+    "sha256": "6a81ce219ae0d308f94341d5778a4b1eacb9b541fde1dad23f7eb5e4ae60ccb7",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Building_Population_Energy_2026-11-02/Delivery/Kajicho_Building_Population_Energy_Methods.md",
+    "archived_file": "sources/bd0b8e9e_Kajicho_Building_Population_Energy_Methods.txt",
+    "sha256": "0214b26d10bef2959c1fa7c279a107de00666eb589bea0b6638fa84c30445042",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Building_Population_Energy_2026-11-02/QA/Coverage_QA.csv",
+    "archived_file": "sources/31a9380b_Coverage_QA.csv",
+    "sha256": "494cee521bb65a5e6df79cc3b2011edaf25941cda2389a679df53674ee5518de",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Building_Population_Energy_2026-11-02/QA/Input_Manifest.json",
+    "archived_file": "sources/81faa43d_Input_Manifest.json",
+    "sha256": "a612292dd6f98d937179b80d355008360ef46b87feaa41cd9a738362bbdc7034",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Building_Population_Energy_2026-11-02/README.md",
+    "archived_file": "sources/6c768ed2_README.txt",
+    "sha256": "0214b26d10bef2959c1fa7c279a107de00666eb589bea0b6638fa84c30445042",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Energy_Environment_English_2026-11-02/QA/Layout01_Source_Layers.json",
+    "archived_file": "sources/1bb8eee5_Layout01_Source_Layers.json",
+    "sha256": "8a5f3a9139a23f3173ebb17f6096ecbd32f8952ab1f13ea0a8445078074fcaa3",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Energy_Environment_English_2026-11-02/README.md",
+    "archived_file": "sources/af66b00e_README.txt",
+    "sha256": "ce4c5f0e31214ea10082e14104844b36794036345ee284c18251b6d04e35bae4",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Historical_District_2026-11-02/README.md",
+    "archived_file": "sources/940f0f3f_README.txt",
+    "sha256": "9cc8556acf0f86b59643cc9a7d818d49342adfb062a6ea53f17a013983996e21",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Historical_District_2026-11-02/Saved_Source_Checks.json",
+    "archived_file": "sources/afa21a1d_Saved_Source_Checks.json",
+    "sha256": "89c6c1ab0e92038d7ae201ebe1d13610def120f00de342a6d96cb2cec119a077",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Historical_District_2026-11-02/Source_Manifest.json",
+    "archived_file": "sources/ea87405c_Source_Manifest.json",
+    "sha256": "f2be3f943535823a012e4d225af25194f69f59812292175dd4baedefb20740fb",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Isochrone_Local_2026-11-02/QA/Basemap_Sources.json",
+    "archived_file": "sources/05b01e77_Basemap_Sources.json",
+    "sha256": "5e4a7808cfc724dd4a93b3152420586a0679c70daf386b1e027cefc08bbe1852",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Isochrone_Local_2026-11-02/README.md",
+    "archived_file": "sources/f1c1e63b_README.txt",
+    "sha256": "e421c413e7c1b6a10df70be802a612c3c2872c56346f247a49470c67c0c171e5",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Planning_Update_2026-11-02/Delivery/Kajicho_Planning_Update_Methods.md",
+    "archived_file": "sources/2e62040c_Kajicho_Planning_Update_Methods.txt",
+    "sha256": "313e43347478f3b664b4b1d8a4af802fd2ffa80541120319660744766e832b9c",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Planning_Update_2026-11-02/README.md",
+    "archived_file": "sources/b1c6955d_README.txt",
+    "sha256": "313e43347478f3b664b4b1d8a4af802fd2ffa80541120319660744766e832b9c",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Space_Syntax_2026-11-02/README.md",
+    "archived_file": "sources/593bd16c_README.txt",
+    "sha256": "0b0cf7a644d8b40fcccd735400d49d8829179a228efce01cdc70f4560b1fb4f4",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Station_Access_2026-11-04/data/entrance_audit.json",
+    "archived_file": "sources/1e6aa791_entrance_audit.json",
+    "sha256": "403a85af9faf3a06e1376238b7f2ee0f974629d2163dcd333bc699a52a6a2ff2",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Traffic_Review_2026-11-02/Local_Coverage.md",
+    "archived_file": "sources/b7ceeb29_Local_Coverage.txt",
+    "sha256": "65f75aade4d7076f9e338a50ea7acc9d7b410ad32a924692528640f96d041b39",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Traffic_Review_2026-11-02/README.md",
+    "archived_file": "sources/43962595_README.txt",
+    "sha256": "e3f86b9c312d8fbe0d4f7d55d9e227a44f72efe7c7aa16fe6d115f746df12f16",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Traffic_Review_2026-11-02/Traffic_Source_Matching.json",
+    "archived_file": "sources/37e3687a_Traffic_Source_Matching.json",
+    "sha256": "aaf5f3681e9e017ae00f3168538cbc3ca1e0e51d251fa290e8ccdc389abe541a",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Vegetation_Wind_2026-11-02/Delivery/Methods_and_Findings_EN.md",
+    "archived_file": "sources/f9cf9a83_Methods_and_Findings_EN.txt",
+    "sha256": "26a52742feece9bb17f1ecfd5f99fbb72ea468073b30ffe259dfa9dc80967cb2",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Vegetation_Wind_2026-11-02/QA/Analysis_Summary.json",
+    "archived_file": "sources/3d64e74b_Analysis_Summary.json",
+    "sha256": "031bec5d3c029039716acb8b91fcac7837cabd45dbaad3011ca413c6a7221f97",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Vegetation_Wind_2026-11-02/QA/Input_Manifest.json",
+    "archived_file": "sources/2bc53582_Input_Manifest.json",
+    "sha256": "7b39ebf25aa8aad605bf7b75eb948337e60d3e8833a734ab4edc928f4a81c04a",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Vegetation_Wind_2026-11-02/QA/Official_Source_Manifest.json",
+    "archived_file": "sources/b956238b_Official_Source_Manifest.json",
+    "sha256": "249ec5e26e5e6354f79cc80e77e95faf44d70e24b5eb13fcf621ee1903f444f9",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Vegetation_Wind_2026-11-02/QA/Vegetation_Method_Review.json",
+    "archived_file": "sources/1319cfae_Vegetation_Method_Review.json",
+    "sha256": "e1b2fe389c2dfc0a2dd16af2edcd7cb71976395a48fbf2e5e1807a483d91b36c",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  },
+  {
+    "source_file": "06_Outputs/Slides/Vegetation_Wind_2026-11-02/QA/Weather_Summary.json",
+    "archived_file": "sources/dd302cf5_Weather_Summary.json",
+    "sha256": "b5fe2fe7a1413de460106af43be9b3c3979d8fe75d27d1d4ab62eb4fd0aaa423",
+    "note": "Verbatim dated source or method record; paths and findings refer to its original snapshot"
+  }
+]

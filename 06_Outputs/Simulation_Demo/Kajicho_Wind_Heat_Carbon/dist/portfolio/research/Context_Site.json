@@ -1,0 +1,650 @@
+{
+  "records": [
+    {
+      "id": "brief",
+      "group": "brief",
+      "title": {
+        "zh": "课程任务",
+        "en": "Brief",
+        "ja": "課題"
+      },
+      "summary": {
+        "zh": "以鍛冶町一、二丁目为重点，将规划支持与实施支持连接为面向 2050 年的地区管理模式。",
+        "en": "Connect planning and implementation support in an area management model for Kajicho 1 & 2, with a 2050 horizon.",
+        "ja": "鍛冶町一・二丁目を中心に、計画支援と実行支援を結ぶ2050年に向けたエリアマネジメントモデルを構築する。"
+      },
+      "scope": {
+        "zh": "鍛冶町一、二丁目；神田—日本桥为约略外围；目标年 2050。",
+        "en": "Kajicho 1 & 2; approximate Kanda–Nihonbashi context; target 2050.",
+        "ja": "鍛冶町一・二丁目、概略の神田・日本橋周辺、目標年2050。"
+      },
+      "year": 2026,
+      "source_url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+      "source_label": "2026 Theme B official brief",
+      "local_path": "01_Course/2026_Briefs/2026_Theme_B_Official_Brief.pdf",
+      "gap": {
+        "zh": "正式外围边界、分工与情景待课程及团队确认。",
+        "en": "Confirm the outer boundary, roles and scenarios with the course and team.",
+        "ja": "周辺範囲、役割、シナリオは授業とチームで確認する。"
+      },
+      "version_note": {
+        "zh": "正式外围边界、分工与情景待课程及团队确认。",
+        "en": "Confirm the outer boundary, roles and scenarios with the course and team.",
+        "ja": "周辺範囲、役割、シナリオは授業とチームで確認する。"
+      },
+      "document_year": 2026,
+      "website_updated_on": null,
+      "downloaded_on": "2026-10-13",
+      "checked_on": "2026-10-15",
+      "source_locator": "PDF pp.4–7",
+      "related_sources": [
+        {
+          "title": "2026 Theme B official brief",
+          "url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+          "locator": "PDF pp.4–7",
+          "document_year": 2026
+        }
+      ],
+      "evidence_status": "Official local PDF reviewed; downloaded 2026-10-13"
+    },
+    {
+      "id": "rules",
+      "group": "rules",
+      "title": {
+        "zh": "地块规则",
+        "en": "Rules",
+        "ja": "敷地条件"
+      },
+      "summary": {
+        "zh": "按地块和道路核对用途、容积率、建蔽率、高度与防火条件，再设置建筑更新情景。",
+        "en": "Check use, floor area ratio, coverage, height and fire rules by parcel and road before setting redevelopment scenarios.",
+        "ja": "建替え案の設定前に、敷地と道路ごとに用途、容積率、建蔽率、高さ、防火の条件を確認する。"
+      },
+      "scope": {
+        "zh": "国家法规与千代田区地块、道路条件。",
+        "en": "National law and Chiyoda parcel and road conditions.",
+        "ja": "国の法令と千代田区の敷地・道路条件。"
+      },
+      "year": "1950 / 1968; current e-Gov API checked 2026-10-15",
+      "source_url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/toshi/yotochiiki/chikuzu.html",
+      "source_label": "千代田区 都市計画情報（用途地域等）",
+      "local_path": "03_Theme_B/Policy_Framework/Policy_Response_Matrix.md",
+      "gap": {
+        "zh": "建筑模型高度不等于可建高度；跨用途分区的地块需复核。",
+        "en": "Model height is not a height allowance; review parcels crossing zones.",
+        "ja": "モデル高さから建築可能高さは決まらない。区域をまたぐ敷地は再確認する。"
+      },
+      "version_note": {
+        "zh": "建筑模型高度不等于可建高度；跨用途分区的地块需复核。",
+        "en": "Model height is not a height allowance; review parcels crossing zones.",
+        "ja": "モデル高さから建築可能高さは決まらない。区域をまたぐ敷地は再確認する。"
+      },
+      "document_year": "1950 / 1968; current e-Gov API checked 2026-10-15",
+      "website_updated_on": "2026-05-28",
+      "downloaded_on": "2026-10-13",
+      "checked_on": "2026-10-15",
+      "source_locator": "Web page updated 2026-05-28; zoning map legend p.1",
+      "related_sources": [
+        {
+          "title": "建築基準法",
+          "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+          "locator": "Articles 43, 48, 52, 53, 56, 61",
+          "document_year": null
+        },
+        {
+          "title": "都市計画法",
+          "url": "https://laws.e-gov.go.jp/law/343AC0000000100",
+          "locator": "Articles 6-2, 18-2",
+          "document_year": null
+        },
+        {
+          "title": "千代田区 都市計画情報（用途地域等）",
+          "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/toshi/yotochiiki/chikuzu.html",
+          "locator": "Web page updated 2026-05-28; zoning map legend p.1",
+          "document_year": null
+        }
+      ],
+      "evidence_status": "e-Gov current XML returned success; article captions checked; ward page and official map reviewed"
+    },
+    {
+      "id": "tokyo",
+      "group": "plans",
+      "title": {
+        "zh": "上位空间方向",
+        "en": "Tokyo framework",
+        "ja": "東京都の方針"
+      },
+      "summary": {
+        "zh": "东京都城市规划区域方针提供上位空间框架，千代田区规划将其转化为区内的空间与行动方向。",
+        "en": "The Tokyo area master plan gives the wider spatial framework that Chiyoda translates into local directions.",
+        "ja": "東京都の都市計画区域マスタープランを広域の枠組みとし、千代田区の方針につなげる。"
+      },
+      "scope": {
+        "zh": "东京都市规划区域的上位空间框架。",
+        "en": "The wider framework for the Tokyo planning area.",
+        "ja": "東京都市計画区域の広域的な枠組み。"
+      },
+      "year": 2021,
+      "source_url": "https://www.toshiseibi.metro.tokyo.lg.jp/basic/keikaku/master_plan/master01",
+      "source_label": "東京都市計画 都市計画区域の整備、開発及び保全の方針",
+      "local_path": "04_Data/Raw/Planning_Policy_2026-10-13/02_Tokyo/Tokyo_Statutory_Area_Master_2021.pdf",
+      "gap": {
+        "zh": "本轮在线原文返回 403；保留 10 月 13 日归档的官方 2021 年版本。",
+        "en": "The live PDF returned 403; the official 2021 copy archived on 13 October is retained.",
+        "ja": "オンラインPDFは403。10月13日に保存した公式2021年版を保持する。"
+      },
+      "version_note": {
+        "zh": "本轮在线原文返回 403；保留 10 月 13 日归档的官方 2021 年版本。",
+        "en": "The live PDF returned 403; the official 2021 copy archived on 13 October is retained.",
+        "ja": "オンラインPDFは403。10月13日に保存した公式2021年版を保持する。"
+      },
+      "document_year": 2021,
+      "website_updated_on": null,
+      "downloaded_on": "2026-10-13",
+      "checked_on": "2026-10-15",
+      "source_locator": "Saved official PDF p.5 / printed p.1",
+      "related_sources": [
+        {
+          "title": "東京都市計画 都市計画区域の整備、開発及び保全の方針",
+          "url": "https://www.toshiseibi.metro.tokyo.lg.jp/basic/keikaku/master_plan/master01",
+          "locator": "Saved official PDF p.5 / printed p.1",
+          "document_year": 2021
+        }
+      ],
+      "evidence_status": "Official local copy reviewed; current web access returned 403"
+    },
+    {
+      "id": "chiyoda",
+      "group": "plans",
+      "title": {
+        "zh": "区级愿景",
+        "en": "Chiyoda vision",
+        "ja": "千代田区の将来像"
+      },
+      "summary": {
+        "zh": "千代田区的「つながる都心」把步行、绿水空间、韧性与能源对策纳入同一空间愿景。",
+        "en": "Chiyoda’s connected city vision links walking, green and waterside spaces, resilience and energy measures.",
+        "ja": "千代田区の「つながる都心」は、歩行、緑と水辺、防災、環境・エネルギーを一体で扱う。"
+      },
+      "scope": {
+        "zh": "千代田区；重点查神田公园、和泉桥地区章节。",
+        "en": "Chiyoda; focus on the Kanda Park and Izumibashi chapters.",
+        "ja": "千代田区。神田公園・和泉橋地域の章を重点的に参照。"
+      },
+      "year": 2021,
+      "source_url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/toshi/kaiteikento/index.html",
+      "source_label": "千代田区都市計画マスタープラン",
+      "local_path": "03_Theme_B/Policy_Framework/Sources/toshimasu-3_2-2.txt",
+      "gap": {
+        "zh": "愿景用于说明空间方向；地块建设条件另查现行图则。",
+        "en": "Use the vision for spatial direction and current maps for parcel conditions.",
+        "ja": "将来像は空間の方向を示し、敷地条件は現行図で確認する。"
+      },
+      "version_note": {
+        "zh": "愿景用于说明空间方向；地块建设条件另查现行图则。",
+        "en": "Use the vision for spatial direction and current maps for parcel conditions.",
+        "ja": "将来像は空間の方向を示し、敷地条件は現行図で確認する。"
+      },
+      "document_year": 2021,
+      "website_updated_on": "2025-06-06",
+      "downloaded_on": "2026-10-13",
+      "checked_on": "2026-10-15",
+      "source_locator": "Chapter 3 themes 2, 4, 6, 7; Chapter 4; revised May 2021; webpage 2025-06-06",
+      "related_sources": [
+        {
+          "title": "千代田区都市計画マスタープラン",
+          "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/toshi/kaiteikento/index.html",
+          "locator": "Chapter 3 themes 2, 4, 6, 7; Chapter 4; revised May 2021; webpage 2025-06-06",
+          "document_year": 2021
+        }
+      ],
+      "evidence_status": "Official page and local source reviewed"
+    },
+    {
+      "id": "character",
+      "group": "plans",
+      "title": {
+        "zh": "街区与景观",
+        "en": "Local character",
+        "ja": "界隈と景観"
+      },
+      "summary": {
+        "zh": "神田景观指引强调街区个性与街道延续；作品集采用千代田公共导视中的深灰与江户紫作为视觉线索。",
+        "en": "Kanda guidance values local character and street continuity; the portfolio draws its visual cue from Chiyoda’s dark grey and Edo purple signs.",
+        "ja": "神田の界隈らしさと街並みの連続性を読み取り、千代田区の公共サインの濃灰色と江戸紫を作品集の手掛かりにする。"
+      },
+      "scope": {
+        "zh": "神田景观地域与千代田区公共导视。",
+        "en": "Kanda landscape area and Chiyoda public signs.",
+        "ja": "神田の景観地域と千代田区の公共サイン。"
+      },
+      "year": "2020 / 2021; signage manual revised 2017",
+      "source_url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/kekan/machizukuri.html",
+      "source_label": "景観まちづくり計画・ガイドライン",
+      "local_path": "06_Outputs/Portfolio_2026-10-15/research/Chiyoda_Sign_Color_p33.png",
+      "gap": {
+        "zh": "官方色值是 CMYK/Pantone；网页 HEX 为工作室数字近似。",
+        "en": "Official values are CMYK/Pantone; website HEX values are studio approximations.",
+        "ja": "公式値はCMYK/Pantone。ウェブのHEXはスタジオによる近似値。"
+      },
+      "version_note": {
+        "zh": "官方色值是 CMYK/Pantone；网页 HEX 为工作室数字近似。",
+        "en": "Official values are CMYK/Pantone; website HEX values are studio approximations.",
+        "ja": "公式値はCMYK/Pantone。ウェブのHEXはスタジオによる近似値。"
+      },
+      "document_year": "2020 / 2021; signage manual revised 2017",
+      "website_updated_on": "2025-05-09",
+      "downloaded_on": "2026-10-15",
+      "checked_on": "2026-10-15",
+      "source_locator": "Plan 2020; Kanda guideline revised 2021-03-31",
+      "related_sources": [
+        {
+          "title": "景観まちづくり計画・ガイドライン",
+          "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/kekan/machizukuri.html",
+          "locator": "Plan 2020; Kanda guideline revised 2021-03-31",
+          "document_year": null
+        },
+        {
+          "title": "公共サインデザインマニュアル 第3章",
+          "url": "https://www.city.chiyoda.lg.jp/documents/4204/designmanual-3.pdf",
+          "locator": "Printed pp.32–33 color; p.36 type",
+          "document_year": 2017
+        },
+        {
+          "title": "千代田区界隈別・重点地区景観まちづくりガイドライン 神田地域",
+          "url": "https://www.city.chiyoda.lg.jp/documents/4204/guideline-3_1.pdf",
+          "locator": "PDF pp.23–26; resource list at p.24, dated 2020-07",
+          "document_year": "2020; amended 2021"
+        }
+      ],
+      "evidence_status": "Official page and local source reviewed",
+      "field_cues": [
+        {
+          "name": "山梨中央銀行東京支店",
+          "address": "鍛冶町1-6-10",
+          "source_status": "景観まちづくり重要物件 in 2020-07 resource list",
+          "current_field_check": "pending"
+        },
+        {
+          "name": "太洋ビルディング（丸石ビルディング）",
+          "address": "鍛冶町1-10-4",
+          "source_status": "国登録有形文化財 in 2020-07 resource list",
+          "current_field_check": "pending"
+        },
+        {
+          "name": "JR brick viaduct and local alleys",
+          "source_status": "Landscape guidance PDF pp.23–26",
+          "current_field_check": "pending"
+        }
+      ]
+    },
+    {
+      "id": "green",
+      "group": "plans",
+      "title": {
+        "zh": "绿地与水网",
+        "en": "Green and water",
+        "ja": "緑と水のネットワーク"
+      },
+      "summary": {
+        "zh": "绿地规划将步行停留、雨水管理与暑热缓和联系起来，场地分析需同时记录绿地、树冠和可停留空间。",
+        "en": "The green plan links walking and staying, rainwater and heat relief; map green space, canopy and places to pause separately.",
+        "ja": "緑の基本計画を踏まえ、緑地、樹冠、滞在空間を分けて把握し、歩行、雨水、暑熱対策をつなぐ。"
+      },
+      "scope": {
+        "zh": "千代田区绿地网络及神田川、日本桥川联系。",
+        "en": "Chiyoda green networks and links to Kanda and Nihonbashi rivers.",
+        "ja": "区の緑のネットワークと神田川・日本橋川へのつながり。"
+      },
+      "year": 2021,
+      "source_url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/kankyo/ryokuka/kihonkeikaku.html",
+      "source_label": "千代田区緑の基本計画",
+      "local_path": "03_Theme_B/Policy_Framework/Sources/02midori-keikaku-5-7_2.txt",
+      "gap": {
+        "zh": "核心区缺少单株点记录，需要现场补查树位与树冠。",
+        "en": "Core tree-point records are missing; survey tree locations and canopy on site.",
+        "ja": "重点範囲の単木点データが不足。位置と樹冠を現地で補う。"
+      },
+      "version_note": {
+        "zh": "核心区缺少单株点记录，需要现场补查树位与树冠。",
+        "en": "Core tree-point records are missing; survey tree locations and canopy on site.",
+        "ja": "重点範囲の単木点データが不足。位置と樹冠を現地で補う。"
+      },
+      "document_year": 2021,
+      "website_updated_on": "2025-06-06",
+      "downloaded_on": "2026-10-13",
+      "checked_on": "2026-10-15",
+      "source_locator": "Revised July 2021; chapters 5–7, printed p.44 onward",
+      "related_sources": [
+        {
+          "title": "千代田区緑の基本計画",
+          "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/kankyo/ryokuka/kihonkeikaku.html",
+          "locator": "Revised July 2021; chapters 5–7, printed p.44 onward",
+          "document_year": 2021
+        }
+      ],
+      "evidence_status": "Official page and local source reviewed"
+    },
+    {
+      "id": "walking",
+      "group": "plans",
+      "title": {
+        "zh": "街道与停留",
+        "en": "Walking and staying",
+        "ja": "歩行と滞在"
+      },
+      "summary": {
+        "zh": "步行设计把道路、建筑周边空地和公共空间联系起来，支持从街道断面与停留需求讨论更新。",
+        "en": "The walking design connects streets, building edges and public spaces to support discussion of street sections and places to stay.",
+        "ja": "ウォーカブルまちづくりデザインをもとに、道路、建物際、公共空間をつなぎ、断面と滞在の需要を考える。"
+      },
+      "scope": {
+        "zh": "千代田区道路、建筑边缘与公共空间。",
+        "en": "Chiyoda streets, building edges and public spaces.",
+        "ja": "区内の道路、建物際、公共空間。"
+      },
+      "year": 2022,
+      "source_url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/toshi/walkable/design.html",
+      "source_label": "千代田区ウォーカブルまちづくりデザイン",
+      "local_path": "04_Data/Raw/Planning_Policy_2026-10-13/03_Chiyoda/Walkable_Design_2022.pdf",
+      "gap": {
+        "zh": "有效人行宽度、入口和通行障碍需现场记录。",
+        "en": "Record clear walking widths, entrances and obstacles on site.",
+        "ja": "有効歩行幅、入口、障害物を現地で記録する。"
+      },
+      "version_note": {
+        "zh": "有效人行宽度、入口和通行障碍需现场记录。",
+        "en": "Record clear walking widths, entrances and obstacles on site.",
+        "ja": "有効歩行幅、入口、障害物を現地で記録する。"
+      },
+      "document_year": 2022,
+      "website_updated_on": null,
+      "downloaded_on": "2026-10-13",
+      "checked_on": "2026-10-15",
+      "source_locator": "Main volume; June 2022",
+      "related_sources": [
+        {
+          "title": "千代田区ウォーカブルまちづくりデザイン",
+          "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/toshi/walkable/design.html",
+          "locator": "Main volume; June 2022",
+          "document_year": 2022
+        }
+      ],
+      "evidence_status": "Official page and local source reviewed"
+    },
+    {
+      "id": "delivery",
+      "group": "plans",
+      "title": {
+        "zh": "地区协作",
+        "en": "Local delivery",
+        "ja": "地域での実行"
+      },
+      "summary": {
+        "zh": "地区管理指南把空间使用、组织与资金连起来，每项行动都应明确管理者、参与者和维护安排。",
+        "en": "The area management guide links use of space, organization and funding; each action needs a manager, participants and maintenance.",
+        "ja": "エリアマネジメントの指針に沿い、各アクションに管理者、参加者、資金、維持管理を結び付ける。"
+      },
+      "scope": {
+        "zh": "千代田区地区管理活动与课程实施支持。",
+        "en": "Chiyoda area management and course implementation support.",
+        "ja": "千代田区のエリアマネジメントと課題の実行支援。"
+      },
+      "year": 2023,
+      "source_url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/toshi/walkable/eriamanejimento-kentokai/index.html",
+      "source_label": "千代田区エリアマネジメント活動推進ガイドライン",
+      "local_path": "03_Theme_B/Policy_Framework/Sources/Area_Management_Guide_Main.txt",
+      "gap": {
+        "zh": "角色、地方主体参与及许可状态待实际协商。",
+        "en": "Roles, local participation and permissions require coordination.",
+        "ja": "役割、地域主体の参加、許可は実際の協議で決める。"
+      },
+      "version_note": {
+        "zh": "角色、地方主体参与及许可状态待实际协商。",
+        "en": "Roles, local participation and permissions require coordination.",
+        "ja": "役割、地域主体の参加、許可は実際の協議で決める。"
+      },
+      "document_year": 2023,
+      "website_updated_on": null,
+      "downloaded_on": "2026-10-13",
+      "checked_on": "2026-10-15",
+      "source_locator": "Main and annex; March 2023",
+      "related_sources": [
+        {
+          "title": "千代田区エリアマネジメント活動推進ガイドライン",
+          "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/toshi/walkable/eriamanejimento-kentokai/index.html",
+          "locator": "Main and annex; March 2023",
+          "document_year": 2023
+        },
+        {
+          "title": "2026 Theme B brief",
+          "url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+          "locator": "p.5: Watage and CWL",
+          "document_year": null
+        }
+      ],
+      "evidence_status": "Official page and local source reviewed"
+    },
+    {
+      "id": "climate",
+      "group": "plans",
+      "title": {
+        "zh": "减碳与适应",
+        "en": "Carbon and adaptation",
+        "ja": "脱炭素と適応"
+      },
+      "summary": {
+        "zh": "区级减碳计划与适应计划分别提供能源行动和暑热、水害议题，作品集将其转为可检查的场地问题。",
+        "en": "Ward mitigation and adaptation plans frame energy action, heat and flooding; the portfolio turns them into questions that can be checked on site.",
+        "ja": "区の温暖化対策計画と適応計画を、エネルギー、暑熱、水害について現地で確かめられる問いに置き換える。"
+      },
+      "scope": {
+        "zh": "千代田区能源行动、暑热健康与水害议题。",
+        "en": "Ward energy action, heat health and flooding.",
+        "ja": "区のエネルギー対策、暑熱・健康、水害。"
+      },
+      "year": 2021,
+      "source_url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/kankyo/ondanka/suishinkekaku2021.html",
+      "source_label": "地球温暖化対策地域推進計画2021",
+      "local_path": "03_Theme_B/Policy_Framework/Policy_Response_Matrix.md",
+      "gap": {
+        "zh": "区级目标、建筑情景与实测值分别记录；本轮不追加 CFD。",
+        "en": "Keep ward targets, building scenarios and measurements distinct; no new CFD in this round.",
+        "ja": "区の目標、建物シナリオ、実測値を分ける。今回はCFDを追加しない。"
+      },
+      "version_note": {
+        "zh": "区级目标、建筑情景与实测值分别记录；本轮不追加 CFD。",
+        "en": "Keep ward targets, building scenarios and measurements distinct; no new CFD in this round.",
+        "ja": "区の目標、建物シナリオ、実測値を分ける。今回はCFDを追加しない。"
+      },
+      "document_year": 2021,
+      "website_updated_on": "2022-03-24",
+      "downloaded_on": "2026-10-13",
+      "checked_on": "2026-10-15",
+      "source_locator": "November 2021; PDF p.33 / printed p.27",
+      "related_sources": [
+        {
+          "title": "地球温暖化対策地域推進計画2021",
+          "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/kankyo/ondanka/suishinkekaku2021.html",
+          "locator": "November 2021; PDF p.33 / printed p.27",
+          "document_year": 2021
+        },
+        {
+          "title": "気候変動適応計画2021",
+          "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/kankyo/ondanka/kikohendotekiokeikaku2021.html",
+          "locator": "Health and natural disaster measures",
+          "document_year": 2021
+        }
+      ],
+      "evidence_status": "Official page and local source reviewed"
+    },
+    {
+      "id": "energy_rules",
+      "group": "rules",
+      "title": {
+        "zh": "楼宇性能",
+        "en": "Building performance",
+        "ja": "建築物の環境性能"
+      },
+      "summary": {
+        "zh": "区建築物環境計画書制度列出非住宅 BEI 0.65、住宅暂行 BEI 0.80 的努力目标，用于讨论设计性能。",
+        "en": "Chiyoda lists voluntary targets of BEI 0.65 for non-residential and temporarily 0.80 for residential buildings.",
+        "ja": "区の建築物環境計画書制度は、非住宅BEI 0.65、住宅は当面BEI 0.80を努力目標として示す。"
+      },
+      "scope": {
+        "zh": "千代田区建築物環境計画書事前协商对象。",
+        "en": "Buildings subject to Chiyoda environmental-plan consultation.",
+        "ja": "千代田区建築物環境計画書の事前協議対象。"
+      },
+      "year": "system 2010 / revised 2016; webpage 2026-04-01",
+      "source_url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/kenchiku/jizentetsuzuki/sin-kekakushosedo.html",
+      "source_label": "千代田区建築物環境計画書制度",
+      "local_path": "03_Theme_B/Policy_Framework/Sources/Building_Environment_Guide.txt",
+      "gap": {
+        "zh": "BEI 数值是努力目标；实际能耗和制度适用范围需逐项目核对。",
+        "en": "BEI values are voluntary targets; check actual energy use and applicability by project.",
+        "ja": "BEI値は努力目標。実際の使用量と制度の対象は案件ごとに確認する。"
+      },
+      "version_note": {
+        "zh": "BEI 数值是努力目标；实际能耗和制度适用范围需逐项目核对。",
+        "en": "BEI values are voluntary targets; check actual energy use and applicability by project.",
+        "ja": "BEI値は努力目標。実際の使用量と制度の対象は案件ごとに確認する。"
+      },
+      "document_year": "system 2010 / revised 2016; webpage 2026-04-01",
+      "website_updated_on": "2026-04-01",
+      "downloaded_on": "2026-10-13",
+      "checked_on": "2026-10-15",
+      "source_locator": "Web: 努力目標 and 対象となる建築物; updated 2026-04-01",
+      "related_sources": [
+        {
+          "title": "千代田区建築物環境計画書制度",
+          "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/kenchiku/jizentetsuzuki/sin-kekakushosedo.html",
+          "locator": "Web: 努力目標 and 対象となる建築物; updated 2026-04-01",
+          "document_year": null
+        }
+      ],
+      "evidence_status": "Official page and local source reviewed"
+    },
+    {
+      "id": "nihonbashi",
+      "group": "plans",
+      "title": {
+        "zh": "神田—日本桥",
+        "en": "Kanda–Nihonbashi links",
+        "ja": "神田・日本橋のつながり"
+      },
+      "summary": {
+        "zh": "日本桥川沿岸与七之部愿景为外围步行、水岸与地区联系提供参考，鍛冶町核心地块仍按千代田区条件核对。",
+        "en": "Nihonbashi river and Nanobe visions inform wider walking and waterside links; Kajicho parcels follow Chiyoda conditions.",
+        "ja": "日本橋川沿いと七の部のビジョンを広域連携の参考とし、鍛冶町の敷地条件は千代田区で確認する。"
+      },
+      "scope": {
+        "zh": "中央区日本桥川沿岸与七之部的正式愿景范围。",
+        "en": "The formal Chuo City riverside and Nanobe vision areas.",
+        "ja": "中央区の日本橋川沿い・七の部の正式な対象範囲。"
+      },
+      "year": "2021 / 2022",
+      "source_url": "https://www.city.chuo.lg.jp/a0041/machizukuri/toshikeikaku/machi/guidelines/guidelines.html",
+      "source_label": "中央区 まちづくりガイドライン・ビジョン等",
+      "local_path": "04_Data/Raw/Planning_Policy_2026-10-13/04_Chuo/Nihonbashi_Riverside_Vision_2021.pdf",
+      "gap": {
+        "zh": "邻区愿景支持外围联系，不能直接代替鍛冶町地块规则。",
+        "en": "Neighboring visions support wider links; Kajicho parcel rules remain separate.",
+        "ja": "隣接地域のビジョンは広域連携の参考とし、鍛冶町の敷地条件は別途確認する。"
+      },
+      "version_note": {
+        "zh": "邻区愿景支持外围联系，不能直接代替鍛冶町地块规则。",
+        "en": "Neighboring visions support wider links; Kajicho parcel rules remain separate.",
+        "ja": "隣接地域のビジョンは広域連携の参考とし、鍛冶町の敷地条件は別途確認する。"
+      },
+      "document_year": "2021 / 2022",
+      "website_updated_on": "2026-08-03",
+      "downloaded_on": "2026-10-13",
+      "checked_on": "2026-10-15",
+      "source_locator": "Riverside vision 2021; Nanobe vision 2022; page 2026-08-03",
+      "related_sources": [
+        {
+          "title": "中央区 まちづくりガイドライン・ビジョン等",
+          "url": "https://www.city.chuo.lg.jp/a0041/machizukuri/toshikeikaku/machi/guidelines/guidelines.html",
+          "locator": "Riverside vision 2021; Nanobe vision 2022; page 2026-08-03",
+          "document_year": null
+        }
+      ],
+      "evidence_status": "Official page and local source reviewed"
+    },
+    {
+      "id": "data",
+      "group": "data",
+      "title": {
+        "zh": "来源与年份",
+        "en": "Data and dates",
+        "ja": "データと時点"
+      },
+      "summary": {
+        "zh": "每张地图显示资料年份、空间单位与来源；建筑模型、法规分区、气象观测和现场记录分别管理。",
+        "en": "Each map shows data year, spatial unit and source; building models, legal zones, weather observations and field records stay distinct.",
+        "ja": "各図にデータ年、空間単位、出典を示し、建物モデル、法定区域、気象観測、現地記録を分けて管理する。"
+      },
+      "scope": {
+        "zh": "町丁目、建筑对象、道路、规划分区及气象站小时。",
+        "en": "Town, building, street, planning zone and station-hour.",
+        "ja": "町丁目、建物、道路、都市計画区域、気象観測の時間値。"
+      },
+      "year": "2020–2026 by dataset",
+      "source_url": "https://www.geospatial.jp/ckan/dataset/plateau-13101-chiyoda-ku-2025",
+      "source_label": "PLATEAU 千代田区 2025",
+      "local_path": "04_Data/Ready/Public_Baseline_2026-10-14/Source_Register.csv",
+      "gap": {
+        "zh": "模型发布年与调查年分列；建筑真实能源、未知用途和现场树位待补。",
+        "en": "Separate release and survey years; actual energy, unknown uses and field tree locations remain to collect.",
+        "ja": "公開年と調査年を分ける。実際のエネルギー、不明用途、現地の樹木位置を補う。"
+      },
+      "version_note": {
+        "zh": "模型发布年与调查年分列；建筑真实能源、未知用途和现场树位待补。",
+        "en": "Separate release and survey years; actual energy, unknown uses and field tree locations remain to collect.",
+        "ja": "公開年と調査年を分ける。実際のエネルギー、不明用途、現地の樹木位置を補う。"
+      },
+      "document_year": "2020–2026 by dataset",
+      "website_updated_on": null,
+      "downloaded_on": "2026-10-14",
+      "checked_on": "2026-10-15",
+      "source_locator": "Source metadata and local Source_Register.csv",
+      "related_sources": [
+        {
+          "title": "PLATEAU 千代田区 2025",
+          "url": "https://www.geospatial.jp/ckan/dataset/plateau-13101-chiyoda-ku-2025",
+          "locator": "Source metadata and local Source_Register.csv",
+          "document_year": null
+        },
+        {
+          "title": "都市計画 GIS",
+          "url": "https://www.mlit.go.jp/toshi/tosiko/toshi_tosiko_tk_000182.html",
+          "locator": "FY2025 compilation; local source receipt",
+          "document_year": null
+        },
+        {
+          "title": "e-Stat GIS",
+          "url": "https://www.e-stat.go.jp/gis/",
+          "locator": "2020 census towns",
+          "document_year": null
+        },
+        {
+          "title": "JMA historical weather",
+          "url": "https://www.data.jma.go.jp/risk/obsdl/index.php",
+          "locator": "Tokyo station 2025 hourly",
+          "document_year": null
+        }
+      ],
+      "evidence_status": "Existing local source register and public baseline reviewed; no replacement data downloaded",
+      "archive_dates": {
+        "Census_2020": "2026-10-13",
+        "OSM_snapshot": "2026-10-13",
+        "PLATEAU_2025": "2026-10-14",
+        "Planning_GIS_FY2025": "2026-10-14",
+        "JMA_2025": "2026-10-14"
+      }
+    }
+  ],
+  "checked_on": "2026-10-15",
+  "schema": "portfolio-context-v1"
+}

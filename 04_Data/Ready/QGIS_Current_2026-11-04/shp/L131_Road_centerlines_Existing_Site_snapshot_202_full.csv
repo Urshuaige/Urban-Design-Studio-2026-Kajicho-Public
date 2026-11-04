@@ -1,0 +1,642 @@
+﻿ROW_ID,__wider_pk,osm_id,highway,name_ja,name_en,service,access,bridge,tunnel,level,boundary_eligible,source_date,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,3,24461574,trunk,中央通り,Chūō Street,,yes,,,,1,2026-10-13,3,inside_wider,Original source feature or statistical unit; values not recomputed
+2,4,27916753,secondary,外堀通り,Sotobori Street,,,,,,1,2026-10-13,4,inside_wider,Original source feature or statistical unit; values not recomputed
+3,6,31046903,tertiary,神田金物通り,Kanda Kanamono-dori,,,,,,1,2026-10-13,6,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+4,7,31090134,unclassified,一八通り,Ippachi dori,,,,,,1,2026-10-13,7,inside_wider,Original source feature or statistical unit; values not recomputed
+5,9,33621329,trunk,昭和通り,Showa-dori Avenue,,,,,,1,2026-10-13,9,inside_wider,Original source feature or statistical unit; values not recomputed
+6,11,33625902,unclassified,,,,,,,,1,2026-10-13,11,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+7,12,33637368,unclassified,,,,,,,,1,2026-10-13,12,inside_wider,Original source feature or statistical unit; values not recomputed
+8,13,33637414,tertiary,神田金物通り,Kanda Kanamono-dori,,,,,,1,2026-10-13,13,inside_wider,Original source feature or statistical unit; values not recomputed
+9,14,33637556,unclassified,,,,,,,,1,2026-10-13,14,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+10,17,33640827,trunk,昭和通り,Showa-dori Avenue,,,,,,1,2026-10-13,17,inside_wider,Original source feature or statistical unit; values not recomputed
+11,21,41519621,unclassified,,,,,,,,1,2026-10-13,21,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+12,22,41519891,unclassified,,,,,,,,1,2026-10-13,22,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+13,23,41519941,unclassified,神田ふれあい通り,Kanda Fureai-dori,,,,,,1,2026-10-13,23,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+14,25,41520004,unclassified,,,,,,,,1,2026-10-13,25,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+15,29,41818366,unclassified,,,,,,,,1,2026-10-13,29,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+16,30,41818367,residential,,,,,,,,1,2026-10-13,30,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+17,32,42294745,unclassified,神田ふれあい通り,Kanda Fureai-dori,,,,,,1,2026-10-13,32,inside_wider,Original source feature or statistical unit; values not recomputed
+18,33,42294756,unclassified,,,,,,,,1,2026-10-13,33,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+19,35,44887721,residential,,,,,,,,1,2026-10-13,35,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+20,37,46983928,unclassified,,,,,,,,1,2026-10-13,37,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+21,44,49680756,residential,,,,,,,,1,2026-10-13,44,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+22,45,51933184,residential,,,,,,,,1,2026-10-13,45,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+23,46,51933186,unclassified,本銀通り,Honshirogane Dori Street,,,,,,1,2026-10-13,46,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+24,47,51933191,service,,,alley,,,,,1,2026-10-13,47,inside_wider,Original source feature or statistical unit; values not recomputed
+25,48,51933192,residential,,,,,,,,1,2026-10-13,48,inside_wider,Original source feature or statistical unit; values not recomputed
+26,49,51933193,unclassified,,,,,,,,1,2026-10-13,49,inside_wider,Original source feature or statistical unit; values not recomputed
+27,50,72465206,primary,昭和通り,Showa-dori Avenue,,,,,,1,2026-10-13,50,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+28,51,72465373,trunk_link,,,,,,yes,-1,0,2026-10-13,51,inside_wider,Original source feature or statistical unit; values not recomputed
+29,52,72465379,trunk_link,,,,,,yes,-1,0,2026-10-13,52,inside_wider,Original source feature or statistical unit; values not recomputed
+30,53,72465398,trunk_link,,,,,,,,0,2026-10-13,53,inside_wider,Original source feature or statistical unit; values not recomputed
+31,54,72465428,trunk_link,,,,,,,,0,2026-10-13,54,inside_wider,Original source feature or statistical unit; values not recomputed
+32,55,72465544,residential,,,,,,,,1,2026-10-13,55,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+33,57,90636499,unclassified,須田二仲通り,Suda Ni Naka-dori,,,,,,1,2026-10-13,57,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+34,59,90636516,unclassified,,,,,,,,1,2026-10-13,59,inside_wider,Original source feature or statistical unit; values not recomputed
+35,61,90790944,residential,,,,,,,,1,2026-10-13,61,inside_wider,Original source feature or statistical unit; values not recomputed
+36,63,90790948,unclassified,,,,,,,,1,2026-10-13,63,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+37,64,90795013,pedestrian,神田ふれあい通り,Kanda Fureai-dori,,,,,,1,2026-10-13,64,inside_wider,Original source feature or statistical unit; values not recomputed
+38,65,90795014,service,,,alley,,,,,1,2026-10-13,65,inside_wider,Original source feature or statistical unit; values not recomputed
+39,66,90795015,service,,,alley,,,,,1,2026-10-13,66,inside_wider,Original source feature or statistical unit; values not recomputed
+40,67,90795016,residential,,,,,,,,1,2026-10-13,67,inside_wider,Original source feature or statistical unit; values not recomputed
+41,68,90795017,residential,,,,,,,,1,2026-10-13,68,inside_wider,Original source feature or statistical unit; values not recomputed
+42,69,90795018,residential,,,,,,,,1,2026-10-13,69,inside_wider,Original source feature or statistical unit; values not recomputed
+43,70,90795020,service,,,alley,,,,,1,2026-10-13,70,inside_wider,Original source feature or statistical unit; values not recomputed
+44,71,90795021,residential,,,,,,,,1,2026-10-13,71,inside_wider,Original source feature or statistical unit; values not recomputed
+45,72,90795022,residential,,,,,,,,1,2026-10-13,72,inside_wider,Original source feature or statistical unit; values not recomputed
+46,73,90795023,service,,,alley,,,,,1,2026-10-13,73,inside_wider,Original source feature or statistical unit; values not recomputed
+47,74,90795024,residential,,,,,,,,1,2026-10-13,74,inside_wider,Original source feature or statistical unit; values not recomputed
+48,75,90795025,service,,,alley,,,,,1,2026-10-13,75,inside_wider,Original source feature or statistical unit; values not recomputed
+49,76,90795027,residential,,,,,,,,1,2026-10-13,76,inside_wider,Original source feature or statistical unit; values not recomputed
+50,77,90795028,service,,,alley,,,,,1,2026-10-13,77,inside_wider,Original source feature or statistical unit; values not recomputed
+51,78,90795029,service,,,alley,,,,,1,2026-10-13,78,inside_wider,Original source feature or statistical unit; values not recomputed
+52,79,90795030,residential,,,,,,,,1,2026-10-13,79,inside_wider,Original source feature or statistical unit; values not recomputed
+53,80,90795033,residential,神田ふれあい通り,Kanda Fureai-dori,,,,,,1,2026-10-13,80,inside_wider,Original source feature or statistical unit; values not recomputed
+54,81,90795035,service,,,alley,,,,,1,2026-10-13,81,inside_wider,Original source feature or statistical unit; values not recomputed
+55,82,90795037,residential,,,,,,,,1,2026-10-13,82,inside_wider,Original source feature or statistical unit; values not recomputed
+56,83,90795038,service,,,alley,,,,,1,2026-10-13,83,inside_wider,Original source feature or statistical unit; values not recomputed
+57,84,90795041,service,,,alley,,,,,1,2026-10-13,84,inside_wider,Original source feature or statistical unit; values not recomputed
+58,85,90795563,residential,,,,,,,,1,2026-10-13,85,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+59,91,92206657,unclassified,,,,,,,,1,2026-10-13,91,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+60,100,92206703,service,,,alley,,,,,1,2026-10-13,100,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+61,106,93713515,residential,,,,,,,,1,2026-10-13,106,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+62,108,93713520,service,,,alley,,,,,1,2026-10-13,108,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+63,109,93713540,service,,,alley,,,,,1,2026-10-13,109,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+64,110,93713545,service,,,alley,,,,,1,2026-10-13,110,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+65,111,93713546,unclassified,,,,,,,,1,2026-10-13,111,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+66,112,93713556,service,,,alley,,,,,1,2026-10-13,112,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+67,113,93713558,residential,,,,,,,,1,2026-10-13,113,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+68,117,93713578,residential,,,,,,,,1,2026-10-13,117,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+69,118,93713584,residential,,,,,,,,1,2026-10-13,118,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+70,121,93713602,service,,,alley,,,,,1,2026-10-13,121,inside_wider,Original source feature or statistical unit; values not recomputed
+71,122,93713605,residential,,,,,,,,1,2026-10-13,122,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+72,126,94094901,residential,,,,,,,,1,2026-10-13,126,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+73,129,108891397,unclassified,一八通り,Ippachi-dori,,,,,,1,2026-10-13,129,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+74,130,108891398,unclassified,一八通り,Ippachi-dori,,,,,,1,2026-10-13,130,inside_wider,Original source feature or statistical unit; values not recomputed
+75,134,153190946,trunk,江戸通り,Edo-dori Avenue,,yes,,,,1,2026-10-13,134,inside_wider,Original source feature or statistical unit; values not recomputed
+76,135,153190951,trunk,江戸通り,Edo-dori Avenue,,yes,,,,1,2026-10-13,135,inside_wider,Original source feature or statistical unit; values not recomputed
+77,136,160732454,trunk,江戸通り,Edo-dori Avenue,,yes,,,,1,2026-10-13,136,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+78,137,162538294,residential,,,,,,,,1,2026-10-13,137,inside_wider,Original source feature or statistical unit; values not recomputed
+79,138,162538295,unclassified,神田ふれあい通り,Kanda Fureai-dori,,,,,,1,2026-10-13,138,inside_wider,Original source feature or statistical unit; values not recomputed
+80,140,174757564,secondary,江戸通り,Edo-dori,,,,,,1,2026-10-13,140,inside_wider,Original source feature or statistical unit; values not recomputed
+81,141,174757567,secondary,江戸通り,Edo-dori,,,,,,1,2026-10-13,141,inside_wider,Original source feature or statistical unit; values not recomputed
+82,142,174757575,unclassified,,,,,,,,1,2026-10-13,142,inside_wider,Original source feature or statistical unit; values not recomputed
+83,144,174757577,residential,,,,,,,,1,2026-10-13,144,inside_wider,Original source feature or statistical unit; values not recomputed
+84,145,174757580,unclassified,,,,,,,,1,2026-10-13,145,inside_wider,Original source feature or statistical unit; values not recomputed
+85,146,174757581,residential,,,,,,,,1,2026-10-13,146,inside_wider,Original source feature or statistical unit; values not recomputed
+86,147,174757582,trunk,中央通り,Chuo-dori Avenue,,yes,,,,1,2026-10-13,147,inside_wider,Original source feature or statistical unit; values not recomputed
+87,148,174757591,trunk,中央通り,Chuo-dori Avenue,,yes,,,,1,2026-10-13,148,inside_wider,Original source feature or statistical unit; values not recomputed
+88,149,174757608,tertiary,神田金物通り,Kanda Kanamono-dori,,,,,,1,2026-10-13,149,inside_wider,Original source feature or statistical unit; values not recomputed
+89,150,174757609,tertiary,神田金物通り,,,,,,,1,2026-10-13,150,inside_wider,Original source feature or statistical unit; values not recomputed
+90,151,174758259,unclassified,日銀通り,Nichigin-dori,,,,,,1,2026-10-13,151,inside_wider,Original source feature or statistical unit; values not recomputed
+91,152,174758263,unclassified,,,,,,,,1,2026-10-13,152,inside_wider,Original source feature or statistical unit; values not recomputed
+92,153,174758265,unclassified,,,,,,,,1,2026-10-13,153,inside_wider,Original source feature or statistical unit; values not recomputed
+93,157,199311841,motorway,首都高速1号上野線,Route 1 Ueno Line,,,yes,,3,0,2026-10-13,157,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+94,158,199311842,motorway,首都高速1号上野線,Route 1 Ueno Line,,,yes,,3,0,2026-10-13,158,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+95,159,202801662,motorway_link,,,,,,,-1,0,2026-10-13,159,inside_wider,Original source feature or statistical unit; values not recomputed
+96,160,202801663,motorway_link,,,,,yes,,3,0,2026-10-13,160,inside_wider,Original source feature or statistical unit; values not recomputed
+97,162,202903721,trunk_link,,,,,,,,0,2026-10-13,162,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+98,163,202903722,trunk_link,,,,,,,,0,2026-10-13,163,inside_wider,Original source feature or statistical unit; values not recomputed
+99,164,202903724,trunk_link,,,,,,,,0,2026-10-13,164,inside_wider,Original source feature or statistical unit; values not recomputed
+100,165,202905124,steps,,,,,yes,,,0,2026-10-13,165,inside_wider,Original source feature or statistical unit; values not recomputed
+101,166,202905125,steps,,,,,yes,,,0,2026-10-13,166,inside_wider,Original source feature or statistical unit; values not recomputed
+102,167,202905126,steps,,,,,yes,,,0,2026-10-13,167,inside_wider,Original source feature or statistical unit; values not recomputed
+103,168,202905127,footway,本町,,,,yes,,2,0,2026-10-13,168,inside_wider,Original source feature or statistical unit; values not recomputed
+104,169,202905128,footway,,,,,yes,,1,0,2026-10-13,169,inside_wider,Original source feature or statistical unit; values not recomputed
+105,170,202905129,footway,,,,,,,,0,2026-10-13,170,inside_wider,Original source feature or statistical unit; values not recomputed
+106,171,202905130,footway,,,,,yes,,1,0,2026-10-13,171,inside_wider,Original source feature or statistical unit; values not recomputed
+107,172,202905131,motorway_link,,,,,,,,0,2026-10-13,172,inside_wider,Original source feature or statistical unit; values not recomputed
+108,173,202905132,motorway_link,,,,,yes,,2,0,2026-10-13,173,inside_wider,Original source feature or statistical unit; values not recomputed
+109,174,202905133,trunk_link,,,,,,,,0,2026-10-13,174,inside_wider,Original source feature or statistical unit; values not recomputed
+110,175,203035346,secondary,江戸通り,Edo-dori,,,yes,,1,1,2026-10-13,175,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+111,176,203035347,secondary,江戸通り,Edo-dori,,,yes,,1,1,2026-10-13,176,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+112,177,203035348,secondary,江戸通り,Edo-dori,,,,,,1,2026-10-13,177,inside_wider,Original source feature or statistical unit; values not recomputed
+113,178,203035350,secondary,江戸通り,Edo-dori,,,,,,1,2026-10-13,178,inside_wider,Original source feature or statistical unit; values not recomputed
+114,182,214778423,service,,,alley,,,,,1,2026-10-13,182,inside_wider,Original source feature or statistical unit; values not recomputed
+115,183,214778424,residential,,,,,,,,1,2026-10-13,183,inside_wider,Original source feature or statistical unit; values not recomputed
+116,184,214778425,residential,,,,,,,,1,2026-10-13,184,inside_wider,Original source feature or statistical unit; values not recomputed
+117,185,214778426,service,,,alley,,,,,1,2026-10-13,185,inside_wider,Original source feature or statistical unit; values not recomputed
+118,186,217378911,residential,,,,,,,,1,2026-10-13,186,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+119,192,228056328,trunk,中央通り,Chuo-dori Avenue,,yes,,,,1,2026-10-13,192,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+120,193,228056329,tertiary,水天宮通り,Suitengu-dori Avenue,,,,,,1,2026-10-13,193,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+121,195,229875718,tertiary,,,,,,,,1,2026-10-13,195,inside_wider,Original source feature or statistical unit; values not recomputed
+122,197,231524281,service,,,alley,,,,,1,2026-10-13,197,inside_wider,Original source feature or statistical unit; values not recomputed
+123,198,231524284,service,,,alley,,,,,1,2026-10-13,198,inside_wider,Original source feature or statistical unit; values not recomputed
+124,199,231524285,service,,,alley,,,,,1,2026-10-13,199,inside_wider,Original source feature or statistical unit; values not recomputed
+125,200,231524286,service,,,alley,,,,,1,2026-10-13,200,inside_wider,Original source feature or statistical unit; values not recomputed
+126,201,231524287,service,,,alley,,,,,1,2026-10-13,201,inside_wider,Original source feature or statistical unit; values not recomputed
+127,202,231524288,service,,,alley,,,,,1,2026-10-13,202,inside_wider,Original source feature or statistical unit; values not recomputed
+128,203,231524289,service,,,alley,,,,,1,2026-10-13,203,inside_wider,Original source feature or statistical unit; values not recomputed
+129,204,231524290,service,,,alley,,,,,1,2026-10-13,204,inside_wider,Original source feature or statistical unit; values not recomputed
+130,206,231716266,residential,,,,,,,,1,2026-10-13,206,inside_wider,Original source feature or statistical unit; values not recomputed
+131,207,231716268,service,,,alley,,,,,1,2026-10-13,207,inside_wider,Original source feature or statistical unit; values not recomputed
+132,208,232805829,tertiary,神田平成通り,Kanda Heisei-dori,,,,,,1,2026-10-13,208,inside_wider,Original source feature or statistical unit; values not recomputed
+133,210,243206484,trunk,昭和通り,Showa-dori Avenue,,,,,,1,2026-10-13,210,inside_wider,Original source feature or statistical unit; values not recomputed
+134,212,250314974,footway,,,,,,,,0,2026-10-13,212,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+135,213,250314978,footway,,,,,,,,0,2026-10-13,213,inside_wider,Original source feature or statistical unit; values not recomputed
+136,216,263955766,tertiary,,,,,,,,1,2026-10-13,216,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+137,217,263955767,service,,,alley,,,,,1,2026-10-13,217,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+138,223,264021710,unclassified,,,,,,,,1,2026-10-13,223,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+139,224,264069677,residential,あじさい通り,Ajisai Street,,,,,,1,2026-10-13,224,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+140,225,264069679,service,,,alley,,,,,1,2026-10-13,225,inside_wider,Original source feature or statistical unit; values not recomputed
+141,226,264069680,unclassified,一八通り,Ippachi-dori,,,,,,1,2026-10-13,226,inside_wider,Original source feature or statistical unit; values not recomputed
+142,227,264070490,residential,,,,,,,,1,2026-10-13,227,inside_wider,Original source feature or statistical unit; values not recomputed
+143,228,264070491,tertiary,,,,,,,,1,2026-10-13,228,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+144,229,264070492,tertiary,神田金物通り,Kanda Kanamono-dori,,,,,,1,2026-10-13,229,inside_wider,Original source feature or statistical unit; values not recomputed
+145,230,264109546,residential,,,,,,,,1,2026-10-13,230,inside_wider,Original source feature or statistical unit; values not recomputed
+146,231,264109547,trunk,昭和通り,Showa-dori Avenue,,,,,,1,2026-10-13,231,inside_wider,Original source feature or statistical unit; values not recomputed
+147,232,264109548,trunk,昭和通り,Showa-dori Avenue,,,,,,1,2026-10-13,232,inside_wider,Original source feature or statistical unit; values not recomputed
+148,233,264109975,trunk,昭和通り,Showa-dori Avenue,,,,,,1,2026-10-13,233,inside_wider,Original source feature or statistical unit; values not recomputed
+149,234,264109976,tertiary,神田金物通り,,,,,,,1,2026-10-13,234,inside_wider,Original source feature or statistical unit; values not recomputed
+150,235,264111704,unclassified,,,,,,,,1,2026-10-13,235,inside_wider,Original source feature or statistical unit; values not recomputed
+151,236,264111707,residential,,,,,,,,1,2026-10-13,236,inside_wider,Original source feature or statistical unit; values not recomputed
+152,237,264111709,residential,,,,,,,,1,2026-10-13,237,inside_wider,Original source feature or statistical unit; values not recomputed
+153,238,264111711,residential,,,,,,,,1,2026-10-13,238,inside_wider,Original source feature or statistical unit; values not recomputed
+154,239,264111713,residential,,,,,,,,1,2026-10-13,239,inside_wider,Original source feature or statistical unit; values not recomputed
+155,240,264111715,unclassified,,,,,,,,1,2026-10-13,240,inside_wider,Original source feature or statistical unit; values not recomputed
+156,241,264111717,residential,,,,,,,,1,2026-10-13,241,inside_wider,Original source feature or statistical unit; values not recomputed
+157,242,264111720,residential,,,,,,,,1,2026-10-13,242,inside_wider,Original source feature or statistical unit; values not recomputed
+158,243,264112782,residential,,,,,,,,1,2026-10-13,243,inside_wider,Original source feature or statistical unit; values not recomputed
+159,244,264112783,unclassified,,,,,,,,1,2026-10-13,244,inside_wider,Original source feature or statistical unit; values not recomputed
+160,245,264112784,trunk,昭和通り,Showa-dori Avenue,,,,,,1,2026-10-13,245,inside_wider,Original source feature or statistical unit; values not recomputed
+161,246,264112785,trunk,昭和通り,Showa-dori Avenue,,,,,,1,2026-10-13,246,inside_wider,Original source feature or statistical unit; values not recomputed
+162,247,264112923,service,,,alley,,,,,1,2026-10-13,247,inside_wider,Original source feature or statistical unit; values not recomputed
+163,248,264113151,residential,,,,,,,,1,2026-10-13,248,inside_wider,Original source feature or statistical unit; values not recomputed
+164,249,264113152,unclassified,,,,,,,,1,2026-10-13,249,inside_wider,Original source feature or statistical unit; values not recomputed
+165,250,264114575,residential,,,,,,,,1,2026-10-13,250,inside_wider,Original source feature or statistical unit; values not recomputed
+166,251,264114576,service,,,alley,,,,,1,2026-10-13,251,inside_wider,Original source feature or statistical unit; values not recomputed
+167,252,264114577,unclassified,,,,,,,,1,2026-10-13,252,inside_wider,Original source feature or statistical unit; values not recomputed
+168,253,264114579,unclassified,一八通り,Ippachi-dori,,,,,,1,2026-10-13,253,inside_wider,Original source feature or statistical unit; values not recomputed
+169,254,264114580,trunk,昭和通り,Showa-dori Avenue,,,,,,1,2026-10-13,254,inside_wider,Original source feature or statistical unit; values not recomputed
+170,255,264114581,trunk,昭和通り,Showa-dori Avenue,,,,,,1,2026-10-13,255,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+171,256,264114582,tertiary,神田平成通り,Kanda Heisei-dori,,,,,,1,2026-10-13,256,inside_wider,Original source feature or statistical unit; values not recomputed
+172,257,264114583,tertiary,神田平成通り,Kanda Heisei-dori,,,,,,1,2026-10-13,257,inside_wider,Original source feature or statistical unit; values not recomputed
+173,258,264114941,tertiary,神田平成通り,Kanda Heisei-dori Street,,,,,,1,2026-10-13,258,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+174,259,264115338,unclassified,,,,,,,,1,2026-10-13,259,inside_wider,Original source feature or statistical unit; values not recomputed
+175,260,264115339,tertiary,神田平成通り,Kanda Heisei-dori,,,,,,1,2026-10-13,260,inside_wider,Original source feature or statistical unit; values not recomputed
+176,261,264448295,primary,靖国通り,Yasukuni-dori,,,,,,1,2026-10-13,261,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+177,264,269039975,secondary,外堀通り,Sotobori Street,,,,,,1,2026-10-13,264,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+178,266,275409262,footway,,,,,,,,0,2026-10-13,266,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+179,267,275409266,footway,,,,,,,,0,2026-10-13,267,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+180,268,275409267,footway,,,,,,,,0,2026-10-13,268,inside_wider,Original source feature or statistical unit; values not recomputed
+181,269,313628932,footway,,,,,,,,0,2026-10-13,269,inside_wider,Original source feature or statistical unit; values not recomputed
+182,270,313628935,steps,,,,,yes,,,0,2026-10-13,270,inside_wider,Original source feature or statistical unit; values not recomputed
+183,272,378284517,trunk_link,,,,,,,,0,2026-10-13,272,inside_wider,Original source feature or statistical unit; values not recomputed
+184,274,384979838,motorway_link,,,,,yes,,3,0,2026-10-13,274,inside_wider,Original source feature or statistical unit; values not recomputed
+185,277,405799168,footway,,,,,,,,0,2026-10-13,277,inside_wider,Original source feature or statistical unit; values not recomputed
+186,278,405800174,footway,,,,,,,,0,2026-10-13,278,inside_wider,Original source feature or statistical unit; values not recomputed
+187,279,405800175,footway,,,,,,,,0,2026-10-13,279,inside_wider,Original source feature or statistical unit; values not recomputed
+188,280,405800176,footway,,,,,,,,0,2026-10-13,280,inside_wider,Original source feature or statistical unit; values not recomputed
+189,281,436042878,secondary,外堀通り,Sotobori-dori Avenue,,,,,,1,2026-10-13,281,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+190,286,449622603,footway,,,,,,,,0,2026-10-13,286,inside_wider,Original source feature or statistical unit; values not recomputed
+191,287,449622604,footway,,,,,,,,0,2026-10-13,287,inside_wider,Original source feature or statistical unit; values not recomputed
+192,289,449622618,footway,,,,,,,,0,2026-10-13,289,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+193,294,629051394,service,,,alley,,,,,1,2026-10-13,294,inside_wider,Original source feature or statistical unit; values not recomputed
+194,295,629051395,service,,,alley,,,,,1,2026-10-13,295,inside_wider,Original source feature or statistical unit; values not recomputed
+195,296,629051397,service,,,alley,,,,,1,2026-10-13,296,inside_wider,Original source feature or statistical unit; values not recomputed
+196,297,629051398,footway,,,,,,,,0,2026-10-13,297,inside_wider,Original source feature or statistical unit; values not recomputed
+197,298,629051399,footway,,,,,,,,0,2026-10-13,298,inside_wider,Original source feature or statistical unit; values not recomputed
+198,299,629051400,footway,,,,,,,,0,2026-10-13,299,inside_wider,Original source feature or statistical unit; values not recomputed
+199,302,629051417,footway,,,,,,,,0,2026-10-13,302,inside_wider,Original source feature or statistical unit; values not recomputed
+200,303,629051418,footway,,,,,,,,0,2026-10-13,303,inside_wider,Original source feature or statistical unit; values not recomputed
+201,304,629051419,footway,,,,,,,,0,2026-10-13,304,inside_wider,Original source feature or statistical unit; values not recomputed
+202,305,629051420,footway,,,,,,,,0,2026-10-13,305,inside_wider,Original source feature or statistical unit; values not recomputed
+203,306,629051421,footway,,,,,,,,0,2026-10-13,306,inside_wider,Original source feature or statistical unit; values not recomputed
+204,307,629051422,footway,,,,,,,,0,2026-10-13,307,inside_wider,Original source feature or statistical unit; values not recomputed
+205,308,629051423,footway,,,,,,,,0,2026-10-13,308,inside_wider,Original source feature or statistical unit; values not recomputed
+206,309,629051424,footway,,,,,,,,0,2026-10-13,309,inside_wider,Original source feature or statistical unit; values not recomputed
+207,310,629051425,footway,,,,,,,,0,2026-10-13,310,inside_wider,Original source feature or statistical unit; values not recomputed
+208,311,629051426,footway,,,,,,,,0,2026-10-13,311,inside_wider,Original source feature or statistical unit; values not recomputed
+209,312,629051427,footway,,,,,,,,0,2026-10-13,312,inside_wider,Original source feature or statistical unit; values not recomputed
+210,313,629051428,footway,,,,,,,,0,2026-10-13,313,inside_wider,Original source feature or statistical unit; values not recomputed
+211,314,629051429,footway,,,,,,,,0,2026-10-13,314,inside_wider,Original source feature or statistical unit; values not recomputed
+212,315,629051449,service,,,alley,,,,,1,2026-10-13,315,inside_wider,Original source feature or statistical unit; values not recomputed
+213,316,629051460,footway,,,,,,,,0,2026-10-13,316,inside_wider,Original source feature or statistical unit; values not recomputed
+214,317,629051461,footway,,,,,,,,0,2026-10-13,317,inside_wider,Original source feature or statistical unit; values not recomputed
+215,318,629051462,footway,,,,,,,,0,2026-10-13,318,inside_wider,Original source feature or statistical unit; values not recomputed
+216,319,629051463,footway,,,,,,,,0,2026-10-13,319,inside_wider,Original source feature or statistical unit; values not recomputed
+217,320,629051464,footway,,,,,,,,0,2026-10-13,320,inside_wider,Original source feature or statistical unit; values not recomputed
+218,321,629051465,footway,,,,,,,,0,2026-10-13,321,inside_wider,Original source feature or statistical unit; values not recomputed
+219,322,629051466,footway,,,,,,,,0,2026-10-13,322,inside_wider,Original source feature or statistical unit; values not recomputed
+220,323,629051467,footway,,,,,,,,0,2026-10-13,323,inside_wider,Original source feature or statistical unit; values not recomputed
+221,324,629051468,footway,,,,,,,,0,2026-10-13,324,inside_wider,Original source feature or statistical unit; values not recomputed
+222,325,629051469,footway,,,,,,,,0,2026-10-13,325,inside_wider,Original source feature or statistical unit; values not recomputed
+223,326,629051477,footway,,,,,,,,0,2026-10-13,326,inside_wider,Original source feature or statistical unit; values not recomputed
+224,329,629051483,residential,,,,,,,,1,2026-10-13,329,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+225,330,629051486,service,,,alley,,,,,1,2026-10-13,330,inside_wider,Original source feature or statistical unit; values not recomputed
+226,331,629051508,footway,,,,,,,,0,2026-10-13,331,inside_wider,Original source feature or statistical unit; values not recomputed
+227,332,629051511,footway,,,,,,,,0,2026-10-13,332,inside_wider,Original source feature or statistical unit; values not recomputed
+228,333,629051514,footway,,,,,,,,0,2026-10-13,333,inside_wider,Original source feature or statistical unit; values not recomputed
+229,334,629051521,residential,,,,,,,,1,2026-10-13,334,inside_wider,Original source feature or statistical unit; values not recomputed
+230,335,629051523,service,,,alley,,,,,1,2026-10-13,335,inside_wider,Original source feature or statistical unit; values not recomputed
+231,336,629051525,service,,,alley,,,,,1,2026-10-13,336,inside_wider,Original source feature or statistical unit; values not recomputed
+232,337,629051527,service,,,alley,,,,,1,2026-10-13,337,inside_wider,Original source feature or statistical unit; values not recomputed
+233,340,651695212,service,,,alley,,,,,1,2026-10-13,340,inside_wider,Original source feature or statistical unit; values not recomputed
+234,341,651695223,service,,,alley,,,,,1,2026-10-13,341,inside_wider,Original source feature or statistical unit; values not recomputed
+235,342,660691681,footway,,,,,,,,0,2026-10-13,342,inside_wider,Original source feature or statistical unit; values not recomputed
+236,346,662205882,footway,,,,,,,,0,2026-10-13,346,inside_wider,Original source feature or statistical unit; values not recomputed
+237,348,666378806,footway,,,,,,yes,-1,0,2026-10-13,348,inside_wider,Original source feature or statistical unit; values not recomputed
+238,349,666378807,footway,,,,,,yes,-1,0,2026-10-13,349,inside_wider,Original source feature or statistical unit; values not recomputed
+239,350,666378977,footway,,,,,,yes,-1,0,2026-10-13,350,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+240,351,666378978,footway,,,,,,yes,-1,0,2026-10-13,351,inside_wider,Original source feature or statistical unit; values not recomputed
+241,352,666378979,footway,,,,,,yes,-1,0,2026-10-13,352,inside_wider,Original source feature or statistical unit; values not recomputed
+242,353,666378980,footway,,,,,,yes,-1,0,2026-10-13,353,inside_wider,Original source feature or statistical unit; values not recomputed
+243,354,666378981,footway,,,,,,yes,-1,0,2026-10-13,354,inside_wider,Original source feature or statistical unit; values not recomputed
+244,355,666378982,footway,,,,,,yes,-2,0,2026-10-13,355,inside_wider,Original source feature or statistical unit; values not recomputed
+245,356,666378984,steps,,,,,,yes,-1,0,2026-10-13,356,inside_wider,Original source feature or statistical unit; values not recomputed
+246,357,666378985,footway,,,,,,yes,-2,0,2026-10-13,357,inside_wider,Original source feature or statistical unit; values not recomputed
+247,358,666378986,steps,,,,,,yes,-1,0,2026-10-13,358,inside_wider,Original source feature or statistical unit; values not recomputed
+248,359,666378987,footway,,,,,,yes,-2,0,2026-10-13,359,inside_wider,Original source feature or statistical unit; values not recomputed
+249,360,666379034,footway,,,,,,yes,-2,0,2026-10-13,360,inside_wider,Original source feature or statistical unit; values not recomputed
+250,361,666379035,footway,,,,,,yes,-1,0,2026-10-13,361,inside_wider,Original source feature or statistical unit; values not recomputed
+251,362,666379036,steps,,,,,,yes,-1,0,2026-10-13,362,inside_wider,Original source feature or statistical unit; values not recomputed
+252,363,666379037,footway,,,,,,yes,-2,0,2026-10-13,363,inside_wider,Original source feature or statistical unit; values not recomputed
+253,364,666379038,steps,,,,,,yes,-1,0,2026-10-13,364,inside_wider,Original source feature or statistical unit; values not recomputed
+254,365,666379039,footway,,,,,,yes,-2,0,2026-10-13,365,inside_wider,Original source feature or statistical unit; values not recomputed
+255,366,666379040,footway,,,,,,yes,-1,0,2026-10-13,366,inside_wider,Original source feature or statistical unit; values not recomputed
+256,367,666379041,steps,,,,,,yes,-1,0,2026-10-13,367,inside_wider,Original source feature or statistical unit; values not recomputed
+257,368,666379042,steps,,,,,,yes,-1,0,2026-10-13,368,inside_wider,Original source feature or statistical unit; values not recomputed
+258,369,666380127,footway,,,,,,,,0,2026-10-13,369,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+259,370,666380128,footway,,,,,,,,0,2026-10-13,370,inside_wider,Original source feature or statistical unit; values not recomputed
+260,371,666380129,footway,,,,,,,,0,2026-10-13,371,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+261,372,666380130,footway,,,,,,,,0,2026-10-13,372,inside_wider,Original source feature or statistical unit; values not recomputed
+262,373,666380131,footway,,,,,,,,0,2026-10-13,373,inside_wider,Original source feature or statistical unit; values not recomputed
+263,375,666380133,footway,,,,,,,,0,2026-10-13,375,inside_wider,Original source feature or statistical unit; values not recomputed
+264,376,666380134,footway,,,,,,,,0,2026-10-13,376,inside_wider,Original source feature or statistical unit; values not recomputed
+265,377,666380135,footway,,,,,,,,0,2026-10-13,377,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+266,385,666380146,footway,,,,,,,,0,2026-10-13,385,inside_wider,Original source feature or statistical unit; values not recomputed
+267,386,666380147,footway,,,,,,,,0,2026-10-13,386,inside_wider,Original source feature or statistical unit; values not recomputed
+268,387,666380148,footway,,,,,,,,0,2026-10-13,387,inside_wider,Original source feature or statistical unit; values not recomputed
+269,388,666380149,footway,,,,,,,,0,2026-10-13,388,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+270,389,666380150,footway,,,,,,,,0,2026-10-13,389,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+271,393,666380391,footway,,,,,,,,0,2026-10-13,393,inside_wider,Original source feature or statistical unit; values not recomputed
+272,394,666380392,footway,,,,,,,,0,2026-10-13,394,inside_wider,Original source feature or statistical unit; values not recomputed
+273,395,666380393,footway,,,,,,,,0,2026-10-13,395,inside_wider,Original source feature or statistical unit; values not recomputed
+274,396,666380394,footway,,,,,,,,0,2026-10-13,396,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+275,397,666380395,footway,,,,,,,,0,2026-10-13,397,inside_wider,Original source feature or statistical unit; values not recomputed
+276,398,666380396,footway,,,,,,,,0,2026-10-13,398,inside_wider,Original source feature or statistical unit; values not recomputed
+277,399,666380397,footway,,,,,,,,0,2026-10-13,399,inside_wider,Original source feature or statistical unit; values not recomputed
+278,400,666380398,footway,,,,,,,,0,2026-10-13,400,inside_wider,Original source feature or statistical unit; values not recomputed
+279,401,666380399,footway,,,,,,,,0,2026-10-13,401,inside_wider,Original source feature or statistical unit; values not recomputed
+280,402,666380400,footway,,,,,,,,0,2026-10-13,402,inside_wider,Original source feature or statistical unit; values not recomputed
+281,403,666380401,footway,,,,,,,,0,2026-10-13,403,inside_wider,Original source feature or statistical unit; values not recomputed
+282,404,666380402,footway,,,,,yes,,1,0,2026-10-13,404,inside_wider,Original source feature or statistical unit; values not recomputed
+283,405,666380403,steps,,,,,yes,,1,0,2026-10-13,405,inside_wider,Original source feature or statistical unit; values not recomputed
+284,406,666380404,steps,,,,,yes,,,0,2026-10-13,406,inside_wider,Original source feature or statistical unit; values not recomputed
+285,407,666380405,footway,,,,,,,,0,2026-10-13,407,inside_wider,Original source feature or statistical unit; values not recomputed
+286,408,666653760,footway,,,,,yes,,1,0,2026-10-13,408,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+287,409,666653761,footway,,,,,,,,0,2026-10-13,409,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+288,410,666654609,footway,,,,,yes,,1,0,2026-10-13,410,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+289,412,666654611,footway,,,,,,,,0,2026-10-13,412,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+290,416,666654637,footway,,,,,,,,0,2026-10-13,416,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+291,417,666654638,footway,,,,,,,,0,2026-10-13,417,inside_wider,Original source feature or statistical unit; values not recomputed
+292,418,666654639,footway,,,,,,,,0,2026-10-13,418,inside_wider,Original source feature or statistical unit; values not recomputed
+293,419,666654640,footway,,,,,,,,0,2026-10-13,419,inside_wider,Original source feature or statistical unit; values not recomputed
+294,420,666654641,footway,,,,,,,,0,2026-10-13,420,inside_wider,Original source feature or statistical unit; values not recomputed
+295,421,666654989,footway,,,,,,,,0,2026-10-13,421,inside_wider,Original source feature or statistical unit; values not recomputed
+296,422,666654991,path,,,,,,,,0,2026-10-13,422,inside_wider,Original source feature or statistical unit; values not recomputed
+297,428,666655580,footway,,,,,,,,0,2026-10-13,428,inside_wider,Original source feature or statistical unit; values not recomputed
+298,429,666655581,footway,,,,,,,,0,2026-10-13,429,inside_wider,Original source feature or statistical unit; values not recomputed
+299,430,666655582,footway,,,,,,,,0,2026-10-13,430,inside_wider,Original source feature or statistical unit; values not recomputed
+300,431,666655583,footway,,,,,,,,0,2026-10-13,431,inside_wider,Original source feature or statistical unit; values not recomputed
+301,432,666655584,footway,,,,,,,,0,2026-10-13,432,inside_wider,Original source feature or statistical unit; values not recomputed
+302,433,666662647,footway,,,,,,,,0,2026-10-13,433,inside_wider,Original source feature or statistical unit; values not recomputed
+303,434,666662648,footway,,,,,,,,0,2026-10-13,434,inside_wider,Original source feature or statistical unit; values not recomputed
+304,435,666662649,footway,,,,,,,,0,2026-10-13,435,inside_wider,Original source feature or statistical unit; values not recomputed
+305,436,666662650,footway,,,,,,,,0,2026-10-13,436,inside_wider,Original source feature or statistical unit; values not recomputed
+306,437,666662651,footway,,,,,,,,0,2026-10-13,437,inside_wider,Original source feature or statistical unit; values not recomputed
+307,438,666662652,footway,,,,,,,,0,2026-10-13,438,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+308,439,666662653,footway,,,,,,,,0,2026-10-13,439,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+309,441,666662657,footway,,,,,,,,0,2026-10-13,441,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+310,450,666679432,footway,,,,,,,,0,2026-10-13,450,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+311,451,666679438,footway,,,,,,,,0,2026-10-13,451,inside_wider,Original source feature or statistical unit; values not recomputed
+312,452,666679439,footway,,,,,,,,0,2026-10-13,452,inside_wider,Original source feature or statistical unit; values not recomputed
+313,453,666679442,footway,,,,,,,,0,2026-10-13,453,inside_wider,Original source feature or statistical unit; values not recomputed
+314,454,666679444,footway,,,,,,,,0,2026-10-13,454,inside_wider,Original source feature or statistical unit; values not recomputed
+315,466,666903566,footway,,,,,,,,0,2026-10-13,466,inside_wider,Original source feature or statistical unit; values not recomputed
+316,467,666903567,footway,,,,,,,,0,2026-10-13,467,inside_wider,Original source feature or statistical unit; values not recomputed
+317,468,666903568,footway,,,,,,,,0,2026-10-13,468,inside_wider,Original source feature or statistical unit; values not recomputed
+318,469,666903569,footway,,,,,,,,0,2026-10-13,469,inside_wider,Original source feature or statistical unit; values not recomputed
+319,470,666903570,footway,,,,,,,,0,2026-10-13,470,inside_wider,Original source feature or statistical unit; values not recomputed
+320,472,668248689,footway,,,,,,,,0,2026-10-13,472,inside_wider,Original source feature or statistical unit; values not recomputed
+321,473,668249982,footway,,,,,,,,0,2026-10-13,473,inside_wider,Original source feature or statistical unit; values not recomputed
+322,474,668249984,footway,,,,,,,,0,2026-10-13,474,inside_wider,Original source feature or statistical unit; values not recomputed
+323,480,675834508,footway,,,,,,,,0,2026-10-13,480,inside_wider,Original source feature or statistical unit; values not recomputed
+324,481,675834509,footway,,,,,,,,0,2026-10-13,481,inside_wider,Original source feature or statistical unit; values not recomputed
+325,482,675834510,footway,,,,,,,,0,2026-10-13,482,inside_wider,Original source feature or statistical unit; values not recomputed
+326,483,675834511,footway,,,,,,,,0,2026-10-13,483,inside_wider,Original source feature or statistical unit; values not recomputed
+327,486,675836125,footway,,,,,,yes,-1,0,2026-10-13,486,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+328,493,675836132,footway,,,,,,yes,-1,0,2026-10-13,493,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+329,494,681547930,trunk,昭和通り,Showa-dori Avenue,,,,,,1,2026-10-13,494,inside_wider,Original source feature or statistical unit; values not recomputed
+330,495,681548220,tertiary,神田金物通り,Kanda Kanamono-dori,,,,,,1,2026-10-13,495,inside_wider,Original source feature or statistical unit; values not recomputed
+331,496,681548222,trunk,昭和通り,Showa-dori Avenue,,,,,,1,2026-10-13,496,inside_wider,Original source feature or statistical unit; values not recomputed
+332,497,681548223,tertiary,神田金物通り,Kanda Kanamono-dori,,,,,,1,2026-10-13,497,inside_wider,Original source feature or statistical unit; values not recomputed
+333,503,687181263,footway,,,,,,,,0,2026-10-13,503,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+334,504,687181265,footway,,,,,,,,0,2026-10-13,504,inside_wider,Original source feature or statistical unit; values not recomputed
+335,505,687181267,footway,,,,,,,,0,2026-10-13,505,inside_wider,Original source feature or statistical unit; values not recomputed
+336,506,687181268,footway,,,,,,,,0,2026-10-13,506,inside_wider,Original source feature or statistical unit; values not recomputed
+337,507,687181269,footway,,,,,,,,0,2026-10-13,507,inside_wider,Original source feature or statistical unit; values not recomputed
+338,508,687181270,footway,,,,,,,,0,2026-10-13,508,inside_wider,Original source feature or statistical unit; values not recomputed
+339,509,687181271,footway,,,,,,,,0,2026-10-13,509,inside_wider,Original source feature or statistical unit; values not recomputed
+340,510,687181272,footway,,,,,,,,0,2026-10-13,510,inside_wider,Original source feature or statistical unit; values not recomputed
+341,511,687181273,footway,,,,,,,,0,2026-10-13,511,inside_wider,Original source feature or statistical unit; values not recomputed
+342,512,687181274,footway,,,,,,,,0,2026-10-13,512,inside_wider,Original source feature or statistical unit; values not recomputed
+343,514,688070559,footway,,,,,,,,0,2026-10-13,514,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+344,515,688070560,footway,,,,,,,,0,2026-10-13,515,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+345,518,723215935,footway,,,,,,,,0,2026-10-13,518,inside_wider,Original source feature or statistical unit; values not recomputed
+346,519,753523079,unclassified,,,,,,,,1,2026-10-13,519,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+347,520,753523080,tertiary,,,,,,,,1,2026-10-13,520,inside_wider,Original source feature or statistical unit; values not recomputed
+348,521,759429277,corridor,,,,,,,,0,2026-10-13,521,inside_wider,Original source feature or statistical unit; values not recomputed
+349,524,764607841,footway,,,,,,,,0,2026-10-13,524,inside_wider,Original source feature or statistical unit; values not recomputed
+350,525,788084205,footway,,,,,,,,0,2026-10-13,525,inside_wider,Original source feature or statistical unit; values not recomputed
+351,526,788084206,footway,,,,,,,,0,2026-10-13,526,inside_wider,Original source feature or statistical unit; values not recomputed
+352,527,788084207,footway,,,,,,,,0,2026-10-13,527,inside_wider,Original source feature or statistical unit; values not recomputed
+353,528,788084208,footway,,,,,,,,0,2026-10-13,528,inside_wider,Original source feature or statistical unit; values not recomputed
+354,529,788084209,footway,,,,,,,,0,2026-10-13,529,inside_wider,Original source feature or statistical unit; values not recomputed
+355,530,788084210,footway,,,,,,,,0,2026-10-13,530,inside_wider,Original source feature or statistical unit; values not recomputed
+356,533,817790409,trunk_link,,,,,,,,0,2026-10-13,533,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+357,534,817790410,trunk_link,,,,,,,,0,2026-10-13,534,inside_wider,Original source feature or statistical unit; values not recomputed
+358,535,818919050,service,,,alley,,,,,1,2026-10-13,535,inside_wider,Original source feature or statistical unit; values not recomputed
+359,536,819118929,motorway_link,,,,,yes,,1,0,2026-10-13,536,inside_wider,Original source feature or statistical unit; values not recomputed
+360,537,843077777,footway,,,,,,,,0,2026-10-13,537,inside_wider,Original source feature or statistical unit; values not recomputed
+361,538,843077778,footway,,,,,,,,0,2026-10-13,538,inside_wider,Original source feature or statistical unit; values not recomputed
+362,539,843077779,footway,,,,,,,,0,2026-10-13,539,inside_wider,Original source feature or statistical unit; values not recomputed
+363,540,843126657,unclassified,,,,,,,,1,2026-10-13,540,inside_wider,Original source feature or statistical unit; values not recomputed
+364,541,843126658,footway,,,,,,,,0,2026-10-13,541,inside_wider,Original source feature or statistical unit; values not recomputed
+365,542,843126659,footway,,,,,,,,0,2026-10-13,542,inside_wider,Original source feature or statistical unit; values not recomputed
+366,546,844460224,footway,,,,,,,,0,2026-10-13,546,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+367,549,844460227,footway,,,,,,,,0,2026-10-13,549,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+368,553,844735481,footway,,,,,,,,0,2026-10-13,553,inside_wider,Original source feature or statistical unit; values not recomputed
+369,554,844750418,service,,,parking_aisle,,,,,0,2026-10-13,554,inside_wider,Original source feature or statistical unit; values not recomputed
+370,555,844750419,footway,,,,,,,,0,2026-10-13,555,inside_wider,Original source feature or statistical unit; values not recomputed
+371,556,844750423,footway,,,,,,,,0,2026-10-13,556,inside_wider,Original source feature or statistical unit; values not recomputed
+372,557,844750424,footway,,,,,,,,0,2026-10-13,557,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+373,559,874155679,primary,靖国通り,Yasukuni-dori Avenue,,,,,,1,2026-10-13,559,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+374,563,987237237,footway,,,,,,,,0,2026-10-13,563,inside_wider,Original source feature or statistical unit; values not recomputed
+375,564,987237238,footway,,,,,,,,0,2026-10-13,564,inside_wider,Original source feature or statistical unit; values not recomputed
+376,565,987237239,footway,,,,,,,,0,2026-10-13,565,inside_wider,Original source feature or statistical unit; values not recomputed
+377,566,987237240,footway,,,,,,,,0,2026-10-13,566,inside_wider,Original source feature or statistical unit; values not recomputed
+378,567,987237241,footway,,,,,,,,0,2026-10-13,567,inside_wider,Original source feature or statistical unit; values not recomputed
+379,568,987237242,footway,,,,,,,,0,2026-10-13,568,inside_wider,Original source feature or statistical unit; values not recomputed
+380,569,987238373,footway,,,,,,,,0,2026-10-13,569,inside_wider,Original source feature or statistical unit; values not recomputed
+381,570,987238374,footway,,,,,,,,0,2026-10-13,570,inside_wider,Original source feature or statistical unit; values not recomputed
+382,571,987239127,path,,,,,,,,0,2026-10-13,571,inside_wider,Original source feature or statistical unit; values not recomputed
+383,572,987239128,path,,,,,,,,0,2026-10-13,572,inside_wider,Original source feature or statistical unit; values not recomputed
+384,573,987239509,footway,,,,,,,,0,2026-10-13,573,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+385,574,987239510,footway,,,,,,,,0,2026-10-13,574,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+386,577,992945476,service,,,,,,,,1,2026-10-13,577,inside_wider,Original source feature or statistical unit; values not recomputed
+387,579,993526142,unclassified,日銀通り,Nichigin-dori Avenue,,,,,,1,2026-10-13,579,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+388,580,993551535,trunk,江戸通り,Edo-dori Avenue,,yes,,,,1,2026-10-13,580,inside_wider,Original source feature or statistical unit; values not recomputed
+389,581,993552357,footway,,,,,,,,0,2026-10-13,581,inside_wider,Original source feature or statistical unit; values not recomputed
+390,582,993552358,steps,,,,,,,,0,2026-10-13,582,inside_wider,Original source feature or statistical unit; values not recomputed
+391,584,993552360,footway,,,,,,,,0,2026-10-13,584,inside_wider,Original source feature or statistical unit; values not recomputed
+392,585,993552361,footway,,,,,,,,0,2026-10-13,585,inside_wider,Original source feature or statistical unit; values not recomputed
+393,587,995430719,steps,,,,,,,,0,2026-10-13,587,inside_wider,Original source feature or statistical unit; values not recomputed
+394,588,995524144,footway,,,,,,,,0,2026-10-13,588,inside_wider,Original source feature or statistical unit; values not recomputed
+395,589,995524145,footway,,,,,,,,0,2026-10-13,589,inside_wider,Original source feature or statistical unit; values not recomputed
+396,590,995525687,footway,,,,,,,,0,2026-10-13,590,inside_wider,Original source feature or statistical unit; values not recomputed
+397,591,995525688,footway,,,,,,,,0,2026-10-13,591,inside_wider,Original source feature or statistical unit; values not recomputed
+398,592,995525689,footway,,,,,,,,0,2026-10-13,592,inside_wider,Original source feature or statistical unit; values not recomputed
+399,595,998271045,pedestrian,,,,,,,,1,2026-10-13,595,inside_wider,Original source feature or statistical unit; values not recomputed
+400,596,1004202301,trunk,中央通り,Chūō Street,,yes,,,,1,2026-10-13,596,inside_wider,Original source feature or statistical unit; values not recomputed
+401,597,1005084942,footway,,,,,,,,0,2026-10-13,597,inside_wider,Original source feature or statistical unit; values not recomputed
+402,598,1005084943,footway,,,,,,,,0,2026-10-13,598,inside_wider,Original source feature or statistical unit; values not recomputed
+403,600,1031963658,trunk,中央通り,Chūō Street,,,,,,1,2026-10-13,600,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+404,601,1055904103,footway,,,,,,,,0,2026-10-13,601,inside_wider,Original source feature or statistical unit; values not recomputed
+405,603,1057181619,primary,靖国通り,Yasukuni-dori Avenue,,,,,,1,2026-10-13,603,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+406,604,1057181620,trunk,昭和通り,Showa-dori Avenue,,,,,,1,2026-10-13,604,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+407,605,1083490932,footway,,,,,,,,0,2026-10-13,605,inside_wider,Original source feature or statistical unit; values not recomputed
+408,607,1083720964,footway,,,,,,,,0,2026-10-13,607,inside_wider,Original source feature or statistical unit; values not recomputed
+409,608,1083720981,footway,,,,,,,,0,2026-10-13,608,inside_wider,Original source feature or statistical unit; values not recomputed
+410,609,1083720982,footway,,,,,,,,0,2026-10-13,609,inside_wider,Original source feature or statistical unit; values not recomputed
+411,610,1083748001,footway,,,,,,,,0,2026-10-13,610,inside_wider,Original source feature or statistical unit; values not recomputed
+412,611,1083758714,footway,,,,,,,,0,2026-10-13,611,inside_wider,Original source feature or statistical unit; values not recomputed
+413,612,1083758722,footway,,,,,,,,0,2026-10-13,612,inside_wider,Original source feature or statistical unit; values not recomputed
+414,614,1083758728,footway,,,,,,,,0,2026-10-13,614,inside_wider,Original source feature or statistical unit; values not recomputed
+415,616,1084618707,footway,,,,,,,,0,2026-10-13,616,inside_wider,Original source feature or statistical unit; values not recomputed
+416,618,1084618709,footway,,,,,,,,0,2026-10-13,618,inside_wider,Original source feature or statistical unit; values not recomputed
+417,619,1084618710,footway,,,,,,,,0,2026-10-13,619,inside_wider,Original source feature or statistical unit; values not recomputed
+418,624,1085314522,footway,,,,,,,,0,2026-10-13,624,inside_wider,Original source feature or statistical unit; values not recomputed
+419,625,1085314523,footway,,,,,,,,0,2026-10-13,625,inside_wider,Original source feature or statistical unit; values not recomputed
+420,628,1092048062,service,,,,,,,,1,2026-10-13,628,inside_wider,Original source feature or statistical unit; values not recomputed
+421,629,1115342432,corridor,,,,,,,,0,2026-10-13,629,inside_wider,Original source feature or statistical unit; values not recomputed
+422,630,1115342435,service,,,,,,,,1,2026-10-13,630,inside_wider,Original source feature or statistical unit; values not recomputed
+423,631,1126340246,trunk,江戸通り,Edo-dori Avenue,,yes,,,,1,2026-10-13,631,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+424,633,1126405647,footway,,,,,,,,0,2026-10-13,633,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+425,634,1126405648,footway,,,,,,,,0,2026-10-13,634,inside_wider,Original source feature or statistical unit; values not recomputed
+426,635,1126405649,footway,,,,,,,,0,2026-10-13,635,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+427,638,1189281813,residential,,,,,,,,1,2026-10-13,638,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+428,650,1196926577,unclassified,日銀通り,Nichigin-dori,,,,,,1,2026-10-13,650,inside_wider,Original source feature or statistical unit; values not recomputed
+429,651,1196926578,service,,,alley,,,,,1,2026-10-13,651,inside_wider,Original source feature or statistical unit; values not recomputed
+430,652,1196930229,unclassified,,,,,,,,1,2026-10-13,652,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+431,653,1196930230,service,,,alley,,,,,1,2026-10-13,653,inside_wider,Original source feature or statistical unit; values not recomputed
+432,654,1218146513,footway,,,,,,,,0,2026-10-13,654,inside_wider,Original source feature or statistical unit; values not recomputed
+433,655,1219905238,corridor,,,,,,,,0,2026-10-13,655,inside_wider,Original source feature or statistical unit; values not recomputed
+434,656,1219905239,corridor,,,,,,,,0,2026-10-13,656,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+435,659,1219905242,corridor,,,,,,,,0,2026-10-13,659,inside_wider,Original source feature or statistical unit; values not recomputed
+436,673,1239596194,footway,,,,,,,,0,2026-10-13,673,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+437,674,1245147134,residential,,,,,,,,1,2026-10-13,674,inside_wider,Original source feature or statistical unit; values not recomputed
+438,675,1245147135,residential,,,,,,,,1,2026-10-13,675,inside_wider,Original source feature or statistical unit; values not recomputed
+439,676,1245147136,residential,,,,,,,,1,2026-10-13,676,inside_wider,Original source feature or statistical unit; values not recomputed
+440,677,1245147137,residential,,,,,,,,1,2026-10-13,677,inside_wider,Original source feature or statistical unit; values not recomputed
+441,678,1245147138,residential,,,,,,,,1,2026-10-13,678,inside_wider,Original source feature or statistical unit; values not recomputed
+442,679,1245147139,residential,,,,,,,,1,2026-10-13,679,inside_wider,Original source feature or statistical unit; values not recomputed
+443,680,1254563374,footway,,,,,,,,0,2026-10-13,680,inside_wider,Original source feature or statistical unit; values not recomputed
+444,681,1254563375,secondary,外堀通り,Sotobori Street,,,,,,1,2026-10-13,681,inside_wider,Original source feature or statistical unit; values not recomputed
+445,682,1254563377,secondary,外堀通り,Sotobori Street,,,,,,1,2026-10-13,682,inside_wider,Original source feature or statistical unit; values not recomputed
+446,683,1254563378,secondary,外堀通り,Sotobori Street,,,,,,1,2026-10-13,683,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+447,684,1254563379,secondary,江戸通り,Edo-dori,,,,,,1,2026-10-13,684,inside_wider,Original source feature or statistical unit; values not recomputed
+448,685,1254563380,secondary,江戸通り,Edo-dori,,,,,,1,2026-10-13,685,inside_wider,Original source feature or statistical unit; values not recomputed
+449,686,1254563381,secondary,外堀通り,Sotobori Street,,,,,,1,2026-10-13,686,inside_wider,Original source feature or statistical unit; values not recomputed
+450,687,1254563382,secondary,江戸通り,Edo-dori,,,,,,1,2026-10-13,687,inside_wider,Original source feature or statistical unit; values not recomputed
+451,688,1254563383,secondary,外堀通り,Sotobori Street,,,,,,1,2026-10-13,688,inside_wider,Original source feature or statistical unit; values not recomputed
+452,689,1254563384,secondary,江戸通り,Edo-dori,,,,,,1,2026-10-13,689,inside_wider,Original source feature or statistical unit; values not recomputed
+453,690,1254563385,unclassified,,,,,,,,1,2026-10-13,690,inside_wider,Original source feature or statistical unit; values not recomputed
+454,693,1268769725,unclassified,本銀通り,Honshirogane Dori Street,,,,,,1,2026-10-13,693,inside_wider,Original source feature or statistical unit; values not recomputed
+455,699,1289799712,residential,,,,,,,,1,2026-10-13,699,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+456,700,1291186236,steps,,,,,,,,0,2026-10-13,700,inside_wider,Original source feature or statistical unit; values not recomputed
+457,701,1291186237,footway,,,,,,,,0,2026-10-13,701,inside_wider,Original source feature or statistical unit; values not recomputed
+458,702,1291186254,footway,,,,,,,,0,2026-10-13,702,inside_wider,Original source feature or statistical unit; values not recomputed
+459,704,1292223656,service,,,,no,,,,1,2026-10-13,704,inside_wider,Original source feature or statistical unit; values not recomputed
+460,708,1292224100,corridor,,,,,,,,0,2026-10-13,708,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+461,709,1296175631,service,,,,,,,,1,2026-10-13,709,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+462,710,1296221806,corridor,,,,,,,,0,2026-10-13,710,inside_wider,Original source feature or statistical unit; values not recomputed
+463,713,1304284698,unclassified,,,,,,,,1,2026-10-13,713,inside_wider,Original source feature or statistical unit; values not recomputed
+464,714,1305364570,footway,,,,,,,,0,2026-10-13,714,inside_wider,Original source feature or statistical unit; values not recomputed
+465,715,1305364571,footway,,,,,,,,0,2026-10-13,715,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+466,716,1305364572,footway,,,,,,,,0,2026-10-13,716,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+467,717,1305364573,footway,,,,,,,,0,2026-10-13,717,inside_wider,Original source feature or statistical unit; values not recomputed
+468,718,1305364574,footway,,,,,,,,0,2026-10-13,718,inside_wider,Original source feature or statistical unit; values not recomputed
+469,719,1305364575,unclassified,神田ふれあい通り,Kanda Fureai-dori,,,,,,1,2026-10-13,719,inside_wider,Original source feature or statistical unit; values not recomputed
+470,720,1305364576,unclassified,,,alley,,,,,1,2026-10-13,720,inside_wider,Original source feature or statistical unit; values not recomputed
+471,721,1305364577,footway,,,,,,,,0,2026-10-13,721,inside_wider,Original source feature or statistical unit; values not recomputed
+472,722,1305364578,footway,,,,,,,,0,2026-10-13,722,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+473,723,1305364579,footway,,,,,,,,0,2026-10-13,723,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+474,724,1305364580,footway,,,,,,,,0,2026-10-13,724,inside_wider,Original source feature or statistical unit; values not recomputed
+475,725,1305364581,footway,,,,,,,,0,2026-10-13,725,inside_wider,Original source feature or statistical unit; values not recomputed
+476,726,1305364582,footway,,,,,,,,0,2026-10-13,726,inside_wider,Original source feature or statistical unit; values not recomputed
+477,727,1305364583,footway,,,,,,,,0,2026-10-13,727,inside_wider,Original source feature or statistical unit; values not recomputed
+478,728,1305364587,footway,,,,,,,,0,2026-10-13,728,inside_wider,Original source feature or statistical unit; values not recomputed
+479,729,1305364588,footway,,,,,,,,0,2026-10-13,729,inside_wider,Original source feature or statistical unit; values not recomputed
+480,730,1305364589,footway,,,,,,,,0,2026-10-13,730,inside_wider,Original source feature or statistical unit; values not recomputed
+481,731,1305364590,footway,,,,,,,,0,2026-10-13,731,inside_wider,Original source feature or statistical unit; values not recomputed
+482,732,1305364591,footway,,,,,,,,0,2026-10-13,732,inside_wider,Original source feature or statistical unit; values not recomputed
+483,734,1310800118,footway,,,,,,,,0,2026-10-13,734,inside_wider,Original source feature or statistical unit; values not recomputed
+484,735,1310801265,service,,,,,,,,1,2026-10-13,735,inside_wider,Original source feature or statistical unit; values not recomputed
+485,736,1315205992,footway,,,,,,,,0,2026-10-13,736,inside_wider,Original source feature or statistical unit; values not recomputed
+486,742,1317049005,trunk,昭和通り,Showa-dori Avenue,,,,,,1,2026-10-13,742,inside_wider,Original source feature or statistical unit; values not recomputed
+487,743,1317049006,footway,,,,,,,,0,2026-10-13,743,inside_wider,Original source feature or statistical unit; values not recomputed
+488,744,1317049007,primary,昭和通り,Showa-dori Avenue,,,,,,1,2026-10-13,744,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+489,746,1324511162,footway,,,,,,,,0,2026-10-13,746,inside_wider,Original source feature or statistical unit; values not recomputed
+490,747,1324511163,corridor,,,,,,,,0,2026-10-13,747,inside_wider,Original source feature or statistical unit; values not recomputed
+491,748,1324511164,footway,,,,,,,,0,2026-10-13,748,inside_wider,Original source feature or statistical unit; values not recomputed
+492,749,1324525998,service,,,parking_aisle,,,,,0,2026-10-13,749,inside_wider,Original source feature or statistical unit; values not recomputed
+493,750,1324526005,service,,,parking_aisle,,,,,0,2026-10-13,750,inside_wider,Original source feature or statistical unit; values not recomputed
+494,751,1332097629,footway,,,,,,,,0,2026-10-13,751,inside_wider,Original source feature or statistical unit; values not recomputed
+495,752,1332097630,footway,,,,,,,,0,2026-10-13,752,inside_wider,Original source feature or statistical unit; values not recomputed
+496,756,1359862885,footway,,,,,,,,0,2026-10-13,756,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+497,758,1360902226,service,,,alley,,,,,1,2026-10-13,758,inside_wider,Original source feature or statistical unit; values not recomputed
+498,759,1360902757,service,,,alley,,,,,1,2026-10-13,759,inside_wider,Original source feature or statistical unit; values not recomputed
+499,760,1381650472,service,,,alley,,,,,1,2026-10-13,760,inside_wider,Original source feature or statistical unit; values not recomputed
+500,761,1381650473,service,,,alley,,,,,1,2026-10-13,761,inside_wider,Original source feature or statistical unit; values not recomputed
+501,771,1418365491,steps,,,,,,,,0,2026-10-13,771,inside_wider,Original source feature or statistical unit; values not recomputed
+502,772,1418365492,corridor,,,,,,,,0,2026-10-13,772,inside_wider,Original source feature or statistical unit; values not recomputed
+503,773,1418365493,corridor,,,,,,,,0,2026-10-13,773,inside_wider,Original source feature or statistical unit; values not recomputed
+504,774,1418365494,steps,,,,,,,,0,2026-10-13,774,inside_wider,Original source feature or statistical unit; values not recomputed
+505,775,1418365495,corridor,,,,,,,,0,2026-10-13,775,inside_wider,Original source feature or statistical unit; values not recomputed
+506,776,1418365496,steps,,,,,,,,0,2026-10-13,776,inside_wider,Original source feature or statistical unit; values not recomputed
+507,777,1418365497,steps,,,,,,building_passage,,0,2026-10-13,777,inside_wider,Original source feature or statistical unit; values not recomputed
+508,778,1418365498,steps,,,,,,building_passage,,0,2026-10-13,778,inside_wider,Original source feature or statistical unit; values not recomputed
+509,779,1418365499,footway,コインロッカー,,,,,building_passage,,0,2026-10-13,779,inside_wider,Original source feature or statistical unit; values not recomputed
+510,780,1418365500,steps,,,,,,,,0,2026-10-13,780,inside_wider,Original source feature or statistical unit; values not recomputed
+511,781,1418365501,steps,,,,,,yes,-1,0,2026-10-13,781,inside_wider,Original source feature or statistical unit; values not recomputed
+512,782,1418365502,steps,,,,,,building_passage,,0,2026-10-13,782,inside_wider,Original source feature or statistical unit; values not recomputed
+513,783,1418365503,steps,,,,,,,,0,2026-10-13,783,inside_wider,Original source feature or statistical unit; values not recomputed
+514,784,1418365504,footway,,,,,,building_passage,,0,2026-10-13,784,inside_wider,Original source feature or statistical unit; values not recomputed
+515,785,1418365505,footway,,,,,,yes,-1,0,2026-10-13,785,inside_wider,Original source feature or statistical unit; values not recomputed
+516,786,1418365506,footway,,,,,,building_passage,,0,2026-10-13,786,inside_wider,Original source feature or statistical unit; values not recomputed
+517,787,1418365507,corridor,,,,,,,,0,2026-10-13,787,inside_wider,Original source feature or statistical unit; values not recomputed
+518,788,1418365509,corridor,,,,,,,,0,2026-10-13,788,inside_wider,Original source feature or statistical unit; values not recomputed
+519,789,1418365510,corridor,,,,,,,,0,2026-10-13,789,inside_wider,Original source feature or statistical unit; values not recomputed
+520,790,1418365511,corridor,,,,,,,,0,2026-10-13,790,inside_wider,Original source feature or statistical unit; values not recomputed
+521,791,1418365512,footway,,,,,,building_passage,,0,2026-10-13,791,inside_wider,Original source feature or statistical unit; values not recomputed
+522,792,1418365513,corridor,,,,,,,,0,2026-10-13,792,inside_wider,Original source feature or statistical unit; values not recomputed
+523,793,1418365514,steps,,,,,,,,0,2026-10-13,793,inside_wider,Original source feature or statistical unit; values not recomputed
+524,794,1418365515,footway,,,,,,building_passage,,0,2026-10-13,794,inside_wider,Original source feature or statistical unit; values not recomputed
+525,795,1418365516,footway,,,,,,building_passage,1,0,2026-10-13,795,inside_wider,Original source feature or statistical unit; values not recomputed
+526,796,1418365517,footway,,,,,,building_passage,,0,2026-10-13,796,inside_wider,Original source feature or statistical unit; values not recomputed
+527,797,1418365518,footway,,,,,,,,0,2026-10-13,797,inside_wider,Original source feature or statistical unit; values not recomputed
+528,798,1418940434,footway,,,,,,yes,-1,0,2026-10-13,798,inside_wider,Original source feature or statistical unit; values not recomputed
+529,799,1418940435,footway,,,,,,yes,-1,0,2026-10-13,799,inside_wider,Original source feature or statistical unit; values not recomputed
+530,800,1418940436,footway,,,,,,yes,-1,0,2026-10-13,800,inside_wider,Original source feature or statistical unit; values not recomputed
+531,801,1418940437,footway,,,,,,yes,-1,0,2026-10-13,801,inside_wider,Original source feature or statistical unit; values not recomputed
+532,803,1424558206,residential,,,,,,,,1,2026-10-13,803,inside_wider,Original source feature or statistical unit; values not recomputed
+533,804,1424558207,residential,,,,,,yes,-1,1,2026-10-13,804,inside_wider,Original source feature or statistical unit; values not recomputed
+534,805,1424558208,residential,,,,,,,,1,2026-10-13,805,inside_wider,Original source feature or statistical unit; values not recomputed
+535,806,1424558209,unclassified,神田ふれあい通り,Kanda Fureai-dori,,,,,,1,2026-10-13,806,inside_wider,Original source feature or statistical unit; values not recomputed
+536,807,1424558210,trunk,中央通り,Chuo-dori Avenue,,yes,,,,1,2026-10-13,807,inside_wider,Original source feature or statistical unit; values not recomputed
+537,809,1424558212,trunk,中央通り,Chuo-dori Avenue,,yes,,,,1,2026-10-13,809,inside_wider,Original source feature or statistical unit; values not recomputed
+538,810,1424558213,residential,,,,,,,,1,2026-10-13,810,inside_wider,Original source feature or statistical unit; values not recomputed
+539,811,1424558214,trunk_link,,,,,,,,0,2026-10-13,811,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+540,812,1424558215,trunk,中央通り,Chuo-dori Avenue,,yes,,,,1,2026-10-13,812,inside_wider,Original source feature or statistical unit; values not recomputed
+541,813,1424558216,trunk,中央通り,Chuo-dori Avenue,,yes,,,,1,2026-10-13,813,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+542,814,1436770403,steps,,,,,,yes,-1,0,2026-10-13,814,inside_wider,Original source feature or statistical unit; values not recomputed
+543,815,1436770404,corridor,,,,,,,,0,2026-10-13,815,inside_wider,Original source feature or statistical unit; values not recomputed
+544,816,1436770405,corridor,,,,,,,,0,2026-10-13,816,inside_wider,Original source feature or statistical unit; values not recomputed
+545,817,1436770406,footway,,,,,,yes,-1,0,2026-10-13,817,inside_wider,Original source feature or statistical unit; values not recomputed
+546,818,1436770407,corridor,,,,,,,,0,2026-10-13,818,inside_wider,Original source feature or statistical unit; values not recomputed
+547,819,1436770408,corridor,,,,,,,,0,2026-10-13,819,inside_wider,Original source feature or statistical unit; values not recomputed
+548,820,1436770409,footway,,,,,,building_passage,,0,2026-10-13,820,inside_wider,Original source feature or statistical unit; values not recomputed
+549,821,1436770410,footway,,,,,,building_passage,,0,2026-10-13,821,inside_wider,Original source feature or statistical unit; values not recomputed
+550,822,1436770411,corridor,,,,,,,,0,2026-10-13,822,inside_wider,Original source feature or statistical unit; values not recomputed
+551,823,1436770412,steps,,,,,,,,0,2026-10-13,823,inside_wider,Original source feature or statistical unit; values not recomputed
+552,824,1436770413,corridor,,,,,,,,0,2026-10-13,824,inside_wider,Original source feature or statistical unit; values not recomputed
+553,825,1436770414,corridor,,,,,,,,0,2026-10-13,825,inside_wider,Original source feature or statistical unit; values not recomputed
+554,826,1436770415,corridor,,,,,,,,0,2026-10-13,826,inside_wider,Original source feature or statistical unit; values not recomputed
+555,827,1436770416,steps,,,,,,,,0,2026-10-13,827,inside_wider,Original source feature or statistical unit; values not recomputed
+556,828,1436770417,corridor,,,,,,,,0,2026-10-13,828,inside_wider,Original source feature or statistical unit; values not recomputed
+557,829,1436770418,steps,,,,,,,,0,2026-10-13,829,inside_wider,Original source feature or statistical unit; values not recomputed
+558,830,1436770419,corridor,,,,,,,,0,2026-10-13,830,inside_wider,Original source feature or statistical unit; values not recomputed
+559,831,1436770420,steps,,,,,,,,0,2026-10-13,831,inside_wider,Original source feature or statistical unit; values not recomputed
+560,832,1436770421,corridor,,,,,,,,0,2026-10-13,832,inside_wider,Original source feature or statistical unit; values not recomputed
+561,833,1436770422,steps,,,,,,,,0,2026-10-13,833,inside_wider,Original source feature or statistical unit; values not recomputed
+562,834,1436770423,corridor,,,,,,,,0,2026-10-13,834,inside_wider,Original source feature or statistical unit; values not recomputed
+563,835,1436770424,corridor,,,,,,,,0,2026-10-13,835,inside_wider,Original source feature or statistical unit; values not recomputed
+564,836,1436770425,corridor,,,,,,,,0,2026-10-13,836,inside_wider,Original source feature or statistical unit; values not recomputed
+565,837,1436770426,steps,,,,,,,,0,2026-10-13,837,inside_wider,Original source feature or statistical unit; values not recomputed
+566,838,1436770427,steps,,,,,,,,0,2026-10-13,838,inside_wider,Original source feature or statistical unit; values not recomputed
+567,839,1436770428,footway,,,,,,yes,-1,0,2026-10-13,839,inside_wider,Original source feature or statistical unit; values not recomputed
+568,840,1436770429,steps,,,,,,,,0,2026-10-13,840,inside_wider,Original source feature or statistical unit; values not recomputed
+569,841,1436770430,corridor,,,,,,,,0,2026-10-13,841,inside_wider,Original source feature or statistical unit; values not recomputed
+570,842,1436770431,steps,,,,,,,,0,2026-10-13,842,inside_wider,Original source feature or statistical unit; values not recomputed
+571,843,1436770432,corridor,,,,,,,,0,2026-10-13,843,inside_wider,Original source feature or statistical unit; values not recomputed
+572,844,1436770433,corridor,,,,,,,,0,2026-10-13,844,inside_wider,Original source feature or statistical unit; values not recomputed
+573,845,1436770434,footway,,,,,,yes,-1,0,2026-10-13,845,inside_wider,Original source feature or statistical unit; values not recomputed
+574,846,1436770435,corridor,,,,,,,,0,2026-10-13,846,inside_wider,Original source feature or statistical unit; values not recomputed
+575,847,1436770436,corridor,,,,,,,,0,2026-10-13,847,inside_wider,Original source feature or statistical unit; values not recomputed
+576,848,1436770437,corridor,,,,,,,,0,2026-10-13,848,inside_wider,Original source feature or statistical unit; values not recomputed
+577,849,1436770438,steps,,,,,,,,0,2026-10-13,849,inside_wider,Original source feature or statistical unit; values not recomputed
+578,850,1436770439,corridor,,,,,,,,0,2026-10-13,850,inside_wider,Original source feature or statistical unit; values not recomputed
+579,851,1436770440,steps,,,,,,,,0,2026-10-13,851,inside_wider,Original source feature or statistical unit; values not recomputed
+580,852,1436770441,corridor,,,,,,,,0,2026-10-13,852,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+581,857,1464071630,footway,,,,,,,,0,2026-10-13,857,inside_wider,Original source feature or statistical unit; values not recomputed
+582,858,1464071631,footway,,,,,,,,0,2026-10-13,858,inside_wider,Original source feature or statistical unit; values not recomputed
+583,859,1471527216,motorway_link,,,,,,,,0,2026-10-13,859,inside_wider,Original source feature or statistical unit; values not recomputed
+584,860,1471527217,motorway_link,,,,,,,,0,2026-10-13,860,inside_wider,Original source feature or statistical unit; values not recomputed
+585,861,1488717720,footway,,,,,,,,0,2026-10-13,861,inside_wider,Original source feature or statistical unit; values not recomputed
+586,862,1488717721,footway,,,,,,,,0,2026-10-13,862,inside_wider,Original source feature or statistical unit; values not recomputed
+587,868,1488734555,footway,,,,,,,,0,2026-10-13,868,inside_wider,Original source feature or statistical unit; values not recomputed
+588,870,1539981105,footway,,,,,,,,0,2026-10-13,870,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+589,871,1539981106,footway,,,,,,,,0,2026-10-13,871,inside_wider,Original source feature or statistical unit; values not recomputed
+590,873,1539981108,footway,,,,,,,,0,2026-10-13,873,inside_wider,Original source feature or statistical unit; values not recomputed
+591,874,1539981109,footway,,,,,,,,0,2026-10-13,874,inside_wider,Original source feature or statistical unit; values not recomputed
+592,875,1539981110,footway,,,,,,,,0,2026-10-13,875,inside_wider,Original source feature or statistical unit; values not recomputed
+593,876,1539981111,steps,,,,,yes,,,0,2026-10-13,876,inside_wider,Original source feature or statistical unit; values not recomputed
+594,877,1539981112,steps,,,,,yes,,,0,2026-10-13,877,inside_wider,Original source feature or statistical unit; values not recomputed
+595,878,1539981113,steps,,,,,yes,,,0,2026-10-13,878,inside_wider,Original source feature or statistical unit; values not recomputed
+596,879,1539981114,steps,,,,,yes,,,0,2026-10-13,879,inside_wider,Original source feature or statistical unit; values not recomputed
+597,880,1539981115,footway,,,,,,,,0,2026-10-13,880,inside_wider,Original source feature or statistical unit; values not recomputed
+598,881,1539981116,footway,,,,,,,,0,2026-10-13,881,inside_wider,Original source feature or statistical unit; values not recomputed
+599,882,1539981117,footway,,,,,,,,0,2026-10-13,882,inside_wider,Original source feature or statistical unit; values not recomputed
+600,883,1539981118,footway,,,,,,,,0,2026-10-13,883,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+601,884,1539981120,footway,,,,,,,,0,2026-10-13,884,inside_wider,Original source feature or statistical unit; values not recomputed
+602,885,1539981121,steps,,,,,yes,,,0,2026-10-13,885,inside_wider,Original source feature or statistical unit; values not recomputed
+603,886,1539981122,footway,,,,,,,,0,2026-10-13,886,inside_wider,Original source feature or statistical unit; values not recomputed
+604,887,1539981123,steps,,,,,yes,,,0,2026-10-13,887,inside_wider,Original source feature or statistical unit; values not recomputed
+605,888,1539981124,steps,,,,,yes,,,0,2026-10-13,888,inside_wider,Original source feature or statistical unit; values not recomputed
+606,889,1539981125,steps,,,,,yes,,1,0,2026-10-13,889,inside_wider,Original source feature or statistical unit; values not recomputed
+607,890,1539981126,footway,,,,,,,,0,2026-10-13,890,inside_wider,Original source feature or statistical unit; values not recomputed
+608,891,1539981127,footway,,,,,,,,0,2026-10-13,891,inside_wider,Original source feature or statistical unit; values not recomputed
+609,892,1539981128,footway,,,,,,,,0,2026-10-13,892,inside_wider,Original source feature or statistical unit; values not recomputed
+610,893,1539981129,footway,,,,,,,,0,2026-10-13,893,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+611,907,1539996104,footway,,,,,,,,0,2026-10-13,907,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+612,921,1548929721,steps,,,,,,yes,-1,0,2026-10-13,921,inside_wider,Original source feature or statistical unit; values not recomputed
+613,922,1548929722,footway,,,,,,yes,-1,0,2026-10-13,922,inside_wider,Original source feature or statistical unit; values not recomputed
+614,923,1548929723,steps,,,,,,yes,-1,0,2026-10-13,923,inside_wider,Original source feature or statistical unit; values not recomputed
+615,924,1548929724,steps,,,,,,yes,-1,0,2026-10-13,924,inside_wider,Original source feature or statistical unit; values not recomputed
+616,925,1548929725,steps,,,,,,yes,-1,0,2026-10-13,925,inside_wider,Original source feature or statistical unit; values not recomputed
+617,926,1548929726,footway,,,,,,yes,-1,0,2026-10-13,926,inside_wider,Original source feature or statistical unit; values not recomputed
+618,927,1548929727,steps,,,,,,yes,-1,0,2026-10-13,927,inside_wider,Original source feature or statistical unit; values not recomputed
+619,928,1548929728,steps,,,,,,yes,-1,0,2026-10-13,928,inside_wider,Original source feature or statistical unit; values not recomputed
+620,929,1548929729,steps,,,,,,yes,-1,0,2026-10-13,929,inside_wider,Original source feature or statistical unit; values not recomputed
+621,930,1554012459,footway,,,,,,,,0,2026-10-13,930,inside_wider,Original source feature or statistical unit; values not recomputed
+622,931,1554013477,footway,,,,,,,,0,2026-10-13,931,inside_wider,Original source feature or statistical unit; values not recomputed
+623,932,1554013478,footway,,,,,,,,0,2026-10-13,932,inside_wider,Original source feature or statistical unit; values not recomputed
+624,933,1554013479,footway,,,,,,,,0,2026-10-13,933,inside_wider,Original source feature or statistical unit; values not recomputed
+625,934,1554013480,footway,,,,,,,,0,2026-10-13,934,inside_wider,Original source feature or statistical unit; values not recomputed
+626,935,1554013481,footway,,,,,,,,0,2026-10-13,935,inside_wider,Original source feature or statistical unit; values not recomputed
+627,936,1554013482,footway,,,,,,,,0,2026-10-13,936,inside_wider,Original source feature or statistical unit; values not recomputed
+628,937,1554013483,footway,,,,,,,,0,2026-10-13,937,inside_wider,Original source feature or statistical unit; values not recomputed
+629,938,1554013484,footway,,,,,,,,0,2026-10-13,938,inside_wider,Original source feature or statistical unit; values not recomputed
+630,939,1554013485,footway,,,,,,,,0,2026-10-13,939,inside_wider,Original source feature or statistical unit; values not recomputed
+631,940,1554013486,footway,,,,,,,,0,2026-10-13,940,inside_wider,Original source feature or statistical unit; values not recomputed
+632,941,1554013487,footway,,,,,,,,0,2026-10-13,941,inside_wider,Original source feature or statistical unit; values not recomputed
+633,942,1554013488,footway,,,,,,,,0,2026-10-13,942,inside_wider,Original source feature or statistical unit; values not recomputed
+634,943,1554013489,footway,,,,,,,,0,2026-10-13,943,inside_wider,Original source feature or statistical unit; values not recomputed
+635,944,1554013490,footway,,,,,,,,0,2026-10-13,944,inside_wider,Original source feature or statistical unit; values not recomputed
+636,945,1554013491,footway,,,,,,,,0,2026-10-13,945,inside_wider,Original source feature or statistical unit; values not recomputed
+637,946,1554013492,footway,,,,,,,,0,2026-10-13,946,inside_wider,Original source feature or statistical unit; values not recomputed
+638,947,1554013493,footway,,,,,,,,0,2026-10-13,947,inside_wider,Original source feature or statistical unit; values not recomputed
+639,948,1561005174,footway,,,,,,,,0,2026-10-13,948,inside_wider,Original source feature or statistical unit; values not recomputed
+640,949,1561294419,footway,,,,,,,,0,2026-10-13,949,inside_wider,Original source feature or statistical unit; values not recomputed
+641,950,1565204680,trunk_link,,,,,,,,0,2026-10-13,950,inside_wider,Original source feature or statistical unit; values not recomputed

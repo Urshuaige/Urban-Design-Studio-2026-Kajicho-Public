@@ -1,0 +1,9 @@
+﻿scope,scenario,source_date,recorded_overlap_m2,scope_overlap_pct,exposed_selected_models,source_domain_note
+study_area,荒川水系神田川流域（想定最大規模）,2024-02-15,18923.558917108243,4.506717572576985,25,Available source polygons; no recorded overlap is not zero risk.
+study_area,荒川水系神田川流域（計画規模）,2024-02-15,0.0,0.0,0,Available source polygons; no recorded overlap is not zero risk.
+study_area,神田川流域（想定最大規模）,2018-03-30,209320.45941985064,49.8504640115277,675,Available source polygons; no recorded overlap is not zero risk.
+study_area,隅田川・新河岸川流域（想定最大規模）,2021-03-30,0.0,0.0,0,Available source polygons; no recorded overlap is not zero risk.
+primary_brief,荒川水系神田川流域（想定最大規模）,2024-02-15,0.0,0.0,0,Available source polygons; no recorded overlap is not zero risk.
+primary_brief,荒川水系神田川流域（計画規模）,2024-02-15,0.0,0.0,0,Available source polygons; no recorded overlap is not zero risk.
+primary_brief,神田川流域（想定最大規模）,2018-03-30,40607.919361661596,37.93774533422213,144,Available source polygons; no recorded overlap is not zero risk.
+primary_brief,隅田川・新河岸川流域（想定最大規模）,2021-03-30,0.0,0.0,0,Available source polygons; no recorded overlap is not zero risk.

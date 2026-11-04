@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "review_type": "integrative",
+  "stage": "phase2_sources",
+  "retrieved_date": "2026-10-18",
+  "sources": [
+    {
+      "slug": "reinhart-cerezo-2016-ubem",
+      "title": "Urban building energy modeling – A review of a nascent field",
+      "authors": [
+        "Christoph F. Reinhart",
+        "Carlos Cerezo Davila"
+      ],
+      "year": 2016,
+      "publication_year_note": "Online 2 December 2015; journal volume 97, February 2016.",
+      "doi": "10.1016/j.buildenv.2015.12.001",
+      "official_url": "https://dspace.mit.edu/entities/publication/9cb85b0f-e4fd-4399-b5eb-4dccd719a550",
+      "read_url": "https://www.researchgate.net/publication/285656598_Urban_Building_Energy_Modeling_-_A_Review_of_a_Nascent_Field",
+      "citation_apa": "Reinhart, C. F., & Cerezo Davila, C. (2016). Urban building energy modeling – A review of a nascent field. Building and Environment, 97, 196–202. https://doi.org/10.1016/j.buildenv.2015.12.001",
+      "source_type": "Peer-reviewed methods review; original article text read via secondary host; metadata checked against MIT repository.",
+      "read_scope": "sections",
+      "locators": [
+        "§2.1, pp. 197–198",
+        "§2.3 and §3, pp. 199–200"
+      ],
+      "method_facts": [
+        {
+          "fact": "UBEM combines climate, geometry, construction standards and use schedules; archetypes group buildings and then assign thermal properties.",
+          "locator": "§2.1, pp.197–198"
+        },
+        {
+          "fact": "The workflow separates input organization, thermal model generation/execution and validation.",
+          "locator": "§2, p.197"
+        }
+      ],
+      "inputs_stated": [
+        "Weather; envelope geometry and window ratios; terrain; constructions; HVAC systems; use schedules."
+      ],
+      "outputs_stated": [
+        "Operational building load profiles, presented spatially and temporally."
+      ],
+      "source_limitations": [
+        {
+          "status": "author-acknowledged",
+          "text": "Individual-building errors can exceed aggregate errors; limited audited and metered data constrain archetype calibration.",
+          "locator": "§2.3 and §3, pp.199–200"
+        }
+      ],
+      "studio_role_inference": "A framework for district building-energy and retrofit scenarios, with validation matched to the decision scale.",
+      "verification": "Metadata and quoted sections checked; no original validation case reanalysis."
+    },
+    {
+      "slug": "broede-2012-utci",
+      "title": "Deriving the operational procedure for the Universal Thermal Climate Index (UTCI)",
+      "authors": [
+        "Peter Bröde",
+        "Dusan Fiala",
+        "Krzysztof Błażejczyk",
+        "Ingvar Holmér",
+        "Gerd Jendritzky",
+        "Bernhard Kampmann",
+        "Birger Tinz",
+        "George Havenith"
+      ],
+      "year": 2012,
+      "publication_year_note": "Online 31 May 2011; issue May 2012.",
+      "doi": "10.1007/s00484-011-0454-1",
+      "official_url": "https://link.springer.com/article/10.1007/s00484-011-0454-1",
+      "citation_apa": "Bröde, P., Fiala, D., Błażejczyk, K., Holmér, I., Jendritzky, G., Kampmann, B., Tinz, B., & Havenith, G. (2012). Deriving the operational procedure for the Universal Thermal Climate Index (UTCI). International Journal of Biometeorology, 56, 481–494. https://doi.org/10.1007/s00484-011-0454-1",
+      "source_type": "Peer-reviewed method paper",
+      "read_scope": "abstract_only",
+      "locators": [
+        "Publisher abstract paragraphs 1–5; publication metadata"
+      ],
+      "method_facts": [
+        {
+          "fact": "UTCI is the reference-environment air temperature producing an equivalent modeled dynamic physiological response.",
+          "locator": "Abstract, paragraph 2"
+        },
+        {
+          "fact": "The procedure combines the UTCI-Fiala thermoregulation model with adaptive clothing and provides thermal-stress categories and fast calculation approximations.",
+          "locator": "Abstract, paragraphs 1 and 4"
+        }
+      ],
+      "inputs_stated": [
+        "Wind speed; radiation; humidity; air temperature."
+      ],
+      "outputs_stated": [
+        "UTCI equivalent temperature and thermal-stress category."
+      ],
+      "source_limitations": [],
+      "limitations_assessment": "Not assessed: abstract_only.",
+      "studio_role_inference": "Defines a human-exposure outcome connecting radiation/shade and wind to outdoor thermal assessment.",
+      "verification": "Publisher title, all authors, DOI, online date and issue date verified; full methods and numerical validity bounds not read."
+    },
+    {
+      "slug": "umep-solweig-manual",
+      "title": "12.2. SOLWEIG Manual",
+      "authors": [
+        "UMEP/SOLWEIG development team"
+      ],
+      "year": null,
+      "publication_year_note": "Living manual, accessed 2026-10-18. Lists stable v2025a released 2 May 2025 and development v2026a.",
+      "doi": null,
+      "official_url": "https://umep-docs.readthedocs.io/en/latest/OtherManuals/SOLWEIG.html",
+      "citation_apa": "UMEP/SOLWEIG development team. (n.d.). SOLWEIG manual. UMEP Manual. Retrieved October 18, 2026, from https://umep-docs.readthedocs.io/en/latest/OtherManuals/SOLWEIG.html",
+      "source_type": "Official model manual",
+      "read_scope": "sections",
+      "locators": [
+        "§12.2.1–12.2.3",
+        "§12.2.6",
+        "§12.2.10"
+      ],
+      "method_facts": [
+        {
+          "fact": "SOLWEIG computes directional shortwave and longwave radiation to estimate mean radiant temperature.",
+          "locator": "§12.2.1"
+        },
+        {
+          "fact": "Surface grids need common extent, resolution and CRS; wind forcing is required for PET/UTCI at points of interest.",
+          "locator": "§12.2.2.1, §12.2.2.2 and §12.2.6"
+        }
+      ],
+      "inputs_stated": [
+        "Building/ground DSM; optional canopy/trunk DSMs; DEM or building land-cover grid; weather, location, albedo/emissivity and human exposure settings."
+      ],
+      "outputs_stated": [
+        "Mean radiant temperature, radiation and shadow grids; point time series including PET and UTCI."
+      ],
+      "source_limitations": [
+        {
+          "status": "author-acknowledged",
+          "text": "The documented older ground scheme evaluates grass and impervious surfaces; water and bare soil are first-order approximations. The manual discourages interpreting building-roof fluxes.",
+          "locator": "§12.2.2.3 and §12.2.6"
+        }
+      ],
+      "studio_role_inference": "Provides a reproducible shade and pedestrian radiant-exposure path linked to GIS geometry.",
+      "verification": "Official manual sections read; versions distinguished; no model run or performance claim."
+    },
+    {
+      "slug": "tominaga-2008-aij-cfd",
+      "title": "AIJ guidelines for practical applications of CFD to pedestrian wind environment around buildings",
+      "authors": [
+        "Yoshihide Tominaga",
+        "Akashi Mochida",
+        "Ryuichiro Yoshie",
+        "Hiroto Kataoka",
+        "Tsuyoshi Nozu",
+        "Masaru Yoshikawa",
+        "Taichi Shirasawa"
+      ],
+      "year": 2008,
+      "doi": "10.1016/j.jweia.2008.02.058",
+      "official_url": "https://www.aij.or.jp/jpn/publish/cfdguide/index_e.htm",
+      "publisher_url": "https://doi.org/10.1016/j.jweia.2008.02.058",
+      "read_url": "https://citeseerx.ist.psu.edu/document?doi=4e42d42348d7235fd996047d028322a00f2ef728&repid=rep1&type=pdf",
+      "citation_apa": "Tominaga, Y., Mochida, A., Yoshie, R., Kataoka, H., Nozu, T., Yoshikawa, M., & Shirasawa, T. (2008). AIJ guidelines for practical applications of CFD to pedestrian wind environment around buildings. Journal of Wind Engineering and Industrial Aerodynamics, 96(10–11), 1749–1761. https://doi.org/10.1016/j.jweia.2008.02.058",
+      "source_type": "Peer-reviewed technical guideline with benchmark comparisons",
+      "read_scope": "abstract_only",
+      "locators": [
+        "p.1749 abstract, indexed PDF excerpt; AIJ reference [19] indexed official page"
+      ],
+      "method_facts": [
+        {
+          "fact": "Guidelines are grounded in cross-comparisons of CFD, wind-tunnel tests and field measurements across seven test cases.",
+          "locator": "p.1749 abstract"
+        }
+      ],
+      "inputs_stated": [
+        "CFD predictions, wind-tunnel results and field measurements for benchmark cases (study evidence inputs)."
+      ],
+      "outputs_stated": [
+        "Guidance for predicting pedestrian wind around buildings."
+      ],
+      "source_limitations": [],
+      "limitations_assessment": "Not assessed: abstract_only.",
+      "studio_role_inference": "A Japan-specific reference for a wind-model validation plan.",
+      "verification": "Title, seven authors, DOI and pages verified from indexed original-PDF opening and official AIJ reference list. Full text retrieval failed; no numeric mesh/domain prescription asserted."
+    },
+    {
+      "slug": "franke-2007-cost732",
+      "title": "Best Practice Guideline for the CFD Simulation of Flows in the Urban Environment",
+      "authors": [
+        "Jörg Franke (editor)",
+        "Antti Hellsten (editor)",
+        "Heinke Schlünzen (editor)",
+        "Bertrand Carissimo (editor)"
+      ],
+      "year": 2007,
+      "doi": null,
+      "official_url": "https://www.mi.uni-hamburg.de/en/arbeitsgruppen/windkanallabor/documents.html",
+      "read_url": "https://www.airshed.co.uk/wp-content/uploads/2018/03/COST-732-Best-Practice-Guideline-May-2007.pdf",
+      "citation_apa": "Franke, J., Hellsten, A., Schlünzen, H., & Carissimo, B. (Eds.). (2007). Best practice guideline for the CFD simulation of flows in the urban environment. COST Action 732. COST Office.",
+      "source_type": "COST technical consensus guideline",
+      "read_scope": "sections",
+      "locators": [
+        "Cover and imprint",
+        "§1–§5.1, printed pp.5–11"
+      ],
+      "method_facts": [
+        {
+          "fact": "Evaluation separates physical-model uncertainty from numerical errors, including discretization and iterative convergence.",
+          "locator": "§2–§4, pp.6–10"
+        },
+        {
+          "fact": "Convergence assessment monitors physical target variables as well as residuals.",
+          "locator": "§4.4, pp.9–10"
+        }
+      ],
+      "inputs_stated": [
+        "Geometry, inflow and other boundary conditions, initial conditions, mesh and numerical/model choices."
+      ],
+      "outputs_stated": [
+        "Procedures to quantify and reduce error in urban-flow CFD."
+      ],
+      "source_limitations": [
+        {
+          "status": "author-acknowledged",
+          "text": "The guideline primarily covers statistically steady RANS in neutral stratification; additional guidance is needed for non-neutral flow.",
+          "locator": "§1, p.5 and §5.1, p.11"
+        }
+      ],
+      "studio_role_inference": "Helps separate a converged wind calculation from a physically validated result, and identifies the scope gap for wind–heat coupling.",
+      "verification": "University of Hamburg official listing confirms document; original report text read from mirror. No universal validation threshold claimed."
+    },
+    {
+      "slug": "rics-2023-wlca-v3",
+      "title": "Whole life carbon assessment for the built environment",
+      "authors": [
+        "Royal Institution of Chartered Surveyors"
+      ],
+      "year": 2023,
+      "publication_year_note": "Second edition September 2023; retrieved Version 3 issued August 2024, effective 1 July 2024.",
+      "doi": null,
+      "official_url": "https://www.rics.org/content/dam/ricsglobal/documents/standards/Whole_life_carbon_assessment_PS_Sept23.pdf",
+      "citation_apa": "Royal Institution of Chartered Surveyors. (2023). Whole life carbon assessment for the built environment (2nd ed., Version 3, August 2024).",
+      "source_type": "Professional standard, global",
+      "read_scope": "sections",
+      "locators": [
+        "Title page",
+        "§1.4.1–1.4.3, p.12",
+        "§2.1, pp.20–21",
+        "§3.2–3.3, pp.29–31",
+        "§4.10.2, p.57"
+      ],
+      "method_facts": [
+        {
+          "fact": "Retrofit projects report life-cycle stages over a defined study period, with module D reported separately.",
+          "locator": "§3.3, p.29"
+        },
+        {
+          "fact": "Retained elements exclude previous manufacturing impacts from retrofit A1–A5, while their future maintenance and end-of-life impacts remain relevant.",
+          "locator": "§3.3, p.31"
+        }
+      ],
+      "inputs_stated": [
+        "Retained/new element scope; product carbon data; project area; study period and future maintenance/replacement assumptions."
+      ],
+      "outputs_stated": [
+        "Life-cycle carbon by module and project part, reported as total tCO2e and area intensity kgCO2e/m²."
+      ],
+      "source_limitations": [
+        {
+          "status": "author-acknowledged",
+          "text": "Early design product choices are uncertain; later assessments favor manufacturer-specific EPDs where available.",
+          "locator": "§4.10.2, p.57"
+        }
+      ],
+      "studio_role_inference": "Defines consistent carbon accounting for retention, retrofit and replacement options.",
+      "verification": "Official PDF downloaded and extracted on mdx1; exact edition/version and read pages checked."
+    },
+    {
+      "slug": "wri-c40-iclei-2021-gpc11",
+      "title": "Global Protocol for Community-Scale Greenhouse Gas Emission Inventories: An Accounting and Reporting Standard for Cities, Version 1.1",
+      "authors": [
+        "World Resources Institute",
+        "C40 Cities Climate Leadership Group",
+        "ICLEI – Local Governments for Sustainability"
+      ],
+      "year": 2021,
+      "publication_year_note": "PDF states updated June 2021; original edition 2014.",
+      "doi": null,
+      "official_url": "https://ghgprotocol.org/ghg-protocol-cities",
+      "read_url": "https://ghgprotocol.org/sites/default/files/standards/GPC_Full_MASTER_RW_v7.pdf",
+      "citation_apa": "World Resources Institute, C40 Cities Climate Leadership Group, & ICLEI – Local Governments for Sustainability. (2021). Global protocol for community-scale greenhouse gas emission inventories: An accounting and reporting standard for cities (Version 1.1).",
+      "source_type": "Official accounting and reporting standard",
+      "read_scope": "sections",
+      "locators": [
+        "Executive summary, pp.10–14",
+        "§3.5/Table 3.2, p.35",
+        "§5.1–5.1.2, p.51",
+        "Imprint: updated June 2021"
+      ],
+      "method_facts": [
+        {
+          "fact": "Scopes distinguish territorial emissions, grid-supplied energy used inside the boundary, and other outside emissions caused by activities inside it.",
+          "locator": "§3.5/Table 3.2, p.35"
+        },
+        {
+          "fact": "Most sources are estimated from activity data multiplied by emission factors; GPC specifies accounting rules without imposing one calculation method.",
+          "locator": "§5.1–5.1.2, p.51"
+        }
+      ],
+      "inputs_stated": [
+        "Inventory boundary; activity data; relevant emission factors."
+      ],
+      "outputs_stated": [
+        "Emissions inventories in tonnes of each greenhouse gas and CO2 equivalents."
+      ],
+      "source_limitations": [],
+      "limitations_assessment": "No methodological weakness assessed; declared scope is city inventories.",
+      "studio_role_inference": "Supplies boundary discipline for a district carbon ledger; a district adaptation should state its boundary and avoid double-counting building and area totals.",
+      "verification": "Official landing page and PDF checked; PDF read remotely after browser size limit."
+    },
+    {
+      "slug": "ansell-gash-2008-collaborative",
+      "title": "Collaborative Governance in Theory and Practice",
+      "authors": [
+        "Chris Ansell",
+        "Alison Gash"
+      ],
+      "year": 2008,
+      "publication_year_note": "Advance Access 13 November 2007; volume 18(4), October 2008.",
+      "doi": "10.1093/jopart/mum032",
+      "official_url": "https://academic.oup.com/jpart/article/18/4/543/1090370",
+      "read_url": "https://explorer.bee.oregonstate.edu/Topic/InfluenceNetworks/Documents/Ansell_2008.pdf",
+      "citation_apa": "Ansell, C., & Gash, A. (2008). Collaborative governance in theory and practice. Journal of Public Administration Research and Theory, 18(4), 543–571. https://doi.org/10.1093/jopart/mum032",
+      "source_type": "Peer-reviewed comparative literature-based theory development",
+      "read_scope": "sections",
+      "locators": [
+        "Abstract, p.543",
+        "Definition, pp.544–547",
+        "A Model of Collaborative Governance, pp.547–550; Figure 1"
+      ],
+      "method_facts": [
+        {
+          "fact": "The model organizes starting conditions, institutional design, facilitative leadership and an iterative collaborative process.",
+          "locator": "pp.548–550, Figure 1"
+        },
+        {
+          "fact": "Authors develop the model through successive comparison and refinement using 137 cases.",
+          "locator": "pp.547–548"
+        }
+      ],
+      "inputs_stated": [
+        "Published case studies; stakeholder power/resources, participation incentives and prior cooperation/conflict."
+      ],
+      "outputs_stated": [
+        "A contingency model of conditions associated with collaboration."
+      ],
+      "source_limitations": [
+        {
+          "status": "author-acknowledged",
+          "text": "English-language coverage overrepresents American cases. Most cases evaluate process outcomes, limiting comparisons of policy effectiveness between governance modes.",
+          "locator": "pp.547–548"
+        }
+      ],
+      "studio_role_inference": "Structures stakeholder mapping, shared evidence discussions and decision-process documentation.",
+      "verification": "Original article PDF read via Oregon State mirror; journal metadata cross-checked with JSTOR; publisher fetch blocked."
+    },
+    {
+      "slug": "ostrom-2010-polycentric",
+      "title": "Polycentric systems for coping with collective action and global environmental change",
+      "authors": [
+        "Elinor Ostrom"
+      ],
+      "year": 2010,
+      "doi": "10.1016/j.gloenvcha.2010.07.004",
+      "official_url": "https://doi.org/10.1016/j.gloenvcha.2010.07.004",
+      "read_url": "https://commonsblog.wordpress.com/wp-content/uploads/2007/10/elinor-ostrom-polycentric-system-for-coping-with-climate-change.pdf",
+      "citation_apa": "Ostrom, E. (2010). Polycentric systems for coping with collective action and global environmental change. Global Environmental Change, 20(4), 550–557. https://doi.org/10.1016/j.gloenvcha.2010.07.004",
+      "source_type": "Peer-reviewed conceptual governance article",
+      "read_scope": "sections",
+      "locators": [
+        "Abstract and introduction, p.550",
+        "§4, pp.552–553",
+        "§6–§7, pp.554–555"
+      ],
+      "method_facts": [
+        {
+          "fact": "Polycentric governance has multiple partly independent authorities across scales, linked through cooperation, monitoring and conflict resolution.",
+          "locator": "§4, p.552"
+        },
+        {
+          "fact": "The argument emphasizes local knowledge and learning across policy experiments.",
+          "locator": "§4, p.552"
+        }
+      ],
+      "inputs_stated": [
+        "Conceptual argument and examples of collective action across governance scales; no standardized numerical input set."
+      ],
+      "outputs_stated": [
+        "An analytical argument for multilevel climate action and learning."
+      ],
+      "source_limitations": [
+        {
+          "status": "author-acknowledged",
+          "text": "Multiple actors can create leakage, inconsistent policies, weak certification, gaming and free riding.",
+          "locator": "§6, pp.554–555"
+        }
+      ],
+      "studio_role_inference": "Connects building owners, street managers, community groups and municipal action without treating fragmented authority as automatically effective.",
+      "verification": "Publisher metadata/abstract and original article PDF mirror checked; conceptual claims kept separate from measured effects."
+    }
+  ],
+  "verification_policy": {
+    "programmatic_citation_apis": "not used",
+    "human_read_attestation": false,
+    "evidence_classification": "Source type and claim-level read scope, not clinical evidence ranks.",
+    "coi_check": "Not comprehensively assessed; no claim of absence.",
+    "predatory_venue_check": "Original publisher/institutional provenance checked; no subscription index audit performed.",
+    "cross_source_check": "COST and AIJ overlap on benchmark validation; UBEM and RICS cover different accounting boundaries. No experimental effect size generalized."
+  }
+}

@@ -1,0 +1,2 @@
+﻿ROW_ID,__wider_pk,osm_id,name_en,name_ja,source_date,water_type,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,24,way/203035384,,,2026-10-25,river,24,clipped_to_wider,Original source feature or statistical unit; values not recomputed

@@ -1,0 +1,12 @@
+{
+  "created_on": "2026-11-04",
+  "repository": "https://github.com/Urshuaige/Urban-Design-Studio-2026-Kajicho-Public",
+  "private_source_main": "a533c7fbba8c622ea5b30b4486a67f4aed8170c5",
+  "public_site_url": "https://kajicho-site-atlas.specialgooood.chatgpt.site",
+  "site_version": 8,
+  "site_source_commit": "8913761577a0177324f15a26c68eb87107ec1872",
+  "history_imported": false,
+  "gis_values_changed": false,
+  "building_footprints": "Complete source footprints for all buildings intersecting wider boundary",
+  "code_licence": "Existing notices retained; no new blanket licence assigned"
+}

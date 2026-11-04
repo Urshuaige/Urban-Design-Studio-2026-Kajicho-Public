@@ -1,0 +1,1967 @@
+{
+  "checked_utc": "2026-11-01T15:42:20.867993+00:00",
+  "count": 332,
+  "failed": [],
+  "checks": [
+    {
+      "name": "Dominant mapped use",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Flood coverage|50 m cells",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "50 m cells \u2014 current wider boundary",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Mikoshi route \u00b7 2025",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "A\u2013F keys \u00b7 movable label points",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "Administrative areas \u2014 GSI detail",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Administrative lines \u2014 GSI detail",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Afternoon route",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Age evidence classes",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Archive \u2014 17 excluded old models",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Archive \u2014 superseded models (off)",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Bando warriors",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Blocks7\u20139 \u00b7 discussion only",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Building / town overlaps \u2014 all matches",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Building coverage (%)",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Building footprint coverage",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Building footprint coverage",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Building footprint coverage",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Building footprint coverage",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Building outlines \u2014 GSI reference",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Building planning and town links",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Building thematic overlaps \u2014 Source feature links",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Study-area buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Context buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Sumida buildings \u00b7 existing GSI",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Buildings \u2014 Chiyoda context outside wider area",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Context buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Building height",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Buildings \u2014 Research area and street frontage copy",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Building use",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Building age \u00b7 2026",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Frontage \u2014 included in Mapping",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Buildings \u2014 town context and OSM links",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Koto buildings \u00b7 existing GSI",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Built-up groups \u2014 1945 \u00b7 review",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Built-up groups \u2014 1974 \u00b7 review",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Census towns \u2014 Population and households (2020)",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Station reference points",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Chiyoda Ward \u2014 Administrative boundary (2026)",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Cleared footprints",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Cleared / demolition \u2014 former footprints",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Indicative districts",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Concept districts \u2014 indicative",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Construction \u2014 mapped extent, source date in attributes",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Traffic \u00b7 Context buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Context buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Context buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Context buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Review base \u00b7 Context buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Current building outlines - reference",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Current buildings \u2014 2025 model \u00b7 mostly",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Current status \u2014 former footprints",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Destination connectors - unverified",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "District aerial texture \u00b7 1936\u20131942",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "District aerial texture \u00b7 1945\u20131950",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "District aerial texture \u00b7 FY2019",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "District plans",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Town risk rank",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Efficient land use",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Emergency routes",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "English terminology \u2014 Sources and original Japanese",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Establishments \u2014 economic census 2021",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Estimated buildings \u2014 1945 \u00b7 review",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Estimated buildings \u2014 1974 \u00b7 review",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Evacuation sites",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Expressway \u2014 elevated centerline",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Unmatched facility references",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Tsukematsuri",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Mikoshi",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Festival area \u2014 Buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Building footprints",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Festival area \u2014 Buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Festival area \u2014 Buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Festival area \u2014 Rail",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Festival area \u2014 Rail",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Festival area \u2014 Road centre lines",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Festival area \u2014 Road centre lines",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Festival area \u2014 Road centre lines",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Festival area \u2014 Water",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Festival area \u2014 Water",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Festival area \u2014 Water",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Shinkosai",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Festival",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Field leads \u2014 user notes, plans unconfirmed",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Field photos \u2014 GPS points and original captions",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Fire prevention",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Arima School floats",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Flood depth (m)",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Flood depth (m)",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Flood scenarios \u2014 Source inundation classes",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Floor-area ratio (%)",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Group 7 Kajicho",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Mikoshi groups 2025",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Primary area",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Primary area",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Shinkosai 2025",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Tsukematsuri 2025",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Wider area",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Wider area",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Foundation \u2014 concept district labels",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Festival events \u00b7 2025",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "GSI aerial \u2014 1945\u20131950",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "GSI aerial \u2014 1974\u20131978",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "GSI aerial \u2014 FY2009 (calendar 2009\u20132010)",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "GSI aerial \u2014 FY2014 (calendar 2014\u20132015)",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "GSI aerial \u2014 FY2019 (calendar 2019\u20132020)",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "GSI aerial photo \u2014 1936\u20131942",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "GSI aerial photo \u2014 1936\u20131942",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "GSI aerial photo \u2014 1945\u20131950",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "GSI aerial photo \u2014 1945\u20131950",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "GSI aerial photo \u2014 1961\u20131969",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "GSI aerial photo \u2014 1974\u20131978",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "GSI aerial photo \u2014 1987\u20131990",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "GSI aerial photo \u2014 FY2019",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "GSI aerial photo \u2014 FY2019",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "GSI latest seamless \u2014 2019 at site centre",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "GSI road links \u2014 source IDs",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Ground contours \u2014 0.5 m interval",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Ground elevation \u2014 GSI DEM1A, 1 m grid",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "History \u2014 Dated events",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "History \u2014 Source register",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Households \u2014 register 2026",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Industry details \u2014 economic census 2021",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Interpreted turns \u2014 audit",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Kanto original \u2014 migration 2020",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "Kanto original \u2014 population 2020",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "Kanto original \u2014 resident employment 2020",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "Key leaders \u00b7 actual location to label",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "Key stations \u2014 Local official source positions",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Stations",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Stations",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Outdoor parking \u00b7 2021",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Land use",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Land-use zones",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Large green-space names \u00b7 existing QGIS",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Lynch edges \u2014 railway",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Edges / railway",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Lynch landmarks \u2014 candidates",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Landmarks",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Lynch nodes \u2014 working interpretation",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Nodes",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Paths / streets",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Green links / option",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Lynch paths \u2014 existing streets",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Map labels \u2014 Source Japanese names",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Mapped destinations - connection status",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Local map frame",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Migration and commuting \u2014 census 2020, all fields",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Mikoshi route \u00b7 2025",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Morning route",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Named places \u2014 source reference",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Network gaps - review before interpretation",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "OSM building footprints \u2014 2026-10-29",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "OSM shops and places \u2014 2026-10-29",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Official drawings and data specifications",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Original district aerial \u00b7 1936\u20131942",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "Original district aerial \u00b7 1945\u20131950",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "Original district aerial \u00b7 FY2019",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "Outside local frame mask",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Parks \u2014 Chiyoda context",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Parks and gardens",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Park records",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Review base \u00b7 Parks and gardens",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Traffic \u00b7 Parks",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Parks",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Parts to review \u2014 interpreted streets",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Photo register \u2014 All 25 photos, including missing GPS",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Place labels \u2014 1945\u20131950",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Place labels \u2014 1974\u20131978",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Place labels \u2014 latest",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Places and services",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Places and services \u2014 Site POIs",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Planning layer coverage \u2014 Source availability",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Planning reference documents \u2014 index",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Population aged 65+ (%) \u2014 Chiyoda 2026",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Population and households \u2014 census 2020, all fields",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Population density \u2014 register 2026",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Project locations \u00b7 reference points",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "Projects \u2014 click for client, dates and source",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Rail \u2014 JR elevated corridor",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Rail \u2014 underground",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Rail tracks",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Rail tracks",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Review base \u00b7 Rail tracks",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Rail tracks",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Railway centerlines \u2014 GSI detail",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Railways",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Railway names \u00b7 along actual tracks",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Rail tracks",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Railway tracks \u2014 GSI detail",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Rail tracks",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Railways",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Railways \u2014 Chiyoda and wider area",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Surface railways",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Railways",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Koto rail \u00b7 existing GSI",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Surface railways \u00b7 GSI",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Railways",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Sumida rail \u00b7 existing GSI",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Raw model mask \u2014 1945 \u00b7 review",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "Raw model mask \u2014 1974 \u00b7 review",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "Reference \u2014 CityGML planning records",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Reference \u2014 Existing Site OSM footprints",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Reference \u2014 Existing Site study outlines",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Residents and employment \u2014 census 2020, all fields",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Retained buildings \u00b7 source footprints",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "Review \u2014 4 retained models",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "River names \u00b7 English",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "River names \u2014 orientation",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Road centerlines \u2014 Existing Site snapshot (2026-10-13)",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Road centerlines \u2014 GSI detail",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Road centerlines \u2014 OSM road classes",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Road edges \u2014 GSI",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Road edges \u2014 GSI",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Road edges \u2014 GSI",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Road names \u2014 orientation",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Road structures \u2014 GSI",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Road surfaces \u2014 partial source [off]",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Roads",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Road network \u2014 continuous GSI",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Roads \u2014 GSI administrative class",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Roads \u2014 OSM functional class",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Roads",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Roads",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Routing context - 1500 m buffer",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Selected GSI road originals",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Service categories within 5 min",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Service categories within 5 min",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Service categories within 5 min",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Service categories within 5 min",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Single-year ages \u2014 Chiyoda register 2026",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Soma horses",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Special-area lines \u2014 GSI source codes",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Stations \u00b7 English",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Stations \u2014 Site source records",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Street frontage \u2014 Source overlay links",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Street names",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Street origins - 25 m primary",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Street origins - 25 m wider",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Street origins - 50 m primary",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Street origins - 50 m wider",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Street trees",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Tree routes \u00b7 inventory",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Wider area",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Wider area",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Primary area",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Primary area",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Traffic \u00b7 Study-area buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Study-area buildings \u00b7 deep grey",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Review base \u00b7 Study-area buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Study area",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Study roads \u2014 partial source [off]",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Surviving buildings dated \u2264 1945 \u2014 current footprints",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Surviving buildings dated \u2264 1974 \u2014 current footprints",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Teacher areas \u2014 Street-block interpretation",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Terrain hillshade",
+      "exists": true,
+      "relative": true
+    },
+    {
+      "name": "Tokyo Arts",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Town names \u00b7 English",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Traffic \u00b7 Existing elevated expressway network",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Traffic \u00b7 JR corridor",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Observed representative value",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Official 2021 estimate *",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Traffic \u00b7 Published section values",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Traffic \u00b7 Roads with no verified count shown",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Traffic \u00b7 Section references A\u2013D",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Transit entrance access",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Transit entrance access",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Transit entrance access",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Transit entrance access",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Transit reachable streets - 10 min",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Transit reachable streets - 15 min",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Transit reachable streets - 5 min",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Tree crowns",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "All union routes",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Walking network - OSM node topology",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Ward boundaries",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Ward boundaries",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Ward boundary",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Ward boundary",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Ward industry and sales \u2014 economic census 2024",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Ward name \u00b7 English",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Ward name \u00b7 English",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Ward names \u00b7 English",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Ward totals \u2014 economic census 2024",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Traffic \u00b7 Water",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Water",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Water",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Review base \u00b7 Water",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Water",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Water",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Sumida water \u00b7 existing GSI",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Koto water \u00b7 existing GSI",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Water",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Water bodies \u2014 Chiyoda and wider area",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Water",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Water bodies \u2014 GSI detail",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Water",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Water",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Water edges",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Water edges",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Water edges \u2014 GSI detail",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Water edges",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Water edges",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "River names \u00b7 location",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Waterways \u2014 Chiyoda and wider area",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Whole town outlines \u2014 2020 geometry",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Residents / ha \u00b7 2026",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Workers / ha \u00b7 2021",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Workers \u2014 economic census 2021",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Recent buildings",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Reference blocks",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Site records",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "Planned projects \u2014 street block references (extent unconfirmed)",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "rail_corridor \u00b7 1936\u20131942",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "rail_corridor \u00b7 1945\u20131950",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "rail_corridor \u00b7 FY2019",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "selected_roofs \u00b7 1936\u20131942",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "selected_roofs \u00b7 1945\u20131950",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "selected_roofs \u00b7 FY2019",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "street_axes \u00b7 1936\u20131942",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "street_axes \u00b7 1945\u20131950",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "street_axes \u00b7 FY2019",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "water \u00b7 1936\u20131942",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "water \u00b7 1945\u20131950",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    },
+    {
+      "name": "water \u00b7 FY2019",
+      "exists": true,
+      "relative": true,
+      "table_exists": true
+    }
+  ]
+}

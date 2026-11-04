@@ -1,0 +1,1350 @@
+{
+  "version": 1,
+  "review_date": "2026-10-26",
+  "graphs": [
+    {
+      "id": "actors",
+      "title": {
+        "en": "People & renewal",
+        "zh": "主体与更新",
+        "ja": "主体と更新"
+      },
+      "question": {
+        "en": "Who prepares the plan, and who decides?",
+        "zh": "谁在组织方案，谁作出决定？",
+        "ja": "誰が計画を準備し、誰が決定するか"
+      },
+      "summary": {
+        "en": "Owners, local groups and advisers work on a basic plan. Formal decisions enter through a separate public procedure.",
+        "zh": "权利人、地区组织与顾问共同研究基本方案，正式决定通过相应的公共程序作出。",
+        "ja": "地権者・地域組織・専門家が基本計画を検討し、法定決定は所定の行政手続で行う。"
+      },
+      "note": {
+        "en": "Recorded roles in the supplied material. Connections show participation, advice or consultation, not ownership of every parcel.",
+        "zh": "按提供材料整理的角色关系。连线表示参与、顾问工作或协商，不代表对整个分区的产权。",
+        "ja": "提供資料に基づく参加・助言・協議の関係。各敷地の所有権を示すものではない。"
+      },
+      "height": 650,
+      "default": "preparation",
+      "nodes": [
+        {
+          "id": "owners",
+          "x": 20,
+          "y": 65,
+          "label": {
+            "en": "Landowners & leaseholders",
+            "zh": "土地所有者与借地权人",
+            "ja": "土地所有者・借地権者"
+          },
+          "body": {
+            "en": "People with land rights enter local discussions and project coordination. The legal consent rules depend on the later statutory step.",
+            "zh": "土地权利人参与地区讨论与项目协调；法定同意条件要对应后续具体程序。",
+            "ja": "土地の権利者は地域の議論や事業調整に参加する。法定同意要件は手続ごとに確認する。"
+          },
+          "refs": [
+            "relations",
+            "redevelopment"
+          ],
+          "kind": "local",
+          "link": "rights",
+          "subtitle": null
+        },
+        {
+          "id": "discussion",
+          "x": 385,
+          "y": 65,
+          "label": {
+            "en": "Local discussion group",
+            "zh": "地区愿景讨论会",
+            "ja": "まちづくりを考える会"
+          },
+          "body": {
+            "en": "Discusses the wider local vision and guidelines, beyond the individual redevelopment project.",
+            "zh": "讨论更大范围的地区愿景和导则，工作范围不限于单个再开发项目。",
+            "ja": "個別の再開発事業を超えて地域像やガイドラインを検討。"
+          },
+          "refs": [
+            "talk",
+            "relations"
+          ],
+          "kind": "local",
+          "link": "actor-1",
+          "subtitle": {
+            "en": "鍛冶町二丁目まちづくりを考える会",
+            "zh": "Community Development Discussion Group",
+            "ja": "Community Development Discussion Group"
+          },
+          "note": {
+            "en": "A local vision informs coordination; binding controls come through the applicable plans, rules and agreements.",
+            "zh": "共同愿景用于协调；约束效力通过适用的规划、规则和协议体现。",
+            "ja": "地域像は調整の基盤となり、拘束力は適用される計画・ルール・協定による。"
+          }
+        },
+        {
+          "id": "guideline",
+          "x": 750,
+          "y": 65,
+          "label": {
+            "en": "Local guideline",
+            "zh": "地区导则",
+            "ja": "地域のガイドライン"
+          },
+          "body": {
+            "en": "A shared direction for the wider neighbourhood. Its ideas must connect to applicable plans, rules and agreements to gain legal effect.",
+            "zh": "为较大范围的地区形成共同方向；具体约束通过适用的规划、规则和协议体现。",
+            "ja": "地域全体の方向性を共有する。具体的な拘束力は適用される計画・ルール・協定による。"
+          },
+          "refs": [
+            "talk",
+            "planning"
+          ],
+          "kind": "local",
+          "link": "supplied-diagrams",
+          "subtitle": null
+        },
+        {
+          "id": "companies",
+          "x": 20,
+          "y": 280,
+          "label": {
+            "en": "Participating companies",
+            "zh": "参与企业",
+            "ja": "参加企業"
+          },
+          "body": {
+            "en": "The records name Nippon Steel Kowa Real Estate, Nomura Real Estate and 首都圏不燃建築公社 in local activities and redevelopment discussions. The foundation is not a government department.",
+            "zh": "材料提及日铁兴和不动产、野村不动产、首都圈不燃建筑公社参与地区活动及再开发讨论；后者为一般财团法人。",
+            "ja": "資料では日鉄興和不動産、野村不動産、首都圏不燃建築公社の地域活動・再開発検討への参加を紹介。公社は一般財団法人。"
+          },
+          "refs": [
+            "walkable",
+            "talk"
+          ],
+          "kind": "local",
+          "link": "actor-3",
+          "subtitle": null
+        },
+        {
+          "id": "preparation",
+          "x": 385,
+          "y": 280,
+          "label": {
+            "en": "Preparatory association",
+            "zh": "再开发准备组合",
+            "ja": "再開発準備組合"
+          },
+          "body": {
+            "en": "The talk describes basic-plan study, rights-holder coordination and commissions to design and planning specialists.",
+            "zh": "访谈介绍其开展基本方案研究、权利人协调，并委托设计及规划专业机构。",
+            "ja": "説明では基本計画の検討、権利者調整、設計・都市計画の専門家への発注を担う。"
+          },
+          "refs": [
+            "talk",
+            "relations",
+            "redevelopment"
+          ],
+          "kind": "local",
+          "link": "actor-2",
+          "subtitle": {
+            "en": "神田駅東口地区再開発準備組合",
+            "zh": "Kanda Station East Exit Redevelopment Preparatory Association",
+            "ja": "Kanda Station East Exit Redevelopment Preparatory Association"
+          },
+          "note": {
+            "en": "A preparatory association is distinct from an association established with statutory approval.",
+            "zh": "准备组合与依法认可设立的正式再开发组合不同。",
+            "ja": "準備組合と、認可を受けて設立する法定の再開発組合は区別する。"
+          }
+        },
+        {
+          "id": "basic",
+          "x": 750,
+          "y": 280,
+          "label": {
+            "en": "Basic plan study",
+            "zh": "基本计划案检讨",
+            "ja": "基本計画案の検討"
+          },
+          "body": {
+            "en": "Study building form, public space, project feasibility and the treatment of rights. Slide 45 marks this stage as the local position at the visit.",
+            "zh": "研究建筑、公共空间、事业可行性和权利处理；第45页将此标作调研时的当地阶段。",
+            "ja": "建物・公共空間・事業性・権利の扱いを検討。45頁は現地説明時の現在地をここに示す。"
+          },
+          "refs": [
+            "talk"
+          ],
+          "kind": "current",
+          "link": "renewal-process",
+          "subtitle": null
+        },
+        {
+          "id": "consultant",
+          "x": 385,
+          "y": 495,
+          "label": {
+            "en": "Matsuda Hirata Design",
+            "zh": "松田平田设计",
+            "ja": "松田平田設計"
+          },
+          "body": {
+            "en": "The relationship sheet describes planning consultancy, stakeholder coordination, administrative consultation and secretariat work.",
+            "zh": "组织关系图记载规划咨询、相关方协调、行政协商与事务局工作。",
+            "ja": "関係図では都市計画コンサル、合意形成、行政協議、事務局業務を担当。"
+          },
+          "refs": [
+            "relations",
+            "walkable",
+            "planning"
+          ],
+          "kind": "local",
+          "link": "actor-6",
+          "subtitle": {
+            "en": "株式会社松田平田設計",
+            "zh": "Matsuda Hirata Design",
+            "ja": "Matsuda Hirata Design"
+          },
+          "note": {
+            "en": "Consultants prepare and coordinate material; statutory decisions remain with the competent public authority.",
+            "zh": "顾问负责准备资料和协调，法定规划决定仍由有权限的公共机关作出。",
+            "ja": "資料作成や調整を担うが、法定の決定は権限を持つ行政主体が行う。"
+          }
+        },
+        {
+          "id": "authority",
+          "x": 750,
+          "y": 495,
+          "label": {
+            "en": "Ward / Tokyo authorities",
+            "zh": "区／东京都相关机关",
+            "ja": "区・東京都の関係機関"
+          },
+          "body": {
+            "en": "A planning council deliberates; the legally competent prefecture or municipality makes the planning decision. Road occupation and traffic-use permissions are separate.",
+            "zh": "审议会参与审议；法定有权的都道府县或市町村作出规划决定。道路占用和道路使用许可也分别办理。",
+            "ja": "審議会の審議を経て、権限を持つ都道府県・市町村が計画を決定。道路占用と道路使用の許可も別。"
+          },
+          "refs": [
+            "planning"
+          ],
+          "kind": "public",
+          "link": "legal-guide",
+          "subtitle": null
+        }
+      ],
+      "edges": [
+        {
+          "source": "owners",
+          "target": "discussion",
+          "label": {
+            "en": "Discuss",
+            "zh": "讨论",
+            "ja": "検討"
+          },
+          "refs": [
+            "relations"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "discussion",
+          "target": "guideline",
+          "label": {
+            "en": "Shape a shared direction",
+            "zh": "形成共同方向",
+            "ja": "方向性を共有"
+          },
+          "refs": [
+            "talk"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "owners",
+          "target": "preparation",
+          "label": {
+            "en": "Coordinate rights",
+            "zh": "协调权利",
+            "ja": "権利者調整"
+          },
+          "refs": [
+            "relations"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "companies",
+          "target": "preparation",
+          "label": {
+            "en": "Participate",
+            "zh": "参与",
+            "ja": "参加"
+          },
+          "refs": [
+            "talk"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "preparation",
+          "target": "basic",
+          "label": {
+            "en": "Commission studies",
+            "zh": "组织研究",
+            "ja": "検討を委託"
+          },
+          "refs": [
+            "talk",
+            "relations"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "consultant",
+          "target": "preparation",
+          "label": {
+            "en": "Advice & coordination",
+            "zh": "咨询与协调",
+            "ja": "助言・調整"
+          },
+          "refs": [
+            "relations"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "consultant",
+          "target": "authority",
+          "label": {
+            "en": "Technical consultation",
+            "zh": "技术协商",
+            "ja": "行政協議"
+          },
+          "refs": [
+            "relations"
+          ],
+          "kind": "consult",
+          "via": null
+        },
+        {
+          "source": "authority",
+          "target": "basic",
+          "label": {
+            "en": "Consult on requirements",
+            "zh": "协商适用要求",
+            "ja": "条件を協議"
+          },
+          "refs": [
+            "relations",
+            "planning"
+          ],
+          "kind": "consult",
+          "via": null
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": {
+        "en": "Order & decisions",
+        "zh": "顺序与决策",
+        "ja": "順序と決定"
+      },
+      "question": {
+        "en": "Where is the project in the process?",
+        "zh": "项目走到哪一步，接下来是什么？",
+        "ja": "現在地と次の手続は何か"
+      },
+      "summary": {
+        "en": "The 25 October handout marks basic-plan study as the local stage. Later boxes explain the association-led Type 1 route.",
+        "zh": "10 月 25 日讲义将当地阶段标在基本计划案检讨。后续节点说明组合实施第一种再开发的程序路径。",
+        "ja": "10月25日の資料では基本計画案の検討が現在地。後半は組合施行の第一種再開発の流れを示す。"
+      },
+      "note": {
+        "en": "Dashed boxes are later steps in the described route, not verified completed approvals. Some preparation and consultation run in parallel.",
+        "zh": "虚线框为所述路径的后续环节，不表示已获批准。准备和协商工作可并行开展。",
+        "ja": "破線枠は説明上の後続段階であり、認可済みという意味ではない。準備・協議は並行する場合がある。"
+      },
+      "height": 470,
+      "default": "stage2",
+      "nodes": [
+        {
+          "id": "stage0",
+          "x": 20,
+          "y": 65,
+          "label": {
+            "en": "Local discussion",
+            "zh": "地区讨论",
+            "ja": "地域の話し合い"
+          },
+          "body": {
+            "en": "Residents, landowners and local organisations discuss the area and its needs. A shared vision can cover a larger area than a redevelopment project.",
+            "zh": "居民、地权人和地区组织讨论需求；共同愿景可以覆盖比再开发项目更大的范围。",
+            "ja": "住民・地権者・地域組織が課題を検討。地域像は個別の再開発より広い範囲を扱う。"
+          },
+          "refs": [
+            "talk"
+          ],
+          "kind": "local",
+          "link": "renewal-process",
+          "subtitle": {
+            "en": "STEP 1",
+            "zh": "环节 1",
+            "ja": "段階 1"
+          },
+          "width": 190
+        },
+        {
+          "id": "stage1",
+          "x": 265,
+          "y": 65,
+          "label": {
+            "en": "Preparatory organisation",
+            "zh": "准备组织",
+            "ja": "準備組合"
+          },
+          "body": {
+            "en": "A preparatory group commissions studies and coordinates rights-holder interests. It is not yet the statutory redevelopment association.",
+            "zh": "准备组织委托研究、协调权利人诉求；此时尚不等于正式法定再开发组合。",
+            "ja": "準備組織が調査を委託し権利者の意向を調整。法定の再開発組合とは異なる。"
+          },
+          "refs": [
+            "talk"
+          ],
+          "kind": "local",
+          "link": "renewal-process",
+          "subtitle": {
+            "en": "STEP 2",
+            "zh": "环节 2",
+            "ja": "段階 2"
+          },
+          "width": 190
+        },
+        {
+          "id": "stage2",
+          "x": 510,
+          "y": 65,
+          "label": {
+            "en": "Basic-plan study",
+            "zh": "基本计划案检讨",
+            "ja": "基本計画案の検討"
+          },
+          "body": {
+            "en": "Study building form, public space, project feasibility and the treatment of rights. Slide 45 marks this stage as the local position at the visit.",
+            "zh": "研究建筑、公共空间、事业可行性和权利处理；第45页将此标作调研时的当地阶段。",
+            "ja": "建物・公共空間・事業性・権利の扱いを検討。45頁は現地説明時の現在地をここに示す。"
+          },
+          "refs": [
+            "talk"
+          ],
+          "kind": "current",
+          "link": "renewal-process",
+          "subtitle": {
+            "en": "STEP 3",
+            "zh": "环节 3",
+            "ja": "段階 3"
+          },
+          "width": 190
+        },
+        {
+          "id": "stage3",
+          "x": 755,
+          "y": 65,
+          "label": {
+            "en": "City-planning procedure",
+            "zh": "都市计划程序",
+            "ja": "都市計画手続"
+          },
+          "body": {
+            "en": "The competent authority prepares and determines the statutory plan through the applicable consultation, public-inspection and deliberation steps.",
+            "zh": "有权限的行政主体通过适用的协商、公开阅览和审议环节，制定法定都市计划。",
+            "ja": "権限を持つ行政主体が協議・縦覧・審議などを経て法定計画を定める。"
+          },
+          "refs": [
+            "planning",
+            "redevelopment",
+            "mlit"
+          ],
+          "kind": "future",
+          "link": "renewal-process",
+          "subtitle": {
+            "en": "STEP 4",
+            "zh": "环节 4",
+            "ja": "段階 4"
+          },
+          "width": 190
+        },
+        {
+          "id": "stage4",
+          "x": 755,
+          "y": 285,
+          "label": {
+            "en": "Statutory association and project plan",
+            "zh": "正式组合与事业计划",
+            "ja": "法定組合と事業計画"
+          },
+          "body": {
+            "en": "For the association route, establishment and the project plan require the approvals and consent conditions specified by law.",
+            "zh": "采用组合实施路径时，组合设立及事业计划需要符合法定认可和同意条件。",
+            "ja": "組合施行の場合は、設立・事業計画について法定の認可と同意要件を満たす。"
+          },
+          "refs": [
+            "planning",
+            "redevelopment",
+            "mlit"
+          ],
+          "kind": "future",
+          "link": "renewal-process",
+          "subtitle": {
+            "en": "STEP 5",
+            "zh": "环节 5",
+            "ja": "段階 5"
+          },
+          "width": 190
+        },
+        {
+          "id": "stage5",
+          "x": 510,
+          "y": 285,
+          "label": {
+            "en": "Rights-conversion plan",
+            "zh": "权利转换计划",
+            "ja": "権利変換計画"
+          },
+          "body": {
+            "en": "Record existing rights, valuations, new rights and compensation, and follow the plan’s inspection and approval procedure.",
+            "zh": "明确原有权利、估价、新权利与补偿，并履行转换计划的阅览和认可程序。",
+            "ja": "従前の権利、評価、新しい権利、補償を整理し、縦覧・認可を行う。"
+          },
+          "refs": [
+            "planning",
+            "redevelopment",
+            "mlit"
+          ],
+          "kind": "future",
+          "link": "renewal-process",
+          "subtitle": {
+            "en": "STEP 6",
+            "zh": "环节 6",
+            "ja": "段階 6"
+          },
+          "width": 190
+        },
+        {
+          "id": "stage6",
+          "x": 265,
+          "y": 285,
+          "label": {
+            "en": "Relocation and construction",
+            "zh": "迁移与建设",
+            "ja": "移転・工事"
+          },
+          "body": {
+            "en": "Land handover, relocation, compensation and construction follow the applicable approved arrangements. Building confirmation is a separate compliance procedure.",
+            "zh": "土地交付、迁移、补偿和施工依适用的获批安排推进；建筑确认是另一个合规环节。",
+            "ja": "明渡し、移転、補償、工事を適用される計画に基づき進める。建築確認は別の適合確認手続。"
+          },
+          "refs": [
+            "planning",
+            "redevelopment",
+            "mlit"
+          ],
+          "kind": "future",
+          "link": "renewal-process",
+          "subtitle": {
+            "en": "STEP 7",
+            "zh": "环节 7",
+            "ja": "段階 7"
+          },
+          "width": 190
+        },
+        {
+          "id": "stage7",
+          "x": 20,
+          "y": 285,
+          "label": {
+            "en": "Management after completion",
+            "zh": "竣工后的管理运营",
+            "ja": "竣工後の管理・運営"
+          },
+          "body": {
+            "en": "New buildings and public spaces need continuing management, maintenance responsibilities and funding. Local activities can also continue before completion.",
+            "zh": "新建筑与公共空间需要持续管理、维护责任和经费；地区活动也可在工程完成之前持续开展。",
+            "ja": "建物や公共空間には継続する管理、維持責任、財源が必要。地域活動は竣工前からも続く。"
+          },
+          "refs": [
+            "planning",
+            "redevelopment",
+            "mlit"
+          ],
+          "kind": "future",
+          "link": "renewal-process",
+          "subtitle": {
+            "en": "STEP 8",
+            "zh": "环节 8",
+            "ja": "段階 8"
+          },
+          "width": 190
+        }
+      ],
+      "edges": [
+        {
+          "source": "stage0",
+          "target": "stage1",
+          "label": {
+            "en": "Next",
+            "zh": "衔接",
+            "ja": "次へ"
+          },
+          "refs": [
+            "talk",
+            "redevelopment"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "stage1",
+          "target": "stage2",
+          "label": {
+            "en": "Next",
+            "zh": "衔接",
+            "ja": "次へ"
+          },
+          "refs": [
+            "talk",
+            "redevelopment"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "stage2",
+          "target": "stage3",
+          "label": {
+            "en": "Next",
+            "zh": "衔接",
+            "ja": "次へ"
+          },
+          "refs": [
+            "talk",
+            "redevelopment"
+          ],
+          "kind": "future",
+          "via": null
+        },
+        {
+          "source": "stage3",
+          "target": "stage4",
+          "label": {
+            "en": "Next",
+            "zh": "衔接",
+            "ja": "次へ"
+          },
+          "refs": [
+            "talk",
+            "redevelopment"
+          ],
+          "kind": "future",
+          "via": null
+        },
+        {
+          "source": "stage4",
+          "target": "stage5",
+          "label": {
+            "en": "Next",
+            "zh": "衔接",
+            "ja": "次へ"
+          },
+          "refs": [
+            "talk",
+            "redevelopment"
+          ],
+          "kind": "future",
+          "via": null
+        },
+        {
+          "source": "stage5",
+          "target": "stage6",
+          "label": {
+            "en": "Next",
+            "zh": "衔接",
+            "ja": "次へ"
+          },
+          "refs": [
+            "talk",
+            "redevelopment"
+          ],
+          "kind": "future",
+          "via": null
+        },
+        {
+          "source": "stage6",
+          "target": "stage7",
+          "label": {
+            "en": "Next",
+            "zh": "衔接",
+            "ja": "次へ"
+          },
+          "refs": [
+            "talk",
+            "redevelopment"
+          ],
+          "kind": "future",
+          "via": null
+        }
+      ]
+    },
+    {
+      "id": "rights-flow",
+      "title": {
+        "en": "Rights & funding",
+        "zh": "权利与资金",
+        "ja": "権利と資金"
+      },
+      "question": {
+        "en": "What carries over, and what funds the project?",
+        "zh": "原有权益如何安排，建设资金从哪里来？",
+        "ja": "従前の権利と事業費はどう扱われるか"
+      },
+      "summary": {
+        "en": "An approved plan connects existing rights to new rights or the applicable payment route. Reserve-floor disposal can fund project costs.",
+        "zh": "依法认可的计划将原有权益对应到新权益或适用的金钱给付路径；保留床处分可筹措事业资金。",
+        "ja": "認可された計画により従前権利を新たな権利や適用される金銭給付へ対応させる。保留床の処分は事業費に充てる。"
+      },
+      "note": {
+        "en": "This is a mechanism diagram, not a parcel valuation. Building tenancy and mortgage rights need their own legal treatment. No fixed land-to-floor exchange ratio is assumed.",
+        "zh": "这是机制示意，不是地块估价。借家权、抵押权各有具体处理规则；不预设统一的土地面积换楼面比例。",
+        "ja": "制度の模式図であり敷地評価ではない。借家権・抵当権には個別の扱いがあり、一律の土地面積と床面積の交換率は設定しない。"
+      },
+      "height": 650,
+      "default": "conversion",
+      "nodes": [
+        {
+          "id": "assets",
+          "x": 20,
+          "y": 65,
+          "label": {
+            "en": "Land & building rights",
+            "zh": "土地与建筑权益",
+            "ja": "土地・建物の権利"
+          },
+          "body": {
+            "en": "Existing land, buildings, leases and security interests",
+            "zh": "原有土地、建筑、租赁与担保权益",
+            "ja": "従前の土地・建物・賃借権・担保権"
+          },
+          "refs": [
+            "civil",
+            "lease",
+            "unit"
+          ],
+          "kind": "local",
+          "link": "rights",
+          "subtitle": null
+        },
+        {
+          "id": "tenancy",
+          "x": 20,
+          "y": 280,
+          "label": {
+            "en": "Building tenants",
+            "zh": "建筑承租人",
+            "ja": "借家人"
+          },
+          "body": {
+            "en": "Tenants are not the same category as land leaseholders. Articles 71(3), 77(5), 88(5) and 97 address choices, new tenancy and compensation in the relevant redevelopment procedure.",
+            "zh": "借家人不等于借地权人。适用再开发程序中的选择、新租赁权和补偿，涉及第71条第3款、第77条第5款、第88条第5款及第97条。",
+            "ja": "借家人と借地権者を混同しない。再開発では第71条3項、77条5項、88条5項、97条などが申出、新たな借家権、補償を扱う。"
+          },
+          "refs": [
+            "lease",
+            "redevelopment"
+          ],
+          "kind": "local",
+          "link": "rights",
+          "subtitle": null
+        },
+        {
+          "id": "mortgage",
+          "x": 20,
+          "y": 495,
+          "label": {
+            "en": "Mortgage rights",
+            "zh": "抵押权",
+            "ja": "抵当権"
+          },
+          "body": {
+            "en": "Rights investigation and a conversion plan must account for registered security interests; a colour on the study map is not a title search.",
+            "zh": "权利调查和转换计划需处理已登记担保权益；研究地图中的颜色不是产权登记查询。",
+            "ja": "権利調査・変換計画では担保権も扱う。研究図の着色は登記調査の代わりにはならない。"
+          },
+          "refs": [
+            "civil",
+            "redevelopment"
+          ],
+          "kind": "local",
+          "link": "rights",
+          "subtitle": null
+        },
+        {
+          "id": "conversion",
+          "x": 385,
+          "y": 280,
+          "label": {
+            "en": "Survey → value → approved plan",
+            "zh": "调查 → 估价 → 认可计划",
+            "ja": "調査 → 評価 → 認可計画"
+          },
+          "body": {
+            "en": "Identify each right, value the existing and future assets, and set allocation or payment in the rights-conversion plan. Public inspection and approval are separate from the city-planning decision.",
+            "zh": "调查每项权利，评估前后资产价值，在权利转换计划中确定配置或给付。该计划的阅览、认可与都市计划决定属于不同程序。",
+            "ja": "権利を確認し、従前・従後資産を評価して権利変換計画で配分等を定める。縦覧・認可は都市計画決定とは別の手続。"
+          },
+          "refs": [
+            "redevelopment"
+          ],
+          "kind": "public",
+          "link": "legal-guide",
+          "subtitle": null
+        },
+        {
+          "id": "rights-floor",
+          "x": 750,
+          "y": 65,
+          "label": {
+            "en": "Allocated rights / rights floor",
+            "zh": "对应新权益／权利床",
+            "ja": "新たな権利・権利床"
+          },
+          "body": {
+            "en": "Eligible original rights can be allocated to rights in the new building and site. The plan specifies value, location and use.",
+            "zh": "符合条件的原权益可配置为新建筑和敷地中的权益；计划明确价值、位置与用途。",
+            "ja": "対象となる従前権利を新建物・敷地の権利に対応させ、計画で価額・位置・用途を定める。"
+          },
+          "refs": [
+            "redevelopment",
+            "mlit"
+          ],
+          "kind": "local",
+          "link": "renewal-process",
+          "subtitle": null
+        },
+        {
+          "id": "arrangements",
+          "x": 750,
+          "y": 280,
+          "label": {
+            "en": "Tenancy / applicable payment",
+            "zh": "租赁安排／适用的金钱给付",
+            "ja": "賃貸借・適用される金銭給付"
+          },
+          "body": {
+            "en": "Tenants and other right holders have different routes under the applicable provisions and contracts. New tenancy or payment is not a uniform outcome for everyone.",
+            "zh": "承租人与其他权利人按适用条款及合同分别处理；新租赁或金钱给付并非对所有人统一适用。",
+            "ja": "借家人と他の権利者は適用条文・契約に応じて扱う。新たな借家権や金銭給付は全員一律ではない。"
+          },
+          "refs": [
+            "lease",
+            "redevelopment"
+          ],
+          "kind": "local",
+          "link": "rights",
+          "subtitle": null
+        },
+        {
+          "id": "reserve",
+          "x": 750,
+          "y": 495,
+          "label": {
+            "en": "Reserve floor",
+            "zh": "保留床",
+            "ja": "保留床"
+          },
+          "body": {
+            "en": "Floor area disposed of to raise project funds, distinct from floor rights allocated to eligible original right holders.",
+            "zh": "通过处分筹措事业资金的楼面，与配置给符合条件原权利人的权利床区分。",
+            "ja": "事業資金を得るため処分する床。対象となる従前権利者に配分する権利床とは区別する。"
+          },
+          "refs": [
+            "mlit",
+            "ria"
+          ],
+          "kind": "finance",
+          "link": null,
+          "subtitle": null
+        },
+        {
+          "id": "costs",
+          "x": 385,
+          "y": 495,
+          "label": {
+            "en": "Project costs",
+            "zh": "事业费用",
+            "ja": "事業費"
+          },
+          "body": {
+            "en": "Proceeds from reserve-floor disposal contribute to the project budget. This diagram does not specify the local project’s full finance plan.",
+            "zh": "保留床处分收入用于事业费用；此图不推定当地项目的完整融资安排。",
+            "ja": "保留床処分収入を事業費に充てる。この図は当地の資金計画全体を特定するものではない。"
+          },
+          "refs": [
+            "mlit",
+            "ria"
+          ],
+          "kind": "finance",
+          "link": null,
+          "subtitle": null
+        }
+      ],
+      "edges": [
+        {
+          "source": "assets",
+          "target": "conversion",
+          "label": {
+            "en": "Identify & value",
+            "zh": "调查与估价",
+            "ja": "調査・評価"
+          },
+          "refs": [
+            "redevelopment"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "tenancy",
+          "target": "conversion",
+          "label": {
+            "en": "Apply tenant rules",
+            "zh": "按借家规则处理",
+            "ja": "借家の規定を適用"
+          },
+          "refs": [
+            "redevelopment",
+            "lease"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "mortgage",
+          "target": "conversion",
+          "label": {
+            "en": "Record security rights",
+            "zh": "核实担保权",
+            "ja": "担保権を確認"
+          },
+          "refs": [
+            "redevelopment",
+            "civil"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "conversion",
+          "target": "rights-floor",
+          "label": {
+            "en": "Allocate",
+            "zh": "配置",
+            "ja": "配分"
+          },
+          "refs": [
+            "redevelopment",
+            "mlit"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "conversion",
+          "target": "arrangements",
+          "label": {
+            "en": "Apply relevant route",
+            "zh": "按适用路径处理",
+            "ja": "適用手続で処理"
+          },
+          "refs": [
+            "redevelopment"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "reserve",
+          "target": "costs",
+          "label": {
+            "en": "Disposal revenue",
+            "zh": "处分收入",
+            "ja": "処分収入"
+          },
+          "refs": [
+            "mlit"
+          ],
+          "kind": "money",
+          "via": null
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "title": {
+        "en": "Activities & permits",
+        "zh": "活动与许可",
+        "ja": "活動と許可"
+      },
+      "question": {
+        "en": "How do local activities happen now?",
+        "zh": "工程实施之前，地区活动如何运行？",
+        "ja": "事業完成前の地域活動はどう動くか"
+      },
+      "summary": {
+        "en": "Local organisations, companies, coordinators and students work together on places and street activities. Road-related permits follow their own route.",
+        "zh": "地区组织、企业、运营者和学生协作开展场所及街道活动；道路相关许可另按各自程序办理。",
+        "ja": "地域組織・企業・運営者・学生が場づくりと道路活動で協働し、道路の許可はそれぞれの手続で行う。"
+      },
+      "note": {
+        "en": "Arrows refer to documented cooperation and the general permit route. A local event is not a redevelopment approval. FY2025 Project 2 records and FY2026 Project 4 dates remain separate.",
+        "zh": "连线对应已记录的合作和一般许可路径。活动举办不等于再开发获批；2025 年度项目 2 的记录与 2026 年度项目 4 的日期分开保留。",
+        "ja": "記録された協力関係と一般の許可手続。活動実施は再開発の認可を意味しない。令和7年度プロジェクト2と令和8年度プロジェクト4を区別する。"
+      },
+      "height": 650,
+      "default": "walkable",
+      "nodes": [
+        {
+          "id": "town",
+          "x": 20,
+          "y": 65,
+          "label": {
+            "en": "Town association",
+            "zh": "町会",
+            "ja": "町会"
+          },
+          "body": {
+            "en": "Local events, festival ties and communication with residents and shops. The activity report lists publicity support.",
+            "zh": "承担地方活动、祭典联系及居民商户沟通；活动报告列出其宣传合作。",
+            "ja": "地域活動・祭り・住民や店舗との連絡。活動報告では広報協力を担当。"
+          },
+          "refs": [
+            "relations",
+            "walkable"
+          ],
+          "kind": "local",
+          "link": "actor-0",
+          "subtitle": {
+            "en": "鍛冶町二丁目町会",
+            "zh": "Kajicho 2-chome Town Association",
+            "ja": "Kajicho 2-chome Town Association"
+          },
+          "note": {
+            "en": "Community participation does not itself confer land-disposal or planning authority.",
+            "zh": "社区组织身份本身不产生土地处分权或都市计划决定权。",
+            "ja": "地域組織であることと、土地処分・都市計画決定の権限は別。"
+          }
+        },
+        {
+          "id": "university",
+          "x": 20,
+          "y": 280,
+          "label": {
+            "en": "University & students",
+            "zh": "大学与学生",
+            "ja": "大学・学生"
+          },
+          "body": {
+            "en": "The public report identifies the university’s participation and Associate Professor Shin Nakajima as committee chair; students joined preparation and implementation.",
+            "zh": "公开报告记载大学参与，并由中岛伸副教授担任执行委员会委员长；学生参与准备和实施。",
+            "ja": "公開報告では東京都市大学が参加し、中島伸准教授が実行委員長、学生が企画・実施に参加。"
+          },
+          "refs": [
+            "walkable"
+          ],
+          "kind": "local",
+          "link": "actor-8",
+          "subtitle": {
+            "en": "東京都市大学 中島伸研究室・学生",
+            "zh": "Tokyo City University, Nakajima Laboratory and students",
+            "ja": "Tokyo City University, Nakajima Laboratory and students"
+          },
+          "note": {
+            "en": "Research and implementation support operate within the organiser’s arrangements and the relevant permissions.",
+            "zh": "研究和执行支持在主办安排及相关许可范围内开展。",
+            "ja": "調査・実施支援は主催体制と必要な許可の範囲で行われる。"
+          }
+        },
+        {
+          "id": "sponsors",
+          "x": 20,
+          "y": 495,
+          "label": {
+            "en": "Nippon Steel Kowa",
+            "zh": "日铁兴和不动产",
+            "ja": "日鉄興和不動産"
+          },
+          "body": {
+            "en": "Named in the public walkable-project committee. The watage report identifies it as the owner providing and preparing that community space.",
+            "zh": "公开步行项目报告将其列为执行委员会成员；watage 运营记录记载其提供、整备该社区场所并承担业主角色。",
+            "ja": "公開活動報告の実行委員会メンバー。watage の報告では拠点のオーナーとして場を提供・整備。"
+          },
+          "refs": [
+            "walkable",
+            "watage1"
+          ],
+          "kind": "local",
+          "link": "actor-3",
+          "subtitle": null
+        },
+        {
+          "id": "walkable",
+          "x": 385,
+          "y": 280,
+          "label": {
+            "en": "Walkable project",
+            "zh": "步行街道项目",
+            "ja": "ウォーカブルプロジェクト"
+          },
+          "body": {
+            "en": "The execution committee coordinates the street activity. The public report names Nippon Steel Kowa, Nomura Real Estate, 首都圏不燃建築公社, planning professionals and university participants.",
+            "zh": "执行委员会组织街道活动；公开报告列出日铁兴和、野村不动产、首都圈不燃建筑公社、规划专业机构与大学参与。",
+            "ja": "実行委員会が道路活動を調整する。公開報告は日鉄興和不動産・野村不動産・首都圏不燃建築公社・都市計画専門家・大学の参加を記録する。"
+          },
+          "refs": [
+            "walkable",
+            "walkable4"
+          ],
+          "kind": "local",
+          "link": "source-walkable",
+          "subtitle": null
+        },
+        {
+          "id": "operators",
+          "x": 385,
+          "y": 65,
+          "label": {
+            "en": "SharedVision / local coordinators",
+            "zh": "SharedVision／地区运营者",
+            "ja": "SharedVision・地域運営者"
+          },
+          "body": {
+            "en": "The supplied material explains SharedVision’s project coordination and Migita’s links across local groups. Migita and Yukako Ishikawa of for Cities helped found watage’s programmes.",
+            "zh": "材料介绍 SharedVision 的企划协调，以及右田萌在地区组织之间的联系；右田与 for Cities 的石川由佳子参与 watage 项目的创立及运营。",
+            "ja": "資料は SharedVision の企画調整と右田萌氏の地域間の連携を説明。右田氏と for Cities の石川由佳子氏が watage の企画立ち上げに参加。"
+          },
+          "refs": [
+            "relations",
+            "watage1"
+          ],
+          "kind": "local",
+          "link": "actor-7",
+          "subtitle": null
+        },
+        {
+          "id": "watage",
+          "x": 385,
+          "y": 495,
+          "label": {
+            "en": "watage community space",
+            "zh": "watage 社区据点",
+            "ja": "コミュニティ拠点 watage"
+          },
+          "body": {
+            "en": "Nippon Steel Kowa provides and prepares the place; the operating team connects local people and outside participants through programmes.",
+            "zh": "日铁兴和提供、整备场所；运营团队通过活动连接地方与外部参与者。",
+            "ja": "日鉄興和が場を提供・整備し、運営側が企画を通じて地域と外部の参加者をつなぐ。"
+          },
+          "refs": [
+            "watage1",
+            "relations"
+          ],
+          "kind": "local",
+          "link": "source-watage1",
+          "subtitle": null
+        },
+        {
+          "id": "road-manager",
+          "x": 750,
+          "y": 65,
+          "label": {
+            "en": "Road manager",
+            "zh": "道路管理者",
+            "ja": "道路管理者"
+          },
+          "body": {
+            "en": "Road occupation permission under Road Act Article 32 concerns use of road space for qualifying installations or occupation.",
+            "zh": "道路法第 32 条的道路占用许可，处理符合规定的设施设置或道路空间占用。",
+            "ja": "道路法第32条の道路占用許可は、所定の工作物等の設置や道路空間の占用に関する。"
+          },
+          "refs": [
+            "road"
+          ],
+          "kind": "public",
+          "link": "legal-guide",
+          "subtitle": null
+        },
+        {
+          "id": "police",
+          "x": 750,
+          "y": 280,
+          "label": {
+            "en": "Police",
+            "zh": "警察",
+            "ja": "警察"
+          },
+          "body": {
+            "en": "Road use permission under Road Traffic Act Article 77 covers relevant activities affecting traffic. Depending on the activity, both permissions can be needed.",
+            "zh": "道路交通法第 77 条的道路使用许可处理相关影响交通的活动；视具体活动，两类许可可能都需要。",
+            "ja": "道路交通法第77条の道路使用許可は該当する交通に関わる行為を対象とする。活動により両方の許可が必要となる。"
+          },
+          "refs": [
+            "traffic",
+            "road"
+          ],
+          "kind": "public",
+          "link": "legal-guide",
+          "subtitle": null
+        },
+        {
+          "id": "ward-support",
+          "x": 750,
+          "y": 495,
+          "label": {
+            "en": "Ward activity support",
+            "zh": "区活动支持",
+            "ja": "区の活動支援"
+          },
+          "body": {
+            "en": "The FY2025 Project 2 budget records ¥300,000 ward support and ¥900,000 committee funding. This is the activity budget, separate from construction funding.",
+            "zh": "2025 年度项目 2 预算为区支持金 30 万日元、委员会负担 90 万日元；这是活动收支，与建设融资分开。",
+            "ja": "令和7年度プロジェクト2は区支援30万円、実行委員会負担90万円。活動収支であり、建設資金とは区別する。"
+          },
+          "refs": [
+            "walkable"
+          ],
+          "kind": "finance",
+          "link": "legal-guide",
+          "subtitle": null
+        }
+      ],
+      "edges": [
+        {
+          "source": "town",
+          "target": "walkable",
+          "label": {
+            "en": "Local cooperation",
+            "zh": "地区合作",
+            "ja": "地域協力"
+          },
+          "refs": [
+            "walkable"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "university",
+          "target": "walkable",
+          "label": {
+            "en": "Chair / research / delivery",
+            "zh": "委员长／研究／实施",
+            "ja": "委員長・研究・実施"
+          },
+          "refs": [
+            "walkable"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "sponsors",
+          "target": "watage",
+          "label": {
+            "en": "Provide the place",
+            "zh": "提供场所",
+            "ja": "場を提供"
+          },
+          "refs": [
+            "watage1"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "operators",
+          "target": "walkable",
+          "label": {
+            "en": "Plan & operate",
+            "zh": "企划运营",
+            "ja": "企画・運営"
+          },
+          "refs": [
+            "relations"
+          ],
+          "kind": "record",
+          "via": null
+        },
+        {
+          "source": "operators",
+          "target": "watage",
+          "label": {
+            "en": "Programmes",
+            "zh": "活动运营",
+            "ja": "企画運営"
+          },
+          "refs": [
+            "relations"
+          ],
+          "kind": "consult",
+          "via": "left"
+        },
+        {
+          "source": "walkable",
+          "target": "road-manager",
+          "label": {
+            "en": "Occupation application",
+            "zh": "占用申请",
+            "ja": "占用申請"
+          },
+          "refs": [
+            "road"
+          ],
+          "kind": "permit",
+          "via": null
+        },
+        {
+          "source": "walkable",
+          "target": "police",
+          "label": {
+            "en": "Road-use application",
+            "zh": "使用申请",
+            "ja": "使用申請"
+          },
+          "refs": [
+            "traffic"
+          ],
+          "kind": "permit",
+          "via": null
+        },
+        {
+          "source": "ward-support",
+          "target": "walkable",
+          "label": {
+            "en": "Activity support",
+            "zh": "活动支持",
+            "ja": "活動支援"
+          },
+          "refs": [
+            "walkable"
+          ],
+          "kind": "money",
+          "via": null
+        }
+      ]
+    }
+  ]
+}

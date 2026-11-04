@@ -1,0 +1,33 @@
+name: Shared files
+on: [push, pull_request]
+jobs:
+  portable-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python3 08_Scripts/check_team_repository.py
+      - run: python3 08_Scripts/test_cfd_acceptance_v4.py
+      - run: python3 08_Scripts/test_cfd_checked_export_v5.py
+      - run: python3 08_Scripts/test_cfd_history_v5.py
+      - run: node --check 06_Outputs/Simulation_Demo/Kajicho_Wind_Heat_Carbon/dist/cfd.js
+      - run: node --check 06_Outputs/Simulation_Demo/Kajicho_Wind_Heat_Carbon/dist/domain-map.js
+      - run: node --check 06_Outputs/Simulation_Demo/Kajicho_Wind_Heat_Carbon/dist/app.js
+      - run: node --check 06_Outputs/Simulation_Demo/Kajicho_Wind_Heat_Carbon/dist/team.js
+      - run: node --check 06_Outputs/Simulation_Demo/Kajicho_Wind_Heat_Carbon/dist/cfd-guide.js
+      - run: node --check 06_Outputs/Simulation_Demo/Kajicho_Wind_Heat_Carbon/dist/cfd-lessons.js
+      - run: node 08_Scripts/check_cfd_guide.mjs
+      - run: node --check 06_Outputs/Simulation_Demo/Kajicho_Wind_Heat_Carbon/dist/cfd-numerical.js
+      - run: node 08_Scripts/check_cfd_numerical_guide.mjs
+      - run: python3 08_Scripts/check_portfolio.py
+      - run: node --check 06_Outputs/Simulation_Demo/Kajicho_Wind_Heat_Carbon/dist/portfolio.js
+      - run: node --check 06_Outputs/Simulation_Demo/Kajicho_Wind_Heat_Carbon/dist/page-outline.js
+      - run: node --check 06_Outputs/Simulation_Demo/Kajicho_Wind_Heat_Carbon/dist/research.js
+      - run: python3 08_Scripts/check_repository_language.py
+      - run: python3 08_Scripts/check_context_study.py
+      - run: node --check 06_Outputs/Simulation_Demo/Kajicho_Wind_Heat_Carbon/dist/site-navigation.js

@@ -1,0 +1,36 @@
+{
+  "checked_on": "2026-10-21",
+  "visit_date": "2026-10-25",
+  "site": {
+    "project_id": "appgprj_6ace04f6c3848191b6db1d072ec879fb",
+    "version": 23,
+    "version_id": "appgprj_6ace04f6c3848191b6db1d072ec879fb~appgver_86d032647dbc81918f680e131266faa9",
+    "source_commit": "40076b00a766b6504344cd52915d08d14c879edf",
+    "deployment": "appgdep_6ad8bd906e5481919f2b519c4bcd049b",
+    "status": "succeeded",
+    "url": "https://kajicho-wind-heat-carbon-demo.specialgooood.chatgpt.site/fieldwork",
+    "publishing_method": "Pushed exact source via Sites helper; remote build fallback because no local result package is permitted",
+    "audience": "Existing public audience preserved"
+  },
+  "scope": {
+    "reference_places": 9,
+    "proposed_stops": 5,
+    "contact_leads": 7,
+    "bilingual_question_pairs": 8,
+    "source_records": 16,
+    "boundary": "One unchanged Figure 5 wider outline on this field page",
+    "geometry_models_or_poi_counts_changed": false,
+    "new_simulations": false
+  },
+  "verification": {
+    "production_browser": "English default; nine map points, seven contacts, eight question pairs and sixteen sources loaded; no console errors",
+    "desktop_and_mobile": "1280px and 390px; no horizontal overflow",
+    "field_notes": "Manual pin; browser draft save, reload and delete tested with synthetic content; zero test notes left"
+  },
+  "delivery": {
+    "authored_outputs": "Remote project and GitHub",
+    "local_result_copies": false,
+    "drive_changed": false,
+    "record_upload_backend": false
+  }
+}

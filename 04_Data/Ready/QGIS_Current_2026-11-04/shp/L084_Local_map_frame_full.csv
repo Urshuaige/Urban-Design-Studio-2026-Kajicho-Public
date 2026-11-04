@@ -1,0 +1,2 @@
+﻿ROW_ID,__wider_pk,name_en,side_m,area_km2,purpose,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,1,Master mapping frame,2800,7.84,Cartographic context crop; study boundaries unchanged,1,clipped_to_wider,Original source feature or statistical unit; values not recomputed

@@ -1,0 +1,239 @@
+{
+  "title": "Kanda–Nihonbashi current source building geometry",
+  "date": "2026-10-20",
+  "source_model_year": 2025,
+  "primary_buildings": 277,
+  "actual_lod_counts": {
+    "2": 1074
+  },
+  "primary_actual_lod_counts": {
+    "2": 277
+  },
+  "missing_source_ids": [],
+  "source_match_rule": "Exact original gml_id joined to current asset_id; current GIS membership is unchanged.",
+  "selection_rule": "Full original footprint covered by fixed registered official Figure 5 study outline; no clipping or enlargement.",
+  "horizontal_crs": "EPSG:6677",
+  "origin_epsg6677": [
+    -5600.0,
+    -34320.0
+  ],
+  "gltf_axes": "x=easting+5600; y=original CityGML orthometric elevation; z=-(northing+34320)",
+  "units": "metres",
+  "vertical_note": "Original CityGML orthometric elevations are preserved. Ground terrain and textures are omitted. LOD2 means more roof and wall detail; no improvement in measured positional accuracy is claimed.",
+  "vertical_ground_offset_m": 0,
+  "bounds_local_m": [
+    [
+      -142.375,
+      2.559,
+      -611.411
+    ],
+    [
+      471.76,
+      87.66,
+      362.19
+    ]
+  ],
+  "textures": false,
+  "highest_available_check": "PLATEAU delivery API maxlod4, lod3 and lod4 queried for both wards on 2026-10-20; maxlod4 resolves 2025 LOD2, lod3/lod4 empty. Actual _lod checked for every selected object.",
+  "display_use": "Visual survey and geometry review. The mesh is not validated for CFD and must not be overlaid on old solver fields.",
+  "source_documentation": "https://docs.plateauview.mlit.go.jp/api/rest/operations/datacatalog3dtilesspectilesetjson/",
+  "license": "PLATEAU / Public Data License1.0 compatible with CC BY4.0; original municipality copyright retained",
+  "license_url": "https://www.mlit.go.jp/plateau/site-policy/",
+  "attribution": "PLATEAU 3D City Model, Chiyoda and Chuo wards, 2025; Ministry of Land, Infrastructure, Transport and Tourism. Extracted, coordinates transformed, textures omitted for Urban Design Studio 2026.",
+  "source_catalogs": [
+    "https://api.plateauview.mlit.go.jp/datacatalog/3dtiles/13101-bldg-maxlod4-latest/tileset.json",
+    "https://api.plateauview.mlit.go.jp/datacatalog/3dtiles/13102-bldg-maxlod4-latest/tileset.json"
+  ],
+  "build_seconds": 10.902907873038203,
+  "workers": 17,
+  "quality": {
+    "unique_asset_ids": 1074,
+    "mixed_batch_faces": 0,
+    "degenerate_triangles_removed": 0,
+    "finite_coordinates": true,
+    "source_polygon_holes_preserved": 0,
+    "models_with_boundary_edges_01mm": 0,
+    "models_with_more_than_two_faces_per_edge_01mm": 0,
+    "numerical_mesh_status": "Source surface edge checks passed at 0.1mm weld tolerance. Self-intersections, ground contact and CFD solver suitability remain unchecked."
+  },
+  "buildings": 1074,
+  "geometry_source": "Original CityGML LOD2 surface polygons, not reconstructed extrusions or decoded tile vertices",
+  "source_crs": "EPSG:6697 (JGD2011 geographic 3D, source axes latitude,longitude,orthometricheight)",
+  "horizontal_transform": "JGD2011 geographic2D EPSG6668 → Japan Plane Rectangular CS IX EPSG6677; pyproj always_xy receives longitude,latitude",
+  "vertical_transform": "Identity: preserve each original CityGML third coordinate. No ellipsoid/geoid conversion or per-building vertical anchoring in this asset.",
+  "source_files": [
+    {
+      "file": "raw/plateau/Highest_Geometry_2026-10-20/citygml/53394621_bldg_6697_op.gml",
+      "bytes": 250839546,
+      "sha256": "7f51448a837b4851bb3f2067466225109840d3e1f7cab1e959273695f16cb791",
+      "matched_models": 474,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    },
+    {
+      "file": "raw/chuo/53394621_bldg_6697_op.gml",
+      "bytes": 250839546,
+      "sha256": "7f51448a837b4851bb3f2067466225109840d3e1f7cab1e959273695f16cb791",
+      "matched_models": 474,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    },
+    {
+      "file": "raw/plateau/Highest_Geometry_2026-10-20/citygml/53394631_bldg_6697_op.gml",
+      "bytes": 230411661,
+      "sha256": "564292e4bc03a2611ea426149bbe68f8c7ccd8a50f64ac152d7afcacd75bcaf5",
+      "matched_models": 463,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    },
+    {
+      "file": "raw/chuo/53394611_bldg_6697_op.gml",
+      "bytes": 166216449,
+      "sha256": "3448bec01ea015913fc2a5ac31e25831d667cd20d68e8d576d8627054d5c160e",
+      "matched_models": 0,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    },
+    {
+      "file": "raw/context/53394611_bldg_6697_op.gml",
+      "bytes": 166216449,
+      "sha256": "3448bec01ea015913fc2a5ac31e25831d667cd20d68e8d576d8627054d5c160e",
+      "matched_models": 0,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    },
+    {
+      "file": "raw/context/53394642_bldg_6697_op.gml",
+      "bytes": 162428740,
+      "sha256": "676b3fa2905c9bfece064ab82b4264459071656886d76d5b48376814b780957e",
+      "matched_models": 0,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    },
+    {
+      "file": "raw/context/53394612_bldg_6697_op.gml",
+      "bytes": 153847389,
+      "sha256": "071cb63913b4f96a40852b96aff8222c03b3121302cd9f8553fa44bba9b20a40",
+      "matched_models": 0,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    },
+    {
+      "file": "raw/plateau/Highest_Geometry_2026-10-20/citygml/53394622_bldg_6697_op.gml",
+      "bytes": 123094984,
+      "sha256": "22c54371a1da31e9adb0b853624994e8b149c0c555257b0eacefb36bb99e5b4c",
+      "matched_models": 57,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    },
+    {
+      "file": "raw/chuo/53394622_bldg_6697_op.gml",
+      "bytes": 123094984,
+      "sha256": "22c54371a1da31e9adb0b853624994e8b149c0c555257b0eacefb36bb99e5b4c",
+      "matched_models": 57,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    },
+    {
+      "file": "raw/plateau/Highest_Geometry_2026-10-20/citygml/53394632_bldg_6697_op.gml",
+      "bytes": 122453359,
+      "sha256": "21f4dec7f51b6dda6dd62d9c9aa09795e34619ffaec3d5fd0569ba45a9578a18",
+      "matched_models": 80,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    },
+    {
+      "file": "raw/chuo/53394632_bldg_6697_op.gml",
+      "bytes": 122453359,
+      "sha256": "21f4dec7f51b6dda6dd62d9c9aa09795e34619ffaec3d5fd0569ba45a9578a18",
+      "matched_models": 80,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    },
+    {
+      "file": "raw/context/53394641_bldg_6697_op.gml",
+      "bytes": 104381993,
+      "sha256": "236c20f5a697c52ee4a8c3c66a96c4e8e9946352ad6cc252e2fe3342f67d335a",
+      "matched_models": 0,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    },
+    {
+      "file": "raw/context/53394630_bldg_6697_op.gml",
+      "bytes": 82284195,
+      "sha256": "b3149fa8c963265dd351c530657aea8862bb4b600a539b842b21e4f0ad569e45",
+      "matched_models": 0,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    },
+    {
+      "file": "raw/chuo/53394623_bldg_6697_op.gml",
+      "bytes": 57108225,
+      "sha256": "57acce80d296ed061b3bcee7cf5ef174368ef547124f32ac5053ebbb820dde0a",
+      "matched_models": 0,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    },
+    {
+      "file": "raw/context/53394640_bldg_6697_op.gml",
+      "bytes": 37444717,
+      "sha256": "414c4bfb178ff5d5b95105bffa359fe8bff5866b6ef12f480de6d33537248122",
+      "matched_models": 0,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    },
+    {
+      "file": "raw/context/53394610_bldg_6697_op.gml",
+      "bytes": 21936620,
+      "sha256": "f2b58e205f91d9b5b4fce2eea6a9aa34ed5278eecf682bd1c0afdb87b10db403",
+      "matched_models": 0,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    },
+    {
+      "file": "raw/context/53394620_bldg_6697_op.gml",
+      "bytes": 17586954,
+      "sha256": "70328f364d0cc8bac7d8a86341597c0ef02bc761b55513b1ac0dcd6a54a60d71",
+      "matched_models": 0,
+      "srsName": "http://www.opengis.net/def/crs/EPSG/0/6697"
+    }
+  ],
+  "source_file_count": 17,
+  "asset": {
+    "file": "kajicho-current-untextured.glb",
+    "bytes": 6932696,
+    "sha256": "51f95c5ba1fddd03109d53a3c330c1fbaa786d41112f6ea9f366c936cf4bca7d",
+    "triangles": 68554,
+    "buildings": 1074
+  },
+  "primary_examples": [
+    {
+      "asset_id": "13101:bldg_969fc1c3-0999-4673-b863-efa7b3aa4d13",
+      "source_triangles": 258,
+      "source_vertices": 131,
+      "distinct_source_elevations_1cm": 14,
+      "flat_extrusion_elevation_levels": 2
+    },
+    {
+      "asset_id": "13101:bldg_d4164b4d-84b0-42c4-b119-370f9c410b47",
+      "source_triangles": 230,
+      "source_vertices": 117,
+      "distinct_source_elevations_1cm": 11,
+      "flat_extrusion_elevation_levels": 2
+    },
+    {
+      "asset_id": "13101:bldg_70f7265f-ce9e-46d3-9f01-5f02c0b5d851",
+      "source_triangles": 226,
+      "source_vertices": 115,
+      "distinct_source_elevations_1cm": 12,
+      "flat_extrusion_elevation_levels": 2
+    },
+    {
+      "asset_id": "13101:bldg_deede4ba-6aa0-4feb-a92b-3be5868d06fb",
+      "source_triangles": 226,
+      "source_vertices": 115,
+      "distinct_source_elevations_1cm": 4,
+      "flat_extrusion_elevation_levels": 2
+    },
+    {
+      "asset_id": "13101:bldg_6b4326c0-e06e-4dcd-b4ae-17c0a717aaa2",
+      "source_triangles": 212,
+      "source_vertices": 108,
+      "distinct_source_elevations_1cm": 12,
+      "flat_extrusion_elevation_levels": 2
+    }
+  ],
+  "processing": [
+    "Use exact current GIS asset_id and gml_id membership; never edit the Figure5 lines.",
+    "Check actual per-feature tile _lod and catalog maximumLOD availability.",
+    "Read original CityGML LOD2 surface polygons in EPSG6697.",
+    "Project JGD2011 longitude/latitude EPSG6668 toEPSG6677; preserve source third-coordinate elevation.",
+    "Triangulate dominant-plane polygon projections with mapbox-earcut; retain original3D vertexcoordinates.",
+    "Write untexturedGLB with originalID,primaryflag,sourceLOD and provenance."
+  ],
+  "geometry_accuracy_note": "LOD is detail level, not positional accuracy. No new survey or measurement accuracy improvement is claimed."
+}

@@ -1,0 +1,10 @@
+numpy
+scipy
+shapely>=2
+pyproj
+trimesh
+mapbox-earcut
+manifold3d
+lxml
+requests
+pvlib

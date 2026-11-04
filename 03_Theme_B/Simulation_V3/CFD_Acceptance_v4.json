@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "fixed_before_first_acceptance_jst": "2026-10-15T00:03:10+09:00",
+  "scope": "Project numerical screening for the paired extent study. These tolerances are not COST or AIJ standards and do not establish empirical accuracy.",
+  "require_normal_end": true,
+  "require_SIMPLE_residual_control_message": true,
+  "outer_initial_residual_targets": {"p_rgh": 0.0001, "U": 0.0001, "T": 0.00000001, "k": 0.0001, "epsilon": 0.0001},
+  "history_window_iterations": 200,
+  "heat": {
+    "relative_imbalance_max_exclusive": 0.01,
+    "diagnostic_interval_iterations": 20,
+    "roof_input_relative_error_max": 0.000001,
+    "definition": "abs(net_outward_all_patches_W) / prescribed_roof_input_W; CSV column4 already includes the roof term."
+  },
+  "probes": {
+    "sample_interval_iterations": 10,
+    "half_window_mean_speed_change_max_ms": 0.01,
+    "half_window_mean_temperature_change_max_K": 0.01,
+    "per_probe_speed_peak_to_peak_max_ms": 0.05,
+    "per_probe_temperature_peak_to_peak_max_K": 0.02,
+    "purpose": "A stable 200-iteration tail at the same 12 street probes. Mean drift limits match the provisional reporting steps. Peak-to-peak limits screen ongoing oscillation. This is a numerical stability check, not a comfort or prediction-accuracy threshold."
+  },
+  "sensitivity_plan": "04_Data/Ready/CFD_Domain_Audit_2026-10-14/Sensitivity_Plan.json",
+  "publication": "Both paired cases must pass at their exported iterations. The geometry and side-boundary comparisons must then be assessed on common valid core points. Retain pending inlet, mesh and empirical validation labels."
+}

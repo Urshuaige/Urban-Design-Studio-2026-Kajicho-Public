@@ -1,0 +1,3 @@
+﻿ROW_ID,__wider_pk,ward_code,ward_name_ja,ward_name_en,all_including_unknown,classified_establishments,workers,source_date,scope,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,1,13101,千代田区,Chiyoda Ward,49486,36659,1216281,2024-06-01,Entire ward; private establishments excluding sole proprietors without employees; not comparable to 2021 total,1,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+2,2,13102,中央区,Chuo Ward,48536,34711,789836,2024-06-01,Entire ward; private establishments excluding sole proprietors without employees; not comparable to 2021 total,2,clipped_to_wider,Original source feature or statistical unit; values not recomputed

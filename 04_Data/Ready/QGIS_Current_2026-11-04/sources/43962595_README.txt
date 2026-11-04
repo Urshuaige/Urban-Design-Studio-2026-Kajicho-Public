@@ -1,0 +1,42 @@
+# Major-road traffic volumes（主要道路机动车流量）
+
+## Deliverables
+
+- `Kajicho_Traffic_Baseline_2026-11-02.qgz`: independent editable QGIS project. Source saved project and user styles unchanged.
+- `maps/Traffic_Surface_2021.png`: surface-road map.
+- `maps/Traffic_Elevated_Separate.png`: separate existing elevated-road map.
+- `maps/Traffic_Reading_Sheet.png`: standalone reading sheet with values.
+- Figma slide: https://www.figma.com/slides/hh16ci0VeM3JQj2tZFvdbX?node-id=177-2 . Text and comparison bars are native editable objects; map source remains QGIS.
+
+## Values and section matching
+
+All numeric comparisons are motor vehicles, both directions, daytime07:00–19:00JST, vehicles/12h. Data edition is MLIT2021(R3), not a 2026 field survey.
+
+| Key | Road | 12h value | Meaning |
+|---|---|---:|---|
+| A | Showa-dori | 31,915* | Official2021 estimate based on individual2019-11-26 observation. Section13300040060; representative station11020 /13300040050. |
+| B | Yasukuni-dori | 27,016 | 2021-10-06 representative observation, section13403020140 betweenR17 andR4; representative station41040 atHigashi-Kanda2-10-13. |
+| C | Edo-dori east of Showa | 15,925 | 2021-11-18, section13300060010 fromR4 toR6branch. Existing local OSM way160732454 represents a verified402.9m part. Western Edo-dori is excluded. |
+| D | Chuo-dori | 12,910 | 2021-10-06, section13300170020 fromChuo/Chiyoda ward boundary toYasukuni; representative station16010 atNihonbashi-Muromachi4-2. |
+
+Full rows and location/matching provenance: `Traffic_Source_Matching.json`, `data/Traffic_Sections.geojson`, and `data/Traffic_Baseline.gpkg`. Exact counter coordinates were not invented. Colored roads represent matched portions of the official survey sections. Chuo/Showa are clipped at the existing Chiyoda ward boundary and Yasukuni junctions; Yasukuni betweenR17/R4 junctions. Main grey road network continues independently of the statistical overlay.
+
+Road widths and functional classes were not used as flow estimates. Internal roads remain a pale continuous base with no assigned low-flow category. Per latest user direction, explanation of missing local counts is kept here rather than filling the presentation with warnings.
+
+## Elevated system
+
+Separate October2021 values: Route1Ueno north ofHoncho18,792, south ofHoncho24,518; C1Kandabashi–Edobashi62,934 vehicles/12h, both directions. These are separate from the ground-road comparison and predate the2025Yaesu closure. The small map shows existing GSI expressway geometry; it does not transfer expressway counts to Showa-dori or draw a proposed tunnel alignment.
+
+## Sources / years / permissions
+
+Official table: https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo13.pdf (printedpp.3,5,7,23 for groundroads). Local unmodified copy in`sources/MLIT_R3_kasyo13.pdf`. Definitions: https://www.mlit.go.jp/road/census/r3/data/pdf/kasyorep.pdf . Document/data edition2021; source observation dates retained separately above; website publication year not independently confirmed. Retrieved2026-11-01UTC /2026-11-02JST. Published government statistics; MLIT website reuse terms apply, no dataset-specific additional license independently established.
+
+Geographic base is exclusively existing local data: GSI optimal vector data2026-07-01, PLATEAU study buildings with prior project corrections, OSM2026-11-01 extended schematic centerlines and older2026-10-25 named road geometry forEdo. GSI Content Terms and OSMODbL1.0 provenance are retained in original source READMEs. No new geographic basemap was downloaded.
+
+Working CRS EPSG:6677. Main map extent(-6150,-35000)–(-4600,-33550)m; editableQGIS layout1:7750 before slide resizing. Relative paths are resolved within the shared project tree; this folder is not a standaloneQGISZIP.
+
+## Editing / QA
+
+Layouts: `Traffic · Surface-road baseline · 2021`, `Traffic · Elevated roads · Separate layer`, `Traffic · Reading sheet · 2021`. Native legend/north/scalebar have transparent backgrounds. Scale lies directly below north. Surface scale0/100/200m; separate elevated map0/500/1000m. Exact component positions are in`Layout_Receipt.json`. Scripts are in`work/prepare_traffic.py` and`work/build_traffic_map.py`.
+
+Existing road axes include documented schematic carriageway collapsing; they are not a directional routing model. No congestion forecast or lane-removal recommendation is inferred. User's acceptedRev3density/fonts retained.

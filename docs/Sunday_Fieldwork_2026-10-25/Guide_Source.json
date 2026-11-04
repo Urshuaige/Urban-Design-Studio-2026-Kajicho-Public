@@ -1,0 +1,745 @@
+{
+  "visit_date": "2026-10-25",
+  "timezone": "Asia/Tokyo",
+  "checked_on": "2026-10-21",
+  "scope": "Community-led field visit; optional regional comparison outside the Figure 5 wider outline",
+  "sources": [
+    {
+      "id": "brief",
+      "title": "Official Theme B brief · Figure 5 / p.4; community actors / p.5",
+      "publisher": "The University of Tokyo · Urban Design Studio",
+      "kind": "course",
+      "published_on": null,
+      "data_year": 2026,
+      "url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "watage",
+      "title": "watage · 2nd anniversary report",
+      "publisher": "watage official account",
+      "kind": "organizer",
+      "published_on": "2026-09-15",
+      "activity_dates": [
+        "2026-07-08"
+      ],
+      "url": "https://note.com/watage_kanda/n/n8344c3f9cc8c",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "walk2026",
+      "title": "Kajini Walkable Project 4 · event notice",
+      "publisher": "Tokyo City University · Urban Space Generation Lab",
+      "kind": "participant",
+      "published_on": "2026-10-02",
+      "activity_dates": [
+        "2026-10-08",
+        "2026-10-09"
+      ],
+      "url": "https://urbanism-crew.tokyo/2026/10/02/【news】まちづくり社会実験を神田の鍛冶町で行い/",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "town",
+      "title": "Chiyoda ward · neighbourhood associations",
+      "publisher": "Chiyoda City",
+      "kind": "government",
+      "published_on": "2026-07-31",
+      "url": "https://www.city.chiyoda.lg.jp/koho/kurashi/volunteer/chokai-rengochokai/ichiran-kensaku/index.html",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "townmap",
+      "title": "Kanda Station East · ward association map / branch contact",
+      "publisher": "Chiyoda City",
+      "kind": "government",
+      "published_on": null,
+      "url": "https://www.city.chiyoda.lg.jp/documents/643/kandaekihigashi-chokai_1.pdf",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "awa",
+      "title": "Second Kanda Awa Dance · joint organisers",
+      "publisher": "Chiyoda City",
+      "kind": "government",
+      "published_on": "2026-04-02",
+      "activity_dates": [
+        "2026-04-18"
+      ],
+      "url": "https://www.city.chiyoda.lg.jp/koho/kuse/koho/pressrelease/r8/r804/20260402.html",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "indigo",
+      "title": "Hello, watage #5 · indigo dyeing",
+      "publisher": "NPO Kanda Ai no Kai",
+      "kind": "organizer",
+      "published_on": "2026-05-01",
+      "activity_dates": [
+        "2026-05-16"
+      ],
+      "url": "https://kandaainokai.org/event_20260516/",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "cwl",
+      "title": "CWL · purpose, address and contact",
+      "publisher": "Carbon Neutral & Well-being Laboratory",
+      "kind": "organizer",
+      "published_on": null,
+      "url": "https://www.cwl.or.jp/",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "walk2022",
+      "title": "Street-use experiment proposal · 22 August 2022",
+      "publisher": "Chiyoda City · proposal by Kajicho 2-chome community planning group",
+      "kind": "government_record",
+      "published_on": "2022-08-22",
+      "data_year": 2022,
+      "url": "https://www.city.chiyoda.lg.jp/documents/28590/walkable-project.pdf",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "walkreport",
+      "title": "Street-use experiment · implementation report",
+      "publisher": "Chiyoda City · project report",
+      "kind": "government_record",
+      "published_on": "2022-12-16",
+      "data_year": 2022,
+      "url": "https://www.city.chiyoda.lg.jp/documents/28590/jisshi2.pdf",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "clean",
+      "title": "Neighbourhood-led cleaning and food-waste action",
+      "publisher": "Chiyoda City",
+      "kind": "government",
+      "published_on": "2024-01-11",
+      "data_year": 2024,
+      "url": "https://www.city.chiyoda.lg.jp/koho/kuse/koho/pressrelease/r6/r601/20240111.html",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "books",
+      "title": "34th Jimbocho Book Festival · official programme",
+      "publisher": "Kanda Suzuran-dori Shopping Street Association",
+      "kind": "organizer",
+      "published_on": null,
+      "activity_dates": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "url": "https://kanda-suzuran.jp/",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "sports",
+      "title": "Kanda Sports Festival 2026 · event notice",
+      "publisher": "Chiyoda City Tourism Association",
+      "kind": "official_tourism",
+      "published_on": null,
+      "activity_dates": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "url": "https://visit-chiyoda.tokyo/app/event/detail/959",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "sportsorg",
+      "title": "Kanda Sports Festival 2026 · organiser programme",
+      "publisher": "Kanda Sports Store Liaison Council",
+      "kind": "organizer",
+      "published_on": null,
+      "activity_dates": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "url": "https://sports-kanda.com/ksf2026/",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "gsi",
+      "title": "Address Search · coordinate references",
+      "publisher": "Geospatial Information Authority of Japan",
+      "kind": "geocoder",
+      "published_on": null,
+      "url": "https://msearch.gsi.go.jp/address-search/AddressSearch",
+      "license_url": "https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "osm",
+      "title": "OpenStreetMap · streets and station context",
+      "publisher": "OpenStreetMap contributors",
+      "kind": "map",
+      "published_on": null,
+      "data_date": "2026-10-13",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "places": [
+    {
+      "id": "station",
+      "number": "1",
+      "type": "walk",
+      "name": {
+        "en": "JR Kanda · east-side meeting area",
+        "zh": "JR 神田站东侧集合区",
+        "ja": "JR神田駅・東側の集合エリア"
+      },
+      "coordinates": [
+        139.7714484,
+        35.6920872
+      ],
+      "sources": [
+        "osm"
+      ],
+      "location_method": "OSM way 666662651 endpoint; meeting-area reference, not a surveyed exit",
+      "location_source": "https://www.openstreetmap.org/way/666662651",
+      "status": "observe",
+      "address": "JR神田駅 東側",
+      "order": 1,
+      "time": "10:00–10:15",
+      "task": {
+        "en": "Agree on the route. Photograph the public notice boards and note the date, weather and your observation point.",
+        "zh": "确认路线，记录日期、天气和观察点，拍摄公共告示栏。",
+        "ja": "経路を確認。日時・天候・観察位置を記録し、公共の掲示板を撮影。"
+      }
+    },
+    {
+      "id": "street",
+      "number": "2",
+      "type": "walk",
+      "name": {
+        "en": "Kanda Fureai-dori · shops and daily life",
+        "zh": "神田ふれあい通り：商店与日常生活",
+        "ja": "神田ふれあい通り・商店と日常"
+      },
+      "coordinates": [
+        139.7716603,
+        35.6924668
+      ],
+      "sources": [
+        "osm",
+        "awa",
+        "clean"
+      ],
+      "location_method": "OSM way 90795013 vertex; street observation anchor",
+      "location_source": "https://www.openstreetmap.org/way/90795013",
+      "status": "observe",
+      "address": "神田ふれあい通り 鍛冶町二丁目",
+      "order": 2,
+      "time": "10:15–10:40",
+      "task": {
+        "en": "Walk the shopping street. Ask a willing shopkeeper about regular users, local events and the next person to contact.",
+        "zh": "沿商店街走访，向愿意交流的店主了解日常使用者、社区活动和推荐联系人。",
+        "ja": "商店街を歩き、協力いただける店主に日常の利用者・地域活動・相談先を伺う。"
+      }
+    },
+    {
+      "id": "underpass",
+      "number": "3",
+      "type": "walk",
+      "name": {
+        "en": "Kamishirakabebashi-dori · railway underpass area",
+        "zh": "上白壁橋通り：铁路高架下区域",
+        "ja": "上白壁橋通り・神田駅ガード下周辺"
+      },
+      "coordinates": [
+        139.7709193,
+        35.6924927
+      ],
+      "sources": [
+        "walk2026",
+        "walk2022",
+        "walkreport",
+        "osm"
+      ],
+      "location_method": "OSM way 1436770441 west endpoint; approximate underpass observation anchor, not an event footprint",
+      "location_source": "https://www.openstreetmap.org/way/1436770441",
+      "status": "past",
+      "address": "上白壁橋通り 神田駅ガード下",
+      "order": 3,
+      "time": "10:40–11:05",
+      "task": {
+        "en": "Look for remaining signs of the street experiment. Record where people pause and what is present today; the 8–9 October event has ended.",
+        "zh": "观察街道实验留下的线索，记录停留位置和当天实际设施；10 月 8–9 日活动已结束。",
+        "ja": "社会実験の痕跡と、当日の滞在・設えを観察。10月8〜9日の催しは終了済み。"
+      }
+    },
+    {
+      "id": "watage",
+      "number": "4",
+      "type": "hub",
+      "name": {
+        "en": "watage · community hub",
+        "zh": "watage 社区交流据点",
+        "ja": "watage・地域交流拠点"
+      },
+      "geocode_query": "東京都千代田区鍛冶町2丁目8-14",
+      "sources": [
+        "watage",
+        "walk2026",
+        "indigo"
+      ],
+      "status": "unconfirmed",
+      "address": "東京都千代田区鍛冶町2-8-14",
+      "order": 4,
+      "time": "11:05–11:40",
+      "task": {
+        "en": "If open, ask about student participation. If closed, record the posted schedule and follow up through the official account.",
+        "zh": "如开放，询问学生参与方式；如关闭，记录门口日程并通过官方账号后续联系。",
+        "ja": "開いていれば学生の参加方法を伺う。閉まっていれば掲示の予定を記録し、公式窓口へ後日相談。"
+      }
+    },
+    {
+      "id": "cwl",
+      "number": "5",
+      "type": "contact",
+      "name": {
+        "en": "Kanamono-dori / CWL address",
+        "zh": "金物通り／CWL 所在地",
+        "ja": "神田金物通り／CWL所在地"
+      },
+      "geocode_query": "東京都千代田区鍛冶町1丁目8-6",
+      "sources": [
+        "cwl",
+        "osm"
+      ],
+      "status": "appointment",
+      "address": "東京都千代田区鍛冶町1-8-6 株式会社池田理化 本社内",
+      "order": 5,
+      "time": "11:40–12:10",
+      "task": {
+        "en": "Observe Kajicho 1-chome and the street near CWL. CWL requests email contact while staff work remotely; arrange a later conversation.",
+        "zh": "观察鍛冶町一丁目及 CWL 周边街道。CWL 官方说明实行远程办公，请通过邮件另约交流。",
+        "ja": "鍛冶町一丁目とCWL周辺を観察。CWLはテレワークのため、メールで後日の相談を依頼。"
+      }
+    },
+    {
+      "id": "branch",
+      "number": "A",
+      "type": "contact",
+      "name": {
+        "en": "Izumibashi Branch · town-association contact",
+        "zh": "和泉橋出张所：町会联系窗口",
+        "ja": "和泉橋出張所・町会への連絡窓口"
+      },
+      "geocode_query": "東京都千代田区神田佐久間町1丁目11-7",
+      "sources": [
+        "town",
+        "townmap"
+      ],
+      "status": "appointment",
+      "address": "東京都千代田区神田佐久間町1-11-7",
+      "time": null,
+      "task": {
+        "en": "Ask the branch how to contact Kajicho 1-chome and 2-chome associations. This pin is the branch office, not either association’s office or territory. Confirm reception hours.",
+        "zh": "通过出张所联系鍛冶町一、二丁目町会。地图点是行政联系窗口，不代表町会办公地点或辖区；先确认接待时间。",
+        "ja": "出張所経由で鍛冶町一・二丁目町会へ相談。この点は出張所の位置であり、町会事務所や区域ではない。受付時間を要確認。"
+      }
+    },
+    {
+      "id": "books",
+      "number": "B",
+      "type": "event",
+      "name": {
+        "en": "Jimbocho Book Festival · Suzuran-dori reference",
+        "zh": "神保町书展：すずらん通り参考点",
+        "ja": "神保町ブックフェスティバル・すずらん通り参照点"
+      },
+      "geocode_query": "東京都千代田区神田神保町1丁目17",
+      "sources": [
+        "books"
+      ],
+      "status": "sunday",
+      "address": "神田すずらん通り・さくら通り・神保町三井ビルディング公開空地",
+      "time": "25 Oct · 10:00–18:00",
+      "task": {
+        "en": "Optional comparison outside the course area: ask how shops, residents and students run the festival together. The pin is a venue-area reference near Tokyo-do, not the full event footprint. Rain cancellation is announced by the organiser.",
+        "zh": "课程范围外的可选比较：了解商家、居民与学生如何共同办节。点位是东京堂附近的会场参考位置，不代表活动全范围；雨天取消以主办方公告为准。",
+        "ja": "課題区域外の任意の比較先。商店・住民・学生の協働を伺う。点は東京堂付近の会場参照位置で、会場全体の範囲ではない。雨天中止は主催者の告知を確認。"
+      }
+    },
+    {
+      "id": "sports",
+      "number": "C",
+      "type": "event",
+      "name": {
+        "en": "Kanda Sports Festival · Ogawa Square",
+        "zh": "神田体育祭：小川广场",
+        "ja": "神田スポーツ祭り・小川広場"
+      },
+      "geocode_query": "東京都千代田区神田小川町3丁目6",
+      "sources": [
+        "sports",
+        "sportsorg"
+      ],
+      "status": "sunday",
+      "address": "東京都千代田区神田小川町3-6 小川広場",
+      "time": "25 Oct · 11:00–16:30",
+      "task": {
+        "en": "Optional comparison outside the course area: observe local-store cooperation, family participation and seasonal use of public space. Some workshops require reservations.",
+        "zh": "课程范围外的可选比较：观察商店协作、家庭参与及公共空间的季节性使用；部分体验需预约。",
+        "ja": "課題区域外の任意の比較先。商店の連携・家族の参加・公共空間の季節的利用を観察。一部体験は事前予約制。"
+      }
+    },
+    {
+      "id": "awa-venue",
+      "number": "D",
+      "type": "history",
+      "name": {
+        "en": "Kanda Heisei-dori · past Awa Dance venue",
+        "zh": "神田平成通り：既往阿波舞会场",
+        "ja": "神田平成通り・過去の阿波おどり会場"
+      },
+      "coordinates": [
+        139.7734957,
+        35.6937795
+      ],
+      "sources": [
+        "awa",
+        "osm"
+      ],
+      "location_method": "OSM way 232805829 vertex on the ward-reported western Kanda Heisei-dori venue section; street reference, not an event footprint",
+      "location_source": "https://www.openstreetmap.org/way/232805829",
+      "status": "past",
+      "address": "神田平成通り 西側 神田駅北口交差点〜東松下町交差点",
+      "time": "18 Apr 2026 · past event",
+      "task": {
+        "en": "The ward identifies this street section as the April 2026 Awa Dance venue. Use it as a follow-up reference; no event is confirmed here for Sunday 25 October.",
+        "zh": "区政府将此路段列为 2026 年 4 月阿波舞会场。仅作为后续联系与观察线索；未确认 10 月 25 日此处有活动。",
+        "ja": "区はこの区間を2026年4月の阿波おどり会場として記載。後日の相談の手がかりとし、10月25日の催しは未確認。"
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "id": "watage-team",
+      "place": "watage",
+      "priority": 1,
+      "name": "watage 実行委員会 / staff",
+      "sources": [
+        "watage"
+      ],
+      "contact_url": "https://note.com/watage_kanda",
+      "why": {
+        "en": "Best first introduction to residents, students and ongoing community projects.",
+        "zh": "优先建立联系，了解居民、学生及社区项目网络。",
+        "ja": "住民・学生・地域プロジェクトにつながる最初の相談先。"
+      },
+      "ask": {
+        "en": "How can studio students help with an existing activity? Who else should we meet?",
+        "zh": "课程学生可以怎样参与已有活动？还应该认识谁？",
+        "ja": "授業の学生が既存の活動に参加するには？ほかに誰にお会いするとよいですか。"
+      }
+    },
+    {
+      "id": "towns",
+      "place": "branch",
+      "priority": 2,
+      "name": "鍛冶町一丁目町会 / 鍛冶町二丁目町会",
+      "sources": [
+        "town",
+        "townmap"
+      ],
+      "contact_url": "https://www.city.chiyoda.lg.jp/koho/kurashi/volunteer/chokai-rengochokai/ichiran-kensaku/index.html",
+      "contact_detail": "和泉橋出張所 · 03-3253-4931",
+      "why": {
+        "en": "Neighbourhood priorities, recurring gatherings and how newcomers can take part.",
+        "zh": "了解社区优先需求、定期聚会及新成员参与方式。",
+        "ja": "地域の課題・定例の集まり・新しい参加者の関わり方。"
+      },
+      "ask": {
+        "en": "What activities recur here, and how do residents hear about them?",
+        "zh": "有哪些固定活动？居民通过什么渠道获知？",
+        "ja": "定期的な活動は何ですか。住民にはどのように知らせていますか。"
+      }
+    },
+    {
+      "id": "merchants",
+      "place": "street",
+      "priority": 3,
+      "name": "神田駅東口一番街商店会 / 神田ふれあい通り商店会",
+      "sources": [
+        "awa"
+      ],
+      "contact_url": "https://www.city.chiyoda.lg.jp/koho/kuse/koho/pressrelease/r8/r804/20260402.html",
+      "why": {
+        "en": "The ward records both merchant groups as co-organisers of the April 2026 Awa Dance.",
+        "zh": "区政府记录两家商店会共同组织了 2026 年 4 月阿波舞。",
+        "ja": "区の記録では、両商店会は2026年4月の阿波おどりを共催。"
+      },
+      "ask": {
+        "en": "Who coordinates local events? What makes it easier or harder to join?",
+        "zh": "谁负责组织地区活动？参与有哪些便利或困难？",
+        "ja": "地域行事の調整役はどなたですか。参加しやすい点・難しい点は何ですか。"
+      }
+    },
+    {
+      "id": "walkable",
+      "place": "underpass",
+      "priority": 4,
+      "name": "鍛冶弐ウォーカブルプロジェクト / 鍛冶町二丁目まちづくりを考える会",
+      "sources": [
+        "walk2026",
+        "walk2022",
+        "walkreport"
+      ],
+      "contact_url": "https://urbanism-crew.tokyo/",
+      "why": {
+        "en": "Connects temporary street use to local planning and everyday public life.",
+        "zh": "将临时街道使用与地区规划、日常公共生活连接起来。",
+        "ja": "仮設の道路活用と地域の計画・日常の公共生活をつなぐ。"
+      },
+      "ask": {
+        "en": "What did the experiment change? What could remain, and who would maintain it?",
+        "zh": "实验带来了什么变化？哪些可以保留，由谁维护？",
+        "ja": "実験で何が変わりましたか。何を残せますか。管理は誰が担いますか。"
+      }
+    },
+    {
+      "id": "indigo-team",
+      "place": "watage",
+      "priority": 5,
+      "name": "NPO 神田藍の会",
+      "sources": [
+        "indigo"
+      ],
+      "contact_url": "https://kandaainokai.org/",
+      "why": {
+        "en": "Hands-on growing and dyeing offers an accessible way to join local activity.",
+        "zh": "种植和染色提供了容易上手的社区参与方式。",
+        "ja": "栽培と藍染めは、参加しやすい地域活動の入口。"
+      },
+      "ask": {
+        "en": "When is the next open activity? Can students help with growing or preparation?",
+        "zh": "下次开放活动是什么时候？学生可以协助种植或准备吗？",
+        "ja": "次の参加機会はいつですか。学生が栽培や準備を手伝えますか。"
+      }
+    },
+    {
+      "id": "clean-team",
+      "place": "street",
+      "priority": 6,
+      "name": "Local shopkeepers / neighbourhood cleaning participants",
+      "sources": [
+        "clean"
+      ],
+      "contact_url": "https://www.city.chiyoda.lg.jp/koho/kuse/koho/pressrelease/r6/r601/20240111.html",
+      "why": {
+        "en": "A 2024 ward record is a lead for asking about present-day cleaning and waste work.",
+        "zh": "2024 年区政府记录可作为线索，询问当前清扫与垃圾处理活动。",
+        "ja": "2024年の区の記録を手がかりに、現在の清掃・ごみ対策を伺う。"
+      },
+      "ask": {
+        "en": "Is this still active? How are tasks shared, and where could students be useful?",
+        "zh": "现在是否还在开展？如何分工，学生可以帮什么？",
+        "ja": "現在も続いていますか。役割分担と、学生が手伝えることは何ですか。"
+      }
+    },
+    {
+      "id": "cwl-team",
+      "place": "cwl",
+      "priority": 7,
+      "name": "CWL · local firms and building owners",
+      "sources": [
+        "cwl"
+      ],
+      "contact_url": "mailto:cwl-info@ikedarika.co.jp",
+      "contact_detail": "cwl-info@ikedarika.co.jp",
+      "why": {
+        "en": "A later bridge from local concerns to building energy and well-being.",
+        "zh": "后续把当地诉求与建筑能源、生活福祉研究衔接。",
+        "ja": "地域の関心を建物のエネルギーとウェルビーイングにつなぐ後日の相談先。"
+      },
+      "ask": {
+        "en": "Which local needs should an environmental study address first?",
+        "zh": "环境研究应该优先回应哪些本地需求？",
+        "ja": "環境の調査で、まず応えるべき地域の課題は何ですか。"
+      }
+    }
+  ],
+  "activities": [
+    {
+      "place": "underpass",
+      "title": {
+        "en": "Street-use experiments",
+        "zh": "街道空间实验",
+        "ja": "道路空間の社会実験"
+      },
+      "status": "past",
+      "date": "2026-10-08–09",
+      "sources": [
+        "walk2026",
+        "walk2022",
+        "walkreport"
+      ],
+      "summary": {
+        "en": "A temporary test of places to pause, with watage as a second venue. Ask about outcomes and future editions.",
+        "zh": "以停留空间为主题的临时实验，watage 为分会场。走访时询问成效与下一次机会。",
+        "ja": "滞在空間を試す仮設の実験。watageはサブ会場。成果と次の実施機会を伺う。"
+      }
+    },
+    {
+      "place": "watage",
+      "title": {
+        "en": "Coffee, photographs and small urban projects",
+        "zh": "咖啡、摄影与城市小项目",
+        "ja": "コーヒー・写真・小さな地域プロジェクト"
+      },
+      "status": "unconfirmed",
+      "date": "Report published 2026-09-15",
+      "sources": [
+        "watage"
+      ],
+      "summary": {
+        "en": "The hub reports youth-led coffee conversations, photographic dialogue, compost and urban habitat projects. Ask what is active now and when to join.",
+        "zh": "据点报告了青年咖啡交流、摄影对话、堆肥和城市生境项目。需确认当前项目及参与时间。",
+        "ja": "拠点の報告には若者のコーヒー交流・写真対話・堆肥・生き物の居場所づくり。現在の活動と参加日を確認。"
+      }
+    },
+    {
+      "place": "watage",
+      "title": {
+        "en": "Indigo growing and dyeing",
+        "zh": "蓝草种植与蓝染",
+        "ja": "藍の栽培と藍染め"
+      },
+      "status": "past",
+      "date": "2026-05-16 · 13:00–16:00",
+      "sources": [
+        "indigo"
+      ],
+      "summary": {
+        "en": "A documented workshop with Kanda Ai no Kai at watage; a contact lead for future hands-on participation.",
+        "zh": "神田藍の会在 watage 的既往工作坊，可作为后续动手参与的联系线索。",
+        "ja": "神田藍の会とwatageによる過去のワークショップ。今後の体験参加の相談につなげる。"
+      }
+    },
+    {
+      "place": "awa-venue",
+      "title": {
+        "en": "Neighbourhood festival cooperation",
+        "zh": "社区节庆协作",
+        "ja": "地域の祭りの協働"
+      },
+      "status": "past",
+      "date": "2026-04-18",
+      "sources": [
+        "awa"
+      ],
+      "summary": {
+        "en": "The Awa Dance notice links town associations and east-side merchant groups; use it to identify organisers.",
+        "zh": "阿波舞公告记录了町会与站东商店会的合作，可据此识别组织者。",
+        "ja": "阿波おどりの案内は町会と東口の商店会の協働を記録。主催者への相談の手がかりに。"
+      }
+    },
+    {
+      "place": "street",
+      "title": {
+        "en": "Cleaning and food-waste action",
+        "zh": "社区清扫与食物垃圾处理",
+        "ja": "地域清掃と食品ごみ対策"
+      },
+      "status": "past",
+      "date": "Ward record · 2024-01-11",
+      "sources": [
+        "clean"
+      ],
+      "summary": {
+        "en": "Ask whether the recorded partnership continues today before treating it as an ongoing programme.",
+        "zh": "先询问记录中的合作是否仍在继续，再将其列为现行活动。",
+        "ja": "記録された連携が現在も続いているか確認してから、継続中の活動として扱う。"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "topic": {
+        "en": "Introduce the visit",
+        "zh": "说明来意",
+        "ja": "調査の説明"
+      },
+      "zh": "我们是城市设计课程的学生，正在了解这里的日常生活和社区活动。方便占用您几分钟吗？",
+      "ja": "都市デザインの授業で、この地域の暮らしや活動を調べています。少しお話を伺ってもよろしいでしょうか。"
+    },
+    {
+      "topic": {
+        "en": "Ask for permission",
+        "zh": "征求记录许可",
+        "ja": "記録の許可"
+      },
+      "zh": "可以做笔记吗？如果需要拍照或录音，我们会另外征求您的同意；不方便也完全没关系。",
+      "ja": "メモを取ってもよろしいですか。写真や録音は別に許可を伺います。難しければ、お断りいただいて大丈夫です。"
+    },
+    {
+      "topic": {
+        "en": "Activities and participation",
+        "zh": "活动与参与",
+        "ja": "活動と参加"
+      },
+      "zh": "最近您参加或组织过哪些地区活动？通常在哪里、多久一次？",
+      "ja": "最近、この地域でどのような活動に参加したり、運営に関わったりしましたか。場所と頻度を教えていただけますか。"
+    },
+    {
+      "topic": {
+        "en": "Everyday places",
+        "zh": "日常停留点",
+        "ja": "日常の居場所"
+      },
+      "zh": "平时您会在哪里休息、聊天或认识邻居？为什么会选择那里？",
+      "ja": "普段、休んだり、人と話したりする場所はどこですか。そこを選ぶ理由は何ですか。"
+    },
+    {
+      "topic": {
+        "en": "Places that work well",
+        "zh": "喜欢与不便",
+        "ja": "好きな場所・使いにくい場所"
+      },
+      "zh": "您喜欢这里的什么？有没有不方便的地方？可以在地图上指给我们看吗？",
+      "ja": "この辺りで好きな場所や、使いにくいと感じる場所はありますか。地図で教えていただけますか。"
+    },
+    {
+      "topic": {
+        "en": "Comfort in daily language",
+        "zh": "用日常语言谈舒适感",
+        "ja": "日常の言葉で快適さを聞く"
+      },
+      "zh": "夏天太热或下雨时，您会换一条路或换一个休息点吗？哪些地方最需要改善？",
+      "ja": "夏の暑い日や雨の日には、通る道や休む場所を変えますか。改善してほしい場所はどこですか。"
+    },
+    {
+      "topic": {
+        "en": "What keeps activities going",
+        "zh": "活动如何持续",
+        "ja": "活動を続ける条件"
+      },
+      "zh": "活动由谁组织和维护？要继续做下去，现在最缺什么？",
+      "ja": "活動の運営や管理はどなたが担っていますか。続けるうえで、困っていることや必要な支援はありますか。"
+    },
+    {
+      "topic": {
+        "en": "A useful next step",
+        "zh": "下一步怎样参与",
+        "ja": "次の参加機会"
+      },
+      "zh": "学生可以怎么帮忙？应该联系谁？下一次能参加的机会是什么时候？",
+      "ja": "学生がお手伝いするには、どなたに相談すればよいですか。次に参加できる機会はいつですか。"
+    }
+  ],
+  "spatial_metadata": {
+    "crs": "OGC:CRS84",
+    "coordinates": "longitude, latitude",
+    "boundary": "Reuse Figure 5 wider outline from current study-atlas; no primary outline on this page; registration uncertainty 25 m retained",
+    "route": "Suggested stop order. Highlighted lines are named OSM streets, not a computed or checked walking path. Open the walking link for navigation and verify crossings/access on site.",
+    "geocoding": "Official address text -> GSI Address Search; retain request, returned title and exact response. Address-reference points do not assert surveyed building entrances.",
+    "association": "Contacts attached to a venue describe documented activity links, not head-office locations or town-association territories.",
+    "source_reuse": "Short paraphrases and links only. Official documents and images remain unchanged.",
+    "past_event": "The April Awa Dance street reference is separately mapped on Kanda Heisei-dori using the ward-stated section and existing OSM centre lines. It is not an event footprint."
+  }
+}

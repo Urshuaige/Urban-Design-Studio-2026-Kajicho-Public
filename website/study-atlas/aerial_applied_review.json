@@ -1,0 +1,1877 @@
+{
+  "applied": [
+    {
+      "source_fid": 308,
+      "sector": "0_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_0.png"
+    },
+    {
+      "source_fid": 117,
+      "sector": "0_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_0.png"
+    },
+    {
+      "source_fid": 428,
+      "sector": "0_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_0.png"
+    },
+    {
+      "source_fid": 381,
+      "sector": "0_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1978
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_0.png"
+    },
+    {
+      "source_fid": 257,
+      "sector": "0_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1978
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_0.png"
+    },
+    {
+      "source_fid": 427,
+      "sector": "0_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_0.png"
+    },
+    {
+      "source_fid": 147,
+      "sector": "0_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_0.png"
+    },
+    {
+      "source_fid": 249,
+      "sector": "0_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_0.png"
+    },
+    {
+      "source_fid": 230,
+      "sector": "0_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_0.png"
+    },
+    {
+      "source_fid": 304,
+      "sector": "0_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_0.png"
+    },
+    {
+      "source_fid": 186,
+      "sector": "0_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_0.png"
+    },
+    {
+      "source_fid": 120,
+      "sector": "0_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_0.png"
+    },
+    {
+      "source_fid": 268,
+      "sector": "0_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_0.png"
+    },
+    {
+      "source_fid": 4,
+      "sector": "0_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_1.png"
+    },
+    {
+      "source_fid": 302,
+      "sector": "0_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_1.png"
+    },
+    {
+      "source_fid": 322,
+      "sector": "0_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_1.png"
+    },
+    {
+      "source_fid": 148,
+      "sector": "0_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_1.png"
+    },
+    {
+      "source_fid": 128,
+      "sector": "0_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_1.png"
+    },
+    {
+      "source_fid": 395,
+      "sector": "0_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_1.png"
+    },
+    {
+      "source_fid": 8,
+      "sector": "0_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_1.png"
+    },
+    {
+      "source_fid": 310,
+      "sector": "0_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_1.png"
+    },
+    {
+      "source_fid": 173,
+      "sector": "0_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_2.png"
+    },
+    {
+      "source_fid": 430,
+      "sector": "0_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_2.png"
+    },
+    {
+      "source_fid": 531,
+      "sector": "0_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_2.png"
+    },
+    {
+      "source_fid": 530,
+      "sector": "0_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1978
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_0_2.png"
+    },
+    {
+      "source_fid": 188,
+      "sector": "1_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_0.png"
+    },
+    {
+      "source_fid": 404,
+      "sector": "1_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_0.png"
+    },
+    {
+      "source_fid": 179,
+      "sector": "1_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_0.png"
+    },
+    {
+      "source_fid": 195,
+      "sector": "1_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_0.png"
+    },
+    {
+      "source_fid": 327,
+      "sector": "1_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_0.png"
+    },
+    {
+      "source_fid": 115,
+      "sector": "1_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_0.png"
+    },
+    {
+      "source_fid": 370,
+      "sector": "1_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_0.png"
+    },
+    {
+      "source_fid": 328,
+      "sector": "1_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_0.png"
+    },
+    {
+      "source_fid": 150,
+      "sector": "1_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_0.png"
+    },
+    {
+      "source_fid": 109,
+      "sector": "1_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_0.png"
+    },
+    {
+      "source_fid": 340,
+      "sector": "1_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_0.png"
+    },
+    {
+      "source_fid": 345,
+      "sector": "1_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_0.png"
+    },
+    {
+      "source_fid": 288,
+      "sector": "1_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_0.png"
+    },
+    {
+      "source_fid": 441,
+      "sector": "1_0",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_0.png"
+    },
+    {
+      "source_fid": 484,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 506,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 479,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 315,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 529,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 515,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 513,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 509,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 56,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 32,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 214,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 204,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 130,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 233,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 523,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 501,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 505,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 480,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 500,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 504,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2015
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 485,
+      "sector": "1_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2015
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_2.png"
+    },
+    {
+      "source_fid": 196,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1978
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 335,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 30,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 38,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 182,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 107,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 341,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 314,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 81,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 88,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 181,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 41,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 434,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 411,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 303,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 333,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 174,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 110,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 286,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 183,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 222,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 103,
+      "sector": "1_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2015
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_1_1.png"
+    },
+    {
+      "source_fid": 558,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 603,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 598,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 593,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 556,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 945,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 1015,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 898,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 557,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 554,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 584,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 597,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 548,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 533,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 575,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 566,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 811,
+      "sector": "2_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2015
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_2.png"
+    },
+    {
+      "source_fid": 639,
+      "sector": "2_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_1.png"
+    },
+    {
+      "source_fid": 961,
+      "sector": "2_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_1.png"
+    },
+    {
+      "source_fid": 912,
+      "sector": "2_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_1.png"
+    },
+    {
+      "source_fid": 642,
+      "sector": "2_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_1.png"
+    },
+    {
+      "source_fid": 683,
+      "sector": "2_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_1.png"
+    },
+    {
+      "source_fid": 922,
+      "sector": "2_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_1.png"
+    },
+    {
+      "source_fid": 941,
+      "sector": "2_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_1.png"
+    },
+    {
+      "source_fid": 948,
+      "sector": "2_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_1.png"
+    },
+    {
+      "source_fid": 970,
+      "sector": "2_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_1.png"
+    },
+    {
+      "source_fid": 749,
+      "sector": "2_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_1.png"
+    },
+    {
+      "source_fid": 765,
+      "sector": "2_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_1.png"
+    },
+    {
+      "source_fid": 816,
+      "sector": "2_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_1.png"
+    },
+    {
+      "source_fid": 956,
+      "sector": "2_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_1.png"
+    },
+    {
+      "source_fid": 1033,
+      "sector": "2_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_1.png"
+    },
+    {
+      "source_fid": 857,
+      "sector": "2_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_1.png"
+    },
+    {
+      "source_fid": 755,
+      "sector": "2_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_2_1.png"
+    },
+    {
+      "source_fid": 950,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 806,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 902,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 1042,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 861,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 862,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 892,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 864,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 797,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 917,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 1045,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 935,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 918,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 637,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 1070,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 720,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 700,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 704,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 772,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": 1974,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 812,
+      "sector": "3_1",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2015
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_1.png"
+    },
+    {
+      "source_fid": 643,
+      "sector": "3_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 1990
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_2.png"
+    },
+    {
+      "source_fid": 976,
+      "sector": "3_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_2.png"
+    },
+    {
+      "source_fid": 592,
+      "sector": "3_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_2.png"
+    },
+    {
+      "source_fid": 896,
+      "sector": "3_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_2.png"
+    },
+    {
+      "source_fid": 923,
+      "sector": "3_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_2.png"
+    },
+    {
+      "source_fid": 703,
+      "sector": "3_2",
+      "year_from": null,
+      "year_to": 2020,
+      "status": "tentative aerial upper bound",
+      "confidence": "low",
+      "historical_lead_only": {
+        "from": null,
+        "to": 2010
+      },
+      "review_plate": "06_Outputs/Building_Age_Expansion_2026-10-28/Review/Age_Sector_3_2.png"
+    }
+  ],
+  "not_applied": [
+    {
+      "source_fid": 39,
+      "reason": "Documentary/public record takes precedence",
+      "class": "public_listing_name"
+    },
+    {
+      "source_fid": 216,
+      "reason": "Documentary/public record takes precedence",
+      "class": "documentary_bound"
+    },
+    {
+      "source_fid": 202,
+      "reason": "Documentary/public record takes precedence",
+      "class": "public_primary"
+    },
+    {
+      "source_fid": 549,
+      "reason": "Documentary/public record takes precedence",
+      "class": "public_primary"
+    },
+    {
+      "source_fid": 725,
+      "reason": "Documentary/public record takes precedence",
+      "class": "public_conflict"
+    },
+    {
+      "source_fid": 769,
+      "reason": "Documentary/public record takes precedence",
+      "class": "public_primary"
+    },
+    {
+      "source_fid": 614,
+      "reason": "Documentary/public record takes precedence",
+      "class": "public_primary"
+    }
+  ],
+  "date_rule": "FY2019 can extend into calendar2020. Historical outline-only similarities are retained as leads and are not construction dates.",
+  "source": "GSI dated aerials;2026Esri/Vantor local reference; single-reviewer visual judgments",
+  "approximation_is_not_a_verified_age": true
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "check_date": "2026-10-18",
+  "check_type": "bounded_source_faithfulness_same_ARS_workflow",
+  "report": "docs/Research_Review_2026-10-18/REPORT.md",
+  "scope": {
+    "sections": [
+      "3. Three theoretical connections",
+      "4. Six technical paths"
+    ],
+    "report_lines_at_inspection": [
+      37,
+      132
+    ],
+    "reference_lines_at_inspection": [
+      204,
+      212
+    ],
+    "source_count": 9,
+    "evidence": "Previously inspected original source passages plus phase2_sources/methods_sources.json; no new source retrieval or independent/cross-model review."
+  },
+  "verdict": "NO_MATERIAL_FINDING_IN_BOUNDED_SCOPE",
+  "findings": [],
+  "checked_claim_groups": [
+    {
+      "topic": "UTCI abstract-only boundary",
+      "report_lines": [
+        47,
+        205
+      ],
+      "result": "Definition and listed climate variables are directly supported by the publisher abstract; the reference labels abstract-only. No approximation domain, personalized physiology or measured intervention effect claimed."
+    },
+    {
+      "topic": "AIJ abstract-only boundary",
+      "report_lines": [
+        96,
+        207
+      ],
+      "result": "Benchmark-based pedestrian-wind description is supported by the abstract. Report explicitly states that numerical prescriptions were not read."
+    },
+    {
+      "topic": "COST732 scope",
+      "report_lines": [
+        94,
+        98
+      ],
+      "result": "Physical/numerical error distinction and monitoring target variables plus residuals match inspected sections. Neutral, statistically steady RANS scope is explicit. Proposed wind–heat checks are labeled as proposals and not attributed as validated by wind-only guidance."
+    },
+    {
+      "topic": "UBEM inputs and validation scale",
+      "report_lines": [
+        63,
+        70
+      ],
+      "result": "Climate, geometry, constructions, systems, schedules and archetypes match source sections. Aggregate versus individual-building error distinction is supported. Scenario steps and cost/disruption comparisons are clearly proposed for the studio."
+    },
+    {
+      "topic": "RICS retained/new elements and module D",
+      "report_lines": [
+        74
+      ],
+      "result": "Common study period, retained/new-element scope and separate module-D reporting are consistent with section 3.3. Report makes no contradictory allocation of historical manufacture or future maintenance/end-of-life impacts."
+    },
+    {
+      "topic": "GPC inventory versus asset life-cycle assessment",
+      "report_lines": [
+        74
+      ],
+      "result": "Activity multiplied by matching emission factors follows section 5.1. District inventory and asset LCA boundaries are distinguished."
+    },
+    {
+      "topic": "SOLWEIG and governance connections",
+      "report_lines": [
+        47,
+        53,
+        82
+      ],
+      "result": "Radiation/Tmrt and required weather/wind inputs remain within inspected manual claims. Governance descriptions match conceptual/case-based sources and are not presented as quantified carbon effects."
+    }
+  ],
+  "excluded_from_verdict": [
+    "Yang and Yamagata, Alorabi, Zeng, Barcelona, EPA, JICA and official-brief claims were not assessed by this methods-source checker.",
+    "No solver execution, numerical correctness, field validation or empirical Kajicho benefit was assessed.",
+    "No report prose, Site, Git state or source records were changed."
+  ]
+}

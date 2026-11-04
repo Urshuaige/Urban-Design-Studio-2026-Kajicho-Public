@@ -1,0 +1,33 @@
+﻿ROW_ID,__wider_pk,name_ja,name_en,label,source_osm_ids,label_priority,translation_basis,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,1,中央通り,Chuo-dori Ave.,"Chuo-dori Ave.
+中央通り","[""24461574"", ""174757582"", ""174757591"", ""228056328"", ""1004202301"", ""1031963658"", ""1424558210"", ""1424558212"", ""1424558215"", ""1424558216""]",10,Tokyo metropolitan road-sign convention; existing local source romanization for local streets,1,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+2,2,外堀通り,Sotobori-dori Ave.,"Sotobori-dori Ave.
+外堀通り","[""27916753"", ""269039975"", ""436042878"", ""1254563375"", ""1254563377"", ""1254563378"", ""1254563381"", ""1254563383""]",7,Tokyo metropolitan road-sign convention; existing local source romanization for local streets,2,inside_wider,Original source feature or statistical unit; values not recomputed
+3,3,神田金物通り,Kanda Kanamono-dori St.,"Kanda Kanamono-dori St.
+神田金物通り","[""31046903"", ""33637414"", ""174757608"", ""174757609"", ""264070492"", ""264109976"", ""681548220"", ""681548223""]",7,Tokyo metropolitan road-sign convention; existing local source romanization for local streets,3,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+4,4,一八通り,Ippachi-dori St.,"Ippachi-dori St.
+一八通り","[""31090134"", ""108891398"", ""264069680"", ""264114579""]",7,Tokyo metropolitan road-sign convention; existing local source romanization for local streets,4,inside_wider,Original source feature or statistical unit; values not recomputed
+5,5,昭和通り,Showa-dori Ave.,"Showa-dori Ave.
+昭和通り","[""33621329"", ""33640827"", ""72465206"", ""243206484"", ""264109547"", ""264109548"", ""264109975"", ""264112784"", ""264112785"", ""264114580"", ""264114581"", ""681547930"", ""681548222"", ""1057181620"", ""1317049005"", ""1317049007""]",10,Tokyo metropolitan road-sign convention; existing local source romanization for local streets,5,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+6,6,神田ふれあい通り,Kanda Fureai-dori St.,"Kanda Fureai-dori St.
+神田ふれあい通り","[""41519941"", ""42294745"", ""90795013"", ""90795033"", ""162538295"", ""1305364575"", ""1424558209""]",7,Tokyo metropolitan road-sign convention; existing local source romanization for local streets,6,inside_wider,Original source feature or statistical unit; values not recomputed
+7,7,本銀通り,Honshirogane-dori St.,"Honshirogane-dori St.
+本銀通り","[""51933186"", ""1268769725""]",7,Tokyo metropolitan road-sign convention; existing local source romanization for local streets,7,inside_wider,Original source feature or statistical unit; values not recomputed
+8,8,須田二仲通り,Suda Ni Naka-dori St.,"Suda Ni Naka-dori St.
+須田二仲通り","[""90636499""]",7,Tokyo metropolitan road-sign convention; existing local source romanization for local streets,8,inside_wider,Original source feature or statistical unit; values not recomputed
+9,9,江戸通り,Edo-dori Ave.,"Edo-dori Ave.
+江戸通り","[""153190946"", ""153190951"", ""160732454"", ""174757564"", ""174757567"", ""203035346"", ""203035347"", ""203035348"", ""203035350"", ""993551535"", ""1126340246"", ""1254563379"", ""1254563380"", ""1254563382"", ""1254563384""]",10,Tokyo metropolitan road-sign convention; existing local source romanization for local streets,9,inside_wider,Original source feature or statistical unit; values not recomputed
+10,10,日銀通り,Nichigin-dori St.,"Nichigin-dori St.
+日銀通り","[""174758259"", ""993526142"", ""1196926577""]",7,Tokyo metropolitan road-sign convention; existing local source romanization for local streets,10,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+11,11,首都高速1号上野線,Shuto Expressway Route 1 Ueno,"Shuto Expressway Route 1 Ueno
+首都高速1号上野線","[""199311841"", ""199311842""]",7,Tokyo metropolitan road-sign convention; existing local source romanization for local streets,11,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+12,12,本町,Honcho Ramp,"Honcho Ramp
+本町","[""202905127""]",7,Tokyo metropolitan road-sign convention; existing local source romanization for local streets,12,inside_wider,Original source feature or statistical unit; values not recomputed
+13,13,水天宮通り,Suitengu-dori Ave.,"Suitengu-dori Ave.
+水天宮通り","[""228056329""]",7,Tokyo metropolitan road-sign convention; existing local source romanization for local streets,13,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+14,14,神田平成通り,Kanda Heisei-dori St.,"Kanda Heisei-dori St.
+神田平成通り","[""232805829"", ""264114582"", ""264114583"", ""264114941"", ""264115339""]",7,Tokyo metropolitan road-sign convention; existing local source romanization for local streets,14,inside_wider,Original source feature or statistical unit; values not recomputed
+15,15,あじさい通り,Ajisai-dori St.,"Ajisai-dori St.
+あじさい通り","[""264069677""]",7,Tokyo metropolitan road-sign convention; existing local source romanization for local streets,15,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+16,16,靖国通り,Yasukuni-dori Ave.,"Yasukuni-dori Ave.
+靖国通り","[""264448295"", ""874155679"", ""1057181619""]",10,Tokyo metropolitan road-sign convention; existing local source romanization for local streets,16,clipped_to_wider,Original source feature or statistical unit; values not recomputed

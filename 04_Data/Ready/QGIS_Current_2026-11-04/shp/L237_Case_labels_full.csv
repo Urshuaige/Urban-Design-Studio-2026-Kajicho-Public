@@ -1,0 +1,4 @@
+﻿ROW_ID,__wider_pk,label,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,1,1,1,inside_wider,Original source feature or statistical unit; values not recomputed
+2,2,2,2,inside_wider,Original source feature or statistical unit; values not recomputed
+3,3,3,3,inside_wider,Original source feature or statistical unit; values not recomputed

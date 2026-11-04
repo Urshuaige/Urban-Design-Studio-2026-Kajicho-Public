@@ -1,0 +1,9 @@
+﻿source_field,shp_field,shp_type,dbf_width_bytes,null_bit,storage,source_non_null,source_null,source_max_text_bytes
+__wider_pk,wider_pk,integer,11,0,shp_and_csv,40,0,
+osm_id,osm_id,text,16,1,shp_and_csv,40,0,16
+category,category,text,9,2,shp_and_csv,40,0,9
+gap_m,gap_m,real,20,3,shp_and_csv,40,0,
+status,status,text,16,4,shp_and_csv,40,0,16
+delivery_source_fid,delivery_s,integer,11,5,shp_and_csv,40,0,
+delivery_geometry,delivery_g,text,16,6,shp_and_csv,40,0,16
+delivery_value_scope,delivery_v,text,66,7,shp_and_csv,40,0,66

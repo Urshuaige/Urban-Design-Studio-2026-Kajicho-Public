@@ -1,0 +1,1400 @@
+{
+  "updated": "2026-10-26",
+  "visit_date": "2026-10-25",
+  "sources": [
+    {
+      "id": "talk",
+      "title": {
+        "en": "25 October field talk and supplied handout",
+        "zh": "10月25日现场讲解与已处理讲义",
+        "ja": "10月25日の現地説明・配布資料"
+      },
+      "url": "field-visit/downloads/Kajicho_2chome_English_Companion.pdf",
+      "year": "2026-10-25",
+      "locator": "Slides 3–8, 11–13, 22, 37–38, 44–45",
+      "kind": "visit"
+    },
+    {
+      "id": "relations",
+      "title": {
+        "en": "Presenter’s project relationship sheet",
+        "zh": "讲解者提供的组织关系图",
+        "ja": "説明者による関係図"
+      },
+      "url": "field-visit/downloads/Migita_and_Kajicho_2chome.pdf",
+      "year": "2026-10-25",
+      "locator": "p.1",
+      "kind": "visit"
+    },
+    {
+      "id": "walkable",
+      "title": {
+        "en": "Kajini Walkable Project 2: activity report",
+        "zh": "鍛冶弐步行项目2：活动报告",
+        "ja": "鍛冶弐ウォーカブルプロジェクト2 活動実績報告書"
+      },
+      "url": "https://www.city.chiyoda.lg.jp/documents/28084/jisshihokoku-8.pdf",
+      "year": "FY2025 activity",
+      "locator": "PDF pp.1–2, 8–10",
+      "kind": "public"
+    },
+    {
+      "id": "watage1",
+      "title": {
+        "en": "watage first-anniversary report",
+        "zh": "watage 一周年运营记录",
+        "ja": "watage 1st Anniversary 実施レポート"
+      },
+      "url": "https://note.com/watage_kanda/n/n5cde3facece3",
+      "year": "2025-09-17",
+      "kind": "operator"
+    },
+    {
+      "id": "watage2",
+      "title": {
+        "en": "watage second-anniversary report",
+        "zh": "watage 两周年运营记录",
+        "ja": "watage 2nd Anniversary 実施レポート"
+      },
+      "url": "https://note.com/watage_kanda/n/n8344c3f9cc8c",
+      "year": "2026",
+      "kind": "operator"
+    },
+    {
+      "id": "walkable4",
+      "title": {
+        "en": "Chiyoda: FY2026 walkable activities",
+        "zh": "千代田区：2026年度步行活动",
+        "ja": "千代田区・令和8年度ウォーカブルな活動"
+      },
+      "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/toshi/walkable/r8walkable.html",
+      "year": "FY2026",
+      "kind": "public"
+    },
+    {
+      "id": "master",
+      "title": {
+        "en": "Chiyoda City Planning Master Plan: area policies",
+        "zh": "千代田区都市规划总体规划：地区方针",
+        "ja": "千代田区都市計画マスタープラン・地域別方針"
+      },
+      "url": "https://www.city.chiyoda.lg.jp/documents/17862/toshimasu-4_2.pdf",
+      "year": "2021",
+      "locator": "Kanda and Izumibashi area policies; printed pp.181–184",
+      "kind": "public"
+    },
+    {
+      "id": "consensus",
+      "title": {
+        "en": "Tokyo special wards: redevelopment and consensus",
+        "zh": "东京特别区：再开发与合意形成研究",
+        "ja": "再開発と合意形成に関する調査研究"
+      },
+      "url": "https://www.tokyo23-kuchokai-kiko.jp/report/7/6_3.html",
+      "year": "2026-03",
+      "locator": "Summary: questionnaire and findings",
+      "kind": "research"
+    },
+    {
+      "id": "ria",
+      "title": {
+        "en": "RIA practice paper on urban redevelopment",
+        "zh": "RIA：市街地再开发实务论文",
+        "ja": "市街地再開発事業の今日的意義について"
+      },
+      "url": "https://www.lij.jp/html/jli/jli_2024/2024spring_p003.pdf",
+      "year": "2024",
+      "locator": "Printed pp.6–9",
+      "kind": "research"
+    },
+    {
+      "id": "mlit",
+      "title": {
+        "en": "MLIT: urban redevelopment projects",
+        "zh": "国土交通省：市街地再开发事业",
+        "ja": "国土交通省・市街地再開発事業"
+      },
+      "url": "https://www.mlit.go.jp/toshi/city/sigaiti/toshi_urbanmainte_tk_000060.html",
+      "year": "Official system overview",
+      "kind": "public"
+    },
+    {
+      "id": "data",
+      "title": {
+        "en": "Existing Site data and membership",
+        "zh": "现有 Site 数据及建筑归属",
+        "ja": "現行サイトのデータ・対象判定"
+      },
+      "url": "study-atlas/source_manifest.json",
+      "year": "PLATEAU model 2025 / survey 2021; OSM 2026-10-18",
+      "kind": "data"
+    },
+    {
+      "id": "civil",
+      "title": {
+        "en": "Civil Code",
+        "zh": "民法",
+        "ja": "民法"
+      },
+      "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+      "year": "Official text checked 2026-10-26",
+      "kind": "law"
+    },
+    {
+      "id": "lease",
+      "title": {
+        "en": "Act on Land and Building Leases",
+        "zh": "借地借家法",
+        "ja": "借地借家法"
+      },
+      "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+      "year": "Official text checked 2026-10-26",
+      "kind": "law"
+    },
+    {
+      "id": "unit",
+      "title": {
+        "en": "Act on Building Unit Ownership",
+        "zh": "建筑物区分所有等相关法律",
+        "ja": "建物の区分所有等に関する法律"
+      },
+      "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+      "year": "Official text checked 2026-10-26",
+      "kind": "law"
+    },
+    {
+      "id": "planning",
+      "title": {
+        "en": "City Planning Act",
+        "zh": "都市计划法",
+        "ja": "都市計画法"
+      },
+      "url": "https://laws.e-gov.go.jp/law/343AC0000000100",
+      "year": "Official text checked 2026-10-26",
+      "kind": "law"
+    },
+    {
+      "id": "building",
+      "title": {
+        "en": "Building Standards Act",
+        "zh": "建筑基准法",
+        "ja": "建築基準法"
+      },
+      "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+      "year": "Official text checked 2026-10-26",
+      "kind": "law"
+    },
+    {
+      "id": "redevelopment",
+      "title": {
+        "en": "Urban Redevelopment Act",
+        "zh": "都市再开发法",
+        "ja": "都市再開発法"
+      },
+      "url": "https://laws.e-gov.go.jp/law/344AC0000000038",
+      "year": "Official text checked 2026-10-26",
+      "kind": "law"
+    },
+    {
+      "id": "road",
+      "title": {
+        "en": "Road Act",
+        "zh": "道路法",
+        "ja": "道路法"
+      },
+      "url": "https://laws.e-gov.go.jp/law/327AC1000000180",
+      "year": "Official text checked 2026-10-26",
+      "kind": "law"
+    },
+    {
+      "id": "traffic",
+      "title": {
+        "en": "Road Traffic Act",
+        "zh": "道路交通法",
+        "ja": "道路交通法"
+      },
+      "url": "https://laws.e-gov.go.jp/law/335AC0000000105",
+      "year": "Official text checked 2026-10-26",
+      "kind": "law"
+    }
+  ],
+  "title": {
+    "en": "Field visit: how renewal works",
+    "zh": "现场调研：地区更新如何运行",
+    "ja": "現地調査：まちの更新の仕組み"
+  },
+  "intro": {
+    "en": "A guide to the October field talk, local projects, property rights and planning procedures in Kajicho. Read the supplied diagrams alongside the legal steps and the existing Site data.",
+    "zh": "结合10月现场讲解、当地项目、权利关系和规划程序，读懂鍛冶町的地区更新。讲义图示、法定环节和现有场地数据在同一页对应阅读。",
+    "ja": "10月の現地説明をもとに、鍛冶町の活動、権利関係、都市計画の手続を整理。配布図、法制度、現況データを対応させて読む。"
+  },
+  "scope_note": {
+    "en": "The visit mainly concerned Kajicho 2-chome. The course primary area, wider study area, community discussion area and a statutory project area are different spatial units.",
+    "zh": "本次讲解主要围绕鍛冶町二丁目。课程重点区、外围研究区、街区营造讨论范围和法定事业区域是不同的空间单位。",
+    "ja": "現地説明は主に鍛冶町二丁目が対象。授業の重点・周辺区域、まちづくりの検討範囲、法定事業区域は区別する。"
+  },
+  "takeaways": [
+    {
+      "title": {
+        "en": "Several activities run together",
+        "zh": "多条工作线同时推进",
+        "ja": "複数の活動が並行する"
+      },
+      "body": {
+        "en": "Town-association life, area-wide discussions, a redevelopment preparatory association, street experiments and watage each have their own participants and tasks. A single organisation does not control all of them.",
+        "zh": "町会活动、地区愿景讨论、再开发准备组合、街道实验和 watage 各有参与者与任务，不能合并成一条单一的行政或开发关系。",
+        "ja": "町会、地域の検討会、再開発準備組合、道路実験、watage はそれぞれ異なる主体と役割を持つ。"
+      },
+      "refs": [
+        "talk",
+        "relations",
+        "walkable"
+      ]
+    },
+    {
+      "title": {
+        "en": "Local ties are an existing resource",
+        "zh": "社区联系已经存在",
+        "ja": "既存の地域のつながり"
+      },
+      "body": {
+        "en": "The speaker described active discussion and festival networks, alongside difficulty passing responsibilities to the next generation. Her comments concern active participants, not a measured age profile of all residents.",
+        "zh": "讲解者介绍了活跃的居民讨论和祭典网络，也提到责任交接与新一代参与的困难。这是对活动参与群体的描述，不能当作全区人口年龄统计。",
+        "ja": "説明では活発な対話や祭りのネットワークと、担い手の世代交代の課題が語られた。地域人口全体の年齢統計とは異なる。"
+      },
+      "refs": [
+        "talk"
+      ]
+    },
+    {
+      "title": {
+        "en": "Daily activities precede construction",
+        "zh": "日常活动先于工程落地",
+        "ja": "工事前から続く活動"
+      },
+      "body": {
+        "en": "Street trials, coffee activities, local-history work and school-related events create occasions to meet, use space and record experience while longer-term planning continues.",
+        "zh": "街道实验、咖啡活动、地方记忆整理和旧校相关活动，为相遇、空间使用与经验积累提供机会；长期规划则另按程序推进。",
+        "ja": "道路実験、コーヒー、地域の記憶、旧校舎での活動などが、長期の計画検討と並行して行われている。"
+      },
+      "refs": [
+        "talk",
+        "watage2",
+        "walkable"
+      ]
+    },
+    {
+      "title": {
+        "en": "The handout marks an early planning stage",
+        "zh": "讲义标注的是前期阶段",
+        "ja": "資料が示す現在地"
+      },
+      "body": {
+        "en": "Slide 45 marks “study of a basic plan” as the current stage on 25 October. City-planning decisions, establishment of a statutory association, rights conversion and construction appear as later steps in that diagram.",
+        "zh": "第45页把10月25日的当前位置标在「基本计划案检讨」。都市计划决定、正式组合设立、权利转换和施工在图中属于后续环节。",
+        "ja": "45頁は10月25日時点の現在地を「基本計画案の検討」と表示。都市計画決定、組合設立、権利変換、工事は後続の段階として示されている。"
+      },
+      "refs": [
+        "talk"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2017–2018",
+      "text": {
+        "en": "Local discussions began in 2017; the Kajicho 2-chome community-development discussion group name followed in 2018, according to the talk.",
+        "zh": "据现场讲解，2017年开始地区讨论，2018年使用「鍛冶町二丁目まちづくりを考える会」名称。",
+        "ja": "説明によると2017年に検討を開始し、2018年に「鍛冶町二丁目まちづくりを考える会」の名称となった。"
+      },
+      "refs": [
+        "talk"
+      ]
+    },
+    {
+      "date": "2020",
+      "text": {
+        "en": "A questionnaire broadened input beyond people attending meetings. The talk describes questions about the vision and future use of land and buildings.",
+        "zh": "问卷把意见征集扩展到平常未参加会议的人，内容涉及地区愿景及土地、建筑的未来使用。",
+        "ja": "会議参加者以外にもアンケートを実施。地域像や土地・建物の今後の利用を尋ねたと説明された。"
+      },
+      "refs": [
+        "talk"
+      ]
+    },
+    {
+      "date": "2024",
+      "text": {
+        "en": "watage opened as a community base in July, according to its operator’s first-anniversary report.",
+        "zh": "运营方一周年记录记载，watage 于7月作为社区据点开放。",
+        "ja": "運営者の1周年報告によると、7月にコミュニティ拠点 watage が開設された。"
+      },
+      "refs": [
+        "watage1"
+      ]
+    },
+    {
+      "date": "FY2025",
+      "text": {
+        "en": "Walkable Project 2 documented an implementation committee, university involvement, road permits, local cooperation and an activity budget.",
+        "zh": "步行项目2记录了执行委员会、大学参与、道路许可、地区合作和活动收支。",
+        "ja": "ウォーカブルプロジェクト2は実行体制、大学との連携、道路許可、地域協力、活動収支を記録。"
+      },
+      "refs": [
+        "walkable"
+      ]
+    },
+    {
+      "date": "FY2026",
+      "text": {
+        "en": "The supplied presentation distinguishes placemaking and place networking; the ward lists Kajini Walkable Project 4 among its FY2026 activities.",
+        "zh": "讲义把活动分为场所营造和场所联系；区政府将鍛冶弐步行项目4列入2026年度活动。",
+        "ja": "配布資料はプレイスメイキングとプレイスネットワーキングを区分。区の令和8年度活動にもプロジェクト4が掲載されている。"
+      },
+      "refs": [
+        "talk",
+        "walkable4"
+      ]
+    }
+  ],
+  "guidelines": [
+    {
+      "en": "A multi-use plaza at Kanda Station’s east side",
+      "zh": "神田站东侧的多功能广场",
+      "ja": "神田駅東側の多様な広場"
+    },
+    {
+      "en": "Comfortable walking and connected routes",
+      "zh": "舒适步行与回游网络",
+      "ja": "快適な歩行と回遊ネットワーク"
+    },
+    {
+      "en": "Connected greenery",
+      "zh": "连续的绿化",
+      "ja": "緑が連続するまち"
+    },
+    {
+      "en": "Continuous street activity around the station",
+      "zh": "站前连续的街道活力",
+      "ja": "神田駅前の連続した賑わい"
+    },
+    {
+      "en": "Community continuity across generations",
+      "zh": "社区维持、活化与代际接续",
+      "ja": "次世代につなぐコミュニティ"
+    },
+    {
+      "en": "Townscape suited to the station area",
+      "zh": "与地区相协调的站前景观",
+      "ja": "神田駅前にふさわしい景観"
+    },
+    {
+      "en": "Environmental care, safety and security",
+      "zh": "环境、安全与安心",
+      "ja": "環境に配慮した安全・安心"
+    }
+  ],
+  "figures": [
+    {
+      "file": "Original_Slide_03.png",
+      "page": "3",
+      "title": {
+        "en": "Local planning timeline",
+        "zh": "地区讨论时间线",
+        "ja": "地域の検討経緯"
+      }
+    },
+    {
+      "file": "Original_Slide_08.png",
+      "page": "8",
+      "title": {
+        "en": "Guideline themes and spatial illustration",
+        "zh": "导则主题与空间示意",
+        "ja": "ガイドラインの項目と整備イメージ"
+      }
+    },
+    {
+      "file": "Original_Slide_11.png",
+      "page": "11",
+      "title": {
+        "en": "Walkable-project organisation",
+        "zh": "步行项目组织结构",
+        "ja": "ウォーカブル事業の実施体制"
+      }
+    },
+    {
+      "file": "Original_Slide_12.png",
+      "page": "12",
+      "title": {
+        "en": "FY2026 activities",
+        "zh": "2026年度活动说明",
+        "ja": "令和8年度の活動"
+      }
+    },
+    {
+      "file": "Original_Slide_22.png",
+      "page": "22",
+      "title": {
+        "en": "Who runs watage",
+        "zh": "watage 的运营团队",
+        "ja": "watage の運営体制"
+      }
+    },
+    {
+      "file": "Original_Slide_45.png",
+      "page": "45",
+      "title": {
+        "en": "Project stage as presented on the visit",
+        "zh": "调研当日讲义中的项目阶段",
+        "ja": "現地説明時の現在地"
+      }
+    }
+  ],
+  "actors": [
+    {
+      "name": "鍛冶町二丁目町会",
+      "en": "Kajicho 2-chome Town Association",
+      "role": {
+        "en": "Local events, festival ties and communication with residents and shops. The activity report lists publicity support.",
+        "zh": "承担地方活动、祭典联系及居民商户沟通；活动报告列出其宣传合作。",
+        "ja": "地域活動・祭り・住民や店舗との連絡。活動報告では広報協力を担当。"
+      },
+      "authority": {
+        "en": "Community participation does not itself confer land-disposal or planning authority.",
+        "zh": "社区组织身份本身不产生土地处分权或都市计划决定权。",
+        "ja": "地域組織であることと、土地処分・都市計画決定の権限は別。"
+      },
+      "refs": [
+        "relations",
+        "walkable"
+      ]
+    },
+    {
+      "name": "鍛冶町二丁目まちづくりを考える会",
+      "en": "Community Development Discussion Group",
+      "role": {
+        "en": "Discusses the wider local vision and guidelines, beyond the individual redevelopment project.",
+        "zh": "讨论更大范围的地区愿景和导则，工作范围不限于单个再开发项目。",
+        "ja": "個別の再開発事業を超えて地域像やガイドラインを検討。"
+      },
+      "authority": {
+        "en": "A local vision informs coordination; binding controls come through the applicable plans, rules and agreements.",
+        "zh": "共同愿景用于协调；约束效力通过适用的规划、规则和协议体现。",
+        "ja": "地域像は調整の基盤となり、拘束力は適用される計画・ルール・協定による。"
+      },
+      "refs": [
+        "talk",
+        "relations"
+      ]
+    },
+    {
+      "name": "神田駅東口地区再開発準備組合",
+      "en": "Kanda Station East Exit Redevelopment Preparatory Association",
+      "role": {
+        "en": "The talk describes basic-plan study, rights-holder coordination and commissions to design and planning specialists.",
+        "zh": "访谈介绍其开展基本方案研究、权利人协调，并委托设计及规划专业机构。",
+        "ja": "説明では基本計画の検討、権利者調整、設計・都市計画の専門家への発注を担う。"
+      },
+      "authority": {
+        "en": "A preparatory association is distinct from an association established with statutory approval.",
+        "zh": "准备组合与依法认可设立的正式再开发组合不同。",
+        "ja": "準備組合と、認可を受けて設立する法定の再開発組合は区別する。"
+      },
+      "refs": [
+        "talk",
+        "relations",
+        "redevelopment"
+      ]
+    },
+    {
+      "name": "日鉄興和不動産株式会社",
+      "en": "Nippon Steel Kowa Real Estate",
+      "role": {
+        "en": "Named in the public walkable-project committee. The watage report identifies it as the owner providing and preparing that community space.",
+        "zh": "公开步行项目报告将其列为执行委员会成员；watage 运营记录记载其提供、整备该社区场所并承担业主角色。",
+        "ja": "公開活動報告の実行委員会メンバー。watage の報告では拠点のオーナーとして場を提供・整備。"
+      },
+      "authority": {
+        "en": "The documented watage role does not establish ownership of every building in a study-zone polygon.",
+        "zh": "watage 的已记录业主角色不能扩展为整个研究分区内每栋建筑的产权认定。",
+        "ja": "watage の所有関係を、研究区画内の全建物に拡張して解釈しない。"
+      },
+      "refs": [
+        "walkable",
+        "watage1",
+        "talk"
+      ]
+    },
+    {
+      "name": "野村不動産株式会社",
+      "en": "Nomura Real Estate",
+      "role": {
+        "en": "Listed in the public walkable-project committee; also named by the speaker among redevelopment participants.",
+        "zh": "列入公开步行项目执行委员会；讲解者也在再开发问答中提及其参与。",
+        "ja": "公開活動報告に実行委員会参加者として掲載。再開発の説明でも参加主体として言及。"
+      },
+      "authority": {
+        "en": "Participation is a documented role, not a parcel-by-parcel title record or a final project award.",
+        "zh": "参与记录不等于逐宗产权资料，也不等于最终开发权授予。",
+        "ja": "参加の記録は、各筆の所有権や最終的な事業権の確定を示すものではない。"
+      },
+      "refs": [
+        "walkable",
+        "talk"
+      ]
+    },
+    {
+      "name": "一般財団法人首都圏不燃建築公社",
+      "en": "首都圏不燃建築公社 · General incorporated foundation",
+      "role": {
+        "en": "Listed in the public activity committee and named in the redevelopment discussion. Its legal form is a general incorporated foundation.",
+        "zh": "公开活动报告列其为委员会成员，访谈也提及其参与再开发讨论；法律形态为一般财团法人。",
+        "ja": "公開活動報告の委員会メンバーで、再開発の説明にも登場。法人形態は一般財団法人。"
+      },
+      "authority": {
+        "en": "The word “public corporation” in an informal translation should not be read as a government department.",
+        "zh": "非正式英文翻译中的“公社”不能直接理解为政府部门。",
+        "ja": "英訳上の “public corporation” を行政機関と同一視しない。"
+      },
+      "refs": [
+        "walkable",
+        "talk"
+      ]
+    },
+    {
+      "name": "株式会社松田平田設計",
+      "en": "Matsuda Hirata Design",
+      "role": {
+        "en": "The relationship sheet describes planning consultancy, stakeholder coordination, administrative consultation and secretariat work.",
+        "zh": "组织关系图记载规划咨询、相关方协调、行政协商与事务局工作。",
+        "ja": "関係図では都市計画コンサル、合意形成、行政協議、事務局業務を担当。"
+      },
+      "authority": {
+        "en": "Consultants prepare and coordinate material; statutory decisions remain with the competent public authority.",
+        "zh": "顾问负责准备资料和协调，法定规划决定仍由有权限的公共机关作出。",
+        "ja": "資料作成や調整を担うが、法定の決定は権限を持つ行政主体が行う。"
+      },
+      "refs": [
+        "relations",
+        "walkable",
+        "planning"
+      ]
+    },
+    {
+      "name": "SharedVision / 右田萌（Megumi Migita） / for Cities",
+      "en": "Programme planning and local coordination",
+      "role": {
+        "en": "The supplied material explains SharedVision’s project coordination and Migita’s links across local groups. Migita and Yukako Ishikawa of for Cities helped found watage’s programmes.",
+        "zh": "材料介绍 SharedVision 的企划协调，以及右田萌在地区组织之间的联系；右田与 for Cities 的石川由佳子参与 watage 项目的创立及运营。",
+        "ja": "資料は SharedVision の企画調整と右田萌氏の地域間の連携を説明。右田氏と for Cities の石川由佳子氏が watage の企画立ち上げに参加。"
+      },
+      "authority": {
+        "en": "Programme operation, professional consulting and personal community participation are separate roles.",
+        "zh": "活动运营、专业咨询和个人参加社区事务是不同角色。",
+        "ja": "活動運営、専門業務、個人としての地域参加を分けて読む。"
+      },
+      "refs": [
+        "relations",
+        "watage1",
+        "talk"
+      ]
+    },
+    {
+      "name": "東京都市大学 中島伸研究室・学生",
+      "en": "Tokyo City University, Nakajima Laboratory and students",
+      "role": {
+        "en": "The public report identifies the university’s participation and Associate Professor Shin Nakajima as committee chair; students joined preparation and implementation.",
+        "zh": "公开报告记载大学参与，并由中岛伸副教授担任执行委员会委员长；学生参与准备和实施。",
+        "ja": "公開報告では東京都市大学が参加し、中島伸准教授が実行委員長、学生が企画・実施に参加。"
+      },
+      "authority": {
+        "en": "Research and implementation support operate within the organiser’s arrangements and the relevant permissions.",
+        "zh": "研究和执行支持在主办安排及相关许可范围内开展。",
+        "ja": "調査・実施支援は主催体制と必要な許可の範囲で行われる。"
+      },
+      "refs": [
+        "walkable"
+      ]
+    },
+    {
+      "name": "千代田区・東京都・道路管理者・警察",
+      "en": "Ward, metropolitan government, road manager and police",
+      "role": {
+        "en": "Planning, public-facility responsibilities, support, technical consultation and permits are divided by subject and legal competence.",
+        "zh": "都市计划、公共设施管理、活动支持、技术协商和许可，按事项及法定权限分工。",
+        "ja": "都市計画、公共施設、活動支援、協議、許可は事項と法的権限に応じて分担。"
+      },
+      "authority": {
+        "en": "A planning council deliberates; the legally competent prefecture or municipality makes the planning decision. Road occupation and traffic-use permissions are separate.",
+        "zh": "审议会参与审议；法定有权的都道府县或市町村作出规划决定。道路占用和道路使用许可也分别办理。",
+        "ja": "審議会の審議を経て、権限を持つ都道府県・市町村が計画を決定。道路占用と道路使用の許可も別。"
+      },
+      "refs": [
+        "planning",
+        "road",
+        "traffic",
+        "walkable"
+      ]
+    }
+  ],
+  "rights": [
+    {
+      "id": "land",
+      "title": {
+        "en": "Land ownership",
+        "zh": "土地所有权",
+        "ja": "土地所有権"
+      },
+      "term": "所有権",
+      "body": {
+        "en": "The landowner can use, benefit from and dispose of the land within legal limits. Ownership does not remove zoning, building controls or the rights of other parties.",
+        "zh": "土地所有者可以在法令限制内使用、收益和处分土地。所有权不会排除用途地域、建筑管制或其他当事人的既有权利。",
+        "ja": "土地所有者は法令の制限内で使用・収益・処分できる。用途地域、建築規制、他者の権利も適用される。"
+      },
+      "effect": {
+        "en": "For the association route under Article 14, landowner consent is counted as its own rights-holder category.",
+        "zh": "第14条的组合设立程序中，土地所有权人属于单独计算同意人数的一类。",
+        "ja": "第14条の組合設立では、宅地所有者は独立した同意人数の区分となる。"
+      },
+      "refs": [
+        "civil",
+        "redevelopment"
+      ],
+      "articles": "Civil Code 206; Urban Redevelopment Act 14"
+    },
+    {
+      "id": "leasehold",
+      "title": {
+        "en": "Land leasehold for a building",
+        "zh": "用于拥有建筑的借地权",
+        "ja": "建物所有目的の借地権"
+      },
+      "term": "借地権",
+      "body": {
+        "en": "Article 2 defines this as a superficies right or a land lease for the purpose of owning a building. The person may own the building while another person owns the underlying land.",
+        "zh": "第2条所称借地权，是为拥有建筑而设定的地上权或土地租赁权。同一地点可以由一方拥有土地，另一方拥有建筑。",
+        "ja": "第2条の借地権は、建物所有を目的とする地上権または土地賃借権。土地と建物の所有者が異なることがある。"
+      },
+      "effect": {
+        "en": "It is different from renting a room. Lease term, type and contract history matter; Article 14 counts eligible leaseholders separately from landowners.",
+        "zh": "它与租住一间房不同。期限、类型及合同沿革会影响权利内容；第14条将符合定义的借地权人与土地所有权人分开计算。",
+        "ja": "部屋を借りる借家とは異なる。契約の種類・期間・経緯を確認し、第14条では宅地所有者と別に同意を数える。"
+      },
+      "refs": [
+        "lease",
+        "redevelopment"
+      ],
+      "articles": "Land and Building Leases Act 2, 3, 22; Urban Redevelopment Act 14"
+    },
+    {
+      "id": "building-owner",
+      "title": {
+        "en": "Building ownership",
+        "zh": "建筑物所有权",
+        "ja": "建物所有権"
+      },
+      "term": "建物所有権",
+      "body": {
+        "en": "A building can have an owner separate from the landowner. Redevelopment must identify the lawful basis for occupying the land and the rights attached to the building.",
+        "zh": "建筑可以与土地分属不同所有者。再开发需要确认建筑占用土地的合法依据，以及附着于建筑的各项权利。",
+        "ja": "建物と土地の所有者は異なる場合がある。土地使用の権原と建物に付く権利を確認する。"
+      },
+      "effect": {
+        "en": "Eligible building owners are addressed in the rights-conversion plan. Existing floor area does not automatically convert one-for-one into new floor area.",
+        "zh": "符合条件的建筑所有者在权利转换计划中处理；原有楼面与新楼面并非当然按一比一转换。",
+        "ja": "対象となる建物所有者は権利変換計画で扱われる。従前と新築の床面積が自動的に一対一で交換されるわけではない。"
+      },
+      "refs": [
+        "civil",
+        "redevelopment"
+      ],
+      "articles": "Civil Code 206; Urban Redevelopment Act 71, 73, 77"
+    },
+    {
+      "id": "tenant",
+      "title": {
+        "en": "Building tenancy",
+        "zh": "建筑或房屋租赁权",
+        "ja": "建物賃借権・借家権"
+      },
+      "term": "借家権",
+      "body": {
+        "en": "A tenant pays to use a building or part of one. Ordinary and fixed-term building leases have different rules; ordinary-lease termination or refusal to renew by the landlord is subject to Article 28’s just-cause test.",
+        "zh": "租户支付租金使用建筑或其中一部分。普通借家与定期借家的规则不同；普通借家中，房东提出解约或拒绝续租受第28条正当事由规则约束。",
+        "ja": "建物または一部を借りて使用する権利。普通借家と定期借家で規律が異なり、普通借家の貸主側の解約・更新拒絶には第28条の正当事由が関係する。"
+      },
+      "effect": {
+        "en": "Tenants are not the same category as land leaseholders. Articles 71(3), 77(5), 88(5) and 97 address choices, new tenancy and compensation in the relevant redevelopment procedure.",
+        "zh": "借家人不等于借地权人。适用再开发程序中的选择、新租赁权和补偿，涉及第71条第3款、第77条第5款、第88条第5款及第97条。",
+        "ja": "借家人と借地権者を混同しない。再開発では第71条3項、77条5項、88条5項、97条などが申出、新たな借家権、補償を扱う。"
+      },
+      "refs": [
+        "lease",
+        "redevelopment"
+      ],
+      "articles": "Land and Building Leases Act 26, 28, 31, 38; Urban Redevelopment Act 71, 77, 88, 97"
+    },
+    {
+      "id": "unit",
+      "title": {
+        "en": "Unit ownership and shared parts",
+        "zh": "区分所有与共有部分",
+        "ja": "区分所有権と共用部分"
+      },
+      "term": "区分所有",
+      "body": {
+        "en": "A separately usable part of a building can be the subject of unit ownership. Owners also share interests in common parts and the site, with management conducted through the relevant association and rules.",
+        "zh": "具有独立使用条件的建筑部分可以成为区分所有的对象；所有者同时涉及共有部分和敷地权益，管理通过相关组织和规则进行。",
+        "ja": "独立して使用できる建物部分は区分所有の対象となり得る。共用部分や敷地の権利、管理団体と規約も関係する。"
+      },
+      "effect": {
+        "en": "A single shopfront or apartment owner may not decide alone about shared structure, common space or the whole site. The applicable decision rule depends on the proposed action.",
+        "zh": "一个店铺或单元的所有者，未必能单独决定共有结构、公共部分或整块敷地的改变；具体决议规则取决于事项。",
+        "ja": "店舗・住戸の所有者が共用構造や敷地全体を単独で変更できるとは限らない。決議要件は行為によって異なる。"
+      },
+      "refs": [
+        "unit"
+      ],
+      "articles": "Building Unit Ownership Act 1, 3, 17, 22"
+    },
+    {
+      "id": "mortgage",
+      "title": {
+        "en": "Mortgage and secured interests",
+        "zh": "抵押权等担保权益",
+        "ja": "抵当権等の担保権"
+      },
+      "term": "抵当権",
+      "body": {
+        "en": "A mortgage secures repayment against specified property while possession generally remains with the owner. It adds another legal interest to the ownership and tenancy picture.",
+        "zh": "抵押权以特定财产担保债权，通常并不转移占有。它在所有和租赁关系之外增加另一类法律权益。",
+        "ja": "抵当権は占有を移さずに特定の不動産を担保とする権利で、所有・賃貸借に加えて確認すべき権利となる。"
+      },
+      "effect": {
+        "en": "Rights investigation and a conversion plan must account for registered security interests; a colour on the study map is not a title search.",
+        "zh": "权利调查和转换计划需处理已登记担保权益；研究地图中的颜色不是产权登记查询。",
+        "ja": "権利調査・変換計画では担保権も扱う。研究図の着色は登記調査の代わりにはならない。"
+      },
+      "refs": [
+        "civil",
+        "redevelopment"
+      ],
+      "articles": "Civil Code 369; Urban Redevelopment Act 73"
+    }
+  ],
+  "process": [
+    {
+      "title": {
+        "en": "Local discussion",
+        "zh": "地区讨论",
+        "ja": "地域の話し合い"
+      },
+      "body": {
+        "en": "Residents, landowners and local organisations discuss the area and its needs. A shared vision can cover a larger area than a redevelopment project.",
+        "zh": "居民、地权人和地区组织讨论需求；共同愿景可以覆盖比再开发项目更大的范围。",
+        "ja": "住民・地権者・地域組織が課題を検討。地域像は個別の再開発より広い範囲を扱う。"
+      }
+    },
+    {
+      "title": {
+        "en": "Preparatory organisation",
+        "zh": "准备组织",
+        "ja": "準備組合"
+      },
+      "body": {
+        "en": "A preparatory group commissions studies and coordinates rights-holder interests. It is not yet the statutory redevelopment association.",
+        "zh": "准备组织委托研究、协调权利人诉求；此时尚不等于正式法定再开发组合。",
+        "ja": "準備組織が調査を委託し権利者の意向を調整。法定の再開発組合とは異なる。"
+      }
+    },
+    {
+      "title": {
+        "en": "Basic-plan study",
+        "zh": "基本计划案检讨",
+        "ja": "基本計画案の検討"
+      },
+      "body": {
+        "en": "Study building form, public space, project feasibility and the treatment of rights. Slide 45 marks this stage as the local position at the visit.",
+        "zh": "研究建筑、公共空间、事业可行性和权利处理；第45页将此标作调研时的当地阶段。",
+        "ja": "建物・公共空間・事業性・権利の扱いを検討。45頁は現地説明時の現在地をここに示す。"
+      },
+      "current": true
+    },
+    {
+      "title": {
+        "en": "City-planning procedure",
+        "zh": "都市计划程序",
+        "ja": "都市計画手続"
+      },
+      "body": {
+        "en": "The competent authority prepares and determines the statutory plan through the applicable consultation, public-inspection and deliberation steps.",
+        "zh": "有权限的行政主体通过适用的协商、公开阅览和审议环节，制定法定都市计划。",
+        "ja": "権限を持つ行政主体が協議・縦覧・審議などを経て法定計画を定める。"
+      }
+    },
+    {
+      "title": {
+        "en": "Statutory association and project plan",
+        "zh": "正式组合与事业计划",
+        "ja": "法定組合と事業計画"
+      },
+      "body": {
+        "en": "For the association route, establishment and the project plan require the approvals and consent conditions specified by law.",
+        "zh": "采用组合实施路径时，组合设立及事业计划需要符合法定认可和同意条件。",
+        "ja": "組合施行の場合は、設立・事業計画について法定の認可と同意要件を満たす。"
+      }
+    },
+    {
+      "title": {
+        "en": "Rights-conversion plan",
+        "zh": "权利转换计划",
+        "ja": "権利変換計画"
+      },
+      "body": {
+        "en": "Record existing rights, valuations, new rights and compensation, and follow the plan’s inspection and approval procedure.",
+        "zh": "明确原有权利、估价、新权利与补偿，并履行转换计划的阅览和认可程序。",
+        "ja": "従前の権利、評価、新しい権利、補償を整理し、縦覧・認可を行う。"
+      }
+    },
+    {
+      "title": {
+        "en": "Relocation and construction",
+        "zh": "迁移与建设",
+        "ja": "移転・工事"
+      },
+      "body": {
+        "en": "Land handover, relocation, compensation and construction follow the applicable approved arrangements. Building confirmation is a separate compliance procedure.",
+        "zh": "土地交付、迁移、补偿和施工依适用的获批安排推进；建筑确认是另一个合规环节。",
+        "ja": "明渡し、移転、補償、工事を適用される計画に基づき進める。建築確認は別の適合確認手続。"
+      }
+    },
+    {
+      "title": {
+        "en": "Management after completion",
+        "zh": "竣工后的管理运营",
+        "ja": "竣工後の管理・運営"
+      },
+      "body": {
+        "en": "New buildings and public spaces need continuing management, maintenance responsibilities and funding. Local activities can also continue before completion.",
+        "zh": "新建筑与公共空间需要持续管理、维护责任和经费；地区活动也可在工程完成之前持续开展。",
+        "ja": "建物や公共空間には継続する管理、維持責任、財源が必要。地域活動は竣工前からも続く。"
+      }
+    }
+  ],
+  "conversion": [
+    {
+      "en": "Existing land, buildings, leases and security interests",
+      "zh": "原有土地、建筑、租赁与担保权益",
+      "ja": "従前の土地・建物・賃借権・担保権"
+    },
+    {
+      "en": "Rights investigation, valuation and a legally approved conversion plan",
+      "zh": "权利调查、估价与依法认可的转换计划",
+      "ja": "権利調査・評価・認可を受けた権利変換計画"
+    },
+    {
+      "en": "Allocated rights in the new building / site, tenancy arrangements or the applicable monetary route",
+      "zh": "新建筑及敷地中的对应权益、租赁安排，或适用的金钱给付路径",
+      "ja": "新建物・敷地の権利、借家権、または適用される金銭給付"
+    }
+  ],
+  "finance_note": {
+    "en": "Rights floors (権利床) are the new floor interests allocated to eligible existing rights-holders. Reserve floors (保留床) can help finance the project through disposal. Floor position, use, value, expenses and relocation conditions matter; there is no universal land-to-floor conversion ratio. In the interview, early borrowing and commissions were described as a separate preparation-stage funding chain.",
+    "zh": "「権利床」是向符合条件的原权利人配置的新楼面权益；「保留床」可通过处分等方式筹措事业资金。位置、用途、价值、费用及迁移条件都影响安排，不存在统一的土地面积换楼面比例。访谈所述前期借款和委托，则属于准备阶段的资金与发包关系。",
+    "ja": "権利床は従前権利者に割り当てる床の権利、保留床は処分等により事業費を支える床。位置・用途・価額・費用・移転条件を含めて定め、土地と床の一律の交換比率はない。説明中の前期借入れ・発注は準備段階の資金関係として区別する。"
+  },
+  "law_cards": [
+    {
+      "topic": "rights",
+      "title": {
+        "en": "Ownership is exercised within law",
+        "zh": "所有权在法令范围内行使",
+        "ja": "法令の範囲内の所有権"
+      },
+      "refs": [
+        "civil"
+      ],
+      "articles": "206, 369, 601",
+      "text": {
+        "en": "Article 206 defines ownership as use, benefit and disposal within legal limits. Article 369 covers mortgage security; Article 601 defines a lease. These are different interests even when they concern the same parcel or building.",
+        "zh": "第206条规定在法令限制内使用、收益和处分所有物；第369条规定抵押权，第601条定义租赁。同一地块或建筑上可以存在这些不同权益。",
+        "ja": "206条は法令の制限内の使用・収益・処分、369条は抵当権、601条は賃貸借を規定。同じ不動産に異なる権利が存在し得る。"
+      }
+    },
+    {
+      "topic": "rights",
+      "title": {
+        "en": "Land leasehold and building tenancy",
+        "zh": "借地与借家要分别理解",
+        "ja": "借地と借家を分ける"
+      },
+      "refs": [
+        "lease"
+      ],
+      "articles": "2, 3, 22; 26, 28, 31, 38",
+      "text": {
+        "en": "Article 2 concerns a land right for owning a building. Ordinary land-lease duration and fixed-term land leases have separate provisions. Ordinary building leases and fixed-term building leases also differ: Article 38 requires the statutory form and prior explanation for the no-renewal arrangement. Article 31 concerns a delivered building tenancy’s effect against later acquirers.",
+        "zh": "第2条涉及为拥有建筑而设的土地权利；普通借地期限与定期借地另有不同规定。普通借家与定期借家也有区别，第38条要求按法定形式订立并事先说明不续租安排；第31条涉及交付后的建筑租赁对后来取得物权者的效力。",
+        "ja": "2条は建物所有目的の土地の権利。普通借地と定期借地、普通借家と定期借家を区別する。38条の定期借家には法定方式と事前説明が必要で、31条は建物引渡し後の対抗力を扱う。"
+      }
+    },
+    {
+      "topic": "rights",
+      "title": {
+        "en": "Unit and common-property decisions",
+        "zh": "单元权利与共有部分决策",
+        "ja": "専有部分と共用部分"
+      },
+      "refs": [
+        "unit"
+      ],
+      "articles": "1, 3, 17, 22",
+      "text": {
+        "en": "Separate units, common parts, site rights and the owners’ management body are linked. The decision required for changing common parts depends on the action and applicable rules; individual title alone does not settle the whole-building decision.",
+        "zh": "专有单元、共有部分、敷地权利与所有者管理组织相互关联。共有部分变更需要何种决议，取决于具体事项和适用规则，个人单元产权并不能直接替代整栋建筑的决策。",
+        "ja": "専有部分・共用部分・敷地利用権・管理団体を併せて読む。共用部分の変更に必要な決議は行為と適用規定によって異なる。"
+      }
+    },
+    {
+      "topic": "planning",
+      "title": {
+        "en": "Vision, master plan and binding plan",
+        "zh": "愿景、总体规划与法定图则",
+        "ja": "地域像・マスタープラン・法定計画"
+      },
+      "refs": [
+        "planning",
+        "master"
+      ],
+      "articles": "8, 12-5, 18-2",
+      "text": {
+        "en": "The municipal master plan states a basic planning policy. Zoning and district plans are statutory planning tools with their own procedures and geographic scope. A local guideline can guide discussion, but a diagram alone does not grant building permission or change a site’s floor-area ratio.",
+        "zh": "区市町村总体规划说明基本方针；用途地域和地区计划是有各自程序及适用范围的法定规划工具。地方导则用于组织讨论，但一张示意图本身不会授予建筑许可或改变地块容积率。",
+        "ja": "市町村マスタープランは基本方針。用途地域や地区計画には固有の手続と適用区域がある。ガイドラインの図だけで建築許可や容積率変更が成立するわけではない。"
+      }
+    },
+    {
+      "topic": "planning",
+      "title": {
+        "en": "Who decides the city plan",
+        "zh": "谁作出都市计划决定",
+        "ja": "都市計画を決定する主体"
+      },
+      "refs": [
+        "planning"
+      ],
+      "articles": "15, 16, 17, 18, 19",
+      "text": {
+        "en": "Legal competence is divided between prefectural and municipal authorities by planning category, with applicable special arrangements for Tokyo. Planning councils deliberate. Article 17 provides two weeks of public inspection of the draft and permits written opinions from eligible residents and interested parties. Early workshops and this statutory inspection are different stages.",
+        "zh": "法定权限按规划类别在都道府县与市町村之间划分，东京还适用相关特例；审议会承担审议。第17条规定规划案公开阅览两周，并允许相关居民和利害关系人提交意见书。早期工作坊与这一法定阅览环节不同。",
+        "ja": "計画の種類によって都道府県・市町村の権限が分かれ、東京には関係する特例もある。審議会は審議を担う。17条は案の2週間の縦覧と住民・利害関係人の意見書提出を規定し、初期のワークショップとは異なる段階である。"
+      }
+    },
+    {
+      "topic": "planning",
+      "title": {
+        "en": "How building form is regulated",
+        "zh": "建筑形态如何受到管制",
+        "ja": "建物の形態を定める規制"
+      },
+      "refs": [
+        "building"
+      ],
+      "articles": "6, 43, 48, 52, 53, 56, 59-2, 61, 68-2",
+      "text": {
+        "en": "These provisions address building confirmation, road access, use restrictions, floor-area ratio (FAR), building coverage ratio (BCR), height and fire rules, comprehensive-design permissions and district-plan-based controls. Permitted intensity must be read with frontage, road width and other applicable conditions. A height in PLATEAU describes a model, not the permitted development envelope.",
+        "zh": "这些条款分别涉及建筑确认、接道、用途限制、容积率、建蔽率、高度与防火规则、综合设计许可和地区计划相关管制。允许开发强度要结合接道、道路宽度及其他适用条件读取。PLATEAU 建筑高度描述模型，不能当作可建上限。",
+        "ja": "建築確認、接道、用途制限、容積率、建蔽率、高さ・防火規制、総合設計、地区計画条例等を扱う。開発可能量は接道・道路幅員等の条件も含めて読む。PLATEAU の高さはモデル情報で、許容建築形態ではない。"
+      }
+    },
+    {
+      "topic": "delivery",
+      "title": {
+        "en": "Association consent: the precise scope",
+        "zh": "组合设立同意门槛的适用范围",
+        "ja": "組合設立の同意要件"
+      },
+      "refs": [
+        "redevelopment"
+      ],
+      "articles": "14, 20",
+      "text": {
+        "en": "For the Article 14 association-establishment application, at least two thirds of landowners and at least two thirds of land leaseholders must consent. The combined area owned and leased by consenting parties must also reach two thirds of the corresponding total land-plus-leasehold area. Article 20 addresses membership after statutory establishment. This is not a universal two-thirds rule for every decision.",
+        "zh": "第14条的组合设立申请，需要土地所有权人、借地权人各自人数三分之二以上同意；同意者的宅地面积与借地面积之和，还须达到相应总宅地面积与总借地面积之和的三分之二以上。第20条规定正式设立后的组合员范围。这不是所有决策通用的“三分之二规则”。",
+        "ja": "14条の設立申請では、宅地所有者と借地権者それぞれの3分の2以上の同意が必要。同意者の宅地・借地の地積合計も対応する総地積合計の3分の2以上を要する。20条は設立後の組合員を定める。全ての意思決定に共通する比率ではない。"
+      }
+    },
+    {
+      "topic": "delivery",
+      "title": {
+        "en": "Conversion, tenancy and compensation",
+        "zh": "转换、租赁与补偿",
+        "ja": "権利変換・借家・補償"
+      },
+      "refs": [
+        "redevelopment"
+      ],
+      "articles": "71, 72, 73, 77, 83, 87, 88, 97",
+      "text": {
+        "en": "Article 71 provides specified opportunities to request monetary treatment or opt out of acquiring a new tenancy; deadlines and conditions apply. Articles 72–73 govern preparation and contents of the conversion plan. Article 83 provides a separate two-week inspection for the rights-conversion plan, except for the individual-implementer case. Articles 77 and 88 address allocated floor and tenancy interests; Article 97 concerns ordinary losses from handover or relocation.",
+        "zh": "第71条规定特定条件下申请金钱给付、或表示不取得新借家权等选择，并有相应期限。第72—73条涉及转换计划的制定与内容；第83条规定权利转换计划另行公开阅览两周，个人施行者情形除外。第77、88条涉及楼面及借家权配置，第97条涉及交付、迁移通常产生的损失补偿。",
+        "ja": "71条の金銭給付希望・新たな借家権を希望しない申出等には条件と期限がある。72–73条は計画の決定・内容、83条は個人施行者を除く権利変換計画の2週間の縦覧を定める。77・88条は床や借家権、97条は明渡し・移転に伴う通常の損失補償を扱う。"
+      }
+    },
+    {
+      "topic": "streets",
+      "title": {
+        "en": "Road occupation and road use",
+        "zh": "道路占用与道路使用",
+        "ja": "道路占用と道路使用"
+      },
+      "refs": [
+        "road",
+        "traffic",
+        "walkable"
+      ],
+      "articles": "Road Act 32; Road Traffic Act 77",
+      "text": {
+        "en": "Road occupation is administered by the road manager for the relevant installation or occupation. Road-use permission concerns traffic effects and is handled by the police. Depending on the activity, both can be necessary. The local activity report records separate applications, as well as arrangements for temporary food service.",
+        "zh": "道路占用由道路管理者针对相应设置或占用事项管理；道路使用许可涉及交通影响，由警察办理。视活动内容可能两者都需要。当地活动报告记录了分别申报的过程，也记录了临时食品活动的安排。",
+        "ja": "設置・占用に関する道路占用は道路管理者、交通への影響に関する道路使用は警察が扱う。活動により両方が必要となる。地域の報告にも別々の申請と臨時飲食の手続が記録されている。"
+      }
+    }
+  ],
+  "consent": {
+    "en": "Statutory consent by rights-holders, acceptance by neighbours and the wider community, and commitment to day-to-day operation answer different questions. The 2026 special-ward study received responses from 20 wards covering 37 projects; 16 wards reported difficulty in consensus formation. This is survey context across Tokyo, not a measured approval rate for Kajicho.",
+    "zh": "权利人的法定同意、邻里及社会层面的认同、日常运营参与，回答的是不同问题。2026年特别区研究收集了20区、37项事业的回答，其中16区报告合意形成存在困难。这是东京多区调查背景，不是鍛冶町项目的同意率。",
+    "ja": "権利者の法定同意、周辺・社会の理解、日常運営への参加は異なる論点。2026年の特別区調査は20区・37事業が回答し、16区が合意形成の困難を報告。鍛冶町の賛成率を示す数値ではない。"
+  },
+  "activity_budget": {
+    "total_jpy": 1200000,
+    "ward_support_jpy": 300000,
+    "committee_jpy": 900000,
+    "note": {
+      "en": "Reported budget of Walkable Project 2. This is an activity budget, separate from redevelopment project finance.",
+      "zh": "步行项目2报告中的活动收支；这是活动预算，与再开发事业融资分别理解。",
+      "ja": "ウォーカブルプロジェクト2の報告収支。活動予算であり、再開発事業費とは区別する。"
+    },
+    "refs": [
+      "walkable"
+    ]
+  },
+  "conditions": [
+    {
+      "title": {
+        "en": "Between major centres",
+        "zh": "位于多个中心之间",
+        "ja": "複数の拠点の間"
+      },
+      "text": {
+        "en": "The 2021 master plan describes Kanda Station as a circulation starting point connecting Otemachi, Akihabara, Nihombashi and Yaesu. This gives the area a connective role while each surrounding centre has a different mix of functions.",
+        "zh": "2021年总体规划将神田站定位为连接大手町、秋叶原、日本桥和八重洲的回游起点。地区承担联系作用，周边各中心的功能组合又各不相同。",
+        "ja": "2021年マスタープランは神田駅を大手町・秋葉原・日本橋・八重洲をつなぐ回遊の起点と位置付ける。周辺拠点ごとに機能構成は異なる。"
+      },
+      "refs": [
+        "master"
+      ]
+    },
+    {
+      "title": {
+        "en": "Small plots and changing building stock",
+        "zh": "细小地块与建筑更新",
+        "ja": "小規模敷地と建物更新"
+      },
+      "text": {
+        "en": "The ward’s Izumibashi-area policy identifies small sites, narrow internal streets and ageing small and medium buildings as conditions affecting rebuilding. That area-level description helps read the street pattern, but does not supply an age for every building.",
+        "zh": "区级和泉桥地区方针指出，较小敷地、街区内部窄路和中小建筑老化会影响更新。这种地区描述有助于理解街道形态，但没有提供每栋建筑的年龄。",
+        "ja": "和泉橋地域の方針は小規模敷地、街区内部の狭い道路、中小建物の老朽化を課題として挙げる。個々の建築年を示すものではない。"
+      },
+      "refs": [
+        "master",
+        "data"
+      ]
+    },
+    {
+      "title": {
+        "en": "Food-led place counts, with office space",
+        "zh": "餐饮场所集中，同时存在办公空间",
+        "ja": "飲食の集積と業務空間"
+      },
+      "text": {
+        "en": "Food and drink account for 86 of 178 classified POIs in the primary area (48.3%). Office activity cannot be inferred from POI counts alone: one office building may contain many firms without separate map entries. Building use and land use remain separate datasets.",
+        "zh": "重点区178个分类 POI 中，餐饮为86个，占48.3%。不能仅凭 POI 数量判断办公活动：一栋办公楼内可能有很多未单独标注的企业。建筑用途与土地利用也要分开读取。",
+        "ja": "重点区域の分類済みPOI178件中、飲食は86件（48.3%）。オフィス内の企業が個別登録されないこともあり、POI数だけでは業務活動を判断できない。建物用途と土地利用も別の資料。"
+      },
+      "refs": [
+        "data"
+      ]
+    },
+    {
+      "title": {
+        "en": "Several timescales in one place",
+        "zh": "同一地区的多种时间尺度",
+        "ja": "一つの地域に異なる時間軸"
+      },
+      "text": {
+        "en": "The presentation places current community programmes beside a longer redevelopment sequence. Running activities, discussing a plan and obtaining statutory approval are observable but different states.",
+        "zh": "讲义把正在开展的社区项目与更长的再开发过程并列呈现。活动正在运行、方案正在讨论、已经取得法定认可，是不同的状态。",
+        "ja": "資料では現在の地域活動と長期の再開発過程が並行する。活動の実施、計画の検討、法定の認可は異なる状態として読む。"
+      },
+      "refs": [
+        "talk",
+        "walkable",
+        "watage2"
+      ]
+    }
+  ],
+  "profile": {
+    "primary_brief": {
+      "name": {
+        "en": "Kajicho primary area",
+        "zh": "鍛冶町重点区",
+        "ja": "鍛冶町重点区域"
+      },
+      "area_ha": 10.703830447464894,
+      "models": 277,
+      "source_height_median_m": 16.2,
+      "poi_count": 178,
+      "categories": [
+        {
+          "id": "food",
+          "label": {
+            "en": "Food & drink",
+            "zh": "餐饮",
+            "ja": "飲食"
+          },
+          "count": 86,
+          "share_pct": 48.31460674157304,
+          "color": "#c66b43"
+        },
+        {
+          "id": "retail",
+          "label": {
+            "en": "Shops & daily needs",
+            "zh": "零售与日常采购",
+            "ja": "小売・日常用品"
+          },
+          "count": 32,
+          "share_pct": 17.97752808988764,
+          "color": "#bc9a34"
+        },
+        {
+          "id": "work",
+          "label": {
+            "en": "Work & services",
+            "zh": "办公与服务",
+            "ja": "業務・サービス"
+          },
+          "count": 19,
+          "share_pct": 10.674157303370787,
+          "color": "#6965a7"
+        },
+        {
+          "id": "health",
+          "label": {
+            "en": "Health",
+            "zh": "健康医疗",
+            "ja": "医療・健康"
+          },
+          "count": 19,
+          "share_pct": 10.674157303370787,
+          "color": "#b86485"
+        },
+        {
+          "id": "stay",
+          "label": {
+            "en": "Hotels & stays",
+            "zh": "旅宿",
+            "ja": "宿泊"
+          },
+          "count": 5,
+          "share_pct": 2.808988764044944,
+          "color": "#8c6a50"
+        },
+        {
+          "id": "civic",
+          "label": {
+            "en": "Civic & learning",
+            "zh": "公共服务与教育",
+            "ja": "公共・学習"
+          },
+          "count": 5,
+          "share_pct": 2.808988764044944,
+          "color": "#4c8c91"
+        },
+        {
+          "id": "culture",
+          "label": {
+            "en": "Culture & leisure",
+            "zh": "文化与休闲",
+            "ja": "文化・余暇"
+          },
+          "count": 9,
+          "share_pct": 5.056179775280899,
+          "color": "#638c60"
+        },
+        {
+          "id": "transit",
+          "label": {
+            "en": "Mobility services",
+            "zh": "交通服务",
+            "ja": "交通サービス"
+          },
+          "count": 3,
+          "share_pct": 1.6853932584269662,
+          "color": "#4c7195"
+        },
+        {
+          "id": "other",
+          "label": {
+            "en": "Other",
+            "zh": "其他",
+            "ja": "その他"
+          },
+          "count": 0,
+          "share_pct": 0.0,
+          "color": "#858078"
+        }
+      ]
+    },
+    "study_area": {
+      "name": {
+        "en": "Kanda–Nihombashi wider area",
+        "zh": "神田—日本桥外围区",
+        "ja": "神田・日本橋周辺区域"
+      },
+      "area_ha": 41.98967122381172,
+      "models": 1074,
+      "source_height_median_m": 17.2,
+      "poi_count": 353,
+      "categories": [
+        {
+          "id": "food",
+          "label": {
+            "en": "Food & drink",
+            "zh": "餐饮",
+            "ja": "飲食"
+          },
+          "count": 139,
+          "share_pct": 39.376770538243626,
+          "color": "#c66b43"
+        },
+        {
+          "id": "retail",
+          "label": {
+            "en": "Shops & daily needs",
+            "zh": "零售与日常采购",
+            "ja": "小売・日常用品"
+          },
+          "count": 71,
+          "share_pct": 20.113314447592067,
+          "color": "#bc9a34"
+        },
+        {
+          "id": "work",
+          "label": {
+            "en": "Work & services",
+            "zh": "办公与服务",
+            "ja": "業務・サービス"
+          },
+          "count": 49,
+          "share_pct": 13.881019830028329,
+          "color": "#6965a7"
+        },
+        {
+          "id": "health",
+          "label": {
+            "en": "Health",
+            "zh": "健康医疗",
+            "ja": "医療・健康"
+          },
+          "count": 29,
+          "share_pct": 8.215297450424929,
+          "color": "#b86485"
+        },
+        {
+          "id": "stay",
+          "label": {
+            "en": "Hotels & stays",
+            "zh": "旅宿",
+            "ja": "宿泊"
+          },
+          "count": 13,
+          "share_pct": 3.68271954674221,
+          "color": "#8c6a50"
+        },
+        {
+          "id": "civic",
+          "label": {
+            "en": "Civic & learning",
+            "zh": "公共服务与教育",
+            "ja": "公共・学習"
+          },
+          "count": 14,
+          "share_pct": 3.9660056657223794,
+          "color": "#4c8c91"
+        },
+        {
+          "id": "culture",
+          "label": {
+            "en": "Culture & leisure",
+            "zh": "文化与休闲",
+            "ja": "文化・余暇"
+          },
+          "count": 23,
+          "share_pct": 6.515580736543909,
+          "color": "#638c60"
+        },
+        {
+          "id": "transit",
+          "label": {
+            "en": "Mobility services",
+            "zh": "交通服务",
+            "ja": "交通サービス"
+          },
+          "count": 15,
+          "share_pct": 4.2492917847025495,
+          "color": "#4c7195"
+        },
+        {
+          "id": "other",
+          "label": {
+            "en": "Other",
+            "zh": "其他",
+            "ja": "その他"
+          },
+          "count": 0,
+          "share_pct": 0.0,
+          "color": "#858078"
+        }
+      ]
+    }
+  },
+  "profile_note": {
+    "en": "POIs are mapped destinations, not a census of firms, jobs, sales or visitors. The table uses the original two study boundaries; the current research building layer separately contains 1,084 models including 10 street-frontage additions. PLATEAU release: 2025; use survey: 2021 where recorded; OSM collection: 18 October 2026. Construction years are not supplied for the current source building set.",
+    "zh": "POI 是地图中的场所记录，不是企业、就业、营业额或客流普查。表格按原有两层边界统计；当前研究建筑层另包含沿街补充10个，共1,084个模型。PLATEAU 版本为2025年，已记录的用途调查年份为2021年；OSM 采集于2026年10月18日。现有建筑源集未提供建成年份。",
+    "ja": "POIは地図上の場所の記録で、企業・雇用・売上・来訪者の全数調査ではない。表は元の2区域を使用。現行研究建物は沿道追加10件を含む1,084モデル。PLATEAU版2025年、記録された用途調査年2021年、OSM取得2026年10月18日。現行建物資料に建築年は未収録。"
+  },
+  "reading_layers": [
+    {
+      "en": "Building use: what the source says a building is used for.",
+      "zh": "建筑用途：源资料对建筑使用功能的记录。",
+      "ja": "建物用途：出典が示す建物の使用機能。"
+    },
+    {
+      "en": "Observed land use: survey classes for land, such as commercial land, roads or public facilities.",
+      "zh": "现状土地利用：商业用地、道路、公共设施等调查分类。",
+      "ja": "現況土地利用：商業、道路、公共施設などの調査区分。"
+    },
+    {
+      "en": "Planning zones: legally designated controls on permitted uses and development intensity.",
+      "zh": "规划用途地域：法定用途及开发强度的管制范围。",
+      "ja": "用途地域：許容用途や開発強度の法定の規制。"
+    },
+    {
+      "en": "Ownership: a separate title and contract question; none of the above three layers identifies all owners.",
+      "zh": "产权：另一个需要登记及合同资料的问题；前三种图层都不是完整业主名册。",
+      "ja": "所有関係：登記・契約で確認する別の情報。上記3層から所有者全員は分からない。"
+    }
+  ]
+}

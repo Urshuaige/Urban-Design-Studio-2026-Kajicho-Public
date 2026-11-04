@@ -1,0 +1,28 @@
+{
+  "name": "continuous750m_plus10H",
+  "building_objects": 6520,
+  "added_objects": 2715,
+  "Hmax_m": 235.2,
+  "built_bounds_m": [
+    -1267.4199999748698,
+    -1527.4300001736337,
+    1547.0900000254182,
+    1267.4899998239198
+  ],
+  "domain_m": [
+    -4158.530074281984,
+    -2703.4300001736337,
+    4438.200074332532,
+    4795.48999982392,
+    1411.1999999999998
+  ],
+  "size_m": [
+    8596.730148614515,
+    7498.9199999975535,
+    1411.1999999999998
+  ],
+  "projected_silhouette_proxy_m2": 339687.7564002945,
+  "blockage_proxy": 0.028,
+  "base_radius_m": 750,
+  "choice": "Project sensitivity setting: 1.5 times the500m local coverage, not a guideline requirement."
+}

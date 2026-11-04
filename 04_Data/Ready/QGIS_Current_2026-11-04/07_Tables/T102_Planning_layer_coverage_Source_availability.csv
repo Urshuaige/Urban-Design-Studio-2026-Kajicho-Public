@@ -1,0 +1,9 @@
+﻿ROW_ID,__wider_pk,table,source_tables,features_in_wider,coverage_note,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,1,fire_prevention,mlit_13101_bouka | mlit_13102_bouka,7,Source reference polygons; not a parcel determination,1,not_spatial,Original source feature or statistical unit; values not recomputed
+2,2,district_plans,mlit_13101_chikukei | mlit_13102_chikukei,6,Source reference polygons; not a parcel determination,2,not_spatial,Original source feature or statistical unit; values not recomputed
+3,3,height_control,mlit_13101_koudoti,0,No intersecting source records,3,not_spatial,Original source feature or statistical unit; values not recomputed
+4,4,efficient_land_use,mlit_13101_koudori | mlit_13102_koudori,1,Source reference polygons; not a parcel determination,4,not_spatial,Original source feature or statistical unit; values not recomputed
+5,5,special_far,mlit_13102_tokureiyouseki,0,No intersecting source records,5,not_spatial,Original source feature or statistical unit; values not recomputed
+6,6,urban_renaissance,mlit_13102_toshisaisei,0,No intersecting source records,6,not_spatial,Original source feature or statistical unit; values not recomputed
+7,7,road_surfaces,plateau_tran,497,Source reference polygons; not a parcel determination,7,not_spatial,Original source feature or statistical unit; values not recomputed
+8,8,planning_citygml,plateau_urf,23,Source reference polygons; not a parcel determination,8,not_spatial,Original source feature or statistical unit; values not recomputed

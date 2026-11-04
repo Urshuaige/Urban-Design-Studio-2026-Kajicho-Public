@@ -1,0 +1,418 @@
+{
+  "date": "2026-10-20",
+  "execution": {
+    "planning_only": true,
+    "solver_started": false,
+    "mesh_started": false,
+    "radiation_started": false,
+    "benchmark_started": false
+  },
+  "title": {
+    "en": "From fieldwork to a checked comparison",
+    "zh": "从场地调研到可信比较",
+    "ja": "現地調査から確かめられた比較へ"
+  },
+  "intro": {
+    "en": "Start with a Kajicho route and its users. Rebuild the physical inputs, then choose the lightest method that answers the design question.",
+    "zh": "先确定鍛冶町的一条路线及其使用者，重建物理输入，再选择能回答设计问题的方法。",
+    "ja": "鍛冶町のルートと利用者を定め、物理入力を整え、設計の問いに合う手法を選ぶ。"
+  },
+  "status": {
+    "en": "Theme B member confirmed · Plan prepared · Environmental simulations have not started",
+    "zh": "Theme B 组员已确认 · 计划已整理 · 环境仿真尚未启动",
+    "ja": "Theme B参加確定 · 計画準備済み · 環境計算は未開始"
+  },
+  "scope": {
+    "en": "Figure 5 stays fixed: 41.99 ha / 1,074 wider models; 10.70 ha / 277 primary models. Exterior buildings stay outside building totals but may be necessary wind or shade context.",
+    "zh": "Figure 5 边线保持不变：外围 41.99 ha／1,074 个模型，重点区 10.70 ha／277 个。界外建筑不参与建筑统计，但可能是必要的风场或遮阴背景。",
+    "ja": "図5を維持：周辺41.99ha／1,074モデル、重点10.70ha／277モデル。域外建物は集計外でも風・日陰の周辺形状として必要な場合がある。"
+  },
+  "headings": {
+    "stages": {
+      "en": "Work in this order",
+      "zh": "按这个顺序推进",
+      "ja": "作業の順序"
+    },
+    "reuse": {
+      "en": "Reuse or rebuild",
+      "zh": "复用与重建",
+      "ja": "再利用と再構築"
+    },
+    "methods": {
+      "en": "Choose by the question",
+      "zh": "按问题选择方法",
+      "ja": "問いから手法を選ぶ"
+    },
+    "resolution": {
+      "en": "Resolution follows the place",
+      "zh": "分辨率由场地与问题决定",
+      "ja": "解像度は場所と問いで決める"
+    },
+    "verify": {
+      "en": "What makes a result usable",
+      "zh": "怎样判断结果可用",
+      "ja": "結果を使うための確認"
+    },
+    "meeting": {
+      "en": "Decide these next",
+      "zh": "下一次讨论先确定",
+      "ja": "次に決めること"
+    },
+    "sources": {
+      "en": "Sources and reading",
+      "zh": "依据与阅读",
+      "ja": "出典と参照"
+    },
+    "proposal": {
+      "en": "Studio proposal · values remain to be checked",
+      "zh": "课程研究建议 · 数值需验证",
+      "ja": "スタジオの提案 · 数値は要検証"
+    },
+    "full": {
+      "en": "Technical detail and evidence on GitHub",
+      "zh": "GitHub 技术说明与依据",
+      "ja": "GitHubの技術資料と根拠"
+    }
+  },
+  "stages": [
+    {
+      "id": "survey",
+      "title": {
+        "en": "Survey the route",
+        "zh": "调研路线与使用者",
+        "ja": "ルートと利用者を調査"
+      },
+      "body": {
+        "en": "Choose a route or public-space cluster in the primary area. Observe morning, lunch and evening use; record access, opening hours, deliveries, trees, shade and surface materials.",
+        "zh": "在重点区选一条路线或一组公共空间，观察早晨、午间和傍晚的使用，记录入口、开放时间、配送、树木、阴影和地表材料。",
+        "ja": "重点区域のルートや公共空間を選び、朝・昼・夕方の利用、入口、開放時間、荷さばき、樹木、日陰、舗装を記録。"
+      },
+      "output": {
+        "en": "Timed observations + checked object IDs",
+        "zh": "带时刻的观察＋核对后的对象 ID",
+        "ja": "時刻付き観察と確認済みID"
+      },
+      "check": {
+        "en": "Co-locate sensors first; use a fixed reference and a separate check visit. Record sensor height, shielding, clocks and weather.",
+        "zh": "先并置核对仪器；设置固定参照点并保留独立复核时段。记录仪器高度、遮阳通风、时钟和天气。",
+        "ja": "センサーを事前比較し、固定基準点と独立した確認観測を設ける。高さ、遮蔽、時計、天候を記録。"
+      }
+    },
+    {
+      "id": "geometry",
+      "title": {
+        "en": "Prepare three linked geometries",
+        "zh": "准备三份关联几何",
+        "ja": "三つの形状を対応付ける"
+      },
+      "body": {
+        "en": "Keep the highest verified official LOD for the scene, radiation occluders for shade, and repaired solids for CFD. Link them by source ID; retain roofs, setbacks and passages that affect the selected place.",
+        "zh": "展示使用最高可用官方 LOD，遮阴使用辐射遮挡几何，CFD 使用修复后的实体。三者按源 ID 关联，保留影响试点的屋顶、退台与通道。",
+        "ja": "表示は公式最高LOD、日陰は放射遮蔽物、CFDは修復済みソリッド。元IDで対応させ、必要な屋根・セットバック・通路を保持。"
+      },
+      "output": {
+        "en": "Geometry audit + common ground/roof/canopy inputs",
+        "zh": "几何核对＋统一地面、屋顶和树冠输入",
+        "ja": "形状確認と地面・屋根・樹冠入力"
+      },
+      "check": {
+        "en": "Check IDs, full-footprint membership, CRS, vertical datum, terrain, duplicate surfaces, gaps and boundary context. More triangles do not establish measurement accuracy.",
+        "zh": "检查 ID、完整投影归属、坐标、高程基准、地形、重复面、孔隙及外围背景。三角形更多不等于实测精度更高。",
+        "ja": "ID、投影全体の包含、座標・高さ基準、地形、重複面、隙間、周辺形状を確認。三角形数と測量精度を区別。"
+      }
+    },
+    {
+      "id": "shade",
+      "title": {
+        "en": "Check shade, then radiant heat",
+        "zh": "先遮阴，再辐射热",
+        "ja": "日陰を確認して放射熱へ"
+      },
+      "body": {
+        "en": "First compare shadow timing along the route. Add SOLWEIG when radiant exposure matters, with aligned surface/canopy grids, time-matched weather and stated materials.",
+        "zh": "先比较路线阴影随时间的变化；辐射暴露确实影响选择时，再用 SOLWEIG，并准备对齐的地表与树冠栅格、同时刻气象和材料参数。",
+        "ja": "まずルートの日陰時刻を比較。放射暴露が重要ならSOLWEIGへ進み、整合した地表・樹冠グリッド、同時刻の気象、材料を用意。"
+      },
+      "output": {
+        "en": "Shaded route duration + mean radiant temperature",
+        "zh": "路线遮阴时长＋平均辐射温度",
+        "ja": "ルートの日陰時間と平均放射温度"
+      },
+      "check": {
+        "en": "Match surveyed shadow edges and radiation measurements. Distinguish air temperature, surface temperature, radiant temperature and the Universal Thermal Climate Index (UTCI).",
+        "zh": "核对实测阴影边缘与辐射观测。区分气温、表面温度、平均辐射温度和 UTCI（通用热气候指数）。",
+        "ja": "観測した影の端と放射量を比較。気温、表面温度、平均放射温度、UTCIを区別。"
+      }
+    },
+    {
+      "id": "wind",
+      "title": {
+        "en": "Add wind only for a wind question",
+        "zh": "有风环境问题，再进入风场",
+        "ja": "風の問いに応じて追加"
+      },
+      "body": {
+        "en": "Test URock as a screening option where its assumptions fit. For a mean-wind design question, prepare a small steady, isothermal RANS (Reynolds-averaged Navier–Stokes) pilot. Gust or buoyancy questions require a separate LES or thermal plan.",
+        "zh": "假设适用时可测试 URock 做筛查。平均风问题可准备小范围稳态、等温 RANS（雷诺平均方程）试点；阵风或浮力问题另定 LES 或热耦合方案。",
+        "ja": "仮定が合えばURockを初期確認に使う。平均風の設計問題は小範囲の定常・等温RANS（レイノルズ平均方程式）から。突風や浮力はLES・熱計算を別途計画。"
+      },
+      "output": {
+        "en": "Question, context, inlet, mesh and probe plan",
+        "zh": "问题、背景、入口、网格及测点方案",
+        "ja": "問い・周辺形状・流入・格子・測点計画"
+      },
+      "check": {
+        "en": "Use a relevant benchmark, three mesh levels, domain/inlet checks, stable target values, conservation and independent site observations.",
+        "zh": "采用相关基准案例、三套网格、计算域与入口检查、目标量稳定性、守恒及独立现场观测。",
+        "ja": "関連するベンチマーク、三段階格子、領域・流入、対象値の安定、保存則、独立した現地観測で確認。"
+      }
+    },
+    {
+      "id": "compare",
+      "title": {
+        "en": "Compare the same places and hours",
+        "zh": "在同地点、同时刻比较",
+        "ja": "同じ場所と時刻で比較"
+      },
+      "body": {
+        "en": "Freeze one baseline and one physical change first. Compare common route samples and weather; report uncertainty, maintenance, access and the actor able to deliver the action.",
+        "zh": "先固定一份基线和一项空间措施。采用共同路线样本与天气，报告不确定性、维护、使用权及能够实施的主体。",
+        "ja": "一つの基準と一つの変更を固定。同じルート点と天候で比較し、不確かさ、維持管理、利用権、実施主体を示す。"
+      },
+      "output": {
+        "en": "Paired evidence + an action card for discussion",
+        "zh": "配对证据＋供讨论的行动说明",
+        "ja": "対応した比較と実施案"
+      },
+      "check": {
+        "en": "Select the least costly model/grid that preserves the decision within measured uncertainty. If the ranking changes under refinement, investigate before recommending an option.",
+        "zh": "选取在已测不确定性内仍能保持判断的方法与网格。加密后方案排序改变时，先查明原因，再提出建议。",
+        "ja": "測定した不確かさの範囲で判断が変わらない手法・格子を選ぶ。細分化で順位が変わる場合は原因を調べる。"
+      }
+    }
+  ],
+  "reuse": [
+    [
+      {
+        "en": "Figure 5 + GIS IDs",
+        "zh": "Figure 5 与 GIS ID",
+        "ja": "図5とGIS ID"
+      },
+      {
+        "en": "Reuse fixed traces and strict 1,074 / 277 membership",
+        "zh": "复用固定描线与 1,074／277 完整投影成员",
+        "ja": "固定描線と1,074／277の包含判定を再利用"
+      },
+      {
+        "en": "Rebuild model-specific masks, samples and context",
+        "zh": "重建各模型所需掩膜、样本和外围背景",
+        "ja": "モデル別のマスク、標本、周辺形状を再構築"
+      }
+    ],
+    [
+      {
+        "en": "Building sources",
+        "zh": "建筑源数据",
+        "ja": "建物の元データ"
+      },
+      {
+        "en": "Reuse original CityGML, IDs, attributes and source dates",
+        "zh": "复用原始 CityGML、ID、属性及来源日期",
+        "ja": "元CityGML、ID、属性、日付を再利用"
+      },
+      {
+        "en": "Read actual LOD2 roofs; repair and simplify only for the selected physics",
+        "zh": "读取实际 LOD2 屋顶；按物理问题修复与简化",
+        "ja": "実際のLOD2屋根を読み、物理モデルに合わせ修復・簡略化"
+      }
+    ],
+    [
+      {
+        "en": "Weather",
+        "zh": "气象",
+        "ja": "気象"
+      },
+      {
+        "en": "Reuse JMA 2025 observations and quality flags",
+        "zh": "复用 JMA 2025 观测与质量标记",
+        "ja": "JMA2025観測と品質情報を再利用"
+      },
+      {
+        "en": "Select relevant hours; check two missing wind hours, time zone and radiation/wind conventions",
+        "zh": "选择相关时段，核对两小时缺风、时区、辐射与风速定义",
+        "ja": "対象時刻、欠測風速2時間、時区、放射・風の定義を確認"
+      }
+    ],
+    [
+      {
+        "en": "Trees, material, street use",
+        "zh": "树木、材料与街道使用",
+        "ja": "樹木・材料・街路利用"
+      },
+      {
+        "en": "Use existing inventories and POIs as survey leads",
+        "zh": "用现有记录和 POI 引导现场调查",
+        "ja": "既存台帳とPOIを調査の手掛かりに"
+      },
+      {
+        "en": "Survey crowns, trunks, overhangs, surfaces, entrances and actual use",
+        "zh": "补查树冠、枝下、悬挑、地表、入口与实际使用",
+        "ja": "樹冠、幹下、庇、舗装、入口、実利用を追加調査"
+      }
+    ],
+    [
+      {
+        "en": "Shade and radiation",
+        "zh": "遮阴与辐射",
+        "ja": "日陰と放射"
+      },
+      {
+        "en": "Reuse solar-position methods and checked source parsing",
+        "zh": "复用太阳位置方法与已核对的源数据解析",
+        "ja": "太陽位置と確認済み解析を再利用"
+      },
+      {
+        "en": "Rebuild DSM/DEM, canopy, sky view, wall data and all derived exposure",
+        "zh": "重建 DSM／DEM、树冠、天空视域、墙面及暴露结果",
+        "ja": "DSM／DEM、樹冠、天空率、壁面と暴露結果を再構築"
+      }
+    ],
+    [
+      {
+        "en": "CFD",
+        "zh": "CFD",
+        "ja": "CFD"
+      },
+      {
+        "en": "Reuse source code, diagnostics, benchmarks and dated lessons",
+        "zh": "复用源码、诊断、基准及日期版经验",
+        "ja": "コード、診断、基準、過去の知見を再利用"
+      },
+      {
+        "en": "Rebuild context, air domain, inlet, mesh, probes and solutions after geometry changes",
+        "zh": "几何改变后重建背景、空气域、入口、网格、测点及数值解",
+        "ja": "形状変更後に周辺形状、空気領域、流入、格子、測点、解を再構築"
+      }
+    ]
+  ],
+  "resolution": [
+    [
+      {
+        "en": "District shade screen",
+        "zh": "全区遮阴筛查",
+        "ja": "地区の日陰確認"
+      },
+      "2 m",
+      {
+        "en": "Proposed start; retain enough surrounding occluders",
+        "zh": "建议起点；保留足够的外围遮挡",
+        "ja": "提案の開始値。十分な周辺遮蔽物を保持"
+      }
+    ],
+    [
+      {
+        "en": "Route radiation pilot",
+        "zh": "路线辐射试点",
+        "ja": "ルート放射試行"
+      },
+      "1 m",
+      {
+        "en": "Compare local 0.5 m only where walkway or shadow-edge width requires it",
+        "zh": "仅在步道或阴影边缘宽度需要时局部比较 0.5 m",
+        "ja": "歩道・影の端の幅が必要な場所のみ0.5mと比較"
+      }
+    ],
+    [
+      {
+        "en": "URock screening",
+        "zh": "URock 筛查",
+        "ja": "URock初期確認"
+      },
+      "2 m → 1 m",
+      {
+        "en": "Check flat-terrain/obstacle assumptions and local observations",
+        "zh": "核对平地、障碍假设与现场观测",
+        "ja": "平坦地・障害物の仮定と現地観測を確認"
+      }
+    ],
+    [
+      {
+        "en": "RANS pilot",
+        "zh": "RANS 试点",
+        "ja": "RANS試行"
+      },
+      {
+        "en": "Gap-based local mesh",
+        "zh": "按间距局部划分",
+        "ja": "隙間に応じた局所格子"
+      },
+      {
+        "en": "Initial guide: ≥10 cells across relevant gaps; 1–2 m may suit 10–20 m gaps. Receptor-height layers are separate.",
+        "zh": "初始参考：关键间距至少约 10 个单元；10–20 m 间距可从 1–2 m 起步，行人高度的竖向层需另设。",
+        "ja": "初期目安は重要な隙間に10セル以上。10–20mなら1–2mを検討。受風高さの鉛直層は別途設定。"
+      }
+    ],
+    [
+      {
+        "en": "Critical corners or passages",
+        "zh": "关键转角或通道",
+        "ja": "重要な角・通路"
+      },
+      "0.3–0.5 m",
+      {
+        "en": "Conditional local refinement; London practice provides a precedent, not a Tokyo-wide requirement. Never apply it to the whole district by default.",
+        "zh": "有必要时局部加密。伦敦实践可作参考，不是东京全区规定；不默认给全区统一加密。",
+        "ja": "必要箇所だけ細分化。ロンドンの実務例であり、東京地区全体の指定値ではない。"
+      }
+    ]
+  ],
+  "checks": [
+    {
+      "en": "Geometry: source IDs, complete footprints, roofs, terrain, trees, gaps and vertical reference.",
+      "zh": "几何：源 ID、完整投影、屋顶、地形、树木、孔隙和高程基准。",
+      "ja": "形状：元ID、投影全体、屋根、地形、樹木、隙間、高さ基準。"
+    },
+    {
+      "en": "Inputs: coincident weather, instrument metadata, material ranges and UTCI wind-height convention. UTCI uses 10 m wind; record any conversion once.",
+      "zh": "输入：同时刻气象、仪器信息、材料区间及 UTCI 风速高度定义。UTCI 使用 10 m 风速，高度转换只做一次并记录。",
+      "ja": "入力：同時刻気象、計器情報、材料範囲、UTCIの風速高さ。10m風速への変換は一度だけ行い記録。"
+    },
+    {
+      "en": "Numerics: compare three RANS meshes and a second domain; check inlet preservation, target values and conservation as well as residuals.",
+      "zh": "数值：比较三套 RANS 网格和第二个计算域；除残差外，检查入口保持、目标量与守恒。",
+      "ja": "数値：RANS三格子と別領域を比較。残差に加え、流入保持、対象量、保存則を確認。"
+    },
+    {
+      "en": "Evidence: report time-matched bias and root mean square error (RMSE; lower is less error) by place/weather; keep independent observations for checking. Set acceptance relative to sensor uncertainty and the design effect to distinguish.",
+      "zh": "证据：按地点与天气报告同时刻偏差和 RMSE（均方根误差，同单位、越小误差越小），保留独立验证观测。按仪器不确定性与需要分辨的方案效果设定判据。",
+      "ja": "証拠：場所・天候別に同時刻の偏差とRMSE（二乗平均平方根誤差、小さいほど誤差が小さい）を報告。独立観測を残し、計器誤差と必要な効果の大きさから基準を設定。"
+    },
+    {
+      "en": "Cost: after a run is authorised, time a representative unit, measure memory/throughput and estimate the full comparison. Use free compatible hardware and checkpoint work; no runtime cap.",
+      "zh": "成本：获准计算后，再计时一个代表单元、测内存与吞吐并估计总工作量。使用空闲兼容硬件并逐项保存，不设运行时限。",
+      "ja": "計算承認後に代表単位の速度・メモリを測り、全比較量を見積もる。空き互換資源とチェックポイントを使い、実行時間上限は置かない。"
+    }
+  ],
+  "meeting": [
+    {
+      "en": "Which route or space, which users and which hours? Start from the primary area and the POI evidence.",
+      "zh": "哪条路线或空间、哪些使用者、什么时段？从重点区和 POI 证据出发。",
+      "ja": "どのルート・空間、利用者、時間帯か。重点区域とPOI情報から選ぶ。"
+    },
+    {
+      "en": "What single physical action will be compared, and who can provide access, observations and maintenance?",
+      "zh": "先比较哪一项空间措施？谁能提供使用许可、观测与维护？",
+      "ja": "最初に比較する一つの変更と、利用許可・観測・維持管理の担当は誰か。"
+    },
+    {
+      "en": "Does the decision need shade/radiation, mean wind, gusts or air-temperature change? That choice determines the model.",
+      "zh": "这次决策需要遮阴／辐射、平均风、阵风，还是气温变化？由此决定模型。",
+      "ja": "判断に必要なのは日陰・放射、平均風、突風、気温変化のどれか。それにより手法を決める。"
+    }
+  ],
+  "twin": {
+    "en": "Digital model → dated observations → checked scenario comparisons. A digital twin needs explicit links to the physical place, update intervals and validated decisions; high LOD alone does not create those links.",
+    "zh": "数字场地模型 → 带日期的观测 → 经验证的情景比较。数字孪生还需要与实际场地相连的数据、更新周期和可验证的决策，高 LOD 本身不能替代这些关联。",
+    "ja": "デジタル模型 → 日付付き観測 → 確認済みシナリオ比較。デジタルツインには現地との情報連携、更新間隔、判断の検証が必要。"
+  }
+}

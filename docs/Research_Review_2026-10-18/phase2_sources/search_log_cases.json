@@ -1,0 +1,284 @@
+{
+  "schema_version": "1.0",
+  "phase": 2,
+  "search_date": "2026-10-18",
+  "method": "Purposive primary-source search for integrative-review case contrasts; not a systematic review or exhaustive global case inventory.",
+  "inclusion_criteria": [
+    "Real district/street/schoolyard intervention with official authority or original research source",
+    "Mechanism relevant to dense urban public space, heat/water/energy or shared governance",
+    "Readable evidence or explicit limited-read flag",
+    "Distinguish implementation, observed evaluation and projected benefits"
+  ],
+  "exclusion_criteria": [
+    "Wikipedia, Reddit, press aggregation or consultancy commentary as factual evidence when primary material is available",
+    "Unverifiable outcome percentages",
+    "Duplicate broad cases without additional mechanism",
+    "Unrequested pilot selection or synthesis"
+  ],
+  "date_range": "No fixed publication cutoff: original implementation records retained with current retrieval; document year and page-update year kept distinct.",
+  "languages_used": [
+    "English",
+    "Catalan",
+    "French",
+    "Danish",
+    "German"
+  ],
+  "engines": [
+    "web search and direct primary-page/PDF reading"
+  ],
+  "citation_api_calls": 0,
+  "external_model_calls": 0,
+  "queries": [
+    {
+      "order": 1,
+      "date": "2026-10-18",
+      "query": "site.aspb.cat Salut Carrers Superilles evaluation results",
+      "purpose": "Find municipal evaluation and primary study",
+      "total_hits": null,
+      "hit_count_note": "Search tool did not expose a stable total; not estimated."
+    },
+    {
+      "order": 2,
+      "date": "2026-10-18",
+      "query": "site.paris.fr cours Oasis evaluation thermique",
+      "purpose": "Find official implementation and thermal-evaluation routes",
+      "total_hits": null,
+      "hit_count_note": "Search tool did not expose a stable total; not estimated."
+    },
+    {
+      "order": 3,
+      "date": "2026-10-18",
+      "query": "site.melbourne.vic.gov.au urban forest strategy canopy precinct plans",
+      "purpose": "Find operational street/precinct plans",
+      "total_hits": null,
+      "hit_count_note": "Search tool did not expose a stable total; not estimated."
+    },
+    {
+      "order": 4,
+      "date": "2026-10-18",
+      "query": "site.jtc.gov.sg Punggol Digital District district cooling open digital platform",
+      "purpose": "Find district infrastructure/operator description",
+      "total_hits": null,
+      "hit_count_note": "Search tool did not expose a stable total; not estimated."
+    },
+    {
+      "order": 5,
+      "date": "2026-10-18",
+      "query": "site.kk.dk cloudburst management plan 2012 financing surface",
+      "purpose": "Find city plan and funding split",
+      "total_hits": null,
+      "hit_count_note": "Search tool did not expose a stable total; not estimated."
+    },
+    {
+      "order": 6,
+      "date": "2026-10-18",
+      "query": "site.betterbankside.co.uk business improvement district levy greening",
+      "purpose": "Find BID governance and greening",
+      "total_hits": null,
+      "hit_count_note": "Search tool did not expose a stable total; not estimated."
+    },
+    {
+      "order": 7,
+      "date": "2026-10-18",
+      "query": "site.stockholm.se Hammarby Sjostad environmental programme energy evaluation",
+      "purpose": "Explore district-energy alternative; Freiburg retained for contract mechanism",
+      "total_hits": null,
+      "hit_count_note": "Search tool did not expose a stable total; not estimated."
+    },
+    {
+      "order": 8,
+      "date": "2026-10-18",
+      "query": "site.freiburg.de Vauban energy district heating",
+      "purpose": "Find district-energy planning authority",
+      "total_hits": null,
+      "hit_count_note": "Search tool did not expose a stable total; not estimated."
+    },
+    {
+      "order": 9,
+      "date": "2026-10-18",
+      "query": "site.kk.dk Enghaveparken skybrud 2019",
+      "purpose": "Resolve built example under cloudburst plan",
+      "total_hits": null,
+      "hit_count_note": "Search tool did not expose a stable total; not estimated."
+    },
+    {
+      "order": 10,
+      "date": "2026-10-18",
+      "query": "site.betterbankside.co.uk greening rain garden",
+      "purpose": "Resolve concrete BID street project",
+      "total_hits": null,
+      "hit_count_note": "Search tool did not expose a stable total; not estimated."
+    },
+    {
+      "order": 11,
+      "date": "2026-10-18",
+      "query": "site.melbourne.vic.gov.au urban forest canopy 2024 2025 progress",
+      "purpose": "Find current plan implementation evidence",
+      "total_hits": null,
+      "hit_count_note": "Search tool did not expose a stable total; not estimated."
+    },
+    {
+      "order": 12,
+      "date": "2026-10-18",
+      "query": "site.freiburg.de \"Vauban\" \"Niedrigenergiebauweise\" \"Kaufverträge\"",
+      "purpose": "Resolve land-sale contract mechanism",
+      "total_hits": null,
+      "hit_count_note": "Search tool did not expose a stable total; not estimated."
+    },
+    {
+      "order": 13,
+      "date": "2026-10-18",
+      "query": "site.betterbankside.co.uk \"Keppel Row Garden\"",
+      "purpose": "Find primary delivery/funding corroboration",
+      "total_hits": null,
+      "hit_count_note": "Search tool did not expose a stable total; not estimated."
+    },
+    {
+      "order": 14,
+      "date": "2026-10-18",
+      "query": "site.nyc.gov Cool Neighborhoods NYC 2017 106 million heat vulnerability",
+      "purpose": "Add North American heat-targeting case on parent request",
+      "total_hits": null,
+      "hit_count_note": "Search tool did not expose a stable total; not estimated."
+    },
+    {
+      "order": 15,
+      "date": "2026-10-18",
+      "query": "site.nycgovparks.org Cool It NYC heat vulnerability 2020",
+      "purpose": "Find current public cooling service context",
+      "total_hits": null,
+      "hit_count_note": "Search tool did not expose a stable total; not estimated."
+    }
+  ],
+  "selection": [
+    {
+      "slug": "barcelona-superblocks",
+      "included": true,
+      "reason": "Empirical contrast between traffic removal, incomplete calming and varied social use.",
+      "source_ids": [
+        "BCN1",
+        "BCN2"
+      ]
+    },
+    {
+      "slug": "paris-oasis",
+      "included": true,
+      "reason": "Links small public facilities, heat exposure, shared access and practical evaluation.",
+      "source_ids": [
+        "PAR1",
+        "PAR2",
+        "PAR3"
+      ]
+    },
+    {
+      "slug": "melbourne-urban-forest",
+      "included": true,
+      "reason": "Operational bridge between a city-scale target and constrained street-level work.",
+      "source_ids": [
+        "MEL1",
+        "MEL2"
+      ]
+    },
+    {
+      "slug": "punggol-digital-district",
+      "included": true,
+      "reason": "Contrasts integrated district development with dispersed building ownership and retrofit constraints.",
+      "source_ids": [
+        "PDD1",
+        "PDD2"
+      ]
+    },
+    {
+      "slug": "copenhagen-enghaveparken",
+      "included": true,
+      "reason": "Shows public-space design tied to catchment engineering and utility finance.",
+      "source_ids": [
+        "CPH1",
+        "CPH2",
+        "CPH3"
+      ]
+    },
+    {
+      "slug": "london-better-bankside",
+      "included": true,
+      "reason": "Dense mixed-use alley renewal with collective stewardship and public/private funding.",
+      "source_ids": [
+        "LON1",
+        "LON2",
+        "LON3"
+      ]
+    },
+    {
+      "slug": "freiburg-vauban",
+      "included": true,
+      "reason": "Makes the land-control condition behind district energy explicit.",
+      "source_ids": [
+        "FRE1",
+        "FRE2"
+      ]
+    },
+    {
+      "slug": "new-york-cool-neighborhoods",
+      "included": true,
+      "reason": "North American contrast linking heat-equity targeting to both physical works and operating services.",
+      "source_ids": [
+        "NYC1",
+        "NYC2",
+        "NYC3"
+      ]
+    }
+  ],
+  "alternative_not_selected": [
+    {
+      "case": "Hammarby Sjöstad",
+      "reason": "Official development page surfaced; Freiburg used for clearer contract/energy mechanism within eight-case bound."
+    },
+    {
+      "case": "Hamburg HafenCity",
+      "reason": "Not searched separately after Copenhagen provided implementation and utility-finance contrast."
+    },
+    {
+      "case": "Marina Bay cooling",
+      "reason": "Not searched separately after Punggol supplied cooling plus digital-management mechanism."
+    }
+  ],
+  "access_limits": [
+    "CPH2 full title/date and PDF text remain limited",
+    "FRE2 assessed from search-extracted poster text",
+    "LON1 direct read timed out; source text read through search",
+    "LON3 section read through search extract",
+    "NYC3 service description read through search extract; older climate-office landing pages redirect to new homepage."
+  ],
+  "discarded_or_unused_read_routes": [
+    {
+      "url": "https://betterbankside.co.uk/bankside/urban-forest/",
+      "reason": "Project-list search text available; later open failed. Replaced with council and GLA Keppel Row records."
+    },
+    {
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/647919/Infotafeln_Vauban_en.pdf",
+      "reason": "Search text read; later PDF timeout. Not used for present-day fuel/system claims."
+    },
+    {
+      "url": "https://klimatilpasning.dk/kommuner-og-forsyning/loesninger/eksempler-paa-klimatilpasning/region-hovedstaden/enghaveparken-i-koebenhavn-tiltraekker-nu-baade-mennesker-og-skybrudsvand",
+      "reason": "Open metadata available; section read failed. Used city financing record and explicitly limited city report extract."
+    },
+    {
+      "url": "https://climate.cityofnewyork.us/reports/cool-neighborhoods-nyc/",
+      "reason": "Search summary exists but direct URL redirects. Replaced with original official PDF."
+    },
+    {
+      "url": "https://climate.cityofnewyork.us/ejnyc-report/the-state-of-environmental-justice-in-nyc/exposure-to-climate-change/",
+      "reason": "Direct page redirects; not used for current programme totals."
+    }
+  ],
+  "deduplication": "Case-level consolidation and exact title/URL comparison; related municipal posters/pages not counted as independent evaluation.",
+  "counts": {
+    "included_cases": 8,
+    "included_sources": 20,
+    "query_strings": 15,
+    "search_engine_total_hits": null,
+    "full_text_articles_exhaustively_screened": null
+  },
+  "coverage_note": "Five European cases, one Asian, one Australian and one North American case; selected mechanism contrasts, not a representative global sample.",
+  "scope_guard": "Only global_cases.json and search_log_cases.json written via ssh to the assigned phase2_sources directory. No computation, local output, commits, Site writes or model calls."
+}

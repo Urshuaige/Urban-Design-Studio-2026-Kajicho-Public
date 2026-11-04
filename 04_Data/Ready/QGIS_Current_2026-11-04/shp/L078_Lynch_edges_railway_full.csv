@@ -1,0 +1,15 @@
+﻿ROW_ID,__wider_pk,name_en,source,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,37,JR elevated railway,GSI 2026; elevated JR only,37,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+2,38,JR elevated railway,GSI 2026; elevated JR only,38,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+3,39,JR elevated railway,GSI 2026; elevated JR only,39,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+4,40,JR elevated railway,GSI 2026; elevated JR only,40,inside_wider,Original source feature or statistical unit; values not recomputed
+5,41,JR elevated railway,GSI 2026; elevated JR only,41,inside_wider,Original source feature or statistical unit; values not recomputed
+6,42,JR elevated railway,GSI 2026; elevated JR only,42,inside_wider,Original source feature or statistical unit; values not recomputed
+7,43,JR elevated railway,GSI 2026; elevated JR only,43,inside_wider,Original source feature or statistical unit; values not recomputed
+8,44,JR elevated railway,GSI 2026; elevated JR only,44,inside_wider,Original source feature or statistical unit; values not recomputed
+9,45,JR elevated railway,GSI 2026; elevated JR only,45,inside_wider,Original source feature or statistical unit; values not recomputed
+10,46,JR elevated railway,GSI 2026; elevated JR only,46,inside_wider,Original source feature or statistical unit; values not recomputed
+11,47,JR elevated railway,GSI 2026; elevated JR only,47,inside_wider,Original source feature or statistical unit; values not recomputed
+12,48,JR elevated railway,GSI 2026; elevated JR only,48,inside_wider,Original source feature or statistical unit; values not recomputed
+13,49,JR elevated railway,GSI 2026; elevated JR only,49,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+14,50,JR elevated railway,GSI 2026; elevated JR only,50,clipped_to_wider,Original source feature or statistical unit; values not recomputed

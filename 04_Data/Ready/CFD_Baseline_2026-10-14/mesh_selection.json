@@ -1,0 +1,7 @@
+{
+  "case": "mesh_cartesian",
+  "type": "castellated Cartesian/octree; snap false",
+  "geometry_reference": "same original-derived STL; no source geometry edit",
+  "boundary_location_error": "cell-size approximation; core walls ~1m and near-ground ~0.5m; verify against STL and mesh sensitivity",
+  "reason": "snapped boundary pockets produced nonphysical local velocity despite bounded startup and pressure solve checks"
+}

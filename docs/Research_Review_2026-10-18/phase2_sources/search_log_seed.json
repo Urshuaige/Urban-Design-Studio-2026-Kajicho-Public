@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-18",
+  "selection": "Begin with six explicit brief references, add primary methods and selected contrasting case records",
+  "queries": [
+    "\"Urban Systems Design\" Yamagata Yang 2020 planning implementation",
+    "site.esri.com \"Tokyo: Reimagining\" advanced analytics",
+    "\"Urban Revitalization Pathways\" \"23998083251318142\"",
+    "site.jica.go.jp \"smart city approach\" \"12342515\""
+  ],
+  "direct_sources": [
+    "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+    "https://keio.elsevierpure.com/en/publications/urban-systems-design-creating-sustainable-smart-cities-in-the-int/",
+    "https://openjicareport.jica.go.jp/618/618/618_000_12342515.html",
+    "https://www.esri.com/about/newsroom/blog/georgia-tech-students-smart-city-tokyo/",
+    "https://journals.sagepub.com/doi/10.1177/23998083251318142",
+    "https://isprs-archives.copernicus.org/articles/XLVIII-4-W16-2025/1/2025/",
+    "https://isprs-archives.copernicus.org/articles/XLVIII-4-W16-2025/135/2025/",
+    "https://journals.sagepub.com/doi/10.1177/2399808319877770",
+    "https://www.epa.gov/water-research/storm-water-management-model-swmm"
+  ],
+  "access_notes": [
+    "ISPRS PDF web fetches were intermittently unavailable; existing official-source local PDFs were read without modification.",
+    "JICA official catalogue and existing source PDF used; publisher link retained.",
+    "SAGE 2025 abstract only; 2020 book metadata/synopsis only."
+  ],
+  "deduplication": "DOI and title matching across selected records; no bibliographic API clients or invented database hit counts"
+}

@@ -1,0 +1,12 @@
+﻿edge,length_m,median_distance_to_census_m,max_distance_to_census_m,within_cartographic_band,interpretation
+1,52.52092494183437,0.823777665770433,2.1065366666171066,True,Source trace compared with census; no parcel boundary claim.
+2,77.83610410670933,1.295651854524147,3.0543239791984664,True,Source trace compared with census; no parcel boundary claim.
+3,63.83040093236918,2.459198317042515,3.0543239791984664,True,Source trace compared with census; no parcel boundary claim.
+4,95.14298084887596,2.0530427069174455,3.968796575127276,True,Source trace compared with census; no parcel boundary claim.
+5,67.39056275337825,4.672154934275047,5.227645330837125,True,Source trace compared with census; no parcel boundary claim.
+6,65.99658285109714,4.369979153674368,5.227645330837125,True,Source trace compared with census; no parcel boundary claim.
+7,92.49057156906387,2.9423882975221725,4.265069264649083,True,Source trace compared with census; no parcel boundary claim.
+8,42.6862052651792,7.296549269187217,11.407620890430675,True,Source trace compared with census; no parcel boundary claim.
+9,116.15293261296364,11.437172236765061,11.486425070223303,True,Source trace compared with census; no parcel boundary claim.
+10,401.84801582956834,1.455087737125243,5.4790525018316645,True,Source trace compared with census; no parcel boundary claim.
+11,486.7619042653314,3.6414534893477524,5.4790525018316645,True,Source trace compared with census; no parcel boundary claim.

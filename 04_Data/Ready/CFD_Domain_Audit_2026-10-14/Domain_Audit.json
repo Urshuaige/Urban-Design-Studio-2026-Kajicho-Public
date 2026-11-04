@@ -1,0 +1,301 @@
+{
+  "calculated_jst": "2026-10-14T21:49:40+09:00",
+  "kind": "Geometry and domain arithmetic; no flow sensitivity computed",
+  "core_height_max_m": 48.5,
+  "core_height_10H_m": 485.0,
+  "candidate_base_radius_m": 500,
+  "original_500m": "Fixed project setting. Recalculation gives ceil(10*48.5/50)*50=500m; source does not prescribe a universal500m.",
+  "available_source_files": [
+    {
+      "file": "04_Data/Raw/CFD_Context_2026-10-14/53394610_bldg_6697_op.gml",
+      "source_key": "13101:53394610_bldg_6697_op.gml",
+      "cached": true
+    },
+    {
+      "file": "04_Data/Raw/CFD_Context_2026-10-14/53394611_bldg_6697_op.gml",
+      "source_key": "13101:53394611_bldg_6697_op.gml",
+      "cached": true
+    },
+    {
+      "file": "04_Data/Raw/CFD_Context_2026-10-14/53394620_bldg_6697_op.gml",
+      "source_key": "13101:53394620_bldg_6697_op.gml",
+      "cached": true
+    },
+    {
+      "file": "04_Data/Raw/CFD_Context_2026-10-14/53394630_bldg_6697_op.gml",
+      "source_key": "13101:53394630_bldg_6697_op.gml",
+      "cached": true
+    },
+    {
+      "file": "04_Data/Raw/CFD_Context_2026-10-14/53394640_bldg_6697_op.gml",
+      "source_key": "13101:53394640_bldg_6697_op.gml",
+      "cached": true
+    },
+    {
+      "file": "04_Data/Raw/CFD_Context_2026-10-14/53394641_bldg_6697_op.gml",
+      "source_key": "13101:53394641_bldg_6697_op.gml",
+      "cached": true
+    },
+    {
+      "file": "04_Data/Raw/CFD_Context_2026-10-14/53394642_bldg_6697_op.gml",
+      "source_key": "13101:53394642_bldg_6697_op.gml",
+      "cached": true
+    },
+    {
+      "file": "04_Data/Raw/CFD_Context_2026-10-14/53394612_bldg_6697_op.gml",
+      "source_key": "13102:53394612_bldg_6697_op.gml",
+      "cached": true
+    },
+    {
+      "file": "04_Data/Raw/Public_Baseline_2026-10-14/PLATEAU/chiyoda_bbox_pack/13101_chiyoda-ku_pref_2025_citygml_1_op/udx/bldg/53394621_bldg_6697_op.gml",
+      "source_key": "13101:53394621_bldg_6697_op.gml",
+      "cached": true
+    },
+    {
+      "file": "04_Data/Raw/Public_Baseline_2026-10-14/PLATEAU/chiyoda_bbox_pack/13101_chiyoda-ku_pref_2025_citygml_1_op/udx/bldg/53394622_bldg_6697_op.gml",
+      "source_key": "13101:53394622_bldg_6697_op.gml",
+      "cached": true
+    },
+    {
+      "file": "04_Data/Raw/Public_Baseline_2026-10-14/PLATEAU/chiyoda_bbox_pack/13101_chiyoda-ku_pref_2025_citygml_1_op/udx/bldg/53394631_bldg_6697_op.gml",
+      "source_key": "13101:53394631_bldg_6697_op.gml",
+      "cached": true
+    },
+    {
+      "file": "04_Data/Raw/Public_Baseline_2026-10-14/PLATEAU/chiyoda_bbox_pack/13101_chiyoda-ku_pref_2025_citygml_1_op/udx/bldg/53394632_bldg_6697_op.gml",
+      "source_key": "13101:53394632_bldg_6697_op.gml",
+      "cached": true
+    },
+    {
+      "file": "04_Data/Raw/CFD_Domain_Audit_2026-10-14/13101/53394600_bldg_6697_op.gml",
+      "source_key": "13101:53394600_bldg_6697_op.gml",
+      "cached": true
+    },
+    {
+      "file": "04_Data/Raw/CFD_Domain_Audit_2026-10-14/13102/53394623_bldg_6697_op.gml",
+      "source_key": "13102:53394623_bldg_6697_op.gml",
+      "cached": true
+    },
+    {
+      "file": "04_Data/Raw/CFD_Domain_Audit_2026-10-14/13102/53394611_bldg_6697_op.gml",
+      "source_key": "13102:53394611_bldg_6697_op.gml",
+      "eligible_objects": 0,
+      "no_lod1": 0,
+      "seconds": 7.02
+    },
+    {
+      "file": "04_Data/Raw/CFD_Domain_Audit_2026-10-14/13102/53394632_bldg_6697_op.gml",
+      "source_key": "13102:53394632_bldg_6697_op.gml",
+      "eligible_objects": 0,
+      "no_lod1": 0,
+      "seconds": 4.5
+    },
+    {
+      "file": "04_Data/Raw/CFD_Domain_Audit_2026-10-14/13102/53394622_bldg_6697_op.gml",
+      "source_key": "13102:53394622_bldg_6697_op.gml",
+      "eligible_objects": 0,
+      "no_lod1": 0,
+      "seconds": 4.54
+    },
+    {
+      "file": "04_Data/Raw/CFD_Domain_Audit_2026-10-14/13102/53394621_bldg_6697_op.gml",
+      "source_key": "13102:53394621_bldg_6697_op.gml",
+      "eligible_objects": 0,
+      "no_lod1": 0,
+      "seconds": 10.33
+    },
+    {
+      "file": "04_Data/Raw/CFD_Domain_Audit_2026-10-14/13105/53394641_bldg_6697_op.gml",
+      "source_key": "13105:53394641_bldg_6697_op.gml",
+      "eligible_objects": 0,
+      "no_lod1": 0,
+      "seconds": 3.77
+    },
+    {
+      "file": "04_Data/Raw/CFD_Domain_Audit_2026-10-14/13106/53394642_bldg_6697_op.gml",
+      "source_key": "13106:53394642_bldg_6697_op.gml",
+      "eligible_objects": 0,
+      "no_lod1": 0,
+      "seconds": 5.76
+    }
+  ],
+  "available_objects": 31015,
+  "source_coverage": "Only listed files; broader catalog must be screened for high-rise candidates.",
+  "tiny_footprint_objects": 3,
+  "retained_rule_violations_within_available_data": [
+    {
+      "id": "bldg_90dfc19f-67ec-43b0-b8e6-27ef2f69ec6b",
+      "height_m": 13.5,
+      "distance_to_core_m": 49.04203708894587,
+      "core": false,
+      "retained": false,
+      "source_key": "13101:53394621_bldg_6697_op.gml",
+      "source_url": "https://assets.cms.plateau.reearth.io/assets/5d/dc07c5-ace7-465a-9c99-53f6d78f6164/13101_chiyoda-ku_pref_2025_citygml_1_op/udx/bldg/53394621_bldg_6697_op.gml",
+      "source_data_year": 2025,
+      "ground_source_m": 5.1,
+      "tiny_footprint": true
+    }
+  ],
+  "additional_6to10H_objects": 49,
+  "candidates": [
+    {
+      "name": "current_geometry",
+      "building_objects": 3805,
+      "added_objects": 0,
+      "Hmax_m": 235.2,
+      "built_bounds_m": [
+        -858.14299997534,
+        -1373.9700001752935,
+        734.1400000254725,
+        1219.8198998241933
+      ],
+      "domain_m": [
+        -3151.4080574643012,
+        -2549.9700001752935,
+        3027.405057514434,
+        4747.819899824193,
+        1411.1999999999998
+      ],
+      "size_m": [
+        6178.813114978735,
+        7297.789899999487,
+        1411.1999999999998
+      ],
+      "upstream_m": 1176.0,
+      "downstream_m": 3528.0,
+      "side_m": 2293.2650574889612,
+      "top_above_roofs_m": 1176.0,
+      "projected_silhouette_proxy_m2": 244147.1499000237,
+      "blockage_proxy": 0.027999999999999997,
+      "interpretation": "Conservative candidate start; not a boundary-independence or geometry-convergence result."
+    },
+    {
+      "name": "complete6H_within_available_data",
+      "building_objects": 3806,
+      "added_objects": 1,
+      "Hmax_m": 235.2,
+      "built_bounds_m": [
+        -858.14299997534,
+        -1373.9700001752935,
+        734.1400000254725,
+        1219.8198998241933
+      ],
+      "domain_m": [
+        -3151.4080574643012,
+        -2549.9700001752935,
+        3027.405057514434,
+        4747.819899824193,
+        1411.1999999999998
+      ],
+      "size_m": [
+        6178.813114978735,
+        7297.789899999487,
+        1411.1999999999998
+      ],
+      "upstream_m": 1176.0,
+      "downstream_m": 3528.0,
+      "side_m": 2293.2650574889612,
+      "top_above_roofs_m": 1176.0,
+      "projected_silhouette_proxy_m2": 244147.1499000237,
+      "blockage_proxy": 0.027999999999999997,
+      "interpretation": "Conservative candidate start; not a boundary-independence or geometry-convergence result."
+    },
+    {
+      "name": "expanded10H_within_available_data",
+      "building_objects": 3855,
+      "added_objects": 50,
+      "Hmax_m": 235.2,
+      "built_bounds_m": [
+        -1267.4199999748698,
+        -1527.4300001736337,
+        1547.0900000254182,
+        1267.4899998239198
+      ],
+      "domain_m": [
+        -4027.7269270098313,
+        -2703.4300001736337,
+        4307.396927060379,
+        4795.48999982392,
+        1411.1999999999998
+      ],
+      "size_m": [
+        8335.12385407021,
+        7498.9199999975535,
+        1411.1999999999998
+      ],
+      "upstream_m": 1176.0,
+      "downstream_m": 3528.0,
+      "side_m": 2760.3069270349615,
+      "top_above_roofs_m": 1176.0,
+      "projected_silhouette_proxy_m2": 329350.7499201887,
+      "blockage_proxy": 0.028000000000000004,
+      "interpretation": "Conservative candidate start; not a boundary-independence or geometry-convergence result."
+    }
+  ],
+  "outer_domain_original": {
+    "core_buildings": 277,
+    "context_buildings": 3528,
+    "total_buildings": 3805,
+    "Hmax_m": 235.2,
+    "source_meshes": [
+      "53394610_bldg_6697_op.gml",
+      "53394611_bldg_6697_op.gml",
+      "53394612_bldg_6697_op.gml",
+      "53394620_bldg_6697_op.gml",
+      "53394621_bldg_6697_op.gml",
+      "53394622_bldg_6697_op.gml",
+      "53394630_bldg_6697_op.gml",
+      "53394631_bldg_6697_op.gml",
+      "53394632_bldg_6697_op.gml",
+      "53394640_bldg_6697_op.gml",
+      "53394641_bldg_6697_op.gml",
+      "53394642_bldg_6697_op.gml"
+    ],
+    "built_bounds_m": [
+      -858.14299997534,
+      -1373.9700001752935,
+      734.1400000254725,
+      1219.8198998241933
+    ],
+    "domain_m": [
+      -3151.408057464302,
+      -2549.9700001752935,
+      3027.4050575144347,
+      4747.819899824193,
+      1411.1999999999998
+    ],
+    "upstream_clearance_m": 1176.0,
+    "downstream_clearance_m": 3528.0,
+    "side_clearance_m": 2293.265057488962,
+    "top_clearance_above_tallest_m": 1176.0,
+    "projected_frontal_area_m2": 244147.1499000238,
+    "initial_projected_frontal_blockage_fraction": 0.043862665843036365,
+    "projected_frontal_blockage_fraction": 0.028000000000000004,
+    "context_selection": "all source buildings within max(500 m, 6*individual_height) of ROI; limited to listed official source meshes",
+    "terrain": "flat ground z=0; source base elevations retained for sensitivity; LOD1 extrusion",
+    "origin_epsg6677": [
+      -5600.0,
+      -34320.0
+    ],
+    "omitted_buildings": null,
+    "omitted_relevant_6H": null,
+    "core_bounds_m": [
+      -163.3604116935212,
+      -165.11412012339133,
+      214.64278245973674,
+      445.8550349371653
+    ]
+  },
+  "crs": "EPSG:6677 local",
+  "origin": [
+    -5600.0,
+    -34320.0
+  ],
+  "sources": [
+    {
+      "title": "COST732 Best Practice Guideline2007",
+      "sections": "5.4–5.5, printed pp16–18",
+      "url": "https://www.airshed.co.uk/wp-content/uploads/2018/03/COST-732-Best-Practice-Guideline-May-2007.pdf"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "staged": "allocation.gpkg",
+    "bytes": 5849088,
+    "sha256": "095d5b0f7e18f06ad9dda997ab88a3f0b62012f134a12d106773054382c338c9"
+  },
+  {
+    "staged": "context.gpkg",
+    "bytes": 1179648,
+    "sha256": "f906cf3aa0f6c65218b14177cba4c68a613bcafce916f641ecfacad386e72319"
+  },
+  {
+    "staged": "weather.csv",
+    "bytes": 1474315,
+    "sha256": "013523563fac871be481f7a42eadaa5254e037e4a549641ba41c5dae009d51ba"
+  },
+  {
+    "staged": "weather_qa.json",
+    "bytes": 1731,
+    "sha256": "577ed698b62b2003f3801cf3f1b3513280d16e007a21dce531dc96a7e9095a10"
+  }
+]

@@ -1,0 +1,299 @@
+[
+  {
+    "slug": "brief-2026",
+    "title": "Building an Area Management Model for Decarbonization and Climate Resilience: Kanda–Nihonbashi Area, Tokyo",
+    "authors": [
+      "Akito Murayama",
+      "Perry Pei-Ju Yang",
+      "Takahiro Yoshida"
+    ],
+    "year": 2026,
+    "official_url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+    "citation_apa": "Murayama, A., Yang, P. P.-J., & Yoshida, T. (2026). Building an area management model for decarbonization and climate resilience: Kanda–Nihonbashi Area, Tokyo [Theme B official studio brief]. The University of Tokyo.",
+    "source_type": "Official course brief",
+    "role": "course",
+    "read_scope": "sections",
+    "locators": [
+      "Background",
+      "Assignment, Figure 5",
+      "About Kajicho",
+      "Program",
+      "Output",
+      "References"
+    ],
+    "pdf_integrity": "UNAVAILABLE: pypdf repair warnings; declared/enumerated/reader counts all 7. Section and figure locators used.",
+    "method_facts": [
+      {
+        "fact": "The assignment combines planning support and implementation support, focusing on Kajicho 1 & 2 within Kanda–Nihonbashi toward 2050.",
+        "locator": "Assignment, Figure 5"
+      },
+      {
+        "fact": "The required outputs are a booklet explaining the model/application and a presentation summarising it.",
+        "locator": "Output"
+      }
+    ]
+  },
+  {
+    "slug": "yamagata-yang-2020",
+    "title": "Urban Systems Design: Creating Sustainable Smart Cities in the Internet of Things Era",
+    "authors": [
+      "Yoshiki Yamagata (editor)",
+      "Perry P. J. Yang (editor)"
+    ],
+    "year": 2020,
+    "doi": "10.1016/C2017-0-04401-4",
+    "official_url": "https://keio.elsevierpure.com/en/publications/urban-systems-design-creating-sustainable-smart-cities-in-the-int/",
+    "citation_apa": "Yamagata, Y., & Yang, P. P. J. (Eds.). (2020). Urban systems design: Creating sustainable smart cities in the Internet of Things era. Elsevier. https://doi.org/10.1016/C2017-0-04401-4",
+    "source_type": "Edited book; institutional metadata and synopsis only",
+    "role": "course",
+    "read_scope": "metadata_and_synopsis",
+    "locators": [
+      "Keio institutional publication record: abstract and bibliographic information"
+    ],
+    "method_facts": [
+      {
+        "fact": "The publisher synopsis connects urban form, energy, transport, human comfort and shared platforms.",
+        "locator": "Institutional record abstract"
+      }
+    ],
+    "limitations_assessment": "Book chapters not obtained; no chapter-level evidence or methodological assessment."
+  },
+  {
+    "slug": "jica-2022-smart-city",
+    "title": "Data Collection Survey on the Application of Smart City Approach: Final Report",
+    "authors": [
+      "Japan International Cooperation Agency",
+      "Pacific Consultants",
+      "Mitsubishi UFJ Research and Consulting"
+    ],
+    "year": 2022,
+    "official_url": "https://openjicareport.jica.go.jp/618/618/618_000_12342515.html",
+    "read_url": "https://libopac.jica.go.jp/images/report/12342515.pdf",
+    "citation_apa": "Japan International Cooperation Agency, Pacific Consultants, & Mitsubishi UFJ Research and Consulting. (2022). Data collection survey on the application of smart city approach: Final report.",
+    "source_type": "Official technical and implementation report",
+    "role": "course",
+    "read_scope": "sections",
+    "locators": [
+      "§1-1–1-2",
+      "§5-5-1–5-5-2",
+      "§6-2"
+    ],
+    "pdf_integrity": "PASS;347 pages;SHA256110512b95891aa693732a45b085d9250756ba59b576a478e7075a073e3e56199",
+    "method_facts": [
+      {
+        "fact": "Urban issues, vision and strategy precede technology selection; local context conditions transfer.",
+        "locator": "§1-1–1-2"
+      },
+      {
+        "fact": "Implementation needs named roles, finance, operational arrangements and monitoring.",
+        "locator": "§5-5;§6-2"
+      }
+    ],
+    "source_limitations": [
+      {
+        "status": "reader-inferred",
+        "text": "The report principally concerns cooperation in developing-country cities. Its process concepts need local interpretation for central Tokyo.",
+        "locator": "§1-1-2"
+      }
+    ]
+  },
+  {
+    "slug": "morrish-2021-tokyo",
+    "title": "Tokyo: Reimagining the World’s Largest City with Advanced Analytics",
+    "authors": [
+      "Keera Morrish"
+    ],
+    "year": 2021,
+    "official_url": "https://www.esri.com/about/newsroom/blog/georgia-tech-students-smart-city-tokyo/",
+    "citation_apa": "Morrish, K. (2021, December 7). Tokyo: Reimagining the world’s largest city with advanced analytics. Esri.",
+    "source_type": "Vendor-authored education/practice account",
+    "role": "course",
+    "read_scope": "article",
+    "locators": [
+      "Placemakers",
+      "A New City on the Urban Fringes",
+      "Reimagining Future Communities Using Advanced Analytics"
+    ],
+    "method_facts": [
+      {
+        "fact": "The studio brings geospatial analysis and urban design into interdisciplinary project work; the account distinguishes existing communities from new developments.",
+        "locator": "Placemakers; Reimagining Future Communities Using Advanced Analytics"
+      }
+    ],
+    "source_limitations": [
+      {
+        "status": "reader-inferred",
+        "text": "An education/practice account supports context, not model accuracy or causal intervention effects."
+      }
+    ]
+  },
+  {
+    "slug": "ramnarine-2025-canvas",
+    "title": "Urban revitalization pathways toward zero carbon emissions through systems architecting of urban digital twins",
+    "authors": [
+      "Ishwar D. Ramnarine",
+      "Tarek A. Sherif",
+      "Abdulrahman H. Alorabi",
+      "Haya Helmy",
+      "Takahiro Yoshida",
+      "Akito Murayama",
+      "Perry P.-J. Yang"
+    ],
+    "year": 2025,
+    "doi": "10.1177/23998083251318142",
+    "official_url": "https://journals.sagepub.com/doi/10.1177/23998083251318142",
+    "citation_apa": "Ramnarine, I. D., Sherif, T. A., Alorabi, A. H., Helmy, H., Yoshida, T., Murayama, A., & Yang, P. P.-J. (2025). Urban revitalization pathways toward zero carbon emissions through systems architecting of urban digital twins. Environment and Planning B: Urban Analytics and City Science, 52(8), 1920–1948. https://doi.org/10.1177/23998083251318142",
+    "source_type": "Peer-reviewed systems-design case study",
+    "role": "course",
+    "read_scope": "abstract_only",
+    "locators": [
+      "Publisher abstract"
+    ],
+    "method_facts": [
+      {
+        "fact": "CANVAS links digital representation, performance modelling, design interventions and a decision platform through iterative revitalisation cycles.",
+        "locator": "Abstract"
+      }
+    ],
+    "limitations_assessment": "Full text unavailable; no detailed parameter critique or reuse of reported reduction percentages."
+  },
+  {
+    "slug": "alorabi-2025-net-zero",
+    "title": "A Data-driven Smart District Toward Net Zero Using Generative Design and Urban Digital Twins: A Use Case of Nihonbashi, Tokyo",
+    "authors": [
+      "Abdulrahman H. Alorabi",
+      "Jingyuan Shen",
+      "Jalisa M. Smith",
+      "Max Hawkins",
+      "Kamyar Fatemifar",
+      "Takahiro Yoshida",
+      "Akito Murayama",
+      "Perry Pei-Ju Yang"
+    ],
+    "year": 2025,
+    "doi": "10.5194/isprs-archives-XLVIII-4-W16-2025-1-2025",
+    "official_url": "https://isprs-archives.copernicus.org/articles/XLVIII-4-W16-2025/1/2025/",
+    "citation_apa": "Alorabi, A. H., Shen, J., Smith, J. M., Hawkins, M., Fatemifar, K., Yoshida, T., Murayama, A., & Yang, P. P.-J. (2025). A data-driven smart district toward net zero using generative design and urban digital twins: A use case of Nihonbashi, Tokyo. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, XLVIII-4/W16-2025, 1–8. https://doi.org/10.5194/isprs-archives-XLVIII-4-W16-2025-1-2025",
+    "source_type": "Peer-reviewed modelling/design case study",
+    "role": "course",
+    "read_scope": "sections",
+    "locators": [
+      "§2",
+      "§3.1–3.3"
+    ],
+    "pdf_integrity": "PASS;8 pages;SHA2565f17ad2648585b65d4b7e1ae0329f995b62bc697aff2d0aa640d105f9c3e0231",
+    "method_facts": [
+      {
+        "fact": "The three-stage framework connects a UBEM baseline, generated alternatives and interactive comparison; §3.3 uses URBANopt/OpenStudio/EnergyPlus.",
+        "locator": "§2;§3.3"
+      },
+      {
+        "fact": "Scenario variables include form, use, envelope/operation and renewable-energy assumptions.",
+        "locator": "§3.2"
+      }
+    ],
+    "source_limitations": [
+      {
+        "status": "reader-inferred",
+        "text": "The construction-year intervention rule is a scenario classification, not a verified structural or parcel decision for Kajicho. Review condition, ownership, whole-life carbon and planning feasibility before transfer.",
+        "locator": "§3.1–3.2"
+      }
+    ]
+  },
+  {
+    "slug": "zeng-2025-heat",
+    "title": "Enhancing Urban Heat Risk Resilience in Tokyo’s Nihonbashi through Urban Digital Twins of 4-Step Scenario Planning",
+    "authors": [
+      "Qinghao Zeng",
+      "Ryan T. Nation",
+      "Hina I. Ahmed",
+      "Hsu-Chieh Ma",
+      "Kaiyu Zhou",
+      "Jiaqi Gu",
+      "Takahiro Yoshida",
+      "Akito Murayama",
+      "Perry Pei-Ju Yang"
+    ],
+    "year": 2025,
+    "doi": "10.5194/isprs-archives-XLVIII-4-W16-2025-135-2025",
+    "official_url": "https://isprs-archives.copernicus.org/articles/XLVIII-4-W16-2025/135/2025/",
+    "citation_apa": "Zeng, Q., Nation, R. T., Ahmed, H. I., Ma, H.-C., Zhou, K., Gu, J., Yoshida, T., Murayama, A., & Yang, P. P.-J. (2025). Enhancing urban heat risk resilience in Tokyo’s Nihonbashi through urban digital twins of 4-step scenario planning. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, XLVIII-4/W16-2025, 135–142. https://doi.org/10.5194/isprs-archives-XLVIII-4-W16-2025-135-2025",
+    "source_type": "Peer-reviewed heat/network modelling case study",
+    "role": "course",
+    "read_scope": "sections",
+    "locators": [
+      "§3.1",
+      "§4.1–4.4",
+      "§5.1–5.2"
+    ],
+    "pdf_integrity": "PASS;8 pages;SHA2561d471815ce0a7de9cfc51ccfd1c606cc64aa5637dc6cd08762bb4f7e18d3e02d",
+    "method_facts": [
+      {
+        "fact": "Four steps link description, evaluation, prediction and prescription through heat-index, network and vulnerability data.",
+        "locator": "§3.1;§4"
+      },
+      {
+        "fact": "The discussion distinguishes an envisioned stakeholder interface from current terminal/plot outputs and identifies static inputs and proxy limitations.",
+        "locator": "§5.1–5.2"
+      }
+    ],
+    "source_limitations": [
+      {
+        "status": "author-acknowledged",
+        "text": "Traffic-density vulnerability proxy and static road/shelter data limit interpretation; shade/time-varying heat treatment needs development.",
+        "locator": "§5.2"
+      }
+    ]
+  },
+  {
+    "slug": "yang-yamagata-2019",
+    "title": "Urban Systems Design: From “science for design” to “design in science”",
+    "authors": [
+      "Perry P. J. Yang",
+      "Yoshiki Yamagata"
+    ],
+    "year": 2019,
+    "doi": "10.1177/2399808319877770",
+    "official_url": "https://journals.sagepub.com/doi/10.1177/2399808319877770",
+    "citation_apa": "Yang, P. P. J., & Yamagata, Y. (2019). Urban systems design: From “science for design” to “design in science”. Environment and Planning B: Urban Analytics and City Science, 46(8), 1381–1386. https://doi.org/10.1177/2399808319877770",
+    "source_type": "Conceptual editorial",
+    "role": "theory",
+    "read_scope": "sections",
+    "locators": [
+      "Introduction",
+      "Cities as flows: A biological metabolism or complex systems",
+      "The theme issue on urban systems design"
+    ],
+    "method_facts": [
+      {
+        "fact": "Urban-systems design joins normative choices about desirable places with positive analysis of how urban flows perform.",
+        "locator": "Introduction;The theme issue on urban systems design"
+      }
+    ]
+  },
+  {
+    "slug": "epa-swmm",
+    "title": "Storm Water Management Model (SWMM)",
+    "authors": [
+      "U.S. Environmental Protection Agency"
+    ],
+    "year": 2026,
+    "official_url": "https://www.epa.gov/water-research/storm-water-management-model-swmm",
+    "citation_apa": "U.S. Environmental Protection Agency. (2026, October 7). Storm Water Management Model (SWMM).",
+    "source_type": "Official model capability and documentation page",
+    "role": "methods",
+    "read_scope": "sections",
+    "locators": [
+      "Capabilities",
+      "Accounting for Hydrologic Processes",
+      "Green Infrastructure as LID Controls"
+    ],
+    "method_facts": [
+      {
+        "fact": "SWMM represents rainfall-runoff and drainage-network routing, with permeable/impervious subcatchments and low-impact-development controls.",
+        "locator": "Capabilities;Accounting for Hydrologic Processes;Green Infrastructure as LID Controls"
+      }
+    ],
+    "limitations_assessment": "Capability page read; no SWMM run, parameter calibration or numerical design asserted."
+  }
+]

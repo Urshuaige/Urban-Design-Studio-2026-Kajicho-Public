@@ -1,0 +1,17 @@
+{
+  "research_objects": 1064,
+  "all": {
+    "Unresolved around 2011": 790,
+    "Before 2011": 250,
+    "After 2011": 24
+  },
+  "primary": {
+    "Unresolved around 2011": 178,
+    "Before 2011": 72,
+    "After 2011": 7
+  },
+  "new_exact_years": 0,
+  "source_database": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Wider_Building_Update_2026-10-28/Wider_Building_Update_2026-10-28.gpkg",
+  "source_attributes_overwritten": false,
+  "earthquake_is_temporal_reference_not_causal_attribution": true
+}

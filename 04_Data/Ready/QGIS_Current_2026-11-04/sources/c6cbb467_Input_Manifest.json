@@ -1,0 +1,8 @@
+{
+  "file": "inputs/Building_Population_Energy.gpkg",
+  "source": "06_Outputs/Slides/Building_Population_Energy_2026-11-02/data/Building_Population_Energy.gpkg",
+  "sha256": "095d5b0f7e18f06ad9dda997ab88a3f0b62012f134a12d106773054382c338c9",
+  "count_current_all": 2006,
+  "wider": 1067,
+  "crs": "EPSG:6677"
+}

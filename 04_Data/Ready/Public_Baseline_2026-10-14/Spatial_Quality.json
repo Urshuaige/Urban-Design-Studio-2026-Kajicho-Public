@@ -1,0 +1,416 @@
+{
+  "crs": "EPSG:6677",
+  "layers": {
+    "primary_area": {
+      "features": 1,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "analysis_extent": {
+      "features": 1,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "mlit_13101_bouka": {
+      "features": 10,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "mlit_13101_chikukei": {
+      "features": 8,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "mlit_13101_koudori": {
+      "features": 0,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "mlit_13101_koudoti": {
+      "features": 0,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "mlit_13101_youto": {
+      "features": 10,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "mlit_13102_bouka": {
+      "features": 1,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "mlit_13102_chikukei": {
+      "features": 3,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "mlit_13102_koudori": {
+      "features": 1,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "mlit_13102_tokureiyouseki": {
+      "features": 0,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "mlit_13102_toshisaisei": {
+      "features": 1,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "mlit_13102_youto": {
+      "features": 7,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "plateau_urf": {
+      "features": 35,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "plateau_luse": {
+      "features": 1314,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "plateau_tran": {
+      "features": 968,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "plateau_fld": {
+      "features": 59,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "parks_metropolitan": {
+      "features": 0,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "parks_city": {
+      "features": 3,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677",
+      "core_intersections": 0
+    },
+    "parks_other": {
+      "features": 5,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677",
+      "core_intersections": 0
+    },
+    "street_tree_points": {
+      "features": 320,
+      "geometry": "MultiPoint",
+      "crs": "EPSG:6677",
+      "core_intersections": 0
+    },
+    "street_tree_routes": {
+      "features": 20,
+      "geometry": "MultiLineString",
+      "crs": "EPSG:6677",
+      "core_intersections": 7
+    },
+    "tree_crown_circles": {
+      "features": 156,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677",
+      "core_intersections": 0
+    },
+    "related_13101_shelter": {
+      "features": 3,
+      "geometry": "MultiPoint",
+      "crs": "EPSG:6677"
+    },
+    "related_13101_park": {
+      "features": 1,
+      "geometry": "MultiPoint",
+      "crs": "EPSG:6677"
+    },
+    "related_13101_station": {
+      "features": 4,
+      "geometry": "MultiPoint",
+      "crs": "EPSG:6677"
+    },
+    "related_13101_route": {
+      "features": 5,
+      "geometry": "MultiLineString",
+      "crs": "EPSG:6677"
+    },
+    "related_13102_shelter": {
+      "features": 1,
+      "geometry": "MultiPoint",
+      "crs": "EPSG:6677"
+    },
+    "related_13102_park": {
+      "features": 2,
+      "geometry": "MultiPoint",
+      "crs": "EPSG:6677"
+    },
+    "related_13102_station": {
+      "features": 2,
+      "geometry": "MultiPoint",
+      "crs": "EPSG:6677"
+    },
+    "related_13102_route": {
+      "features": 8,
+      "geometry": "MultiLineString",
+      "crs": "EPSG:6677"
+    },
+    "buildings": {
+      "features": 1981,
+      "geometry": "MultiPolygon",
+      "crs": "EPSG:6677"
+    },
+    "roads": {
+      "features": 4377,
+      "geometry": "LineString",
+      "crs": "EPSG:6677"
+    },
+    "water": {
+      "features": 5,
+      "geometry": "Polygon",
+      "crs": "EPSG:6677"
+    },
+    "water_lines": {
+      "features": 18,
+      "geometry": "LineString",
+      "crs": "EPSG:6677"
+    },
+    "rail": {
+      "features": 316,
+      "geometry": "LineString",
+      "crs": "EPSG:6677"
+    }
+  },
+  "sources": {
+    "mlit_13101_bouka": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/MLIT_Tokyo/13_東京都/13101_千代田区/13101_bouka.geojson",
+      "source_crs": "EPSG:6668",
+      "source_features": 94,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "mlit_13101_chikukei": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/MLIT_Tokyo/13_東京都/13101_千代田区/13101_chikukei.geojson",
+      "source_crs": "EPSG:6668",
+      "source_features": 45,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "mlit_13101_koudori": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/MLIT_Tokyo/13_東京都/13101_千代田区/13101_koudori.geojson",
+      "source_crs": "EPSG:6668",
+      "source_features": 12,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "mlit_13101_koudoti": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/MLIT_Tokyo/13_東京都/13101_千代田区/13101_koudoti.geojson",
+      "source_crs": "EPSG:6668",
+      "source_features": 9,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "mlit_13101_youto": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/MLIT_Tokyo/13_東京都/13101_千代田区/13101_youto.geojson",
+      "source_crs": "EPSG:6668",
+      "source_features": 85,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "mlit_13102_bouka": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/MLIT_Tokyo/13_東京都/13102_中央区/13102_bouka.geojson",
+      "source_crs": "EPSG:6668",
+      "source_features": 6,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "mlit_13102_chikukei": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/MLIT_Tokyo/13_東京都/13102_中央区/13102_chikukei.geojson",
+      "source_crs": "EPSG:6668",
+      "source_features": 31,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "mlit_13102_koudori": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/MLIT_Tokyo/13_東京都/13102_中央区/13102_koudori.geojson",
+      "source_crs": "EPSG:6668",
+      "source_features": 11,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "mlit_13102_tokureiyouseki": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/MLIT_Tokyo/13_東京都/13102_中央区/13102_tokureiyouseki.geojson",
+      "source_crs": "EPSG:6668",
+      "source_features": 1,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "mlit_13102_toshisaisei": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/MLIT_Tokyo/13_東京都/13102_中央区/13102_toshisaisei.geojson",
+      "source_crs": "EPSG:6668",
+      "source_features": 21,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "mlit_13102_youto": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/MLIT_Tokyo/13_東京都/13102_中央区/13102_youto.geojson",
+      "source_crs": "EPSG:6668",
+      "source_features": 67,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "plateau_urf": {
+      "path": "04_Data/Ready/Public_Baseline_2026-10-14/CityGML_urf_source_extent.geojson",
+      "source_crs": "EPSG:6668",
+      "source_features": 37,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "plateau_luse": {
+      "path": "04_Data/Ready/Public_Baseline_2026-10-14/CityGML_luse_source_extent.geojson",
+      "source_crs": "EPSG:6668",
+      "source_features": 1315,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "plateau_tran": {
+      "path": "04_Data/Ready/Public_Baseline_2026-10-14/CityGML_tran_source_extent.geojson",
+      "source_crs": "EPSG:6668",
+      "source_features": 969,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "plateau_fld": {
+      "path": "04_Data/Ready/Public_Baseline_2026-10-14/CityGML_fld_source_extent.geojson",
+      "source_crs": "EPSG:6668",
+      "source_features": 60,
+      "invalid_geometries_repaired": 60,
+      "clipped": true
+    },
+    "parks_metropolitan": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/Tokyo_Green/01_kouenryokuchi/01_公園・緑地等/01_都市公園/01_都立公園/都立公園.shp",
+      "source_crs": "EPSG:6677",
+      "source_features": 83,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "parks_city": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/Tokyo_Green/01_kouenryokuchi/01_公園・緑地等/01_都市公園/02_区市町村立公園/区市町村立公園(都市公園).shp",
+      "source_crs": "EPSG:6677",
+      "source_features": 8685,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "parks_other": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/Tokyo_Green/01_kouenryokuchi/01_公園・緑地等/02_都市公園以外/01_区市町村立公園/区市町村立公園(都市公園以外).shp",
+      "source_crs": "EPSG:6677",
+      "source_features": 3760,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "street_tree_points": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/Tokyo_Green/02_gairoju/02_街路樹/01_区部都道（単木単位）/街路樹（区部・都管理）_pt.shp",
+      "source_crs": "EPSG:6677",
+      "source_features": 144183,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "street_tree_routes": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/Tokyo_Green/02_gairoju/02_街路樹/02_多摩部都道、区市町村道（路線単位）/街路樹（多摩部都道、区市町村道）_line.shp",
+      "source_crs": "EPSG:6677",
+      "source_features": 5628,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "related_13101_shelter": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/PLATEAU/13101_related/13101_chiyoda-ku_pref_2023_shelter.geojson",
+      "source_crs": "EPSG:4326",
+      "source_features": 21,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "related_13101_park": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/PLATEAU/13101_related/13101_chiyoda-ku_pref_2023_park.geojson",
+      "source_crs": "EPSG:4326",
+      "source_features": 23,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "related_13101_station": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/PLATEAU/13101_related/13101_chiyoda-ku_pref_2025_station.geojson",
+      "source_crs": "EPSG:4326",
+      "source_features": 63,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "related_13101_route": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/PLATEAU/13101_related/13101_chiyoda-ku_pref_2025_emergency_route.geojson",
+      "source_crs": "EPSG:4326",
+      "source_features": 36,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "related_13102_shelter": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/PLATEAU/13102_related/13102_chuo-ku_pref_2023_shelter.geojson",
+      "source_crs": "EPSG:4326",
+      "source_features": 36,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "related_13102_park": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/PLATEAU/13102_related/13102_chuo-ku_pref_2023_park.geojson",
+      "source_crs": "EPSG:4326",
+      "source_features": 46,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "related_13102_station": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/PLATEAU/13102_related/13102_chuo-ku_pref_2025_station.geojson",
+      "source_crs": "EPSG:4326",
+      "source_features": 32,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    },
+    "related_13102_route": {
+      "path": "04_Data/Raw/Public_Baseline_2026-10-14/PLATEAU/13102_related/13102_chuo-ku_pref_2025_emergency_route.geojson",
+      "source_crs": "EPSG:4326",
+      "source_features": 44,
+      "invalid_geometries_repaired": 0,
+      "clipped": true
+    }
+  },
+  "core": {
+    "buildings": 277,
+    "usage_known": 250,
+    "levels_source": 250,
+    "survey_year_known": 250,
+    "construction_year_known": 0,
+    "floor_proxy_m2": 229754.94300000003,
+    "scenario_electricity_kwh": 27570593.160000008,
+    "scenario_electricity_co2_t": 11607.219720359999,
+    "far_crosscheck": {
+      "match": 251,
+      "multiple_zones": 26
+    },
+    "source_floor_factors": {
+      "1.0": 221,
+      "0.8": 24,
+      "None": 27,
+      "0.85": 4,
+      "0.9": 1
+    }
+  },
+  "scope": "Kajicho 1 and 2; existing v2 core IDs; surrounding bbox 139.767,35.687,139.776,35.695",
+  "flood_exposure": {
+    "core_buildings_any_overlap": 144,
+    "by_scenario": {
+      "神田川流域（想定最大規模）": 144
+    }
+  }
+}

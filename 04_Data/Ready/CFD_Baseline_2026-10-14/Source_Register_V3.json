@@ -1,0 +1,58 @@
+[
+  {
+    "dataset": "CFD surrounding buildings",
+    "source_url": "https://api.plateauview.mlit.go.jp/datacatalog/citygml/r:139.746,35.67,139.797,35.716?types=bldg",
+    "data_year": "2021 survey / 2024 geometry / 2025 release; per object source retained",
+    "document_year": "2025 package",
+    "website_year": "2026 catalog",
+    "download_date": "2026-10-14",
+    "spatial_unit": "building model object",
+    "source_crs": "EPSG:6697",
+    "ready_crs": "EPSG:6677 with local origin [-5600,-34320] for CFD only",
+    "license": "CC BY 4.0, Tokyo / MLIT PLATEAU",
+    "processing": "12 source GML; LOD1 horizontal projection; individual 6H or 500m inclusion; flat-ground extrusion; Manifold union",
+    "path": "04_Data/Ready/CFD_Baseline_2026-10-14/cfd_buildings_local.geojson"
+  },
+  {
+    "dataset": "Official ward FAR and boundary basis",
+    "source_url": "https://tokei-gis2.chiyodatoshikei.jp/server/rest/services/Map_services/youtochiiki/MapServer",
+    "data_year": "current map service; individual notification year not provided",
+    "document_year": "2026-03-31 map PDF",
+    "website_year": "2026",
+    "download_date": "2026-10-14",
+    "spatial_unit": "planning polygon / boundary line / distance label",
+    "source_crs": "EPSG:2451",
+    "ready_crs": "EPSG:6677, official REST outSR transform",
+    "license": "Chiyoda secondary-use conditions; reference GIS, legal site check pending",
+    "processing": "query layers11,13,14,15 with published bbox; preserve attributes; intersect 26 footprints; keep all overlaps and thresholds",
+    "path": "04_Data/Ready/CFD_Baseline_2026-10-14/FAR26_Official_Review.csv"
+  },
+  {
+    "dataset": "Tokyo street tree CSV, wider area",
+    "source_url": "https://www.opendata.metro.tokyo.lg.jp/kensetsu/tokyo_gairoju.csv",
+    "data_year": "FY2020 Chiyoda/Chuo",
+    "document_year": "2025 catalog version",
+    "website_year": "2025-02-20 catalog",
+    "download_date": "2026-10-14",
+    "spatial_unit": "individual metropolitan-road tree",
+    "source_crs": "published longitude latitude",
+    "ready_crs": "EPSG:6677",
+    "license": "CC BY, Tokyo Metropolitan Government",
+    "processing": "CP932 decode; bbox901records; core0; keep separate from shapefile duplicates; no invented locations",
+    "path": "04_Data/Ready/CFD_Baseline_2026-10-14/Street_Trees_Local.json"
+  },
+  {
+    "dataset": "JMA wind sensor height",
+    "source_url": "https://www.jma.go.jp/jma/kishou/know/amedas/ame_master.pdf",
+    "data_year": "2026-03-24 station list; historical station changes not assumed",
+    "document_year": "2026",
+    "website_year": "2026",
+    "download_date": "2026-10-14",
+    "spatial_unit": "Tokyo station",
+    "source_crs": "station list",
+    "ready_crs": "not spatial layer",
+    "license": "JMA site use terms",
+    "processing": "sensor reference35.3m checked in official station list; weather actual2025hourlyCSV kept separate",
+    "path": "03_Theme_B/Simulation_V3/Sources/JMA_Station_List_2026-03-24.pdf"
+  }
+]

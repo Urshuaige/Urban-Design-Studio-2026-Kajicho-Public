@@ -1,0 +1,12 @@
+{
+  "legacy_census_area_ha": 10.791438707340689,
+  "registered_primary_area_ha": 10.703830447464894,
+  "intersection_area_m2": 104942.14475200912,
+  "symmetric_difference_m2": 5068.402044036981,
+  "legacy_minus_primary_m2": 2972.242321397678,
+  "primary_minus_legacy_m2": 2096.159722639304,
+  "hausdorff_m": 11.645203690744001,
+  "new_only_model_ids": [],
+  "legacy_only_model_ids": [],
+  "interpretation": "Census and course raster are different source definitions. Differences inside registration/stroke uncertainty remain unresolved at parcel scale."
+}

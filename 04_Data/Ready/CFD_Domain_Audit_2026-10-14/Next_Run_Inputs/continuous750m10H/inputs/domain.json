@@ -1,0 +1,54 @@
+{
+  "core_buildings": 277,
+  "context_buildings": 6243,
+  "total_buildings": 6520,
+  "Hmax_m": 235.2,
+  "source_meshes": [
+    "13101:53394610_bldg_6697_op.gml",
+    "13101:53394611_bldg_6697_op.gml",
+    "13101:53394620_bldg_6697_op.gml",
+    "13101:53394621_bldg_6697_op.gml",
+    "13101:53394622_bldg_6697_op.gml",
+    "13101:53394630_bldg_6697_op.gml",
+    "13101:53394631_bldg_6697_op.gml",
+    "13101:53394632_bldg_6697_op.gml",
+    "13101:53394641_bldg_6697_op.gml",
+    "13101:53394642_bldg_6697_op.gml",
+    "13102:53394612_bldg_6697_op.gml",
+    "13102:53394623_bldg_6697_op.gml"
+  ],
+  "built_bounds_m": [
+    -1267.4199999748698,
+    -1527.4300001736337,
+    1547.0900000254182,
+    1267.4899998239198
+  ],
+  "domain_m": [
+    -4160,
+    -2752,
+    4480,
+    4800,
+    1472
+  ],
+  "upstream_clearance_m": 1224.5699998263663,
+  "downstream_clearance_m": 3532.51000017608,
+  "side_clearance_m": 2892.58000002513,
+  "top_clearance_above_tallest_m": 1236.8,
+  "projected_frontal_area_m2": 339687.7564002945,
+  "initial_projected_frontal_blockage_fraction": 0.043862665843036365,
+  "projected_frontal_blockage_fraction": 0.026709043849409225,
+  "context_selection": "continuous750m10H; geometry audit and candidate inputs only",
+  "terrain": "flat ground z=0; source base elevations retained for sensitivity; LOD1 extrusion",
+  "origin_epsg6677": [
+    -5600.0,
+    -34320.0
+  ],
+  "omitted_buildings": null,
+  "omitted_relevant_6H": null,
+  "core_bounds_m": [
+    -163.3604116935212,
+    -165.11412012339133,
+    214.64278245973674,
+    445.8550349371653
+  ]
+}

@@ -1,0 +1,4 @@
+﻿ROW_ID,__wider_pk,case,area_m2,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,1,A,5937.8530841735665,1,inside_wider,Original source feature or statistical unit; values not recomputed
+2,2,B,3991.3273845152,2,inside_wider,Original source feature or statistical unit; values not recomputed
+3,3,C,3836.506224342156,3,inside_wider,Original source feature or statistical unit; values not recomputed

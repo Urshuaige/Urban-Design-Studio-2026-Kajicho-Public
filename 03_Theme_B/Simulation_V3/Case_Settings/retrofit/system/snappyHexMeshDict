@@ -1,0 +1,14 @@
+FoamFile { version 2.0; format ascii; class dictionary; object snappyHexMeshDict; }
+
+castellatedMesh true; snap false; addLayers false;
+geometry { buildings.stl {type triSurfaceMesh;name buildings;}
+ coreVolume {type searchableBox;min (-203.3604116935212 -205.11412012339133 0);max (254.64278245973674 485.8550349371653 70);}
+ pedestrian {type searchableBox;min (-178.3604116935212 -180.11412012339133 0);max (229.64278245973674 460.8550349371653 2.5);} }
+castellatedMeshControls { maxLocalCells 1000000; maxGlobalCells 12000000; minRefinementCells 0; maxLoadUnbalance 0.1; nCellsBetweenLevels 3;
+ features (); refinementSurfaces { buildings {level (3 3);patchInfo {type wall;} regions {coreRoofs {level (6 6);patchInfo {type wall;}} coreWalls {level (6 6);patchInfo {type wall;}} } } }
+ resolveFeatureAngle 30; refinementRegions { coreVolume {mode inside;levels ((1e15 5));} pedestrian {mode inside;levels ((1e15 7));} }
+ locationInMesh (-3051.408057464302 -2449.9700001752935 30); allowFreeStandingZoneFaces true; }
+snapControls {nSmoothPatch 3;tolerance 2.0;nSolveIter 30;nRelaxIter 5;nFeatureSnapIter 5;implicitFeatureSnap true;explicitFeatureSnap false;multiRegionFeatureSnap false;}
+addLayersControls {relativeSizes true;layers {};expansionRatio 1.2;finalLayerThickness .3;minThickness .1;nGrow 0;featureAngle 60;nRelaxIter 5;nSmoothSurfaceNormals 1;nSmoothNormals 3;nSmoothThickness 10;maxFaceThicknessRatio .5;maxThicknessToMedialRatio .3;minMedianAxisAngle 90;nBufferCellsNoExtrude 0;nLayerIter 50;}
+meshQualityControls {maxNonOrtho 65;maxBoundarySkewness 4;maxInternalSkewness 4;maxConcave 80;minVol 1e-15;minTetQuality 1e-30;minArea -1;minTwist .02;minDeterminant .001;minFaceWeight .05;minVolRatio .01;minTriangleTwist -1;nSmoothScale 4;errorReduction .75;}
+mergeTolerance 1e-6;

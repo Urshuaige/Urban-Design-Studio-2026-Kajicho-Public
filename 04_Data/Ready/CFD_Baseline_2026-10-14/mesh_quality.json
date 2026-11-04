@@ -1,0 +1,19 @@
+{
+  "cells": 8187492,
+  "minimum_volume_m3": 0.11826538882587,
+  "maximum_nonorthogonality_deg": 26.034646031536,
+  "maximum_skewness": 1.0000000000006,
+  "minimum_face_weight": 0.333333333333,
+  "minimum_internal_face_connectivity_determinant": 0.12489325044815,
+  "remaining_weak_connectivity_cells": 0,
+  "concave_cells": 300673,
+  "all_geometry_failed_categories": 1,
+  "allGeometry_status": "Concave-cell warning retained; connectivity, volumes, face flatness, skew and weights pass",
+  "accepted_for_exploratory_pair": true,
+  "scientific_validation": "pending convergence, heat balance, second-order continuation and mesh/domain sensitivity",
+  "mesh_type": "native castellated Cartesian/octree, snap false",
+  "geometry_error": "staircase boundary approximation of the same STL; narrow gaps may close; validate against finer mesh",
+  "local_repair": "removed four native underdeterminedCells with zero connectivity determinant; no buffer ring; added boundaries adiabatic",
+  "previous_trials": "snapped mesh trials preserved and rejected as environmental predictions",
+  "source_log": "logs/checkMesh.log"
+}

@@ -1,0 +1,78 @@
+{
+  "station": "Tokyo s47662",
+  "period": "2025-01-01 01:00 to 2026-01-01 00:00 JST",
+  "rows": 8760,
+  "unique_hourly_timestamps": 8760,
+  "quality_counts": {
+    "temperature_qc": {
+      "8": 8760
+    },
+    "rain_qc": {
+      "8": 8760
+    },
+    "wind_qc": {
+      "8": 8758,
+      "1": 2
+    },
+    "wind_direction_qc": {
+      "8": 8758,
+      "1": 2
+    },
+    "rh_qc": {
+      "8": 8760
+    },
+    "solar_qc": {
+      "8": 8760
+    },
+    "sunshine_qc": {
+      "8": 8760
+    },
+    "pressure_qc": {
+      "8": 8760
+    }
+  },
+  "homogeneity_values": {
+    "temperature_homogeneity": [
+      "1"
+    ],
+    "rain_homogeneity": [
+      "1"
+    ],
+    "wind_homogeneity": [
+      "1"
+    ],
+    "rh_homogeneity": [
+      "1"
+    ],
+    "solar_homogeneity": [
+      "1"
+    ],
+    "sunshine_homogeneity": [
+      "1"
+    ],
+    "pressure_homogeneity": [
+      "1"
+    ]
+  },
+  "missing_wind_timestamps": [
+    "2025-06-09T10:00:00+09:00",
+    "2025-11-27T11:00:00+09:00"
+  ],
+  "sample_days": {
+    "hottest_hourly_temperature": "2025-08-30",
+    "median_daily_hourly_max": "2025-07-31"
+  },
+  "no_imputation": true,
+  "notes": [
+    "JMA date-literal mode converts 24:00 to next-day 00:00.",
+    "The monthly grouping uses the original observation day, hours 1–24.",
+    "Solar W/m2 is previous-hour average, converted from MJ/m2.",
+    "Wind direction is meteorological from-bearing clockwise from north.",
+    "Q8 normal; Q5 quasi-normal; Q4 insufficient; Q2 doubtful; Q1 missing; Q0 not observed.",
+    "JMA background station observations are not pedestrian-height local wind."
+  ],
+  "sources": [
+    "https://www.data.jma.go.jp/risk/obsdl/index.php",
+    "https://www.data.jma.go.jp/risk/obsdl/top/help3.html"
+  ]
+}

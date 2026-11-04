@@ -1,0 +1,12 @@
+﻿usage,eui_low_kwh_m2_y,eui_mid_kwh_m2_y,eui_high_kwh_m2_y,source_dataset,survey_year,sample_n,original_energy_unit,energy_boundary,climate_region,selection_rule,status
+不明,,,,,,,,,,,user_registration_in_progress
+住宅,,,,,,,,,,,user_registration_in_progress
+供給処理施設,,,,,,,,,,,user_registration_in_progress
+共同住宅,,,,,,,,,,,user_registration_in_progress
+商業施設,,,,,,,,,,,user_registration_in_progress
+官公庁施設,,,,,,,,,,,user_registration_in_progress
+宿泊施設,,,,,,,,,,,user_registration_in_progress
+店舗等併用住宅,,,,,,,,,,,user_registration_in_progress
+文教厚生施設,,,,,,,,,,,user_registration_in_progress
+業務施設,,,,,,,,,,,user_registration_in_progress
+運輸倉庫施設,,,,,,,,,,,user_registration_in_progress

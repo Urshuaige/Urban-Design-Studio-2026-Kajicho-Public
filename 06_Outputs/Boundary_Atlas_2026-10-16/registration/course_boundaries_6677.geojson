@@ -1,0 +1,807 @@
+{
+  "type": "FeatureCollection",
+  "name": "Official course outline traces 2026-10-16",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:6677"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5542.265783705056,
+              -33873.24037409345
+            ],
+            [
+              -5591.580299659668,
+              -33891.31040654799
+            ],
+            [
+              -5591.663117446651,
+              -33969.146466595535
+            ],
+            [
+              -5610.363076680833,
+              -34030.17622661331
+            ],
+            [
+              -5643.8896311623075,
+              -34119.216425116065
+            ],
+            [
+              -5668.444503939496,
+              -34181.974262643445
+            ],
+            [
+              -5691.330065763832,
+              -34243.87579742253
+            ],
+            [
+              -5709.742436810795,
+              -34334.51513999297
+            ],
+            [
+              -5715.202943697045,
+              -34376.850645003375
+            ],
+            [
+              -5751.879133561195,
+              -34487.06117468017
+            ],
+            [
+              -5380.946996203308,
+              -34332.49346362359
+            ],
+            [
+              -5542.265783705056,
+              -33873.24037409345
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "primary_brief",
+        "name": "Kajicho 1 & 2 — brief primary area",
+        "source": "Theme B official brief, page 4, Figure 5 solid black outline",
+        "source_pixel_vertices": [
+          [
+            403,
+            392
+          ],
+          [
+            344,
+            413
+          ],
+          [
+            343,
+            505
+          ],
+          [
+            320,
+            577
+          ],
+          [
+            279,
+            682
+          ],
+          [
+            249,
+            756
+          ],
+          [
+            221,
+            829
+          ],
+          [
+            198,
+            936
+          ],
+          [
+            191,
+            986
+          ],
+          [
+            146,
+            1116
+          ],
+          [
+            590,
+            936
+          ],
+          [
+            403,
+            392
+          ]
+        ],
+        "source_raster": "PDF page 4 /Im8",
+        "source_image_size": [
+          917,
+          1495
+        ],
+        "source_original": "01_Course/2026_Briefs/2026_Theme_B_Official_Brief.pdf",
+        "source_url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+        "source_document_year": 2026,
+        "download_date": "2026-10-13",
+        "approximate": false,
+        "boundary_status": "Cartographic source-stroke trace; geographic registration uncertainty retained",
+        "outline_definition": "Stroke center, preserving visible bends; separate traces by source",
+        "registration": {
+          "method": "Least-squares affine; no snapping to census edges",
+          "pixel_origin": "upper-left; x right; y down",
+          "formula": "[E,N] = [pixel_x,pixel_y,1] @ affine_matrix",
+          "affine_matrix": [
+            [
+              0.8387638791007319,
+              0.0051573376769899325
+            ],
+            [
+              0.008216805349101186,
+              -0.8459880729333378
+            ],
+            [
+              -5883.508614679498,
+              -33543.69145658741
+            ]
+          ],
+          "rmse_m": 7.434546907555709,
+          "max_residual_m": 12.403582146416428,
+          "leave_one_out_errors_m": [
+            17.03365541822816,
+            9.854233324057127,
+            5.868724448252816,
+            16.73935647747208,
+            6.6818272968231165,
+            20.17459698242739
+          ],
+          "uncertainty_m": 25,
+          "uncertainty_definition": "Conservative cartographic screening band; includes leave-one-control-out error, source stroke width and manual point reading. Not a statistical confidence interval.",
+          "control_source": "OSM source snapshot 2026-10-13, common foundation roads; average mapped carriageway intersections when divided",
+          "controls": [
+            {
+              "name": "Chuo Street / Yasukuni-dori",
+              "pixel": [
+                225,
+                249
+              ],
+              "epsg6677": [
+                -5690.995051723813,
+                -33749.83993563471
+              ],
+              "residual_m": 3.770604150938839
+            },
+            {
+              "name": "Showa-dori / Yasukuni-dori",
+              "pixel": [
+                750,
+                273
+              ],
+              "epsg6677": [
+                -5250.270550754818,
+                -33772.84055002165
+              ],
+              "residual_m": 2.8190876430477854
+            },
+            {
+              "name": "Chuo Street / Kanda Kanamono-dori",
+              "pixel": [
+                389,
+                881
+              ],
+              "epsg6677": [
+                -5548.128027964524,
+                -34290.42172377812
+              ],
+              "residual_m": 3.895093470165984
+            },
+            {
+              "name": "Showa-dori / Kanda Kanamono-dori",
+              "pixel": [
+                707,
+                778
+              ],
+              "epsg6677": [
+                -5296.374687292489,
+                -34200.074153934875
+              ],
+              "residual_m": 12.403582146416428
+            },
+            {
+              "name": "Chuo Street / Edo-dori",
+              "pixel": [
+                494,
+                1184
+              ],
+              "epsg6677": [
+                -5462.715752102546,
+                -34544.06082370612
+              ],
+              "residual_m": 3.5211236394364116
+            },
+            {
+              "name": "Showa-dori / Edo-dori",
+              "pixel": [
+                772,
+                1081
+              ],
+              "epsg6677": [
+                -5217.080637092027,
+                -34448.96448885104
+              ],
+              "residual_m": 11.315975460966104
+            }
+          ]
+        },
+        "area_ha": 10.703830447464894,
+        "bounds_wgs84": [
+          139.76978169220754,
+          35.68913503365098,
+          139.7738790292947,
+          35.69466902875228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5493.583312028832,
+              -33703.73331924617
+            ],
+            [
+              -5212.507027671247,
+              -33711.31147992664
+            ],
+            [
+              -5194.252075392901,
+              -33777.19024552422
+            ],
+            [
+              -5198.857384789353,
+              -33821.21256934282
+            ],
+            [
+              -5210.444609528622,
+              -33923.65448623291
+            ],
+            [
+              -5205.223689464481,
+              -34029.37720866119
+            ],
+            [
+              -5117.459453157298,
+              -34256.421951837205
+            ],
+            [
+              -5179.281476050279,
+              -34282.183237013305
+            ],
+            [
+              -5128.093528476073,
+              -34456.99848518756
+            ],
+            [
+              -5747.234689338475,
+              -34706.15661355688
+            ],
+            [
+              -5797.4201866600915,
+              -34634.55191028049
+            ],
+            [
+              -5751.879133561195,
+              -34487.06117468017
+            ],
+            [
+              -5715.202943697045,
+              -34376.850645003375
+            ],
+            [
+              -5709.742436810795,
+              -34334.51513999297
+            ],
+            [
+              -5691.330065763832,
+              -34243.87579742253
+            ],
+            [
+              -5668.444503939496,
+              -34181.974262643445
+            ],
+            [
+              -5643.8896311623075,
+              -34119.216425116065
+            ],
+            [
+              -5610.363076680833,
+              -34030.17622661331
+            ],
+            [
+              -5591.663117446651,
+              -33969.146466595535
+            ],
+            [
+              -5591.580299659668,
+              -33891.31040654799
+            ],
+            [
+              -5542.265783705056,
+              -33873.24037409345
+            ],
+            [
+              -5493.583312028832,
+              -33703.73331924617
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "secondary_brief",
+        "name": "Kanda–Nihonbashi — approximate secondary area",
+        "source": "Theme B official brief, page 4, Figure 5 dashed black outline",
+        "source_pixel_vertices": [
+          [
+            463,
+            192
+          ],
+          [
+            798,
+            203
+          ],
+          [
+            819,
+            281
+          ],
+          [
+            813,
+            333
+          ],
+          [
+            798,
+            454
+          ],
+          [
+            803,
+            579
+          ],
+          [
+            905,
+            848
+          ],
+          [
+            831,
+            878
+          ],
+          [
+            890,
+            1085
+          ],
+          [
+            149,
+            1375
+          ],
+          [
+            90,
+            1290
+          ],
+          [
+            146,
+            1116
+          ],
+          [
+            191,
+            986
+          ],
+          [
+            198,
+            936
+          ],
+          [
+            221,
+            829
+          ],
+          [
+            249,
+            756
+          ],
+          [
+            279,
+            682
+          ],
+          [
+            320,
+            577
+          ],
+          [
+            343,
+            505
+          ],
+          [
+            344,
+            413
+          ],
+          [
+            403,
+            392
+          ],
+          [
+            463,
+            192
+          ]
+        ],
+        "source_raster": "PDF page 4 /Im8",
+        "source_image_size": [
+          917,
+          1495
+        ],
+        "source_original": "01_Course/2026_Briefs/2026_Theme_B_Official_Brief.pdf",
+        "source_url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+        "source_document_year": 2026,
+        "download_date": "2026-10-13",
+        "approximate": true,
+        "boundary_status": "Cartographic source-stroke trace; geographic registration uncertainty retained",
+        "outline_definition": "Stroke center, preserving visible bends; separate traces by source",
+        "registration": {
+          "method": "Least-squares affine; no snapping to census edges",
+          "pixel_origin": "upper-left; x right; y down",
+          "formula": "[E,N] = [pixel_x,pixel_y,1] @ affine_matrix",
+          "affine_matrix": [
+            [
+              0.8387638791007319,
+              0.0051573376769899325
+            ],
+            [
+              0.008216805349101186,
+              -0.8459880729333378
+            ],
+            [
+              -5883.508614679498,
+              -33543.69145658741
+            ]
+          ],
+          "rmse_m": 7.434546907555709,
+          "max_residual_m": 12.403582146416428,
+          "leave_one_out_errors_m": [
+            17.03365541822816,
+            9.854233324057127,
+            5.868724448252816,
+            16.73935647747208,
+            6.6818272968231165,
+            20.17459698242739
+          ],
+          "uncertainty_m": 25,
+          "uncertainty_definition": "Conservative cartographic screening band; includes leave-one-control-out error, source stroke width and manual point reading. Not a statistical confidence interval.",
+          "control_source": "OSM source snapshot 2026-10-13, common foundation roads; average mapped carriageway intersections when divided",
+          "controls": [
+            {
+              "name": "Chuo Street / Yasukuni-dori",
+              "pixel": [
+                225,
+                249
+              ],
+              "epsg6677": [
+                -5690.995051723813,
+                -33749.83993563471
+              ],
+              "residual_m": 3.770604150938839
+            },
+            {
+              "name": "Showa-dori / Yasukuni-dori",
+              "pixel": [
+                750,
+                273
+              ],
+              "epsg6677": [
+                -5250.270550754818,
+                -33772.84055002165
+              ],
+              "residual_m": 2.8190876430477854
+            },
+            {
+              "name": "Chuo Street / Kanda Kanamono-dori",
+              "pixel": [
+                389,
+                881
+              ],
+              "epsg6677": [
+                -5548.128027964524,
+                -34290.42172377812
+              ],
+              "residual_m": 3.895093470165984
+            },
+            {
+              "name": "Showa-dori / Kanda Kanamono-dori",
+              "pixel": [
+                707,
+                778
+              ],
+              "epsg6677": [
+                -5296.374687292489,
+                -34200.074153934875
+              ],
+              "residual_m": 12.403582146416428
+            },
+            {
+              "name": "Chuo Street / Edo-dori",
+              "pixel": [
+                494,
+                1184
+              ],
+              "epsg6677": [
+                -5462.715752102546,
+                -34544.06082370612
+              ],
+              "residual_m": 3.5211236394364116
+            },
+            {
+              "name": "Showa-dori / Edo-dori",
+              "pixel": [
+                772,
+                1081
+              ],
+              "epsg6677": [
+                -5217.080637092027,
+                -34448.96448885104
+              ],
+              "residual_m": 11.315975460966104
+            }
+          ]
+        },
+        "area_ha": 41.98967122381172,
+        "bounds_wgs84": [
+          139.76927957909675,
+          35.687160199653924,
+          139.77678982873212,
+          35.69619718557399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5460.759297312791,
+              -33687.1960668541
+            ],
+            [
+              -5211.361827696599,
+              -33668.9285876308
+            ],
+            [
+              -5190.741995720024,
+              -33820.588519834426
+            ],
+            [
+              -5215.6816021501945,
+              -33849.77351807073
+            ],
+            [
+              -5224.158211894566,
+              -33989.88553102675
+            ],
+            [
+              -5167.085304199535,
+              -34250.378315682756
+            ],
+            [
+              -5230.423585985186,
+              -34275.85129538578
+            ],
+            [
+              -5177.662649736469,
+              -34461.694682806185
+            ],
+            [
+              -5785.627342870777,
+              -34679.329932481625
+            ],
+            [
+              -5884.598383302847,
+              -34582.41083267201
+            ],
+            [
+              -5799.7161647400035,
+              -34492.678821241076
+            ],
+            [
+              -5460.759297312791,
+              -33687.1960668541
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "poster_blue",
+        "name": "Kanda–Nihonbashi — 2026 poster blue outline",
+        "source": "2026 official recruitment poster blue Theme B outline",
+        "source_pixel_vertices": [
+          [
+            4437,
+            1932
+          ],
+          [
+            4662,
+            1914
+          ],
+          [
+            4689,
+            2048
+          ],
+          [
+            4668,
+            2074
+          ],
+          [
+            4668,
+            2198
+          ],
+          [
+            4734,
+            2428
+          ],
+          [
+            4678,
+            2451
+          ],
+          [
+            4736,
+            2615
+          ],
+          [
+            4197,
+            2812
+          ],
+          [
+            4102,
+            2727
+          ],
+          [
+            4174,
+            2647
+          ],
+          [
+            4437,
+            1932
+          ]
+        ],
+        "source_raster": "2026_Board_01.png",
+        "source_image_size": [
+          4961,
+          7016
+        ],
+        "source_original": "01_Course/2026_Briefs/2026_Board_01.png",
+        "source_url": "https://www.due.t.u-tokyo.ac.jp/english/wp-content/uploads/sites/2/2026/09/urbandesignstudio2026_a2.png",
+        "source_document_year": 2026,
+        "download_date": "2026-10-13",
+        "approximate": true,
+        "boundary_status": "Cartographic source-stroke trace; geographic registration uncertainty retained",
+        "outline_definition": "Stroke center, preserving visible bends; separate traces by source",
+        "registration": {
+          "method": "Least-squares affine; no snapping to census edges",
+          "pixel_origin": "upper-left; x right; y down",
+          "formula": "[E,N] = [pixel_x,pixel_y,1] @ affine_matrix",
+          "affine_matrix": [
+            [
+              1.1029644178139475,
+              -0.009206050520407957
+            ],
+            [
+              -0.06835975600299893,
+              -1.1299355883550284
+            ],
+            [
+              -10222.541370555482,
+              -31463.313263993135
+            ]
+          ],
+          "rmse_m": 11.486363343080992,
+          "max_residual_m": 16.525132363683603,
+          "leave_one_out_errors_m": [
+            33.32290441711246,
+            13.368893562199181,
+            20.842443835843945,
+            22.35373781491174,
+            17.77714911727874,
+            23.10961246488904
+          ],
+          "uncertainty_m": 45,
+          "uncertainty_definition": "Conservative cartographic screening band; includes leave-one-control-out error, source stroke width and manual point reading. Not a statistical confidence interval.",
+          "control_source": "OSM source snapshot 2026-10-13, common foundation roads; average mapped carriageway intersections when divided",
+          "controls": [
+            {
+              "name": "Chuo Street / Yasukuni-dori",
+              "pixel": [
+                4227,
+                1993
+              ],
+              "epsg6677": [
+                -5690.995051723813,
+                -33749.83993563471
+              ],
+              "residual_m": 7.05622597985313
+            },
+            {
+              "name": "Showa-dori / Yasukuni-dori",
+              "pixel": [
+                4629,
+                2007
+              ],
+              "epsg6677": [
+                -5250.270550754818,
+                -33772.84055002165
+              ],
+              "residual_m": 3.943333377065574
+            },
+            {
+              "name": "Chuo Street / Kanda Kanamono-dori",
+              "pixel": [
+                4403,
+                2462
+              ],
+              "epsg6677": [
+                -5548.128027964524,
+                -34290.42172377812
+              ],
+              "residual_m": 14.415623263390886
+            },
+            {
+              "name": "Showa-dori / Kanda Kanamono-dori",
+              "pixel": [
+                4625,
+                2375
+              ],
+              "epsg6677": [
+                -5296.374687292489,
+                -34200.074153934875
+              ],
+              "residual_m": 16.525132363683603
+            },
+            {
+              "name": "Chuo Street / Edo-dori",
+              "pixel": [
+                4474,
+                2690
+              ],
+              "epsg6677": [
+                -5462.715752102546,
+                -34544.06082370612
+              ],
+              "residual_m": 9.050616806599134
+            },
+            {
+              "name": "Showa-dori / Edo-dori",
+              "pixel": [
+                4693,
+                2613
+              ],
+              "epsg6677": [
+                -5217.080637092027,
+                -34448.96448885104
+              ],
+              "residual_m": 12.785741887158538
+            }
+          ]
+        },
+        "area_ha": 40.42918620961435,
+        "bounds_wgs84": [
+          139.7683159955813,
+          35.68740178292504,
+          139.77624146738574,
+          35.696512436857184
+        ]
+      }
+    }
+  ],
+  "method_note": "The brief supplies the primary and approximate secondary study levels. The poster is registered independently. Neither raster provides surveyed legal boundary coordinates. Census geometry is retained only for comparison. No CFD is recalculated."
+}

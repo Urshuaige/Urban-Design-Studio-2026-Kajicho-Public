@@ -1,0 +1,982 @@
+{
+  "edition": "2026-10-18",
+  "form": "integrative",
+  "report_url": "https://github.com/Urshuaige/Urban-Design-Studio-2026-Kajicho/blob/main/docs/Research_Review_2026-10-18/REPORT.md",
+  "intro": {
+    "en": "A common starting point for people studying buildings, streets, climate and area management.",
+    "zh": "为研究建筑、街道、气候和地区管理的同学建立共同起点。",
+    "ja": "建物・街路・気候・エリアマネジメントを学ぶ人の共通の出発点。"
+  },
+  "course": [
+    {
+      "title": {
+        "en": "Place",
+        "zh": "范围",
+        "ja": "対象"
+      },
+      "body": {
+        "en": "Kajicho primary area + wider Kanda–Nihonbashi",
+        "zh": "鍛冶町重点区＋神田—日本桥外围区",
+        "ja": "鍛冶町の重点区域＋神田・日本橋の周辺区域"
+      }
+    },
+    {
+      "title": {
+        "en": "Time",
+        "zh": "时间",
+        "ja": "時間"
+      },
+      "body": {
+        "en": "Now → 2050",
+        "zh": "现在 → 2050",
+        "ja": "現在 → 2050"
+      }
+    },
+    {
+      "title": {
+        "en": "Planning support",
+        "zh": "规划支持",
+        "ja": "計画支援"
+      },
+      "body": {
+        "en": "Issues → vision → actions",
+        "zh": "问题 → 愿景 → 行动",
+        "ja": "課題 → 将来像 → 行動"
+      }
+    },
+    {
+      "title": {
+        "en": "Implementation support",
+        "zh": "实施支持",
+        "ja": "実施支援"
+      },
+      "body": {
+        "en": "Actors → shared action → public support",
+        "zh": "主体 → 共同行动 → 公共支持",
+        "ja": "主体 → 協働 → 公的支援"
+      }
+    },
+    {
+      "title": {
+        "en": "Outputs",
+        "zh": "成果",
+        "ja": "成果"
+      },
+      "body": {
+        "en": "Booklet + presentation",
+        "zh": "说明册＋汇报",
+        "ja": "冊子＋発表"
+      }
+    }
+  ],
+  "theories": [
+    {
+      "id": "systems",
+      "title": {
+        "en": "Systems & flows",
+        "zh": "系统与流动",
+        "ja": "システムとフロー"
+      },
+      "body": {
+        "en": "Relate physical places to energy, water, movement and the goals chosen for them.",
+        "zh": "把空间与能源、水、出行及团队选择的目标联系起来。",
+        "ja": "空間をエネルギー・水・移動と目標に結び付ける。"
+      },
+      "refs": [
+        "yang-yamagata-2019",
+        "yamagata-yang-2020"
+      ]
+    },
+    {
+      "id": "exposure",
+      "title": {
+        "en": "People & exposure",
+        "zh": "使用者与暴露",
+        "ja": "利用者と曝露"
+      },
+      "body": {
+        "en": "Read heat through air, radiation, wind, humidity and the time people spend outside.",
+        "zh": "结合空气、辐射、风、湿度和户外停留时间理解热暴露。",
+        "ja": "気温・放射・風・湿度と屋外滞在時間から暑熱曝露を捉える。"
+      },
+      "refs": [
+        "broede-2012-utci",
+        "umep-solweig-manual"
+      ]
+    },
+    {
+      "id": "collective",
+      "title": {
+        "en": "Collective action",
+        "zh": "共同行动",
+        "ja": "協働"
+      },
+      "body": {
+        "en": "Connect proposals to authority, resources, trust, responsibility and learning.",
+        "zh": "把方案与权限、资源、信任、责任和持续学习连接起来。",
+        "ja": "提案を権限・資源・信頼・責任と学習に結び付ける。"
+      },
+      "refs": [
+        "ansell-gash-2008-collaborative",
+        "ostrom-2010-polycentric"
+      ]
+    }
+  ],
+  "loop": [
+    {
+      "en": "Ask a local question",
+      "zh": "提出场地问题",
+      "ja": "地域の問い"
+    },
+    {
+      "en": "Build shared evidence",
+      "zh": "建立共同证据",
+      "ja": "共通の根拠"
+    },
+    {
+      "en": "Compare options",
+      "zh": "比较方案",
+      "ja": "案の比較"
+    },
+    {
+      "en": "Agree a pilot",
+      "zh": "商定试点",
+      "ja": "試行の合意"
+    },
+    {
+      "en": "Operate & measure",
+      "zh": "运行与观测",
+      "ja": "運用と計測"
+    },
+    {
+      "en": "Review & adapt",
+      "zh": "复盘与调整",
+      "ja": "振り返りと改善"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "energy",
+      "group": "buildings",
+      "title": {
+        "en": "Energy & carbon",
+        "zh": "能源与碳",
+        "ja": "エネルギーと炭素"
+      },
+      "question": {
+        "en": "Which building-group options are worth comparing?",
+        "zh": "哪些建筑组方案值得比较？",
+        "ja": "建物群のどの案を比較するか。"
+      },
+      "steps": [
+        {
+          "title": {
+            "en": "Inputs",
+            "zh": "输入",
+            "ja": "入力"
+          },
+          "body": {
+            "en": "Floor area, use, envelope, systems, schedules, weather and bills.",
+            "zh": "面积、用途、围护结构、设备、时刻表、天气和账单。",
+            "ja": "床面積・用途・外皮・設備・運用・気象・請求データ。"
+          }
+        },
+        {
+          "title": {
+            "en": "Method",
+            "zh": "方法",
+            "ja": "方法"
+          },
+          "body": {
+            "en": "Archetypes → UBEM → common-weather options → carbon ledger.",
+            "zh": "建筑类型 → UBEM → 同天气方案 → 碳核算。",
+            "ja": "類型モデル → UBEM → 共通気象の案 → 炭素集計。"
+          }
+        },
+        {
+          "title": {
+            "en": "Checks",
+            "zh": "核查",
+            "ja": "確認"
+          },
+          "body": {
+            "en": "Check bills, sensitive inputs, factor years and life-cycle boundaries.",
+            "zh": "核对账单、敏感输入、因子年份和生命周期边界。",
+            "ja": "実績・感度・係数年次・ライフサイクル境界を確認。"
+          }
+        },
+        {
+          "title": {
+            "en": "Decision",
+            "zh": "决策",
+            "ja": "判断"
+          },
+          "body": {
+            "en": "Retention, retrofit, operation or replacement, with owner conditions.",
+            "zh": "结合业主条件比较保留、改造、运维或更新。",
+            "ja": "所有者の条件と共に保全・改修・運用・更新を比較。"
+          }
+        }
+      ],
+      "output": {
+        "en": "Energy: kWh/m²/year · carbon: dated kgCO₂e · peak: kW",
+        "zh": "能耗：kWh/m²/年 · 碳：注明年份的 kgCO₂e · 峰值：kW",
+        "ja": "エネルギー：kWh/m²/年・炭素：年次付きkgCO₂e・ピーク：kW"
+      },
+      "refs": [
+        "reinhart-cerezo-2016-ubem",
+        "alorabi-2025-net-zero",
+        "rics-2023-wlca-v3",
+        "wri-c40-iclei-2021-gpc11"
+      ]
+    },
+    {
+      "id": "thermal",
+      "group": "streets",
+      "title": {
+        "en": "Heat & shade",
+        "zh": "热与遮阴",
+        "ja": "暑熱と日陰"
+      },
+      "question": {
+        "en": "Where and when would a shaded route or refuge help?",
+        "zh": "在哪些位置和时段，遮阴路线或休憩点有帮助？",
+        "ja": "どこで、いつ、日陰や休憩場所が役立つか。"
+      },
+      "steps": [
+        {
+          "title": {
+            "en": "Inputs",
+            "zh": "输入",
+            "ja": "入力"
+          },
+          "body": {
+            "en": "Geometry, canopy, weather, surfaces, users and hours.",
+            "zh": "几何、树冠、天气、表面、使用者和时段。",
+            "ja": "形状・樹冠・気象・表面・利用者・時間。"
+          }
+        },
+        {
+          "title": {
+            "en": "Method",
+            "zh": "方法",
+            "ja": "方法"
+          },
+          "body": {
+            "en": "Sun/shadow → radiation/Tₘᵣₜ → thermal exposure along a route.",
+            "zh": "日照/遮阴 → 辐射/Tₘᵣₜ → 路线热暴露。",
+            "ja": "日照・日陰 → 放射/Tₘᵣₜ → 経路の暑熱曝露。"
+          }
+        },
+        {
+          "title": {
+            "en": "Checks",
+            "zh": "核查",
+            "ja": "確認"
+          },
+          "body": {
+            "en": "Use common times, a reference sensor and defensible wind inputs.",
+            "zh": "统一时刻，设置参考测点，并核实风速输入。",
+            "ja": "共通時刻・基準観測点・妥当な風速入力。"
+          }
+        },
+        {
+          "title": {
+            "en": "Decision",
+            "zh": "决策",
+            "ja": "判断"
+          },
+          "body": {
+            "en": "Shade, resting places and verified access to cooling.",
+            "zh": "遮阴、休憩空间和经核实的降温空间可达性。",
+            "ja": "日陰・休憩場所・確認済みの涼しい場所へのアクセス。"
+          }
+        }
+      ],
+      "output": {
+        "en": "Shade minutes · Tₘᵣₜ / °C · named thermal-stress measure",
+        "zh": "遮阴分钟 · Tₘᵣₜ / °C · 明确命名的热应激指标",
+        "ja": "日陰時間・Tₘᵣₜ / °C・明示した温熱指標"
+      },
+      "refs": [
+        "umep-solweig-manual",
+        "broede-2012-utci",
+        "zeng-2025-heat"
+      ]
+    },
+    {
+      "id": "wind",
+      "group": "streets",
+      "title": {
+        "en": "Wind & CFD",
+        "zh": "风与 CFD",
+        "ja": "風とCFD"
+      },
+      "question": {
+        "en": "Does a design change improve relevant wind conditions?",
+        "zh": "设计变化是否改善了需要关注的风环境？",
+        "ja": "設計変更で対象の風環境は改善するか。"
+      },
+      "steps": [
+        {
+          "title": {
+            "en": "Inputs",
+            "zh": "输入",
+            "ja": "入力"
+          },
+          "body": {
+            "en": "Pilot, full surrounding geometry, weather cases and inflow.",
+            "zh": "试点、完整周边几何、天气工况和入口条件。",
+            "ja": "試行地点・周辺形状・気象ケース・流入条件。"
+          }
+        },
+        {
+          "title": {
+            "en": "Method",
+            "zh": "方法",
+            "ja": "方法"
+          },
+          "body": {
+            "en": "3D domain → mesh → solver → common-location comparisons.",
+            "zh": "三维计算域 → 网格 → 求解 → 同位置比较。",
+            "ja": "3D領域 → 格子 → 計算 → 共通地点の比較。"
+          }
+        },
+        {
+          "title": {
+            "en": "Checks",
+            "zh": "核查",
+            "ja": "確認"
+          },
+          "body": {
+            "en": "Mesh/domain sensitivity, target convergence and physical evidence.",
+            "zh": "网格/计算域敏感性、目标量收敛和物理验证。",
+            "ja": "格子・領域感度、目標値収束、物理的検証。"
+          }
+        },
+        {
+          "title": {
+            "en": "Decision",
+            "zh": "决策",
+            "ja": "判断"
+          },
+          "body": {
+            "en": "Compare massing, canopy and street changes at stated sample points.",
+            "zh": "在明确采样点比较体量、雨棚和街道变化。",
+            "ja": "明示した地点で建物形状・庇・街路変更を比較。"
+          }
+        }
+      ],
+      "output": {
+        "en": "Wind at stated heights · validation evidence · thermal model stated separately",
+        "zh": "注明高度的风速 · 验证证据 · 热模型单独说明",
+        "ja": "高さを明示した風速・検証根拠・熱モデルの別記"
+      },
+      "refs": [
+        "franke-2007-cost732",
+        "tominaga-2008-aij-cfd"
+      ]
+    },
+    {
+      "id": "mobility",
+      "group": "streets",
+      "title": {
+        "en": "Streets & movement",
+        "zh": "街道与出行",
+        "ja": "街路と移動"
+      },
+      "question": {
+        "en": "How can access, loading and street comfort work together?",
+        "zh": "如何兼顾可达性、装卸和街道舒适度？",
+        "ja": "アクセス・荷さばき・快適性をどう両立するか。"
+      },
+      "steps": [
+        {
+          "title": {
+            "en": "Inputs",
+            "zh": "输入",
+            "ja": "入力"
+          },
+          "body": {
+            "en": "POIs, entrances, opening hours, network and observed use.",
+            "zh": "POI、入口、营业时间、路网和使用观察。",
+            "ja": "POI・入口・営業時間・道路網・利用観察。"
+          }
+        },
+        {
+          "title": {
+            "en": "Method",
+            "zh": "方法",
+            "ja": "方法"
+          },
+          "body": {
+            "en": "Function mix → verified destinations → route comparison.",
+            "zh": "功能构成 → 核实目的地 → 路线比较。",
+            "ja": "機能構成 → 目的地確認 → 経路比較。"
+          }
+        },
+        {
+          "title": {
+            "en": "Checks",
+            "zh": "核查",
+            "ja": "確認"
+          },
+          "body": {
+            "en": "Keep destination counts separate from footfall and demand.",
+            "zh": "目的地数量与人流、需求分别处理。",
+            "ja": "目的地数を歩行者流・需要と区別。"
+          }
+        },
+        {
+          "title": {
+            "en": "Decision",
+            "zh": "决策",
+            "ja": "判断"
+          },
+          "body": {
+            "en": "Walking links, loading times, crossings and cool access.",
+            "zh": "步行连接、装卸时段、过街和凉爽空间可达性。",
+            "ja": "歩行接続・荷さばき時間・横断・涼しい場所へのアクセス。"
+          }
+        }
+      ],
+      "output": {
+        "en": "Travel time · access constraints · observed use by period",
+        "zh": "出行时间 · 通达限制 · 分时段使用观察",
+        "ja": "所要時間・アクセス制約・時間帯別利用"
+      },
+      "refs": [
+        "zeng-2025-heat",
+        "barcelona-superblocks-bcn2"
+      ]
+    },
+    {
+      "id": "water",
+      "group": "streets",
+      "title": {
+        "en": "Water & green space",
+        "zh": "雨洪与绿化",
+        "ja": "雨水と緑地"
+      },
+      "question": {
+        "en": "Can a usable space also handle runoff and planting needs?",
+        "zh": "可使用的空间能否同时回应径流和植物需求？",
+        "ja": "日常空間に雨水管理と植栽を組み合わせられるか。"
+      },
+      "steps": [
+        {
+          "title": {
+            "en": "Inputs",
+            "zh": "输入",
+            "ja": "入力"
+          },
+          "body": {
+            "en": "Terrain, rain, catchments, drains, soil and growing space.",
+            "zh": "地形、降雨、汇水区、排水、土壤和生长空间。",
+            "ja": "地形・降雨・集水域・排水・土壌・生育空間。"
+          }
+        },
+        {
+          "title": {
+            "en": "Method",
+            "zh": "方法",
+            "ja": "方法"
+          },
+          "body": {
+            "en": "Runoff paths → storage/infiltration concept → drainage model if supported.",
+            "zh": "径流路径 → 蓄渗概念 → 数据允许时建立排水模型。",
+            "ja": "流出経路 → 貯留・浸透案 → データに応じた排水モデル。"
+          }
+        },
+        {
+          "title": {
+            "en": "Checks",
+            "zh": "核查",
+            "ja": "確認"
+          },
+          "body": {
+            "en": "Check outlets, safe overflow, maintenance and monitoring.",
+            "zh": "核查出水口、安全溢流、维护和监测。",
+            "ja": "放流先・安全な越流・維持管理・観測を確認。"
+          }
+        },
+        {
+          "title": {
+            "en": "Decision",
+            "zh": "决策",
+            "ja": "判断"
+          },
+          "body": {
+            "en": "A connected planting/storage proposal with an operator.",
+            "zh": "具有明确运营主体的连通式种植/蓄水方案。",
+            "ja": "管理主体を伴う植栽・貯留の接続案。"
+          }
+        }
+      ],
+      "output": {
+        "en": "Runoff / storage by scenario · safe overflow · maintenance task",
+        "zh": "分情景径流/蓄水 · 安全溢流 · 维护任务",
+        "ja": "ケース別流出・貯留・安全な越流・維持作業"
+      },
+      "refs": [
+        "epa-swmm",
+        "copenhagen-enghaveparken-cph1",
+        "copenhagen-enghaveparken-cph2"
+      ]
+    },
+    {
+      "id": "delivery",
+      "group": "delivery",
+      "title": {
+        "en": "People & delivery",
+        "zh": "主体与实施",
+        "ja": "主体と実施"
+      },
+      "question": {
+        "en": "Who could adopt, operate and revise the action?",
+        "zh": "谁能够采纳、运行并调整这些行动？",
+        "ja": "誰が行動を採用・運用・改善するか。"
+      },
+      "steps": [
+        {
+          "title": {
+            "en": "Inputs",
+            "zh": "输入",
+            "ja": "入力"
+          },
+          "body": {
+            "en": "Actors, rights, resources, incentives and constraints.",
+            "zh": "主体、权利、资源、激励与约束。",
+            "ja": "主体・権利・資源・動機・制約。"
+          }
+        },
+        {
+          "title": {
+            "en": "Method",
+            "zh": "方法",
+            "ja": "方法"
+          },
+          "body": {
+            "en": "Stakeholder map → option discussion → responsibilities and funding.",
+            "zh": "利益相关者图 → 方案讨论 → 责任与资金安排。",
+            "ja": "関係者図 → 案の討議 → 責任・資金安排。"
+          }
+        },
+        {
+          "title": {
+            "en": "Checks",
+            "zh": "核查",
+            "ja": "確認"
+          },
+          "body": {
+            "en": "Document disagreement, participation and operating capacity.",
+            "zh": "记录分歧、参与情况和运维能力。",
+            "ja": "意見差・参加状況・運用能力を記録。"
+          }
+        },
+        {
+          "title": {
+            "en": "Decision",
+            "zh": "决策",
+            "ja": "判断"
+          },
+          "body": {
+            "en": "A feasible pilot agreement and a review point.",
+            "zh": "可执行的试点安排和复盘节点。",
+            "ja": "実行可能な試行合意と見直し時点。"
+          }
+        }
+      ],
+      "output": {
+        "en": "Actor/action record · funding and care · monitoring plan",
+        "zh": "主体/行动记录 · 资金与维护 · 监测计划",
+        "ja": "主体・行動記録・資金と維持管理・観測計画"
+      },
+      "refs": [
+        "ansell-gash-2008-collaborative",
+        "ostrom-2010-polycentric",
+        "jica-2022-smart-city"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "barcelona-superblocks",
+      "region": "Europe",
+      "city": "Barcelona",
+      "title": {
+        "en": "Superblocks",
+        "zh": "超级街区",
+        "ja": "スーパーブロック"
+      },
+      "mechanism": {
+        "en": "Reassign street space and evaluate environmental and social use together.",
+        "zh": "调整街道空间，同时评价环境和社会使用。",
+        "ja": "街路空間を再配分し、環境と利用を合わせて評価。"
+      },
+      "kind": "field",
+      "evidence": {
+        "en": "Mixed outcomes across sites; some baseline and comparison data are limited.",
+        "zh": "不同地点的效果有差异，部分基线与对照资料有限。",
+        "ja": "地区で結果が異なり、一部の事前・比較データに制約。"
+      },
+      "transfer": {
+        "en": "Include adjacent traffic, deliveries and different users.",
+        "zh": "纳入周边交通、装卸和不同使用群体。",
+        "ja": "周辺交通・配送・異なる利用者を含める。"
+      },
+      "refs": [
+        "barcelona-superblocks-bcn1",
+        "barcelona-superblocks-bcn2"
+      ]
+    },
+    {
+      "id": "paris-oasis",
+      "region": "Europe",
+      "city": "Paris",
+      "title": {
+        "en": "Oasis schoolyards",
+        "zh": "Oasis 校园庭院",
+        "ja": "Oasis校庭"
+      },
+      "mechanism": {
+        "en": "Co-design shade, planting, permeable ground and resting places.",
+        "zh": "共同设计遮阴、种植、透水地面与休憩点。",
+        "ja": "日陰・植栽・透水面・休憩場所を共同設計。"
+      },
+      "kind": "field",
+      "evidence": {
+        "en": "A single-site thermal study tests fixed/mobile measurement methods.",
+        "zh": "单场地热环境研究测试固定与移动测量方法。",
+        "ja": "単一地点で固定・移動計測の方法を検討。"
+      },
+      "transfer": {
+        "en": "Agree access hours, an operator and paired observations.",
+        "zh": "商定开放时段、运营主体与配对观测。",
+        "ja": "開放時間・管理主体・対の観測を設定。"
+      },
+      "refs": [
+        "paris-oasis-par1",
+        "paris-oasis-par2"
+      ]
+    },
+    {
+      "id": "melbourne-urban-forest",
+      "region": "Oceania",
+      "city": "Melbourne",
+      "title": {
+        "en": "Urban forest precinct plans",
+        "zh": "城市森林分区计划",
+        "ja": "都市林地区計画"
+      },
+      "mechanism": {
+        "en": "Tie street planting priorities to consultation and a delivery programme.",
+        "zh": "将街道种植优先次序与协商和实施计划结合。",
+        "ja": "街路植栽の優先順位を協議と実施計画に結ぶ。"
+      },
+      "kind": "programme",
+      "evidence": {
+        "en": "Plan and delivery records; no measured cooling effect used here.",
+        "zh": "采用规划与实施记录，不据此推定实测降温量。",
+        "ja": "計画・実施記録。ここでは実測冷却量を扱わない。"
+      },
+      "transfer": {
+        "en": "Check services, rooting space, water and long-term care.",
+        "zh": "核查管线、根系空间、水源和长期养护。",
+        "ja": "埋設物・根系空間・水・長期管理を確認。"
+      },
+      "refs": [
+        "melbourne-urban-forest-mel1",
+        "melbourne-urban-forest-mel2"
+      ]
+    },
+    {
+      "id": "punggol-digital-district",
+      "region": "Asia",
+      "city": "Singapore",
+      "title": {
+        "en": "Punggol Digital District",
+        "zh": "榜鹅数码园区",
+        "ja": "プンゴル・デジタル地区"
+      },
+      "mechanism": {
+        "en": "Shared cooling and digital interfaces depend on coordinated building services.",
+        "zh": "共享供冷与数字接口依赖建筑设备的协调。",
+        "ja": "地域冷房とデジタル接続を建物設備の調整で支える。"
+      },
+      "kind": "programme",
+      "evidence": {
+        "en": "Operator/project description; savings cited there are estimates.",
+        "zh": "项目与运营说明，其中的节能值为估计值。",
+        "ja": "事業・運用説明。掲載の省エネ値は推計。"
+      },
+      "transfer": {
+        "en": "Agree owner participation, pipe rights, demand, cost and operation.",
+        "zh": "商定业主参与、管线权利、需求、费用和运营。",
+        "ja": "所有者参加・配管権利・需要・費用・運用の合意。"
+      },
+      "refs": [
+        "punggol-digital-district-pdd1",
+        "punggol-digital-district-pdd2"
+      ]
+    },
+    {
+      "id": "copenhagen-enghaveparken",
+      "region": "Europe",
+      "city": "Copenhagen",
+      "title": {
+        "en": "Enghaveparken cloudburst space",
+        "zh": "Enghaveparken 暴雨适应空间",
+        "ja": "Enghaveparkenの豪雨対策"
+      },
+      "mechanism": {
+        "en": "Connect everyday park space to temporary stormwater handling.",
+        "zh": "将日常公园空间与临时雨洪处理连接。",
+        "ja": "日常の公園空間を一時的な雨水処理に結ぶ。"
+      },
+      "kind": "programme",
+      "evidence": {
+        "en": "Municipal works/funding record; design capacity is not an avoided-loss estimate.",
+        "zh": "市政工程与资金记录；设计容量不等于避免损失的估计。",
+        "ja": "市の工事・資金記録。設計容量は被害回避の推定ではない。"
+      },
+      "transfer": {
+        "en": "Verify catchment, outlets, safe overflow and funding responsibilities.",
+        "zh": "核实汇水区、出水口、安全溢流与出资责任。",
+        "ja": "集水域・放流先・安全な越流・費用負担を確認。"
+      },
+      "refs": [
+        "copenhagen-enghaveparken-cph1",
+        "copenhagen-enghaveparken-cph2",
+        "copenhagen-enghaveparken-cph3"
+      ]
+    },
+    {
+      "id": "london-better-bankside",
+      "region": "Europe",
+      "city": "London",
+      "title": {
+        "en": "Better Bankside / Keppel Row",
+        "zh": "Better Bankside / Keppel Row",
+        "ja": "Better Bankside / Keppel Row"
+      },
+      "mechanism": {
+        "en": "A continuing area body delivers small public-space projects with partners.",
+        "zh": "持续性的地区组织联合伙伴推进小型公共空间项目。",
+        "ja": "継続的な地区組織が協働で小規模公共空間を実施。"
+      },
+      "kind": "programme",
+      "evidence": {
+        "en": "Area-management and completed-project records.",
+        "zh": "地区管理机制与已实施项目记录。",
+        "ja": "地区管理と完成事業の記録。"
+      },
+      "transfer": {
+        "en": "Establish a local funding basis, consent and maintenance roles.",
+        "zh": "建立适合本地的筹资基础、同意机制与维护责任。",
+        "ja": "地域に合う資金基盤・同意・維持責任を整える。"
+      },
+      "refs": [
+        "london-better-bankside-lon1",
+        "london-better-bankside-lon2",
+        "london-better-bankside-lon3"
+      ]
+    },
+    {
+      "id": "freiburg-vauban",
+      "region": "Europe",
+      "city": "Freiburg",
+      "title": {
+        "en": "Vauban development agreements",
+        "zh": "Vauban 开发协议",
+        "ja": "Vaubanの開発契約"
+      },
+      "mechanism": {
+        "en": "Link building energy requirements and shared services to development contracts.",
+        "zh": "将建筑能源要求、共享设施与开发合同连接。",
+        "ja": "建物省エネ要件と共用設備を開発契約に結ぶ。"
+      },
+      "kind": "programme",
+      "evidence": {
+        "en": "Historical planning records, read through available extracts.",
+        "zh": "历史规划记录，阅读范围限于可取得摘录。",
+        "ja": "閲覧可能な抜粋に基づく歴史的計画記録。"
+      },
+      "transfer": {
+        "en": "Separate land-development powers from existing-owner coordination.",
+        "zh": "区分土地开发权限与既有业主协调条件。",
+        "ja": "土地開発権限と既存所有者間の調整条件を区別。"
+      },
+      "refs": [
+        "freiburg-vauban-fre1",
+        "freiburg-vauban-fre2"
+      ]
+    },
+    {
+      "id": "new-york-cool-neighborhoods",
+      "region": "North America",
+      "city": "New York",
+      "title": {
+        "en": "Cool Neighborhoods NYC",
+        "zh": "Cool Neighborhoods NYC",
+        "ja": "Cool Neighborhoods NYC"
+      },
+      "mechanism": {
+        "en": "Combine heat-vulnerability targeting, physical works and cooling access.",
+        "zh": "结合热脆弱性识别、实体改善和降温空间可达性。",
+        "ja": "暑熱脆弱性の把握・空間改善・冷却空間へのアクセスを組み合わせる。"
+      },
+      "kind": "programme",
+      "evidence": {
+        "en": "Policy and risk-tool records; programme health effects are not estimated here.",
+        "zh": "政策与风险工具记录；这里不估计项目的健康效果。",
+        "ja": "政策・リスクツールの記録。健康効果の推定は行わない。"
+      },
+      "transfer": {
+        "en": "Use locally relevant resident, worker and visitor evidence.",
+        "zh": "采用与本地居民、工作者和访客相关的证据。",
+        "ja": "住民・就業者・来訪者に関する地域の根拠を用いる。"
+      },
+      "refs": [
+        "new-york-cool-neighborhoods-nyc1",
+        "new-york-cool-neighborhoods-nyc2"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "UBEM",
+      "definition": {
+        "en": "Urban building energy modelling: estimate energy across a group of buildings.",
+        "zh": "城市建筑能耗建模：估算一组建筑的能源表现。",
+        "ja": "都市建物エネルギーモデリング：建物群のエネルギーを推定。"
+      }
+    },
+    {
+      "term": "EUI",
+      "definition": {
+        "en": "Energy use per unit floor area over a stated period.",
+        "zh": "指定时段内单位建筑面积的能源使用量。",
+        "ja": "一定期間の単位床面積当たりエネルギー使用量。"
+      }
+    },
+    {
+      "term": "Tₘᵣₜ",
+      "definition": {
+        "en": "Mean radiant temperature: a way to express the surrounding radiant environment.",
+        "zh": "平均辐射温度：表达周边辐射环境的指标。",
+        "ja": "平均放射温度：周囲の放射環境を表す指標。"
+      }
+    },
+    {
+      "term": "UTCI",
+      "definition": {
+        "en": "Universal Thermal Climate Index: equivalent temperature based on modelled human response.",
+        "zh": "通用热气候指数：基于人体模型响应的等效温度。",
+        "ja": "汎用温熱気候指数：人体モデルの応答に基づく等価温度。"
+      }
+    },
+    {
+      "term": "CFD",
+      "definition": {
+        "en": "Computational fluid dynamics: numerical modelling of fluid flow.",
+        "zh": "计算流体力学：用数值方法模拟流动。",
+        "ja": "数値流体力学：流れを数値的にモデル化。"
+      }
+    },
+    {
+      "term": "Archetype",
+      "definition": {
+        "en": "A documented representative building type used where detailed inputs are limited.",
+        "zh": "建筑类型模型：详细资料有限时采用、并记录假设的代表类型。",
+        "ja": "詳細データが限られる場合に用いる、仮定を記録した代表建物類型。"
+      }
+    },
+    {
+      "term": "Whole-life carbon",
+      "definition": {
+        "en": "Carbon across stated life-cycle stages and a common study period.",
+        "zh": "统一研究期内，明确生命周期阶段的碳排放。",
+        "ja": "共通の評価期間と明示したライフサイクル段階の炭素。"
+      }
+    },
+    {
+      "term": "Validation",
+      "definition": {
+        "en": "Compare a model with suitable physical evidence for its intended use.",
+        "zh": "针对预定用途，将模型与适当的物理证据比较。",
+        "ja": "目的に適した物理的根拠とモデルを比較。"
+      }
+    },
+    {
+      "term": "Sensitivity",
+      "definition": {
+        "en": "Check how an output changes when a stated input or assumption changes.",
+        "zh": "检查明确输入或假设变化时，结果如何改变。",
+        "ja": "入力・仮定の変更に対する出力変化を確認。"
+      }
+    },
+    {
+      "term": "Digital twin",
+      "definition": {
+        "en": "A linked representation, model and update/decision loop; the 3D model is one layer.",
+        "zh": "相连的空间表达、模型与更新/决策循环；三维模型只是其中一层。",
+        "ja": "表現・モデル・更新と判断のループ。3Dモデルはその一層。"
+      }
+    },
+    {
+      "term": "POI",
+      "definition": {
+        "en": "Point of interest: a mapped place or activity, with source coverage limits.",
+        "zh": "兴趣点：地图记录的地点或活动，覆盖受来源限制。",
+        "ja": "地図に記録された場所・活動。網羅性はデータ源に依存。"
+      }
+    },
+    {
+      "term": "Area management",
+      "definition": {
+        "en": "Arrangements for coordinating local actors, actions, resources and care.",
+        "zh": "协调地区主体、行动、资源和维护的组织安排。",
+        "ja": "地域の主体・行動・資源・維持管理を調整する仕組み。"
+      }
+    }
+  ],
+  "discussion": [
+    {
+      "title": {
+        "en": "Choose a shared question",
+        "zh": "共同选择问题",
+        "ja": "共通の問いを選ぶ"
+      },
+      "body": {
+        "en": "A building group, a daily route or a shared space? Name the users and the proposed change.",
+        "zh": "从建筑组、日常路线或共用空间切入？明确使用者和拟议变化。",
+        "ja": "建物群・日常経路・共用空間のどれか。利用者と変更を明示。"
+      }
+    },
+    {
+      "title": {
+        "en": "Agree useful evidence",
+        "zh": "商定所需证据",
+        "ja": "必要な根拠を合意"
+      },
+      "body": {
+        "en": "Choose a common baseline, a few options, meaningful measures and checks.",
+        "zh": "确定共同基线、少量方案、有意义的指标与核查。",
+        "ja": "共通基準・少数の案・意味のある指標と確認方法を選ぶ。"
+      }
+    },
+    {
+      "title": {
+        "en": "Connect to delivery",
+        "zh": "连接实施条件",
+        "ja": "実施に結ぶ"
+      },
+      "body": {
+        "en": "Name participants, responsibilities, access, funding, maintenance and a review point.",
+        "zh": "明确参与者、责任、通达、资金、维护和复盘节点。",
+        "ja": "参加者・責任・アクセス・資金・維持・見直し時点を明示。"
+      }
+    }
+  ]
+}

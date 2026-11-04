@@ -1,0 +1,2466 @@
+{
+  "request": "Preserve complete southern and all other buildings intersecting wider boundary",
+  "selection": "Source geometry intersects wider boundary, including boundary contact; complete geometry retained",
+  "analysis_membership": "Original source fields preserved. Boundary-crossing records are not newly classified as fully inside analysis buildings.",
+  "datasets": [
+    {
+      "dataset": "D008_building_2011_evidence",
+      "records_before": 1064,
+      "records_after": 1064,
+      "geometry_restored": 10,
+      "boundary_intersecting_buildings": 10,
+      "boundary_records": [
+        {
+          "source_fid": 1075,
+          "restored_geometry": true,
+          "outside_area_m2": 5060.240906252924
+        },
+        {
+          "source_fid": 1076,
+          "restored_geometry": true,
+          "outside_area_m2": 1142.8115524655368
+        },
+        {
+          "source_fid": 1077,
+          "restored_geometry": true,
+          "outside_area_m2": 6.0440222930956224
+        },
+        {
+          "source_fid": 1078,
+          "restored_geometry": true,
+          "outside_area_m2": 26.49808885992934
+        },
+        {
+          "source_fid": 1080,
+          "restored_geometry": true,
+          "outside_area_m2": 0.22632291179547792
+        },
+        {
+          "source_fid": 1081,
+          "restored_geometry": true,
+          "outside_area_m2": 7.842992205791006
+        },
+        {
+          "source_fid": 1082,
+          "restored_geometry": true,
+          "outside_area_m2": 55.31994070303881
+        },
+        {
+          "source_fid": 1083,
+          "restored_geometry": true,
+          "outside_area_m2": 19.68800518527007
+        },
+        {
+          "source_fid": 1084,
+          "restored_geometry": true,
+          "outside_area_m2": 9.83724965386267
+        },
+        {
+          "source_fid": 1086,
+          "restored_geometry": true,
+          "outside_area_m2": 136.89830689886458
+        }
+      ]
+    },
+    {
+      "dataset": "D009_building_energy_carbon",
+      "records_before": 1067,
+      "records_after": 1067,
+      "geometry_restored": 13,
+      "boundary_intersecting_buildings": 13,
+      "boundary_records": [
+        {
+          "source_fid": 58,
+          "restored_geometry": true,
+          "outside_area_m2": 6.0440222930956224
+        },
+        {
+          "source_fid": 169,
+          "restored_geometry": true,
+          "outside_area_m2": 3.5138847023554263
+        },
+        {
+          "source_fid": 211,
+          "restored_geometry": true,
+          "outside_area_m2": 69.42399946338492
+        },
+        {
+          "source_fid": 218,
+          "restored_geometry": true,
+          "outside_area_m2": 26.49808885992934
+        },
+        {
+          "source_fid": 306,
+          "restored_geometry": true,
+          "outside_area_m2": 7.842992205791006
+        },
+        {
+          "source_fid": 307,
+          "restored_geometry": true,
+          "outside_area_m2": 0.22632291179547792
+        },
+        {
+          "source_fid": 311,
+          "restored_geometry": true,
+          "outside_area_m2": 2.6770485818435645
+        },
+        {
+          "source_fid": 992,
+          "restored_geometry": true,
+          "outside_area_m2": 229.28406464797445
+        },
+        {
+          "source_fid": 993,
+          "restored_geometry": true,
+          "outside_area_m2": 55.31994070303881
+        },
+        {
+          "source_fid": 1004,
+          "restored_geometry": true,
+          "outside_area_m2": 19.68800518527007
+        },
+        {
+          "source_fid": 1021,
+          "restored_geometry": true,
+          "outside_area_m2": 9.83724965386267
+        },
+        {
+          "source_fid": 1025,
+          "restored_geometry": true,
+          "outside_area_m2": 12.525982545310399
+        },
+        {
+          "source_fid": 1063,
+          "restored_geometry": true,
+          "outside_area_m2": 136.89830689886458
+        }
+      ]
+    },
+    {
+      "dataset": "D010_removed_buildings",
+      "records_before": 17,
+      "records_after": 17,
+      "geometry_restored": 0,
+      "boundary_intersecting_buildings": 0,
+      "boundary_records": []
+    },
+    {
+      "dataset": "D011_superseded_buildings",
+      "records_before": 4,
+      "records_after": 4,
+      "geometry_restored": 0,
+      "boundary_intersecting_buildings": 0,
+      "boundary_records": []
+    },
+    {
+      "dataset": "D020_buildings_height",
+      "records_before": 1078,
+      "records_after": 1078,
+      "geometry_restored": 24,
+      "boundary_intersecting_buildings": 24,
+      "boundary_records": [
+        {
+          "source_fid": 1544,
+          "restored_geometry": true,
+          "outside_area_m2": 60.414972092152766
+        },
+        {
+          "source_fid": 1577,
+          "restored_geometry": true,
+          "outside_area_m2": 332.57570520487934
+        },
+        {
+          "source_fid": 1611,
+          "restored_geometry": true,
+          "outside_area_m2": 6.0440222930956224
+        },
+        {
+          "source_fid": 1643,
+          "restored_geometry": true,
+          "outside_area_m2": 1142.8115524655368
+        },
+        {
+          "source_fid": 1661,
+          "restored_geometry": true,
+          "outside_area_m2": 787.2738805458066
+        },
+        {
+          "source_fid": 1739,
+          "restored_geometry": true,
+          "outside_area_m2": 3.5138847023554263
+        },
+        {
+          "source_fid": 1743,
+          "restored_geometry": true,
+          "outside_area_m2": 5060.240906252924
+        },
+        {
+          "source_fid": 1790,
+          "restored_geometry": true,
+          "outside_area_m2": 69.42399946338492
+        },
+        {
+          "source_fid": 1797,
+          "restored_geometry": true,
+          "outside_area_m2": 26.49808885992934
+        },
+        {
+          "source_fid": 1813,
+          "restored_geometry": true,
+          "outside_area_m2": 392.30962876664853
+        },
+        {
+          "source_fid": 1817,
+          "restored_geometry": true,
+          "outside_area_m2": 577.0353442401829
+        },
+        {
+          "source_fid": 1847,
+          "restored_geometry": true,
+          "outside_area_m2": 722.65267976022
+        },
+        {
+          "source_fid": 1850,
+          "restored_geometry": true,
+          "outside_area_m2": 121.04091328049617
+        },
+        {
+          "source_fid": 2033,
+          "restored_geometry": true,
+          "outside_area_m2": 7.842992205791006
+        },
+        {
+          "source_fid": 2034,
+          "restored_geometry": true,
+          "outside_area_m2": 0.22632291179547792
+        },
+        {
+          "source_fid": 2048,
+          "restored_geometry": true,
+          "outside_area_m2": 2.6770485818435645
+        },
+        {
+          "source_fid": 2086,
+          "restored_geometry": true,
+          "outside_area_m2": 150.37433009282904
+        },
+        {
+          "source_fid": 2942,
+          "restored_geometry": true,
+          "outside_area_m2": 229.28406464797445
+        },
+        {
+          "source_fid": 2970,
+          "restored_geometry": true,
+          "outside_area_m2": 55.31994070303881
+        },
+        {
+          "source_fid": 3049,
+          "restored_geometry": true,
+          "outside_area_m2": 19.68800518527007
+        },
+        {
+          "source_fid": 3233,
+          "restored_geometry": true,
+          "outside_area_m2": 9.83724965386267
+        },
+        {
+          "source_fid": 3258,
+          "restored_geometry": true,
+          "outside_area_m2": 12.525982545310399
+        },
+        {
+          "source_fid": 3470,
+          "restored_geometry": true,
+          "outside_area_m2": 103.43878166298646
+        },
+        {
+          "source_fid": 3521,
+          "restored_geometry": true,
+          "outside_area_m2": 136.89830689886458
+        }
+      ]
+    },
+    {
+      "dataset": "D021_detail_blda",
+      "records_before": 1181,
+      "records_after": 1181,
+      "geometry_restored": 25,
+      "boundary_intersecting_buildings": 25,
+      "boundary_records": [
+        {
+          "source_fid": 659,
+          "restored_geometry": true,
+          "outside_area_m2": 69.62899668556952
+        },
+        {
+          "source_fid": 661,
+          "restored_geometry": true,
+          "outside_area_m2": 129.68867653002417
+        },
+        {
+          "source_fid": 1160,
+          "restored_geometry": true,
+          "outside_area_m2": 721.443169158887
+        },
+        {
+          "source_fid": 1166,
+          "restored_geometry": true,
+          "outside_area_m2": 17.78460815060498
+        },
+        {
+          "source_fid": 1168,
+          "restored_geometry": true,
+          "outside_area_m2": 66.63002959821733
+        },
+        {
+          "source_fid": 1169,
+          "restored_geometry": true,
+          "outside_area_m2": 573.451579786095
+        },
+        {
+          "source_fid": 1177,
+          "restored_geometry": true,
+          "outside_area_m2": 379.8730551183471
+        },
+        {
+          "source_fid": 1179,
+          "restored_geometry": true,
+          "outside_area_m2": 5129.7464018414685
+        },
+        {
+          "source_fid": 1180,
+          "restored_geometry": true,
+          "outside_area_m2": 535.4439546139038
+        },
+        {
+          "source_fid": 1271,
+          "restored_geometry": true,
+          "outside_area_m2": 123.40253343803124
+        },
+        {
+          "source_fid": 1301,
+          "restored_geometry": true,
+          "outside_area_m2": 229.47925543560996
+        },
+        {
+          "source_fid": 1310,
+          "restored_geometry": true,
+          "outside_area_m2": 9.036252942058937
+        },
+        {
+          "source_fid": 1410,
+          "restored_geometry": true,
+          "outside_area_m2": 101.48691640192192
+        },
+        {
+          "source_fid": 1412,
+          "restored_geometry": true,
+          "outside_area_m2": 0.01330582590242102
+        },
+        {
+          "source_fid": 1413,
+          "restored_geometry": true,
+          "outside_area_m2": 54.34915224021006
+        },
+        {
+          "source_fid": 1420,
+          "restored_geometry": true,
+          "outside_area_m2": 11.889248359522753
+        },
+        {
+          "source_fid": 1421,
+          "restored_geometry": true,
+          "outside_area_m2": 135.27978714801793
+        },
+        {
+          "source_fid": 1888,
+          "restored_geometry": true,
+          "outside_area_m2": 3.842459794930619
+        },
+        {
+          "source_fid": 1900,
+          "restored_geometry": true,
+          "outside_area_m2": 785.7546977675629
+        },
+        {
+          "source_fid": 1926,
+          "restored_geometry": true,
+          "outside_area_m2": 268.1067246044404
+        },
+        {
+          "source_fid": 1929,
+          "restored_geometry": true,
+          "outside_area_m2": 7.003479040295588
+        },
+        {
+          "source_fid": 1982,
+          "restored_geometry": true,
+          "outside_area_m2": 147.35655023061645
+        },
+        {
+          "source_fid": 1984,
+          "restored_geometry": true,
+          "outside_area_m2": 153.23195809822755
+        },
+        {
+          "source_fid": 2081,
+          "restored_geometry": true,
+          "outside_area_m2": 2.1234523737762174
+        },
+        {
+          "source_fid": 2158,
+          "restored_geometry": true,
+          "outside_area_m2": 667.9966599477939
+        }
+      ]
+    },
+    {
+      "dataset": "D024_building_use_floor",
+      "records_before": 1067,
+      "records_after": 1067,
+      "geometry_restored": 13,
+      "boundary_intersecting_buildings": 13,
+      "boundary_records": [
+        {
+          "source_fid": 58,
+          "restored_geometry": true,
+          "outside_area_m2": 6.0440222930956224
+        },
+        {
+          "source_fid": 169,
+          "restored_geometry": true,
+          "outside_area_m2": 3.5138847023554263
+        },
+        {
+          "source_fid": 211,
+          "restored_geometry": true,
+          "outside_area_m2": 69.42399946338492
+        },
+        {
+          "source_fid": 218,
+          "restored_geometry": true,
+          "outside_area_m2": 26.49808885992934
+        },
+        {
+          "source_fid": 306,
+          "restored_geometry": true,
+          "outside_area_m2": 7.842992205791006
+        },
+        {
+          "source_fid": 307,
+          "restored_geometry": true,
+          "outside_area_m2": 0.22632291179547792
+        },
+        {
+          "source_fid": 311,
+          "restored_geometry": true,
+          "outside_area_m2": 2.6770485818435645
+        },
+        {
+          "source_fid": 992,
+          "restored_geometry": true,
+          "outside_area_m2": 229.28406464797445
+        },
+        {
+          "source_fid": 993,
+          "restored_geometry": true,
+          "outside_area_m2": 55.31994070303881
+        },
+        {
+          "source_fid": 1004,
+          "restored_geometry": true,
+          "outside_area_m2": 19.68800518527007
+        },
+        {
+          "source_fid": 1021,
+          "restored_geometry": true,
+          "outside_area_m2": 9.83724965386267
+        },
+        {
+          "source_fid": 1025,
+          "restored_geometry": true,
+          "outside_area_m2": 12.525982545310399
+        },
+        {
+          "source_fid": 1063,
+          "restored_geometry": true,
+          "outside_area_m2": 136.89830689886458
+        }
+      ]
+    },
+    {
+      "dataset": "D026_buildings_current",
+      "records_before": 1064,
+      "records_after": 1064,
+      "geometry_restored": 10,
+      "boundary_intersecting_buildings": 10,
+      "boundary_records": [
+        {
+          "source_fid": 1075,
+          "restored_geometry": true,
+          "outside_area_m2": 5060.240906252924
+        },
+        {
+          "source_fid": 1076,
+          "restored_geometry": true,
+          "outside_area_m2": 1142.8115524655368
+        },
+        {
+          "source_fid": 1077,
+          "restored_geometry": true,
+          "outside_area_m2": 6.0440222930956224
+        },
+        {
+          "source_fid": 1078,
+          "restored_geometry": true,
+          "outside_area_m2": 26.49808885992934
+        },
+        {
+          "source_fid": 1080,
+          "restored_geometry": true,
+          "outside_area_m2": 0.22632291179547792
+        },
+        {
+          "source_fid": 1081,
+          "restored_geometry": true,
+          "outside_area_m2": 7.842992205791006
+        },
+        {
+          "source_fid": 1082,
+          "restored_geometry": true,
+          "outside_area_m2": 55.31994070303881
+        },
+        {
+          "source_fid": 1083,
+          "restored_geometry": true,
+          "outside_area_m2": 19.68800518527007
+        },
+        {
+          "source_fid": 1084,
+          "restored_geometry": true,
+          "outside_area_m2": 9.83724965386267
+        },
+        {
+          "source_fid": 1086,
+          "restored_geometry": true,
+          "outside_area_m2": 136.89830689886458
+        }
+      ]
+    },
+    {
+      "dataset": "D027_gsi_buildings",
+      "records_before": 1099,
+      "records_after": 1099,
+      "geometry_restored": 24,
+      "boundary_intersecting_buildings": 24,
+      "boundary_records": [
+        {
+          "source_fid": 136341,
+          "restored_geometry": true,
+          "outside_area_m2": 69.62899668556952
+        },
+        {
+          "source_fid": 136343,
+          "restored_geometry": true,
+          "outside_area_m2": 129.68867653003213
+        },
+        {
+          "source_fid": 136788,
+          "restored_geometry": true,
+          "outside_area_m2": 721.4431691588907
+        },
+        {
+          "source_fid": 136802,
+          "restored_geometry": true,
+          "outside_area_m2": 17.78460815060498
+        },
+        {
+          "source_fid": 136804,
+          "restored_geometry": true,
+          "outside_area_m2": 66.63002959820733
+        },
+        {
+          "source_fid": 136805,
+          "restored_geometry": true,
+          "outside_area_m2": 573.4515797861059
+        },
+        {
+          "source_fid": 136813,
+          "restored_geometry": true,
+          "outside_area_m2": 379.8730551183362
+        },
+        {
+          "source_fid": 136816,
+          "restored_geometry": true,
+          "outside_area_m2": 5129.746401841421
+        },
+        {
+          "source_fid": 142896,
+          "restored_geometry": true,
+          "outside_area_m2": 123.40253343803124
+        },
+        {
+          "source_fid": 142930,
+          "restored_geometry": true,
+          "outside_area_m2": 229.47925543560632
+        },
+        {
+          "source_fid": 142939,
+          "restored_geometry": true,
+          "outside_area_m2": 9.036252942058937
+        },
+        {
+          "source_fid": 143032,
+          "restored_geometry": true,
+          "outside_area_m2": 101.48691640191237
+        },
+        {
+          "source_fid": 143034,
+          "restored_geometry": true,
+          "outside_area_m2": 0.01330582590240681
+        },
+        {
+          "source_fid": 143035,
+          "restored_geometry": true,
+          "outside_area_m2": 54.34915224021063
+        },
+        {
+          "source_fid": 143042,
+          "restored_geometry": true,
+          "outside_area_m2": 11.889248359524572
+        },
+        {
+          "source_fid": 143043,
+          "restored_geometry": true,
+          "outside_area_m2": 135.27978714801793
+        },
+        {
+          "source_fid": 143695,
+          "restored_geometry": true,
+          "outside_area_m2": 3.842459794930619
+        },
+        {
+          "source_fid": 143706,
+          "restored_geometry": true,
+          "outside_area_m2": 785.7546977675647
+        },
+        {
+          "source_fid": 143732,
+          "restored_geometry": true,
+          "outside_area_m2": 268.1067246044522
+        },
+        {
+          "source_fid": 143735,
+          "restored_geometry": true,
+          "outside_area_m2": 7.003479040295588
+        },
+        {
+          "source_fid": 143789,
+          "restored_geometry": true,
+          "outside_area_m2": 147.3565502306119
+        },
+        {
+          "source_fid": 143791,
+          "restored_geometry": true,
+          "outside_area_m2": 153.23195809822028
+        },
+        {
+          "source_fid": 143968,
+          "restored_geometry": true,
+          "outside_area_m2": 2.1234523737757627
+        },
+        {
+          "source_fid": 196071,
+          "restored_geometry": true,
+          "outside_area_m2": 1203.440614561674
+        }
+      ]
+    },
+    {
+      "dataset": "D029_chiyoda_building_context",
+      "records_before": 16,
+      "records_after": 16,
+      "geometry_restored": 16,
+      "boundary_intersecting_buildings": 16,
+      "boundary_records": [
+        {
+          "source_fid": 5585,
+          "restored_geometry": true,
+          "outside_area_m2": 222.21654185288435
+        },
+        {
+          "source_fid": 5587,
+          "restored_geometry": true,
+          "outside_area_m2": 386.77092398812965
+        },
+        {
+          "source_fid": 5633,
+          "restored_geometry": true,
+          "outside_area_m2": 120.35404516461654
+        },
+        {
+          "source_fid": 5691,
+          "restored_geometry": true,
+          "outside_area_m2": 11.411493934629107
+        },
+        {
+          "source_fid": 5702,
+          "restored_geometry": true,
+          "outside_area_m2": 21.016833078700984
+        },
+        {
+          "source_fid": 6080,
+          "restored_geometry": true,
+          "outside_area_m2": 80.70590463709686
+        },
+        {
+          "source_fid": 6081,
+          "restored_geometry": true,
+          "outside_area_m2": 86.1330928740208
+        },
+        {
+          "source_fid": 6091,
+          "restored_geometry": true,
+          "outside_area_m2": 71.54470995216002
+        },
+        {
+          "source_fid": 7857,
+          "restored_geometry": true,
+          "outside_area_m2": 45.548643539848854
+        },
+        {
+          "source_fid": 8058,
+          "restored_geometry": true,
+          "outside_area_m2": 67.07730871007698
+        },
+        {
+          "source_fid": 8061,
+          "restored_geometry": true,
+          "outside_area_m2": 125.26029259943607
+        },
+        {
+          "source_fid": 8562,
+          "restored_geometry": true,
+          "outside_area_m2": 68.28438696628336
+        },
+        {
+          "source_fid": 9632,
+          "restored_geometry": true,
+          "outside_area_m2": 127.23895514370452
+        },
+        {
+          "source_fid": 10243,
+          "restored_geometry": true,
+          "outside_area_m2": 78.85328844221294
+        },
+        {
+          "source_fid": 10253,
+          "restored_geometry": true,
+          "outside_area_m2": 88.25333373068133
+        },
+        {
+          "source_fid": 10254,
+          "restored_geometry": true,
+          "outside_area_m2": 76.03885870932208
+        }
+      ]
+    },
+    {
+      "dataset": "D030_gsi_buildings",
+      "records_before": 1099,
+      "records_after": 1099,
+      "geometry_restored": 24,
+      "boundary_intersecting_buildings": 24,
+      "boundary_records": [
+        {
+          "source_fid": 450,
+          "restored_geometry": true,
+          "outside_area_m2": 721.443169158887
+        },
+        {
+          "source_fid": 451,
+          "restored_geometry": true,
+          "outside_area_m2": 379.8730551183471
+        },
+        {
+          "source_fid": 468,
+          "restored_geometry": true,
+          "outside_area_m2": 573.451579786095
+        },
+        {
+          "source_fid": 470,
+          "restored_geometry": true,
+          "outside_area_m2": 5129.7464018414685
+        },
+        {
+          "source_fid": 476,
+          "restored_geometry": true,
+          "outside_area_m2": 17.78460815060498
+        },
+        {
+          "source_fid": 477,
+          "restored_geometry": true,
+          "outside_area_m2": 66.63002959821733
+        },
+        {
+          "source_fid": 489,
+          "restored_geometry": true,
+          "outside_area_m2": 1203.4406145616667
+        },
+        {
+          "source_fid": 590,
+          "restored_geometry": true,
+          "outside_area_m2": 129.68867653002417
+        },
+        {
+          "source_fid": 592,
+          "restored_geometry": true,
+          "outside_area_m2": 69.62899668556952
+        },
+        {
+          "source_fid": 5011,
+          "restored_geometry": true,
+          "outside_area_m2": 123.40253343803124
+        },
+        {
+          "source_fid": 5016,
+          "restored_geometry": true,
+          "outside_area_m2": 229.47925543560996
+        },
+        {
+          "source_fid": 6122,
+          "restored_geometry": true,
+          "outside_area_m2": 785.7546977675629
+        },
+        {
+          "source_fid": 6134,
+          "restored_geometry": true,
+          "outside_area_m2": 268.1067246044404
+        },
+        {
+          "source_fid": 6137,
+          "restored_geometry": true,
+          "outside_area_m2": 3.842459794930619
+        },
+        {
+          "source_fid": 6165,
+          "restored_geometry": true,
+          "outside_area_m2": 7.003479040295588
+        },
+        {
+          "source_fid": 12513,
+          "restored_geometry": true,
+          "outside_area_m2": 2.1234523737762174
+        },
+        {
+          "source_fid": 12722,
+          "restored_geometry": true,
+          "outside_area_m2": 153.23195809822755
+        },
+        {
+          "source_fid": 12843,
+          "restored_geometry": true,
+          "outside_area_m2": 147.35655023061645
+        },
+        {
+          "source_fid": 13409,
+          "restored_geometry": true,
+          "outside_area_m2": 0.01330582590242102
+        },
+        {
+          "source_fid": 13412,
+          "restored_geometry": true,
+          "outside_area_m2": 54.34915224021006
+        },
+        {
+          "source_fid": 13413,
+          "restored_geometry": true,
+          "outside_area_m2": 135.27978714801793
+        },
+        {
+          "source_fid": 13414,
+          "restored_geometry": true,
+          "outside_area_m2": 11.889248359522753
+        },
+        {
+          "source_fid": 14194,
+          "restored_geometry": true,
+          "outside_area_m2": 101.48691640192192
+        },
+        {
+          "source_fid": 14198,
+          "restored_geometry": true,
+          "outside_area_m2": 9.036252942058937
+        }
+      ]
+    },
+    {
+      "dataset": "D031_buildings_town_context",
+      "records_before": 1064,
+      "records_after": 1064,
+      "geometry_restored": 10,
+      "boundary_intersecting_buildings": 10,
+      "boundary_records": [
+        {
+          "source_fid": 1054,
+          "restored_geometry": true,
+          "outside_area_m2": 5060.240906252924
+        },
+        {
+          "source_fid": 1055,
+          "restored_geometry": true,
+          "outside_area_m2": 1142.8115524655368
+        },
+        {
+          "source_fid": 1056,
+          "restored_geometry": true,
+          "outside_area_m2": 6.0440222930956224
+        },
+        {
+          "source_fid": 1057,
+          "restored_geometry": true,
+          "outside_area_m2": 26.49808885992934
+        },
+        {
+          "source_fid": 1058,
+          "restored_geometry": true,
+          "outside_area_m2": 0.22632291179547792
+        },
+        {
+          "source_fid": 1059,
+          "restored_geometry": true,
+          "outside_area_m2": 7.842992205791006
+        },
+        {
+          "source_fid": 1060,
+          "restored_geometry": true,
+          "outside_area_m2": 55.31994070303881
+        },
+        {
+          "source_fid": 1061,
+          "restored_geometry": true,
+          "outside_area_m2": 19.68800518527007
+        },
+        {
+          "source_fid": 1062,
+          "restored_geometry": true,
+          "outside_area_m2": 9.83724965386267
+        },
+        {
+          "source_fid": 1063,
+          "restored_geometry": true,
+          "outside_area_m2": 136.89830689886458
+        }
+      ]
+    },
+    {
+      "dataset": "D041_current_buildings",
+      "records_before": 1064,
+      "records_after": 1064,
+      "geometry_restored": 10,
+      "boundary_intersecting_buildings": 10,
+      "boundary_records": [
+        {
+          "source_fid": 1053,
+          "restored_geometry": true,
+          "outside_area_m2": 5060.240906252924
+        },
+        {
+          "source_fid": 1054,
+          "restored_geometry": true,
+          "outside_area_m2": 1142.8115524655368
+        },
+        {
+          "source_fid": 1055,
+          "restored_geometry": true,
+          "outside_area_m2": 6.0440222930956224
+        },
+        {
+          "source_fid": 1056,
+          "restored_geometry": true,
+          "outside_area_m2": 26.49808885992934
+        },
+        {
+          "source_fid": 1057,
+          "restored_geometry": true,
+          "outside_area_m2": 0.22632291179547792
+        },
+        {
+          "source_fid": 1058,
+          "restored_geometry": true,
+          "outside_area_m2": 7.842992205791006
+        },
+        {
+          "source_fid": 1059,
+          "restored_geometry": true,
+          "outside_area_m2": 55.31994070303881
+        },
+        {
+          "source_fid": 1060,
+          "restored_geometry": true,
+          "outside_area_m2": 19.68800518527007
+        },
+        {
+          "source_fid": 1061,
+          "restored_geometry": true,
+          "outside_area_m2": 9.83724965386267
+        },
+        {
+          "source_fid": 1062,
+          "restored_geometry": true,
+          "outside_area_m2": 136.89830689886458
+        }
+      ]
+    },
+    {
+      "dataset": "D048_historical_worker_allocation",
+      "records_before": 1098,
+      "records_after": 1098,
+      "geometry_restored": 23,
+      "boundary_intersecting_buildings": 23,
+      "boundary_records": [
+        {
+          "source_fid": 33,
+          "restored_geometry": true,
+          "outside_area_m2": 332.57570520487934
+        },
+        {
+          "source_fid": 67,
+          "restored_geometry": true,
+          "outside_area_m2": 6.0441061284437865
+        },
+        {
+          "source_fid": 99,
+          "restored_geometry": true,
+          "outside_area_m2": 1142.811669743067
+        },
+        {
+          "source_fid": 117,
+          "restored_geometry": true,
+          "outside_area_m2": 787.2738805458066
+        },
+        {
+          "source_fid": 195,
+          "restored_geometry": true,
+          "outside_area_m2": 3.5138847023554263
+        },
+        {
+          "source_fid": 199,
+          "restored_geometry": true,
+          "outside_area_m2": 5060.240921461664
+        },
+        {
+          "source_fid": 246,
+          "restored_geometry": true,
+          "outside_area_m2": 69.42399946338492
+        },
+        {
+          "source_fid": 253,
+          "restored_geometry": true,
+          "outside_area_m2": 26.497039395937463
+        },
+        {
+          "source_fid": 269,
+          "restored_geometry": true,
+          "outside_area_m2": 392.30962876664853
+        },
+        {
+          "source_fid": 273,
+          "restored_geometry": true,
+          "outside_area_m2": 577.0353442401829
+        },
+        {
+          "source_fid": 303,
+          "restored_geometry": true,
+          "outside_area_m2": 722.65267976022
+        },
+        {
+          "source_fid": 306,
+          "restored_geometry": true,
+          "outside_area_m2": 121.04091328049617
+        },
+        {
+          "source_fid": 489,
+          "restored_geometry": true,
+          "outside_area_m2": 7.842989454805547
+        },
+        {
+          "source_fid": 490,
+          "restored_geometry": true,
+          "outside_area_m2": 0.22632490676244288
+        },
+        {
+          "source_fid": 504,
+          "restored_geometry": true,
+          "outside_area_m2": 2.6770485818435645
+        },
+        {
+          "source_fid": 542,
+          "restored_geometry": true,
+          "outside_area_m2": 150.37433009282904
+        },
+        {
+          "source_fid": 1420,
+          "restored_geometry": true,
+          "outside_area_m2": 229.28406464797445
+        },
+        {
+          "source_fid": 1448,
+          "restored_geometry": true,
+          "outside_area_m2": 55.31994070884775
+        },
+        {
+          "source_fid": 1529,
+          "restored_geometry": true,
+          "outside_area_m2": 19.688005187106228
+        },
+        {
+          "source_fid": 1719,
+          "restored_geometry": true,
+          "outside_area_m2": 9.83724965381009
+        },
+        {
+          "source_fid": 1745,
+          "restored_geometry": true,
+          "outside_area_m2": 12.525982545310399
+        },
+        {
+          "source_fid": 1960,
+          "restored_geometry": true,
+          "outside_area_m2": 103.43878166298646
+        },
+        {
+          "source_fid": 2013,
+          "restored_geometry": true,
+          "outside_area_m2": 136.89830689917676
+        }
+      ]
+    },
+    {
+      "dataset": "D051_buildings_1945_candidates",
+      "records_before": 308,
+      "records_after": 308,
+      "geometry_restored": 21,
+      "boundary_intersecting_buildings": 21,
+      "boundary_records": [
+        {
+          "source_fid": 4,
+          "restored_geometry": true,
+          "outside_area_m2": 0.16719037521513336
+        },
+        {
+          "source_fid": 8,
+          "restored_geometry": true,
+          "outside_area_m2": 0.044735764901826514
+        },
+        {
+          "source_fid": 25,
+          "restored_geometry": true,
+          "outside_area_m2": 0.146239437107754
+        },
+        {
+          "source_fid": 35,
+          "restored_geometry": true,
+          "outside_area_m2": 0.07432022907596547
+        },
+        {
+          "source_fid": 36,
+          "restored_geometry": true,
+          "outside_area_m2": 0.05359268989704802
+        },
+        {
+          "source_fid": 50,
+          "restored_geometry": true,
+          "outside_area_m2": 0.0003313992631170659
+        },
+        {
+          "source_fid": 51,
+          "restored_geometry": true,
+          "outside_area_m2": 2.441317489172797e-05
+        },
+        {
+          "source_fid": 69,
+          "restored_geometry": true,
+          "outside_area_m2": 0.07237365488277803
+        },
+        {
+          "source_fid": 71,
+          "restored_geometry": true,
+          "outside_area_m2": 0.0936881643065135
+        },
+        {
+          "source_fid": 86,
+          "restored_geometry": true,
+          "outside_area_m2": 0.00011931886802460379
+        },
+        {
+          "source_fid": 88,
+          "restored_geometry": true,
+          "outside_area_m2": 0.06156133935872887
+        },
+        {
+          "source_fid": 92,
+          "restored_geometry": true,
+          "outside_area_m2": 0.25893520841209394
+        },
+        {
+          "source_fid": 98,
+          "restored_geometry": true,
+          "outside_area_m2": 0.00012078609938935873
+        },
+        {
+          "source_fid": 125,
+          "restored_geometry": true,
+          "outside_area_m2": 0.06722379735020745
+        },
+        {
+          "source_fid": 129,
+          "restored_geometry": true,
+          "outside_area_m2": 0.030839276656442927
+        },
+        {
+          "source_fid": 130,
+          "restored_geometry": true,
+          "outside_area_m2": 0.0031350777699969967
+        },
+        {
+          "source_fid": 223,
+          "restored_geometry": true,
+          "outside_area_m2": 0.02155816706938296
+        },
+        {
+          "source_fid": 224,
+          "restored_geometry": true,
+          "outside_area_m2": 0.01972042305377908
+        },
+        {
+          "source_fid": 227,
+          "restored_geometry": true,
+          "outside_area_m2": 0.03923031218310591
+        },
+        {
+          "source_fid": 242,
+          "restored_geometry": true,
+          "outside_area_m2": 0.07037749167831997
+        },
+        {
+          "source_fid": 288,
+          "restored_geometry": true,
+          "outside_area_m2": 1.827748836724652e-06
+        }
+      ]
+    },
+    {
+      "dataset": "D052_buildings_1974_candidates",
+      "records_before": 276,
+      "records_after": 276,
+      "geometry_restored": 24,
+      "boundary_intersecting_buildings": 24,
+      "boundary_records": [
+        {
+          "source_fid": 2,
+          "restored_geometry": true,
+          "outside_area_m2": 1.6749186380476955e-06
+        },
+        {
+          "source_fid": 11,
+          "restored_geometry": true,
+          "outside_area_m2": 1.8315288530232343e-05
+        },
+        {
+          "source_fid": 16,
+          "restored_geometry": true,
+          "outside_area_m2": 0.01998422752177298
+        },
+        {
+          "source_fid": 18,
+          "restored_geometry": true,
+          "outside_area_m2": 0.02064358359479357
+        },
+        {
+          "source_fid": 24,
+          "restored_geometry": true,
+          "outside_area_m2": 0.04524027916288631
+        },
+        {
+          "source_fid": 28,
+          "restored_geometry": true,
+          "outside_area_m2": 0.027752406787193706
+        },
+        {
+          "source_fid": 43,
+          "restored_geometry": true,
+          "outside_area_m2": 0.034047457036937345
+        },
+        {
+          "source_fid": 45,
+          "restored_geometry": true,
+          "outside_area_m2": 2.2367183826332284e-05
+        },
+        {
+          "source_fid": 56,
+          "restored_geometry": true,
+          "outside_area_m2": 0.01981777776927629
+        },
+        {
+          "source_fid": 64,
+          "restored_geometry": true,
+          "outside_area_m2": 0.024561908246695907
+        },
+        {
+          "source_fid": 67,
+          "restored_geometry": true,
+          "outside_area_m2": 0.020677271186180235
+        },
+        {
+          "source_fid": 70,
+          "restored_geometry": true,
+          "outside_area_m2": 0.0191415680891609
+        },
+        {
+          "source_fid": 73,
+          "restored_geometry": true,
+          "outside_area_m2": 0.13104947960279567
+        },
+        {
+          "source_fid": 79,
+          "restored_geometry": true,
+          "outside_area_m2": 0.03209791553523367
+        },
+        {
+          "source_fid": 90,
+          "restored_geometry": true,
+          "outside_area_m2": 0.07392769976383562
+        },
+        {
+          "source_fid": 97,
+          "restored_geometry": true,
+          "outside_area_m2": 0.030333175805935753
+        },
+        {
+          "source_fid": 124,
+          "restored_geometry": true,
+          "outside_area_m2": 0.0002294366346380361
+        },
+        {
+          "source_fid": 153,
+          "restored_geometry": true,
+          "outside_area_m2": 0.01481743366108823
+        },
+        {
+          "source_fid": 155,
+          "restored_geometry": true,
+          "outside_area_m2": 0.013186323438175052
+        },
+        {
+          "source_fid": 181,
+          "restored_geometry": true,
+          "outside_area_m2": 0.015145845427758431
+        },
+        {
+          "source_fid": 234,
+          "restored_geometry": true,
+          "outside_area_m2": 0.00016392972038975495
+        },
+        {
+          "source_fid": 251,
+          "restored_geometry": true,
+          "outside_area_m2": 0.0001716937506743635
+        },
+        {
+          "source_fid": 255,
+          "restored_geometry": true,
+          "outside_area_m2": 8.19438832226349e-05
+        },
+        {
+          "source_fid": 262,
+          "restored_geometry": true,
+          "outside_area_m2": 0.000829415054867818
+        }
+      ]
+    },
+    {
+      "dataset": "D062_flood_scenarios",
+      "records_before": 55,
+      "records_after": 55,
+      "geometry_restored": 10,
+      "boundary_intersecting_buildings": 10,
+      "boundary_records": [
+        {
+          "source_fid": 4,
+          "restored_geometry": true,
+          "outside_area_m2": 1.8189894035458565e-11
+        },
+        {
+          "source_fid": 10,
+          "restored_geometry": true,
+          "outside_area_m2": 9.881375300865485e-10
+        },
+        {
+          "source_fid": 12,
+          "restored_geometry": true,
+          "outside_area_m2": 8.720852933297597e-10
+        },
+        {
+          "source_fid": 14,
+          "restored_geometry": true,
+          "outside_area_m2": 0.0
+        },
+        {
+          "source_fid": 25,
+          "restored_geometry": true,
+          "outside_area_m2": 0.0
+        },
+        {
+          "source_fid": 28,
+          "restored_geometry": true,
+          "outside_area_m2": 7.350192275896886e-10
+        },
+        {
+          "source_fid": 38,
+          "restored_geometry": true,
+          "outside_area_m2": 126.87878415730881
+        },
+        {
+          "source_fid": 44,
+          "restored_geometry": true,
+          "outside_area_m2": 8.228439840634027e-10
+        },
+        {
+          "source_fid": 53,
+          "restored_geometry": true,
+          "outside_area_m2": 0.0
+        },
+        {
+          "source_fid": 55,
+          "restored_geometry": true,
+          "outside_area_m2": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "D088_current_building_allocation",
+      "records_before": 1077,
+      "records_after": 1077,
+      "geometry_restored": 23,
+      "boundary_intersecting_buildings": 23,
+      "boundary_records": [
+        {
+          "source_fid": 33,
+          "restored_geometry": true,
+          "outside_area_m2": 332.57570520487934
+        },
+        {
+          "source_fid": 67,
+          "restored_geometry": true,
+          "outside_area_m2": 6.0440222930956224
+        },
+        {
+          "source_fid": 99,
+          "restored_geometry": true,
+          "outside_area_m2": 1142.8115524655368
+        },
+        {
+          "source_fid": 117,
+          "restored_geometry": true,
+          "outside_area_m2": 787.2738805458066
+        },
+        {
+          "source_fid": 195,
+          "restored_geometry": true,
+          "outside_area_m2": 3.5138847023554263
+        },
+        {
+          "source_fid": 199,
+          "restored_geometry": true,
+          "outside_area_m2": 5060.240906252924
+        },
+        {
+          "source_fid": 246,
+          "restored_geometry": true,
+          "outside_area_m2": 69.42399946338492
+        },
+        {
+          "source_fid": 253,
+          "restored_geometry": true,
+          "outside_area_m2": 26.49808885992934
+        },
+        {
+          "source_fid": 269,
+          "restored_geometry": true,
+          "outside_area_m2": 392.30962876664853
+        },
+        {
+          "source_fid": 273,
+          "restored_geometry": true,
+          "outside_area_m2": 577.0353442401829
+        },
+        {
+          "source_fid": 303,
+          "restored_geometry": true,
+          "outside_area_m2": 722.65267976022
+        },
+        {
+          "source_fid": 306,
+          "restored_geometry": true,
+          "outside_area_m2": 121.04091328049617
+        },
+        {
+          "source_fid": 489,
+          "restored_geometry": true,
+          "outside_area_m2": 7.842992205791006
+        },
+        {
+          "source_fid": 490,
+          "restored_geometry": true,
+          "outside_area_m2": 0.22632291179547792
+        },
+        {
+          "source_fid": 504,
+          "restored_geometry": true,
+          "outside_area_m2": 2.6770485818435645
+        },
+        {
+          "source_fid": 542,
+          "restored_geometry": true,
+          "outside_area_m2": 150.37433009282904
+        },
+        {
+          "source_fid": 1399,
+          "restored_geometry": true,
+          "outside_area_m2": 229.28406464797445
+        },
+        {
+          "source_fid": 1427,
+          "restored_geometry": true,
+          "outside_area_m2": 55.31994070303881
+        },
+        {
+          "source_fid": 1508,
+          "restored_geometry": true,
+          "outside_area_m2": 19.68800518527007
+        },
+        {
+          "source_fid": 1698,
+          "restored_geometry": true,
+          "outside_area_m2": 9.83724965386267
+        },
+        {
+          "source_fid": 1724,
+          "restored_geometry": true,
+          "outside_area_m2": 12.525982545310399
+        },
+        {
+          "source_fid": 1939,
+          "restored_geometry": true,
+          "outside_area_m2": 103.43878166298646
+        },
+        {
+          "source_fid": 1992,
+          "restored_geometry": true,
+          "outside_area_m2": 136.89830689886458
+        }
+      ]
+    },
+    {
+      "dataset": "D089_osm_building_footprints_2026",
+      "records_before": 1056,
+      "records_after": 1056,
+      "geometry_restored": 27,
+      "boundary_intersecting_buildings": 27,
+      "boundary_records": [
+        {
+          "source_fid": 242,
+          "restored_geometry": true,
+          "outside_area_m2": 52.60176911246526
+        },
+        {
+          "source_fid": 253,
+          "restored_geometry": true,
+          "outside_area_m2": 857.6569703145942
+        },
+        {
+          "source_fid": 263,
+          "restored_geometry": true,
+          "outside_area_m2": 1349.4045866201923
+        },
+        {
+          "source_fid": 328,
+          "restored_geometry": true,
+          "outside_area_m2": 222.21654184731642
+        },
+        {
+          "source_fid": 336,
+          "restored_geometry": true,
+          "outside_area_m2": 386.7709239892429
+        },
+        {
+          "source_fid": 353,
+          "restored_geometry": true,
+          "outside_area_m2": 120.35404516437052
+        },
+        {
+          "source_fid": 365,
+          "restored_geometry": true,
+          "outside_area_m2": 11.411493935909675
+        },
+        {
+          "source_fid": 376,
+          "restored_geometry": true,
+          "outside_area_m2": 21.01683307924486
+        },
+        {
+          "source_fid": 436,
+          "restored_geometry": true,
+          "outside_area_m2": 80.7059046313725
+        },
+        {
+          "source_fid": 437,
+          "restored_geometry": true,
+          "outside_area_m2": 86.13309287789343
+        },
+        {
+          "source_fid": 448,
+          "restored_geometry": true,
+          "outside_area_m2": 71.54470995231964
+        },
+        {
+          "source_fid": 601,
+          "restored_geometry": true,
+          "outside_area_m2": 357.4855879216484
+        },
+        {
+          "source_fid": 680,
+          "restored_geometry": true,
+          "outside_area_m2": 7.8959487896963765
+        },
+        {
+          "source_fid": 792,
+          "restored_geometry": true,
+          "outside_area_m2": 79.05835221578309
+        },
+        {
+          "source_fid": 1059,
+          "restored_geometry": true,
+          "outside_area_m2": 7.720788234822976
+        },
+        {
+          "source_fid": 1060,
+          "restored_geometry": true,
+          "outside_area_m2": 543.4658776075667
+        },
+        {
+          "source_fid": 1093,
+          "restored_geometry": true,
+          "outside_area_m2": 31.370849159512545
+        },
+        {
+          "source_fid": 1126,
+          "restored_geometry": true,
+          "outside_area_m2": 371.1301099637203
+        },
+        {
+          "source_fid": 2274,
+          "restored_geometry": true,
+          "outside_area_m2": 45.548643539847035
+        },
+        {
+          "source_fid": 2387,
+          "restored_geometry": true,
+          "outside_area_m2": 67.07730870985688
+        },
+        {
+          "source_fid": 2389,
+          "restored_geometry": true,
+          "outside_area_m2": 125.2602926046311
+        },
+        {
+          "source_fid": 2433,
+          "restored_geometry": true,
+          "outside_area_m2": 68.28438696403373
+        },
+        {
+          "source_fid": 2650,
+          "restored_geometry": true,
+          "outside_area_m2": 4057.39322468669
+        },
+        {
+          "source_fid": 2992,
+          "restored_geometry": true,
+          "outside_area_m2": 127.23895514594915
+        },
+        {
+          "source_fid": 3509,
+          "restored_geometry": true,
+          "outside_area_m2": 78.85328844234391
+        },
+        {
+          "source_fid": 3520,
+          "restored_geometry": true,
+          "outside_area_m2": 88.2533337322966
+        },
+        {
+          "source_fid": 3521,
+          "restored_geometry": true,
+          "outside_area_m2": 76.0388587099551
+        }
+      ]
+    },
+    {
+      "dataset": "D124_site_osm_reference",
+      "records_before": 1053,
+      "records_after": 1053,
+      "geometry_restored": 24,
+      "boundary_intersecting_buildings": 24,
+      "boundary_records": [
+        {
+          "source_fid": 23,
+          "restored_geometry": true,
+          "outside_area_m2": 52.60176911764938
+        },
+        {
+          "source_fid": 24,
+          "restored_geometry": true,
+          "outside_area_m2": 857.6569703247951
+        },
+        {
+          "source_fid": 25,
+          "restored_geometry": true,
+          "outside_area_m2": 1349.404586626013
+        },
+        {
+          "source_fid": 30,
+          "restored_geometry": true,
+          "outside_area_m2": 222.2165418528857
+        },
+        {
+          "source_fid": 37,
+          "restored_geometry": true,
+          "outside_area_m2": 386.7709239878104
+        },
+        {
+          "source_fid": 41,
+          "restored_geometry": true,
+          "outside_area_m2": 120.35404516039853
+        },
+        {
+          "source_fid": 42,
+          "restored_geometry": true,
+          "outside_area_m2": 11.411493933697784
+        },
+        {
+          "source_fid": 43,
+          "restored_geometry": true,
+          "outside_area_m2": 21.01683307665121
+        },
+        {
+          "source_fid": 82,
+          "restored_geometry": true,
+          "outside_area_m2": 80.70590463709595
+        },
+        {
+          "source_fid": 83,
+          "restored_geometry": true,
+          "outside_area_m2": 86.13309288245546
+        },
+        {
+          "source_fid": 89,
+          "restored_geometry": true,
+          "outside_area_m2": 71.54470997047974
+        },
+        {
+          "source_fid": 122,
+          "restored_geometry": true,
+          "outside_area_m2": 357.4855879113311
+        },
+        {
+          "source_fid": 133,
+          "restored_geometry": true,
+          "outside_area_m2": 7.895948791058345
+        },
+        {
+          "source_fid": 182,
+          "restored_geometry": true,
+          "outside_area_m2": 79.05835221588131
+        },
+        {
+          "source_fid": 184,
+          "restored_geometry": true,
+          "outside_area_m2": 7.720788234972588
+        },
+        {
+          "source_fid": 185,
+          "restored_geometry": true,
+          "outside_area_m2": 543.4658775922417
+        },
+        {
+          "source_fid": 210,
+          "restored_geometry": true,
+          "outside_area_m2": 31.37084912300452
+        },
+        {
+          "source_fid": 236,
+          "restored_geometry": true,
+          "outside_area_m2": 371.1301099689663
+        },
+        {
+          "source_fid": 689,
+          "restored_geometry": true,
+          "outside_area_m2": 68.28438696642843
+        },
+        {
+          "source_fid": 722,
+          "restored_geometry": true,
+          "outside_area_m2": 4057.3932247154708
+        },
+        {
+          "source_fid": 802,
+          "restored_geometry": true,
+          "outside_area_m2": 127.23895514370452
+        },
+        {
+          "source_fid": 918,
+          "restored_geometry": true,
+          "outside_area_m2": 78.85328844746255
+        },
+        {
+          "source_fid": 920,
+          "restored_geometry": true,
+          "outside_area_m2": 88.25333373052126
+        },
+        {
+          "source_fid": 921,
+          "restored_geometry": true,
+          "outside_area_m2": 76.03885870931845
+        }
+      ]
+    },
+    {
+      "dataset": "D127_Retained_building_footprints",
+      "records_before": 3,
+      "records_after": 3,
+      "geometry_restored": 0,
+      "boundary_intersecting_buildings": 0,
+      "boundary_records": []
+    },
+    {
+      "dataset": "D128_review_buildings",
+      "records_before": 4,
+      "records_after": 4,
+      "geometry_restored": 0,
+      "boundary_intersecting_buildings": 0,
+      "boundary_records": []
+    },
+    {
+      "dataset": "D157_dated_survivors",
+      "records_before": 59,
+      "records_after": 59,
+      "geometry_restored": 2,
+      "boundary_intersecting_buildings": 2,
+      "boundary_records": [
+        {
+          "source_fid": 58,
+          "restored_geometry": true,
+          "outside_area_m2": 6.0440222930956224
+        },
+        {
+          "source_fid": 59,
+          "restored_geometry": true,
+          "outside_area_m2": 9.83724965386267
+        }
+      ]
+    },
+    {
+      "dataset": "D185_development_completed_buildings",
+      "records_before": 2,
+      "records_after": 2,
+      "geometry_restored": 0,
+      "boundary_intersecting_buildings": 0,
+      "boundary_records": []
+    },
+    {
+      "dataset": "D191_renewal_buildings",
+      "records_before": 1069,
+      "records_after": 1069,
+      "geometry_restored": 15,
+      "boundary_intersecting_buildings": 15,
+      "boundary_records": [
+        {
+          "source_fid": 218,
+          "restored_geometry": true,
+          "outside_area_m2": 136.89830689886458
+        },
+        {
+          "source_fid": 383,
+          "restored_geometry": true,
+          "outside_area_m2": 12.525982545310399
+        },
+        {
+          "source_fid": 431,
+          "restored_geometry": true,
+          "outside_area_m2": 229.28406464797445
+        },
+        {
+          "source_fid": 482,
+          "restored_geometry": true,
+          "outside_area_m2": 55.31994070303881
+        },
+        {
+          "source_fid": 525,
+          "restored_geometry": true,
+          "outside_area_m2": 19.68800518527007
+        },
+        {
+          "source_fid": 714,
+          "restored_geometry": true,
+          "outside_area_m2": 9.83724965386267
+        },
+        {
+          "source_fid": 755,
+          "restored_geometry": true,
+          "outside_area_m2": 6.0440222930956224
+        },
+        {
+          "source_fid": 776,
+          "restored_geometry": true,
+          "outside_area_m2": 2.6770485818435645
+        },
+        {
+          "source_fid": 793,
+          "restored_geometry": true,
+          "outside_area_m2": 5060.240906252924
+        },
+        {
+          "source_fid": 823,
+          "restored_geometry": true,
+          "outside_area_m2": 69.42399946338492
+        },
+        {
+          "source_fid": 845,
+          "restored_geometry": true,
+          "outside_area_m2": 3.5138847023554263
+        },
+        {
+          "source_fid": 971,
+          "restored_geometry": true,
+          "outside_area_m2": 26.49808885992934
+        },
+        {
+          "source_fid": 989,
+          "restored_geometry": true,
+          "outside_area_m2": 7.842992205791006
+        },
+        {
+          "source_fid": 1032,
+          "restored_geometry": true,
+          "outside_area_m2": 0.22632291179547792
+        },
+        {
+          "source_fid": 1041,
+          "restored_geometry": true,
+          "outside_area_m2": 1142.8115524655368
+        }
+      ]
+    },
+    {
+      "dataset": "D197_base_buildings",
+      "records_before": 1064,
+      "records_after": 1064,
+      "geometry_restored": 10,
+      "boundary_intersecting_buildings": 10,
+      "boundary_records": [
+        {
+          "source_fid": 1075,
+          "restored_geometry": true,
+          "outside_area_m2": 5060.240906252924
+        },
+        {
+          "source_fid": 1076,
+          "restored_geometry": true,
+          "outside_area_m2": 1142.8115524655368
+        },
+        {
+          "source_fid": 1077,
+          "restored_geometry": true,
+          "outside_area_m2": 6.0440222930956224
+        },
+        {
+          "source_fid": 1078,
+          "restored_geometry": true,
+          "outside_area_m2": 26.49808885992934
+        },
+        {
+          "source_fid": 1080,
+          "restored_geometry": true,
+          "outside_area_m2": 0.22632291179547792
+        },
+        {
+          "source_fid": 1081,
+          "restored_geometry": true,
+          "outside_area_m2": 7.842992205791006
+        },
+        {
+          "source_fid": 1082,
+          "restored_geometry": true,
+          "outside_area_m2": 55.31994070303881
+        },
+        {
+          "source_fid": 1083,
+          "restored_geometry": true,
+          "outside_area_m2": 19.68800518527007
+        },
+        {
+          "source_fid": 1084,
+          "restored_geometry": true,
+          "outside_area_m2": 9.83724965386267
+        },
+        {
+          "source_fid": 1086,
+          "restored_geometry": true,
+          "outside_area_m2": 136.89830689886458
+        }
+      ]
+    },
+    {
+      "dataset": "D198_base_context_buildings",
+      "records_before": 15,
+      "records_after": 15,
+      "geometry_restored": 15,
+      "boundary_intersecting_buildings": 15,
+      "boundary_records": [
+        {
+          "source_fid": 450,
+          "restored_geometry": true,
+          "outside_area_m2": 721.443169158887
+        },
+        {
+          "source_fid": 451,
+          "restored_geometry": true,
+          "outside_area_m2": 379.8730551183471
+        },
+        {
+          "source_fid": 468,
+          "restored_geometry": true,
+          "outside_area_m2": 573.451579786095
+        },
+        {
+          "source_fid": 477,
+          "restored_geometry": true,
+          "outside_area_m2": 66.63002959821733
+        },
+        {
+          "source_fid": 590,
+          "restored_geometry": true,
+          "outside_area_m2": 129.68867653002417
+        },
+        {
+          "source_fid": 592,
+          "restored_geometry": true,
+          "outside_area_m2": 69.62899668556952
+        },
+        {
+          "source_fid": 5011,
+          "restored_geometry": true,
+          "outside_area_m2": 123.40253343803124
+        },
+        {
+          "source_fid": 5016,
+          "restored_geometry": true,
+          "outside_area_m2": 229.47925543560996
+        },
+        {
+          "source_fid": 6122,
+          "restored_geometry": true,
+          "outside_area_m2": 785.7546977675629
+        },
+        {
+          "source_fid": 6134,
+          "restored_geometry": true,
+          "outside_area_m2": 268.1067246044404
+        },
+        {
+          "source_fid": 12513,
+          "restored_geometry": true,
+          "outside_area_m2": 2.1234523737762174
+        },
+        {
+          "source_fid": 12722,
+          "restored_geometry": true,
+          "outside_area_m2": 153.23195809822755
+        },
+        {
+          "source_fid": 12843,
+          "restored_geometry": true,
+          "outside_area_m2": 147.35655023061645
+        },
+        {
+          "source_fid": 13414,
+          "restored_geometry": true,
+          "outside_area_m2": 11.889248359522753
+        },
+        {
+          "source_fid": 14194,
+          "restored_geometry": true,
+          "outside_area_m2": 101.48691640192192
+        }
+      ]
+    },
+    {
+      "dataset": "D223_buildings_town_risk",
+      "records_before": 1077,
+      "records_after": 1077,
+      "geometry_restored": 23,
+      "boundary_intersecting_buildings": 23,
+      "boundary_records": [
+        {
+          "source_fid": 1,
+          "restored_geometry": true,
+          "outside_area_m2": 722.65267976022
+        },
+        {
+          "source_fid": 2,
+          "restored_geometry": true,
+          "outside_area_m2": 392.30962876664853
+        },
+        {
+          "source_fid": 27,
+          "restored_geometry": true,
+          "outside_area_m2": 5060.240906252924
+        },
+        {
+          "source_fid": 38,
+          "restored_geometry": true,
+          "outside_area_m2": 26.49808885992934
+        },
+        {
+          "source_fid": 40,
+          "restored_geometry": true,
+          "outside_area_m2": 577.0353442401829
+        },
+        {
+          "source_fid": 51,
+          "restored_geometry": true,
+          "outside_area_m2": 69.42399946338492
+        },
+        {
+          "source_fid": 80,
+          "restored_geometry": true,
+          "outside_area_m2": 1142.8115524655368
+        },
+        {
+          "source_fid": 82,
+          "restored_geometry": true,
+          "outside_area_m2": 787.2738805458066
+        },
+        {
+          "source_fid": 83,
+          "restored_geometry": true,
+          "outside_area_m2": 6.0440222930956224
+        },
+        {
+          "source_fid": 85,
+          "restored_geometry": true,
+          "outside_area_m2": 332.57570520487934
+        },
+        {
+          "source_fid": 96,
+          "restored_geometry": true,
+          "outside_area_m2": 3.5138847023554263
+        },
+        {
+          "source_fid": 99,
+          "restored_geometry": true,
+          "outside_area_m2": 0.22632291179547792
+        },
+        {
+          "source_fid": 100,
+          "restored_geometry": true,
+          "outside_area_m2": 7.842992205791006
+        },
+        {
+          "source_fid": 102,
+          "restored_geometry": true,
+          "outside_area_m2": 2.6770485818435645
+        },
+        {
+          "source_fid": 118,
+          "restored_geometry": true,
+          "outside_area_m2": 121.04091328049617
+        },
+        {
+          "source_fid": 586,
+          "restored_geometry": true,
+          "outside_area_m2": 150.37433009282904
+        },
+        {
+          "source_fid": 983,
+          "restored_geometry": true,
+          "outside_area_m2": 55.31994070303881
+        },
+        {
+          "source_fid": 984,
+          "restored_geometry": true,
+          "outside_area_m2": 103.43878166298646
+        },
+        {
+          "source_fid": 985,
+          "restored_geometry": true,
+          "outside_area_m2": 136.89830689886458
+        },
+        {
+          "source_fid": 1032,
+          "restored_geometry": true,
+          "outside_area_m2": 229.28406464797445
+        },
+        {
+          "source_fid": 1071,
+          "restored_geometry": true,
+          "outside_area_m2": 19.68800518527007
+        },
+        {
+          "source_fid": 1073,
+          "restored_geometry": true,
+          "outside_area_m2": 9.83724965386267
+        },
+        {
+          "source_fid": 1076,
+          "restored_geometry": true,
+          "outside_area_m2": 12.525982545310399
+        }
+      ]
+    },
+    {
+      "dataset": "D233_source_stock",
+      "records_before": 1064,
+      "records_after": 1064,
+      "geometry_restored": 10,
+      "boundary_intersecting_buildings": 10,
+      "boundary_records": [
+        {
+          "source_fid": 1075,
+          "restored_geometry": true,
+          "outside_area_m2": 5060.240906252924
+        },
+        {
+          "source_fid": 1076,
+          "restored_geometry": true,
+          "outside_area_m2": 1142.8115524655368
+        },
+        {
+          "source_fid": 1077,
+          "restored_geometry": true,
+          "outside_area_m2": 6.0440222930956224
+        },
+        {
+          "source_fid": 1078,
+          "restored_geometry": true,
+          "outside_area_m2": 26.49808885992934
+        },
+        {
+          "source_fid": 1080,
+          "restored_geometry": true,
+          "outside_area_m2": 0.22632291179547792
+        },
+        {
+          "source_fid": 1081,
+          "restored_geometry": true,
+          "outside_area_m2": 7.842992205791006
+        },
+        {
+          "source_fid": 1082,
+          "restored_geometry": true,
+          "outside_area_m2": 55.31994070303881
+        },
+        {
+          "source_fid": 1083,
+          "restored_geometry": true,
+          "outside_area_m2": 19.68800518527007
+        },
+        {
+          "source_fid": 1084,
+          "restored_geometry": true,
+          "outside_area_m2": 9.83724965386267
+        },
+        {
+          "source_fid": 1086,
+          "restored_geometry": true,
+          "outside_area_m2": 136.89830689886458
+        }
+      ]
+    },
+    {
+      "dataset": "D236_renewal_buildings",
+      "records_before": 1069,
+      "records_after": 1069,
+      "geometry_restored": 15,
+      "boundary_intersecting_buildings": 15,
+      "boundary_records": [
+        {
+          "source_fid": 218,
+          "restored_geometry": true,
+          "outside_area_m2": 136.89830689886458
+        },
+        {
+          "source_fid": 383,
+          "restored_geometry": true,
+          "outside_area_m2": 12.525982545310399
+        },
+        {
+          "source_fid": 431,
+          "restored_geometry": true,
+          "outside_area_m2": 229.28406464797445
+        },
+        {
+          "source_fid": 482,
+          "restored_geometry": true,
+          "outside_area_m2": 55.31994070303881
+        },
+        {
+          "source_fid": 525,
+          "restored_geometry": true,
+          "outside_area_m2": 19.68800518527007
+        },
+        {
+          "source_fid": 714,
+          "restored_geometry": true,
+          "outside_area_m2": 9.83724965386267
+        },
+        {
+          "source_fid": 755,
+          "restored_geometry": true,
+          "outside_area_m2": 6.0440222930956224
+        },
+        {
+          "source_fid": 776,
+          "restored_geometry": true,
+          "outside_area_m2": 2.6770485818435645
+        },
+        {
+          "source_fid": 793,
+          "restored_geometry": true,
+          "outside_area_m2": 5060.240906252924
+        },
+        {
+          "source_fid": 823,
+          "restored_geometry": true,
+          "outside_area_m2": 69.42399946338492
+        },
+        {
+          "source_fid": 845,
+          "restored_geometry": true,
+          "outside_area_m2": 3.5138847023554263
+        },
+        {
+          "source_fid": 971,
+          "restored_geometry": true,
+          "outside_area_m2": 26.49808885992934
+        },
+        {
+          "source_fid": 989,
+          "restored_geometry": true,
+          "outside_area_m2": 7.842992205791006
+        },
+        {
+          "source_fid": 1032,
+          "restored_geometry": true,
+          "outside_area_m2": 0.22632291179547792
+        },
+        {
+          "source_fid": 1041,
+          "restored_geometry": true,
+          "outside_area_m2": 1142.8115524655368
+        }
+      ]
+    },
+    {
+      "dataset": "D238_proposal_buildings",
+      "records_before": 1069,
+      "records_after": 1069,
+      "geometry_restored": 15,
+      "boundary_intersecting_buildings": 15,
+      "boundary_records": [
+        {
+          "source_fid": 218,
+          "restored_geometry": true,
+          "outside_area_m2": 136.89830689886458
+        },
+        {
+          "source_fid": 383,
+          "restored_geometry": true,
+          "outside_area_m2": 12.525982545310399
+        },
+        {
+          "source_fid": 431,
+          "restored_geometry": true,
+          "outside_area_m2": 229.28406464797445
+        },
+        {
+          "source_fid": 482,
+          "restored_geometry": true,
+          "outside_area_m2": 55.31994070303881
+        },
+        {
+          "source_fid": 525,
+          "restored_geometry": true,
+          "outside_area_m2": 19.68800518527007
+        },
+        {
+          "source_fid": 714,
+          "restored_geometry": true,
+          "outside_area_m2": 9.83724965386267
+        },
+        {
+          "source_fid": 755,
+          "restored_geometry": true,
+          "outside_area_m2": 6.0440222930956224
+        },
+        {
+          "source_fid": 776,
+          "restored_geometry": true,
+          "outside_area_m2": 2.6770485818435645
+        },
+        {
+          "source_fid": 793,
+          "restored_geometry": true,
+          "outside_area_m2": 5060.240906252924
+        },
+        {
+          "source_fid": 823,
+          "restored_geometry": true,
+          "outside_area_m2": 69.42399946338492
+        },
+        {
+          "source_fid": 845,
+          "restored_geometry": true,
+          "outside_area_m2": 3.5138847023554263
+        },
+        {
+          "source_fid": 971,
+          "restored_geometry": true,
+          "outside_area_m2": 26.49808885992934
+        },
+        {
+          "source_fid": 989,
+          "restored_geometry": true,
+          "outside_area_m2": 7.842992205791006
+        },
+        {
+          "source_fid": 1032,
+          "restored_geometry": true,
+          "outside_area_m2": 0.22632291179547792
+        },
+        {
+          "source_fid": 1041,
+          "restored_geometry": true,
+          "outside_area_m2": 1142.8115524655368
+        }
+      ]
+    }
+  ],
+  "outside_datasets_not_added": [
+    "D025_gsi_buildings",
+    "D028_gsi_buildings"
+  ],
+  "geometry_restored_records_across_layers": 436
+}

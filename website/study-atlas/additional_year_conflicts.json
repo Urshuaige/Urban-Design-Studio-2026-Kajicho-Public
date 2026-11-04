@@ -1,0 +1,16 @@
+[
+  {
+    "source_fid": 715,
+    "name": "神田富山町ビル",
+    "years": [
+      1992,
+      1993
+    ],
+    "source_urls": [
+      "https://www.livex-inc.com/search/detail/facility_index.php?id=37241",
+      "https://tokyo.kashi-jimusho.com/detail/4797/"
+    ],
+    "checked": "2026-10-28",
+    "note": "Same named 8F building at 神田富山町24: Livex reports November1992, SAN-ESU reports1993. No primary completion record found; retain both records and no single year."
+  }
+]

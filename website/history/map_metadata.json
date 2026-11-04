@@ -1,0 +1,2628 @@
+{
+  "bbox_wgs84": [
+    139.7658,
+    35.6849,
+    139.7806,
+    35.6981
+  ],
+  "tile_crs": "EPSG:3857",
+  "source_overlay_crs": "EPSG:4326",
+  "original_project_crs": "EPSG:6677",
+  "z": 17,
+  "pixel_size": [
+    1379,
+    1515
+  ],
+  "ground_pixel_m_at_center": 0.9699979373690368,
+  "source_boundary": "official Figure5 contemporary reference, RMSE7.43m; 25m screening band",
+  "image_date_rule": "historical GSI labels are acquisition windows, not exact site capture dates; 2019 is fiscal-year layer",
+  "tiles": [
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116423,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116423/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116423-51605.png",
+      "bytes": 72726,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116423,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116423/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116423-51606.png",
+      "bytes": 63399,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116423,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116423/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116423-51607.png",
+      "bytes": 73082,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116423,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116423/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116423-51608.png",
+      "bytes": 80397,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116423,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116423/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116423-51609.png",
+      "bytes": 79500,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116423,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116423/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116423-51610.png",
+      "bytes": 78048,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116423,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116423/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116423-51611.png",
+      "bytes": 72027,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116424,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116424/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116424-51605.png",
+      "bytes": 73912,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116424,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116424/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116424-51606.png",
+      "bytes": 55116,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116424,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116424/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116424-51607.png",
+      "bytes": 80702,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116424,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116424/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116424-51608.png",
+      "bytes": 79857,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116424,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116424/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116424-51609.png",
+      "bytes": 81576,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116424,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116424/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116424-51610.png",
+      "bytes": 81761,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116424,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116424/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116424-51611.png",
+      "bytes": 76544,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116425,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116425/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116425-51605.png",
+      "bytes": 76195,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116425,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116425/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116425-51606.png",
+      "bytes": 71536,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116425,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116425/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116425-51607.png",
+      "bytes": 82280,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116425,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116425/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116425-51608.png",
+      "bytes": 81205,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116425,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116425/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116425-51609.png",
+      "bytes": 81200,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116425,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116425/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116425-51610.png",
+      "bytes": 82109,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116425,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116425/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116425-51611.png",
+      "bytes": 80371,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116426,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116426/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116426-51605.png",
+      "bytes": 55536,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116426,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116426/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116426-51606.png",
+      "bytes": 61118,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116426,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116426/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116426-51607.png",
+      "bytes": 84040,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116426,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116426/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116426-51608.png",
+      "bytes": 84367,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116426,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116426/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116426-51609.png",
+      "bytes": 83650,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116426,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116426/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116426-51610.png",
+      "bytes": 84954,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116426,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116426/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116426-51611.png",
+      "bytes": 84159,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116427,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116427/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116427-51605.png",
+      "bytes": 81561,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116427,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116427/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116427-51606.png",
+      "bytes": 72444,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116427,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116427/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116427-51607.png",
+      "bytes": 85017,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116427,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116427/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116427-51608.png",
+      "bytes": 85784,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116427,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116427/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116427-51609.png",
+      "bytes": 86137,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116427,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116427/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116427-51610.png",
+      "bytes": 86037,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116427,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116427/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116427-51611.png",
+      "bytes": 85695,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116428,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116428/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116428-51605.png",
+      "bytes": 73584,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116428,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116428/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116428-51606.png",
+      "bytes": 79603,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116428,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116428/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116428-51607.png",
+      "bytes": 87029,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116428,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116428/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116428-51608.png",
+      "bytes": 87357,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116428,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116428/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116428-51609.png",
+      "bytes": 85186,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116428,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116428/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116428-51610.png",
+      "bytes": 85662,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_riku10",
+      "z": 17,
+      "x": 116428,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/17/116428/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_riku10/17-116428-51611.png",
+      "bytes": 85650,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116423,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116423/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116423-51605.png",
+      "bytes": 82170,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116423,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116423/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116423-51606.png",
+      "bytes": 89397,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116423,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116423/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116423-51607.png",
+      "bytes": 87980,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116423,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116423/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116423-51608.png",
+      "bytes": 85999,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116423,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116423/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116423-51609.png",
+      "bytes": 86290,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116423,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116423/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116423-51610.png",
+      "bytes": 81608,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116423,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116423/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116423-51611.png",
+      "bytes": 82483,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116424,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116424/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116424-51605.png",
+      "bytes": 76414,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116424,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116424/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116424-51606.png",
+      "bytes": 87060,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116424,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116424/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116424-51607.png",
+      "bytes": 88879,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116424,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116424/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116424-51608.png",
+      "bytes": 88035,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116424,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116424/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116424-51609.png",
+      "bytes": 88223,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116424,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116424/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116424-51610.png",
+      "bytes": 86728,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116424,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116424/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116424-51611.png",
+      "bytes": 88266,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116425,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116425/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116425-51605.png",
+      "bytes": 73916,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116425,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116425/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116425-51606.png",
+      "bytes": 84535,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116425,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116425/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116425-51607.png",
+      "bytes": 88492,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116425,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116425/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116425-51608.png",
+      "bytes": 87916,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116425,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116425/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116425-51609.png",
+      "bytes": 87775,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116425,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116425/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116425-51610.png",
+      "bytes": 87514,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116425,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116425/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116425-51611.png",
+      "bytes": 84332,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116426,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116426/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116426-51605.png",
+      "bytes": 80084,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116426,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116426/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116426-51606.png",
+      "bytes": 80626,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116426,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116426/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116426-51607.png",
+      "bytes": 84295,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116426,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116426/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116426-51608.png",
+      "bytes": 85494,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116426,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116426/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116426-51609.png",
+      "bytes": 88055,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116426,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116426/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116426-51610.png",
+      "bytes": 87756,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116426,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116426/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116426-51611.png",
+      "bytes": 85539,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116427,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116427/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116427-51605.png",
+      "bytes": 81734,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116427,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116427/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116427-51606.png",
+      "bytes": 78058,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116427,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116427/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116427-51607.png",
+      "bytes": 85496,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116427,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116427/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116427-51608.png",
+      "bytes": 85205,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116427,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116427/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116427-51609.png",
+      "bytes": 88254,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116427,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116427/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116427-51610.png",
+      "bytes": 87721,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116427,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116427/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116427-51611.png",
+      "bytes": 84471,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116428,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116428/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116428-51605.png",
+      "bytes": 86100,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116428,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116428/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116428-51606.png",
+      "bytes": 81665,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116428,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116428/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116428-51607.png",
+      "bytes": 85344,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116428,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116428/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116428-51608.png",
+      "bytes": 86856,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116428,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116428/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116428-51609.png",
+      "bytes": 84783,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116428,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116428/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116428-51610.png",
+      "bytes": 88345,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_USA10",
+      "z": 17,
+      "x": 116428,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/17/116428/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_USA10/17-116428-51611.png",
+      "bytes": 87165,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116423,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116423/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116423-51605.png",
+      "bytes": 86608,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116423,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116423/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116423-51606.png",
+      "bytes": 89648,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116423,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116423/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116423-51607.png",
+      "bytes": 89723,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116423,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116423/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116423-51608.png",
+      "bytes": 89104,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116423,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116423/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116423-51609.png",
+      "bytes": 86757,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116423,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116423/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116423-51610.png",
+      "bytes": 83106,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116423,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116423/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116423-51611.png",
+      "bytes": 81602,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116424,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116424/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116424-51605.png",
+      "bytes": 86940,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116424,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116424/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116424-51606.png",
+      "bytes": 87408,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116424,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116424/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116424-51607.png",
+      "bytes": 89177,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116424,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116424/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116424-51608.png",
+      "bytes": 88870,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116424,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116424/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116424-51609.png",
+      "bytes": 88023,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116424,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116424/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116424-51610.png",
+      "bytes": 84815,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116424,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116424/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116424-51611.png",
+      "bytes": 83728,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116425,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116425/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116425-51605.png",
+      "bytes": 85015,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116425,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116425/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116425-51606.png",
+      "bytes": 84559,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116425,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116425/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116425-51607.png",
+      "bytes": 88427,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116425,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116425/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116425-51608.png",
+      "bytes": 88454,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116425,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116425/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116425-51609.png",
+      "bytes": 89187,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116425,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116425/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116425-51610.png",
+      "bytes": 85917,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116425,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116425/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116425-51611.png",
+      "bytes": 84825,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116426,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116426/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116426-51605.png",
+      "bytes": 84803,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116426,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116426/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116426-51606.png",
+      "bytes": 81672,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116426,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116426/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116426-51607.png",
+      "bytes": 88911,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116426,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116426/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116426-51608.png",
+      "bytes": 89657,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116426,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116426/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116426-51609.png",
+      "bytes": 89141,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116426,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116426/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116426-51610.png",
+      "bytes": 89735,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116426,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116426/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116426-51611.png",
+      "bytes": 87534,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116427,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116427/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116427-51605.png",
+      "bytes": 87330,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116427,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116427/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116427-51606.png",
+      "bytes": 81069,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116427,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116427/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116427-51607.png",
+      "bytes": 89339,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116427,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116427/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116427-51608.png",
+      "bytes": 88728,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116427,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116427/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116427-51609.png",
+      "bytes": 88698,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116427,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116427/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116427-51610.png",
+      "bytes": 87787,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116427,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116427/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116427-51611.png",
+      "bytes": 85641,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116428,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116428/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116428-51605.png",
+      "bytes": 88250,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116428,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116428/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116428-51606.png",
+      "bytes": 82484,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116428,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116428/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116428-51607.png",
+      "bytes": 89213,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116428,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116428/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116428-51608.png",
+      "bytes": 89990,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116428,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116428/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116428-51609.png",
+      "bytes": 88639,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116428,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116428/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116428-51610.png",
+      "bytes": 88071,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "ort_old10",
+      "z": 17,
+      "x": 116428,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/ort_old10/17/116428/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/ort_old10/17-116428-51611.png",
+      "bytes": 85847,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116423,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116423/51605.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116423-51605.jpg",
+      "bytes": 16861,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116423,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116423/51606.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116423-51606.jpg",
+      "bytes": 18815,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116423,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116423/51607.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116423-51607.jpg",
+      "bytes": 18191,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116423,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116423/51608.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116423-51608.jpg",
+      "bytes": 22197,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116423,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116423/51609.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116423-51609.jpg",
+      "bytes": 19264,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116423,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116423/51610.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116423-51610.jpg",
+      "bytes": 18032,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116423,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116423/51611.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116423-51611.jpg",
+      "bytes": 17837,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116424,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116424/51605.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116424-51605.jpg",
+      "bytes": 17568,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116424,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116424/51606.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116424-51606.jpg",
+      "bytes": 18153,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116424,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116424/51607.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116424-51607.jpg",
+      "bytes": 19230,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116424,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116424/51608.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116424-51608.jpg",
+      "bytes": 22298,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116424,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116424/51609.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116424-51609.jpg",
+      "bytes": 22100,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116424,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116424/51610.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116424-51610.jpg",
+      "bytes": 20770,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116424,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116424/51611.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116424-51611.jpg",
+      "bytes": 16753,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116425,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116425/51605.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116425-51605.jpg",
+      "bytes": 17141,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116425,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116425/51606.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116425-51606.jpg",
+      "bytes": 16900,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116425,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116425/51607.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116425-51607.jpg",
+      "bytes": 18607,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116425,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116425/51608.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116425-51608.jpg",
+      "bytes": 22246,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116425,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116425/51609.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116425-51609.jpg",
+      "bytes": 21348,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116425,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116425/51610.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116425-51610.jpg",
+      "bytes": 19681,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116425,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116425/51611.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116425-51611.jpg",
+      "bytes": 19143,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116426,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116426/51605.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116426-51605.jpg",
+      "bytes": 16812,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116426,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116426/51606.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116426-51606.jpg",
+      "bytes": 16081,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116426,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116426/51607.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116426-51607.jpg",
+      "bytes": 19667,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116426,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116426/51608.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116426-51608.jpg",
+      "bytes": 21987,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116426,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116426/51609.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116426-51609.jpg",
+      "bytes": 21360,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116426,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116426/51610.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116426-51610.jpg",
+      "bytes": 20259,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116426,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116426/51611.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116426-51611.jpg",
+      "bytes": 20832,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116427,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116427/51605.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116427-51605.jpg",
+      "bytes": 18544,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116427,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116427/51606.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116427-51606.jpg",
+      "bytes": 17100,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116427,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116427/51607.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116427-51607.jpg",
+      "bytes": 19895,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116427,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116427/51608.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116427-51608.jpg",
+      "bytes": 22250,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116427,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116427/51609.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116427-51609.jpg",
+      "bytes": 21292,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116427,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116427/51610.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116427-51610.jpg",
+      "bytes": 21166,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116427,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116427/51611.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116427-51611.jpg",
+      "bytes": 20339,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116428,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116428/51605.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116428-51605.jpg",
+      "bytes": 17897,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116428,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116428/51606.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116428-51606.jpg",
+      "bytes": 17428,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116428,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116428/51607.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116428-51607.jpg",
+      "bytes": 21454,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116428,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116428/51608.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116428-51608.jpg",
+      "bytes": 23402,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116428,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116428/51609.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116428-51609.jpg",
+      "bytes": 21661,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116428,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116428/51610.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116428-51610.jpg",
+      "bytes": 21206,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo1",
+      "z": 17,
+      "x": 116428,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo1/17/116428/51611.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo1/17-116428-51611.jpg",
+      "bytes": 20371,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116423,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116423/51605.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116423-51605.jpg",
+      "bytes": 15253,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116423,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116423/51606.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116423-51606.jpg",
+      "bytes": 17515,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116423,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116423/51607.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116423-51607.jpg",
+      "bytes": 16754,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116423,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116423/51608.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116423-51608.jpg",
+      "bytes": 16435,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116423,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116423/51609.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116423-51609.jpg",
+      "bytes": 15323,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116423,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116423/51610.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116423-51610.jpg",
+      "bytes": 14336,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116423,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116423/51611.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116423-51611.jpg",
+      "bytes": 14338,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116424,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116424/51605.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116424-51605.jpg",
+      "bytes": 16385,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116424,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116424/51606.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116424-51606.jpg",
+      "bytes": 17010,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116424,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116424/51607.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116424-51607.jpg",
+      "bytes": 17527,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116424,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116424/51608.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116424-51608.jpg",
+      "bytes": 17427,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116424,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116424/51609.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116424-51609.jpg",
+      "bytes": 16994,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116424,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116424/51610.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116424-51610.jpg",
+      "bytes": 16199,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116424,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116424/51611.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116424-51611.jpg",
+      "bytes": 13832,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116425,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116425/51605.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116425-51605.jpg",
+      "bytes": 15161,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116425,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116425/51606.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116425-51606.jpg",
+      "bytes": 16135,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116425,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116425/51607.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116425-51607.jpg",
+      "bytes": 17247,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116425,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116425/51608.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116425-51608.jpg",
+      "bytes": 17128,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116425,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116425/51609.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116425-51609.jpg",
+      "bytes": 17302,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116425,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116425/51610.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116425-51610.jpg",
+      "bytes": 17073,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116425,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116425/51611.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116425-51611.jpg",
+      "bytes": 15426,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116426,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116426/51605.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116426-51605.jpg",
+      "bytes": 15156,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116426,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116426/51606.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116426-51606.jpg",
+      "bytes": 15257,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116426,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116426/51607.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116426-51607.jpg",
+      "bytes": 16766,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116426,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116426/51608.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116426-51608.jpg",
+      "bytes": 17187,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116426,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116426/51609.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116426-51609.jpg",
+      "bytes": 16917,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116426,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116426/51610.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116426-51610.jpg",
+      "bytes": 17735,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116426,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116426/51611.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116426-51611.jpg",
+      "bytes": 17442,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116427,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116427/51605.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116427-51605.jpg",
+      "bytes": 17475,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116427,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116427/51606.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116427-51606.jpg",
+      "bytes": 16138,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116427,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116427/51607.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116427-51607.jpg",
+      "bytes": 17988,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116427,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116427/51608.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116427-51608.jpg",
+      "bytes": 17675,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116427,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116427/51609.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116427-51609.jpg",
+      "bytes": 17522,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116427,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116427/51610.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116427-51610.jpg",
+      "bytes": 17690,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116427,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116427/51611.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116427-51611.jpg",
+      "bytes": 16693,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116428,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116428/51605.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116428-51605.jpg",
+      "bytes": 17214,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116428,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116428/51606.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116428-51606.jpg",
+      "bytes": 16013,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116428,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116428/51607.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116428-51607.jpg",
+      "bytes": 17217,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116428,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116428/51608.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116428-51608.jpg",
+      "bytes": 17818,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116428,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116428/51609.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116428-51609.jpg",
+      "bytes": 17767,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116428,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116428/51610.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116428-51610.jpg",
+      "bytes": 17888,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "gazo4",
+      "z": 17,
+      "x": 116428,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/gazo4/17/116428/51611.jpg",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/gazo4/17-116428-51611.jpg",
+      "bytes": 17674,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116423,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116423/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116423-51605.png",
+      "bytes": 157567,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116423,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116423/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116423-51606.png",
+      "bytes": 168043,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116423,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116423/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116423-51607.png",
+      "bytes": 158357,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116423,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116423/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116423-51608.png",
+      "bytes": 154088,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116423,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116423/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116423-51609.png",
+      "bytes": 152813,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116423,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116423/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116423-51610.png",
+      "bytes": 147262,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116423,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116423/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116423-51611.png",
+      "bytes": 146522,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116424,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116424/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116424-51605.png",
+      "bytes": 154579,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116424,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116424/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116424-51606.png",
+      "bytes": 163185,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116424,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116424/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116424-51607.png",
+      "bytes": 164671,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116424,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116424/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116424-51608.png",
+      "bytes": 158711,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116424,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116424/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116424-51609.png",
+      "bytes": 156644,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116424,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116424/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116424-51610.png",
+      "bytes": 153087,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116424,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116424/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116424-51611.png",
+      "bytes": 145488,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116425,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116425/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116425-51605.png",
+      "bytes": 139617,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116425,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116425/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116425-51606.png",
+      "bytes": 145171,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116425,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116425/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116425-51607.png",
+      "bytes": 157336,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116425,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116425/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116425-51608.png",
+      "bytes": 158735,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116425,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116425/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116425-51609.png",
+      "bytes": 166135,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116425,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116425/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116425-51610.png",
+      "bytes": 154596,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116425,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116425/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116425-51611.png",
+      "bytes": 150211,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116426,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116426/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116426-51605.png",
+      "bytes": 142636,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116426,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116426/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116426-51606.png",
+      "bytes": 140703,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116426,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116426/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116426-51607.png",
+      "bytes": 158703,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116426,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116426/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116426-51608.png",
+      "bytes": 163800,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116426,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116426/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116426-51609.png",
+      "bytes": 165133,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116426,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116426/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116426-51610.png",
+      "bytes": 163767,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116426,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116426/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116426-51611.png",
+      "bytes": 159739,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116427,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116427/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116427-51605.png",
+      "bytes": 145030,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116427,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116427/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116427-51606.png",
+      "bytes": 145297,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116427,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116427/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116427-51607.png",
+      "bytes": 167309,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116427,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116427/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116427-51608.png",
+      "bytes": 170105,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116427,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116427/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116427-51609.png",
+      "bytes": 170820,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116427,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116427/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116427-51610.png",
+      "bytes": 160898,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116427,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116427/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116427-51611.png",
+      "bytes": 162707,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116428,
+      "y": 51605,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116428/51605.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116428-51605.png",
+      "bytes": 149515,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116428,
+      "y": 51606,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116428/51606.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116428-51606.png",
+      "bytes": 143010,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116428,
+      "y": 51607,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116428/51607.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116428-51607.png",
+      "bytes": 171544,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116428,
+      "y": 51608,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116428/51608.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116428-51608.png",
+      "bytes": 178230,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116428,
+      "y": 51609,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116428/51609.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116428-51609.png",
+      "bytes": 173367,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116428,
+      "y": 51610,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116428/51610.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116428-51610.png",
+      "bytes": 172945,
+      "download_date": "2026-10-24"
+    },
+    {
+      "layer": "nendophoto2019",
+      "z": 17,
+      "x": 116428,
+      "y": 51611,
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/nendophoto2019/17/116428/51611.png",
+      "file": "04_Data/Raw/History_2026-10-24/tiles/nendophoto2019/17-116428-51611.png",
+      "bytes": 172789,
+      "download_date": "2026-10-24"
+    }
+  ],
+  "edo": {
+    "url": "https://archive.library.metro.tokyo.lg.jp/da/detail?tilcod=0000000013-00042247",
+    "download_url": "https://archive.library.metro.tokyo.lg.jp/da/download/?id=0000000013-00042247&size=view&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0421-005a.jpg",
+    "year_original": 1850,
+    "year_reprint": 1859,
+    "crs": null,
+    "georeferenced": false,
+    "rights": "public domain; Tokyo Metropolitan Library attribution"
+  },
+  "anchors": {
+    "crs": "EPSG:4326",
+    "method": "Authored present-day reference locations for field reading, not surveyed historical entrances or channel geometry",
+    "items": [
+      {
+        "id": 1,
+        "point": [
+          139.771,
+          35.6921
+        ],
+        "title": {
+          "en": "Railway & crossings",
+          "zh": "铁路与穿越",
+          "ja": "鉄道と横断"
+        }
+      },
+      {
+        "id": 2,
+        "point": [
+          139.7752,
+          35.6926
+        ],
+        "title": {
+          "en": "Wide roads & small streets",
+          "zh": "宽幅道路与小街",
+          "ja": "幹線と細街路"
+        }
+      },
+      {
+        "id": 3,
+        "point": [
+          139.7726,
+          35.6929
+        ],
+        "title": {
+          "en": "Height & density",
+          "zh": "高度与密度",
+          "ja": "高さと密度"
+        }
+      },
+      {
+        "id": 4,
+        "point": [
+          139.772873,
+          35.691048
+        ],
+        "title": {
+          "en": "Trade & building use",
+          "zh": "行业与建筑使用",
+          "ja": "生業と建物用途"
+        }
+      },
+      {
+        "id": 5,
+        "point": [
+          139.7725,
+          35.6881
+        ],
+        "title": {
+          "en": "Lost waterway & ground",
+          "zh": "旧河道与地形",
+          "ja": "旧水路と地形"
+        }
+      },
+      {
+        "id": 6,
+        "point": [
+          139.772247,
+          35.692257
+        ],
+        "title": {
+          "en": "Culture & area care",
+          "zh": "文化与地区维护",
+          "ja": "文化と地域運営"
+        }
+      }
+    ]
+  }
+}

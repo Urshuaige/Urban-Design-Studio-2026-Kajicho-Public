@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-18",
+  "scope": "Assignment-led integrative research review and consistent hierarchical navigation across six Site pages",
+  "review_form": "integrative",
+  "report": "docs/Research_Review_2026-10-18/REPORT.md",
+  "reading_matrix": "docs/Research_Review_2026-10-18/Read_Matrix.md",
+  "source_records": 38,
+  "course_references": 6,
+  "technical_paths": 6,
+  "practice_cases": 8,
+  "site_version": 20,
+  "site_deployment": {
+    "id": "appgdep_6ad483dce46081918a9d8ae8269eded2",
+    "project_id": "appgprj_6ace04f6c3848191b6db1d072ec879fb",
+    "title": "鍛冶町 / Urban Design Studio 2026",
+    "version_id": "appgprj_6ace04f6c3848191b6db1d072ec879fb~appgver_b58855bb7f788191b0744bb1e81c7a61",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://kajicho-wind-heat-carbon-demo.specialgooood.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ace04f6c3848191b6db1d072ec879fb",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-18T08:32:30.128398+00:00"
+  },
+  "site_source": {
+    "project_id": "appgprj_6ace04f6c3848191b6db1d072ec879fb",
+    "checkout_path": "/home/mdxuser/urban_design_studio_2026/boundary_20261016/site",
+    "commit_sha": "e4750e33fa6376aa9e1dbf7e87e4c99ffea187bb",
+    "archive": "/home/mdxuser/urban_design_studio_2026/boundary_20261016/research_site_v20.tar.gz"
+  },
+  "audience": "public; existing policy revision 2 retained",
+  "local_result_copy": false,
+  "local_archive_copy": false,
+  "new_simulations": false,
+  "source_pdfs_copied": false,
+  "baseline_main": "0d810316395cf558b2ebf9b9a47b2ff43116742b",
+  "qa": "docs/Research_Review_2026-10-18/QA_Record.json"
+}

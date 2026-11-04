@@ -1,0 +1,12 @@
+﻿source_field,shp_field,shp_type,dbf_width_bytes,null_bit,storage,source_non_null,source_null,source_max_text_bytes
+__wider_pk,wider_pk,integer,11,0,shp_and_csv,505,0,
+osm_id,osm_id,text,11,1,shp_and_csv,505,0,11
+name,name,text,63,2,shp_and_csv,297,208,63
+category,category,text,30,3,shp_and_csv,505,0,30
+tags_json,,text,,,long_text_csv_only,505,0,2643
+building_asset_id,building_a,text,47,4,shp_and_csv,260,245,47
+match_rule,match_rule,text,45,5,shp_and_csv,505,0,45
+url,url,text,46,6,shp_and_csv,505,0,46
+delivery_source_fid,delivery_s,integer,11,7,shp_and_csv,505,0,
+delivery_geometry,delivery_g,text,12,8,shp_and_csv,505,0,12
+delivery_value_scope,delivery_v,text,66,9,shp_and_csv,505,0,66

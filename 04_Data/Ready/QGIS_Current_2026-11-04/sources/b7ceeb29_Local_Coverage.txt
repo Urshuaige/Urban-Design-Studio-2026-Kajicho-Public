@@ -1,0 +1,9 @@
+# Traffic source coverage
+
+Existing project saved 2026-11-01 14:20 UTC: `06_Outputs/Slides/Development_Review_2026-11-01/Kajicho_Development_Review_2026-11-01.qgz`. Work on isolated copy only; original live project and user styles retained.
+
+Existing `Transport_Extended_Context_2026-11-01.gpkg` supplies named continuous schematic ground-road axes and separate elevated/rail layers. Source retains GSI2026-07-01 and OSM2026-11-01 provenance; approximate divided-road midlines are analysis graphics, not directional routing geometry. No traffic-count field in source. Local search found traffic policy and street-use observations, no usable section-level vehicle counts.
+
+Four MLIT2021 survey sections to match: Showa13300040060 (Chuo-Chiyoda boundary to Yasukuni); Chuo13300170020 (same administrative boundary to Yasukuni); Yasukuni13403020140 (Chuo/R17 to Showa/R4); Edo13300060010 (Showa/R4 eastward to R6 branch). Edo west of Showa must remain uncounted. Numbers are representative assigned section values, observation addresses can be outside the view. Internal streets unknown.
+
+Reference R05 traffic-analysis panel reviewed from previous actual Chinese Xiaohongshu search; use separated modes and clear value labels, no arbitrary volume arrows or decorative distance rings.

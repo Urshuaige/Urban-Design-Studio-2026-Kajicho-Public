@@ -1,0 +1,16 @@
+﻿source_field,shp_field,shp_type,dbf_width_bytes,null_bit,storage,source_non_null,source_null,source_max_text_bytes
+__wider_pk,wider_pk,integer,11,0,shp_and_csv,641,0,
+osm_id,osm_id,text,10,1,shp_and_csv,641,0,10
+highway,highway,text,13,2,shp_and_csv,641,0,13
+name_ja,name_ja,text,25,3,shp_and_csv,641,0,25
+name_en,name_en,text,24,4,shp_and_csv,641,0,24
+service,service,text,13,5,shp_and_csv,641,0,13
+access,access,text,6,6,shp_and_csv,641,0,6
+bridge,bridge,text,6,7,shp_and_csv,641,0,6
+tunnel,tunnel,text,16,8,shp_and_csv,641,0,16
+level,level,text,6,9,shp_and_csv,641,0,6
+boundary_eligible,boundary_e,integer,11,10,shp_and_csv,641,0,
+source_date,source_dt,text,10,11,shp_and_csv,641,0,10
+delivery_source_fid,delivery_s,integer,11,12,shp_and_csv,641,0,
+delivery_geometry,delivery_g,text,16,13,shp_and_csv,641,0,16
+delivery_value_scope,delivery_v,text,66,14,shp_and_csv,641,0,66

@@ -1,0 +1,74 @@
+# Green, wind and shade: methods and findings
+
+Completed on 2 November 2026 on the user-selected host mdx1. The wider study area around Kajicho covers 42.44 ha. Its coordinate system is JGD2011 / Japan Plane Rectangular CS IX, EPSG:6677.
+
+This study uses recorded green space, summer winds, building obstruction and geometric shadows to replace the earlier floor-area-only cooling screen in a new project. Existing population, employment and floor-area values remain unchanged. The results guide field checks and design discussion. They do not estimate electricity use, cooling load, air temperature or street-level wind speed.
+
+## Findings for slides
+
+Summer winds mainly come from SE to S. Southeast, south-southeast and south account for 70.6% of valid noncalm summer daytime observations. Their share is 75.2% during daytime hours at or above 30°C. Street and open-space connections facing these directions deserve attention.
+
+Midday building shade is limited. Geometric building shadows on 21 July 2025 cover approximately 59%, 23% and 52% of open ground at 09:00, 12:00 and 15:00 JST. Midday walking routes provide a useful focus for shade checks.
+
+Green records and building obstruction help select field-review locations. Areas with little recorded green and greater frontal building obstruction are candidates for review. Missing green records do not establish an absence of vegetation.
+
+## Processing
+
+| Input | Processing | Output and meaning |
+|---|---|---|
+| Official Tokyo tree records and planted-green polygons from public facilities and development projects | Represent measured crown spread as a circle with radius equal to half the spread. Union crowns and planted-green polygons without double counting. Do not treat entire park boundaries as planted cover | Recorded green, retaining vector boundaries |
+| PLATEAU buildings and the project's reviewed building stock | Merge and deduplicate surrounding buildings. Rasterize heights at 2 m. For 14 buildings with missing heights, use storeys ×3.3 m | A context of 3,535 buildings for obstruction and shadows |
+| JMA Tokyo hourly observations for 2025 | Select June–August and 09:00–17:59. Retain normal-quality wind records. Exclude calm observations from 16-direction frequencies | Summer background wind frequencies, not pedestrian-level wind speed |
+| Building heights and wind frequencies | Apply the UMEP point morphology method over a 100 m neighborhood, 16 directions and five slightly shifted sample positions. Weight directional frontal-area indices by wind frequency | Frontal area index (FAI), a relative measure of building area facing the wind |
+| The 2 m building raster and solar position | Use pvlib solar geometry and UMEP shadows on flat ground at 09:00, 12:00 and 15:00 JST on 21 July 2025 | Three building-shadow snapshots, excluding trees and clouds |
+| Recorded green and FAI on open ground | Select recorded cover below 1% and FAI in the upper area-weighted third | A transparent screen for field review |
+
+The main output grid is 10 m, with a 5 m comparison. Buildings and green features retain their vector geometry. Open-ground maps exclude building footprints. Grid spacing, neighborhood size and raster resolution serve different purposes: 10 m is the output interval, 100 m is the surrounding area used for wind morphology, and 2 m is the building-shadow raster. The study does not claim a validated 5 m wind-speed field.
+
+## Google Maps imagery
+
+Visible Google Maps satellite views were cropped with attribution retained and georeferenced as `Google_Visual_Reference.tif`. The reference covers 99.81% of the study area. Its output sampling is 0.5 m. This is raster spacing, not verified native sensor resolution. Capture date is unverified, and the copyright year is not an acquisition date. The raster is a switchable reference layer in QGIS.
+
+The Google views show clearer building and crown detail, but deep shadows, seasonal leaf color, green roofs and sports courts complicate color classification. RGB thresholds produced false positives and unstable results. The automatic vegetation mask was therefore not adopted. Quantitative maps use official records, with Google imagery for visual review. This is not a complete remote-sensing vegetation inventory.
+
+## Results and sensitivity
+
+- The study area contains 125 official tree points. Of these, 91 have usable crown-spread values. No crowns were invented for the remaining 34.
+- The union of recorded green covers 5,426.7 m², or 1.279% of the entire study area. Its intersection with open ground covers 3,810.5 m², or 1.434% of open ground. These use different denominators and both describe incomplete recorded cover. Changing crown width by ±20% gives whole-area coverage of 1.182%–1.395%.
+- There are 4,424 cells at 10 m and 17,310 cells at 5 m. Of these, 4,217 and 14,595 contain at least 1 m² of open ground. Tiny patches without a raster-center sample retain NULL shadow values.
+- After aggregating 5 m FAI to the same 10 m support using open-ground area weights, rank correlation is 0.979. The candidate-area intersection-over-union is 0.747. The broad pattern is stable, while local boundaries vary with grid size.
+- FAI rank correlations for 50 m and 150 m neighborhoods against 100 m are 0.819 and 0.792. Neighborhood choice affects the ranking more than changing output spacing from 10 m to 5 m.
+- The 10 m candidate area is approximately 8.38 ha, or 31.53% of open ground. Since the obstruction threshold already selects an upper third, this share is not an independently observed risk rate.
+- Building morphology excludes aerodynamic drag from trees. Higher FAI does not establish lower wind speed. Three geometric shadow snapshots do not represent daily shade duration or cooling magnitude.
+
+## Sources, dates and licenses
+
+Downloads and screenshots date to 2 November 2026. Existing project inputs retain their original versions and hashes.
+
+| Source | Data date and spatial unit | Use and license record |
+|---|---|---|
+| [Tokyo green open data](https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024) and [source-date list](https://data.storage.data.metro.tokyo.lg.jp/toshiseibi/green_filelist.pdf) | Release dated 2 February 2026. Chiyoda and selected other ward-managed tree records use FY2020 surveys. Tree rows and parks reference 1 April 2024. Facility/development green dates vary. Points, lines and polygons | CC BY with attribution. Package URLs, sizes and SHA256 hashes are in `../QA/Official_Source_Manifest.json`. These are not uniformly 2026 surveys |
+| [PLATEAU](https://www.mlit.go.jp/plateau/) and reviewed project buildings | Building objects and October 2026 project review | Original source and license records are retained. Additional context supplies building heights without modifying official sources |
+| [JMA observations](https://www.data.jma.go.jp/risk/obsdl/index.php) | Tokyo station, hourly, 2025 | JMA attribution retained. There are 827 valid summer daytime hours and 501 hot daytime hours |
+| [Google Maps](https://maps.google.com/) and [attribution guidance](https://about.google/brand-resource-center/products-and-services/geo-guidelines/) | Capture date unknown. Visible satellite views captured on 2 November 2026 | Attributed screenshot reference, not an openly licensed remote-sensing product. View URLs, crop bounds and mosaic QA are retained |
+| [UMEP point morphology](https://umep-docs.readthedocs.io/en/latest/pre-processor/Urban%20Morphology%20Morphometric%20Calculator%20(Point).html) | Commit `0a4b7f97391ac1b9188ee49aa76f078bb3d389de` | GPL, retained in `../work/LICENSE`. GUI dependencies were removed and an empty-height guard added. Core morphology calculations remain unchanged |
+
+Earlier RGB exploration with GSI 2019 imagery and the PLATEAU 2023 imagery product remains as QA evidence. Product year and capture year are separate. The GeoPackage retains `cells_50m` and `visible_vegetation` as superseded exploratory layers. They are not loaded by the final analysis project. Adopted results use `cells_10m/5m`, `open_ground_10m/5m` and `recorded_green_*`.
+
+## Files and reproduction
+
+- `../Kajicho_Green_Wind_Shade_2026-11-02.qgz` contains 32 valid layers. The old floor-only Cooling layout was replaced only in this new copy. Resident and worker layouts remain, alongside four Green, Wind, Cooling-screen and Shade layouts.
+- `../data/Vegetation_Wind.gpkg` contains the analysis layers. The Google reference, building heights and shadow GeoTIFFs are in the same data folder. Paths are relative, with some existing basemaps in adjacent project folders. Preserve the shared folder tree when moving the project. No standalone ZIP was created.
+- `../maps/` contains four full-layout PNGs, four map-only PNGs and the summer wind rose. QGIS retains editable map sources. The original Figma analysis slides used native text, legends, scale bars and shade bars.
+- The live QGIS session received the results without overwriting its original filename or unsaved edits. The separate results project was saved.
+- The environment is `mdx1:/home/mdxuser/kajicho_vegetation_wind_20261102/.venv`. Scripts, hashes, versions and the SSH ledger are in `../work/` and `../QA/`. The main sequence is acquire → extract_context → analyze → finalize → refine_grid → google_reference → render_qgis/export_qgis. Finalize and refine_grid replace the early exploratory results.
+- Fine-grid morphology processed 30,582 independent units with 66 CPU workers in 84.94 seconds. Available host capacity was inspected before launch. These methods did not use GPUs.
+- Checks covered GeoPackage integrity, grid counts, relative paths, layer validity, small wind/shadow examples, scale sensitivity and exported maps.
+
+## Presentation revision
+
+The revised environmental slide shows recorded green, summer building obstruction and noon shade in separate panels. Each panel uses the original `01 Building age` QGIS layout, including its legend style, scale bar, north arrow and study boundaries. The grid colors are translucent. Buildings have thin black outlines and no thematic fill. Only one environmental variable is shown in each panel. This is a display revision, with no changes to calculated values.
+
+Revised maps and the combined QGIS project are in `../../Energy_Environment_English_2026-11-02/`. The accompanying energy/carbon slide and this environmental slide provide the two English presentation summaries.
+
+[Open the revised English slide](https://www.figma.com/slides/hh16ci0VeM3JQj2tZFvdbX?node-id=267-2). Map legends, scale bars and north arrows are exported directly from QGIS Layout01. Slide headings, method summaries and source notes remain editable in Figma.

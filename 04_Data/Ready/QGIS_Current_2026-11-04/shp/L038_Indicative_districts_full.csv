@@ -1,0 +1,5 @@
+﻿ROW_ID,__wider_pk,code,program,source_id,status,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,1,A,Station / active mixed use,teacher-nittetsukowa,Indicative proposal for discussion,1,inside_wider,Original source feature or statistical unit; values not recomputed
+2,2,B,Work / local services,teacher-sumitomo,Indicative proposal for discussion,2,inside_wider,Original source feature or statistical unit; values not recomputed
+3,3,C,Community / resilience green,teacher-former-school,Indicative proposal for discussion,3,inside_wider,Original source feature or statistical unit; values not recomputed
+4,4,D,Live-work / incremental renewal,teacher-incremental,Indicative proposal for discussion,4,inside_wider,Original source feature or statistical unit; values not recomputed

@@ -1,0 +1,11 @@
+{
+  "checkpoint": 50,
+  "mesh_unchanged": true,
+  "physical_conditions_unchanged": true,
+  "advection": "second-order linearUpwind with cellLimited gradient",
+  "T_linear_tolerance": 1e-10,
+  "T_linear_relTol": 0.001,
+  "T_outer_residual_target": 1e-08,
+  "reason": "resolve small roof-heat signal against absolute temperature; require heat balance separately",
+  "interpretation": "convergence, thermal balance and sensitivity still pending"
+}

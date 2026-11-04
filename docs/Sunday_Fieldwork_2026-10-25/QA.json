@@ -1,0 +1,35 @@
+{
+  "checked_on": "2026-10-21",
+  "visit_date": "2026-10-25",
+  "browser_qa": {
+    "desktop_width": 1280,
+    "mobile_width": 390,
+    "mobile_scroll_width": 390,
+    "default_language": "en",
+    "languages_checked": [
+      "en",
+      "zh",
+      "ja"
+    ],
+    "map_markers": 9,
+    "route_stops": 5,
+    "contacts": 7,
+    "paired_questions": 8,
+    "source_records": 16,
+    "map_to_watage_sources_and_contacts": "passed",
+    "manual_map_pin_to_coordinates": "passed",
+    "save_browser_draft": "passed",
+    "reload_restores_draft": "passed",
+    "delete_synthetic_test_note": "passed",
+    "synthetic_test_notes_remaining": 0,
+    "javascript_errors": 0
+  },
+  "existing_checks": [
+    "check_team_repository.py",
+    "check_repository_language.py",
+    "check_portfolio.py",
+    "check_context_study.py"
+  ],
+  "new_simulations": false,
+  "local_result_copies": false
+}

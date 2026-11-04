@@ -1,0 +1,17 @@
+﻿source_field,shp_field,shp_type,dbf_width_bytes,null_bit,storage,source_non_null,source_null,source_max_text_bytes
+__wider_pk,wider_pk,integer,11,0,shp_and_csv,432,0,
+route_id,route_id,text,8,1,shp_and_csv,432,0,8
+seq,seq,integer,11,2,shp_and_csv,432,0,
+gsi_fid,gsi_fid,integer,11,3,shp_and_csv,432,0,
+tile,tile,text,14,4,shp_and_csv,432,0,14
+feature,feature,text,6,5,shp_and_csv,432,0,6
+data_date,data_date,text,10,6,shp_and_csv,432,0,10
+source_kind,source_kin,text,29,7,shp_and_csv,432,0,29
+road_class,road_class,text,18,8,shp_and_csv,432,0,18
+width_class,width_clas,text,14,9,shp_and_csv,432,0,14
+length_m,length_m,real,20,10,shp_and_csv,432,0,
+source_cover,source_cov,real,20,11,shp_and_csv,432,0,
+source_offset_m,source_off,real,20,12,shp_and_csv,432,0,
+delivery_source_fid,delivery_s,integer,11,13,shp_and_csv,432,0,
+delivery_geometry,delivery_g,text,16,14,shp_and_csv,432,0,16
+delivery_value_scope,delivery_v,text,66,15,shp_and_csv,432,0,66

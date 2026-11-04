@@ -1,0 +1,135 @@
+# Building energy and carbon: methods, findings and fields
+
+Completed on 2 November 2026. The assessment covers 1,067 current buildings whose representative points fall within the wider study area. Every building has a stable ID, an assessment status and a method note. Calculations ran on mdx1. Results are available in the local GeoPackage and QGIS.
+
+## Findings
+
+| Assessed scope | Buildings | Estimated annual primary energy | Estimated annual operational CO₂ |
+|---|---:|---:|---:|
+| Buildings with a total estimate for the stated scope | 967 | 1,728,625 GJ, or approximately 1.73 PJ | 78,945 t |
+| Additional dwelling components in mixed housing/workshop buildings | 13 | 920 GJ | 45 t |
+| Unknown use or unsuitable benchmark | 87 | NULL, pending review | NULL, pending review |
+| Subtotal of all estimated components | — | 1,729,545 GJ | 78,991 t |
+
+The 967 buildings account for 97.18% of modeled floor area. Floor-area coverage is not complete energy coverage. Residential estimates cover household use and omit communal lighting, elevators and other shared services. The subtotal is therefore a modeled scope, not a complete district carbon inventory.
+
+Offices account for approximately 78.7% of the main CO₂ subtotal. The 20 buildings with the highest modeled totals account for approximately 17.2%. They provide a practical starting point for collecting bills, operating schedules and equipment records. Differences mainly reflect size and assigned use. A shared benchmark within each use class cannot identify actual efficiency differences between individual buildings.
+
+## Calculation
+
+For nonresidential space:
+
+`Annual primary energy [GJ] = floor area [m²] × use-specific energy intensity [MJ/(m²·year)] / 1,000`
+
+`Annual CO₂ [t] = floor area [m²] × use-specific CO₂ intensity [kgCO₂/(m²·year)] / 1,000`
+
+The use-specific means come from the [Tokyo FY2023 Energy Card](https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/karte_kubun1_2023), PDF page 2, upper-left tables, printed page 3.
+
+| Use | Primary energy, MJ/(m²·year) | CO₂, kg/(m²·year) |
+|---|---:|---:|
+| Office | 1,614 | 72.7 |
+| Retail and commercial | 2,163 | 104.5 |
+| Hotel | 2,545 | 120.1 |
+| Education | 1,113 | 51.9 |
+| Logistics | 1,172 | 58.4 |
+
+Energy and CO₂ are estimated separately from their corresponding intensities. Primary energy includes upstream energy conversion. Dividing primary MJ by 3.6 does not give building electricity use. The CO₂ result already represents emissions and receives no additional emissions factor.
+
+The Tokyo reference covers large establishments with annual energy use of at least 1,500 kL of crude-oil equivalent. Statistics retain establishments where the dominant use accounts for at least 80% of qualifying floor area and exclude statistical outliers. Applying these values to smaller buildings is a transfer of use-based benchmarks.
+
+FY2023 is the activity year. Publication was on 30 January 2026, and local retrieval was on 2 November 2026. The [supporting method document](https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/hosoku_2023) retains the reporting system's emissions factors and environmental-value adjustments. This study preserves that basis. It does not represent each building's actual 2026 electricity contract.
+
+### Residential space
+
+Expected household counts use the existing complete-town register totals and residential floor-area weights:
+
+`Expected households = registered households in the complete town × building residential weight / total residential weight in the complete town`
+
+Continuous expectations prevent small buildings rounded to zero in the earlier integer allocation from appearing vacant. They are model expectations, not observations of fractional households. The wider area contains 2,193.23 expected households. The previous allocation of 2,192 integer households remains unchanged. Complete-town denominators, current geometry and previous population/employment values are preserved.
+
+The Ministry of the Environment's [FY2023 Kanto-Koshin household energy survey](https://www.env.go.jp/earth/ondanka/kateico2tokei/energy/detail/01/) and [household CO₂ results](https://www.env.go.jp/earth/ondanka/kateico2tokei/co2/detail/02/) supply these annual means:
+
+| Item | Per household per year |
+|---|---:|
+| Electricity | 3,600 kWh |
+| City gas | 8.86 GJ |
+| LPG | 2.02 GJ |
+| Kerosene | 2.27 GJ |
+| Published final-energy total | 26.12 GJ |
+| CO₂ | 2.38 t |
+
+The published final-energy total differs from the rounded component sum by 0.01 GJ. For primary energy, electricity uses the FY2023-compatible day/night-unspecified conversion convention of 9.76 MJ/kWh. This gives 48.286 GJ per household per year. The historical comparison table is retained in `../sources/Tokyo_Primary_Conversion_Reference.pdf`.
+
+These values represent the regional household sample's fuel mix. They do not assert that every building uses every listed fuel. Household results exclude communal services and emissions related to transport, waste and water services. Residential and nonresidential CO₂ retain their source accounting conventions. Their sum is a combined benchmark scenario rather than an audited inventory with one uniform supply mix.
+
+### Mixed uses and missing values
+
+- Housing with shops retains the assumption of one nonresidential ground floor and housing above. A single-storey mixed building uses a 50/50 split. Components are estimated separately and then added.
+- Education/care buildings use the education benchmark and carry `Broad-use proxy`. Medical and care subtypes require review.
+- Transport/storage buildings use the logistics benchmark and carry `Broad-use proxy`. Transport traction energy is excluded.
+- Housing/workshop buildings retain the dwelling component, while the building total remains NULL because workshop activity is unresolved.
+- The 82 Unknown, three Other and two utility buildings receive no forced office benchmark.
+- Floor area mainly equals footprint area multiplied by above-ground storeys. One building uses published gross floor area. Basement space, usable area and operating hours are not invented.
+
+## Sensitivity
+
+These changes are separate scenarios, not a combined confidence interval.
+
+| Changed assumption | Result | Interpretation |
+|---|---|---|
+| Replace nonresidential means with official use-specific lower-quartile references, keeping residential assumptions fixed | 1.419 PJ and 66,899 tCO₂ | A lower-use reference scenario, not a confidence bound or deliverable savings estimate |
+| Apply small/medium owner-occupied office energy references to all 628 offices | Main subtotal becomes approximately 1.382 PJ, compared with 1.729 PJ | Sensitivity to reference year, scale and operating model. CO₂ is not scaled with energy |
+| Apply the tenant-office reference to 245 offices meeting its area threshold | The same subset changes from 1.120 PJ to 1.022 PJ | Comparison uses identical building support |
+| Counterfactually assign the national apartment CO₂ mean of 1.74 t/household to all modeled dwelling households | 77,554 tCO₂ | Includes houses and mixed-use dwellings. It is not a dwelling-type-matched estimate |
+| Change mixed shop/housing buildings to 50/50 and recalculate complete-town household allocation | 1.747 PJ and 79,813 tCO₂ | Sensitivity to mixed-use shares |
+| Change height-derived storey counts by ±1 | Not evaluated: zero eligible buildings with numeric total estimates | All 84 height-derived records have unresolved use. Unchanged totals do not indicate stability |
+
+Small/medium office references come from the [Tokyo March 2025 energy benchmark table](https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/benchmark_range_202503), based on FY2018 activity. The alternative uses the source's upper boundary of band C as a reference value, not a measured site mean. Owner-occupied offices use 1,166.568 MJ/m² below 6,000 m² and 1,352.837 MJ/m² at or above 6,000 m². Tenant offices at or above 1,000 m² use 1,472.488 MJ/m². The source spreadsheet retains all categories and eligibility conditions. No official A–F rating is assigned to a study building.
+
+## QGIS fields
+
+The original results group is `Building energy and CO2 | benchmark estimates | 02 Nov 2026`. Open the attribute table of `Building energy and carbon · all attributes` to inspect individual records. Common fields have aliases and default visible columns.
+
+| Field | Meaning and unit |
+|---|---|
+| `asset_id` | Stable ID linked to the source building |
+| `energy_est_gj_y` | Estimated annual primary energy, GJ/year |
+| `co2_est_t_y` | Estimated annual operational CO₂, t/year |
+| `energy_int_mj_m2_y` | Modeled primary-energy intensity, MJ/(m²·year) |
+| `co2_int_kg_m2_y` | Modeled CO₂ intensity, kg/(m²·year) |
+| `dwelling_elec_kwh_y` | Dwelling electricity scenario, kWh/year. Nonresidential electricity is not inferred |
+| `nonres_*`, `dwelling_*` | Separate nonresidential and dwelling components |
+| `covered_energy_gj_y`, `covered_co2_t_y` | Estimated components, including dwellings in mixed workshop buildings |
+| `assessment_status`, `assessment_scope` | Estimation status and included scope |
+| `benchmark_class`, `benchmark_year` | Assigned reference use and fiscal year |
+| `method_note` | Building-specific assumptions and review needs |
+| `co2_total_rank` | Rank by modeled annual total, not an efficiency rating |
+
+The original four layouts are `EC — Energy / Carbon / Intensity / Coverage`. They share one extent and scale. Existing population, employment and environmental results remain available. The original live QGIS filename and unsaved edits were preserved. The separate results project was saved.
+
+## Files and checks
+
+- `../Kajicho_Building_Energy_Carbon_2026-11-02.qgz` contains 38 valid layers and 10 layouts. Paths are relative to the shared project tree. Some existing basemaps reference adjacent project folders, so this is not a standalone ZIP.
+- `../data/Building_Energy_Carbon.gpkg` contains `building_energy_carbon` in EPSG:6677.
+- `../data/Building_Energy_Carbon.csv` contains all 1,067 records. `Top20_Modeled_CO2.csv` lists priorities for collecting bills. `Summary_By_Use.csv` contains use totals.
+- `../maps/` contains four PNG maps. `../sources/` stores official source snapshots. `../inputs/Benchmarks.json` records the coefficients.
+- `../QA/` stores source/input hashes, calculation checks, independent recomputation, launch capacity and QGIS/map checks. Official original files remain unchanged.
+- Computation ran at `mdx1:/home/mdxuser/kajicho_building_energy_carbon_20261102` using the existing isolated environment. The vector calculation took less than one second. A nullable-boolean array issue in the first execution was repaired, and the same method completed.
+
+Independent recomputation matched all 967 numeric formulas and both aggregate scopes. All 1,067 IDs, floor areas and geometries were preserved. Component sums, NULL handling, nonnegative values, GeoPackage integrity and QGIS rendering passed. Embodied carbon, peak cooling load and quantitative outdoor-to-indoor energy effects are outside this assessment.
+
+## Slide wording
+
+Building use and floor area → annual energy and CO₂ estimates.
+
+Office buildings account for about 79% of modeled operational CO₂.
+
+Footnote: FY2023 use benchmarks applied to current building stock. Estimates, not metered data. Residential communal services and unresolved uses remain outside the subtotal.
+
+Suggested spoken explanation: We estimate annual energy use and operational CO₂ from each building's use and floor area. Residential estimates also use allocated households. Offices account for about 79% of modeled emissions, so large office totals help prioritize bills and equipment surveys. Actual efficiency requires measured consumption.
+
+## Presentation revision
+
+The English slides use the existing `01 Building age` QGIS layout. Its legend styling, scale bar, north arrow, map extent and study boundaries are reused. The energy/carbon slide contains two separate maps and a short calculation explanation. Layout-only revisions do not change the values above. Revised maps and the combined QGIS project are in `../../Energy_Environment_English_2026-11-02/`.
+
+[Open the revised English slide](https://www.figma.com/slides/hh16ci0VeM3JQj2tZFvdbX?node-id=267-48). Map legends, scale bars and north arrows are exported directly from QGIS Layout01. Slide headings, method summaries and source notes remain editable in Figma.

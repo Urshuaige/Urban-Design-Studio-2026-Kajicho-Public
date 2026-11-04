@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "prepared_on": "2026-10-20",
+  "timezone": "Asia/Tokyo",
+  "purpose": "Targeted verification of methods for a planning-only environmental work plan; supplements the 2026-10-18 integrative review",
+  "review_form": "targeted primary-source verification, not a systematic review",
+  "execution": {
+    "new_solver_started": false,
+    "new_mesh_started": false,
+    "new_radiation_started": false,
+    "benchmark_executed": false
+  },
+  "existing_project_read": [
+    {
+      "path": "docs/Research_Review_2026-10-18/REPORT.md",
+      "scope": "Existing review framing, exposure, heat/shade and wind/CFD sections"
+    },
+    {
+      "path": "docs/Research_Review_2026-10-18/Sources.json",
+      "scope": "SOLWEIG, AIJ2008 and COST732 records"
+    },
+    {
+      "path": "docs/Simulation_Scope_Plan_2026-10-18.json",
+      "scope": "Current Figure5 inventory, reuse/rebuild, legacy acceptance, model-domain and proposed checks"
+    },
+    {
+      "path": "docs/Simulation_Scope_Plan_2026-10-18.md",
+      "scope": "Full short plan"
+    }
+  ],
+  "source_records": [
+    {
+      "id": "cost732-2007",
+      "title": "Best Practice Guideline for the CFD Simulation of Flows in the Urban Environment",
+      "authors": "Franke, Hellsten, Schlünzen and Carissimo (editors)",
+      "publication_year": 2007,
+      "official_index": "https://www.mi.uni-hamburg.de/en/arbeitsgruppen/windkanallabor/documents.html",
+      "read_url": "https://www.theairshed.com/wp-content/uploads/2018/03/COST-732-Best-Practice-Guideline-May-2007.pdf",
+      "read_scope": "sections",
+      "locators": [
+        "§1, printed p.5",
+        "§4.4, pp.9–10",
+        "§5.4–5.5, pp.16–18",
+        "§5.8, pp.23–25",
+        "§5.11, p.26"
+      ],
+      "verification": "Original report retrieved in remote memory, parsed with pdftotext; cover/imprint identify COST Office2007, 52 PDFpages. Official university index checked; its linked cloud download fails.",
+      "claims": [
+        "Neutral steadyRANS is the main scope.",
+        "Geometry detail depends on relevance and distance.",
+        "Include context buildings closer than6times their own height to the interest area as an initial criterion; test uncertain distant context.",
+        "Grid selection is problem dependent; initial10cells per cube-root building volume and building separation, followed by refinement.",
+        "Three systematic RANS grids permit discretisation-error estimation when extrapolation assumptions hold.",
+        "Monitor target values and conservation balances with residuals."
+      ],
+      "claim_status": "source-prescriptions with application-dependent scope"
+    },
+    {
+      "id": "aij2008",
+      "title": "AIJ guidelines for practical applications of CFD to pedestrian wind environment around buildings",
+      "authors": "Tominaga et al.",
+      "publication_year": 2008,
+      "doi": "10.1016/j.jweia.2008.02.058",
+      "url": "https://doi.org/10.1016/j.jweia.2008.02.058",
+      "read_url": "https://citeseerx.ist.psu.edu/document?doi=4e42d42348d7235fd996047d028322a00f2ef728&repid=rep1&type=pdf",
+      "read_scope": "abstract_only",
+      "locators": [
+        "p.1749 abstract"
+      ],
+      "claims": [
+        "Guideline built on seven cross-comparison cases involving CFD, wind-tunnel and field evidence."
+      ],
+      "verification": "Indexed original-paper abstract and prior register verified; direct fullPDF timed out. No numeric mesh rule attributed to this unread full text."
+    },
+    {
+      "id": "aij2020",
+      "title": "Guidebook for CFD Predictions of Urban Wind Environment",
+      "authors": "Architectural Institute of Japan",
+      "publication_year": 2020,
+      "isbn": "978-4-8189-2718-6",
+      "url": "https://www.aij.or.jp/jpn/publish/cfdguide/index_e.htm",
+      "read_scope": "official-index passages",
+      "locators": [
+        "Introduction",
+        "Validation Benchmark Tests"
+      ],
+      "claims": [
+        "Expanded Japanese guidebook and benchmark database were published in2020; examples include urban arrays, real districts, trees and non-isothermal/dispersion cases."
+      ],
+      "verification": "Official AIJ indexed page read; live direct page presents bot challenge. Guidebook itself not read. NationalDietLibrary catalog corroborates January2020 publication."
+    },
+    {
+      "id": "aij-les2026",
+      "title": "AIJ guidelines on the applications of large-eddy simulation to pedestrian wind environment: Recommendations and validation benchmarks",
+      "authors": "Okaze, Kikumoto, Ikegaya, Nakao, Ono, Nakajima, Imano, Hasama, Tabata, Kishida, Yoshie and Tominaga",
+      "publication_year": 2026,
+      "publication_month": "2026-02",
+      "doi": "10.1016/j.jweia.2025.106321",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167610525003174",
+      "read_scope": "publisher indexed highlights/abstract plus author university metadata",
+      "locators": [
+        "Publisher highlights",
+        "Abstract",
+        "Volume269, article106321"
+      ],
+      "claims": [
+        "An AIJ LES guideline now exists with recommendations and validation benchmarks for pedestrian wind."
+      ],
+      "verification": "Publisher title, authors, DOI, volume and Feb2026 issue verified; author institutional profile corroborates. Full text unavailable through direct publisher retrieval (403). No detailed numerical LES prescription is claimed."
+    },
+    {
+      "id": "solweig-manual",
+      "title": "UMEP SOLWEIG Manual",
+      "authors": "UMEP/SOLWEIG development team",
+      "publication_year": null,
+      "accessed_on": "2026-10-20",
+      "url": "https://umep-docs.readthedocs.io/en/latest/OtherManuals/SOLWEIG.html",
+      "read_scope": "sections",
+      "locators": [
+        "Version notice",
+        "§12.2.1",
+        "§12.2.2.1–12.2.2.4",
+        "§12.2.3",
+        "§12.2.6",
+        "§12.2.10"
+      ],
+      "claims": [
+        "Living manual lists stable2025a and development2026a.",
+        "Radiant exposure needs aligned geometry grids, weather, surface and exposure parameters.",
+        "Wind is required for PET/UTCI; radiation and shade alone do not establish air cooling."
+      ],
+      "verification": "Official manual read. Stable/development labels refer to this documentation snapshot rather than a claim that every installation matches it."
+    },
+    {
+      "id": "urock-manual",
+      "title": "UMEP Urban Wind Fields: URock",
+      "authors": "UMEP/URock development team",
+      "publication_year": null,
+      "accessed_on": "2026-10-20",
+      "url": "https://umep-docs.readthedocs.io/en/latest/processor/Wind%20model%20URock.html",
+      "read_scope": "sections",
+      "locators": [
+        "Introduction",
+        "Input parameters"
+      ],
+      "claims": [
+        "Manual describes a 2.5D obstacle-driven3D diagnostic wind model.",
+        "Documented horizontal and vertical defaults are2m; output-height default1.5m."
+      ],
+      "verification": "Official manual checked; defaults are not universal accuracy requirements."
+    },
+    {
+      "id": "urock2023",
+      "title": "URock2023a: an open-source GIS-based wind model for complex urban settings",
+      "authors": "Bernard, Lindberg and Oswald",
+      "publication_year": 2023,
+      "doi": "10.5194/gmd-16-5703-2023",
+      "url": "https://gmd.copernicus.org/articles/16/5703/2023/",
+      "read_scope": "sections",
+      "locators": [
+        "§1–§2.1",
+        "§3",
+        "§4.6–§4.7",
+        "§5"
+      ],
+      "claims": [
+        "Empirical flow zones plus mass balancing are distinct from a momentum-equationCFD calculation.",
+        "Validation identifies isolated-tree wake and compact-district biases; the presented version is limited to flat terrain."
+      ],
+      "verification": "Original open-access model paper sections read, including detailed evaluation and discussion, not only abstract."
+    },
+    {
+      "id": "solweig-wall2026",
+      "title": "A simple step heating approach for wall surface temperature estimation in the SOLWEIG model",
+      "authors": "Wallenberg, Holmer, Lindberg, Lönn, Maesel and Rayner",
+      "publication_year": 2026,
+      "doi": "10.5194/gmd-19-1321-2026",
+      "url": "https://gmd.copernicus.org/articles/19/1321/2026/gmd-19-1321-2026.html",
+      "read_scope": "sections",
+      "locators": [
+        "§2.1–§2.6",
+        "§3",
+        "§4"
+      ],
+      "claims": [
+        "New wall-temperature scheme evaluated against two white wall materials in Gothenburg.",
+        "The study uses0.5m cells in a small courtyard; this is a case setup, not a district standard.",
+        "Solar-transition and stored-heat discrepancies remain; material inputs and validation context matter."
+      ],
+      "verification": "Original2026 final paper read. Earlier manual cites its2025preprint; final publication replaces that bibliographic status."
+    },
+    {
+      "id": "utci-official",
+      "title": "UTCI official calculator",
+      "authors": "UTCI COSTAction730",
+      "publication_year": null,
+      "accessed_on": "2026-10-20",
+      "url": "https://www.utci.org/utci_calc.php",
+      "read_scope": "calculator input labels and applicability notice",
+      "locators": [
+        "Wind speed v in10m",
+        "Polynomial applicability notice"
+      ],
+      "claims": [
+        "Calculator expects10m wind, airtemperature, radianttemperature difference and vapour/humidity input.",
+        "Documented wind range0.5–17m/s; height transformations and out-of-range handling must be explicit."
+      ],
+      "verification": "Official calculator read."
+    },
+    {
+      "id": "london-wind2019",
+      "title": "Wind Microclimate Guidelines for Developments in the City of London",
+      "authors": "City of London Corporation",
+      "publication_year": 2019,
+      "url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/wind-microclimate-guidelines.pdf",
+      "read_scope": "sections",
+      "locators": [
+        "CFDrequirements, printedpp.13–14",
+        "UsingwindtunnelandCFDincombination, p.15",
+        "Presentation, pp.16–19"
+      ],
+      "claims": [
+        "Local critical-location cells≤0.3m; ≥10acrossstreetcanyons and ≥3prismlayersbelow1.5m; coarser far geometry permitted.",
+        "Realizablek-epsilon identified as industry practice; alternatives require appropriate mesh.",
+        "Wind climate and assessment requirements are London-specific."
+      ],
+      "verification": "Official original PDF read; still linked from official guidance page updated9June2025. Do not transfer its400m/36directions/comfort thresholds as Tokyo obligations."
+    },
+    {
+      "id": "london-thermal2020",
+      "title": "Thermal Comfort Guidelines for Developments in the City of London",
+      "authors": "City of London Corporation",
+      "publication_year": 2020,
+      "url": "https://newsite.cityoflondon.gov.uk/assets/Services-Environment/thermal-comfort-guidelines-for-developments-in-the-city-of-london.pdf",
+      "official_index": "https://www.cityoflondon.gov.uk/services/planning/planning-application-requirements/microclimate-guidelines",
+      "read_scope": "sections",
+      "locators": [
+        "§7–§9, printedpp.30–35"
+      ],
+      "claims": [
+        "Uses coincident hourly weather, wind and radiation to assess public-space thermal conditions; simplified early-stage assumptions are stated."
+      ],
+      "verification": "Official PDF checked as practice precedent, not adopted Tokyo weather/comfort method."
+    },
+    {
+      "id": "digital-twin2025",
+      "title": "Digital Twin(official)",
+      "authors": "UKDefenceScienceandTechnologyLaboratory / NationalDigitalTwinProgramme",
+      "publication_year": 2025,
+      "publication_date": "2025-10-29",
+      "url": "https://www.gov.uk/government/publications/digital-twin-definition/digital-twin-official",
+      "read_scope": "sections",
+      "locators": [
+        "Overview",
+        "Necessaryrequirements",
+        "Connected/semi-connected/disconnectedstates"
+      ],
+      "claims": [
+        "This government definition links an identified physical counterpart, suitable two-way information flow, stated assumptions and a validation envelope."
+      ],
+      "verification": "Official definition read; cite as one operational definition rather than a universal consensus."
+    }
+  ],
+  "studio_proposals": {
+    "default_sequence": [
+      "Confirm people/route/designquestion",
+      "Audit Figure5geometry and sourceLOD",
+      "Survey streets/trees/materials and collect time-matchedweather",
+      "Screen shade then radiant exposure",
+      "Use diagnostic wind only where assumptions fit",
+      "Optional mean-wind steadyisothermalRANSpilot",
+      "Escalate coupledheat/LES only for a distinct unmetquestion"
+    ],
+    "shade_resolution": {
+      "district_screen_m": 2,
+      "pilot_m": 1,
+      "additional_local_check_m": 0.5,
+      "status": "planning envelopes, not published universal standards",
+      "rule": "Check narrow-walkway representation and compare route/spot outcomes between grids; retain explicit3D occluders where a height raster loses overhang/undercroft geometry."
+    },
+    "urrock_resolution": {
+      "start_m": 2,
+      "refine_pilot_m": 1,
+      "status": "manual defaults used as proposed starting values; validate local geometry, not a performance guarantee"
+    },
+    "cfd_resolution": {
+      "whole_district_uniform_fine_mesh": false,
+      "initial_rule": "Local target spacing derived from building volume and passage width (10cells initial minimum), then systematic refinement; vertical sampling/near-wall treatment separately specified.",
+      "ordinary_street_envelope_m": [
+        1,
+        2
+      ],
+      "narrow_gap_envelope_m": [
+        0.3,
+        0.5
+      ],
+      "critical_patch_m": 0.3,
+      "status": "proposal informed by COST732 and a London industry precedent; numeric lengths conditional on actual geometry and target phenomena",
+      "refinement_plan": "Three systematic RANS grids; preserve geometry and sample locations, quantify discretisation sensitivity; do not claim formal error estimate when extrapolation assumptions fail."
+    },
+    "acceptance": "Predeclare decision-relevant effect and uncertainty; check source/geometry, grid/domain/inlet sensitivity, residuals plus targets and balances, suitableAIJbenchmark and independent site measurements. Existing project numeric screens are historical project thresholds, not consensus physical-validation limits.",
+    "cost_planning": "No timing or solver benchmark run now. After separate execution authorization: inspect live hardware; measure representative geometry/radiation/wind unit and cells/iterations throughput, RAM/VRAM; estimate total; run independent cases together and checkpoint. No wall-clock cap or arbitrary fixedGiB limit.",
+    "membership_rule": "Whole-footprint strictFigure5 membership controls reported building inventory; crossing/exterior buildings may still be necessary physical wind/shade context. Keep separate flags and never clip or drop context merely because it lies outside the reporting mask.",
+    "geometry_products": [
+      "Highest available verified officialLOD for untextured scene, with per-object source/LOD/yearcoverage",
+      "Audited and simplified but physically relevant occluders for radiation",
+      "Watertight, nonintersecting, purpose-builtCFDsolids with local relevant details"
+    ],
+    "reuse": "Raw sources, IDs, metadata, source-weather records and checked parsing/diagnostic code may be reused. A reporting-mask-only change can reuse a previously accepted field only with coverage/physics checks. Current legacy unaccepted fields and changed geometry do not pass that condition."
+  },
+  "important_gaps": [
+    "AIJ2026LES fulltext not read: review detailed prescriptions before anyLESpilot.",
+    "Catalogue and per-object LOD coverage verified on 20 October 2026; terrain contact, self-intersections and physics-specific geometry preparation remain open.",
+    "No site measurement/modelvalidation evidence yet justifies precise localthermal/wind performance claims.",
+    "Current pilot route, people, intervention, seasons/hours and available instruments remain team discussion items."
+  ]
+}

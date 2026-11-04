@@ -1,0 +1,21 @@
+{
+  "provider": "OpenStreetMap contributors",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "download_utc": "2026-10-18T04:18:50.470062+00:00",
+  "osm_base_timestamp": "2026-10-18T04:17:36Z",
+  "query_bbox_wgs84": [
+    139.76807488814495,
+    35.68616614911381,
+    139.7777592,
+    35.697528999999996
+  ],
+  "source_elements": 1629,
+  "sha256": "c31cd4920ef7d4b912597971a5dd3e72dc898167ba72b78da7e6372bd11127fd",
+  "query_file": "query.overpassql",
+  "license": "ODbL 1.0",
+  "source_url": "https://www.openstreetmap.org/copyright",
+  "crs": "EPSG:4326 source; EPSG:6677 analysis",
+  "source_unit": "OSM node/way/relation; original geometry retained; polygon representative points or explicit center fallback",
+  "attribution": "© OpenStreetMap contributors",
+  "processing": "Keep source object IDs and tags; classify functions; exact study-area point membership; audit duplicate node/area records; no name-only deduplication."
+}

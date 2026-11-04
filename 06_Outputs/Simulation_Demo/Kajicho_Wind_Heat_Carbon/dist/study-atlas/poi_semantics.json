@@ -1,0 +1,1599 @@
+{
+  "schema_version": 1,
+  "boundary_revision": "2026-10-18-brief-figure5",
+  "source": {
+    "provider": "OpenStreetMap contributors",
+    "endpoint": "https://overpass-api.de/api/interpreter",
+    "download_utc": "2026-10-18T04:18:50.470062+00:00",
+    "osm_base_timestamp": "2026-10-18T04:17:36Z",
+    "query_bbox_wgs84": [
+      139.76807488814495,
+      35.68616614911381,
+      139.7777592,
+      35.697528999999996
+    ],
+    "source_elements": 1629,
+    "sha256": "c31cd4920ef7d4b912597971a5dd3e72dc898167ba72b78da7e6372bd11127fd",
+    "query_file": "query.overpassql",
+    "license": "ODbL 1.0",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "crs": "EPSG:4326 source; EPSG:6677 analysis",
+    "source_unit": "OSM node/way/relation; original geometry retained; polygon representative points or explicit center fallback",
+    "attribution": "© OpenStreetMap contributors",
+    "processing": "Keep source object IDs and tags; classify functions; exact study-area point membership; audit duplicate node/area records; no name-only deduplication."
+  },
+  "raw_source_elements": 1629,
+  "classified_source_objects": 1062,
+  "merged_node_area_pairs": 0,
+  "excluded_support_or_unclassified": 567,
+  "kept_source_objects": 1062,
+  "scopes": {
+    "study_area": {
+      "poi_count": 353,
+      "poi_per_ha": 8.406829339492873,
+      "mix_entropy_0_1": 0.7876818815378579,
+      "categories": [
+        {
+          "id": "food",
+          "label": {
+            "en": "Food & drink",
+            "zh": "餐饮",
+            "ja": "Food & drink"
+          },
+          "color": "#c66b43",
+          "count": 139,
+          "share_pct": 39.376770538243626
+        },
+        {
+          "id": "retail",
+          "label": {
+            "en": "Shops & daily needs",
+            "zh": "零售与日常采购",
+            "ja": "Shops & daily needs"
+          },
+          "color": "#bc9a34",
+          "count": 71,
+          "share_pct": 20.113314447592067
+        },
+        {
+          "id": "work",
+          "label": {
+            "en": "Work & services",
+            "zh": "办公与服务",
+            "ja": "Work & services"
+          },
+          "color": "#6965a7",
+          "count": 49,
+          "share_pct": 13.881019830028329
+        },
+        {
+          "id": "health",
+          "label": {
+            "en": "Health",
+            "zh": "健康医疗",
+            "ja": "Health"
+          },
+          "color": "#b86485",
+          "count": 29,
+          "share_pct": 8.215297450424929
+        },
+        {
+          "id": "stay",
+          "label": {
+            "en": "Hotels & stays",
+            "zh": "旅宿",
+            "ja": "Hotels & stays"
+          },
+          "color": "#8c6a50",
+          "count": 13,
+          "share_pct": 3.68271954674221
+        },
+        {
+          "id": "civic",
+          "label": {
+            "en": "Civic & learning",
+            "zh": "公共服务与教育",
+            "ja": "Civic & learning"
+          },
+          "color": "#4c8c91",
+          "count": 14,
+          "share_pct": 3.9660056657223794
+        },
+        {
+          "id": "culture",
+          "label": {
+            "en": "Culture & leisure",
+            "zh": "文化与休闲",
+            "ja": "Culture & leisure"
+          },
+          "color": "#638c60",
+          "count": 23,
+          "share_pct": 6.515580736543909
+        },
+        {
+          "id": "transit",
+          "label": {
+            "en": "Mobility services",
+            "zh": "交通与出行服务",
+            "ja": "Mobility services"
+          },
+          "color": "#4c7195",
+          "count": 15,
+          "share_pct": 4.2492917847025495
+        },
+        {
+          "id": "other",
+          "label": {
+            "en": "Other named places",
+            "zh": "其他有名场所",
+            "ja": "Other named places"
+          },
+          "color": "#858078",
+          "count": 0,
+          "share_pct": 0.0
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "South / Shin-Nihonbashi side",
+          "area_ha": 13.286576575271377,
+          "poi_count": 92,
+          "poi_per_ha": 6.924281772569463,
+          "northing_range": [
+            -34706.15661355688,
+            -34372.015515453306
+          ],
+          "categories": {
+            "retail": 25,
+            "civic": 4,
+            "stay": 5,
+            "food": 28,
+            "work": 14,
+            "health": 4,
+            "transit": 4,
+            "culture": 8
+          },
+          "mix": [
+            {
+              "category": "food",
+              "count": 28,
+              "share_pct": 30.434782608695652,
+              "location_quotient": 0.7729121050985299
+            },
+            {
+              "category": "retail",
+              "count": 25,
+              "share_pct": 27.17391304347826,
+              "location_quotient": 1.3510410287813839
+            },
+            {
+              "category": "work",
+              "count": 14,
+              "share_pct": 15.217391304347826,
+              "location_quotient": 1.0962732919254659
+            },
+            {
+              "category": "health",
+              "count": 4,
+              "share_pct": 4.3478260869565215,
+              "location_quotient": 0.5292353823088455
+            },
+            {
+              "category": "stay",
+              "count": 5,
+              "share_pct": 5.434782608695652,
+              "location_quotient": 1.475752508361204
+            },
+            {
+              "category": "civic",
+              "count": 4,
+              "share_pct": 4.3478260869565215,
+              "location_quotient": 1.0962732919254659
+            },
+            {
+              "category": "culture",
+              "count": 8,
+              "share_pct": 8.695652173913043,
+              "location_quotient": 1.334593572778828
+            },
+            {
+              "category": "transit",
+              "count": 4,
+              "share_pct": 4.3478260869565215,
+              "location_quotient": 1.0231884057971015
+            },
+            {
+              "category": "other",
+              "count": 0,
+              "share_pct": 0.0,
+              "location_quotient": null
+            }
+          ]
+        },
+        {
+          "sector": "Middle / Kajicho–Kanda side",
+          "area_ha": 17.09498565129441,
+          "poi_count": 163,
+          "poi_per_ha": 9.534959743453065,
+          "northing_range": [
+            -34372.015515453306,
+            -34037.87441734974
+          ],
+          "categories": {
+            "retail": 26,
+            "food": 75,
+            "civic": 5,
+            "work": 18,
+            "transit": 4,
+            "culture": 11,
+            "health": 19,
+            "stay": 5
+          },
+          "mix": [
+            {
+              "category": "food",
+              "count": 75,
+              "share_pct": 46.012269938650306,
+              "location_quotient": 1.1685130423268746
+            },
+            {
+              "category": "retail",
+              "count": 26,
+              "share_pct": 15.950920245398773,
+              "location_quotient": 0.7930527952994038
+            },
+            {
+              "category": "work",
+              "count": 18,
+              "share_pct": 11.042944785276074,
+              "location_quotient": 0.7955427569800926
+            },
+            {
+              "category": "health",
+              "count": 19,
+              "share_pct": 11.656441717791411,
+              "location_quotient": 1.418870319441506
+            },
+            {
+              "category": "stay",
+              "count": 5,
+              "share_pct": 3.067484662576687,
+              "location_quotient": 0.8329400660689005
+            },
+            {
+              "category": "civic",
+              "count": 5,
+              "share_pct": 3.067484662576687,
+              "location_quotient": 0.773444347063979
+            },
+            {
+              "category": "culture",
+              "count": 11,
+              "share_pct": 6.748466257668712,
+              "location_quotient": 1.035742864763937
+            },
+            {
+              "category": "transit",
+              "count": 4,
+              "share_pct": 2.4539877300613497,
+              "location_quotient": 0.5775051124744376
+            },
+            {
+              "category": "other",
+              "count": 0,
+              "share_pct": 0.0,
+              "location_quotient": null
+            }
+          ]
+        },
+        {
+          "sector": "North / Iwamotocho side",
+          "area_ha": 11.608108997245914,
+          "poi_count": 98,
+          "poi_per_ha": 8.442374207827564,
+          "northing_range": [
+            -34037.87441734974,
+            -33703.73331924617
+          ],
+          "categories": {
+            "food": 36,
+            "culture": 4,
+            "civic": 5,
+            "retail": 20,
+            "transit": 7,
+            "work": 17,
+            "health": 6,
+            "stay": 3
+          },
+          "mix": [
+            {
+              "category": "food",
+              "count": 36,
+              "share_pct": 36.734693877551024,
+              "location_quotient": 0.9329026574658641
+            },
+            {
+              "category": "retail",
+              "count": 20,
+              "share_pct": 20.408163265306122,
+              "location_quotient": 1.0146593848807128
+            },
+            {
+              "category": "work",
+              "count": 17,
+              "share_pct": 17.346938775510203,
+              "location_quotient": 1.2496876301541024
+            },
+            {
+              "category": "health",
+              "count": 6,
+              "share_pct": 6.122448979591836,
+              "location_quotient": 0.745249824067558
+            },
+            {
+              "category": "stay",
+              "count": 3,
+              "share_pct": 3.061224489795918,
+              "location_quotient": 0.8312401883830456
+            },
+            {
+              "category": "civic",
+              "count": 5,
+              "share_pct": 5.1020408163265305,
+              "location_quotient": 1.2864431486880468
+            },
+            {
+              "category": "culture",
+              "count": 4,
+              "share_pct": 4.081632653061225,
+              "location_quotient": 0.6264418811002661
+            },
+            {
+              "category": "transit",
+              "count": 7,
+              "share_pct": 7.142857142857143,
+              "location_quotient": 1.6809523809523808
+            },
+            {
+              "category": "other",
+              "count": 0,
+              "share_pct": 0.0,
+              "location_quotient": null
+            }
+          ]
+        }
+      ],
+      "boundary_sensitive_pois": 38,
+      "whole_source_object_ids": [
+        "osm:node:508409153",
+        "osm:node:860340496",
+        "osm:node:1248297444",
+        "osm:node:1367460899",
+        "osm:node:1367460955",
+        "osm:node:1367460960",
+        "osm:node:1420766276",
+        "osm:node:1420770198",
+        "osm:node:1420779734",
+        "osm:node:1420780877",
+        "osm:node:1420792381",
+        "osm:node:1420792402",
+        "osm:node:1420792413",
+        "osm:node:1734716412",
+        "osm:node:1854239328",
+        "osm:node:2011633204",
+        "osm:node:2023749752",
+        "osm:node:2059755946",
+        "osm:node:2059756433",
+        "osm:node:2130337521",
+        "osm:node:2130337791",
+        "osm:node:2258202681",
+        "osm:node:2492756435",
+        "osm:node:2497767664",
+        "osm:node:2503893873",
+        "osm:node:2558121917",
+        "osm:node:2558196391",
+        "osm:node:2567959371",
+        "osm:node:2567959442",
+        "osm:node:2747117917",
+        "osm:node:2800403115",
+        "osm:node:3633732967",
+        "osm:node:3634830466",
+        "osm:node:3634890436",
+        "osm:node:3658894838",
+        "osm:node:3666676087",
+        "osm:node:3667951848",
+        "osm:node:3745037430",
+        "osm:node:3750189609",
+        "osm:node:3830488157",
+        "osm:node:4001927529",
+        "osm:node:4002251495",
+        "osm:node:4032269837",
+        "osm:node:4032288316",
+        "osm:node:4032288317",
+        "osm:node:4032288318",
+        "osm:node:4079530809",
+        "osm:node:4079530846",
+        "osm:node:4079539441",
+        "osm:node:4079539442",
+        "osm:node:4079539451",
+        "osm:node:4079539452",
+        "osm:node:4079539453",
+        "osm:node:4079539454",
+        "osm:node:4079539455",
+        "osm:node:4079539456",
+        "osm:node:4079568062",
+        "osm:node:4079568064",
+        "osm:node:4079568065",
+        "osm:node:4079568066",
+        "osm:node:4079568067",
+        "osm:node:4079568068",
+        "osm:node:4079568070",
+        "osm:node:4079568071",
+        "osm:node:4079568072",
+        "osm:node:4079568073",
+        "osm:node:4079568074",
+        "osm:node:4079568075",
+        "osm:node:4079568076",
+        "osm:node:4079568077",
+        "osm:node:4079568078",
+        "osm:node:4079568079",
+        "osm:node:4079568080",
+        "osm:node:4079568081",
+        "osm:node:4368677992",
+        "osm:node:4465721889",
+        "osm:node:4465721890",
+        "osm:node:4465721893",
+        "osm:node:4465721896",
+        "osm:node:4465721897",
+        "osm:node:4465721899",
+        "osm:node:4465721906",
+        "osm:node:4465721907",
+        "osm:node:4465721911",
+        "osm:node:4465721912",
+        "osm:node:4465721913",
+        "osm:node:4465721915",
+        "osm:node:4465721916",
+        "osm:node:4465721920",
+        "osm:node:4465721921",
+        "osm:node:4465721923",
+        "osm:node:4720102289",
+        "osm:node:4989824624",
+        "osm:node:4989824631",
+        "osm:node:4989824632",
+        "osm:node:4989824633",
+        "osm:node:4989824650",
+        "osm:node:4989824651",
+        "osm:node:4989824652",
+        "osm:node:4992282915",
+        "osm:node:5160036097",
+        "osm:node:5162042180",
+        "osm:node:5209881131",
+        "osm:node:5576209777",
+        "osm:node:5576209790",
+        "osm:node:5576209791",
+        "osm:node:5576209793",
+        "osm:node:5576209795",
+        "osm:node:5576209797",
+        "osm:node:5576209798",
+        "osm:node:5576209799",
+        "osm:node:5909192486",
+        "osm:node:5909200186",
+        "osm:node:6134023086",
+        "osm:node:6238851056",
+        "osm:node:6321062126",
+        "osm:node:6407687561",
+        "osm:node:6461747849",
+        "osm:node:6463426486",
+        "osm:node:6504023875",
+        "osm:node:6536171785",
+        "osm:node:6541972887",
+        "osm:node:6548574613",
+        "osm:node:6593256692",
+        "osm:node:6593256697",
+        "osm:node:6593256698",
+        "osm:node:6683223885",
+        "osm:node:7074118734",
+        "osm:node:7074118737",
+        "osm:node:7074118739",
+        "osm:node:7074118740",
+        "osm:node:7074138838",
+        "osm:node:7074138841",
+        "osm:node:7074138842",
+        "osm:node:7074176901",
+        "osm:node:7074176903",
+        "osm:node:7074176904",
+        "osm:node:7074176906",
+        "osm:node:7074176907",
+        "osm:node:7076695716",
+        "osm:node:7076695718",
+        "osm:node:7194601459",
+        "osm:node:7194601461",
+        "osm:node:7194619101",
+        "osm:node:7194619102",
+        "osm:node:7271462146",
+        "osm:node:7271462147",
+        "osm:node:7314256411",
+        "osm:node:7443753985",
+        "osm:node:7443753986",
+        "osm:node:7443753988",
+        "osm:node:7443753989",
+        "osm:node:7647631667",
+        "osm:node:7844910168",
+        "osm:node:7864692795",
+        "osm:node:7864692804",
+        "osm:node:7864692820",
+        "osm:node:7864692821",
+        "osm:node:7864692822",
+        "osm:node:7865062735",
+        "osm:node:7865062736",
+        "osm:node:7865062737",
+        "osm:node:7865062738",
+        "osm:node:7865062743",
+        "osm:node:7865062752",
+        "osm:node:7865062753",
+        "osm:node:7865062754",
+        "osm:node:7880784020",
+        "osm:node:7880785532",
+        "osm:node:7881028849",
+        "osm:node:7881028882",
+        "osm:node:7931415924",
+        "osm:node:7931415925",
+        "osm:node:7931415936",
+        "osm:node:7931415944",
+        "osm:node:7931415945",
+        "osm:node:7942251386",
+        "osm:node:8037694353",
+        "osm:node:8921450430",
+        "osm:node:8927775111",
+        "osm:node:9081206092",
+        "osm:node:9081206093",
+        "osm:node:9081206094",
+        "osm:node:9081206095",
+        "osm:node:9081206096",
+        "osm:node:9081206097",
+        "osm:node:9081206099",
+        "osm:node:9202057204",
+        "osm:node:9210578617",
+        "osm:node:9279156071",
+        "osm:node:9368728863",
+        "osm:node:9459646959",
+        "osm:node:9459646960",
+        "osm:node:9459646961",
+        "osm:node:9459646962",
+        "osm:node:9459646967",
+        "osm:node:9459646968",
+        "osm:node:9459646969",
+        "osm:node:9743101173",
+        "osm:node:9743153190",
+        "osm:node:9743156801",
+        "osm:node:9743182337",
+        "osm:node:9743182338",
+        "osm:node:9743182339",
+        "osm:node:9821241912",
+        "osm:node:9821254990",
+        "osm:node:9821276650",
+        "osm:node:9821287052",
+        "osm:node:9822381690",
+        "osm:node:9822381691",
+        "osm:node:9822381692",
+        "osm:node:9822381693",
+        "osm:node:9822381694",
+        "osm:node:9979228123",
+        "osm:node:9979231131",
+        "osm:node:10113431024",
+        "osm:node:10113431139",
+        "osm:node:10113431320",
+        "osm:node:10198620118",
+        "osm:node:10226715549",
+        "osm:node:10227907827",
+        "osm:node:10227912694",
+        "osm:node:10227912696",
+        "osm:node:10227912697",
+        "osm:node:10554040880",
+        "osm:node:10605212818",
+        "osm:node:10605212819",
+        "osm:node:10605212820",
+        "osm:node:10605212821",
+        "osm:node:10858250786",
+        "osm:node:10969394953",
+        "osm:node:10972080036",
+        "osm:node:11056285805",
+        "osm:node:11199002138",
+        "osm:node:11303547852",
+        "osm:node:11436157022",
+        "osm:node:11436157023",
+        "osm:node:11436157291",
+        "osm:node:11436157557",
+        "osm:node:11436157558",
+        "osm:node:11436157573",
+        "osm:node:11533934069",
+        "osm:node:11545799738",
+        "osm:node:11545799739",
+        "osm:node:11545799740",
+        "osm:node:11545799741",
+        "osm:node:11849790317",
+        "osm:node:11849790318",
+        "osm:node:11849790319",
+        "osm:node:11849790320",
+        "osm:node:11849790321",
+        "osm:node:11849790323",
+        "osm:node:11849790324",
+        "osm:node:11849790325",
+        "osm:node:11849790326",
+        "osm:node:11866537581",
+        "osm:node:11866537608",
+        "osm:node:11866537609",
+        "osm:node:11866537624",
+        "osm:node:11866552079",
+        "osm:node:11866552086",
+        "osm:node:11921005769",
+        "osm:node:11955892869",
+        "osm:node:11979259061",
+        "osm:node:11979306505",
+        "osm:node:12010623418",
+        "osm:node:12090088653",
+        "osm:node:12090088657",
+        "osm:node:12090088658",
+        "osm:node:12090357814",
+        "osm:node:12133430268",
+        "osm:node:12133446540",
+        "osm:node:12133446541",
+        "osm:node:12133447361",
+        "osm:node:12133461156",
+        "osm:node:12133477839",
+        "osm:node:12215233757",
+        "osm:node:12215233758",
+        "osm:node:12256536263",
+        "osm:node:12256654891",
+        "osm:node:12271473409",
+        "osm:node:12495330801",
+        "osm:node:12535381193",
+        "osm:node:12536168201",
+        "osm:node:12541135001",
+        "osm:node:12856259085",
+        "osm:node:13148864433",
+        "osm:node:13192290116",
+        "osm:node:13269464975",
+        "osm:node:13337948021",
+        "osm:node:13444708796",
+        "osm:node:13444715957",
+        "osm:node:13444715958",
+        "osm:node:13444716406",
+        "osm:node:13466031050",
+        "osm:node:13466031051",
+        "osm:node:13525961460",
+        "osm:node:13624172689",
+        "osm:node:13625004772",
+        "osm:node:13722933519",
+        "osm:node:13743786613",
+        "osm:node:13762532643",
+        "osm:node:13800457201",
+        "osm:node:13860518901",
+        "osm:node:14138510475",
+        "osm:node:14138510476",
+        "osm:node:14138510477",
+        "osm:node:14138510478",
+        "osm:node:14138510479",
+        "osm:node:14138510480",
+        "osm:node:14138510481",
+        "osm:node:14138510482",
+        "osm:node:14138510483",
+        "osm:node:14138510484",
+        "osm:node:14138510485",
+        "osm:node:14138510486",
+        "osm:node:14138510487",
+        "osm:node:14138510489",
+        "osm:node:14138510490",
+        "osm:node:14138510498",
+        "osm:node:14138510499",
+        "osm:node:14138510500",
+        "osm:node:14138513677",
+        "osm:node:14138513678",
+        "osm:node:14138513679",
+        "osm:node:14138513680",
+        "osm:node:14138513681",
+        "osm:node:14138526001",
+        "osm:node:14205845041",
+        "osm:node:14205845047",
+        "osm:node:14205845049",
+        "osm:node:14205845051",
+        "osm:node:14205845055",
+        "osm:node:14205845059",
+        "osm:node:14205845063",
+        "osm:node:14205939520",
+        "osm:node:14205942363",
+        "osm:node:14205942372",
+        "osm:way:174757570",
+        "osm:way:174757610",
+        "osm:way:174757611",
+        "osm:way:191237047",
+        "osm:way:214777540",
+        "osm:way:228930885",
+        "osm:way:229035541",
+        "osm:way:229035584",
+        "osm:way:229035624",
+        "osm:way:249162427",
+        "osm:way:449621778",
+        "osm:way:620668556",
+        "osm:way:620668559",
+        "osm:way:1314098000",
+        "osm:way:1352514768"
+      ]
+    },
+    "primary_brief": {
+      "poi_count": 178,
+      "poi_per_ha": 16.629560872963726,
+      "mix_entropy_0_1": 0.7090818220200695,
+      "categories": [
+        {
+          "id": "food",
+          "label": {
+            "en": "Food & drink",
+            "zh": "餐饮",
+            "ja": "Food & drink"
+          },
+          "color": "#c66b43",
+          "count": 86,
+          "share_pct": 48.31460674157304
+        },
+        {
+          "id": "retail",
+          "label": {
+            "en": "Shops & daily needs",
+            "zh": "零售与日常采购",
+            "ja": "Shops & daily needs"
+          },
+          "color": "#bc9a34",
+          "count": 32,
+          "share_pct": 17.97752808988764
+        },
+        {
+          "id": "work",
+          "label": {
+            "en": "Work & services",
+            "zh": "办公与服务",
+            "ja": "Work & services"
+          },
+          "color": "#6965a7",
+          "count": 19,
+          "share_pct": 10.674157303370787
+        },
+        {
+          "id": "health",
+          "label": {
+            "en": "Health",
+            "zh": "健康医疗",
+            "ja": "Health"
+          },
+          "color": "#b86485",
+          "count": 19,
+          "share_pct": 10.674157303370787
+        },
+        {
+          "id": "stay",
+          "label": {
+            "en": "Hotels & stays",
+            "zh": "旅宿",
+            "ja": "Hotels & stays"
+          },
+          "color": "#8c6a50",
+          "count": 5,
+          "share_pct": 2.808988764044944
+        },
+        {
+          "id": "civic",
+          "label": {
+            "en": "Civic & learning",
+            "zh": "公共服务与教育",
+            "ja": "Civic & learning"
+          },
+          "color": "#4c8c91",
+          "count": 5,
+          "share_pct": 2.808988764044944
+        },
+        {
+          "id": "culture",
+          "label": {
+            "en": "Culture & leisure",
+            "zh": "文化与休闲",
+            "ja": "Culture & leisure"
+          },
+          "color": "#638c60",
+          "count": 9,
+          "share_pct": 5.056179775280899
+        },
+        {
+          "id": "transit",
+          "label": {
+            "en": "Mobility services",
+            "zh": "交通与出行服务",
+            "ja": "Mobility services"
+          },
+          "color": "#4c7195",
+          "count": 3,
+          "share_pct": 1.6853932584269662
+        },
+        {
+          "id": "other",
+          "label": {
+            "en": "Other named places",
+            "zh": "其他有名场所",
+            "ja": "Other named places"
+          },
+          "color": "#858078",
+          "count": 0,
+          "share_pct": 0.0
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "South / Shin-Nihonbashi side",
+          "area_ha": 4.063014858615002,
+          "poi_count": 56,
+          "poi_per_ha": 13.7828686206403,
+          "northing_range": [
+            -34487.06117468017,
+            -34282.45424115127
+          ],
+          "categories": {
+            "food": 29,
+            "retail": 12,
+            "civic": 1,
+            "stay": 3,
+            "work": 4,
+            "health": 1,
+            "culture": 6
+          },
+          "mix": [
+            {
+              "category": "food",
+              "count": 29,
+              "share_pct": 51.785714285714285,
+              "location_quotient": 1.071843853820598
+            },
+            {
+              "category": "retail",
+              "count": 12,
+              "share_pct": 21.428571428571427,
+              "location_quotient": 1.1919642857142856
+            },
+            {
+              "category": "work",
+              "count": 4,
+              "share_pct": 7.142857142857143,
+              "location_quotient": 0.6691729323308271
+            },
+            {
+              "category": "health",
+              "count": 1,
+              "share_pct": 1.7857142857142858,
+              "location_quotient": 0.16729323308270677
+            },
+            {
+              "category": "stay",
+              "count": 3,
+              "share_pct": 5.357142857142857,
+              "location_quotient": 1.907142857142857
+            },
+            {
+              "category": "civic",
+              "count": 1,
+              "share_pct": 1.7857142857142858,
+              "location_quotient": 0.6357142857142857
+            },
+            {
+              "category": "culture",
+              "count": 6,
+              "share_pct": 10.714285714285714,
+              "location_quotient": 2.119047619047619
+            },
+            {
+              "category": "transit",
+              "count": 0,
+              "share_pct": 0.0,
+              "location_quotient": 0.0
+            },
+            {
+              "category": "other",
+              "count": 0,
+              "share_pct": 0.0,
+              "location_quotient": null
+            }
+          ]
+        },
+        {
+          "sector": "Middle / Kajicho–Kanda side",
+          "area_ha": 4.750883593967459,
+          "poi_count": 81,
+          "poi_per_ha": 17.0494600420965,
+          "northing_range": [
+            -34282.45424115127,
+            -34077.84730762236
+          ],
+          "categories": {
+            "retail": 14,
+            "civic": 3,
+            "work": 12,
+            "transit": 3,
+            "food": 30,
+            "health": 17,
+            "culture": 2
+          },
+          "mix": [
+            {
+              "category": "food",
+              "count": 30,
+              "share_pct": 37.03703703703704,
+              "location_quotient": 0.7665805340223945
+            },
+            {
+              "category": "retail",
+              "count": 14,
+              "share_pct": 17.28395061728395,
+              "location_quotient": 0.9614197530864197
+            },
+            {
+              "category": "work",
+              "count": 12,
+              "share_pct": 14.814814814814815,
+              "location_quotient": 1.387914230019493
+            },
+            {
+              "category": "health",
+              "count": 17,
+              "share_pct": 20.987654320987655,
+              "location_quotient": 1.9662118258609487
+            },
+            {
+              "category": "stay",
+              "count": 0,
+              "share_pct": 0.0,
+              "location_quotient": 0.0
+            },
+            {
+              "category": "civic",
+              "count": 3,
+              "share_pct": 3.7037037037037037,
+              "location_quotient": 1.3185185185185184
+            },
+            {
+              "category": "culture",
+              "count": 2,
+              "share_pct": 2.4691358024691357,
+              "location_quotient": 0.4883401920438957
+            },
+            {
+              "category": "transit",
+              "count": 3,
+              "share_pct": 3.7037037037037037,
+              "location_quotient": 2.197530864197531
+            },
+            {
+              "category": "other",
+              "count": 0,
+              "share_pct": 0.0,
+              "location_quotient": null
+            }
+          ]
+        },
+        {
+          "sector": "North / Iwamotocho side",
+          "area_ha": 1.8899319948824373,
+          "poi_count": 41,
+          "poi_per_ha": 21.69390227321401,
+          "northing_range": [
+            -34077.84730762236,
+            -33873.24037409345
+          ],
+          "categories": {
+            "culture": 1,
+            "civic": 1,
+            "food": 27,
+            "retail": 6,
+            "work": 3,
+            "health": 1,
+            "stay": 2
+          },
+          "mix": [
+            {
+              "category": "food",
+              "count": 27,
+              "share_pct": 65.85365853658537,
+              "location_quotient": 1.3630175836642087
+            },
+            {
+              "category": "retail",
+              "count": 6,
+              "share_pct": 14.634146341463415,
+              "location_quotient": 0.8140243902439024
+            },
+            {
+              "category": "work",
+              "count": 3,
+              "share_pct": 7.317073170731708,
+              "location_quotient": 0.6854942233632862
+            },
+            {
+              "category": "health",
+              "count": 1,
+              "share_pct": 2.4390243902439024,
+              "location_quotient": 0.22849807445442877
+            },
+            {
+              "category": "stay",
+              "count": 2,
+              "share_pct": 4.878048780487805,
+              "location_quotient": 1.7365853658536587
+            },
+            {
+              "category": "civic",
+              "count": 1,
+              "share_pct": 2.4390243902439024,
+              "location_quotient": 0.8682926829268294
+            },
+            {
+              "category": "culture",
+              "count": 1,
+              "share_pct": 2.4390243902439024,
+              "location_quotient": 0.4823848238482385
+            },
+            {
+              "category": "transit",
+              "count": 0,
+              "share_pct": 0.0,
+              "location_quotient": 0.0
+            },
+            {
+              "category": "other",
+              "count": 0,
+              "share_pct": 0.0,
+              "location_quotient": null
+            }
+          ]
+        }
+      ],
+      "boundary_sensitive_pois": 35,
+      "whole_source_object_ids": [
+        "osm:node:1248297444",
+        "osm:node:1367460899",
+        "osm:node:1367460955",
+        "osm:node:1367460960",
+        "osm:node:1420770198",
+        "osm:node:1420792381",
+        "osm:node:1420792402",
+        "osm:node:1734716412",
+        "osm:node:2023749752",
+        "osm:node:2059755946",
+        "osm:node:2503893873",
+        "osm:node:2558121917",
+        "osm:node:2747117917",
+        "osm:node:3633732967",
+        "osm:node:3658894838",
+        "osm:node:3667951848",
+        "osm:node:3750189609",
+        "osm:node:3830488157",
+        "osm:node:4001927529",
+        "osm:node:4032269837",
+        "osm:node:4032288316",
+        "osm:node:4032288317",
+        "osm:node:4032288318",
+        "osm:node:4079539441",
+        "osm:node:4079539442",
+        "osm:node:4079539451",
+        "osm:node:4079539452",
+        "osm:node:4079539453",
+        "osm:node:4079539454",
+        "osm:node:4079539455",
+        "osm:node:4079539456",
+        "osm:node:4079568062",
+        "osm:node:4079568064",
+        "osm:node:4079568065",
+        "osm:node:4079568066",
+        "osm:node:4079568067",
+        "osm:node:4079568068",
+        "osm:node:4079568070",
+        "osm:node:4079568071",
+        "osm:node:4079568072",
+        "osm:node:4079568073",
+        "osm:node:4079568074",
+        "osm:node:4079568075",
+        "osm:node:4079568076",
+        "osm:node:4079568077",
+        "osm:node:4079568078",
+        "osm:node:4079568079",
+        "osm:node:4079568080",
+        "osm:node:4079568081",
+        "osm:node:4465721889",
+        "osm:node:4465721893",
+        "osm:node:4465721896",
+        "osm:node:4465721897",
+        "osm:node:4465721899",
+        "osm:node:4465721906",
+        "osm:node:4465721907",
+        "osm:node:4465721911",
+        "osm:node:4465721912",
+        "osm:node:4465721913",
+        "osm:node:4465721915",
+        "osm:node:4465721916",
+        "osm:node:4465721920",
+        "osm:node:4465721921",
+        "osm:node:4465721923",
+        "osm:node:5209881131",
+        "osm:node:5909200186",
+        "osm:node:6134023086",
+        "osm:node:6407687561",
+        "osm:node:6504023875",
+        "osm:node:6548574613",
+        "osm:node:7074118734",
+        "osm:node:7074118737",
+        "osm:node:7074118739",
+        "osm:node:7074118740",
+        "osm:node:7074138838",
+        "osm:node:7074176901",
+        "osm:node:7074176903",
+        "osm:node:7074176904",
+        "osm:node:7074176906",
+        "osm:node:7074176907",
+        "osm:node:7076695716",
+        "osm:node:7194601461",
+        "osm:node:7194619101",
+        "osm:node:7194619102",
+        "osm:node:7271462146",
+        "osm:node:7271462147",
+        "osm:node:7314256411",
+        "osm:node:7443753985",
+        "osm:node:7443753986",
+        "osm:node:7443753988",
+        "osm:node:7443753989",
+        "osm:node:7931415924",
+        "osm:node:7931415925",
+        "osm:node:8927775111",
+        "osm:node:9081206093",
+        "osm:node:9081206095",
+        "osm:node:9081206096",
+        "osm:node:9081206097",
+        "osm:node:9202057204",
+        "osm:node:9459646959",
+        "osm:node:9459646960",
+        "osm:node:9459646961",
+        "osm:node:9743101173",
+        "osm:node:9743182337",
+        "osm:node:9743182338",
+        "osm:node:9743182339",
+        "osm:node:9821287052",
+        "osm:node:9822381690",
+        "osm:node:9822381691",
+        "osm:node:9822381692",
+        "osm:node:9822381693",
+        "osm:node:9979228123",
+        "osm:node:9979231131",
+        "osm:node:10227907827",
+        "osm:node:10605212818",
+        "osm:node:10605212819",
+        "osm:node:10605212820",
+        "osm:node:10605212821",
+        "osm:node:11303547852",
+        "osm:node:11436157022",
+        "osm:node:11545799738",
+        "osm:node:11545799739",
+        "osm:node:11545799740",
+        "osm:node:11545799741",
+        "osm:node:11849790317",
+        "osm:node:11849790318",
+        "osm:node:11849790319",
+        "osm:node:11849790320",
+        "osm:node:11849790321",
+        "osm:node:11849790323",
+        "osm:node:11849790324",
+        "osm:node:11849790325",
+        "osm:node:11849790326",
+        "osm:node:11866537581",
+        "osm:node:11866537624",
+        "osm:node:11979306505",
+        "osm:node:12090088653",
+        "osm:node:12090088657",
+        "osm:node:12090088658",
+        "osm:node:12090357814",
+        "osm:node:12215233757",
+        "osm:node:12215233758",
+        "osm:node:13148864433",
+        "osm:node:13269464975",
+        "osm:node:13337948021",
+        "osm:node:13444716406",
+        "osm:node:13743786613",
+        "osm:node:13860518901",
+        "osm:node:14138510475",
+        "osm:node:14138510476",
+        "osm:node:14138510477",
+        "osm:node:14138510478",
+        "osm:node:14138510479",
+        "osm:node:14138510480",
+        "osm:node:14138510481",
+        "osm:node:14138510482",
+        "osm:node:14138510483",
+        "osm:node:14138510484",
+        "osm:node:14138510485",
+        "osm:node:14138510486",
+        "osm:node:14138510487",
+        "osm:node:14138510489",
+        "osm:node:14138510490",
+        "osm:node:14138510498",
+        "osm:node:14138510499",
+        "osm:node:14138510500",
+        "osm:node:14138513677",
+        "osm:node:14138513678",
+        "osm:node:14138513679",
+        "osm:node:14138513680",
+        "osm:node:14138513681",
+        "osm:node:14138526001",
+        "osm:node:14205939520",
+        "osm:node:14205942363",
+        "osm:node:14205942372",
+        "osm:way:214777540",
+        "osm:way:449621778",
+        "osm:way:1352514768"
+      ]
+    }
+  },
+  "local_concentrations": [
+    {
+      "scope": "primary_brief",
+      "grid_easting": -5600,
+      "grid_northing": -34200,
+      "cell_area_ha": 1.0,
+      "total_pois": 40,
+      "category": "work",
+      "category_count": 9,
+      "location_quotient": 2.1078947368421055,
+      "name_examples": [
+        "Mizuho Bank",
+        "WAW KANDA",
+        "QB HOUSE"
+      ]
+    },
+    {
+      "scope": "primary_brief",
+      "grid_easting": -5600,
+      "grid_northing": -34200,
+      "cell_area_ha": 1.0,
+      "total_pois": 40,
+      "category": "health",
+      "category_count": 8,
+      "location_quotient": 1.8736842105263158,
+      "name_examples": [
+        "もんでん耳鼻咽喉科",
+        "平野歯科クリニック",
+        "日本メディカルシステム"
+      ]
+    },
+    {
+      "scope": "primary_brief",
+      "grid_easting": -5600,
+      "grid_northing": -34300,
+      "cell_area_ha": 1.0,
+      "total_pois": 12,
+      "category": "health",
+      "category_count": 4,
+      "location_quotient": 3.1228070175438596,
+      "name_examples": [
+        "Qol",
+        "Sugi Pharmacy",
+        "広川眼科"
+      ]
+    },
+    {
+      "scope": "primary_brief",
+      "grid_easting": -5600,
+      "grid_northing": -34400,
+      "cell_area_ha": 0.9615665895767015,
+      "total_pois": 12,
+      "category": "retail",
+      "category_count": 4,
+      "location_quotient": 1.8541666666666665,
+      "name_examples": [
+        "7-Eleven",
+        "7-Eleven",
+        "Kanda-Sakurai Fishing Tool Shop"
+      ]
+    },
+    {
+      "scope": "primary_brief",
+      "grid_easting": -5600,
+      "grid_northing": -34400,
+      "cell_area_ha": 0.9615665895767015,
+      "total_pois": 12,
+      "category": "culture",
+      "category_count": 3,
+      "location_quotient": 4.944444444444445,
+      "name_examples": [
+        "TUC SHOP(Pachinko Exchange Office)",
+        "Jumbo",
+        "Big Echo"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5600,
+      "grid_northing": -34100,
+      "cell_area_ha": 1.0,
+      "total_pois": 31,
+      "category": "food",
+      "category_count": 22,
+      "location_quotient": 1.8022743095845903,
+      "name_examples": [
+        "Sushi Izakaya Susumu",
+        "Kanda Sasa Sushi",
+        "BAN蔵"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5700,
+      "grid_northing": -34400,
+      "cell_area_ha": 1.0,
+      "total_pois": 20,
+      "category": "food",
+      "category_count": 12,
+      "location_quotient": 1.5237410071942445,
+      "name_examples": [
+        "Matsuya",
+        "amenity=restaurant",
+        "amenity=restaurant"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5600,
+      "grid_northing": -34000,
+      "cell_area_ha": 0.9307573348956061,
+      "total_pois": 16,
+      "category": "food",
+      "category_count": 11,
+      "location_quotient": 1.745953237410072,
+      "name_examples": [
+        "Spaghetteria Aze",
+        "Ito Kacho",
+        "Hokuo Kocha"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5500,
+      "grid_northing": -33900,
+      "cell_area_ha": 1.0,
+      "total_pois": 17,
+      "category": "work",
+      "category_count": 9,
+      "location_quotient": 3.813925570228091,
+      "name_examples": [
+        "Okazaki Labor Management Office",
+        "エム・ディー・エス",
+        "巴商会"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5600,
+      "grid_northing": -34200,
+      "cell_area_ha": 1.0,
+      "total_pois": 40,
+      "category": "work",
+      "category_count": 9,
+      "location_quotient": 1.6209183673469387,
+      "name_examples": [
+        "Mizuho Bank",
+        "WAW KANDA",
+        "QB HOUSE"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5600,
+      "grid_northing": -34200,
+      "cell_area_ha": 1.0,
+      "total_pois": 40,
+      "category": "health",
+      "category_count": 8,
+      "location_quotient": 2.4344827586206894,
+      "name_examples": [
+        "もんでん耳鼻咽喉科",
+        "平野歯科クリニック",
+        "日本メディカルシステム"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5700,
+      "grid_northing": -34500,
+      "cell_area_ha": 1.0,
+      "total_pois": 26,
+      "category": "retail",
+      "category_count": 8,
+      "location_quotient": 1.5297941495124594,
+      "name_examples": [
+        "Tackle Berry Kanda South Exit",
+        "shop=alcohol",
+        "shop=florist"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5700,
+      "grid_northing": -34700,
+      "cell_area_ha": 0.6702690495472416,
+      "total_pois": 9,
+      "category": "work",
+      "category_count": 5,
+      "location_quotient": 4.0022675736961455,
+      "name_examples": [
+        "東雲総合法律事務所",
+        "国際ビルサービス株式会社",
+        "ビンハンニホン株式会社"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5300,
+      "grid_northing": -33800,
+      "cell_area_ha": 0.8689790498615945,
+      "total_pois": 11,
+      "category": "health",
+      "category_count": 4,
+      "location_quotient": 4.4263322884012535,
+      "name_examples": [
+        "大塚歯科",
+        "Akihabara Atsuta Clinic",
+        "秋葉原のだ眼科"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5600,
+      "grid_northing": -34300,
+      "cell_area_ha": 1.0,
+      "total_pois": 12,
+      "category": "health",
+      "category_count": 4,
+      "location_quotient": 4.057471264367815,
+      "name_examples": [
+        "Qol",
+        "Sugi Pharmacy",
+        "広川眼科"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5500,
+      "grid_northing": -33800,
+      "cell_area_ha": 0.9436925595334671,
+      "total_pois": 9,
+      "category": "retail",
+      "category_count": 4,
+      "location_quotient": 2.2097026604068857,
+      "name_examples": [
+        "shop=florist",
+        "WiNK",
+        "OutletPlaza"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5400,
+      "grid_northing": -34300,
+      "cell_area_ha": 1.0,
+      "total_pois": 6,
+      "category": "food",
+      "category_count": 4,
+      "location_quotient": 1.6930455635491606,
+      "name_examples": [
+        "黒てつ屋",
+        "アラジン",
+        "Poru"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5600,
+      "grid_northing": -34400,
+      "cell_area_ha": 1.0,
+      "total_pois": 13,
+      "category": "retail",
+      "category_count": 4,
+      "location_quotient": 1.5297941495124594,
+      "name_examples": [
+        "7-Eleven",
+        "7-Eleven",
+        "Kanda-Sakurai Fishing Tool Shop"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5500,
+      "grid_northing": -33900,
+      "cell_area_ha": 1.0,
+      "total_pois": 17,
+      "category": "transit",
+      "category_count": 3,
+      "location_quotient": 4.152941176470589,
+      "name_examples": [
+        "Docomo Bike Share",
+        "Docomo Bike Share",
+        "Docomo Bike Share"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5600,
+      "grid_northing": -34400,
+      "cell_area_ha": 1.0,
+      "total_pois": 13,
+      "category": "culture",
+      "category_count": 3,
+      "location_quotient": 3.5418060200668897,
+      "name_examples": [
+        "TUC SHOP(Pachinko Exchange Office)",
+        "Jumbo",
+        "Big Echo"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5500,
+      "grid_northing": -34600,
+      "cell_area_ha": 0.8599020951275094,
+      "total_pois": 6,
+      "category": "retail",
+      "category_count": 3,
+      "location_quotient": 2.4859154929577465,
+      "name_examples": [
+        "7-Eleven",
+        "Numbers",
+        "shop=gift"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5600,
+      "grid_northing": -34500,
+      "cell_area_ha": 1.0,
+      "total_pois": 6,
+      "category": "retail",
+      "category_count": 3,
+      "location_quotient": 2.4859154929577465,
+      "name_examples": [
+        "Bon Coeur",
+        "Golf Partner",
+        "Kitamura Camera"
+      ]
+    },
+    {
+      "scope": "study_area",
+      "grid_easting": -5500,
+      "grid_northing": -34500,
+      "cell_area_ha": 1.0,
+      "total_pois": 5,
+      "category": "food",
+      "category_count": 3,
+      "location_quotient": 1.5237410071942445,
+      "name_examples": [
+        "Doutor Coffee Shop",
+        "日本橋ふくしま館 MIDETTE",
+        "Tenmo"
+      ]
+    }
+  ],
+  "methods": {
+    "membership": "OSM nodes, or representative points of closed source polygons; explicit source-center fallback for unresolved ways/relations. Full geometry and original tags retained.",
+    "duplicates": "Source type+ID is the base key. Merge node/area only with identical name, category, subtype, level and branch, and containment by the source area. No name-only station merge.",
+    "categories": "One primary function per object using explicit OSM amenity/shop/office/craft/healthcare/tourism/leisure/railway tags; the full rule is versioned in build_poi_semantics.py.",
+    "spatial_tendency": "Three equal-northing bands within each trace; per-hectare density uses clipped band area. LQ = local category share / whole-scope category share.",
+    "local_concentration": "100 m EPSG:6677 grid; report cells with >=5 POIs, >=3 of a category and LQ>=1.5. Descriptive specialization, not a significance test.",
+    "coverage": "OSM is a volunteered inventory, not a business census or floor-use survey. Support features are retained separately, excluded from destination mix. Counts represent tagged source objects after the stated merge."
+  },
+  "building_use_context": {
+    "office_floor_proxy_share_pct": 71.92271818134057,
+    "source": "PLATEAU 2025 model attributes; survey 2021 where known",
+    "record_unit": "Projection × source/proxy floors; not measured occupied floor area",
+    "source_table": "study-atlas/tables/building_use.csv"
+  }
+}

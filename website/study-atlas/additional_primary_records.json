@@ -1,0 +1,128 @@
+[
+  {
+    "source_fids": [
+      161
+    ],
+    "name": "中央区立常盤小学校 — historic classroom wings",
+    "built_year": 1929,
+    "source_url": "https://with-tokyorekiken.metro.tokyo.lg.jp/tokyo-rekiken/611/",
+    "source_type": "municipal_heritage_record",
+    "additional_source": "https://www.city.chuo.lg.jp/documents/4643/kobetukeikaku.pdf",
+    "note": "Only the historic 3-storey classroom model is linked to 1929. The separate 12-storey hotel (fid379), pool and entrance additions do not inherit this year."
+  },
+  {
+    "source_fids": [
+      202
+    ],
+    "name": "Hotel Kazusaya — rebuilt hotel",
+    "built_year": 2020,
+    "built_month": 6,
+    "source_url": "https://www.h-kazusaya.co.jp/135th_anniversary/",
+    "source_type": "owner_history",
+    "additional_source": "https://www.aa-sun.com/aasun/wp-content/uploads/2021/04/kenchikuj_202101.pdf",
+    "note": "Owner distinguishes 2018 demolition, June 2020 completion and July 2020 opening. Current 10-floor model and OSM hotel-name match; do not infer age from the old hotel on the same site."
+  },
+  {
+    "source_fids": [
+      549
+    ],
+    "name": "友泉岩本町ビル / ザイマックス岩本町",
+    "built_year": 2001,
+    "built_month": 3,
+    "source_url": "https://www.mitsui-chintai.co.jp/rf/tatemono/60854",
+    "source_type": "owner_agent_record",
+    "additional_source": "https://www.officetar.jp/building/1950/121315/",
+    "note": "Iwamotocho2-3-3, nine floors and named current footprint match. The residential portion and office building share the same 2001 completion record."
+  },
+  {
+    "source_fids": [
+      867
+    ],
+    "name": "ステージファースト神田II",
+    "built_year": 2003,
+    "built_month": 6,
+    "source_url": "https://www.stepon.co.jp/mansion/library-detail/10822992/",
+    "source_type": "published_residential_broker_record",
+    "additional_source": "https://www.livable.co.jp/mansion/library/000000056489/",
+    "note": "Eight floors, 25 homes; distinguish Stage First Kanda (without II), which is another address/year."
+  },
+  {
+    "source_fids": [
+      555
+    ],
+    "name": "PMO神田岩本町II",
+    "built_year": 2021,
+    "built_month": 1,
+    "source_url": "https://www.ibecs.or.jp/CASBEE/WO_certification/details/CBL-CAS_WO-0007-23.pdf",
+    "source_type": "developer_certification_record",
+    "note": "Post-completion CASBEE record explicitly gives Jan2021; do not use planned completion alone."
+  },
+  {
+    "source_fids": [
+      878
+    ],
+    "name": "H1O神田",
+    "built_year": 2020,
+    "built_month": 11,
+    "source_url": "https://www.h1o-web.com/officelist/kanda/",
+    "source_type": "owner_operator_record",
+    "note": "Operator gives Nov2020 completion; alternative broker month October differs but year agrees."
+  },
+  {
+    "source_fids": [
+      614
+    ],
+    "name": "区営東松下町住宅 / こもれび千桜",
+    "built_year": 2016,
+    "built_month": 12,
+    "source_url": "https://www.city.chiyoda.lg.jp/documents/33735/keikaku4.pdf",
+    "source_type": "municipal_housing_record",
+    "additional_source": "https://www.city.chiyoda.lg.jp/documents/18687/h30hyokajisshihokoku-4.pdf",
+    "note": "The ward plan lists Dec2016, RC18F/B1; OSM node identifies the complex. The separately named senior flats are part of the same building; Mar2017 is occupancy, not completion."
+  },
+  {
+    "source_fids": [
+      769
+    ],
+    "name": "アパホテル神田駅前",
+    "built_year": 2018,
+    "source_url": "https://www.toenec.co.jp/result/detail/1200a8f1d9fe3a0d0dc165bb1a074b3f19b4ae31/",
+    "source_type": "builder_record",
+    "note": "Contractor states completion year2018; current named 13-storey hotel location matches. Distinguish Kanda-Eki-Higashi, an unrelated2012 hotel."
+  },
+  {
+    "source_fids": [
+      39
+    ],
+    "name": "常盤ビル",
+    "built_year": 1984,
+    "built_month": 1,
+    "source_url": "https://nihonbashi.officeman.tokyo/building/index/8242",
+    "source_type": "published_broker_record",
+    "additional_source": "https://officee.jp/catalog/26111",
+    "note": "Nihonbashi-Hongokucho3-2-7, named OSM outline and corner building position agree. Source floor10 vs model11 retained as a data difference."
+  },
+  {
+    "source_fids": [
+      904
+    ],
+    "name": "プライム神田ビル / Daiwa神田須田町ビル",
+    "built_year": 1990,
+    "built_month": 8,
+    "source_url": "https://www2.jpx.co.jp/disc/89760/140120180523444272.pdf",
+    "source_type": "owner_registry_disclosure",
+    "note": "Owner acquisition disclosure states registered completion30Aug1990,10F/B1, addressSuda2-8-2. Acquisition2018 and later renaming do not change construction year."
+  },
+  {
+    "source_fids": [
+      1021
+    ],
+    "name": "サンテミリオン神田東",
+    "built_year": 2005,
+    "built_month": 7,
+    "source_url": "https://www.livable.co.jp/mansion/library/000000058553/",
+    "source_type": "published_residential_broker_record",
+    "additional_source": "https://www.stepon.co.jp/mansion/library-detail/11812670/",
+    "note": "Name,13floors andHigashimatsushitacho24-1 agree; housing archive fills an office-catalogue gap."
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "extent_epsg6677": [
+    -5628.249999974236,
+    -34297.72550017595,
+    -5460.309999973277,
+    -34129.785500174985
+  ],
+  "date": "2026-11-04",
+  "candidate_rule": "10 unknown-year primary-area models, area 30\u2013180 m\u00b2 and height <30 m, nearest the mean primary-building centroid; exploratory local pilot, not a representative sample",
+  "raster_sources": [
+    [
+      "FY2009",
+      "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/04_Data/Ready/Building_Age_Expansion_2026-10-28/aerials/nendophoto2009.tif"
+    ],
+    [
+      "FY2014",
+      "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/04_Data/Ready/Building_Age_Expansion_2026-10-28/aerials/nendophoto2014.tif"
+    ],
+    [
+      "FY2019",
+      "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/04_Data/Ready/Building_Age_Expansion_2026-10-28/aerials/nendophoto2019.tif"
+    ],
+    [
+      "Jan2026_local_reference",
+      "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/04_Data/Ready/Wider_Building_Update_2026-10-28/Imagery_Reference_Esri_2026-01-16.tif"
+    ]
+  ],
+  "source_buildings": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Wider_Building_Update_2026-10-28/Wider_Building_Update_2026-10-28.gpkg",
+  "no_source_attributes_modified": true
+}

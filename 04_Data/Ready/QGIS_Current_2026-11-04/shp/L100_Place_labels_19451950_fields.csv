@@ -1,0 +1,10 @@
+﻿source_field,shp_field,shp_type,dbf_width_bytes,null_bit,storage,source_non_null,source_null,source_max_text_bytes
+__wider_pk,wider_pk,integer,11,0,shp_and_csv,2,0,
+label45,label45,text,13,1,shp_and_csv,1,1,13
+label74,label74,text,23,2,shp_and_csv,2,0,23
+label19,label19,text,29,3,shp_and_csv,2,0,29
+kind,kind,text,7,4,shp_and_csv,2,0,7
+source_note,source_not,text,60,5,shp_and_csv,2,0,60
+delivery_source_fid,delivery_s,integer,11,6,shp_and_csv,2,0,
+delivery_geometry,delivery_g,text,12,7,shp_and_csv,2,0,12
+delivery_value_scope,delivery_v,text,66,8,shp_and_csv,2,0,66

@@ -1,0 +1,262 @@
+[
+  {
+    "building_id": "bldg_9766bbc1-5fd7-4dd0-8105-3cc4674f4d06",
+    "source_far_pct": 600.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 600,
+    "minor_share_pct": 27.96105039825455,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 45, \"far_pct\": 600, \"overlap_m2\": 452.1106845847098, \"share_pct\": 72.03894960176632}, {\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 175.4813154154108, \"share_pct\": 27.96105039825455}]"
+  },
+  {
+    "building_id": "bldg_f1669a06-44dc-4c02-8c17-4094b44cf945",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 32.67696612358002,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 273.44263420560856, \"share_pct\": 67.32303387639266}, {\"objectid\": 44, \"far_pct\": 600, \"overlap_m2\": 132.72241579434194, \"share_pct\": 32.67696612358002}]"
+  },
+  {
+    "building_id": "bldg_47188653-1dea-4db9-b1b1-88709e45272a",
+    "source_far_pct": 600.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 600,
+    "minor_share_pct": 21.166051817798945,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 45, \"far_pct\": 600, \"overlap_m2\": 26.199910840718076, \"share_pct\": 78.833948182212}, {\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 7.034389159282, \"share_pct\": 21.166051817798945}]"
+  },
+  {
+    "building_id": "bldg_c50c6362-0459-4990-afb3-319e33237b4d",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 43.77668414751886,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 45.7785980199551, \"share_pct\": 56.22331585251689}, {\"objectid\": 44, \"far_pct\": 600, \"overlap_m2\": 35.644201980059734, \"share_pct\": 43.77668414751886}]"
+  },
+  {
+    "building_id": "bldg_21f764d9-6fe6-49e1-9edc-53163e9cc717",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 49.531311007539166,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 297.3041326440871, \"share_pct\": 50.46868899244107}, {\"objectid\": 44, \"far_pct\": 600, \"overlap_m2\": 291.7821673558137, \"share_pct\": 49.531311007539166}]"
+  },
+  {
+    "building_id": "bldg_5b317b29-ae57-4dc4-9628-89cbdc234ffe",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 24.248263197402853,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 155.80634480179287, \"share_pct\": 75.7517654483341}, {\"objectid\": 44, \"far_pct\": 600, \"overlap_m2\": 49.87386411681655, \"share_pct\": 24.248263197402853}]"
+  },
+  {
+    "building_id": "bldg_0db85887-e5d7-47a2-a891-8f38e89b8540",
+    "source_far_pct": 600.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 600,
+    "minor_share_pct": 2.4077831116485258,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 44, \"far_pct\": 600, \"overlap_m2\": 1271.4400544735836, \"share_pct\": 97.59222185738389}, {\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 31.36881026347237, \"share_pct\": 2.4077831116485258}]"
+  },
+  {
+    "building_id": "bldg_43ecae6b-db16-4f96-9735-cdef2967ef5c",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 24.429769017350125,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 92.45469358662376, \"share_pct\": 75.57025763420249}, {\"objectid\": 44, \"far_pct\": 600, \"overlap_m2\": 29.88803901958454, \"share_pct\": 24.429769017350125}]"
+  },
+  {
+    "building_id": "bldg_c3926ebf-b1b4-483c-9dd8-8d2f68739dbb",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 16.49242525512547,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 187.02986922051787, \"share_pct\": 83.5075747448323}, {\"objectid\": 45, \"far_pct\": 600, \"overlap_m2\": 36.93768077950517, \"share_pct\": 16.49242525512547}]"
+  },
+  {
+    "building_id": "bldg_5e7999c7-1b9c-4164-8429-5b7140b5bd09",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 22.22880815860353,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 428.7945375064737, \"share_pct\": 77.77121287755266}, {\"objectid\": 44, \"far_pct\": 600, \"overlap_m2\": 122.55937847716996, \"share_pct\": 22.22880815860353}]"
+  },
+  {
+    "building_id": "bldg_171f7abb-4730-4a9c-9394-9549d0b2afa7",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 15.566406931816415,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 684.190364592243, \"share_pct\": 84.43360470141988}, {\"objectid\": 44, \"far_pct\": 600, \"overlap_m2\": 126.13917967535963, \"share_pct\": 15.566406931816415}]"
+  },
+  {
+    "building_id": "bldg_37e36e50-f4a1-4d85-a44c-4e05dc5f1867",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 4.722033705614993,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 403.5635939060485, \"share_pct\": 95.27796629441555}, {\"objectid\": 44, \"far_pct\": 600, \"overlap_m2\": 20.00085609399889, \"share_pct\": 4.722033705614993}]"
+  },
+  {
+    "building_id": "bldg_70f7265f-ce9e-46d3-9f01-5f02c0b5d851",
+    "source_far_pct": 600.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 600,
+    "minor_share_pct": 9.838113647788912,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 45, \"far_pct\": 600, \"overlap_m2\": 601.982153532037, \"share_pct\": 90.16188635222416}, {\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 65.68594646803103, \"share_pct\": 9.838113647788912}]"
+  },
+  {
+    "building_id": "bldg_2e3b9591-4411-415f-9ce3-a877d78eb3ca",
+    "source_far_pct": 600.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 600,
+    "minor_share_pct": 43.361558018052875,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 45, \"far_pct\": 600, \"overlap_m2\": 227.38844864726707, \"share_pct\": 56.63844198193625}, {\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 174.08525135274976, \"share_pct\": 43.361558018052875}]"
+  },
+  {
+    "building_id": "bldg_4147e31e-e1fd-41cf-aa19-9916d65c733b",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 43.376397779485146,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 147.28600161531358, \"share_pct\": 56.62360222053164}, {\"objectid\": 45, \"far_pct\": 600, \"overlap_m2\": 112.82814838472405, \"share_pct\": 43.376397779485146}]"
+  },
+  {
+    "building_id": "bldg_491d573e-528b-4fdf-aeed-e7ca0e2e7341",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 15.241363086847594,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 73.85121891376912, \"share_pct\": 84.75868723621522}, {\"objectid\": 44, \"far_pct\": 600, \"overlap_m2\": 13.2799749332371, \"share_pct\": 15.241363086847594}]"
+  },
+  {
+    "building_id": "bldg_aced584d-75c3-4a22-b04d-f8abd9af6f7c",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 21.67703883889318,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 207.0577913668967, \"share_pct\": 78.32296116109582}, {\"objectid\": 44, \"far_pct\": 600, \"overlap_m2\": 57.306308633094886, \"share_pct\": 21.67703883889318}]"
+  },
+  {
+    "building_id": "bldg_67f5d5e2-9b24-4b53-a3f4-6a96c9799475",
+    "source_far_pct": 800.0,
+    "ward_far_set": "800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 0,
+    "review_class": "single official zone",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 39.55544999999984, \"share_pct\": 100.0}]"
+  },
+  {
+    "building_id": "bldg_909d050a-9ae6-45ca-bedb-dbc1f6e4c835",
+    "source_far_pct": 600.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 600,
+    "minor_share_pct": 28.11907128038892,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 45, \"far_pct\": 600, \"overlap_m2\": 31.987803970459936, \"share_pct\": 71.8809287196356}, {\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 12.51329602955957, \"share_pct\": 28.11907128038892}]"
+  },
+  {
+    "building_id": "bldg_810478c9-3c37-408a-8969-87a31c6137bf",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 42.968873533389186,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 1024.4353918990164, \"share_pct\": 57.03113335797059}, {\"objectid\": 44, \"far_pct\": 600, \"overlap_m2\": 667.1055480548384, \"share_pct\": 37.1382966420472}, {\"objectid\": 45, \"far_pct\": 600, \"overlap_m2\": 104.73313383389905, \"share_pct\": 5.8305768913419875}]"
+  },
+  {
+    "building_id": "bldg_404b814c-b5ee-4f40-ba6b-a1b4432983fa",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 17.198455687858512,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 97.34132989031787, \"share_pct\": 82.80154431215387}, {\"objectid\": 45, \"far_pct\": 600, \"overlap_m2\": 20.218470109743066, \"share_pct\": 17.198455687858512}]"
+  },
+  {
+    "building_id": "bldg_6ecaa773-bb40-4d98-8179-fad242e93f51",
+    "source_far_pct": 600.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 600,
+    "minor_share_pct": 49.52248105732783,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 45, \"far_pct\": 600, \"overlap_m2\": 316.05690845655045, \"share_pct\": 50.47751894267217}, {\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 310.0770915435278, \"share_pct\": 49.52248105732783}]"
+  },
+  {
+    "building_id": "bldg_02aa96f3-1f2c-4740-ab4d-e4761baea95e",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 47.00274642742578,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 374.4530225690687, \"share_pct\": 52.9972535725907}, {\"objectid\": 45, \"far_pct\": 600, \"overlap_m2\": 332.0987274310319, \"share_pct\": 47.00274642742578}]"
+  },
+  {
+    "building_id": "bldg_78b94284-b7c8-4727-bc76-5303f530a9f2",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 27.338280660951767,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 169.544023901326, \"share_pct\": 72.66171933905291}, {\"objectid\": 45, \"far_pct\": 600, \"overlap_m2\": 63.78932609856929, \"share_pct\": 27.338280660951767}]"
+  },
+  {
+    "building_id": "bldg_cfe976b6-52d9-42bf-b797-8f61fd79e8ae",
+    "source_far_pct": 800.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 800,
+    "minor_share_pct": 47.83966517104266,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 117.60392484610202, \"share_pct\": 52.16033482895089}, {\"objectid\": 45, \"far_pct\": 600, \"overlap_m2\": 107.86227515386418, \"share_pct\": 47.83966517104266}]"
+  },
+  {
+    "building_id": "bldg_755b00cc-318b-4ccb-9c0c-ca5dc816a756",
+    "source_far_pct": 600.0,
+    "ward_far_set": "600,800",
+    "dominant_far_pct": 600,
+    "minor_share_pct": 23.60499155310401,
+    "review_class": "crosses official FAR boundary",
+    "legal_parcel_status": "parcel boundary / legal capacity pending",
+    "ward_overlaps": "[{\"objectid\": 44, \"far_pct\": 600, \"overlap_m2\": 1314.0305694902017, \"share_pct\": 76.3950119456126}, {\"objectid\": 57, \"far_pct\": 800, \"overlap_m2\": 406.0170906893618, \"share_pct\": 23.60499155310401}]"
+  }
+]

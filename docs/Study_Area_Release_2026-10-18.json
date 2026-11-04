@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-18",
+  "boundary_basis": "Official Theme B brief p4 Figure5; source strokes and affine controls retained",
+  "boundary_revision": "2026-10-18-brief-figure5",
+  "scope_statistics": {
+    "study_area": {
+      "area_ha": 41.98967122381172,
+      "selected_models": 1087,
+      "boundary_uncertainty_m": 25.0,
+      "raw_boundary_crossing_models": 22,
+      "selected_ward_models": {
+        "13102": 317,
+        "13101": 770
+      }
+    },
+    "primary_brief": {
+      "area_ha": 10.703830447464894,
+      "selected_models": 277,
+      "boundary_uncertainty_m": 25.0,
+      "raw_boundary_crossing_models": 6,
+      "selected_ward_models": {
+        "13101": 277
+      }
+    }
+  },
+  "mapping": {
+    "overview": 1,
+    "themes": 9,
+    "source_outlines": 2,
+    "one_view_per_theme": true,
+    "map_format": "PNG",
+    "web_previews": "JPEG",
+    "native_legend_px": 17,
+    "source_link_px": 19,
+    "old_served_boundary": "replaced"
+  },
+  "poi": {
+    "provider": "OpenStreetMap contributors",
+    "snapshot": "2026-10-18",
+    "wider": 353,
+    "primary": 178,
+    "food_wider": 139,
+    "food_primary": 86,
+    "primary_to_wider_density_ratio": 1.9781013984479046,
+    "classification": "Versioned explicit source tag rules, support features separate",
+    "spatial_reading": "Three northing bands; descriptive100m cell concentration"
+  },
+  "gis": {
+    "spatial_layers": 18,
+    "membership_attribute_tables": 1,
+    "qgis_version": "3.44.12",
+    "portable": true,
+    "provider_checks": "all layers reopened and counted"
+  },
+  "catalog": {
+    "tables": 124,
+    "fields": 1619
+  },
+  "documents": {
+    "topics": 18,
+    "brief_requirements": 7,
+    "reading": "source -> local check -> design action"
+  },
+  "risk": {
+    "wider_official_towns": 23,
+    "primary_official_towns": 13,
+    "source_year": 2022,
+    "census_year": 2020,
+    "area_weighting": false
+  },
+  "simulation": {
+    "new_cfd": false,
+    "plan": "docs/Simulation_Scope_Plan_2026-10-18.md",
+    "legacy_acceptance_unchanged": true
+  },
+  "delivery": {
+    "local_result_copy": false,
+    "downloads_copy": false,
+    "drive_readback_requested": false
+  },
+  "site": {
+    "version": 18,
+    "source_commit": "bf319f1cc1b6d5bd99ca6f8d11c2cf43ebbc3230",
+    "version_id": "appgprj_6ace04f6c3848191b6db1d072ec879fb~appgver_d8c5fd46d9d48191989b51ffd86392f6",
+    "deployment_id": "appgdep_6ad44df48a148191b739d11eb4d27e1b",
+    "url": "https://kajicho-wind-heat-carbon-demo.specialgooood.chatgpt.site"
+  },
+  "validation": {
+    "source_pixels_and_affine": "passed",
+    "native_gis_membership_and_paths": "passed",
+    "poi_membership_mix_and_concentration": "passed",
+    "context_policy_and_language": "passed",
+    "cfd_fixture_tests": "7 + 5 + 2 passed; no solver run",
+    "math_guides": "passed",
+    "browser": "English initial load; nine themes; 17px native legends; 19px/750 source links; no desktop overflow",
+    "full_png": "wrapped legends and separated footer visually checked"
+  },
+  "historical_receipt": true,
+  "superseded_by": "Current_Delivery.json"
+}

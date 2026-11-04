@@ -1,0 +1,22 @@
+material,path,status,use_en,interpretation_en,use_zh,interpretation_zh
+Plan,docs/PROJECT_PLAN.md,Ready,Current methods and team decisions,Before design; actions and roles to agree,当前方法与团队决策,设计前准备；具体措施和角色待定
+QGIS baseline,05_QGIS/Projects/Kanda_Nihonbashi_Study_2026-10-18.qgz,Current,20 spatial layers and one membership table,Figure 5: 41.98967ha wider / 10.70383ha primary; two source traces + POIs; full-footprint containment; relative paths; EPSG:6677,当前20空间图层与1成员属性表,Figure 5: 41.98967ha wider / 10.70383ha primary；完全在界内的完整模型；相对路径；EPSG:6677
+QGIS context,05_QGIS/Projects/Kajicho_CFD_Baseline_2026-10-14.qgz,Ready with labels,Extended geometry and diagnostics,45 vectors and 6 unconverged legacy rasters,扩展几何与诊断工程,45矢量层+6个未收敛旧栅格
+Public GIS,04_Data/Ready/Study_Area_2026-10-18/Kanda_Nihonbashi_Study.gpkg,Current,"Study boundary, complete membership and thematic source layers",One study_area; keep original source IDs and years,研究边界/完整成员及专题源图层,统一study_area；保留源ID与年份
+Layer list,04_Data/Metadata/Layer_Catalog.csv,Ready,126-table current and dated dataset index,Locate by dataset_path and layer,126表的当前与日期版索引,按dataset_path和layer定位
+Field list,04_Data/Metadata/Layer_Fields.csv,Ready,1665-field index,Read units/derivations with Data guide and source register,1665字段索引,单位和推导同时查Data guide与来源
+Building table,06_Outputs/Study_Area_2026-10-18/tables/buildings.csv,Current source models and proxies,Building uses and floor-area proxies,"1,074 wider / 277 primary model objects; wider wards Chiyoda 764 / Chuo 310; 2025 model / 2021 use survey; actual floor area and energy pending",建筑用途与楼面代理,外围1074／重点277模型；外围千代田764/中央310；2025模型/2021用途调查；真实延床面积和用能待补
+Weather,04_Data/Ready/Public_Baseline_2026-10-14/Tokyo_2025_hourly.csv,Ready with missing data,2025 Tokyo hourly background weather,JST; 2 missing wind hours among 8760; not site measurements,2025东京站逐小时背景天气,JST；8760小时中2小时缺风；非现场观测
+DECC input,04_Data/Ready/Public_Baseline_2026-10-14/DECC_EUI_Input_Template.csv,Pending registered file,Empty use-specific EUI-range form,"Check electricity, fuels and primary energy separately",分用途EUI区间空表,购电/燃料/一次能源分别核对
+Energy input,07_Team/Templates/Building_Energy_Input.csv,Empty template,"Metered energy, supplier, factor and access records",Metering period and sharing scope required,真实用能与供应商/系数/授权记录,计量期间与共享范围必填
+Tree survey,04_Data/Ready/CFD_Baseline_2026-10-14/Core_Street_Tree_Field_Form.csv,Empty template,"Individual tree position, crown and height form",Core individual-tree gaps require fieldwork,单株位置/树冠/高度现场表,核心单株点位缺口仍待补查
+FAR reference,04_Data/Ready/CFD_Baseline_2026-10-14/FAR26_Official_Review.csv,Reference review ready,Official-map reference review for 26 objects,Legal site boundaries/capacity remain to check,26对象官方图则参考复核,不等于法定地块或容量核实
+Legal FAR check,04_Data/Ready/CFD_Baseline_2026-10-14/FAR26_Legal_Site_Check.csv,Pending site check,"Legal site, frontage and capacity form",Join on building_id and retain evidence,地块/接道/法定容量补查表,按building_id连接，保留证据
+Field notes,07_Team/Templates/Field_Observations.csv,Empty template,"Field time, location, photos and observations",EPSG:4326 longitude/latitude; distinguish inference,现场时刻/位置/照片/观察,EPSG:4326经纬度；观察与推断分开
+Actors,07_Team/Templates/Stakeholder_Register.csv,Empty template,"Actors, rights, investment and upkeep",Leave contact status empty until the team agrees contact,主体/权限/投入/维护,联系状态留空，团队确认联系
+Actions,07_Team/Templates/Action_Cards.csv,Empty template,Issue → action → metric → delivery actor,Leave uncalculated metrics empty,问题→措施→指标→实施主体,未核算指标留空
+Pilot,07_Team/Templates/Analysis_Pilot.md,Empty template,Protocol before a specific calculation,"Question, inputs, variables, metrics, budget and stopping conditions",具体计算前固定协议,问题/输入/变量/指标/预算/停止条件
+Tasks,07_Team/Task_Queue.csv,Unassigned,Starting tasks to claim,"Complete owner, reviewer, issue and due date",可认领起步任务,owner/reviewer/Issue/due_date待填
+CFD status,docs/CFD_STATUS.md,Unaccepted; retained,Completed 6000/2000-trial status,No new CFD; old fields do not establish verified benefits,结束的6000/2000次试验状态,不追加CFD；旧场不作为验证效益
+Local demo,06_Outputs/Simulation_Demo/Kajicho_Wind_Heat_Carbon/serve_demo.py,Ready,Local three-language website,Standard Python 3; no CFD run needed,本机三语言网页入口,Python3标准库，无需启动CFD
+External materials,DATA_ACCESS.md,Separate access required,"Originals, policies, large data and review packages","GitHub, Drive and Site need separate access",原件/政策/大数据/核查包入口,仓库、Drive与Site分别授权

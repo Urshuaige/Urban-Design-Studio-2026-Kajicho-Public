@@ -1,0 +1,163 @@
+{
+  "status": "computed",
+  "host": "ubuntu-2004",
+  "pid": 18938,
+  "seconds": 0.5491976339835674,
+  "buildings": 1067,
+  "estimated_total_buildings": 967,
+  "status_counts": {
+    "Benchmark estimate": 711,
+    "Mixed-use estimate": 131,
+    "Dwelling estimate": 91,
+    "Unresolved use / no estimate": 87,
+    "Broad-use proxy": 34,
+    "Partial / workshop unresolved": 13
+  },
+  "floor_m2": 1180577.394358572,
+  "floor_with_total_estimate_m2": 1147332.6323310968,
+  "modeled_floor_m2_including_partial": 1148784.393998849,
+  "households_expected_wider": 2193.2303773177914,
+  "households_integer_previous": 2192,
+  "primary_gj_per_household": 48.286,
+  "energy_est_gj_y": 1728624.5479555405,
+  "co2_est_t_y": 78945.17537428132,
+  "covered_energy_gj_y_including_partial": 1729544.5153199583,
+  "covered_co2_t_y_including_partial": 78990.5202429247,
+  "top20_co2_share_pct": 17.154424546550057,
+  "by_use": [
+    {
+      "use_en": "Apartments",
+      "buildings": 60,
+      "estimated": 60,
+      "floor_m2": 144894.6383654131,
+      "energy_gj": 87392.6859437662,
+      "co2_t": 4307.5548305133
+    },
+    {
+      "use_en": "Education / care",
+      "buildings": 21,
+      "estimated": 21,
+      "floor_m2": 17704.4478783564,
+      "energy_gj": 19705.0504886107,
+      "co2_t": 918.8608448867
+    },
+    {
+      "use_en": "Government",
+      "buildings": 3,
+      "estimated": 3,
+      "floor_m2": 463.6158069158,
+      "energy_gj": 748.2759123622,
+      "co2_t": 33.7048691628
+    },
+    {
+      "use_en": "Hotel",
+      "buildings": 18,
+      "estimated": 18,
+      "floor_m2": 54088.7523461173,
+      "energy_gj": 137655.8747208685,
+      "co2_t": 6496.0591567687
+    },
+    {
+      "use_en": "House",
+      "buildings": 31,
+      "estimated": 31,
+      "floor_m2": 4263.0886850863,
+      "energy_gj": 3217.6805789655,
+      "co2_t": 158.5983468902
+    },
+    {
+      "use_en": "Housing + shop",
+      "buildings": 131,
+      "estimated": 131,
+      "floor_m2": 31534.1438790386,
+      "energy_gj": 30306.2319954918,
+      "co2_t": 1478.2138700107
+    },
+    {
+      "use_en": "Housing + workshop",
+      "buildings": 13,
+      "estimated": 0,
+      "floor_m2": 2278.7515450805,
+      "energy_gj": null,
+      "co2_t": null
+    },
+    {
+      "use_en": "Office",
+      "buildings": 628,
+      "estimated": 628,
+      "floor_m2": 854707.3505030272,
+      "energy_gj": 1379497.663711886,
+      "co2_t": 62137.2243815701
+    },
+    {
+      "use_en": "Other",
+      "buildings": 3,
+      "estimated": 0,
+      "floor_m2": 389.5813384816,
+      "energy_gj": null,
+      "co2_t": null
+    },
+    {
+      "use_en": "Retail",
+      "buildings": 62,
+      "estimated": 62,
+      "floor_m2": 23814.4454281527,
+      "energy_gj": 51510.6454610943,
+      "co2_t": 2488.609547242
+    },
+    {
+      "use_en": "Transport / storage",
+      "buildings": 13,
+      "estimated": 13,
+      "floor_m2": 15862.1494389892,
+      "energy_gj": 18590.4391424953,
+      "co2_t": 926.349527237
+    },
+    {
+      "use_en": "Unknown",
+      "buildings": 82,
+      "estimated": 0,
+      "floor_m2": 26966.9819545191,
+      "energy_gj": null,
+      "co2_t": null
+    },
+    {
+      "use_en": "Utilities",
+      "buildings": 2,
+      "estimated": 0,
+      "floor_m2": 3609.447189394,
+      "energy_gj": null,
+      "co2_t": null
+    }
+  ],
+  "sensitivity": {
+    "ref25_energy_gj_y": 1419245.6464621434,
+    "ref25_co2_t_y": 66899.2030436834,
+    "co2_apartment_alt_t_y": 77553.70151092052,
+    "energy_floor_minus1_gj_y": null,
+    "energy_floor_plus1_gj_y": null,
+    "co2_floor_minus1_t_y": null,
+    "co2_floor_plus1_t_y": null,
+    "energy_mixed50_gj_y": 1746584.417729639,
+    "co2_mixed50_t_y": 79812.65684492796
+  },
+  "scope": "Transferred benchmark estimates; household components exclude communal services; unresolved uses not imputed",
+  "no_building_efficiency_rating": true,
+  "no_nonres_electricity_or_fuel_split": true,
+  "floor_sensitivity": {
+    "status": "not_evaluated",
+    "eligible_estimated_buildings": 0,
+    "height_proxy_unresolved_buildings": 84,
+    "reason": "All84 height-derived floor buildings have unresolved benchmark use; unchanged aggregate values are not evidence of stability."
+  },
+  "apartment_alternative_scope": "All modeled dwelling households, including houses and mixed-use dwellings, counterfactually assigned national apartment mean; not a dwelling-type matched estimate.",
+  "office_reference_sensitivity": {
+    "main_office_gj_y": 1379497.663711886,
+    "self_owned_reference_office_gj_y": 1033262.3395541947,
+    "whole_estimated_subtotal_with_self_owned_office_reference_gj_y": 1382389.2237978494,
+    "tenant_eligible_buildings": 245,
+    "tenant_eligible_baseline_gj_y": 1120028.2350112756,
+    "tenant_eligible_alternative_gj_y": 1021826.5844858352,
+    "interpretation": "Different sample year, business scale and ownership/coverage conventions; transfer sensitivity only, not confidence bounds. No CO2 scaling inferred."
+  }
+}

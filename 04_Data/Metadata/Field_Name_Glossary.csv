@@ -1,0 +1,70 @@
+﻿source_field,english_meaning,interpretation
+A面積m2,"Owner A area, m²",Original field retained; confirm units and code definitions in the dataset source register.
+B面積m2,"Owner B area, m²",Original field retained; confirm units and code definitions in the dataset source register.
+C面積m2,"Owner C area, m²",Original field retained; confirm units and code definitions in the dataset source register.
+D面積m2,"Owner D area, m²",Original field retained; confirm units and code definitions in the dataset source register.
+E面積m2,"Owner E area, m²",Original field retained; confirm units and code definitions in the dataset source register.
+generic_13+区市町村コード+大字・町コード+町・丁目コード,"Combined Tokyo, municipality, town and chome code",Original field retained; confirm units and code definitions in the dataset source register.
+generic_区市町村名称,Municipality name,Original field retained; confirm units and code definitions in the dataset source register.
+generic_変化フラグ,Change flag,Original field retained; confirm units and code definitions in the dataset source register.
+generic_大字・町コード,Town code,Original field retained; confirm units and code definitions in the dataset source register.
+generic_町・丁目コード ,Chome code,Original field retained; confirm units and code definitions in the dataset source register.
+generic_町丁目名称,Town/chome name,Original field retained; confirm units and code definitions in the dataset source register.
+generic_過年度修正フラグ,Previous-year correction flag,Original field retained; confirm units and code definitions in the dataset source register.
+レベル,Level,Original field retained; confirm units and code definitions in the dataset source register.
+事業者種別,Operator type,Original field retained; confirm units and code definitions in the dataset source register.
+任意ID,Optional ID,Original field retained; confirm units and code definitions in the dataset source register.
+位置,Location,Original field retained; confirm units and code definitions in the dataset source register.
+住所,Address,Original field retained; confirm units and code definitions in the dataset source register.
+供用済面積,Area in service,Original field retained; confirm units and code definitions in the dataset source register.
+供用開始年,Year opened for service,Original field retained; confirm units and code definitions in the dataset source register.
+備考,Remarks,Original field retained; confirm units and code definitions in the dataset source register.
+公園名,Park name,Original field retained; confirm units and code definitions in the dataset source register.
+公園種別,Park type,Original field retained; confirm units and code definitions in the dataset source register.
+区分,Category,Original field retained; confirm units and code definitions in the dataset source register.
+区市町村,Municipality,Original field retained; confirm units and code definitions in the dataset source register.
+収容人数,"Capacity, people",Original field retained; confirm units and code definitions in the dataset source register.
+名称,Name,Original field retained; confirm units and code definitions in the dataset source register.
+容積率,Floor area ratio,Original field retained; confirm units and code definitions in the dataset source register.
+対象とする災害の分類,Hazard category,Original field retained; confirm units and code definitions in the dataset source register.
+幹周cm,"Trunk circumference, cm",Original field retained; confirm units and code definitions in the dataset source register.
+建ぺい率,Building coverage ratio,Original field retained; confirm units and code definitions in the dataset source register.
+所在地市区町村名,Municipality of location,Original field retained; confirm units and code definitions in the dataset source register.
+所在地都道府県名,Prefecture of location,Original field retained; confirm units and code definitions in the dataset source register.
+所有者A,Owner A,Original field retained; confirm units and code definitions in the dataset source register.
+所有者B,Owner B,Original field retained; confirm units and code definitions in the dataset source register.
+所有者C,Owner C,Original field retained; confirm units and code definitions in the dataset source register.
+所有者D,Owner D,Original field retained; confirm units and code definitions in the dataset source register.
+所有者E,Owner E,Original field retained; confirm units and code definitions in the dataset source register.
+所管,Responsible authority,Original field retained; confirm units and code definitions in the dataset source register.
+整理番号,Record number,Original field retained; confirm units and code definitions in the dataset source register.
+施設の種類,Facility type,Original field retained; confirm units and code definitions in the dataset source register.
+施設規模,Facility scale,Original field retained; confirm units and code definitions in the dataset source register.
+本数,Tree count,Original field retained; confirm units and code definitions in the dataset source register.
+枝ID,Branch ID,Original field retained; confirm units and code definitions in the dataset source register.
+枝張ｍ,"Crown spread, m",Original field retained; confirm units and code definitions in the dataset source register.
+樹種,Tree species,Original field retained; confirm units and code definitions in the dataset source register.
+樹高m,"Tree height, m",Original field retained; confirm units and code definitions in the dataset source register.
+用途地域,Land-use zone,Original field retained; confirm units and code definitions in the dataset source register.
+移管年月日,Transfer date,Original field retained; confirm units and code definitions in the dataset source register.
+種別,Type,Original field retained; confirm units and code definitions in the dataset source register.
+管理市区町村,Managing municipality,Original field retained; confirm units and code definitions in the dataset source register.
+管理都道府県・整備局,Managing prefecture or regional bureau,Original field retained; confirm units and code definitions in the dataset source register.
+行政区域,Administrative area,Original field retained; confirm units and code definitions in the dataset source register.
+複数区市,Multiple municipalities,Original field retained; confirm units and code definitions in the dataset source register.
+設置等根拠,Basis for establishment,Original field retained; confirm units and code definitions in the dataset source register.
+資料名称,Source title,Original field retained; confirm units and code definitions in the dataset source register.
+資料年月,Source year/month,Original field retained; confirm units and code definitions in the dataset source register.
+路線名,Route name,Original field retained; confirm units and code definitions in the dataset source register.
+路線名称,Route name,Original field retained; confirm units and code definitions in the dataset source register.
+通称道路名,Common road name,Original field retained; confirm units and code definitions in the dataset source register.
+運営会社,Operating company,Original field retained; confirm units and code definitions in the dataset source register.
+道路種別,Road type,Original field retained; confirm units and code definitions in the dataset source register.
+道路通称名,Common road name,Original field retained; confirm units and code definitions in the dataset source register.
+都市計画決定,Urban-plan decision,Original field retained; confirm units and code definitions in the dataset source register.
+鉄道区分,Railway category,Original field retained; confirm units and code definitions in the dataset source register.
+開園年月日,Park opening date,Original field retained; confirm units and code definitions in the dataset source register.
+防火地域,Fire-prevention zone,Original field retained; confirm units and code definitions in the dataset source register.
+面積m2,"Area, m²",Original field retained; confirm units and code definitions in the dataset source register.
+駅名,Station name,Original field retained; confirm units and code definitions in the dataset source register.
+高さ,Height,Original field retained; confirm units and code definitions in the dataset source register.

@@ -1,0 +1,17 @@
+[
+  {
+    "source_fid": 379,
+    "name": "京王プレッソイン大手町",
+    "year_to": 2005,
+    "source_url": "https://www.keio.co.jp/news/update/news_release/news_release2015/nr150520_keiopressoinakasaka.pdf",
+    "basis": "Operator gives opening1Oct2005 and exact address4-4-1; 2004–2005 owner development records describe the new hotel. Completion must precede the documented opening. Opening is not entered as the exact construction year."
+  },
+  {
+    "source_fid": 216,
+    "name": "Clipニホンバシビル",
+    "year_to": 2017,
+    "source_url": "https://www.mitsuifudosan.co.jp/corporate/news/2017/0417_02/",
+    "additional_source": "https://www.axelspace.com/ja/news/other_20170417/",
+    "basis": "Owner and tenant describe a newly built three-storey building occupied inApr2017. Exact completion date not stated; derive only a latest-possible completion year. Closure of Clip in2021 is not demolition."
+  }
+]

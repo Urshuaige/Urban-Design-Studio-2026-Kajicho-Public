@@ -1,0 +1,17 @@
+{
+  "host": null,
+  "scripts_directory": "08_Scripts",
+  "policy_path": "03_Theme_B/Simulation_V3/CFD_Acceptance_v4.json",
+  "runs": [
+    {
+      "key": "trial",
+      "directory": "local/cfd/trial",
+      "cells": 2512453,
+      "label": {
+        "zh": "本地试验",
+        "en": "Local trial",
+        "ja": "ローカル試行"
+      }
+    }
+  ]
+}

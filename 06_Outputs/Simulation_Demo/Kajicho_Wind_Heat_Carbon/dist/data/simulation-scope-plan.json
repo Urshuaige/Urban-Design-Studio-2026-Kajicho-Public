@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "prepared_on": "2026-10-18",
+  "timezone": "Asia/Tokyo",
+  "purpose": "Prepare question-led simulation inputs using the official Figure 5 primary and approximate wider study levels",
+  "execution": {
+    "status": "planning_only",
+    "new_mesh_started": false,
+    "new_solver_started": false,
+    "new_radiation_started": false,
+    "new_building_energy_started": false,
+    "queued_cases": [],
+    "archived_jobs_modified": false
+  },
+  "source_snapshot": {
+    "team_commit": "5c233bfa6af9aa985c3ca05d77c677303e3de6ef",
+    "protocol": "03_Theme_B/Simulation_V3/Protocol.md",
+    "acceptance": "03_Theme_B/Simulation_V3/CFD_Acceptance_v4.json",
+    "project_plan": "docs/PROJECT_PLAN.md",
+    "old_domain": "04_Data/Ready/CFD_Domain_Audit_2026-10-14/Sensitivity_Plan.json"
+  },
+  "boundary": {
+    "status": "official_figure5_source_traces_verified",
+    "id": "study_area",
+    "path": "06_Outputs/Study_Area_2026-10-18/study_boundary_6677.geojson",
+    "geometry_sha256": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+    "file_sha256": "1a1c6938ed7636e3d3f7fef91f2dde89ecb6a1c5a12468a17169319e4aac6cd7",
+    "crs": "EPSG:6677",
+    "source": "Official Theme B brief p.4 Figure5",
+    "interpretation": "Solid primary + dashed approximate secondary, registered source-stroke traces; no operational block expansion or straight cuts",
+    "area_ha": 41.98967122381172,
+    "building_count": 1074,
+    "primary": {
+      "id": "primary_brief",
+      "area_ha": 10.703830447464894,
+      "building_count": 277,
+      "geometry_sha256": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8"
+    },
+    "mapping_outline_count": 2,
+    "registration_rmse_m": 7.434546907555709,
+    "screening_band_m": 25,
+    "source_years": {
+      "building_model": 2025,
+      "known_land_use_survey": 2021
+    },
+    "footprint_crossings": {
+      "plateau": 22,
+      "osm": 24
+    },
+    "membership": "Only original full footprints covered by the source outline enter building analysis; crossing and exterior models remain context",
+    "review": {
+      "status": "source_pixels_affine_and_original_raster_independently_verified",
+      "on": "2026-10-18"
+    },
+    "selected_crossing_models": 0
+  },
+  "legacy": {
+    "reference_cells": 8079968,
+    "reference_iterations": 6000,
+    "light_cells": 2512453,
+    "light_iterations": 2000,
+    "full_numerical_acceptance": false,
+    "published_field_iteration": 100,
+    "new_scope_fields_valid": false,
+    "shade_grid_m": 5,
+    "wind_2d_units": "normalised; not m/s"
+  },
+  "available_data": {
+    "mapping_inventory_is_cfd_context": false,
+    "reusable": [
+      "raw CityGML and source metadata",
+      "JMA 2025 hourly records and quality flags",
+      "planning/road/water/vegetation source files",
+      "geometry builders and native heat-budget diagnostics",
+      "existing acceptance criteria as recorded project screens"
+    ],
+    "rebuild": [
+      "building and roof membership",
+      "complete surrounding geometry and coverage audit",
+      "street and facility inventory and denominators",
+      "shade/radiation surfaces, masks and outputs",
+      "wind-aligned air-domain bounds and inlet setup",
+      "mesh and sample/probe positions",
+      "wind and thermal solutions",
+      "energy estimates with the revised area/use groups"
+    ],
+    "retained_source_model_objects": 9244
+  },
+  "domain": {
+    "numeric_dimensions_m": null,
+    "maximum_height_m": null,
+    "context_objects": null,
+    "cost_rule": "Include each building whose distance from the revised evaluation area is less than 6 times its own height; assess uncertain distant context by sensitivity.",
+    "top_start": "5Hmax above the tallest retained building",
+    "lateral_rule": "case-dependent; assess a second boundary distance",
+    "old_500_750m_and_5_15_5H": "project choices, recompute rather than copy",
+    "directions": "define upstream/downstream per meteorological wind-from case",
+    "public_mapping": "One shared view: official solid primary + dashed approximate wider outline. Air domain is separate model metadata."
+  },
+  "weather": {
+    "available_hour": "2025-08-30T13:00:00+09:00",
+    "temperature_C": 38.4,
+    "wind_from_deg": 180,
+    "reference_speed_ms": 2.5,
+    "reference_height_m": 35.3,
+    "GHI_Wm2": 866.67,
+    "new_cases": "Select against the design question and source quality flags; no new selection fixed"
+  },
+  "heat": {
+    "old_albedo": [
+      0.2,
+      0.6
+    ],
+    "old_assumed_sensible_fraction": 0.2,
+    "old_flux_Wm2": [
+      138.67,
+      69.33
+    ],
+    "other_surfaces": "adiabatic",
+    "radiation": "off in archived CFD",
+    "new_total_power_W": null,
+    "actual_energy_savings_from_roof_flux": false
+  },
+  "acceptance": {
+    "policy": "03_Theme_B/Simulation_V3/CFD_Acceptance_v4.json",
+    "normal_end": true,
+    "outer_initial_residual_targets": {
+      "p_rgh": 0.0001,
+      "U": 0.0001,
+      "T": 1e-08,
+      "k": 0.0001,
+      "epsilon": 0.0001
+    },
+    "history_iterations": 200,
+    "thermal_relative_imbalance_max_exclusive": 0.01,
+    "probe_layout": "rebuild for revised streets",
+    "mesh_domain_inlet_field_validation": "separate records",
+    "provisional_extent_criteria": {
+      "wind_vector_RMS_over_Uref_max": 0.05,
+      "reportable_effect_sign": "preserved",
+      "paired_effect_relative_change_max": 0.1,
+      "wind_reporting_step_ms": 0.01,
+      "temperature_reporting_step_K": 0.01
+    }
+  },
+  "flow": {
+    "nodes": [
+      {
+        "id": "boundary",
+        "label": "Official Figure 5 study levels"
+      },
+      {
+        "id": "geometry",
+        "label": "Complete site and surrounding geometry"
+      },
+      {
+        "id": "pilot",
+        "label": "Street / buildings and design variable"
+      },
+      {
+        "id": "protocol",
+        "label": "Weather, model, metrics and budget"
+      },
+      {
+        "id": "checks",
+        "label": "Mesh, inlet and numerical checks"
+      },
+      {
+        "id": "results",
+        "label": "Paired options and sensitivity"
+      }
+    ],
+    "edges": [
+      [
+        "boundary",
+        "geometry"
+      ],
+      [
+        "geometry",
+        "pilot"
+      ],
+      [
+        "pilot",
+        "protocol"
+      ],
+      [
+        "protocol",
+        "checks"
+      ],
+      [
+        "checks",
+        "results"
+      ]
+    ]
+  },
+  "dependencies": [
+    "Use Figure 5 source scopes and report 25m boundary membership sensitivity",
+    "pilot street/building group and intervention",
+    "relevant weather cases",
+    "field geometry/vegetation and energy input gaps",
+    "fresh compute host selection before new jobs"
+  ],
+  "sources": [
+    {
+      "title": "COST 732 Best Practice Guideline, 2007",
+      "url": "https://www.mi.uni-hamburg.de/en/arbeitsgruppen/windkanallabor/documents.html",
+      "sections": "5.4–5.6; printed pp.16–19",
+      "content": "saved unchanged source PDF",
+      "online_index_checked_on": "2026-10-18",
+      "linked_cloud_status": "404"
+    },
+    {
+      "title": "Official UMEP SOLWEIG manual",
+      "url": "https://umep-docs.readthedocs.io/en/latest/processor/Outdoor%20Thermal%20Comfort%20SOLWEIG.html",
+      "checked_on": "2026-10-18",
+      "supports": "pedestrian radiation/Tmrt, surface/weather inputs and equal grid extent/pixel size"
+    }
+  ],
+  "recomputation_rule": "A reporting-mask-only change can reuse an accepted field after coverage checks. Current legacy fields are unaccepted. Select fresh solutions for the pilot when geometry or physical inputs change; do not automatically solve the entire district.",
+  "pilot": {
+    "selected": false,
+    "area": null,
+    "intervention": null,
+    "apply_to_all_study_buildings": false,
+    "priority": "Kajicho primary area near Kanda station; shortlist streets using food/service POIs, geometry and field checks. Specific pilot and intervention remain to be selected."
+  },
+  "method_review": {
+    "on": "2026-10-18",
+    "type": "fresh-context independent agent review",
+    "outcome": "no_material_issues",
+    "scope": "reuse/rebuild rules, domain and H-rules, weather/heat/energy distinctions, historical acceptance and proposed checks"
+  },
+  "poi_context": {
+    "source": "OSM 2026-10-18",
+    "inventory": "06_Outputs/Study_Area_2026-10-18/poi_semantics.json",
+    "wider_destinations": 353,
+    "primary_destinations": 178,
+    "use": "Use function clusters to choose field-survey routes and candidate pilot streets in the primary area. POI counts do not determine physical heat or energy loads."
+  }
+}

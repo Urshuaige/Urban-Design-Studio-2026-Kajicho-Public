@@ -1,0 +1,5 @@
+FoamFile {version 2.0;format ascii;class dictionary;object topoSetDict;}
+actions (
+ {name retainedCells;type cellSet;action new;source cellToCell;sourceInfo {set underdeterminedCells;}}
+ {name retainedCells;type cellSet;action invert;}
+);

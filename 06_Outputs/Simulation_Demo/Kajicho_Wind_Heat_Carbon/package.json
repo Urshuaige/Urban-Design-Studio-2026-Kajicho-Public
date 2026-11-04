@@ -1,0 +1,1 @@
+{"name":"kajicho-scenario-demo","version":"0.1.0","private":true,"type":"module","scripts":{"dev":"python3 -m http.server 9464 --bind 127.0.0.1 --directory dist"},"dependencies":{"three":"0.180.0","suncalc":"1.9.0"}}

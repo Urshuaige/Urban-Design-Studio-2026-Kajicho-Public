@@ -1,0 +1,90 @@
+[
+  {
+    "bounds_m": [
+      [
+        -7.260082244873047,
+        -6.26478385925293
+      ],
+      [
+        463.3429870605469,
+        464.33453369140625
+      ],
+      [
+        0.0,
+        0.958695650100708
+      ]
+    ],
+    "center_m": [
+      -6.762433052062988,
+      463.83876037597656,
+      0.479347825050354
+    ],
+    "criterion": "native zero internal-face connectivity determinant; removed without neighbor ring"
+  },
+  {
+    "bounds_m": [
+      [
+        -7.260082244873047,
+        -6.26478385925293
+      ],
+      [
+        464.33453369140625,
+        465.3260803222656
+      ],
+      [
+        0.0,
+        0.958695650100708
+      ]
+    ],
+    "center_m": [
+      -6.762433052062988,
+      464.83030700683594,
+      0.479347825050354
+    ],
+    "criterion": "native zero internal-face connectivity determinant; removed without neighbor ring"
+  },
+  {
+    "bounds_m": [
+      [
+        -8.255380630493164,
+        -7.260082244873047
+      ],
+      [
+        463.3429870605469,
+        464.33453369140625
+      ],
+      [
+        0.0,
+        0.958695650100708
+      ]
+    ],
+    "center_m": [
+      -7.7577314376831055,
+      463.83876037597656,
+      0.479347825050354
+    ],
+    "criterion": "native zero internal-face connectivity determinant; removed without neighbor ring"
+  },
+  {
+    "bounds_m": [
+      [
+        -8.255380630493164,
+        -7.260082244873047
+      ],
+      [
+        464.33453369140625,
+        465.3260803222656
+      ],
+      [
+        0.0,
+        0.958695650100708
+      ]
+    ],
+    "center_m": [
+      -7.7577314376831055,
+      464.83030700683594,
+      0.479347825050354
+    ],
+    "criterion": "native zero internal-face connectivity determinant; removed without neighbor ring"
+  }
+]

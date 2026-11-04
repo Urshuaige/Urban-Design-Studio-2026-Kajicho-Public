@@ -1,0 +1,137 @@
+{
+  "source_files": [
+    "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Transport_Extension_2026-11-01/Transport_Extended_Context_2026-11-01.gpkg",
+    "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Kajicho_Base_Map.gpkg"
+  ],
+  "new_geographic_downloads": 0,
+  "junction_gaps_m": {
+    "Showa_Yasukuni": 0.0,
+    "Chuo_Yasukuni": 0.0,
+    "Showa_Edo": 0.0
+  },
+  "junctions_epsg6677": {
+    "Showa_Yasukuni": [
+      -5250.263636624222,
+      -33772.771098618345
+    ],
+    "Chuo_Yasukuni": [
+      -5692.659666594454,
+      -33748.724473525246
+    ],
+    "Showa_Edo": [
+      -5204.682144818447,
+      -34442.85884977254
+    ]
+  },
+  "sections": [
+    {
+      "key": "A",
+      "name": "Showa-dori",
+      "name_ja": "昭和通り",
+      "value_12h": 31915,
+      "section_id": "13300040060",
+      "station_id": "11020",
+      "station_section": "13300040050",
+      "station_address": "中央区日本橋本町4丁目5-11",
+      "survey_date": "2019-11-26",
+      "value_year": 2021,
+      "method": "Official 2021 estimate from earlier individual count",
+      "estimated": 1,
+      "interval": "Chuo–Chiyoda ward boundary to Yasukuni-dori",
+      "page": 3,
+      "unit": "motor vehicles / 12h, both directions",
+      "hours": "07:00–19:00 JST",
+      "source_url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo13.pdf",
+      "crs": "EPSG:6677",
+      "geometry_note": "Existing schematic/local centerlines matched to named section ends; not official census GIS or exact counter position",
+      "matched_length_m": 532.7586466749284
+    },
+    {
+      "key": "B",
+      "name": "Yasukuni-dori",
+      "name_ja": "靖国通り",
+      "value_12h": 27016,
+      "section_id": "13403020140",
+      "station_id": "41040",
+      "station_section": "13403020150",
+      "station_address": "千代田区東神田2-10-13",
+      "survey_date": "2021-10-06",
+      "value_year": 2021,
+      "method": "Observed representative count assigned to census section",
+      "estimated": 0,
+      "interval": "Chuo-dori / R17 to Showa-dori / R4",
+      "page": 23,
+      "unit": "motor vehicles / 12h, both directions",
+      "hours": "07:00–19:00 JST",
+      "source_url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo13.pdf",
+      "crs": "EPSG:6677",
+      "geometry_note": "Existing schematic/local centerlines matched to named section ends; not official census GIS or exact counter position",
+      "matched_length_m": 429.70735377461904
+    },
+    {
+      "key": "C",
+      "name": "Edo-dori · east",
+      "name_ja": "江戸通り（昭和通り以東）",
+      "value_12h": 15925,
+      "section_id": "13300060010",
+      "station_id": "12010",
+      "station_section": "13300060010",
+      "station_address": "中央区日本橋本町4-15",
+      "survey_date": "2021-11-18",
+      "value_year": 2021,
+      "method": "Observed count; locally verified portion shown on representative existing OSM way160732454; not a directional lane value",
+      "estimated": 0,
+      "interval": "R4 connection to R6 branch; western Edo-dori excluded",
+      "page": 5,
+      "unit": "motor vehicles / 12h, both directions",
+      "hours": "07:00–19:00 JST",
+      "source_url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo13.pdf",
+      "crs": "EPSG:6677",
+      "geometry_note": "Existing schematic/local centerlines matched to named section ends; not official census GIS or exact counter position",
+      "matched_length_m": 402.8871496957065
+    },
+    {
+      "key": "D",
+      "name": "Chuo-dori",
+      "name_ja": "中央通り",
+      "value_12h": 12910,
+      "section_id": "13300170020",
+      "station_id": "16010",
+      "station_section": "13300170010",
+      "station_address": "中央区日本橋室町4-2",
+      "survey_date": "2021-10-06",
+      "value_year": 2021,
+      "method": "Observed representative count assigned to census section",
+      "estimated": 0,
+      "interval": "Chuo–Chiyoda ward boundary to Yasukuni-dori",
+      "page": 7,
+      "unit": "motor vehicles / 12h, both directions",
+      "hours": "07:00–19:00 JST",
+      "source_url": "https://www.mlit.go.jp/road/census/r3/data/pdf/kasyo13.pdf",
+      "crs": "EPSG:6677",
+      "geometry_note": "Existing schematic/local centerlines matched to named section ends; not official census GIS or exact counter position",
+      "matched_length_m": 685.249826387975
+    }
+  ],
+  "missing_count_streets": [
+    "Kanda East Exit street",
+    "Kamishirakabashi-dori",
+    "Kanda Heisei-dori",
+    "Kanda Kanamono-dori",
+    "Other internal/local streets"
+  ],
+  "expressway_values_separate": {
+    "Ueno_north_of_Honcho": 18792,
+    "Ueno_south_of_Honcho": 24518,
+    "C1_Kandabashi_Edobashi": 62934,
+    "unit": "motor vehicles / 12h, both directions",
+    "date": "October 2021 multiple days",
+    "warning": "Before 2025 Yaesu closure; not current distribution"
+  },
+  "limits": [
+    "Road class, width and one-way attributes are not count data",
+    "Section values are representative, not measurements on every segment",
+    "Edo eastern named geometry ends before full 1km census section; no extension guessed",
+    "No congestion or lane-removal inference"
+  ]
+}

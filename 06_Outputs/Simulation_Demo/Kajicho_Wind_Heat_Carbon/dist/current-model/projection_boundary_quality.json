@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-20",
+  "method": "Union of all original LOD2 source triangles projected horizontally in EPSG6677; projected triangles <=1e-10m2 are numerical degeneracies. Compare the complete LOD2 plan projection with each fixed Figure5 trace. No boundary or geometry edit.",
+  "tolerances_area_m2": [
+    0,
+    1e-06,
+    0.01,
+    1
+  ],
+  "scope_summary": {
+    "study_area": {
+      "models_checked": 1074,
+      "outside_count_by_tolerance_m2": {
+        "0": 0,
+        "1e-06": 0,
+        "0.01": 0,
+        "1": 0
+      },
+      "outside_area_sum_m2": 0.0,
+      "outside_area_max_m2": 0.0,
+      "original_membership_footprint_outside_count_gt_1e_6_m2": 0
+    },
+    "primary_brief": {
+      "models_checked": 277,
+      "outside_count_by_tolerance_m2": {
+        "0": 0,
+        "1e-06": 0,
+        "0.01": 0,
+        "1": 0
+      },
+      "outside_area_sum_m2": 0.0,
+      "outside_area_max_m2": 0.0,
+      "original_membership_footprint_outside_count_gt_1e_6_m2": 0
+    }
+  },
+  "exceptions": [],
+  "horizontal_projection_degeneracy_tolerance_m2": 1e-10,
+  "interpretation": "All source LOD2 horizontal projections, including roof extents and any overhangs represented by the source surfaces, are contained in the corresponding fixed study traces. No outside projection was found, so no ground-versus-roof exception classification is needed. Membership counts remain1074/277.",
+  "source_triangle_sha256": "57e7f8d81a31d5f2f36268f8cbf40514a65d60eab9ad2ab3ade8490840017c8c",
+  "boundary_file_sha256": "1a1c6938ed7636e3d3f7fef91f2dde89ecb6a1c5a12468a17169319e4aac6cd7",
+  "boundary_geometry_sha256": {
+    "study_area": "39c6bb212b52a2709d3a3fed20a2cd23bd29575b8e175d21496e1d0f06b393c1",
+    "primary_brief": "07ac4282e1a54a41df1e5253c0943fb5a55ca57268a969c6bd31132321f94de8"
+  }
+}

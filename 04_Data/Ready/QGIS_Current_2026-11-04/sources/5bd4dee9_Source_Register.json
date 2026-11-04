@@ -1,0 +1,82 @@
+{
+  "renewal_v1": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/Building_Renewal_2026-11-03/data/Building_Renewal.gpkg|layername=renewal_buildings",
+    "features": 1069,
+    "file_sha256": "ead39ee8a88a406f3265be38e8ddbec63212c890764911b89b04a6cc5cd2af44",
+    "processing_date": "2026-11-03",
+    "crs": "EPSG:6677",
+    "data_year": "Inherited from existing source attributes and topic README; not replaced by processing date"
+  },
+  "grid": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/QGIS_Increment_Merge_2026-11-03/Kajicho_QGIS_Increment_2026-11-03_2233JST/refine_grids/Fine_Grid_Analysis.gpkg|layername=metrics_10m",
+    "features": 11070,
+    "file_sha256": "c8d0a90c3cb5cb8f31d6d5d3a549e4c1ea2c1855d86688868c3f66bc77cef18d",
+    "processing_date": "2026-11-03",
+    "crs": "EPSG:6677",
+    "data_year": "Inherited from existing source attributes and topic README; not replaced by processing date"
+  },
+  "risk": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/QGIS_Increment_Merge_2026-11-03/Kajicho_QGIS_Increment_2026-11-03_2233JST/refine_grids/Fine_Grid_Analysis.gpkg|layername=buildings_town_risk",
+    "features": 1077,
+    "file_sha256": "c8d0a90c3cb5cb8f31d6d5d3a549e4c1ea2c1855d86688868c3f66bc77cef18d",
+    "processing_date": "2026-11-03",
+    "crs": "EPSG:6677",
+    "data_year": "Inherited from existing source attributes and topic README; not replaced by processing date"
+  },
+  "poi_counts": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/QGIS_Increment_Merge_2026-11-03/Kajicho_QGIS_Increment_2026-11-03_2233JST/recovered_visuals/POI_Category_Counts.gpkg|layername=category_counts_100m",
+    "features": 158,
+    "file_sha256": "20ba2c42931b310277ace55ba621a20f191a7f55c67aa8b4bebd4e9deef1f063",
+    "processing_date": "2026-11-03",
+    "crs": "EPSG:6677",
+    "data_year": "Inherited from existing source attributes and topic README; not replaced by processing date"
+  },
+  "poi_source": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/QGIS_Vector_Handoff_2026-11-03/Kajicho_QGIS_Vectors_2026-11-03/data/09_Kajicho_Base_Map.gpkg|layername=points_of_interest",
+    "features": 353,
+    "file_sha256": "41908e1ec873873ff2fa46fdfd3462dfccd1df2f5d6ac8782c893fb0767d6cd4",
+    "processing_date": "2026-11-03",
+    "crs": "EPSG:6677",
+    "data_year": "Inherited from existing source attributes and topic README; not replaced by processing date"
+  },
+  "traffic": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/QGIS_Increment_Merge_2026-11-03/Kajicho_QGIS_Increment_2026-11-03_2233JST/traffic_clean/traffic_trends.gpkg|layername=corridor_trends",
+    "features": 168,
+    "file_sha256": "8dc7623a5b60f56056d6f2399f3ca21030942cfd8f81c2520f52b0a91d6fa7f6",
+    "processing_date": "2026-11-03",
+    "crs": "EPSG:6677",
+    "data_year": "Inherited from existing source attributes and topic README; not replaced by processing date"
+  },
+  "environment": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/QGIS_Increment_Merge_2026-11-03/Kajicho_QGIS_Increment_2026-11-03_2233JST/recovered_visuals/Environment_Full_Cells.gpkg|layername=cells_10m_full",
+    "features": 4424,
+    "file_sha256": "15b156a3c1716e70314d149f7571dc331b20d26288f7d40012876f65d1cbf921",
+    "processing_date": "2026-11-03",
+    "crs": "EPSG:6677",
+    "data_year": "Inherited from existing source attributes and topic README; not replaced by processing date"
+  },
+  "grid_building_source": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/QGIS_Vector_Handoff_2026-11-03/Kajicho_QGIS_Vectors_2026-11-03/data/14_Master_Map_Compact.gpkg|layername=gsi_buildings",
+    "features": 16423,
+    "file_sha256": "441ea4199c35e772ae7f2bef71dcc96ae224c14458932a0fe966dd76524f05e7",
+    "processing_date": "2026-11-03",
+    "crs": "EPSG:6677",
+    "data_year": "Inherited from existing source attributes and topic README; not replaced by processing date"
+  },
+  "floor_use_source": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/QGIS_Vector_Handoff_2026-11-03/Kajicho_QGIS_Vectors_2026-11-03/data/28_Building_Population_Energy.gpkg|layername=current_building_allocation",
+    "features": 2006,
+    "file_sha256": "082e317817fe3e8dd684c723db888efefd6289313cca0822eba407be6fab5c26",
+    "processing_date": "2026-11-03",
+    "crs": "EPSG:6677",
+    "data_year": "Inherited from existing source attributes and topic README; not replaced by processing date"
+  },
+  "clearance_records": {
+    "source": "/Volumes/T7/UTkyInfo/Urban Design Studio 2026/06_Outputs/Building_Renewal_2026-11-03/data/Building_Renewal.gpkg|layername=cleared_records",
+    "features": 2,
+    "file_sha256": "ead39ee8a88a406f3265be38e8ddbec63212c890764911b89b04a6cc5cd2af44",
+    "processing_date": "2026-11-03",
+    "crs": "EPSG:6677",
+    "data_year": "Inherited from existing source attributes and topic README; not replaced by processing date"
+  }
+}

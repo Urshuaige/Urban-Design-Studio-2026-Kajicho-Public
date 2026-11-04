@@ -1,0 +1,58 @@
+[
+  {
+    "file": "Tokyo_Energy_Card_FY2023.pdf",
+    "url": "https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/hosoku_2023",
+    "retrieved": "2026-11-02",
+    "sha256": "1f86c076491fe55a5be428920543d3d093ece61d27632d4c372a6861b7f8d359",
+    "role": "benchmark / documented convention; not measured site data",
+    "license": "Government source; retain attribution and source terms. Statistical values extracted."
+  },
+  {
+    "file": "Tokyo_Energy_Card_FY2023_Tables.pdf",
+    "url": "https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/karte_kubun1_2023",
+    "retrieved": "2026-11-02",
+    "sha256": "cf2f7fb7bc9f4caa0488777b8a49952386a9650e993d67775060894a4bc147b2",
+    "role": "benchmark / documented convention; not measured site data",
+    "license": "Government source; retain attribution and source terms. Statistical values extracted."
+  },
+  {
+    "file": "Tokyo_Energy_Benchmark_202503.xlsx",
+    "url": "https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/benchmark_range_202503",
+    "retrieved": "2026-11-02",
+    "sha256": "b292a8c7a6238b0519abdd880360932211d1d964e9bc56f513b16c674c5d884d",
+    "role": "benchmark / documented convention; not measured site data",
+    "license": "Government source; retain attribution and source terms. Statistical values extracted."
+  },
+  {
+    "file": "MOE_Household_Energy_FY2023.html",
+    "url": "https://www.env.go.jp/earth/ondanka/kateico2tokei/energy/detail/01/",
+    "retrieved": "2026-11-02",
+    "sha256": "3ddc22f9d3ca136ea8da1944be2b7509df567f552fb7fd7c82b91fdc206fe389",
+    "role": "benchmark / documented convention; not measured site data",
+    "license": "Government source; retain attribution and source terms. Statistical values extracted."
+  },
+  {
+    "file": "MOE_Household_CO2_FY2023.html",
+    "url": "https://www.env.go.jp/earth/ondanka/kateico2tokei/co2/detail/02/",
+    "retrieved": "2026-11-02",
+    "sha256": "1438a3a117a5f189924ea054a473ffd65ba844ef5072a5806a87b9ca234a2d88",
+    "role": "benchmark / documented convention; not measured site data",
+    "license": "Government source; retain attribution and source terms. Statistical values extracted."
+  },
+  {
+    "file": "MOE_Household_Building_Type_FY2023.html",
+    "url": "https://www.env.go.jp/earth/ondanka/kateico2tokei/co2/detail/03/",
+    "retrieved": "2026-11-02",
+    "sha256": "639cdda208ccd599dd0fc0a6cfd08347bab3c6c406dd42ca9c811b2a723f7fc4",
+    "role": "benchmark / documented convention; not measured site data",
+    "license": "Government source; retain attribution and source terms. Statistical values extracted."
+  },
+  {
+    "file": "Tokyo_Primary_Conversion_Reference.pdf",
+    "url": "https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/4th_overview-public_comment-files-bessi3",
+    "retrieved": "2026-11-02",
+    "sha256": "e335057071f69f94daabed6d5875509f223c7c90053b004b5880683dc8619005",
+    "role": "benchmark / documented convention; not measured site data",
+    "license": "Government source; retain attribution and source terms. Statistical values extracted."
+  }
+]

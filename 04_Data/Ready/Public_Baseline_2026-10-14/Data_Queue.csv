@@ -1,0 +1,10 @@
+﻿priority,dataset,status,official_url,next_step
+P0,DECC,User registration in progress,https://www.jsbc.or.jp/decc/user/entry.cgi,Retain downloaded data and terms; verify purchased electricity vs primary energy before use
+P0 field,Core tree positions,Field survey required,,7 route records; 0 individual inventory points in Kajicho 1/2
+P1,Economic census 2021 workplace activity,Not acquired this round,https://www.e-stat.go.jp/stat-search/files?cycle=0&layout=datalist&page=1&tclass1=000001145649&tclass2=000001145667&tclass3=000001166446&toukei=00200553&tstat=000001145590,"Town-level workplace and employment, not building-specific occupancy"
+P1,Tokyo establishment energy reports,Not matched this round,https://www8.kankyo.metro.tokyo.lg.jp/ondanka/ad134gcce/index.php,Match building/company identity before calibration
+P1,NEDO METPV-20,Not acquired; JMA 2025 GHI ready,https://www.nedo.go.jp/seika_hyoka/ZZFF_100041.html,Consider for representative solar modelling; separate observed year and typical-year scenarios
+P2,PLATEAU DEM,Deferred,https://www.geospatial.jp/ckan/dataset/plateau-13101-chiyoda-ku-2025,About 360 MB GML in range index; select when terrain-sensitive setup is defined
+P2,Tokyo point cloud,Not acquired,https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000024,For detailed tree canopy and geometry survey
+P2,Road traffic census 2021,Not acquired,https://www.mlit.go.jp/road/census/r3/index.html,Counts only where observation links exist; not all local streets
+Later private,Actual electricity/gas/BEMS,Pending course/partners,,Preserve account and access conditions; calibrate by matched building ID

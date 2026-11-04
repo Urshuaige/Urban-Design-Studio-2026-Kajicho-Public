@@ -1,0 +1,50 @@
+{
+  "updated_on": "2026-10-16",
+  "status": "complete; Site v14 deployed and PR6 merged to main",
+  "course_boundary_guide": "docs/COURSE_BOUNDARIES.md",
+  "qgis_project": "05_QGIS/Projects/Kanda_Nihonbashi_Course_2026-10-16.qgz",
+  "scopes": {
+    "primary_brief": {
+      "area_ha": 10.703830447464894,
+      "selected_models": 277,
+      "boundary_uncertainty_m": 25.0
+    },
+    "secondary_brief": {
+      "area_ha": 41.98967122381172,
+      "selected_models": 1087,
+      "boundary_uncertainty_m": 25.0
+    },
+    "poster_blue": {
+      "area_ha": 40.42918620961435,
+      "selected_models": 1070,
+      "boundary_uncertainty_m": 45.0
+    }
+  },
+  "maps_png": 26,
+  "no_new_cfd": true,
+  "local_result_copy": false,
+  "quality": {
+    "missing_storeys_9999_normalized": 696,
+    "missing_value_method": "Explicit height / 3.3 m proxy; raw source sentinel preserved",
+    "sqlite_copy": "Consistent SQLite backup includes committed WAL state"
+  },
+  "implementation_main_commit": "3f4c0e7fd57d9dcf7bf76d5b179776b5ac7aff36",
+  "pr": "https://github.com/Urshuaige/Urban-Design-Studio-2026-Kajicho/pull/6",
+  "main_checks": {
+    "status": "passed",
+    "url": "https://github.com/Urshuaige/Urban-Design-Studio-2026-Kajicho/actions/runs/38919427526"
+  },
+  "site": {
+    "version": 14,
+    "source_commit": "ca9c9378c7a82538cd391da924ccbbf401453176",
+    "version_id": "appgprj_6ace04f6c3848191b6db1d072ec879fb~appgver_8c99734791dc8191ad4e7288bb386462",
+    "deployment_id": "appgdep_6ad239fcc8e4819182d6d62f758d1554",
+    "status": "succeeded",
+    "url": "https://kajicho-wind-heat-carbon-demo.specialgooood.chatgpt.site",
+    "published_utc": "2026-10-16T14:54:18.032010+00:00",
+    "audience": "public; existing access retained"
+  },
+  "presentation_superseded_by": "Mapping_Release_2026-10-17.json",
+  "historical_receipt": true,
+  "superseded_by": "Current_Delivery.json"
+}

@@ -1,0 +1,11 @@
+﻿source_field,shp_field,shp_type,dbf_width_bytes,null_bit,storage,source_non_null,source_null,source_max_text_bytes
+__wider_pk,wider_pk,integer,11,0,shp_and_csv,2,0,
+case_id,case_id,text,6,1,shp_and_csv,2,0,6
+name,name,text,13,2,shp_and_csv,2,0,13
+status,status,text,9,3,shp_and_csv,2,0,9
+geometry_basis,geometry_b,text,45,4,shp_and_csv,2,0,45
+source_url,source_url,text,62,5,shp_and_csv,2,0,62
+note,note,text,77,6,shp_and_csv,2,0,77
+delivery_source_fid,delivery_s,integer,11,7,shp_and_csv,2,0,
+delivery_geometry,delivery_g,text,27,8,shp_and_csv,2,0,27
+delivery_value_scope,delivery_v,text,79,9,shp_and_csv,2,0,79

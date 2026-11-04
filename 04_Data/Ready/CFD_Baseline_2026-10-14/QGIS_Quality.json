@@ -1,0 +1,11 @@
+{
+  "layers": 51,
+  "valid_layers": 51,
+  "base_vector_layers": 45,
+  "cfd_raster_layers": 6,
+  "iteration": 100,
+  "crs": "EPSG:6677",
+  "paths": "relative project paths; preserve folder tree",
+  "raster_grid": "5 m; north-up GeoTIFF; paired valid mask; -9999 nodata",
+  "scientific_status": "intermediate, pending convergence and thermal balance"
+}

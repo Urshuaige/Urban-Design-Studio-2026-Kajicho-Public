@@ -1,0 +1,25 @@
+﻿scope,use_group,objects,footprint_union_m2
+study_area,Apartments,60,10596.794268057141
+study_area,Education / care,21,4746.376398721286
+study_area,Government,3,136.89029747578363
+study_area,Hotel,18,5215.611240802864
+study_area,House,31,1545.8010235465542
+study_area,Housing + shop,130,6841.45783701449
+study_area,Housing + workshop,13,826.9898773282131
+study_area,Office,618,105371.11868096652
+study_area,Other,3,138.42728851418772
+study_area,Retail,62,5106.706467452861
+study_area,Transport / storage,13,5616.439172349829
+study_area,Unknown,80,4293.296116040513
+study_area,Utilities,2,742.8318698717875
+primary_brief,Apartments,7,1077.123670554903
+primary_brief,Education / care,8,862.5937070320366
+primary_brief,Government,1,84.47076448564349
+primary_brief,Hotel,5,1071.6425214996889
+primary_brief,House,6,309.88587810709686
+primary_brief,Housing + shop,33,1517.5884203102476
+primary_brief,Office,126,20067.238415357286
+primary_brief,Retail,39,3682.3553294394346
+primary_brief,Transport / storage,5,4980.834455494489
+primary_brief,Unknown,26,645.467935474993
+primary_brief,Utilities,1,716.6538298805538

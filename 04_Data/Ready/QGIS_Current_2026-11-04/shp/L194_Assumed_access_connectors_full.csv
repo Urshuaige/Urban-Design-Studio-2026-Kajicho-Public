@@ -1,0 +1,7 @@
+﻿ROW_ID,__wider_pk,key,code,gap_m,status,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,1,P7074118741,P1,4.717313225998455,Geometry checked; assumed access connector,1,inside_wider,Original source feature or statistical unit; values not recomputed
+2,2,P9351569371,P2,1.059687392236146,Geometry checked; assumed access connector,2,inside_wider,Original source feature or statistical unit; values not recomputed
+3,3,P9351569372,P3,0.9840411702885914,Geometry checked; assumed access connector,3,inside_wider,Original source feature or statistical unit; values not recomputed
+4,4,P13525312303,P4,9.39156104971463,Geometry checked; assumed access connector,4,inside_wider,Original source feature or statistical unit; values not recomputed
+5,5,E6783449294,North,6.683912355422845,Geometry checked; assumed access connector,5,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+6,6,E12090088663,South door,4.309517792896389,Geometry checked; assumed access connector,6,inside_wider,Original source feature or statistical unit; values not recomputed

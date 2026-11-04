@@ -1,0 +1,164 @@
+{
+  "title": "PLATEAU Kanda–Kajicho building model projection",
+  "download_date": "2026-10-13",
+  "model_release_year": 2025,
+  "survey_year_values": {
+    "2021": 1809,
+    "0001": 172
+  },
+  "creation_date_values": {
+    "2024-03-15": 1981
+  },
+  "bbox_lonlat": [
+    139.767,
+    35.687,
+    139.776,
+    35.695
+  ],
+  "projected_crs": "EPSG:6677",
+  "geographic_crs": "EPSG:4326",
+  "buildings": 1981,
+  "height_sources": {
+    "bldg:measuredHeight": 1928,
+    "PLATEAU LOD1 _zmax minus _zmin": 53
+  },
+  "license": "CC BY 4.0 under PLATEAU open data terms; attribution and edits stated",
+  "license_url": "https://www.mlit.go.jp/plateau/faq/",
+  "attribution": "PLATEAU 3D city model, Chiyoda/Chuo, Tokyo; processed for Urban Design Studio 2026. Original model copyright belongs to local authorities.",
+  "source_documentation": "https://docs.plateauview.mlit.go.jp/datasets/3d-tiles/",
+  "source_year_note": "2025 is the dataset release year. Per-building survey and creation dates are retained separately; raw survey value 0001 is a sentinel, not a historical survey year.",
+  "method": [
+    "Select leaf tiles intersecting specified geographic box; preserve originals.",
+    "Decode Draco mesh and batch ID, apply glTF Y-up to Z-up rotation and CESIUM_RTC offset.",
+    "Convert ECEF to geographic positions and EPSG:6677 east/north metres.",
+    "Union near-horizontal LOD1 triangle projections per building; simplify at 0.03 m; retain full building geometry intersecting box.",
+    "Retain original measuredHeight where available; otherwise use source LOD1 zmax-zmin, explicitly tagged."
+  ],
+  "geometry_note": "Output is a horizontal projection of the LOD1 model top/bottom surfaces. It approximates the LOD1 building outline and is not a surveyed street-level ground footprint. Render as an extrusion for demonstration.",
+  "scope_note": "Geometric input for display and simplified screening. CFD requires watertight mesh preparation, domain and boundary choices, and validation.",
+  "checks": {
+    "duplicate_ids": 0,
+    "mixed_batch_faces": 0,
+    "empty_geometry": 0,
+    "repaired_geometry": 0,
+    "bbox_center_error_max_deg": 0.00013407451595526254
+  },
+  "sources": [
+    {
+      "file": "04_Data/Raw/PLATEAU_Demo/chuo_data20.b3dm",
+      "url": "https://assets.cms.plateau.reearth.io/assets/cf/ccca91-acfc-4e01-b114-a56f63c2cd6b/13102_chuo-ku_pref_2025_citygml_1_op_bldg_3dtiles_13102_chuo-ku_lod1/data/data20.b3dm",
+      "bytes": 175608,
+      "sha256": "0a82b5e0b62928232a55ce7886d2fc9cdfb214aebf12e0f26a98dc3a54559b16",
+      "source_buildings": 26,
+      "selected_buildings": 26
+    },
+    {
+      "file": "04_Data/Raw/PLATEAU_Demo/chuo_data21.b3dm",
+      "url": "https://assets.cms.plateau.reearth.io/assets/cf/ccca91-acfc-4e01-b114-a56f63c2cd6b/13102_chuo-ku_pref_2025_citygml_1_op_bldg_3dtiles_13102_chuo-ku_lod1/data/data21.b3dm",
+      "bytes": 2541408,
+      "sha256": "9bd8eef79026570bd9562d17be9c64dc53855fe5557c0fedd7ac567a5902fb93",
+      "source_buildings": 390,
+      "selected_buildings": 245
+    },
+    {
+      "file": "04_Data/Raw/PLATEAU_Demo/chuo_data22.b3dm",
+      "url": "https://assets.cms.plateau.reearth.io/assets/cf/ccca91-acfc-4e01-b114-a56f63c2cd6b/13102_chuo-ku_pref_2025_citygml_1_op_bldg_3dtiles_13102_chuo-ku_lod1/data/data22.b3dm",
+      "bytes": 630200,
+      "sha256": "6f02899fca7a9686527c201a720d7b202e7b1b5bb1a5deff39208a8fd3e9d181",
+      "source_buildings": 97,
+      "selected_buildings": 92
+    },
+    {
+      "file": "04_Data/Raw/PLATEAU_Demo/chuo_data6.b3dm",
+      "url": "https://assets.cms.plateau.reearth.io/assets/cf/ccca91-acfc-4e01-b114-a56f63c2cd6b/13102_chuo-ku_pref_2025_citygml_1_op_bldg_3dtiles_13102_chuo-ku_lod1/data/data6.b3dm",
+      "bytes": 1420452,
+      "sha256": "4feaf9e0f517d59bf52c21706edad251bc847a2ad88d8143fea216208884c950",
+      "source_buildings": 202,
+      "selected_buildings": 11
+    },
+    {
+      "file": "04_Data/Raw/PLATEAU_Demo/chuo_data8.b3dm",
+      "url": "https://assets.cms.plateau.reearth.io/assets/cf/ccca91-acfc-4e01-b114-a56f63c2cd6b/13102_chuo-ku_pref_2025_citygml_1_op_bldg_3dtiles_13102_chuo-ku_lod1/data/data8.b3dm",
+      "bytes": 3704320,
+      "sha256": "f02ccd7e0599fb7d89c1f00b1f43062a619bbab2a99462293569cedcdf132739",
+      "source_buildings": 539,
+      "selected_buildings": 22
+    },
+    {
+      "file": "04_Data/Raw/PLATEAU_Demo/data10.b3dm",
+      "url": "https://assets.cms.plateau.reearth.io/assets/3f/e07412-5455-40c0-9f64-2ac43086a209/13101_chiyoda-ku_pref_2025_citygml_1_op_bldg_3dtiles_13101_chiyoda-ku_lod1/data/data10.b3dm",
+      "bytes": 154400,
+      "sha256": "861cbb13a7fa4cae378c217a1d1401e9fc55a2f3d6cc71f7c7ea8dca74ac8af5",
+      "source_buildings": 22,
+      "selected_buildings": 0
+    },
+    {
+      "file": "04_Data/Raw/PLATEAU_Demo/data11.b3dm",
+      "url": "https://assets.cms.plateau.reearth.io/assets/3f/e07412-5455-40c0-9f64-2ac43086a209/13101_chiyoda-ku_pref_2025_citygml_1_op_bldg_3dtiles_13101_chiyoda-ku_lod1/data/data11.b3dm",
+      "bytes": 1857128,
+      "sha256": "ec2804c195b549ea69933d9844e09a93f61e91b78e11ab844171ea7b6488497f",
+      "source_buildings": 245,
+      "selected_buildings": 1
+    },
+    {
+      "file": "04_Data/Raw/PLATEAU_Demo/data2.b3dm",
+      "url": "https://assets.cms.plateau.reearth.io/assets/3f/e07412-5455-40c0-9f64-2ac43086a209/13101_chiyoda-ku_pref_2025_citygml_1_op_bldg_3dtiles_13101_chiyoda-ku_lod1/data/data2.b3dm",
+      "bytes": 12594768,
+      "sha256": "67cce9a7d9b97f46b06ddf3ff54915ab3fb9b13ef4625c25dc49251c2377060b",
+      "source_buildings": 1855,
+      "selected_buildings": 1012
+    },
+    {
+      "file": "04_Data/Raw/PLATEAU_Demo/data3.b3dm",
+      "url": "https://assets.cms.plateau.reearth.io/assets/3f/e07412-5455-40c0-9f64-2ac43086a209/13101_chiyoda-ku_pref_2025_citygml_1_op_bldg_3dtiles_13101_chiyoda-ku_lod1/data/data3.b3dm",
+      "bytes": 13412960,
+      "sha256": "8d43648ede39ad9802d83ea0030b3bcc302d1146d4f0dbff51235a4a98e42fb9",
+      "source_buildings": 1984,
+      "selected_buildings": 572
+    }
+  ],
+  "geometry_checks": {
+    "count": 1981,
+    "unique_ids": 1981,
+    "invalid_count": 0,
+    "empty_count": 0,
+    "geometry_types": {
+      "Polygon": 1981
+    },
+    "height_min_m": 3.0,
+    "height_median_m": 16.9,
+    "height_max_m": 193.4,
+    "known_storeys": 1807,
+    "bounds_epsg6677": [
+      -6048.487991638575,
+      -34860.650000225214,
+      -5147.839994766747,
+      -33786.03999138626
+    ],
+    "source_raw_total_bytes": 36528108,
+    "outputs_bytes": {
+      "plateau_buildings_6677.geojson": 2068971,
+      "plateau_buildings_4326.geojson": 2042108
+    }
+  },
+  "display_processing": [
+    "Coordinates rounded to 0.01 m for browser geometry",
+    "Consecutive duplicate vertices removed; collapsed or <0.1 m2 inner rings omitted only for browser triangulation (1754 rings)",
+    "All 1981 buildings renderable; full source GeoJSON retained in project",
+    "Flat local ground; x=east, y=height, z=-north; origin EPSG6677 [-5600,-34320]"
+  ],
+  "v2_method": {
+    "wind_cases": 56,
+    "shade_cases": 96,
+    "wind_protocol": "same 2D D2Q9 with 8 coming-from bearings, 0/24/48 crowns, radius 2/4/6 m; constant drag 0.006",
+    "shade_method": "5 m DSM exact ray traversal; source heights except proposal core scaling",
+    "shade_v1_v2_noon_fraction": [
+      0.19929328621908127,
+      0.18763250883392227
+    ],
+    "animation": "Direction follows computed vector; playback uses an illustrative speed floor and multiplier for readable motion, not physical time",
+    "height_control_scope": "Shade only",
+    "electricity_factor_default_year": 2024,
+    "factor_source_url": "https://www.tepco.co.jp/about/esg/environment/carbon-neutrality/ghg-data-j.html"
+  }
+}

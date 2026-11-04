@@ -1,0 +1,10 @@
+﻿source_field,shp_field,shp_type,dbf_width_bytes,null_bit,storage,source_non_null,source_null,source_max_text_bytes
+__wider_pk,wider_pk,integer,11,0,shp_and_csv,181,0,
+cell_id,cell_id,text,12,1,shp_and_csv,181,0,12
+scope,scope,text,6,2,shp_and_csv,181,0,6
+cell_m,cell_m,integer,11,3,shp_and_csv,181,0,
+segment_id,segment_id,integer,11,4,shp_and_csv,181,0,
+component,component,integer,11,5,shp_and_csv,181,0,
+delivery_source_fid,delivery_s,integer,11,6,shp_and_csv,181,0,
+delivery_geometry,delivery_g,text,12,7,shp_and_csv,181,0,12
+delivery_value_scope,delivery_v,text,66,8,shp_and_csv,181,0,66

@@ -1,0 +1,2196 @@
+{
+  "visual": {
+    "edition": "2026-10-18",
+    "form": "integrative",
+    "report_url": "https://github.com/Urshuaige/Urban-Design-Studio-2026-Kajicho/blob/main/docs/Research_Review_2026-10-18/REPORT.md",
+    "intro": {
+      "en": "A common starting point for people studying buildings, streets, climate and area management.",
+      "zh": "为研究建筑、街道、气候和地区管理的同学建立共同起点。",
+      "ja": "建物・街路・気候・エリアマネジメントを学ぶ人の共通の出発点。"
+    },
+    "course": [
+      {
+        "title": {
+          "en": "Place",
+          "zh": "范围",
+          "ja": "対象"
+        },
+        "body": {
+          "en": "Kajicho primary area + wider Kanda–Nihonbashi",
+          "zh": "鍛冶町重点区＋神田—日本桥外围区",
+          "ja": "鍛冶町の重点区域＋神田・日本橋の周辺区域"
+        }
+      },
+      {
+        "title": {
+          "en": "Time",
+          "zh": "时间",
+          "ja": "時間"
+        },
+        "body": {
+          "en": "Now → 2050",
+          "zh": "现在 → 2050",
+          "ja": "現在 → 2050"
+        }
+      },
+      {
+        "title": {
+          "en": "Planning support",
+          "zh": "规划支持",
+          "ja": "計画支援"
+        },
+        "body": {
+          "en": "Issues → vision → actions",
+          "zh": "问题 → 愿景 → 行动",
+          "ja": "課題 → 将来像 → 行動"
+        }
+      },
+      {
+        "title": {
+          "en": "Implementation support",
+          "zh": "实施支持",
+          "ja": "実施支援"
+        },
+        "body": {
+          "en": "Actors → shared action → public support",
+          "zh": "主体 → 共同行动 → 公共支持",
+          "ja": "主体 → 協働 → 公的支援"
+        }
+      },
+      {
+        "title": {
+          "en": "Outputs",
+          "zh": "成果",
+          "ja": "成果"
+        },
+        "body": {
+          "en": "Booklet + presentation",
+          "zh": "说明册＋汇报",
+          "ja": "冊子＋発表"
+        }
+      }
+    ],
+    "theories": [
+      {
+        "id": "systems",
+        "title": {
+          "en": "Systems & flows",
+          "zh": "系统与流动",
+          "ja": "システムとフロー"
+        },
+        "body": {
+          "en": "Relate physical places to energy, water, movement and the goals chosen for them.",
+          "zh": "把空间与能源、水、出行及团队选择的目标联系起来。",
+          "ja": "空間をエネルギー・水・移動と目標に結び付ける。"
+        },
+        "refs": [
+          "yang-yamagata-2019",
+          "yamagata-yang-2020"
+        ]
+      },
+      {
+        "id": "exposure",
+        "title": {
+          "en": "People & exposure",
+          "zh": "使用者与暴露",
+          "ja": "利用者と曝露"
+        },
+        "body": {
+          "en": "Read heat through air, radiation, wind, humidity and the time people spend outside.",
+          "zh": "结合空气、辐射、风、湿度和户外停留时间理解热暴露。",
+          "ja": "気温・放射・風・湿度と屋外滞在時間から暑熱曝露を捉える。"
+        },
+        "refs": [
+          "broede-2012-utci",
+          "umep-solweig-manual"
+        ]
+      },
+      {
+        "id": "collective",
+        "title": {
+          "en": "Collective action",
+          "zh": "共同行动",
+          "ja": "協働"
+        },
+        "body": {
+          "en": "Connect proposals to authority, resources, trust, responsibility and learning.",
+          "zh": "把方案与权限、资源、信任、责任和持续学习连接起来。",
+          "ja": "提案を権限・資源・信頼・責任と学習に結び付ける。"
+        },
+        "refs": [
+          "ansell-gash-2008-collaborative",
+          "ostrom-2010-polycentric"
+        ]
+      }
+    ],
+    "loop": [
+      {
+        "en": "Ask a local question",
+        "zh": "提出场地问题",
+        "ja": "地域の問い"
+      },
+      {
+        "en": "Build shared evidence",
+        "zh": "建立共同证据",
+        "ja": "共通の根拠"
+      },
+      {
+        "en": "Compare options",
+        "zh": "比较方案",
+        "ja": "案の比較"
+      },
+      {
+        "en": "Agree a pilot",
+        "zh": "商定试点",
+        "ja": "試行の合意"
+      },
+      {
+        "en": "Operate & measure",
+        "zh": "运行与观测",
+        "ja": "運用と計測"
+      },
+      {
+        "en": "Review & adapt",
+        "zh": "复盘与调整",
+        "ja": "振り返りと改善"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "energy",
+        "group": "buildings",
+        "title": {
+          "en": "Energy & carbon",
+          "zh": "能源与碳",
+          "ja": "エネルギーと炭素"
+        },
+        "question": {
+          "en": "Which building-group options are worth comparing?",
+          "zh": "哪些建筑组方案值得比较？",
+          "ja": "建物群のどの案を比較するか。"
+        },
+        "steps": [
+          {
+            "title": {
+              "en": "Inputs",
+              "zh": "输入",
+              "ja": "入力"
+            },
+            "body": {
+              "en": "Floor area, use, envelope, systems, schedules, weather and bills.",
+              "zh": "面积、用途、围护结构、设备、时刻表、天气和账单。",
+              "ja": "床面積・用途・外皮・設備・運用・気象・請求データ。"
+            }
+          },
+          {
+            "title": {
+              "en": "Method",
+              "zh": "方法",
+              "ja": "方法"
+            },
+            "body": {
+              "en": "Archetypes → UBEM → common-weather options → carbon ledger.",
+              "zh": "建筑类型 → UBEM → 同天气方案 → 碳核算。",
+              "ja": "類型モデル → UBEM → 共通気象の案 → 炭素集計。"
+            }
+          },
+          {
+            "title": {
+              "en": "Checks",
+              "zh": "核查",
+              "ja": "確認"
+            },
+            "body": {
+              "en": "Check bills, sensitive inputs, factor years and life-cycle boundaries.",
+              "zh": "核对账单、敏感输入、因子年份和生命周期边界。",
+              "ja": "実績・感度・係数年次・ライフサイクル境界を確認。"
+            }
+          },
+          {
+            "title": {
+              "en": "Decision",
+              "zh": "决策",
+              "ja": "判断"
+            },
+            "body": {
+              "en": "Retention, retrofit, operation or replacement, with owner conditions.",
+              "zh": "结合业主条件比较保留、改造、运维或更新。",
+              "ja": "所有者の条件と共に保全・改修・運用・更新を比較。"
+            }
+          }
+        ],
+        "output": {
+          "en": "Energy: kWh/m²/year · carbon: dated kgCO₂e · peak: kW",
+          "zh": "能耗：kWh/m²/年 · 碳：注明年份的 kgCO₂e · 峰值：kW",
+          "ja": "エネルギー：kWh/m²/年・炭素：年次付きkgCO₂e・ピーク：kW"
+        },
+        "refs": [
+          "reinhart-cerezo-2016-ubem",
+          "alorabi-2025-net-zero",
+          "rics-2023-wlca-v3",
+          "wri-c40-iclei-2021-gpc11"
+        ]
+      },
+      {
+        "id": "thermal",
+        "group": "streets",
+        "title": {
+          "en": "Heat & shade",
+          "zh": "热与遮阴",
+          "ja": "暑熱と日陰"
+        },
+        "question": {
+          "en": "Where and when would a shaded route or refuge help?",
+          "zh": "在哪些位置和时段，遮阴路线或休憩点有帮助？",
+          "ja": "どこで、いつ、日陰や休憩場所が役立つか。"
+        },
+        "steps": [
+          {
+            "title": {
+              "en": "Inputs",
+              "zh": "输入",
+              "ja": "入力"
+            },
+            "body": {
+              "en": "Geometry, canopy, weather, surfaces, users and hours.",
+              "zh": "几何、树冠、天气、表面、使用者和时段。",
+              "ja": "形状・樹冠・気象・表面・利用者・時間。"
+            }
+          },
+          {
+            "title": {
+              "en": "Method",
+              "zh": "方法",
+              "ja": "方法"
+            },
+            "body": {
+              "en": "Sun/shadow → radiation/Tₘᵣₜ → thermal exposure along a route.",
+              "zh": "日照/遮阴 → 辐射/Tₘᵣₜ → 路线热暴露。",
+              "ja": "日照・日陰 → 放射/Tₘᵣₜ → 経路の暑熱曝露。"
+            }
+          },
+          {
+            "title": {
+              "en": "Checks",
+              "zh": "核查",
+              "ja": "確認"
+            },
+            "body": {
+              "en": "Use common times, a reference sensor and defensible wind inputs.",
+              "zh": "统一时刻，设置参考测点，并核实风速输入。",
+              "ja": "共通時刻・基準観測点・妥当な風速入力。"
+            }
+          },
+          {
+            "title": {
+              "en": "Decision",
+              "zh": "决策",
+              "ja": "判断"
+            },
+            "body": {
+              "en": "Shade, resting places and verified access to cooling.",
+              "zh": "遮阴、休憩空间和经核实的降温空间可达性。",
+              "ja": "日陰・休憩場所・確認済みの涼しい場所へのアクセス。"
+            }
+          }
+        ],
+        "output": {
+          "en": "Shade minutes · Tₘᵣₜ / °C · named thermal-stress measure",
+          "zh": "遮阴分钟 · Tₘᵣₜ / °C · 明确命名的热应激指标",
+          "ja": "日陰時間・Tₘᵣₜ / °C・明示した温熱指標"
+        },
+        "refs": [
+          "umep-solweig-manual",
+          "broede-2012-utci",
+          "zeng-2025-heat"
+        ]
+      },
+      {
+        "id": "wind",
+        "group": "streets",
+        "title": {
+          "en": "Wind & CFD",
+          "zh": "风与 CFD",
+          "ja": "風とCFD"
+        },
+        "question": {
+          "en": "Does a design change improve relevant wind conditions?",
+          "zh": "设计变化是否改善了需要关注的风环境？",
+          "ja": "設計変更で対象の風環境は改善するか。"
+        },
+        "steps": [
+          {
+            "title": {
+              "en": "Inputs",
+              "zh": "输入",
+              "ja": "入力"
+            },
+            "body": {
+              "en": "Pilot, full surrounding geometry, weather cases and inflow.",
+              "zh": "试点、完整周边几何、天气工况和入口条件。",
+              "ja": "試行地点・周辺形状・気象ケース・流入条件。"
+            }
+          },
+          {
+            "title": {
+              "en": "Method",
+              "zh": "方法",
+              "ja": "方法"
+            },
+            "body": {
+              "en": "3D domain → mesh → solver → common-location comparisons.",
+              "zh": "三维计算域 → 网格 → 求解 → 同位置比较。",
+              "ja": "3D領域 → 格子 → 計算 → 共通地点の比較。"
+            }
+          },
+          {
+            "title": {
+              "en": "Checks",
+              "zh": "核查",
+              "ja": "確認"
+            },
+            "body": {
+              "en": "Mesh/domain sensitivity, target convergence and physical evidence.",
+              "zh": "网格/计算域敏感性、目标量收敛和物理验证。",
+              "ja": "格子・領域感度、目標値収束、物理的検証。"
+            }
+          },
+          {
+            "title": {
+              "en": "Decision",
+              "zh": "决策",
+              "ja": "判断"
+            },
+            "body": {
+              "en": "Compare massing, canopy and street changes at stated sample points.",
+              "zh": "在明确采样点比较体量、雨棚和街道变化。",
+              "ja": "明示した地点で建物形状・庇・街路変更を比較。"
+            }
+          }
+        ],
+        "output": {
+          "en": "Wind at stated heights · validation evidence · thermal model stated separately",
+          "zh": "注明高度的风速 · 验证证据 · 热模型单独说明",
+          "ja": "高さを明示した風速・検証根拠・熱モデルの別記"
+        },
+        "refs": [
+          "franke-2007-cost732",
+          "tominaga-2008-aij-cfd"
+        ]
+      },
+      {
+        "id": "mobility",
+        "group": "streets",
+        "title": {
+          "en": "Streets & movement",
+          "zh": "街道与出行",
+          "ja": "街路と移動"
+        },
+        "question": {
+          "en": "How can access, loading and street comfort work together?",
+          "zh": "如何兼顾可达性、装卸和街道舒适度？",
+          "ja": "アクセス・荷さばき・快適性をどう両立するか。"
+        },
+        "steps": [
+          {
+            "title": {
+              "en": "Inputs",
+              "zh": "输入",
+              "ja": "入力"
+            },
+            "body": {
+              "en": "POIs, entrances, opening hours, network and observed use.",
+              "zh": "POI、入口、营业时间、路网和使用观察。",
+              "ja": "POI・入口・営業時間・道路網・利用観察。"
+            }
+          },
+          {
+            "title": {
+              "en": "Method",
+              "zh": "方法",
+              "ja": "方法"
+            },
+            "body": {
+              "en": "Function mix → verified destinations → route comparison.",
+              "zh": "功能构成 → 核实目的地 → 路线比较。",
+              "ja": "機能構成 → 目的地確認 → 経路比較。"
+            }
+          },
+          {
+            "title": {
+              "en": "Checks",
+              "zh": "核查",
+              "ja": "確認"
+            },
+            "body": {
+              "en": "Keep destination counts separate from footfall and demand.",
+              "zh": "目的地数量与人流、需求分别处理。",
+              "ja": "目的地数を歩行者流・需要と区別。"
+            }
+          },
+          {
+            "title": {
+              "en": "Decision",
+              "zh": "决策",
+              "ja": "判断"
+            },
+            "body": {
+              "en": "Walking links, loading times, crossings and cool access.",
+              "zh": "步行连接、装卸时段、过街和凉爽空间可达性。",
+              "ja": "歩行接続・荷さばき時間・横断・涼しい場所へのアクセス。"
+            }
+          }
+        ],
+        "output": {
+          "en": "Travel time · access constraints · observed use by period",
+          "zh": "出行时间 · 通达限制 · 分时段使用观察",
+          "ja": "所要時間・アクセス制約・時間帯別利用"
+        },
+        "refs": [
+          "zeng-2025-heat",
+          "barcelona-superblocks-bcn2"
+        ]
+      },
+      {
+        "id": "water",
+        "group": "streets",
+        "title": {
+          "en": "Water & green space",
+          "zh": "雨洪与绿化",
+          "ja": "雨水と緑地"
+        },
+        "question": {
+          "en": "Can a usable space also handle runoff and planting needs?",
+          "zh": "可使用的空间能否同时回应径流和植物需求？",
+          "ja": "日常空間に雨水管理と植栽を組み合わせられるか。"
+        },
+        "steps": [
+          {
+            "title": {
+              "en": "Inputs",
+              "zh": "输入",
+              "ja": "入力"
+            },
+            "body": {
+              "en": "Terrain, rain, catchments, drains, soil and growing space.",
+              "zh": "地形、降雨、汇水区、排水、土壤和生长空间。",
+              "ja": "地形・降雨・集水域・排水・土壌・生育空間。"
+            }
+          },
+          {
+            "title": {
+              "en": "Method",
+              "zh": "方法",
+              "ja": "方法"
+            },
+            "body": {
+              "en": "Runoff paths → storage/infiltration concept → drainage model if supported.",
+              "zh": "径流路径 → 蓄渗概念 → 数据允许时建立排水模型。",
+              "ja": "流出経路 → 貯留・浸透案 → データに応じた排水モデル。"
+            }
+          },
+          {
+            "title": {
+              "en": "Checks",
+              "zh": "核查",
+              "ja": "確認"
+            },
+            "body": {
+              "en": "Check outlets, safe overflow, maintenance and monitoring.",
+              "zh": "核查出水口、安全溢流、维护和监测。",
+              "ja": "放流先・安全な越流・維持管理・観測を確認。"
+            }
+          },
+          {
+            "title": {
+              "en": "Decision",
+              "zh": "决策",
+              "ja": "判断"
+            },
+            "body": {
+              "en": "A connected planting/storage proposal with an operator.",
+              "zh": "具有明确运营主体的连通式种植/蓄水方案。",
+              "ja": "管理主体を伴う植栽・貯留の接続案。"
+            }
+          }
+        ],
+        "output": {
+          "en": "Runoff / storage by scenario · safe overflow · maintenance task",
+          "zh": "分情景径流/蓄水 · 安全溢流 · 维护任务",
+          "ja": "ケース別流出・貯留・安全な越流・維持作業"
+        },
+        "refs": [
+          "epa-swmm",
+          "copenhagen-enghaveparken-cph1",
+          "copenhagen-enghaveparken-cph2"
+        ]
+      },
+      {
+        "id": "delivery",
+        "group": "delivery",
+        "title": {
+          "en": "People & delivery",
+          "zh": "主体与实施",
+          "ja": "主体と実施"
+        },
+        "question": {
+          "en": "Who could adopt, operate and revise the action?",
+          "zh": "谁能够采纳、运行并调整这些行动？",
+          "ja": "誰が行動を採用・運用・改善するか。"
+        },
+        "steps": [
+          {
+            "title": {
+              "en": "Inputs",
+              "zh": "输入",
+              "ja": "入力"
+            },
+            "body": {
+              "en": "Actors, rights, resources, incentives and constraints.",
+              "zh": "主体、权利、资源、激励与约束。",
+              "ja": "主体・権利・資源・動機・制約。"
+            }
+          },
+          {
+            "title": {
+              "en": "Method",
+              "zh": "方法",
+              "ja": "方法"
+            },
+            "body": {
+              "en": "Stakeholder map → option discussion → responsibilities and funding.",
+              "zh": "利益相关者图 → 方案讨论 → 责任与资金安排。",
+              "ja": "関係者図 → 案の討議 → 責任・資金安排。"
+            }
+          },
+          {
+            "title": {
+              "en": "Checks",
+              "zh": "核查",
+              "ja": "確認"
+            },
+            "body": {
+              "en": "Document disagreement, participation and operating capacity.",
+              "zh": "记录分歧、参与情况和运维能力。",
+              "ja": "意見差・参加状況・運用能力を記録。"
+            }
+          },
+          {
+            "title": {
+              "en": "Decision",
+              "zh": "决策",
+              "ja": "判断"
+            },
+            "body": {
+              "en": "A feasible pilot agreement and a review point.",
+              "zh": "可执行的试点安排和复盘节点。",
+              "ja": "実行可能な試行合意と見直し時点。"
+            }
+          }
+        ],
+        "output": {
+          "en": "Actor/action record · funding and care · monitoring plan",
+          "zh": "主体/行动记录 · 资金与维护 · 监测计划",
+          "ja": "主体・行動記録・資金と維持管理・観測計画"
+        },
+        "refs": [
+          "ansell-gash-2008-collaborative",
+          "ostrom-2010-polycentric",
+          "jica-2022-smart-city"
+        ]
+      }
+    ],
+    "cases": [
+      {
+        "id": "barcelona-superblocks",
+        "region": "Europe",
+        "city": "Barcelona",
+        "title": {
+          "en": "Superblocks",
+          "zh": "超级街区",
+          "ja": "スーパーブロック"
+        },
+        "mechanism": {
+          "en": "Reassign street space and evaluate environmental and social use together.",
+          "zh": "调整街道空间，同时评价环境和社会使用。",
+          "ja": "街路空間を再配分し、環境と利用を合わせて評価。"
+        },
+        "kind": "field",
+        "evidence": {
+          "en": "Mixed outcomes across sites; some baseline and comparison data are limited.",
+          "zh": "不同地点的效果有差异，部分基线与对照资料有限。",
+          "ja": "地区で結果が異なり、一部の事前・比較データに制約。"
+        },
+        "transfer": {
+          "en": "Include adjacent traffic, deliveries and different users.",
+          "zh": "纳入周边交通、装卸和不同使用群体。",
+          "ja": "周辺交通・配送・異なる利用者を含める。"
+        },
+        "refs": [
+          "barcelona-superblocks-bcn1",
+          "barcelona-superblocks-bcn2"
+        ]
+      },
+      {
+        "id": "paris-oasis",
+        "region": "Europe",
+        "city": "Paris",
+        "title": {
+          "en": "Oasis schoolyards",
+          "zh": "Oasis 校园庭院",
+          "ja": "Oasis校庭"
+        },
+        "mechanism": {
+          "en": "Co-design shade, planting, permeable ground and resting places.",
+          "zh": "共同设计遮阴、种植、透水地面与休憩点。",
+          "ja": "日陰・植栽・透水面・休憩場所を共同設計。"
+        },
+        "kind": "field",
+        "evidence": {
+          "en": "A single-site thermal study tests fixed/mobile measurement methods.",
+          "zh": "单场地热环境研究测试固定与移动测量方法。",
+          "ja": "単一地点で固定・移動計測の方法を検討。"
+        },
+        "transfer": {
+          "en": "Agree access hours, an operator and paired observations.",
+          "zh": "商定开放时段、运营主体与配对观测。",
+          "ja": "開放時間・管理主体・対の観測を設定。"
+        },
+        "refs": [
+          "paris-oasis-par1",
+          "paris-oasis-par2"
+        ]
+      },
+      {
+        "id": "melbourne-urban-forest",
+        "region": "Oceania",
+        "city": "Melbourne",
+        "title": {
+          "en": "Urban forest precinct plans",
+          "zh": "城市森林分区计划",
+          "ja": "都市林地区計画"
+        },
+        "mechanism": {
+          "en": "Tie street planting priorities to consultation and a delivery programme.",
+          "zh": "将街道种植优先次序与协商和实施计划结合。",
+          "ja": "街路植栽の優先順位を協議と実施計画に結ぶ。"
+        },
+        "kind": "programme",
+        "evidence": {
+          "en": "Plan and delivery records; no measured cooling effect used here.",
+          "zh": "采用规划与实施记录，不据此推定实测降温量。",
+          "ja": "計画・実施記録。ここでは実測冷却量を扱わない。"
+        },
+        "transfer": {
+          "en": "Check services, rooting space, water and long-term care.",
+          "zh": "核查管线、根系空间、水源和长期养护。",
+          "ja": "埋設物・根系空間・水・長期管理を確認。"
+        },
+        "refs": [
+          "melbourne-urban-forest-mel1",
+          "melbourne-urban-forest-mel2"
+        ]
+      },
+      {
+        "id": "punggol-digital-district",
+        "region": "Asia",
+        "city": "Singapore",
+        "title": {
+          "en": "Punggol Digital District",
+          "zh": "榜鹅数码园区",
+          "ja": "プンゴル・デジタル地区"
+        },
+        "mechanism": {
+          "en": "Shared cooling and digital interfaces depend on coordinated building services.",
+          "zh": "共享供冷与数字接口依赖建筑设备的协调。",
+          "ja": "地域冷房とデジタル接続を建物設備の調整で支える。"
+        },
+        "kind": "programme",
+        "evidence": {
+          "en": "Operator/project description; savings cited there are estimates.",
+          "zh": "项目与运营说明，其中的节能值为估计值。",
+          "ja": "事業・運用説明。掲載の省エネ値は推計。"
+        },
+        "transfer": {
+          "en": "Agree owner participation, pipe rights, demand, cost and operation.",
+          "zh": "商定业主参与、管线权利、需求、费用和运营。",
+          "ja": "所有者参加・配管権利・需要・費用・運用の合意。"
+        },
+        "refs": [
+          "punggol-digital-district-pdd1",
+          "punggol-digital-district-pdd2"
+        ]
+      },
+      {
+        "id": "copenhagen-enghaveparken",
+        "region": "Europe",
+        "city": "Copenhagen",
+        "title": {
+          "en": "Enghaveparken cloudburst space",
+          "zh": "Enghaveparken 暴雨适应空间",
+          "ja": "Enghaveparkenの豪雨対策"
+        },
+        "mechanism": {
+          "en": "Connect everyday park space to temporary stormwater handling.",
+          "zh": "将日常公园空间与临时雨洪处理连接。",
+          "ja": "日常の公園空間を一時的な雨水処理に結ぶ。"
+        },
+        "kind": "programme",
+        "evidence": {
+          "en": "Municipal works/funding record; design capacity is not an avoided-loss estimate.",
+          "zh": "市政工程与资金记录；设计容量不等于避免损失的估计。",
+          "ja": "市の工事・資金記録。設計容量は被害回避の推定ではない。"
+        },
+        "transfer": {
+          "en": "Verify catchment, outlets, safe overflow and funding responsibilities.",
+          "zh": "核实汇水区、出水口、安全溢流与出资责任。",
+          "ja": "集水域・放流先・安全な越流・費用負担を確認。"
+        },
+        "refs": [
+          "copenhagen-enghaveparken-cph1",
+          "copenhagen-enghaveparken-cph2",
+          "copenhagen-enghaveparken-cph3"
+        ]
+      },
+      {
+        "id": "london-better-bankside",
+        "region": "Europe",
+        "city": "London",
+        "title": {
+          "en": "Better Bankside / Keppel Row",
+          "zh": "Better Bankside / Keppel Row",
+          "ja": "Better Bankside / Keppel Row"
+        },
+        "mechanism": {
+          "en": "A continuing area body delivers small public-space projects with partners.",
+          "zh": "持续性的地区组织联合伙伴推进小型公共空间项目。",
+          "ja": "継続的な地区組織が協働で小規模公共空間を実施。"
+        },
+        "kind": "programme",
+        "evidence": {
+          "en": "Area-management and completed-project records.",
+          "zh": "地区管理机制与已实施项目记录。",
+          "ja": "地区管理と完成事業の記録。"
+        },
+        "transfer": {
+          "en": "Establish a local funding basis, consent and maintenance roles.",
+          "zh": "建立适合本地的筹资基础、同意机制与维护责任。",
+          "ja": "地域に合う資金基盤・同意・維持責任を整える。"
+        },
+        "refs": [
+          "london-better-bankside-lon1",
+          "london-better-bankside-lon2",
+          "london-better-bankside-lon3"
+        ]
+      },
+      {
+        "id": "freiburg-vauban",
+        "region": "Europe",
+        "city": "Freiburg",
+        "title": {
+          "en": "Vauban development agreements",
+          "zh": "Vauban 开发协议",
+          "ja": "Vaubanの開発契約"
+        },
+        "mechanism": {
+          "en": "Link building energy requirements and shared services to development contracts.",
+          "zh": "将建筑能源要求、共享设施与开发合同连接。",
+          "ja": "建物省エネ要件と共用設備を開発契約に結ぶ。"
+        },
+        "kind": "programme",
+        "evidence": {
+          "en": "Historical planning records, read through available extracts.",
+          "zh": "历史规划记录，阅读范围限于可取得摘录。",
+          "ja": "閲覧可能な抜粋に基づく歴史的計画記録。"
+        },
+        "transfer": {
+          "en": "Separate land-development powers from existing-owner coordination.",
+          "zh": "区分土地开发权限与既有业主协调条件。",
+          "ja": "土地開発権限と既存所有者間の調整条件を区別。"
+        },
+        "refs": [
+          "freiburg-vauban-fre1",
+          "freiburg-vauban-fre2"
+        ]
+      },
+      {
+        "id": "new-york-cool-neighborhoods",
+        "region": "North America",
+        "city": "New York",
+        "title": {
+          "en": "Cool Neighborhoods NYC",
+          "zh": "Cool Neighborhoods NYC",
+          "ja": "Cool Neighborhoods NYC"
+        },
+        "mechanism": {
+          "en": "Combine heat-vulnerability targeting, physical works and cooling access.",
+          "zh": "结合热脆弱性识别、实体改善和降温空间可达性。",
+          "ja": "暑熱脆弱性の把握・空間改善・冷却空間へのアクセスを組み合わせる。"
+        },
+        "kind": "programme",
+        "evidence": {
+          "en": "Policy and risk-tool records; programme health effects are not estimated here.",
+          "zh": "政策与风险工具记录；这里不估计项目的健康效果。",
+          "ja": "政策・リスクツールの記録。健康効果の推定は行わない。"
+        },
+        "transfer": {
+          "en": "Use locally relevant resident, worker and visitor evidence.",
+          "zh": "采用与本地居民、工作者和访客相关的证据。",
+          "ja": "住民・就業者・来訪者に関する地域の根拠を用いる。"
+        },
+        "refs": [
+          "new-york-cool-neighborhoods-nyc1",
+          "new-york-cool-neighborhoods-nyc2"
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "UBEM",
+        "definition": {
+          "en": "Urban building energy modelling: estimate energy across a group of buildings.",
+          "zh": "城市建筑能耗建模：估算一组建筑的能源表现。",
+          "ja": "都市建物エネルギーモデリング：建物群のエネルギーを推定。"
+        }
+      },
+      {
+        "term": "EUI",
+        "definition": {
+          "en": "Energy use per unit floor area over a stated period.",
+          "zh": "指定时段内单位建筑面积的能源使用量。",
+          "ja": "一定期間の単位床面積当たりエネルギー使用量。"
+        }
+      },
+      {
+        "term": "Tₘᵣₜ",
+        "definition": {
+          "en": "Mean radiant temperature: a way to express the surrounding radiant environment.",
+          "zh": "平均辐射温度：表达周边辐射环境的指标。",
+          "ja": "平均放射温度：周囲の放射環境を表す指標。"
+        }
+      },
+      {
+        "term": "UTCI",
+        "definition": {
+          "en": "Universal Thermal Climate Index: equivalent temperature based on modelled human response.",
+          "zh": "通用热气候指数：基于人体模型响应的等效温度。",
+          "ja": "汎用温熱気候指数：人体モデルの応答に基づく等価温度。"
+        }
+      },
+      {
+        "term": "CFD",
+        "definition": {
+          "en": "Computational fluid dynamics: numerical modelling of fluid flow.",
+          "zh": "计算流体力学：用数值方法模拟流动。",
+          "ja": "数値流体力学：流れを数値的にモデル化。"
+        }
+      },
+      {
+        "term": "Archetype",
+        "definition": {
+          "en": "A documented representative building type used where detailed inputs are limited.",
+          "zh": "建筑类型模型：详细资料有限时采用、并记录假设的代表类型。",
+          "ja": "詳細データが限られる場合に用いる、仮定を記録した代表建物類型。"
+        }
+      },
+      {
+        "term": "Whole-life carbon",
+        "definition": {
+          "en": "Carbon across stated life-cycle stages and a common study period.",
+          "zh": "统一研究期内，明确生命周期阶段的碳排放。",
+          "ja": "共通の評価期間と明示したライフサイクル段階の炭素。"
+        }
+      },
+      {
+        "term": "Validation",
+        "definition": {
+          "en": "Compare a model with suitable physical evidence for its intended use.",
+          "zh": "针对预定用途，将模型与适当的物理证据比较。",
+          "ja": "目的に適した物理的根拠とモデルを比較。"
+        }
+      },
+      {
+        "term": "Sensitivity",
+        "definition": {
+          "en": "Check how an output changes when a stated input or assumption changes.",
+          "zh": "检查明确输入或假设变化时，结果如何改变。",
+          "ja": "入力・仮定の変更に対する出力変化を確認。"
+        }
+      },
+      {
+        "term": "Digital twin",
+        "definition": {
+          "en": "A linked representation, model and update/decision loop; the 3D model is one layer.",
+          "zh": "相连的空间表达、模型与更新/决策循环；三维模型只是其中一层。",
+          "ja": "表現・モデル・更新と判断のループ。3Dモデルはその一層。"
+        }
+      },
+      {
+        "term": "POI",
+        "definition": {
+          "en": "Point of interest: a mapped place or activity, with source coverage limits.",
+          "zh": "兴趣点：地图记录的地点或活动，覆盖受来源限制。",
+          "ja": "地図に記録された場所・活動。網羅性はデータ源に依存。"
+        }
+      },
+      {
+        "term": "Area management",
+        "definition": {
+          "en": "Arrangements for coordinating local actors, actions, resources and care.",
+          "zh": "协调地区主体、行动、资源和维护的组织安排。",
+          "ja": "地域の主体・行動・資源・維持管理を調整する仕組み。"
+        }
+      }
+    ],
+    "discussion": [
+      {
+        "title": {
+          "en": "Choose a shared question",
+          "zh": "共同选择问题",
+          "ja": "共通の問いを選ぶ"
+        },
+        "body": {
+          "en": "A building group, a daily route or a shared space? Name the users and the proposed change.",
+          "zh": "从建筑组、日常路线或共用空间切入？明确使用者和拟议变化。",
+          "ja": "建物群・日常経路・共用空間のどれか。利用者と変更を明示。"
+        }
+      },
+      {
+        "title": {
+          "en": "Agree useful evidence",
+          "zh": "商定所需证据",
+          "ja": "必要な根拠を合意"
+        },
+        "body": {
+          "en": "Choose a common baseline, a few options, meaningful measures and checks.",
+          "zh": "确定共同基线、少量方案、有意义的指标与核查。",
+          "ja": "共通基準・少数の案・意味のある指標と確認方法を選ぶ。"
+        }
+      },
+      {
+        "title": {
+          "en": "Connect to delivery",
+          "zh": "连接实施条件",
+          "ja": "実施に結ぶ"
+        },
+        "body": {
+          "en": "Name participants, responsibilities, access, funding, maintenance and a review point.",
+          "zh": "明确参与者、责任、通达、资金、维护和复盘节点。",
+          "ja": "参加者・責任・アクセス・資金・維持・見直し時点を明示。"
+        }
+      }
+    ]
+  },
+  "sources": [
+    {
+      "slug": "brief-2026",
+      "title": "Building an Area Management Model for Decarbonization and Climate Resilience: Kanda–Nihonbashi Area, Tokyo",
+      "authors": [
+        "Akito Murayama",
+        "Perry Pei-Ju Yang",
+        "Takahiro Yoshida"
+      ],
+      "year": 2026,
+      "official_url": "https://drive.google.com/file/d/1LkMUcYlM57gvMKpN3Hs6T2u5ykOVmIwf/view",
+      "citation_apa": "Murayama, A., Yang, P. P.-J., & Yoshida, T. (2026). Building an area management model for decarbonization and climate resilience: Kanda–Nihonbashi Area, Tokyo [Theme B official studio brief]. The University of Tokyo.",
+      "source_type": "Official course brief",
+      "role": "course",
+      "read_scope": "sections",
+      "locators": [
+        "Background",
+        "Assignment, Figure 5",
+        "About Kajicho",
+        "Program",
+        "Output",
+        "References"
+      ],
+      "pdf_integrity": "UNAVAILABLE: pypdf repair warnings; declared/enumerated/reader counts all 7. Section and figure locators used.",
+      "method_facts": [
+        {
+          "fact": "The assignment combines planning support and implementation support, focusing on Kajicho 1 & 2 within Kanda–Nihonbashi toward 2050.",
+          "locator": "Assignment, Figure 5"
+        },
+        {
+          "fact": "The required outputs are a booklet explaining the model/application and a presentation summarising it.",
+          "locator": "Output"
+        }
+      ],
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "yamagata-yang-2020",
+      "title": "Urban Systems Design: Creating Sustainable Smart Cities in the Internet of Things Era",
+      "authors": [
+        "Yoshiki Yamagata (editor)",
+        "Perry P. J. Yang (editor)"
+      ],
+      "year": 2020,
+      "doi": "10.1016/C2017-0-04401-4",
+      "official_url": "https://keio.elsevierpure.com/en/publications/urban-systems-design-creating-sustainable-smart-cities-in-the-int/",
+      "citation_apa": "Yamagata, Y., & Yang, P. P. J. (Eds.). (2020). Urban systems design: Creating sustainable smart cities in the Internet of Things era. Elsevier. https://doi.org/10.1016/C2017-0-04401-4",
+      "source_type": "Edited book; institutional metadata and synopsis only",
+      "role": "course",
+      "read_scope": "metadata_and_synopsis",
+      "locators": [
+        "Keio institutional publication record: abstract and bibliographic information"
+      ],
+      "method_facts": [
+        {
+          "fact": "The publisher synopsis connects urban form, energy, transport, human comfort and shared platforms.",
+          "locator": "Institutional record abstract"
+        }
+      ],
+      "limitations_assessment": "Book chapters not obtained; no chapter-level evidence or methodological assessment.",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "jica-2022-smart-city",
+      "title": "Data Collection Survey on the Application of Smart City Approach: Final Report",
+      "authors": [
+        "Japan International Cooperation Agency",
+        "Pacific Consultants",
+        "Mitsubishi UFJ Research and Consulting"
+      ],
+      "year": 2022,
+      "official_url": "https://openjicareport.jica.go.jp/618/618/618_000_12342515.html",
+      "read_url": "https://libopac.jica.go.jp/images/report/12342515.pdf",
+      "citation_apa": "Japan International Cooperation Agency, Pacific Consultants, & Mitsubishi UFJ Research and Consulting. (2022). Data collection survey on the application of smart city approach: Final report.",
+      "source_type": "Official technical and implementation report",
+      "role": "course",
+      "read_scope": "sections",
+      "locators": [
+        "§1-1–1-2",
+        "§5-5-1–5-5-2",
+        "§6-2"
+      ],
+      "pdf_integrity": "PASS;347 pages;SHA256110512b95891aa693732a45b085d9250756ba59b576a478e7075a073e3e56199",
+      "method_facts": [
+        {
+          "fact": "Urban issues, vision and strategy precede technology selection; local context conditions transfer.",
+          "locator": "§1-1–1-2"
+        },
+        {
+          "fact": "Implementation needs named roles, finance, operational arrangements and monitoring.",
+          "locator": "§5-5;§6-2"
+        }
+      ],
+      "source_limitations": [
+        {
+          "status": "reader-inferred",
+          "text": "The report principally concerns cooperation in developing-country cities. Its process concepts need local interpretation for central Tokyo.",
+          "locator": "§1-1-2"
+        }
+      ],
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "morrish-2021-tokyo",
+      "title": "Tokyo: Reimagining the World’s Largest City with Advanced Analytics",
+      "authors": [
+        "Keera Morrish"
+      ],
+      "year": 2021,
+      "official_url": "https://www.esri.com/about/newsroom/blog/georgia-tech-students-smart-city-tokyo/",
+      "citation_apa": "Morrish, K. (2021, December 7). Tokyo: Reimagining the world’s largest city with advanced analytics. Esri.",
+      "source_type": "Vendor-authored education/practice account",
+      "role": "course",
+      "read_scope": "article",
+      "locators": [
+        "Placemakers",
+        "A New City on the Urban Fringes",
+        "Reimagining Future Communities Using Advanced Analytics"
+      ],
+      "method_facts": [
+        {
+          "fact": "The studio brings geospatial analysis and urban design into interdisciplinary project work; the account distinguishes existing communities from new developments.",
+          "locator": "Placemakers; Reimagining Future Communities Using Advanced Analytics"
+        }
+      ],
+      "source_limitations": [
+        {
+          "status": "reader-inferred",
+          "text": "An education/practice account supports context, not model accuracy or causal intervention effects."
+        }
+      ],
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "ramnarine-2025-canvas",
+      "title": "Urban revitalization pathways toward zero carbon emissions through systems architecting of urban digital twins",
+      "authors": [
+        "Ishwar D. Ramnarine",
+        "Tarek A. Sherif",
+        "Abdulrahman H. Alorabi",
+        "Haya Helmy",
+        "Takahiro Yoshida",
+        "Akito Murayama",
+        "Perry P.-J. Yang"
+      ],
+      "year": 2025,
+      "doi": "10.1177/23998083251318142",
+      "official_url": "https://journals.sagepub.com/doi/10.1177/23998083251318142",
+      "citation_apa": "Ramnarine, I. D., Sherif, T. A., Alorabi, A. H., Helmy, H., Yoshida, T., Murayama, A., & Yang, P. P.-J. (2025). Urban revitalization pathways toward zero carbon emissions through systems architecting of urban digital twins. Environment and Planning B: Urban Analytics and City Science, 52(8), 1920–1948. https://doi.org/10.1177/23998083251318142",
+      "source_type": "Peer-reviewed systems-design case study",
+      "role": "course",
+      "read_scope": "abstract_only",
+      "locators": [
+        "Publisher abstract"
+      ],
+      "method_facts": [
+        {
+          "fact": "CANVAS links digital representation, performance modelling, design interventions and a decision platform through iterative revitalisation cycles.",
+          "locator": "Abstract"
+        }
+      ],
+      "limitations_assessment": "Full text unavailable; no detailed parameter critique or reuse of reported reduction percentages.",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "alorabi-2025-net-zero",
+      "title": "A Data-driven Smart District Toward Net Zero Using Generative Design and Urban Digital Twins: A Use Case of Nihonbashi, Tokyo",
+      "authors": [
+        "Abdulrahman H. Alorabi",
+        "Jingyuan Shen",
+        "Jalisa M. Smith",
+        "Max Hawkins",
+        "Kamyar Fatemifar",
+        "Takahiro Yoshida",
+        "Akito Murayama",
+        "Perry Pei-Ju Yang"
+      ],
+      "year": 2025,
+      "doi": "10.5194/isprs-archives-XLVIII-4-W16-2025-1-2025",
+      "official_url": "https://isprs-archives.copernicus.org/articles/XLVIII-4-W16-2025/1/2025/",
+      "citation_apa": "Alorabi, A. H., Shen, J., Smith, J. M., Hawkins, M., Fatemifar, K., Yoshida, T., Murayama, A., & Yang, P. P.-J. (2025). A data-driven smart district toward net zero using generative design and urban digital twins: A use case of Nihonbashi, Tokyo. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, XLVIII-4/W16-2025, 1–8. https://doi.org/10.5194/isprs-archives-XLVIII-4-W16-2025-1-2025",
+      "source_type": "Peer-reviewed modelling/design case study",
+      "role": "course",
+      "read_scope": "sections",
+      "locators": [
+        "§2",
+        "§3.1–3.3"
+      ],
+      "pdf_integrity": "PASS;8 pages;SHA2565f17ad2648585b65d4b7e1ae0329f995b62bc697aff2d0aa640d105f9c3e0231",
+      "method_facts": [
+        {
+          "fact": "The three-stage framework connects a UBEM baseline, generated alternatives and interactive comparison; §3.3 uses URBANopt/OpenStudio/EnergyPlus.",
+          "locator": "§2;§3.3"
+        },
+        {
+          "fact": "Scenario variables include form, use, envelope/operation and renewable-energy assumptions.",
+          "locator": "§3.2"
+        }
+      ],
+      "source_limitations": [
+        {
+          "status": "reader-inferred",
+          "text": "The construction-year intervention rule is a scenario classification, not a verified structural or parcel decision for Kajicho. Review condition, ownership, whole-life carbon and planning feasibility before transfer.",
+          "locator": "§3.1–3.2"
+        }
+      ],
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "zeng-2025-heat",
+      "title": "Enhancing Urban Heat Risk Resilience in Tokyo’s Nihonbashi through Urban Digital Twins of 4-Step Scenario Planning",
+      "authors": [
+        "Qinghao Zeng",
+        "Ryan T. Nation",
+        "Hina I. Ahmed",
+        "Hsu-Chieh Ma",
+        "Kaiyu Zhou",
+        "Jiaqi Gu",
+        "Takahiro Yoshida",
+        "Akito Murayama",
+        "Perry Pei-Ju Yang"
+      ],
+      "year": 2025,
+      "doi": "10.5194/isprs-archives-XLVIII-4-W16-2025-135-2025",
+      "official_url": "https://isprs-archives.copernicus.org/articles/XLVIII-4-W16-2025/135/2025/",
+      "citation_apa": "Zeng, Q., Nation, R. T., Ahmed, H. I., Ma, H.-C., Zhou, K., Gu, J., Yoshida, T., Murayama, A., & Yang, P. P.-J. (2025). Enhancing urban heat risk resilience in Tokyo’s Nihonbashi through urban digital twins of 4-step scenario planning. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, XLVIII-4/W16-2025, 135–142. https://doi.org/10.5194/isprs-archives-XLVIII-4-W16-2025-135-2025",
+      "source_type": "Peer-reviewed heat/network modelling case study",
+      "role": "course",
+      "read_scope": "sections",
+      "locators": [
+        "§3.1",
+        "§4.1–4.4",
+        "§5.1–5.2"
+      ],
+      "pdf_integrity": "PASS;8 pages;SHA2561d471815ce0a7de9cfc51ccfd1c606cc64aa5637dc6cd08762bb4f7e18d3e02d",
+      "method_facts": [
+        {
+          "fact": "Four steps link description, evaluation, prediction and prescription through heat-index, network and vulnerability data.",
+          "locator": "§3.1;§4"
+        },
+        {
+          "fact": "The discussion distinguishes an envisioned stakeholder interface from current terminal/plot outputs and identifies static inputs and proxy limitations.",
+          "locator": "§5.1–5.2"
+        }
+      ],
+      "source_limitations": [
+        {
+          "status": "author-acknowledged",
+          "text": "Traffic-density vulnerability proxy and static road/shelter data limit interpretation; shade/time-varying heat treatment needs development.",
+          "locator": "§5.2"
+        }
+      ],
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "yang-yamagata-2019",
+      "title": "Urban Systems Design: From “science for design” to “design in science”",
+      "authors": [
+        "Perry P. J. Yang",
+        "Yoshiki Yamagata"
+      ],
+      "year": 2019,
+      "doi": "10.1177/2399808319877770",
+      "official_url": "https://journals.sagepub.com/doi/10.1177/2399808319877770",
+      "citation_apa": "Yang, P. P. J., & Yamagata, Y. (2019). Urban systems design: From “science for design” to “design in science”. Environment and Planning B: Urban Analytics and City Science, 46(8), 1381–1386. https://doi.org/10.1177/2399808319877770",
+      "source_type": "Conceptual editorial",
+      "role": "theory",
+      "read_scope": "sections",
+      "locators": [
+        "Introduction",
+        "Cities as flows: A biological metabolism or complex systems",
+        "The theme issue on urban systems design"
+      ],
+      "method_facts": [
+        {
+          "fact": "Urban-systems design joins normative choices about desirable places with positive analysis of how urban flows perform.",
+          "locator": "Introduction;The theme issue on urban systems design"
+        }
+      ],
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "epa-swmm",
+      "title": "Storm Water Management Model (SWMM)",
+      "authors": [
+        "U.S. Environmental Protection Agency"
+      ],
+      "year": 2026,
+      "official_url": "https://www.epa.gov/water-research/storm-water-management-model-swmm",
+      "citation_apa": "U.S. Environmental Protection Agency. (2026, October 7). Storm Water Management Model (SWMM).",
+      "source_type": "Official model capability and documentation page",
+      "role": "methods",
+      "read_scope": "sections",
+      "locators": [
+        "Capabilities",
+        "Accounting for Hydrologic Processes",
+        "Green Infrastructure as LID Controls"
+      ],
+      "method_facts": [
+        {
+          "fact": "SWMM represents rainfall-runoff and drainage-network routing, with permeable/impervious subcatchments and low-impact-development controls.",
+          "locator": "Capabilities;Accounting for Hydrologic Processes;Green Infrastructure as LID Controls"
+        }
+      ],
+      "limitations_assessment": "Capability page read; no SWMM run, parameter calibration or numerical design asserted.",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "reinhart-cerezo-2016-ubem",
+      "title": "Urban building energy modeling – A review of a nascent field",
+      "authors": [
+        "Christoph F. Reinhart",
+        "Carlos Cerezo Davila"
+      ],
+      "year": 2016,
+      "publication_year_note": "Online 2 December 2015; journal volume 97, February 2016.",
+      "doi": "10.1016/j.buildenv.2015.12.001",
+      "official_url": "https://dspace.mit.edu/entities/publication/9cb85b0f-e4fd-4399-b5eb-4dccd719a550",
+      "read_url": "https://www.researchgate.net/publication/285656598_Urban_Building_Energy_Modeling_-_A_Review_of_a_Nascent_Field",
+      "citation_apa": "Reinhart, C. F., & Cerezo Davila, C. (2016). Urban building energy modeling – A review of a nascent field. Building and Environment, 97, 196–202. https://doi.org/10.1016/j.buildenv.2015.12.001",
+      "source_type": "Peer-reviewed methods review; original article text read via secondary host; metadata checked against MIT repository.",
+      "read_scope": "sections",
+      "locators": [
+        "§2.1, pp. 197–198",
+        "§2.3 and §3, pp. 199–200"
+      ],
+      "method_facts": [
+        {
+          "fact": "UBEM combines climate, geometry, construction standards and use schedules; archetypes group buildings and then assign thermal properties.",
+          "locator": "§2.1, pp.197–198"
+        },
+        {
+          "fact": "The workflow separates input organization, thermal model generation/execution and validation.",
+          "locator": "§2, p.197"
+        }
+      ],
+      "inputs_stated": [
+        "Weather; envelope geometry and window ratios; terrain; constructions; HVAC systems; use schedules."
+      ],
+      "outputs_stated": [
+        "Operational building load profiles, presented spatially and temporally."
+      ],
+      "source_limitations": [
+        {
+          "status": "author-acknowledged",
+          "text": "Individual-building errors can exceed aggregate errors; limited audited and metered data constrain archetype calibration.",
+          "locator": "§2.3 and §3, pp.199–200"
+        }
+      ],
+      "studio_role_inference": "A framework for district building-energy and retrofit scenarios, with validation matched to the decision scale.",
+      "verification": "Metadata and quoted sections checked; no original validation case reanalysis.",
+      "role": "methods",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "broede-2012-utci",
+      "title": "Deriving the operational procedure for the Universal Thermal Climate Index (UTCI)",
+      "authors": [
+        "Peter Bröde",
+        "Dusan Fiala",
+        "Krzysztof Błażejczyk",
+        "Ingvar Holmér",
+        "Gerd Jendritzky",
+        "Bernhard Kampmann",
+        "Birger Tinz",
+        "George Havenith"
+      ],
+      "year": 2012,
+      "publication_year_note": "Online 31 May 2011; issue May 2012.",
+      "doi": "10.1007/s00484-011-0454-1",
+      "official_url": "https://link.springer.com/article/10.1007/s00484-011-0454-1",
+      "citation_apa": "Bröde, P., Fiala, D., Błażejczyk, K., Holmér, I., Jendritzky, G., Kampmann, B., Tinz, B., & Havenith, G. (2012). Deriving the operational procedure for the Universal Thermal Climate Index (UTCI). International Journal of Biometeorology, 56, 481–494. https://doi.org/10.1007/s00484-011-0454-1",
+      "source_type": "Peer-reviewed method paper",
+      "read_scope": "abstract_only",
+      "locators": [
+        "Publisher abstract paragraphs 1–5; publication metadata"
+      ],
+      "method_facts": [
+        {
+          "fact": "UTCI is the reference-environment air temperature producing an equivalent modeled dynamic physiological response.",
+          "locator": "Abstract, paragraph 2"
+        },
+        {
+          "fact": "The procedure combines the UTCI-Fiala thermoregulation model with adaptive clothing and provides thermal-stress categories and fast calculation approximations.",
+          "locator": "Abstract, paragraphs 1 and 4"
+        }
+      ],
+      "inputs_stated": [
+        "Wind speed; radiation; humidity; air temperature."
+      ],
+      "outputs_stated": [
+        "UTCI equivalent temperature and thermal-stress category."
+      ],
+      "source_limitations": [],
+      "limitations_assessment": "Not assessed: abstract_only.",
+      "studio_role_inference": "Defines a human-exposure outcome connecting radiation/shade and wind to outdoor thermal assessment.",
+      "verification": "Publisher title, all authors, DOI, online date and issue date verified; full methods and numerical validity bounds not read.",
+      "role": "methods",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "umep-solweig-manual",
+      "title": "12.2. SOLWEIG Manual",
+      "authors": [
+        "UMEP/SOLWEIG development team"
+      ],
+      "year": null,
+      "publication_year_note": "Living manual, accessed 2026-10-18. Lists stable v2025a released 2 May 2025 and development v2026a.",
+      "doi": null,
+      "official_url": "https://umep-docs.readthedocs.io/en/latest/OtherManuals/SOLWEIG.html",
+      "citation_apa": "UMEP/SOLWEIG development team. (n.d.). SOLWEIG manual. UMEP Manual. Retrieved October 18, 2026, from https://umep-docs.readthedocs.io/en/latest/OtherManuals/SOLWEIG.html",
+      "source_type": "Official model manual",
+      "read_scope": "sections",
+      "locators": [
+        "§12.2.1–12.2.3",
+        "§12.2.6",
+        "§12.2.10"
+      ],
+      "method_facts": [
+        {
+          "fact": "SOLWEIG computes directional shortwave and longwave radiation to estimate mean radiant temperature.",
+          "locator": "§12.2.1"
+        },
+        {
+          "fact": "Surface grids need common extent, resolution and CRS; wind forcing is required for PET/UTCI at points of interest.",
+          "locator": "§12.2.2.1, §12.2.2.2 and §12.2.6"
+        }
+      ],
+      "inputs_stated": [
+        "Building/ground DSM; optional canopy/trunk DSMs; DEM or building land-cover grid; weather, location, albedo/emissivity and human exposure settings."
+      ],
+      "outputs_stated": [
+        "Mean radiant temperature, radiation and shadow grids; point time series including PET and UTCI."
+      ],
+      "source_limitations": [
+        {
+          "status": "author-acknowledged",
+          "text": "The documented older ground scheme evaluates grass and impervious surfaces; water and bare soil are first-order approximations. The manual discourages interpreting building-roof fluxes.",
+          "locator": "§12.2.2.3 and §12.2.6"
+        }
+      ],
+      "studio_role_inference": "Provides a reproducible shade and pedestrian radiant-exposure path linked to GIS geometry.",
+      "verification": "Official manual sections read; versions distinguished; no model run or performance claim.",
+      "role": "methods",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "tominaga-2008-aij-cfd",
+      "title": "AIJ guidelines for practical applications of CFD to pedestrian wind environment around buildings",
+      "authors": [
+        "Yoshihide Tominaga",
+        "Akashi Mochida",
+        "Ryuichiro Yoshie",
+        "Hiroto Kataoka",
+        "Tsuyoshi Nozu",
+        "Masaru Yoshikawa",
+        "Taichi Shirasawa"
+      ],
+      "year": 2008,
+      "doi": "10.1016/j.jweia.2008.02.058",
+      "official_url": "https://www.aij.or.jp/jpn/publish/cfdguide/index_e.htm",
+      "publisher_url": "https://doi.org/10.1016/j.jweia.2008.02.058",
+      "read_url": "https://citeseerx.ist.psu.edu/document?doi=4e42d42348d7235fd996047d028322a00f2ef728&repid=rep1&type=pdf",
+      "citation_apa": "Tominaga, Y., Mochida, A., Yoshie, R., Kataoka, H., Nozu, T., Yoshikawa, M., & Shirasawa, T. (2008). AIJ guidelines for practical applications of CFD to pedestrian wind environment around buildings. Journal of Wind Engineering and Industrial Aerodynamics, 96(10–11), 1749–1761. https://doi.org/10.1016/j.jweia.2008.02.058",
+      "source_type": "Peer-reviewed technical guideline with benchmark comparisons",
+      "read_scope": "abstract_only",
+      "locators": [
+        "p.1749 abstract, indexed PDF excerpt; AIJ reference [19] indexed official page"
+      ],
+      "method_facts": [
+        {
+          "fact": "Guidelines are grounded in cross-comparisons of CFD, wind-tunnel tests and field measurements across seven test cases.",
+          "locator": "p.1749 abstract"
+        }
+      ],
+      "inputs_stated": [
+        "CFD predictions, wind-tunnel results and field measurements for benchmark cases (study evidence inputs)."
+      ],
+      "outputs_stated": [
+        "Guidance for predicting pedestrian wind around buildings."
+      ],
+      "source_limitations": [],
+      "limitations_assessment": "Not assessed: abstract_only.",
+      "studio_role_inference": "A Japan-specific reference for a wind-model validation plan.",
+      "verification": "Title, seven authors, DOI and pages verified from indexed original-PDF opening and official AIJ reference list. Full text retrieval failed; no numeric mesh/domain prescription asserted.",
+      "role": "methods",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "franke-2007-cost732",
+      "title": "Best Practice Guideline for the CFD Simulation of Flows in the Urban Environment",
+      "authors": [
+        "Jörg Franke (editor)",
+        "Antti Hellsten (editor)",
+        "Heinke Schlünzen (editor)",
+        "Bertrand Carissimo (editor)"
+      ],
+      "year": 2007,
+      "doi": null,
+      "official_url": "https://www.mi.uni-hamburg.de/en/arbeitsgruppen/windkanallabor/documents.html",
+      "read_url": "https://www.airshed.co.uk/wp-content/uploads/2018/03/COST-732-Best-Practice-Guideline-May-2007.pdf",
+      "citation_apa": "Franke, J., Hellsten, A., Schlünzen, H., & Carissimo, B. (Eds.). (2007). Best practice guideline for the CFD simulation of flows in the urban environment. COST Action 732. COST Office.",
+      "source_type": "COST technical consensus guideline",
+      "read_scope": "sections",
+      "locators": [
+        "Cover and imprint",
+        "§1–§5.1, printed pp.5–11"
+      ],
+      "method_facts": [
+        {
+          "fact": "Evaluation separates physical-model uncertainty from numerical errors, including discretization and iterative convergence.",
+          "locator": "§2–§4, pp.6–10"
+        },
+        {
+          "fact": "Convergence assessment monitors physical target variables as well as residuals.",
+          "locator": "§4.4, pp.9–10"
+        }
+      ],
+      "inputs_stated": [
+        "Geometry, inflow and other boundary conditions, initial conditions, mesh and numerical/model choices."
+      ],
+      "outputs_stated": [
+        "Procedures to quantify and reduce error in urban-flow CFD."
+      ],
+      "source_limitations": [
+        {
+          "status": "author-acknowledged",
+          "text": "The guideline primarily covers statistically steady RANS in neutral stratification; additional guidance is needed for non-neutral flow.",
+          "locator": "§1, p.5 and §5.1, p.11"
+        }
+      ],
+      "studio_role_inference": "Helps separate a converged wind calculation from a physically validated result, and identifies the scope gap for wind–heat coupling.",
+      "verification": "University of Hamburg official listing confirms document; original report text read from mirror. No universal validation threshold claimed.",
+      "role": "methods",
+      "human_read_status": "unknown",
+      "locator_note": "Use section/abstract locators; a retained structural PDF preflight was not provided for this record."
+    },
+    {
+      "slug": "rics-2023-wlca-v3",
+      "title": "Whole life carbon assessment for the built environment",
+      "authors": [
+        "Royal Institution of Chartered Surveyors"
+      ],
+      "year": 2023,
+      "publication_year_note": "Second edition September 2023; retrieved Version 3 issued August 2024, effective 1 July 2024.",
+      "doi": null,
+      "official_url": "https://www.rics.org/content/dam/ricsglobal/documents/standards/Whole_life_carbon_assessment_PS_Sept23.pdf",
+      "citation_apa": "Royal Institution of Chartered Surveyors. (2023). Whole life carbon assessment for the built environment (2nd ed., Version 3, August 2024).",
+      "source_type": "Professional standard, global",
+      "read_scope": "sections",
+      "locators": [
+        "Title page",
+        "§1.4.1–1.4.3, p.12",
+        "§2.1, pp.20–21",
+        "§3.2–3.3, pp.29–31",
+        "§4.10.2, p.57"
+      ],
+      "method_facts": [
+        {
+          "fact": "Retrofit projects report life-cycle stages over a defined study period, with module D reported separately.",
+          "locator": "§3.3, p.29"
+        },
+        {
+          "fact": "Retained elements exclude previous manufacturing impacts from retrofit A1–A5, while their future maintenance and end-of-life impacts remain relevant.",
+          "locator": "§3.3, p.31"
+        }
+      ],
+      "inputs_stated": [
+        "Retained/new element scope; product carbon data; project area; study period and future maintenance/replacement assumptions."
+      ],
+      "outputs_stated": [
+        "Life-cycle carbon by module and project part, reported as total tCO2e and area intensity kgCO2e/m²."
+      ],
+      "source_limitations": [
+        {
+          "status": "author-acknowledged",
+          "text": "Early design product choices are uncertain; later assessments favor manufacturer-specific EPDs where available.",
+          "locator": "§4.10.2, p.57"
+        }
+      ],
+      "studio_role_inference": "Defines consistent carbon accounting for retention, retrofit and replacement options.",
+      "verification": "Official PDF downloaded and extracted on mdx1; exact edition/version and read pages checked.",
+      "role": "methods",
+      "human_read_status": "unknown",
+      "locator_note": "Use section/abstract locators; a retained structural PDF preflight was not provided for this record."
+    },
+    {
+      "slug": "wri-c40-iclei-2021-gpc11",
+      "title": "Global Protocol for Community-Scale Greenhouse Gas Emission Inventories: An Accounting and Reporting Standard for Cities, Version 1.1",
+      "authors": [
+        "World Resources Institute",
+        "C40 Cities Climate Leadership Group",
+        "ICLEI – Local Governments for Sustainability"
+      ],
+      "year": 2021,
+      "publication_year_note": "PDF states updated June 2021; original edition 2014.",
+      "doi": null,
+      "official_url": "https://ghgprotocol.org/ghg-protocol-cities",
+      "read_url": "https://ghgprotocol.org/sites/default/files/standards/GPC_Full_MASTER_RW_v7.pdf",
+      "citation_apa": "World Resources Institute, C40 Cities Climate Leadership Group, & ICLEI – Local Governments for Sustainability. (2021). Global protocol for community-scale greenhouse gas emission inventories: An accounting and reporting standard for cities (Version 1.1).",
+      "source_type": "Official accounting and reporting standard",
+      "read_scope": "sections",
+      "locators": [
+        "Executive summary, pp.10–14",
+        "§3.5/Table 3.2, p.35",
+        "§5.1–5.1.2, p.51",
+        "Imprint: updated June 2021"
+      ],
+      "method_facts": [
+        {
+          "fact": "Scopes distinguish territorial emissions, grid-supplied energy used inside the boundary, and other outside emissions caused by activities inside it.",
+          "locator": "§3.5/Table 3.2, p.35"
+        },
+        {
+          "fact": "Most sources are estimated from activity data multiplied by emission factors; GPC specifies accounting rules without imposing one calculation method.",
+          "locator": "§5.1–5.1.2, p.51"
+        }
+      ],
+      "inputs_stated": [
+        "Inventory boundary; activity data; relevant emission factors."
+      ],
+      "outputs_stated": [
+        "Emissions inventories in tonnes of each greenhouse gas and CO2 equivalents."
+      ],
+      "source_limitations": [],
+      "limitations_assessment": "No methodological weakness assessed; declared scope is city inventories.",
+      "studio_role_inference": "Supplies boundary discipline for a district carbon ledger; a district adaptation should state its boundary and avoid double-counting building and area totals.",
+      "verification": "Official landing page and PDF checked; PDF read remotely after browser size limit.",
+      "role": "methods",
+      "human_read_status": "unknown",
+      "locator_note": "Use section/abstract locators; a retained structural PDF preflight was not provided for this record."
+    },
+    {
+      "slug": "ansell-gash-2008-collaborative",
+      "title": "Collaborative Governance in Theory and Practice",
+      "authors": [
+        "Chris Ansell",
+        "Alison Gash"
+      ],
+      "year": 2008,
+      "publication_year_note": "Advance Access 13 November 2007; volume 18(4), October 2008.",
+      "doi": "10.1093/jopart/mum032",
+      "official_url": "https://academic.oup.com/jpart/article/18/4/543/1090370",
+      "read_url": "https://explorer.bee.oregonstate.edu/Topic/InfluenceNetworks/Documents/Ansell_2008.pdf",
+      "citation_apa": "Ansell, C., & Gash, A. (2008). Collaborative governance in theory and practice. Journal of Public Administration Research and Theory, 18(4), 543–571. https://doi.org/10.1093/jopart/mum032",
+      "source_type": "Peer-reviewed comparative literature-based theory development",
+      "read_scope": "sections",
+      "locators": [
+        "Abstract, p.543",
+        "Definition, pp.544–547",
+        "A Model of Collaborative Governance, pp.547–550; Figure 1"
+      ],
+      "method_facts": [
+        {
+          "fact": "The model organizes starting conditions, institutional design, facilitative leadership and an iterative collaborative process.",
+          "locator": "pp.548–550, Figure 1"
+        },
+        {
+          "fact": "Authors develop the model through successive comparison and refinement using 137 cases.",
+          "locator": "pp.547–548"
+        }
+      ],
+      "inputs_stated": [
+        "Published case studies; stakeholder power/resources, participation incentives and prior cooperation/conflict."
+      ],
+      "outputs_stated": [
+        "A contingency model of conditions associated with collaboration."
+      ],
+      "source_limitations": [
+        {
+          "status": "author-acknowledged",
+          "text": "English-language coverage overrepresents American cases. Most cases evaluate process outcomes, limiting comparisons of policy effectiveness between governance modes.",
+          "locator": "pp.547–548"
+        }
+      ],
+      "studio_role_inference": "Structures stakeholder mapping, shared evidence discussions and decision-process documentation.",
+      "verification": "Original article PDF read via Oregon State mirror; journal metadata cross-checked with JSTOR; publisher fetch blocked.",
+      "role": "methods",
+      "human_read_status": "unknown",
+      "locator_note": "Use section/abstract locators; a retained structural PDF preflight was not provided for this record."
+    },
+    {
+      "slug": "ostrom-2010-polycentric",
+      "title": "Polycentric systems for coping with collective action and global environmental change",
+      "authors": [
+        "Elinor Ostrom"
+      ],
+      "year": 2010,
+      "doi": "10.1016/j.gloenvcha.2010.07.004",
+      "official_url": "https://doi.org/10.1016/j.gloenvcha.2010.07.004",
+      "read_url": "https://commonsblog.wordpress.com/wp-content/uploads/2007/10/elinor-ostrom-polycentric-system-for-coping-with-climate-change.pdf",
+      "citation_apa": "Ostrom, E. (2010). Polycentric systems for coping with collective action and global environmental change. Global Environmental Change, 20(4), 550–557. https://doi.org/10.1016/j.gloenvcha.2010.07.004",
+      "source_type": "Peer-reviewed conceptual governance article",
+      "read_scope": "sections",
+      "locators": [
+        "Abstract and introduction, p.550",
+        "§4, pp.552–553",
+        "§6–§7, pp.554–555"
+      ],
+      "method_facts": [
+        {
+          "fact": "Polycentric governance has multiple partly independent authorities across scales, linked through cooperation, monitoring and conflict resolution.",
+          "locator": "§4, p.552"
+        },
+        {
+          "fact": "The argument emphasizes local knowledge and learning across policy experiments.",
+          "locator": "§4, p.552"
+        }
+      ],
+      "inputs_stated": [
+        "Conceptual argument and examples of collective action across governance scales; no standardized numerical input set."
+      ],
+      "outputs_stated": [
+        "An analytical argument for multilevel climate action and learning."
+      ],
+      "source_limitations": [
+        {
+          "status": "author-acknowledged",
+          "text": "Multiple actors can create leakage, inconsistent policies, weak certification, gaming and free riding.",
+          "locator": "§6, pp.554–555"
+        }
+      ],
+      "studio_role_inference": "Connects building owners, street managers, community groups and municipal action without treating fragmented authority as automatically effective.",
+      "verification": "Publisher metadata/abstract and original article PDF mirror checked; conceptual claims kept separate from measured effects.",
+      "role": "methods",
+      "human_read_status": "unknown",
+      "locator_note": "Use section/abstract locators; a retained structural PDF preflight was not provided for this record."
+    },
+    {
+      "slug": "barcelona-superblocks-bcn1",
+      "case_id": "barcelona-superblocks",
+      "title": "Avaluació de les Superilles",
+      "authors": [
+        "Agència de Salut Pública de Barcelona"
+      ],
+      "year": null,
+      "date_note": null,
+      "doi": null,
+      "official_url": "https://dades.aspb.cat/obsip/avaluacions/superilles",
+      "citation_apa": "Agència de Salut Pública de Barcelona. (n.d.). Avaluació de les Superilles.",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "sections",
+      "read_scope_detail": "Overview paragraphs and linked evaluation products (HTML lines 12–29).",
+      "locators": [
+        "Overview paragraphs and linked evaluation products (HTML lines 12–29)."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": null,
+      "source_id": "BCN1",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "barcelona-superblocks-bcn2",
+      "case_id": "barcelona-superblocks",
+      "title": "Environmental and health effects of the Barcelona superblocks",
+      "authors": [
+        "Pérez, K., Palència, L., López, M. J., León-Gómez, B. B., Puig-Ribera, A., Gómez-Gutiérrez, A., Nieuwenhuijsen, M., Carrasco-Turigas, G., & Borrell, C."
+      ],
+      "year": 2025,
+      "date_note": "2025-02-17",
+      "doi": "10.1186/s12889-025-21835-z",
+      "official_url": "https://link.springer.com/article/10.1186/s12889-025-21835-z",
+      "citation_apa": "Pérez, K., Palència, L., López, M. J., León-Gómez, B. B., Puig-Ribera, A., Gómez-Gutiérrez, A., Nieuwenhuijsen, M., Carrasco-Turigas, G., & Borrell, C. (2025). Environmental and health effects of the Barcelona superblocks. BMC Public Health, 25, Article 634. https://doi.org/10.1186/s12889-025-21835-z",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "sections",
+      "read_scope_detail": "Abstract; Introduction implementation paragraphs; Methods; Results; Discussion; Strengths and limitations (HTML lines 53–212). Tables/figures and supplements not separately inspected.",
+      "locators": [
+        "Abstract; Introduction implementation paragraphs; Methods; Results; Discussion; Strengths and limitations (HTML lines 53–212). Tables/figures and supplements not separately inspected."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": null,
+      "source_id": "BCN2",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "paris-oasis-par1",
+      "case_id": "paris-oasis",
+      "title": "Les cours oasis",
+      "authors": [
+        "Ville de Paris"
+      ],
+      "year": 2025,
+      "date_note": "2025-01-15 (displayed update)",
+      "doi": null,
+      "official_url": "https://www.paris.fr/pages/les-cours-oasis-7389",
+      "citation_apa": "Ville de Paris. (2025, January 15). Les cours oasis.",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "sections",
+      "read_scope_detail": "La méthode oasis; evaluation; EU pilot context, partners and 2019–2022 steps (HTML lines 184–341).",
+      "locators": [
+        "La méthode oasis; evaluation; EU pilot context, partners and 2019–2022 steps (HTML lines 184–341)."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": null,
+      "source_id": "PAR1",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "paris-oasis-par2",
+      "case_id": "paris-oasis",
+      "title": "Spatial Microclimatic Characterization of a Parisian “Oasis” Schoolyard",
+      "authors": [
+        "Karam, G., Chanial, M., Parison, S., Hendel, M., & Royon, L."
+      ],
+      "year": 2023,
+      "date_note": "2023 proceedings; repository deposited 2024-07-29",
+      "doi": "10.1007/978-981-19-9822-5_315",
+      "official_url": "https://arxiv.org/pdf/2408.07284",
+      "citation_apa": "Karam, G., Chanial, M., Parison, S., Hendel, M., & Royon, L. (2023). Spatial microclimatic characterization of a Parisian “Oasis” schoolyard. In Proceedings of the 5th International Conference on Building Energy and Environment (pp. 2957–2965). Springer. https://doi.org/10.1007/978-981-19-9822-5_315",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "sections",
+      "read_scope_detail": "PDF pp. 1–7: summary, methods, mobile-measurement correction, GIS analysis, results/discussion and conclusions; repository bibliographic record read.",
+      "locators": [
+        "PDF pp. 1–7: summary, methods, mobile-measurement correction, GIS analysis, results/discussion and conclusions; repository bibliographic record read."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": "Proceedings metadata from repository; chapter DOI not independently resolved.",
+      "source_id": "PAR2",
+      "human_read_status": "unknown",
+      "locator_note": "Use section/abstract locators; a retained structural PDF preflight was not provided for this record."
+    },
+    {
+      "slug": "paris-oasis-par3",
+      "case_id": "paris-oasis",
+      "title": "Thermal and microclimatic behavior of OASIS schoolyard paving materials",
+      "authors": [
+        "Karam, G., Chanial, M., Grados, A., Hendel, M., & Royon, L."
+      ],
+      "year": 2024,
+      "date_note": "2024-07-31",
+      "doi": null,
+      "official_url": "https://arxiv.org/abs/2408.08317",
+      "citation_apa": "Karam, G., Chanial, M., Grados, A., Hendel, M., & Royon, L. (2024). Thermal and microclimatic behavior of OASIS schoolyard paving materials [Preprint]. arXiv. https://arxiv.org/abs/2408.08317",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "abstract_only",
+      "read_scope_detail": "Abstract and author/date metadata only.",
+      "locators": [
+        "Abstract and author/date metadata only."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": null,
+      "source_id": "PAR3",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "melbourne-urban-forest-mel1",
+      "case_id": "melbourne-urban-forest",
+      "title": "Plan the urban forest in your neighbourhood",
+      "authors": [
+        "City of Melbourne"
+      ],
+      "year": null,
+      "date_note": null,
+      "doi": null,
+      "official_url": "https://participate.melbourne.vic.gov.au/urban-forest",
+      "citation_apa": "City of Melbourne. (n.d.). Plan the urban forest in your neighbourhood.",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "sections",
+      "read_scope_detail": "Programme overview, endorsed/draft precinct status, timeline and FAQs (HTML lines 27–171).",
+      "locators": [
+        "Programme overview, endorsed/draft precinct status, timeline and FAQs (HTML lines 27–171)."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": null,
+      "source_id": "MEL1",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "melbourne-urban-forest-mel2",
+      "case_id": "melbourne-urban-forest",
+      "title": "CBD Urban Forest Precinct Plan 2025–2035",
+      "authors": [
+        "City of Melbourne"
+      ],
+      "year": null,
+      "date_note": "2025-03-18 plan endorsement; page undated",
+      "doi": null,
+      "official_url": "https://participate.melbourne.vic.gov.au/cbd-urban-forest",
+      "citation_apa": "City of Melbourne. (n.d.). CBD urban forest precinct plan 2025–2035.",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "sections",
+      "read_scope_detail": "Consultation closed, timeline and FAQs (HTML lines 26–88). Full final-plan PDF not read.",
+      "locators": [
+        "Consultation closed, timeline and FAQs (HTML lines 26–88). Full final-plan PDF not read."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": null,
+      "source_id": "MEL2",
+      "human_read_status": "unknown",
+      "locator_note": "Use section/abstract locators; a retained structural PDF preflight was not provided for this record."
+    },
+    {
+      "slug": "punggol-digital-district-pdd1",
+      "case_id": "punggol-digital-district",
+      "title": "What to know about ENGIE DCS at PDD [URL-derived article label; page heading displays Stories]",
+      "authors": [
+        "JTC"
+      ],
+      "year": null,
+      "date_note": null,
+      "doi": null,
+      "official_url": "https://www.jtc.gov.sg/punggoldigitaldistrict/story-articles/what-to-know-about-engie-dcs-at-pdd",
+      "citation_apa": "JTC. (n.d.). What to know about ENGIE DCS at PDD. Punggol Digital District.",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "sections",
+      "read_scope_detail": "Opening description; Designed for a greener tomorrow; Cooling a district the smart way; A collective effort in district cooling (HTML lines 180–210).",
+      "locators": [
+        "Opening description; Designed for a greener tomorrow; Cooling a district the smart way; A collective effort in district cooling (HTML lines 180–210)."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": null,
+      "source_id": "PDD1",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "punggol-digital-district-pdd2",
+      "case_id": "punggol-digital-district",
+      "title": "First-of-its-kind Open Digital Platform for Smart City Solutions in Punggol Digital District",
+      "authors": [
+        "JTC"
+      ],
+      "year": 2018,
+      "date_note": "2018-07-09",
+      "doi": null,
+      "official_url": "https://www.jtc.gov.sg/about-jtc/news-and-stories/press-releases/first-of-its-kind-open-digital-platform-for-smart-city-solutions-in-punggol-digital-district",
+      "citation_apa": "JTC. (2018, July 9). First-of-its-kind open digital platform for smart city solutions in Punggol Digital District.",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "limited_extract",
+      "read_scope_detail": "Search-delivered primary press-release text: MOU, equal co-investment, system integration, data access and digital-twin paragraphs.",
+      "locators": [
+        "Search-delivered primary press-release text: MOU, equal co-investment, system integration, data access and digital-twin paragraphs."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": null,
+      "source_id": "PDD2",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "copenhagen-enghaveparken-cph1",
+      "case_id": "copenhagen-enghaveparken",
+      "title": "Lånoptag til klimatilpasningsprojekt i Enghaveparken, Vesterbro/Kgs. Enghave",
+      "authors": [
+        "Københavns Kommune"
+      ],
+      "year": 2021,
+      "date_note": "2021-01-12",
+      "doi": null,
+      "official_url": "https://www.kk.dk/dagsordener-og-referater/%C3%98konomiudvalget/m%C3%B8de-12012021/referat/punkt-9",
+      "citation_apa": "Københavns Kommune. (2021, January 12). Lånoptag til klimatilpasningsprojekt i Enghaveparken, Vesterbro/Kgs. Enghave.",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "sections",
+      "read_scope_detail": "Recommendation, problem, solution, construction accounts and economy (HTML lines 20–77).",
+      "locators": [
+        "Recommendation, problem, solution, construction accounts and economy (HTML lines 20–77)."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": null,
+      "source_id": "CPH1",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "copenhagen-enghaveparken-cph2",
+      "case_id": "copenhagen-enghaveparken",
+      "title": "Klimatilpasnings- [truncated search title], Enghaveparken case section",
+      "authors": [
+        "Københavns Kommune"
+      ],
+      "year": null,
+      "date_note": null,
+      "doi": null,
+      "official_url": "https://www.kk.dk/sites/default/files/agenda/d60ae350-a195-42f4-a5ef-be2863612f1b/5c60882a-b958-42c8-a8f1-2674a8e99d5a-bilag-2.pdf",
+      "citation_apa": "Københavns Kommune. (n.d.). [Climate adaptation report, Enghaveparken section].",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "limited_extract",
+      "read_scope_detail": "LIMITED READ: search-extracted Enghaveparken – et grønt åndehul section only; PDF open failed.",
+      "locators": [
+        "LIMITED READ: search-extracted Enghaveparken – et grønt åndehul section only; PDF open failed."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": null,
+      "source_id": "CPH2",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "copenhagen-enghaveparken-cph3",
+      "case_id": "copenhagen-enghaveparken",
+      "title": "Endelig vedtagelse af skybrudsplan",
+      "authors": [
+        "Københavns Kommune"
+      ],
+      "year": 2012,
+      "date_note": "2012-11-19",
+      "doi": null,
+      "official_url": "https://www.kk.dk/dagsordener-og-referater/Teknik-%20og%20Milj%C3%B8udvalget/m%C3%B8de-19112012/referat/punkt-14",
+      "citation_apa": "Københavns Kommune. (2012, November 19). Endelig vedtagelse af skybrudsplan.",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "limited_extract",
+      "read_scope_detail": "Search-delivered council record: Skybrudsplanen and Økonomi sections.",
+      "locators": [
+        "Search-delivered council record: Skybrudsplanen and Økonomi sections."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": null,
+      "source_id": "CPH3",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "london-better-bankside-lon1",
+      "case_id": "london-better-bankside",
+      "title": "What is a BID?",
+      "authors": [
+        "Better Bankside"
+      ],
+      "year": null,
+      "date_note": null,
+      "doi": null,
+      "official_url": "https://betterbankside.co.uk/who-we-are/what-is-a-bid/",
+      "citation_apa": "Better Bankside. (n.d.). What is a BID?",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "limited_extract",
+      "read_scope_detail": "Search-delivered primary page body: ballot, levy, additional services and renewal. Direct opening returned metadata; later timed out.",
+      "locators": [
+        "Search-delivered primary page body: ballot, levy, additional services and renewal. Direct opening returned metadata; later timed out."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": null,
+      "source_id": "LON1",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "london-better-bankside-lon2",
+      "case_id": "london-better-bankside",
+      "title": "Alleyway transformed by creation of Keppel Row Garden",
+      "authors": [
+        "Southwark Council"
+      ],
+      "year": 2019,
+      "date_note": "2019-04-02; page updated 2026-04-17",
+      "doi": null,
+      "official_url": "https://www.southwark.gov.uk/news/2019/alleyway-transformed-creation-keppel-row-garden",
+      "citation_apa": "Southwark Council. (2019, April 2). Alleyway transformed by creation of Keppel Row Garden.",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "sections",
+      "read_scope_detail": "Full article body (HTML lines 26–44).",
+      "locators": [
+        "Full article body (HTML lines 26–44)."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": null,
+      "source_id": "LON2",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "london-better-bankside-lon3",
+      "case_id": "london-better-bankside",
+      "title": "Community Green Space Grants 2018",
+      "authors": [
+        "Greater London Authority"
+      ],
+      "year": null,
+      "date_note": "2018 programme; page undated",
+      "doi": null,
+      "official_url": "https://www.london.gov.uk/programmes-and-strategies/environment-and-climate-change/parks-green-spaces-and-biodiversity/greener-city-fund/community-green-space-grants-2018",
+      "citation_apa": "Greater London Authority. (n.d.). Community green space grants 2018.",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "limited_extract",
+      "read_scope_detail": "LIMITED READ: search-delivered Keppel Row Garden paragraph; full-page location retrieval did not return matching text.",
+      "locators": [
+        "LIMITED READ: search-delivered Keppel Row Garden paragraph; full-page location retrieval did not return matching text."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": null,
+      "source_id": "LON3",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "freiburg-vauban-fre1",
+      "case_id": "freiburg-vauban",
+      "title": "Umwelt und Energie",
+      "authors": [
+        "Stadt Freiburg im Breisgau"
+      ],
+      "year": null,
+      "date_note": null,
+      "doi": null,
+      "official_url": "https://www.freiburg.de/pb/208752.html",
+      "citation_apa": "Stadt Freiburg im Breisgau. (n.d.). Umwelt und Energie.",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "limited_extract",
+      "read_scope_detail": "Search-delivered full Energie and Freiraum/Wasser sections. Direct HTML retrieval exposed navigation; body location retrieval failed.",
+      "locators": [
+        "Search-delivered full Energie and Freiraum/Wasser sections. Direct HTML retrieval exposed navigation; body location retrieval failed."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": null,
+      "source_id": "FRE1",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "freiburg-vauban-fre2",
+      "case_id": "freiburg-vauban",
+      "title": "Quartier Vauban: Energie / Energy",
+      "authors": [
+        "Stadt Freiburg im Breisgau, Stadtplanungsamt"
+      ],
+      "year": 2008,
+      "date_note": "2008 (printed credit in search text)",
+      "doi": null,
+      "official_url": "https://www.freiburg.de/pb/site/Freiburg/get/documents/freiburg/daten/bauen/vauban/Vauban_Energie.pdf",
+      "citation_apa": "Stadt Freiburg im Breisgau, Stadtplanungsamt. (2008). Quartier Vauban: Energie / Energy [Poster].",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "limited_extract",
+      "read_scope_detail": "LIMITED READ: searchable bilingual poster text; PDF has no extracted text. Screenshot call returned reference but no rendered image inspected.",
+      "locators": [
+        "LIMITED READ: searchable bilingual poster text; PDF has no extracted text. Screenshot call returned reference but no rendered image inspected."
+      ],
+      "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+      "metadata_note": null,
+      "source_id": "FRE2",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "new-york-cool-neighborhoods-nyc1",
+      "case_id": "new-york-cool-neighborhoods",
+      "title": "Cool Neighborhoods NYC: A Comprehensive Approach to Keep Communities Safe in Extreme Heat",
+      "authors": [
+        "City of New York, Mayor's Office of Recovery and Resiliency"
+      ],
+      "year": 2017,
+      "date_note": "2017",
+      "doi": null,
+      "official_url": "https://www.nyc.gov/assets/orr/pdf/Cool_Neighborhoods_NYC_Report.pdf",
+      "citation_apa": "City of New York, Mayor's Office of Recovery and Resiliency. (2017). Cool neighborhoods NYC: A comprehensive approach to keep communities safe in extreme heat.",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "sections",
+      "read_scope_detail": "PDF introduction printed pp. 7–9 and targeted street-tree planting printed p. 11; contents and mayoral letter also inspected.",
+      "locators": [
+        "PDF introduction printed pp. 7–9 and targeted street-tree planting printed p. 11; contents and mayoral letter also inspected."
+      ],
+      "verification": "Official report PDF retrieved and text read.",
+      "metadata_note": null,
+      "source_id": "NYC1",
+      "human_read_status": "unknown",
+      "locator_note": "Use section/abstract locators; a retained structural PDF preflight was not provided for this record."
+    },
+    {
+      "slug": "new-york-cool-neighborhoods-nyc2",
+      "case_id": "new-york-cool-neighborhoods",
+      "title": "Interactive Heat Vulnerability Index",
+      "authors": [
+        "NYC Department of Health and Mental Hygiene"
+      ],
+      "year": null,
+      "date_note": null,
+      "doi": null,
+      "official_url": "https://a816-dohbesp.nyc.gov/IndicatorPublic/data-features/hvi/",
+      "citation_apa": "NYC Department of Health and Mental Hygiene. (n.d.). Interactive heat vulnerability index.",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "sections",
+      "read_scope_detail": "HTML overview, index description and factor explanations (lines 3–80); underlying methods paper and calculations not read.",
+      "locators": [
+        "HTML overview, index description and factor explanations (lines 3–80); underlying methods paper and calculations not read."
+      ],
+      "verification": "Official health-data portal retrieved and text read.",
+      "metadata_note": null,
+      "source_id": "NYC2",
+      "human_read_status": "unknown"
+    },
+    {
+      "slug": "new-york-cool-neighborhoods-nyc3",
+      "case_id": "new-york-cool-neighborhoods",
+      "title": "Mayor Mamdani Releases PSA to Ready New Yorkers for Extreme Heat Throughout the Summer",
+      "authors": [
+        "NYC Mayor's Office"
+      ],
+      "year": 2026,
+      "date_note": "2026-06 (URL; exact day not verified)",
+      "doi": null,
+      "official_url": "https://www.nyc.gov/mayors-office/news/2026/06/mayor-mamdani-releases-psa-to-ready-new-yorkers-for-extreme-heat",
+      "citation_apa": "NYC Mayor's Office. (2026, June). Mayor Mamdani releases PSA to ready New Yorkers for extreme heat throughout the summer.",
+      "source_type": "Case evaluation or official implementation record",
+      "role": "cases",
+      "read_scope": "limited_extract",
+      "read_scope_detail": "LIMITED READ: search-extracted paragraphs on HVI prioritisation and Cool It! NYC outdoor cooling resources.",
+      "locators": [
+        "LIMITED READ: search-extracted paragraphs on HVI prioritisation and Cool It! NYC outdoor cooling resources."
+      ],
+      "verification": "Primary official search text inspected.",
+      "metadata_note": null,
+      "source_id": "NYC3",
+      "human_read_status": "unknown"
+    }
+  ]
+}

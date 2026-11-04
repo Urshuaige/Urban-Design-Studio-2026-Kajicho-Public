@@ -1,0 +1,11 @@
+{
+  "reviewed_sectors": 12,
+  "empty_sector": "3_0",
+  "public_crosscheck_revealed_same_site_rebuilding": [
+    "Hotel Kazusaya, completed2020",
+    "Clip building, newly occupied2017",
+    "Yusen Iwamotocho, completed2001"
+  ],
+  "decision": "Earlier matching footprint shapes do not establish current building age. Early windows retained only as research leads. Conditional aerial estimate uses recognizable FY2019/current form, upper calendar year2020; documentary records override it. Unknown or conflicting identity remains unknown.",
+  "estimated_date_is_not_confirmed": true
+}

@@ -1,0 +1,5 @@
+﻿source,url,possible_use,status
+PLATEAU,https://www.mlit.go.jp/plateau/open-data/,3D buildings and available attributes,Candidate portal; no GIS dataset downloaded
+e-Stat GIS,https://www.e-stat.go.jp/gis,Population and statistical boundaries,Portal opened; no dataset selected
+National Land Numerical Information,https://nlftp.mlit.go.jp/ksj/,"Land use, transport and other geographic layers",Portal opened; no dataset selected
+GSI Maps,https://maps.gsi.go.jp/,Base maps and geographic reference,Portal opened; follow layer-specific terms

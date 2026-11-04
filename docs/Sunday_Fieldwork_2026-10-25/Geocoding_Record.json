@@ -1,0 +1,88 @@
+{
+  "provider": "Geospatial Information Authority of Japan · Address Search",
+  "checked_on": "2026-10-21",
+  "request_url_template": "https://msearch.gsi.go.jp/address-search/AddressSearch?q={urlencoded_query}",
+  "selection": "One result returned for each query; retain returned block/address title. Izumibashi Branch query resolves to block 11, not a surveyed 11-7 entrance.",
+  "responses": {
+    "東京都千代田区鍛冶町2丁目8-14": [
+      {
+        "geometry": {
+          "coordinates": [
+            139.772247,
+            35.692257
+          ],
+          "type": "Point"
+        },
+        "type": "Feature",
+        "properties": {
+          "addressCode": "",
+          "title": "東京都千代田区鍛冶町二丁目８番１４号"
+        }
+      }
+    ],
+    "東京都千代田区鍛冶町1丁目8-6": [
+      {
+        "geometry": {
+          "coordinates": [
+            139.772873,
+            35.691048
+          ],
+          "type": "Point"
+        },
+        "type": "Feature",
+        "properties": {
+          "addressCode": "",
+          "title": "東京都千代田区鍛冶町一丁目８番６号"
+        }
+      }
+    ],
+    "東京都千代田区神田佐久間町1丁目11-7": [
+      {
+        "geometry": {
+          "coordinates": [
+            139.774338,
+            35.697285
+          ],
+          "type": "Point"
+        },
+        "type": "Feature",
+        "properties": {
+          "addressCode": "",
+          "title": "東京都千代田区神田佐久間町一丁目１１番地"
+        }
+      }
+    ],
+    "東京都千代田区神田小川町3丁目6": [
+      {
+        "geometry": {
+          "coordinates": [
+            139.762177,
+            35.695404
+          ],
+          "type": "Point"
+        },
+        "type": "Feature",
+        "properties": {
+          "addressCode": "",
+          "title": "東京都千代田区神田小川町三丁目６番"
+        }
+      }
+    ],
+    "東京都千代田区神田神保町1丁目17": [
+      {
+        "geometry": {
+          "coordinates": [
+            139.759903,
+            35.69524
+          ],
+          "type": "Point"
+        },
+        "type": "Feature",
+        "properties": {
+          "addressCode": "",
+          "title": "東京都千代田区神田神保町一丁目１７番"
+        }
+      }
+    ]
+  }
+}

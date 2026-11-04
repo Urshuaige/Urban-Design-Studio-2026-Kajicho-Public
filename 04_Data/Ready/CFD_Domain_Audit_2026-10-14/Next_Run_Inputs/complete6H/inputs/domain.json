@@ -1,0 +1,49 @@
+{
+  "core_buildings": 277,
+  "context_buildings": 3529,
+  "total_buildings": 3806,
+  "Hmax_m": 235.2,
+  "source_meshes": [
+    "13101:53394611_bldg_6697_op.gml",
+    "13101:53394620_bldg_6697_op.gml",
+    "13101:53394621_bldg_6697_op.gml",
+    "13101:53394622_bldg_6697_op.gml",
+    "13101:53394631_bldg_6697_op.gml",
+    "13101:53394632_bldg_6697_op.gml",
+    "13101:53394641_bldg_6697_op.gml"
+  ],
+  "built_bounds_m": [
+    -858.14299997534,
+    -1373.9700001752935,
+    734.1400000254725,
+    1219.8198998241933
+  ],
+  "domain_m": [
+    -4160,
+    -2752,
+    4480,
+    4800,
+    1472
+  ],
+  "upstream_clearance_m": 1378.0299998247065,
+  "downstream_clearance_m": 3580.1801001758067,
+  "side_clearance_m": 3301.85700002466,
+  "top_clearance_above_tallest_m": 1236.8,
+  "projected_frontal_area_m2": 244147.1499000237,
+  "initial_projected_frontal_blockage_fraction": 0.043862665843036365,
+  "projected_frontal_blockage_fraction": 0.019196855964109655,
+  "context_selection": "complete6H; geometry audit and candidate inputs only",
+  "terrain": "flat ground z=0; source base elevations retained for sensitivity; LOD1 extrusion",
+  "origin_epsg6677": [
+    -5600.0,
+    -34320.0
+  ],
+  "omitted_buildings": null,
+  "omitted_relevant_6H": null,
+  "core_bounds_m": [
+    -163.3604116935212,
+    -165.11412012339133,
+    214.64278245973674,
+    445.8550349371653
+  ]
+}

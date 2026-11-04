@@ -1,0 +1,68 @@
+{
+  "summer_day": {
+    "requested_hours": 828,
+    "valid_hours": 827,
+    "calm_hours": 0,
+    "missing_hours": 1,
+    "mean_speed_ms": 3.7413542926239423,
+    "median_speed_ms": 3.8,
+    "top_directions": [
+      {
+        "direction": "SSE",
+        "pct_noncalm": 32.769044740024185
+      },
+      {
+        "direction": "SE",
+        "pct_noncalm": 19.830713422007253
+      },
+      {
+        "direction": "S",
+        "pct_noncalm": 18.016928657799276
+      }
+    ]
+  },
+  "summer_night": {
+    "requested_hours": 1380,
+    "valid_hours": 1380,
+    "calm_hours": 1,
+    "missing_hours": 0,
+    "mean_speed_ms": 2.71804347826087,
+    "median_speed_ms": 2.5,
+    "top_directions": [
+      {
+        "direction": "S",
+        "pct_noncalm": 29.296591733139955
+      },
+      {
+        "direction": "SSE",
+        "pct_noncalm": 19.289340101522843
+      },
+      {
+        "direction": "SSW",
+        "pct_noncalm": 9.717186366932559
+      }
+    ]
+  },
+  "hot_day": {
+    "requested_hours": 501,
+    "valid_hours": 501,
+    "calm_hours": 0,
+    "missing_hours": 0,
+    "mean_speed_ms": 3.88562874251497,
+    "median_speed_ms": 4.0,
+    "top_directions": [
+      {
+        "direction": "SSE",
+        "pct_noncalm": 35.528942115768466
+      },
+      {
+        "direction": "SE",
+        "pct_noncalm": 24.550898203592812
+      },
+      {
+        "direction": "S",
+        "pct_noncalm": 15.169660678642716
+      }
+    ]
+  }
+}

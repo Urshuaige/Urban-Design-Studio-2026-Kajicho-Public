@@ -1,0 +1,4 @@
+﻿ROW_ID,__wider_pk,osm_id,name_en,name_ja,source_date,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,19,way/228930885,,,2026-10-25,19,inside_wider,Original source feature or statistical unit; values not recomputed
+2,20,way/249162427,,,2026-10-25,20,inside_wider,Original source feature or statistical unit; values not recomputed
+3,33,way/620668559,,常盤公園,2026-10-25,33,inside_wider,Original source feature or statistical unit; values not recomputed

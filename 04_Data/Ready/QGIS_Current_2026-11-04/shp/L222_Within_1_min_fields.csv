@@ -1,0 +1,15 @@
+﻿source_field,shp_field,shp_type,dbf_width_bytes,null_bit,storage,source_non_null,source_null,source_max_text_bytes
+__wider_pk,wider_pk,integer,11,0,shp_and_csv,1909,0,
+origin_key,origin_key,text,7,1,shp_and_csv,1909,0,7
+origin_code,origin_cod,text,6,2,shp_and_csv,1909,0,6
+speed_m_s,speed_m_s,real,20,3,shp_and_csv,1909,0,
+minutes,minutes,integer,11,4,shp_and_csv,1909,0,
+edge_id,edge_id,integer,11,5,shp_and_csv,1909,0,
+way_id,way_id,integer,11,6,shp_and_csv,1909,0,
+start_m,start_m,real,20,7,shp_and_csv,1909,0,
+end_m,end_m,real,20,8,shp_and_csv,1909,0,
+length_m,length_m,real,20,9,shp_and_csv,1909,0,
+grade,grade,text,9,10,shp_and_csv,1909,0,9
+delivery_source_fid,delivery_s,integer,11,11,shp_and_csv,1909,0,
+delivery_geometry,delivery_g,text,16,12,shp_and_csv,1909,0,16
+delivery_value_scope,delivery_v,text,66,13,shp_and_csv,1909,0,66

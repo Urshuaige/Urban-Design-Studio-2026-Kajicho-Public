@@ -1,0 +1,184 @@
+{
+  "prepared_jst": "2026-10-14T22:56:16+09:00",
+  "status": "reference workflow submitted on mdx1; see remote_workflow for the verified phase",
+  "geometry_comparison": "first versus second; same large air box, core cells and sampling",
+  "boundary_comparison": "first versus third; only lateral bounds differ",
+  "cases": [
+    {
+      "geometry": "geometry6H.geojson",
+      "purpose": "geometry reference",
+      "domain_m": [
+        -4160,
+        -2752,
+        4480,
+        4800,
+        1472
+      ],
+      "size_m": [
+        8640,
+        7552,
+        1472
+      ],
+      "roof_cases": [
+        "baseline",
+        "cool roofs"
+      ],
+      "physical_conditions": "same recorded JMA hour and roof heat definition",
+      "projected_blockage_proxy": 0.019196855964109655
+    },
+    {
+      "geometry": "geometry750m10H.geojson",
+      "purpose": "continuous750m plus10H geometry expansion; same domain and core mesh",
+      "domain_m": [
+        -4160,
+        -2752,
+        4480,
+        4800,
+        1472
+      ],
+      "size_m": [
+        8640,
+        7552,
+        1472
+      ],
+      "roof_cases": [
+        "baseline",
+        "cool roofs"
+      ],
+      "physical_conditions": "same recorded JMA hour and roof heat definition",
+      "projected_blockage_proxy": 0.026709043849409225
+    },
+    {
+      "geometry": "geometry6H.geojson",
+      "purpose": "side-boundary sensitivity; fixed geometry and y/z bounds",
+      "domain_m": [
+        -3200,
+        -2752,
+        3072,
+        4800,
+        1472
+      ],
+      "size_m": [
+        6272,
+        7552,
+        1472
+      ],
+      "roof_cases": [
+        "baseline",
+        "cool roofs"
+      ],
+      "physical_conditions": "same recorded JMA hour and roof heat definition",
+      "projected_blockage_proxy": 0.026444648521987787
+    }
+  ],
+  "grid": {
+    "base_cell_m": 64,
+    "global_origin_m": [
+      0,
+      0,
+      0
+    ],
+    "core_surface_target_m": 1,
+    "core_ground_target_m": 0.5,
+    "small_near_core_object_target_m": 0.25,
+    "small_object_buffer_m": 2,
+    "note": "Box bounds align to the same64m lattice to preserve the core grid across domain tests; actual cut cells require meshing checks."
+  },
+  "criteria": {
+    "ROI_wind_vector_RMS_over_Uref_max": 0.05,
+    "paired_effect_relative_change_max": 0.1,
+    "paired_effect_sign": "preserved for reportable effects",
+    "wind_reporting_resolution_ms": 0.01,
+    "temperature_reporting_resolution_K": 0.01,
+    "heat_balance_relative_target": 0.01,
+    "scope": "project criteria fixed before sensitivity; not COST/AIJ universal tolerances"
+  },
+  "economy": "Core detail fixed. Pure10H adds50objects; continuous750m+10H adds2715. Prioritize continuous-context versus completed6H in the same box, then the fixed-geometry side-boundary comparison. Pure10H is an optional diagnostic if context changes the interpretation. Use adaptive coarse outer cells; inspect actual mesh count before choosing useful parallelism.",
+  "current_fields": "published iteration100 remains an unconverged legacy snapshot; no replacement field published; new sensitivity calculation in progress",
+  "small_objects": [
+    {
+      "id": "bldg_90dfc19f-67ec-43b0-b8e6-27ef2f69ec6b",
+      "area_m2": 0.5342891998185181,
+      "height_m": 13.5,
+      "distance_to_core_m": 49.04203708894587,
+      "higher_geometry_covered_fraction": 0.0,
+      "neighbours": []
+    }
+  ],
+  "source_coverage": "7 selected surrounding wards in published2025 LOD1 products; not all2026 structures or post-survey changes",
+  "wider_screen_records": 52358,
+  "wider_screen_tiles": 187,
+  "exact_geometry_objects": 31015,
+  "unresolved_screen_candidates": 0,
+  "remote_workflow": {
+    "host": "mdx1",
+    "directory": "/fast/SHI/urban_design_studio_2026/cfd_domain_audit_20261014",
+    "selected_case": "complete6H_wide",
+    "session": "kajicho-domain-20261014",
+    "checked_utc": "2026-10-14T13:55:11.822883+00:00",
+    "image": "opencfd/openfoam-default:2412",
+    "image_digest": "sha256:1ba02114b1c025c370f2e269a07677c16c9bea8d990fcd75ac8378aff9d41b50",
+    "mesh_ranks": 72,
+    "pair_ranks": 36,
+    "pair_started": true,
+    "phase": "paired solve",
+    "selection_snapshot": "00_Start/Compute_Hosts_Domain_Audit_Unlocked_2026-10-14.json",
+    "started_utc": "2026-10-14T13:25:12Z",
+    "environment": [
+      "manifold3d==3.5.4",
+      "mapbox_earcut==2.1.0",
+      "numpy==2.5.4",
+      "scipy==1.18.1",
+      "shapely==2.2.0",
+      "trimesh==5.1.1"
+    ],
+    "mesh": {
+      "cells": 8079968,
+      "minimum_volume_m3": 0.015625,
+      "maximum_nonorthogonality_deg": 25.239402,
+      "maximum_skewness": 1.0,
+      "minimum_face_weight": 0.33333333,
+      "minimum_internal_face_connectivity_determinant": 0.043895748,
+      "all_geometry_failed_categories": 1,
+      "concave_cells": 296527,
+      "remaining_weak_connectivity_cells": 0,
+      "local_repair": "none",
+      "mesh_type": "native castellated Cartesian/octree; snap false",
+      "geometry_error": "Staircase boundaries; narrow gaps and the small-object patch require explicit checks.",
+      "scientific_validation": "convergence, heat balance, mesh and domain sensitivity pending",
+      "accepted_for_exploratory_pair": true,
+      "source_log": "logs/checkMesh.log",
+      "small_object_boundary_checks": [
+        {
+          "id": "bldg_90dfc19f-67ec-43b0-b8e6-27ef2f69ec6b",
+          "nearby_roof_triangles": 16,
+          "nearby_wall_triangles": 1232,
+          "nearby_roof_area_m2": 0.5,
+          "horizontal_check_buffer_m": 0.4,
+          "resolved_boundary_present": true,
+          "scope": "Local roof and wall presence on the generated patch; this does not establish mesh-independent flow."
+        }
+      ]
+    },
+    "docker": [
+      "kajicho-area-complete6H_wide-retrofit Up 20 minutes",
+      "kajicho-area-complete6H_wide-baseline Up 20 minutes"
+    ],
+    "cases": {
+      "baseline": {
+        "phase": "second order",
+        "last_logged_iteration": 117,
+        "fatal": false,
+        "solver_log": "complete6H_wide/logs/solver_baseline.log",
+        "last_log_bytes": 85863
+      },
+      "retrofit": {
+        "phase": "second order",
+        "last_logged_iteration": 94,
+        "fatal": false,
+        "solver_log": "complete6H_wide/logs/solver_retrofit.log",
+        "last_log_bytes": 57026
+      }
+    }
+  }
+}

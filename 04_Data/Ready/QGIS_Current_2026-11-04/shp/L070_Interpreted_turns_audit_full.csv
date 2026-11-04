@@ -1,0 +1,23 @@
+﻿ROW_ID,__wider_pk,route_id,turn_seq,event,name,map_year,snap_m,role,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,43,SH_AM,43,Shinkosai,Shinkosai — Morning,2025,53.62,Interpreted road turn; not a surveyed event position,43,inside_wider,Original source feature or statistical unit; values not recomputed
+2,44,SH_AM,44,Shinkosai,Shinkosai — Morning,2025,32.13,Interpreted road turn; not a surveyed event position,44,inside_wider,Original source feature or statistical unit; values not recomputed
+3,45,SH_AM,45,Shinkosai,Shinkosai — Morning,2025,9.93,Interpreted road turn; not a surveyed event position,45,inside_wider,Original source feature or statistical unit; values not recomputed
+4,46,SH_AM,46,Shinkosai,Shinkosai — Morning,2025,9.83,Interpreted road turn; not a surveyed event position,46,inside_wider,Original source feature or statistical unit; values not recomputed
+5,47,SH_AM,47,Shinkosai,Shinkosai — Morning,2025,5.23,Interpreted road turn; not a surveyed event position,47,inside_wider,Original source feature or statistical unit; values not recomputed
+6,56,SH_AM,56,Shinkosai,Shinkosai — Morning,2025,5.43,Interpreted road turn; not a surveyed event position,56,inside_wider,Original source feature or statistical unit; values not recomputed
+7,57,SH_AM,57,Shinkosai,Shinkosai — Morning,2025,4.52,Interpreted road turn; not a surveyed event position,57,inside_wider,Original source feature or statistical unit; values not recomputed
+8,106,SH_PM,38,Shinkosai,Shinkosai — Afternoon,2025,6.89,Interpreted road turn; not a surveyed event position,106,inside_wider,Original source feature or statistical unit; values not recomputed
+9,107,SH_PM,39,Shinkosai,Shinkosai — Afternoon,2025,6.14,Interpreted road turn; not a surveyed event position,107,inside_wider,Original source feature or statistical unit; values not recomputed
+10,136,MI_02,5,Mikoshi,Nihonbashi 1,2025,5.32,Interpreted road turn; not a surveyed event position,136,inside_wider,Original source feature or statistical unit; values not recomputed
+11,137,MI_02,6,Mikoshi,Nihonbashi 1,2025,16.09,Interpreted road turn; not a surveyed event position,137,inside_wider,Original source feature or statistical unit; values not recomputed
+12,138,MI_02,7,Mikoshi,Nihonbashi 1,2025,9.76,Interpreted road turn; not a surveyed event position,138,inside_wider,Original source feature or statistical unit; values not recomputed
+13,139,MI_02,8,Mikoshi,Nihonbashi 1,2025,14.01,Interpreted road turn; not a surveyed event position,139,inside_wider,Original source feature or statistical unit; values not recomputed
+14,147,MI_03,1,Mikoshi,Iwamotocho and Higashi-Kanda,2025,5.5,Interpreted road turn; not a surveyed event position,147,inside_wider,Original source feature or statistical unit; values not recomputed
+15,190,MI_07,1,Mikoshi,Kanda Station East — Kajicho 1 and 2,2025,6.46,Interpreted road turn; not a surveyed event position,190,inside_wider,Original source feature or statistical unit; values not recomputed
+16,191,MI_07,2,Mikoshi,Kanda Station East — Kajicho 1 and 2,2025,2.96,Interpreted road turn; not a surveyed event position,191,inside_wider,Original source feature or statistical unit; values not recomputed
+17,243,TS_FLOAT,11,Tsukematsuri,Tsukematsuri — Floats,2025,4.46,Interpreted road turn; not a surveyed event position,243,inside_wider,Original source feature or statistical unit; values not recomputed
+18,244,TS_FLOAT,12,Tsukematsuri,Tsukematsuri — Floats,2025,6.97,Interpreted road turn; not a surveyed event position,244,inside_wider,Original source feature or statistical unit; values not recomputed
+19,263,TS_HORSE,12,Tsukematsuri,Tsukematsuri — Soma horses,2025,4.46,Interpreted road turn; not a surveyed event position,263,inside_wider,Original source feature or statistical unit; values not recomputed
+20,264,TS_HORSE,13,Tsukematsuri,Tsukematsuri — Soma horses,2025,6.97,Interpreted road turn; not a surveyed event position,264,inside_wider,Original source feature or statistical unit; values not recomputed
+21,276,TS_BANDO,5,Tsukematsuri,Tsukematsuri — Bando warriors,2025,4.46,Interpreted road turn; not a surveyed event position,276,inside_wider,Original source feature or statistical unit; values not recomputed
+22,277,TS_BANDO,6,Tsukematsuri,Tsukematsuri — Bando warriors,2025,6.97,Interpreted road turn; not a surveyed event position,277,inside_wider,Original source feature or statistical unit; values not recomputed

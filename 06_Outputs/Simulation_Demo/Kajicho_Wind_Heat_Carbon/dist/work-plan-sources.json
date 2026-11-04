@@ -1,0 +1,145 @@
+[
+  {
+    "id": "cost732-2007",
+    "title": "Best Practice Guideline for the CFD Simulation of Flows in the Urban Environment",
+    "year": 2007,
+    "url": "https://www.theairshed.com/wp-content/uploads/2018/03/COST-732-Best-Practice-Guideline-May-2007.pdf",
+    "read_scope": "sections",
+    "locators": [
+      "§1, printed p.5",
+      "§4.4, pp.9–10",
+      "§5.4–5.5, pp.16–18",
+      "§5.8, pp.23–25",
+      "§5.11, p.26"
+    ]
+  },
+  {
+    "id": "aij2008",
+    "title": "AIJ guidelines for practical applications of CFD to pedestrian wind environment around buildings",
+    "year": 2008,
+    "url": "https://citeseerx.ist.psu.edu/document?doi=4e42d42348d7235fd996047d028322a00f2ef728&repid=rep1&type=pdf",
+    "read_scope": "Abstract only",
+    "locators": [
+      "p.1749 abstract"
+    ]
+  },
+  {
+    "id": "aij2020",
+    "title": "Guidebook for CFD Predictions of Urban Wind Environment",
+    "year": 2020,
+    "url": "https://www.aij.or.jp/jpn/publish/cfdguide/index_e.htm",
+    "read_scope": "official-index passages",
+    "locators": [
+      "Introduction",
+      "Validation Benchmark Tests"
+    ]
+  },
+  {
+    "id": "aij-les2026",
+    "title": "AIJ guidelines on the applications of large-eddy simulation to pedestrian wind environment: Recommendations and validation benchmarks",
+    "year": 2026,
+    "url": "https://www.sciencedirect.com/science/article/pii/S0167610525003174",
+    "read_scope": "publisher indexed highlights/abstract plus author university metadata",
+    "locators": [
+      "Publisher highlights",
+      "Abstract",
+      "Volume 269, article 106321"
+    ]
+  },
+  {
+    "id": "solweig-manual",
+    "title": "UMEP SOLWEIG Manual",
+    "year": null,
+    "url": "https://umep-docs.readthedocs.io/en/latest/OtherManuals/SOLWEIG.html",
+    "read_scope": "sections",
+    "locators": [
+      "Version notice",
+      "§12.2.1",
+      "§12.2.2.1–12.2.2.4",
+      "§12.2.3",
+      "§12.2.6",
+      "§12.2.10"
+    ]
+  },
+  {
+    "id": "urock-manual",
+    "title": "UMEP Urban Wind Fields: URock",
+    "year": null,
+    "url": "https://umep-docs.readthedocs.io/en/latest/processor/Wind%20model%20URock.html",
+    "read_scope": "sections",
+    "locators": [
+      "Introduction",
+      "Input parameters"
+    ]
+  },
+  {
+    "id": "urock2023",
+    "title": "URock2023a: an open-source GIS-based wind model for complex urban settings",
+    "year": 2023,
+    "url": "https://gmd.copernicus.org/articles/16/5703/2023/",
+    "read_scope": "sections",
+    "locators": [
+      "§1–§2.1",
+      "§3",
+      "§4.6–§4.7",
+      "§5"
+    ]
+  },
+  {
+    "id": "solweig-wall2026",
+    "title": "A simple step heating approach for wall surface temperature estimation in the SOLWEIG model",
+    "year": 2026,
+    "url": "https://gmd.copernicus.org/articles/19/1321/2026/gmd-19-1321-2026.html",
+    "read_scope": "sections",
+    "locators": [
+      "§2.1–§2.6",
+      "§3",
+      "§4"
+    ]
+  },
+  {
+    "id": "utci-official",
+    "title": "UTCI official calculator",
+    "year": null,
+    "url": "https://www.utci.org/utci_calc.php",
+    "read_scope": "calculator input labels and applicability notice",
+    "locators": [
+      "Wind speed v at 10 m",
+      "Polynomial applicability notice"
+    ]
+  },
+  {
+    "id": "london-wind2019",
+    "title": "Wind Microclimate Guidelines for Developments in the City of London",
+    "year": 2019,
+    "url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/wind-microclimate-guidelines.pdf",
+    "read_scope": "sections",
+    "locators": [
+      "CFD requirements, printed pp.13–14",
+      "Wind tunnel and CFD in combination, p.15",
+      "Presentation, pp.16–19"
+    ]
+  },
+  {
+    "id": "london-thermal2020",
+    "title": "Thermal Comfort Guidelines for Developments in the City of London",
+    "year": 2020,
+    "url": "https://newsite.cityoflondon.gov.uk/assets/Services-Environment/thermal-comfort-guidelines-for-developments-in-the-city-of-london.pdf",
+    "read_scope": "sections",
+    "locators": [
+      "§7–§9, printed pp.30–35"
+    ]
+  },
+  {
+    "id": "digital-twin2025",
+    "title": "Digital Twin(official)",
+    "year": 2025,
+    "url": "https://www.gov.uk/government/publications/digital-twin-definition/digital-twin-official",
+    "read_scope": "sections",
+    "locators": [
+      "Overview",
+      "Necessary requirements",
+      "Connection states"
+    ]
+  }
+]

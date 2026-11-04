@@ -1,0 +1,157 @@
+{
+  "snapshot_utc": "2026-10-16T15:20:10+00:00",
+  "hosts": [
+    {
+      "hostname": "owner-Super-Server",
+      "logical_cpus": 40,
+      "load_1_5_15": [
+        7.396484375,
+        7.15673828125,
+        7.63037109375
+      ],
+      "cpu_idle_fraction": 0.6605527638190954,
+      "unused_core_equivalent": 26.4,
+      "memory_gib": {
+        "MemTotal": 251.3,
+        "MemAvailable": 136.2
+      },
+      "gpu": [
+        {
+          "index": "0",
+          "uuid": "GPU-36f20f8e-2709-5446-28d5-09ee0f10fb7a",
+          "name": "NVIDIA GeForce RTX 4090",
+          "total_memory_mib": "24564",
+          "free_memory_mib": "14661",
+          "utilization_pct": "55"
+        }
+      ],
+      "gpu_processes": [
+        "GPU-36f20f8e-2709-5446-28d5-09ee0f10fb7a, 2164329, /home/sasaki/anaconda3/envs/mapmatch/bin/python, 956",
+        "GPU-36f20f8e-2709-5446-28d5-09ee0f10fb7a, 3103395, /mnt/free/evacfusion/EvacFusion_PaperBaselines_v3_20260923/.venv-baselines/bin/python, 8390"
+      ],
+      "scheduler_commands": [],
+      "alias": "iis-lab",
+      "reachable": true
+    },
+    {
+      "hostname": "ubuntu-2004",
+      "logical_cpus": 72,
+      "load_1_5_15": [
+        2.06,
+        2.16,
+        3.62
+      ],
+      "cpu_idle_fraction": 0.972376457523598,
+      "unused_core_equivalent": 70.0,
+      "memory_gib": {
+        "MemTotal": 226.7,
+        "MemAvailable": 128.9
+      },
+      "gpu": [
+        {
+          "index": "0",
+          "uuid": "GPU-a28636f1-044d-3eed-d64d-e7024685404b",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "total_memory_mib": "40960",
+          "free_memory_mib": "26404",
+          "utilization_pct": "90"
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-19ef3b1c-2ea4-f745-51bb-6a8506d4e0e0",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "total_memory_mib": "40960",
+          "free_memory_mib": "40428",
+          "utilization_pct": "0"
+        },
+        {
+          "index": "2",
+          "uuid": "GPU-08d6656c-38a8-c5ea-eda0-270be26485d5",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "total_memory_mib": "40960",
+          "free_memory_mib": "40428",
+          "utilization_pct": "0"
+        },
+        {
+          "index": "3",
+          "uuid": "GPU-9404f6db-fd9b-c8bd-a53e-6ddd4c6a123c",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "total_memory_mib": "40960",
+          "free_memory_mib": "40428",
+          "utilization_pct": "0"
+        }
+      ],
+      "gpu_processes": [
+        "GPU-a28636f1-044d-3eed-d64d-e7024685404b, 17992, python, 14012"
+      ],
+      "scheduler_commands": [],
+      "alias": "mdx1",
+      "reachable": true
+    },
+    {
+      "hostname": "ubuntu-2004",
+      "logical_cpus": 72,
+      "load_1_5_15": [
+        15.62,
+        12.55,
+        10.9
+      ],
+      "cpu_idle_fraction": 0.8680998613037448,
+      "unused_core_equivalent": 62.5,
+      "memory_gib": {
+        "MemTotal": 226.7,
+        "MemAvailable": 199.5
+      },
+      "gpu": [
+        {
+          "index": "0",
+          "uuid": "GPU-1aa9a351-0dd2-370a-8c1b-43cc75e2cffc",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "total_memory_mib": "40960",
+          "free_memory_mib": "40428",
+          "utilization_pct": "0"
+        },
+        {
+          "index": "1",
+          "uuid": "GPU-8cc5c72b-f492-4b6e-365b-627cb15df3d6",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "total_memory_mib": "40960",
+          "free_memory_mib": "37734",
+          "utilization_pct": "73"
+        },
+        {
+          "index": "2",
+          "uuid": "GPU-0ea7be6e-d5c8-e091-acc6-92cf1b6cc1ea",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "total_memory_mib": "40960",
+          "free_memory_mib": "16736",
+          "utilization_pct": "88"
+        },
+        {
+          "index": "3",
+          "uuid": "GPU-b7cf67ab-5152-fa77-2751-4d28a432b40c",
+          "name": "NVIDIA A100-SXM4-40GB",
+          "total_memory_mib": "40960",
+          "free_memory_mib": "37518",
+          "utilization_pct": "65"
+        }
+      ],
+      "gpu_processes": [
+        "GPU-8cc5c72b-f492-4b6e-365b-627cb15df3d6, 2695469, python, 2686",
+        "GPU-0ea7be6e-d5c8-e091-acc6-92cf1b6cc1ea, 2628248, /home/mdxuser/anaconda3/envs/Change3D/bin/python, 23684",
+        "GPU-b7cf67ab-5152-fa77-2751-4d28a432b40c, 2695326, python, 2902"
+      ],
+      "scheduler_commands": [],
+      "alias": "mdx2",
+      "reachable": true
+    }
+  ],
+  "capacity_hint": {
+    "cpu": "mdx1",
+    "gpu": {
+      "host": "mdx2",
+      "index": "0"
+    }
+  },
+  "selection_note": "Capacity hints only: check job memory, GPU compatibility, running processes and scheduler allocation. Explicit user placement overrides these hints."
+}

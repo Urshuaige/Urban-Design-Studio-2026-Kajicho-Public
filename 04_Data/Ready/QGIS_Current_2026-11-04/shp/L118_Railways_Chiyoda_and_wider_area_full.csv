@@ -1,0 +1,126 @@
+﻿ROW_ID,__wider_pk,osm_id,name_en,name_ja,source_date,rail_type,bridge,tunnel,vertical_level,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,5,way/23993804,Sōbu Main Line,総武本線,2026-10-25,rail,<NULL>,yes,-5,5,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+2,20,way/128292761,,,2026-10-25,platform,<NULL>,<NULL>,1,20,inside_wider,Original source feature or statistical unit; values not recomputed
+3,21,way/128292762,,,2026-10-25,platform,<NULL>,<NULL>,1,21,inside_wider,Original source feature or statistical unit; values not recomputed
+4,22,way/128292763,,,2026-10-25,platform,<NULL>,<NULL>,1,22,inside_wider,Original source feature or statistical unit; values not recomputed
+5,81,way/171225066,Chuō Main Line,中央本線,2026-10-25,rail,yes,<NULL>,1,81,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+6,82,way/171225068,Chuō Main Line,中央本線,2026-10-25,rail,yes,<NULL>,1,82,inside_wider,Original source feature or statistical unit; values not recomputed
+7,83,way/171225071,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,83,inside_wider,Original source feature or statistical unit; values not recomputed
+8,84,way/171225073,Chuō Main Line,中央本線,2026-10-25,rail,yes,<NULL>,1,84,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+9,85,way/171225075,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,85,inside_wider,Original source feature or statistical unit; values not recomputed
+10,87,way/171225078,Chuō Main Line,中央本線,2026-10-25,rail,yes,<NULL>,1,87,inside_wider,Original source feature or statistical unit; values not recomputed
+11,89,way/171225083,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,89,inside_wider,Original source feature or statistical unit; values not recomputed
+12,90,way/171225085,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,90,inside_wider,Original source feature or statistical unit; values not recomputed
+13,93,way/171225088,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,93,inside_wider,Original source feature or statistical unit; values not recomputed
+14,98,way/171225093,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,98,inside_wider,Original source feature or statistical unit; values not recomputed
+15,99,way/171225094,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,99,inside_wider,Original source feature or statistical unit; values not recomputed
+16,224,way/211148498,Yamanote Line,山手線,2026-10-25,rail,yes,<NULL>,1,224,inside_wider,Original source feature or statistical unit; values not recomputed
+17,225,way/211148499,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,viaduct,<NULL>,1,225,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+18,228,way/211148502,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,yes,<NULL>,1,228,inside_wider,Original source feature or statistical unit; values not recomputed
+19,230,way/211148505,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,yes,<NULL>,1,230,inside_wider,Original source feature or statistical unit; values not recomputed
+20,233,way/211148510,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,yes,<NULL>,1,233,inside_wider,Original source feature or statistical unit; values not recomputed
+21,234,way/211148512,Yamanote Line,山手線,2026-10-25,rail,yes,<NULL>,1,234,inside_wider,Original source feature or statistical unit; values not recomputed
+22,235,way/211148514,Yamanote Line,山手線,2026-10-25,rail,yes,<NULL>,1,235,inside_wider,Original source feature or statistical unit; values not recomputed
+23,236,way/211148515,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,viaduct,<NULL>,1,236,inside_wider,Original source feature or statistical unit; values not recomputed
+24,237,way/211148517,Yamanote Line,山手線,2026-10-25,rail,yes,<NULL>,1,237,inside_wider,Original source feature or statistical unit; values not recomputed
+25,238,way/211148518,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,238,inside_wider,Original source feature or statistical unit; values not recomputed
+26,239,way/211148520,Yamanote Line,山手線,2026-10-25,rail,yes,<NULL>,1,239,inside_wider,Original source feature or statistical unit; values not recomputed
+27,240,way/211148525,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,viaduct,<NULL>,1,240,inside_wider,Original source feature or statistical unit; values not recomputed
+28,241,way/211148526,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,viaduct,<NULL>,1,241,inside_wider,Original source feature or statistical unit; values not recomputed
+29,243,way/211148529,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,243,inside_wider,Original source feature or statistical unit; values not recomputed
+30,245,way/211148532,Yamanote Line,山手線,2026-10-25,rail,<NULL>,<NULL>,1,245,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+31,249,way/211148536,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,<NULL>,<NULL>,1,249,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+32,251,way/211148540,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,viaduct,<NULL>,1,251,inside_wider,Original source feature or statistical unit; values not recomputed
+33,255,way/211148546,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,viaduct,<NULL>,1,255,inside_wider,Original source feature or statistical unit; values not recomputed
+34,256,way/211148547,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,viaduct,<NULL>,1,256,inside_wider,Original source feature or statistical unit; values not recomputed
+35,257,way/211148548,Yamanote Line,山手線,2026-10-25,rail,yes,<NULL>,1,257,inside_wider,Original source feature or statistical unit; values not recomputed
+36,258,way/211148550,Chuō Main Line,中央本線,2026-10-25,rail,yes,<NULL>,1,258,inside_wider,Original source feature or statistical unit; values not recomputed
+37,260,way/211148553,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,260,inside_wider,Original source feature or statistical unit; values not recomputed
+38,261,way/211148554,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,261,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+39,262,way/211148555,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,yes,<NULL>,1,262,inside_wider,Original source feature or statistical unit; values not recomputed
+40,263,way/211148557,Chuō Main Line,中央本線,2026-10-25,rail,yes,<NULL>,1,263,inside_wider,Original source feature or statistical unit; values not recomputed
+41,265,way/211148559,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,265,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+42,266,way/211148560,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,yes,<NULL>,1,266,inside_wider,Original source feature or statistical unit; values not recomputed
+43,267,way/211148562,Yamanote Line,山手線,2026-10-25,rail,<NULL>,<NULL>,1,267,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+44,271,way/211148566,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,271,inside_wider,Original source feature or statistical unit; values not recomputed
+45,273,way/211148568,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,273,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+46,274,way/211148569,Yamanote Line,山手線,2026-10-25,rail,yes,<NULL>,1,274,inside_wider,Original source feature or statistical unit; values not recomputed
+47,275,way/211148571,Yamanote Line,山手線,2026-10-25,rail,yes,<NULL>,1,275,inside_wider,Original source feature or statistical unit; values not recomputed
+48,277,way/211148575,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,<NULL>,<NULL>,1,277,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+49,279,way/211148578,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,279,inside_wider,Original source feature or statistical unit; values not recomputed
+50,283,way/211148583,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,283,inside_wider,Original source feature or statistical unit; values not recomputed
+51,284,way/211148584,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,284,inside_wider,Original source feature or statistical unit; values not recomputed
+52,285,way/211148587,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,viaduct,<NULL>,1,285,inside_wider,Original source feature or statistical unit; values not recomputed
+53,286,way/211148588,Yamanote Line,山手線,2026-10-25,rail,yes,<NULL>,1,286,inside_wider,Original source feature or statistical unit; values not recomputed
+54,287,way/211148589,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,287,inside_wider,Original source feature or statistical unit; values not recomputed
+55,290,way/211148594,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,viaduct,<NULL>,1,290,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+56,291,way/211148595,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,yes,<NULL>,1,291,inside_wider,Original source feature or statistical unit; values not recomputed
+57,292,way/211148597,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,292,inside_wider,Original source feature or statistical unit; values not recomputed
+58,293,way/211148601,Yamanote Line,山手線,2026-10-25,rail,yes,<NULL>,1,293,inside_wider,Original source feature or statistical unit; values not recomputed
+59,294,way/211148602,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,viaduct,<NULL>,1,294,inside_wider,Original source feature or statistical unit; values not recomputed
+60,295,way/211148603,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,295,inside_wider,Original source feature or statistical unit; values not recomputed
+61,297,way/211148605,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,yes,<NULL>,1,297,inside_wider,Original source feature or statistical unit; values not recomputed
+62,298,way/211148606,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,298,inside_wider,Original source feature or statistical unit; values not recomputed
+63,299,way/211148607,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,299,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+64,300,way/211148609,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,yes,<NULL>,1,300,inside_wider,Original source feature or statistical unit; values not recomputed
+65,302,way/211148611,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,yes,<NULL>,1,302,inside_wider,Original source feature or statistical unit; values not recomputed
+66,304,way/211148617,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,yes,<NULL>,1,304,inside_wider,Original source feature or statistical unit; values not recomputed
+67,317,way/211381264,Tohoku Shinkansen,東北新幹線,2026-10-25,rail,yes,<NULL>,1,317,inside_wider,Original source feature or statistical unit; values not recomputed
+68,332,way/211381351,Tohoku Shinkansen,東北新幹線,2026-10-25,rail,viaduct,<NULL>,2,332,inside_wider,Original source feature or statistical unit; values not recomputed
+69,335,way/211381364,JR Tōhoku Line,JR東北本線,2026-10-25,rail,yes,<NULL>,3,335,inside_wider,Original source feature or statistical unit; values not recomputed
+70,336,way/211381368,Tohoku Shinkansen,東北新幹線,2026-10-25,rail,viaduct,<NULL>,2,336,inside_wider,Original source feature or statistical unit; values not recomputed
+71,337,way/211381378,Tohoku Shinkansen,東北新幹線,2026-10-25,rail,viaduct,<NULL>,1,337,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+72,339,way/211381387,Tohoku Shinkansen,東北新幹線,2026-10-25,rail,viaduct,<NULL>,1,339,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+73,342,way/211381397,Tohoku Shinkansen,東北新幹線,2026-10-25,rail,yes,<NULL>,1,342,inside_wider,Original source feature or statistical unit; values not recomputed
+74,368,way/273056373,JR Tōhoku Line,JR東北本線,2026-10-25,rail,yes,<NULL>,3,368,inside_wider,Original source feature or statistical unit; values not recomputed
+75,443,way/638655479,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,443,inside_wider,Original source feature or statistical unit; values not recomputed
+76,444,way/638655480,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,444,inside_wider,Original source feature or statistical unit; values not recomputed
+77,445,way/638655481,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,445,inside_wider,Original source feature or statistical unit; values not recomputed
+78,446,way/638655482,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,446,inside_wider,Original source feature or statistical unit; values not recomputed
+79,447,way/638655483,,,2026-10-25,rail,yes,<NULL>,1,447,inside_wider,Original source feature or statistical unit; values not recomputed
+80,448,way/638655484,,,2026-10-25,rail,yes,<NULL>,1,448,inside_wider,Original source feature or statistical unit; values not recomputed
+81,457,way/660591117,Toei Shinjuku Line,都営地下鉄新宿線,2026-10-25,subway,<NULL>,yes,-3,457,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+82,471,way/661156273,Toei Shinjuku Line,都営地下鉄新宿線,2026-10-25,subway,<NULL>,yes,-3,471,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+83,552,way/666377941,Toei Shinjuku Line,都営地下鉄新宿線,2026-10-25,subway,<NULL>,yes,-3,552,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+84,553,way/666377954,,,2026-10-25,platform,<NULL>,yes,-3,553,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+85,554,way/666377958,,,2026-10-25,platform,<NULL>,yes,-3,554,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+86,555,way/666378567,,,2026-10-25,platform,<NULL>,yes,-3,555,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+87,556,way/666378568,,,2026-10-25,platform,<NULL>,yes,-3,556,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+88,586,way/675834505,Tokyo Metro Ginza Line,東京メトロ銀座線,2026-10-25,subway,<NULL>,yes,-2,586,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+89,587,way/675834506,Tokyo Metro Ginza Line,東京メトロ銀座線,2026-10-25,subway,<NULL>,yes,-2,587,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+90,588,way/675834507,Tokyo Metro Ginza Line,東京メトロ銀座線,2026-10-25,subway,<NULL>,yes,-2,588,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+91,615,way/759432998,Sōbu Main Line,総武本線,2026-10-25,rail,<NULL>,yes,-5,615,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+92,627,way/844549923,Toei Shinjuku Line,都営地下鉄新宿線,2026-10-25,subway,<NULL>,yes,-3,627,inside_wider,Original source feature or statistical unit; values not recomputed
+93,628,way/844549924,Toei Shinjuku Line,都営地下鉄新宿線,2026-10-25,subway,<NULL>,yes,-3,628,inside_wider,Original source feature or statistical unit; values not recomputed
+94,648,way/849204147,Tokyo Metro Hibiya Line,東京メトロ日比谷線,2026-10-25,subway,<NULL>,yes,-4,648,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+95,664,way/851676859,,,2026-10-25,platform,<NULL>,<NULL>,-5,664,inside_wider,Original source feature or statistical unit; values not recomputed
+96,680,way/888551311,Tokyo Metro Ginza Line,東京メトロ銀座線,2026-10-25,subway,<NULL>,yes,-2,680,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+97,682,way/893810995,Sōbu Main Line,総武本線,2026-10-25,rail,<NULL>,yes,-5,682,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+98,683,way/893810996,Sōbu Main Line,総武本線,2026-10-25,rail,<NULL>,yes,-5,683,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+99,693,way/894260408,Toei Shinjuku Line,都営地下鉄新宿線,2026-10-25,subway,<NULL>,yes,-3,693,inside_wider,Original source feature or statistical unit; values not recomputed
+100,695,way/896077751,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,695,inside_wider,Original source feature or statistical unit; values not recomputed
+101,696,way/896077752,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,696,inside_wider,Original source feature or statistical unit; values not recomputed
+102,697,way/896850003,Tohoku Shinkansen,東北新幹線,2026-10-25,rail,viaduct,<NULL>,1,697,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+103,698,way/896850004,Tohoku Shinkansen,東北新幹線,2026-10-25,rail,viaduct,<NULL>,1,698,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+104,699,way/896850005,JR Tōhoku Line,JR東北本線,2026-10-25,rail,yes,<NULL>,2,699,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+105,700,way/896850006,JR Tōhoku Line,JR東北本線,2026-10-25,rail,yes,<NULL>,2,700,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+106,703,way/896850009,JR Tōhoku Line,JR東北本線,2026-10-25,rail,yes,<NULL>,3,703,inside_wider,Original source feature or statistical unit; values not recomputed
+107,704,way/896850010,JR Tōhoku Line,JR東北本線,2026-10-25,rail,yes,<NULL>,3,704,inside_wider,Original source feature or statistical unit; values not recomputed
+108,705,way/896850011,Tohoku Shinkansen,東北新幹線,2026-10-25,rail,viaduct,<NULL>,2,705,inside_wider,Original source feature or statistical unit; values not recomputed
+109,706,way/896850012,Tohoku Shinkansen,東北新幹線,2026-10-25,rail,viaduct,<NULL>,2,706,inside_wider,Original source feature or statistical unit; values not recomputed
+110,707,way/896857988,JR Tōhoku Line,JR東北本線,2026-10-25,rail,yes,<NULL>,2,707,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+111,708,way/896857989,JR Tōhoku Line,JR東北本線,2026-10-25,rail,yes,<NULL>,2,708,clipped_to_wider,Original source feature or statistical unit; values not recomputed
+112,709,way/897118561,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,709,inside_wider,Original source feature or statistical unit; values not recomputed
+113,710,way/897118562,Chuō Main Line,中央本線,2026-10-25,rail,viaduct,<NULL>,1,710,inside_wider,Original source feature or statistical unit; values not recomputed
+114,711,way/897118563,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,viaduct,<NULL>,1,711,inside_wider,Original source feature or statistical unit; values not recomputed
+115,712,way/897118564,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,712,inside_wider,Original source feature or statistical unit; values not recomputed
+116,713,way/897118565,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,713,inside_wider,Original source feature or statistical unit; values not recomputed
+117,714,way/897118566,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,viaduct,<NULL>,1,714,inside_wider,Original source feature or statistical unit; values not recomputed
+118,715,way/897118567,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,viaduct,<NULL>,1,715,inside_wider,Original source feature or statistical unit; values not recomputed
+119,716,way/897118568,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,716,inside_wider,Original source feature or statistical unit; values not recomputed
+120,717,way/897118569,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,717,inside_wider,Original source feature or statistical unit; values not recomputed
+121,718,way/897118570,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,viaduct,<NULL>,1,718,inside_wider,Original source feature or statistical unit; values not recomputed
+122,741,way/1305364584,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,viaduct,<NULL>,1,741,inside_wider,Original source feature or statistical unit; values not recomputed
+123,742,way/1305364585,Yamanote Line,山手線,2026-10-25,rail,viaduct,<NULL>,1,742,inside_wider,Original source feature or statistical unit; values not recomputed
+124,743,way/1305364586,Keihin-Tohoku Line,京浜東北線,2026-10-25,rail,viaduct,<NULL>,1,743,inside_wider,Original source feature or statistical unit; values not recomputed
+125,813,way/1427490441,,,2026-10-25,subway,<NULL>,yes,-2,813,clipped_to_wider,Original source feature or statistical unit; values not recomputed

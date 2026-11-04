@@ -1,0 +1,36 @@
+{
+  "brief-2026": {
+    "verdict": "UNAVAILABLE",
+    "sha256": "d3cd14aade170c72004e10fc11e0bed14d2449badda13612f6564a245b6f2ca7",
+    "declared_pages": 7,
+    "enumerated_pages": 7,
+    "reader_pages": 7,
+    "warnings": [
+      "Ignoring wrong pointing object 6 0 (offset 0)",
+      "Ignoring wrong pointing object 42 0 (offset 0)",
+      "Ignoring wrong pointing object 44 0 (offset 0)",
+      "Ignoring wrong pointing object 71 0 (offset 0)"
+    ],
+    "locator_policy": "Use independently visible section/figure labels; do not present page anchors as structurally verified"
+  },
+  "jica-2022-smart-city": {
+    "verdict": "PASS",
+    "pages": 347,
+    "sha256": "110512b95891aa693732a45b085d9250756ba59b576a478e7075a073e3e56199",
+    "read_scope": "Front matter;§1-1–1-2;§5-5-1–5-5-2;§6-2"
+  },
+  "alorabi-2025-net-zero": {
+    "verdict": "PASS",
+    "pages": 8,
+    "sha256": "5f17ad2648585b65d4b7e1ae0329f995b62bc697aff2d0aa640d105f9c3e0231",
+    "read_scope": "Abstract;§2;§3.1–3.3;§4"
+  },
+  "zeng-2025-heat": {
+    "verdict": "PASS",
+    "pages": 8,
+    "sha256": "1d471815ce0a7de9cfc51ccfd1c606cc64aa5637dc6cd08762bb4f7e18d3e02d",
+    "read_scope": "Abstract;§3.1;§4.1–4.4;§5.1–5.2"
+  },
+  "other_source_pdf_policy": "Where a worker did not retain a structural preflight, prefer section/abstract locators and preserve that read limitation; do not invent a PASS.",
+  "human_read_status": "unknown; records describe machine-assisted source reading only"
+}

@@ -1,0 +1,943 @@
+{
+  "version": 1,
+  "checked_on": "2026-10-24",
+  "languages": [
+    "en",
+    "zh",
+    "ja"
+  ],
+  "main_finding": {
+    "en": "Kajicho’s character comes from overlapping networks: craft and trade, rebuilt streets, rail access and repeated changes of buildings and local organisation.",
+    "zh": "鍛冶町的特征来自多层网络的叠合：工匠与贸易、复兴街道、铁路可达性，以及建筑和地方组织的多次更新。",
+    "ja": "鍛冶町の特徴は、生業と商い、復興街路、鉄道へのアクセス、建物と地域組織の更新が重なって生まれた。"
+  },
+  "eras": [
+    {
+      "id": "craft",
+      "range": "1603–1918",
+      "map": "edo-1850-1859",
+      "mapYear": "1850 / 1859",
+      "title": {
+        "en": "Craft town & water routes",
+        "zh": "工匠街区与水运",
+        "ja": "職人の町と水運"
+      },
+      "culture": {
+        "en": "Metalworkers and wholesalers gathered here. By 1824, the district also had book, footwear and medicine shops.",
+        "zh": "鍛冶职人与金物商聚集；1824 年的记录也包含书籍、鞋履与药品商店。",
+        "ja": "鍛冶職人と金物商が集積。1824年の記録には書物・履物・薬の店もある。"
+      },
+      "built": {
+        "en": "Street-based trade and canal connections formed a local network. Ryukan was filled in 1857 and reopened in 1883.",
+        "zh": "沿街商业与河道联系形成地方网络。竜閑川曾于 1857 年填埋，1883 年重开。",
+        "ja": "通りの商業と水路が地域を結ぶ。竜閑川は1857年に埋立、1883年に再開削。"
+      },
+      "policy": {
+        "en": "The 1603 town layout and later administration shaped the district; old town names retain craft histories.",
+        "zh": "1603 年町割与后来的行政变化塑造地区；旧町名保留了不同工种的线索。",
+        "ja": "1603年の町割とその後の行政の変化。旧町名に生業の手掛かりが残る。"
+      },
+      "sources": [
+        "S01",
+        "S02",
+        "S03",
+        "S15"
+      ]
+    },
+    {
+      "id": "rail",
+      "range": "1919–1944",
+      "map": "prewar-map",
+      "mapYear": "1936–1942頃",
+      "title": {
+        "en": "Rail hub & reconstruction",
+        "zh": "铁路枢纽与震灾复兴",
+        "ja": "鉄道結節点と震災復興"
+      },
+      "culture": {
+        "en": "Station access changed the setting for trade and daily visits. Festival forms also changed with modern infrastructure.",
+        "zh": "车站可达性改变了贸易与日常往来的条件；祭礼形式也随近代设施调整。",
+        "ja": "駅へのアクセスが商いと日常の往来の条件を変える。祭礼も近代施設に対応。"
+      },
+      "built": {
+        "en": "JR Kanda opened in 1919; underground Kanda followed in 1931. The 1923 earthquake led to road and block rebuilding.",
+        "zh": "1919 年 JR 神田站开业，1931 年地下铁神田站开业。1923 年震灾之后重整道路与街区。",
+        "ja": "1919年に神田駅、1931年に地下鉄神田駅が開業。1923年震災後に街路・街区を再編。"
+      },
+      "policy": {
+        "en": "Imperial reconstruction to 1930 brought wide roads such as Showa-dori and many smaller block streets.",
+        "zh": "至 1930 年的帝都复兴通过区画整理，形成昭和通り等宽幅道路与街区内道路。",
+        "ja": "1930年までの帝都復興と区画整理で昭和通りなどの幹線と街区内道路を整備。"
+      },
+      "sources": [
+        "S04",
+        "S05",
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "id": "rebuild",
+      "range": "1945–1960",
+      "map": "postwar-map",
+      "mapYear": "1945–1950",
+      "title": {
+        "en": "War damage & recovery",
+        "zh": "战损与重建",
+        "ja": "戦災と復興"
+      },
+      "culture": {
+        "en": "Metal shops supported postwar rebuilding. Kanda’s first postwar Shinkosai was held in 1952.",
+        "zh": "金物商服务战后重建。神田祭战后的首次神幸祭在 1952 年举行。",
+        "ja": "金物商が戦後復興を支える。戦後初の神幸祭は1952年。"
+      },
+      "built": {
+        "en": "War damage opened gaps in the fabric. Ryukan was filled in 1950 as rubble was cleared.",
+        "zh": "空袭破坏造成城市肌理缺口；竜閑川在战后瓦砾处理中于 1950 年填埋。",
+        "ja": "空襲で市街地に空隙が生まれる。瓦礫処理に伴い竜閑川を1950年に埋立。"
+      },
+      "policy": {
+        "en": "Reconstruction and the 1950 Building Standard Law framed rebuilding. Town associations also underwent postwar institutional change.",
+        "zh": "战后复兴与 1950 年《建筑基准法》构成重建背景；町会组织也经历制度变化。",
+        "ja": "戦災復興と1950年の建築基準法が再建の背景。町会の制度も変わる。"
+      },
+      "sources": [
+        "S02",
+        "S03",
+        "S04",
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "id": "growth",
+      "range": "1961–1973",
+      "map": "growth-map",
+      "mapYear": "1961–1969",
+      "title": {
+        "en": "Motor traffic & taller buildings",
+        "zh": "机动车交通与建筑增高",
+        "ja": "自動車交通と高層化"
+      },
+      "culture": {
+        "en": "Road traffic affected festival schedules and routes. Daily movement used rail and road networks together.",
+        "zh": "道路交通影响祭礼时间与组织；日常移动在铁路与道路网络上展开。",
+        "ja": "自動車交通が祭礼の日程と運営に影響。日常の移動は鉄道と道路を併用。"
+      },
+      "built": {
+        "en": "More office floors and motor infrastructure changed the wider centre. Plot-by-plot renewal produced varied building forms.",
+        "zh": "办公楼面需求与机动车基础设施改变都心；逐地块更新带来不同建筑形态。",
+        "ja": "業務床需要と自動車基盤が都心を変える。敷地ごとの更新で建物形態が異なる。"
+      },
+      "policy": {
+        "en": "1963 introduced floor-area districts; the 1970 reform extended floor-area ratio controls. Local designation matters.",
+        "zh": "1963 年引入容积地区制度，1970 年进一步全面导入容积率控制；需区分地方指定。",
+        "ja": "1963年に容積地区制度、1970年に容積率規制を全面導入。地域の指定を確認する。"
+      },
+      "sources": [
+        "S04",
+        "S07",
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "id": "office",
+      "range": "1974–1990",
+      "map": "motor-map",
+      "mapYear": "1974–1978",
+      "title": {
+        "en": "Office growth, local continuity",
+        "zh": "办公增长与地方延续",
+        "ja": "業務地化と地域の継承"
+      },
+      "culture": {
+        "en": "Trade identities and local associations persisted through changing business conditions.",
+        "zh": "行业记忆与地方组织在经营环境变化中延续。",
+        "ja": "営業環境が変わる中で、生業の記憶と地域組織が受け継がれる。"
+      },
+      "built": {
+        "en": "The 1970s and late-1980s photographs allow comparison of roof masses and open ground on the same streets.",
+        "zh": "1970 年代与 1980 年代末的影像可沿同一街道比较屋顶体量与空地。",
+        "ja": "1970年代と1980年代末の写真で同じ街路沿いの屋根群・空地を比較。"
+      },
+      "policy": {
+        "en": "Kajicho 1 and 2 adopted their current address names in 1974. Chiyoda’s 1987 policy sought residential recovery.",
+        "zh": "1974 年住居表示形成现行鍛冶町一、二丁目名称。1987 年区方针开始回应定住人口问题。",
+        "ja": "1974年の住居表示で現在の鍛冶町一・二丁目名に。1987年の区方針は定住回復を目指す。"
+      },
+      "sources": [
+        "S02",
+        "S08",
+        "S09",
+        "S14"
+      ]
+    },
+    {
+      "id": "return",
+      "range": "1991–2020",
+      "map": "recent-map",
+      "mapYear": "FY2019",
+      "title": {
+        "en": "Housing return & mixed use",
+        "zh": "居住回归与用途混合",
+        "ja": "都心居住の回復と用途の混在"
+      },
+      "culture": {
+        "en": "Residents, workers and visitors bring different daily rhythms. Street-level uses deserve a separate survey.",
+        "zh": "居民、工作者和来访者有不同日常节奏，一层店铺和活动需要单独调查。",
+        "ja": "住民・就業者・来街者の時間帯は異なる。低層部の用途・活動を別に調べる。"
+      },
+      "built": {
+        "en": "Renewal and reuse coexist. The 2019 aerial photograph is paired with current building and POI layers.",
+        "zh": "更新与再利用并存。2019 年航空照片与现有建筑、兴趣点图层配套阅读。",
+        "ja": "更新と再利用が共存。2019年写真を現行の建物・施設データと組み合わせる。"
+      },
+      "policy": {
+        "en": "Ward milestones include 1992 housing measures, 1997 Chiyoda-type district plans, and the 1998 master plan.",
+        "zh": "区级节点包括 1992 年住宅措施、1997 年千代田区型地区计划与 1998 年总体规划。",
+        "ja": "区の節目は1992年の住宅施策、1997年の千代田区型地区計画、1998年のマスタープラン。"
+      },
+      "sources": [
+        "S09",
+        "S14",
+        "S17"
+      ]
+    },
+    {
+      "id": "future",
+      "range": "2021 → 2050",
+      "map": "synthesis-map",
+      "mapYear": "2021 plan → 2050 target",
+      "title": {
+        "en": "Repair, connection & climate",
+        "zh": "修补、连接与气候行动",
+        "ja": "修復・接続・気候対策"
+      },
+      "culture": {
+        "en": "The local plan supports spaces for living, working and exchange, and a community role for the former Imagawa school.",
+        "zh": "地方规划支持居住、工作与交流空间，也赋予旧今川中学校社区与防灾作用。",
+        "ja": "計画は住む・働く・交流する場、旧今川中学校のコミュニティ・防災機能を重視。"
+      },
+      "built": {
+        "en": "Street connections, useful ground floors and safer buildings can be improved together; each intervention needs a site check.",
+        "zh": "街道连接、可用的一层空间与建筑安全可以协同改善，具体措施需现场与地块核查。",
+        "ja": "回遊動線、使える低層部、安全な建物を併せて改善。各場所の条件を確認する。"
+      },
+      "policy": {
+        "en": "The 2021 master plan and November 2021 climate declaration set directions toward 2050 net zero.",
+        "zh": "2021 年总体规划与同年 11 月气候宣言，提出通往 2050 净零排放的方向。",
+        "ja": "2021年マスタープランと同年11月の気候宣言が2050年実質ゼロへの方向を示す。"
+      },
+      "sources": [
+        "S10",
+        "S13",
+        "S17"
+      ]
+    }
+  ],
+  "causes": [
+    {
+      "id": "rail",
+      "point": [
+        139.771,
+        35.6921
+      ],
+      "title": {
+        "en": "Railway & crossings",
+        "zh": "铁路与穿越",
+        "ja": "鉄道と横断"
+      },
+      "fact": {
+        "en": "JR Kanda opened in 1919. The current viaduct and underpasses organise access around the station.",
+        "zh": "JR 神田站于 1919 年开业。现有高架与桥下通道组织车站周边的进入方式。",
+        "ja": "1919年に神田駅が開業。現行の高架とガード下が駅周辺へのアクセスを構成。"
+      },
+      "reading": {
+        "en": "A station can concentrate activity while the railway channels east–west movement into a few crossings.",
+        "zh": "车站集聚活动，铁路又将东西向移动导向有限的穿越点。",
+        "ja": "駅が活動を集め、鉄道が東西の往来を横断箇所へ導く。"
+      },
+      "sources": [
+        "S05",
+        "S17"
+      ]
+    },
+    {
+      "id": "streets",
+      "point": [
+        139.7752,
+        35.6926
+      ],
+      "title": {
+        "en": "Wide roads & small streets",
+        "zh": "宽幅道路与小街",
+        "ja": "幹線と細街路"
+      },
+      "fact": {
+        "en": "Post-1923 reconstruction created Showa-dori and many block streets.",
+        "zh": "1923 年震灾复兴形成昭和通り等干道与大量街区内道路。",
+        "ja": "1923年以降の復興で昭和通りなどの幹線と街区内道路を整備。"
+      },
+      "reading": {
+        "en": "Today’s hierarchy combines reconstruction routes with finer local access. Not every narrow lane dates to Edo.",
+        "zh": "现状道路层级由复兴骨架与细部通行叠合形成，不能把每条窄巷都归为江户遗存。",
+        "ja": "現行の道路階層は復興の骨格と細かなアクセスの重なり。細路地の年代は個別に確認。"
+      },
+      "sources": [
+        "S04",
+        "S10",
+        "S14"
+      ]
+    },
+    {
+      "id": "buildings",
+      "point": [
+        139.7726,
+        35.6929
+      ],
+      "title": {
+        "en": "Height & density",
+        "zh": "高度与密度",
+        "ja": "高さと密度"
+      },
+      "fact": {
+        "en": "Building rules shifted toward floor-area controls in 1963–70. Current PLATEAU records show varied forms.",
+        "zh": "1963–70 年建筑制度转向容积率控制；现有 PLATEAU 数据呈现多种建筑形态。",
+        "ja": "1963–70年に容積率による規制へ移行。現行PLATEAUには様々な建物形態。"
+      },
+      "reading": {
+        "en": "Height differences plausibly reflect road conditions, site size and timing of renewal as well as policy. Age and ownership need separate records.",
+        "zh": "高度差可由道路条件、地块尺度、更新时点与制度共同解释；建成年代和产权须另查。",
+        "ja": "高さの違いは道路条件、敷地規模、更新時期、制度の組合せで読む。建築年・所有権は別資料。"
+      },
+      "sources": [
+        "S04",
+        "S11",
+        "S12",
+        "S17"
+      ]
+    },
+    {
+      "id": "trade",
+      "point": [
+        139.772873,
+        35.691048
+      ],
+      "title": {
+        "en": "Trade & building use",
+        "zh": "行业与建筑使用",
+        "ja": "生業と建物用途"
+      },
+      "fact": {
+        "en": "Official accounts connect metal trades to Kajicho and postwar Kanamono-dori.",
+        "zh": "官方地方史将金物业与鍛冶町、战后金物通り联系起来。",
+        "ja": "区の記録は金物業を鍛冶町と戦後の金物通りに結び付ける。"
+      },
+      "reading": {
+        "en": "Street-level services can carry commercial memory through building replacement. A POI count does not measure jobs or floor use.",
+        "zh": "底层经营可在建筑替换后延续商业记忆；兴趣点数量无法代替就业与楼层用途。",
+        "ja": "建替え後も低層部の商いが記憶を伝える場合がある。施設数と雇用・階別用途は異なる。"
+      },
+      "sources": [
+        "S01",
+        "S02",
+        "S17"
+      ]
+    },
+    {
+      "id": "water",
+      "point": [
+        139.7725,
+        35.6881
+      ],
+      "title": {
+        "en": "Lost waterway & ground",
+        "zh": "旧河道与地形",
+        "ja": "旧水路と地形"
+      },
+      "fact": {
+        "en": "Ryukan was filled, reopened and filled again. Bridge names survive; Kanda belongs to Chiyoda’s lower eastern terrain.",
+        "zh": "竜閑川经历填埋、重开与再次填埋，桥名留存；神田位于区东侧低地一带。",
+        "ja": "竜閑川は埋立・再開削・再埋立を経て橋名が残る。神田は区東部の低地側。"
+      },
+      "reading": {
+        "en": "Linear remnants and district edges can be read as infrastructure traces. Current flood depth requires the published hazard scenario.",
+        "zh": "线性空间与区界可作为旧基础设施痕迹阅读；当前淹水深度须依据对应灾害情景。",
+        "ja": "線状空間・区境を基盤の痕跡として読む。現在の浸水深は公表ハザードの想定条件による。"
+      },
+      "sources": [
+        "S03",
+        "S04",
+        "S17"
+      ]
+    },
+    {
+      "id": "community",
+      "point": [
+        139.772247,
+        35.692257
+      ],
+      "title": {
+        "en": "Culture & area care",
+        "zh": "文化与地区维护",
+        "ja": "文化と地域運営"
+      },
+      "fact": {
+        "en": "Festival and town-association forms changed over time. Today’s local plan values exchange and community facilities.",
+        "zh": "祭礼与町会的形式曾多次变化；现行地方规划重视交流与社区设施。",
+        "ja": "祭礼・町会の形は時代とともに変化。現行計画は交流とコミュニティ施設を重視。"
+      },
+      "reading": {
+        "en": "Continuity lies partly in repeated cooperation, not only old buildings. Present membership and use need local accounts.",
+        "zh": "延续也存在于反复发生的协作中。今日参与者与使用方式需要地方叙述核实。",
+        "ja": "継承は建物に加え協力の積み重ねにもある。現在の参加者・利用は地域の話で確かめる。"
+      },
+      "sources": [
+        "S07",
+        "S08",
+        "S10"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Kajicho 1 town-name record",
+      "publisher": "千代田区 / Chiyoda City",
+      "published_on": "2025-03-26",
+      "data_year": "1603; 1804–1818; 1824",
+      "url": "https://www.city.chiyoda.lg.jp/koho/kurashi/volunteer/chomeiyuraiban/choumei/kaji-1.html",
+      "spatial_unit": "鍛冶町一丁目",
+      "locator": "HTML",
+      "use": "Official retrospective account of craft settlement and metal wholesalers.",
+      "checked_on": "2026-10-24",
+      "download_date": "2026-10-24",
+      "rights": "Source remains with publisher; report paraphrases and links",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "downloaded source"
+    },
+    {
+      "id": "S02",
+      "title": "Kajicho 2 town-name record",
+      "publisher": "千代田区 / Chiyoda City",
+      "published_on": "2025-03-26",
+      "data_year": "Edo; Meiji; postwar; 1974",
+      "url": "https://www.city.chiyoda.lg.jp/koho/kurashi/volunteer/chomeiyuraiban/choumei/kaji-2.html",
+      "spatial_unit": "鍛冶町二丁目",
+      "locator": "HTML",
+      "use": "Metal trade, mixed shop types, postwar Kanamono-dori and 1974 address change.",
+      "checked_on": "2026-10-24",
+      "download_date": "2026-10-24",
+      "rights": "Source remains with publisher; report paraphrases and links",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "downloaded source"
+    },
+    {
+      "id": "S03",
+      "title": "Ryukan River / Chiyoda newsletter No.1582",
+      "publisher": "千代田区 / Chiyoda City",
+      "published_on": "2022-12-20",
+      "data_year": "1691; 1857; 1883; 1950",
+      "url": "https://www.city.chiyoda.lg.jp/documents/27757/no1582.pdf",
+      "spatial_unit": "竜閑川 corridor",
+      "locator": "PDF p.11 / file page 11",
+      "use": "Specific local account: dug, filled, reopened, then filled in 1950; bridge-name traces.",
+      "checked_on": "2026-10-24",
+      "download_date": "2026-10-24",
+      "rights": "Source remains with publisher; report paraphrases and links",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "downloaded source"
+    },
+    {
+      "id": "S04",
+      "title": "History of Chiyoda streetscape",
+      "publisher": "千代田区 / Chiyoda City",
+      "published_on": null,
+      "data_year": "Edo–2000s",
+      "url": "https://www.city.chiyoda.lg.jp/documents/26394/guideline-4.pdf",
+      "spatial_unit": "Chiyoda ward; local Kanda passages",
+      "locator": "PDF printed pp.4,9,11–12,15–18,21–24",
+      "use": "Topography, railway, reconstruction, roads and high-growth building changes.",
+      "checked_on": "2026-10-24",
+      "download_date": "2026-10-24",
+      "rights": "Source remains with publisher; report paraphrases and links",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "downloaded source"
+    },
+    {
+      "id": "S05",
+      "title": "Kanda station information",
+      "publisher": "JR東日本 / JR East",
+      "published_on": null,
+      "data_year": "1919-03-01",
+      "url": "https://www.jreast.co.jp/estation/station/info.aspx?StationCD=538",
+      "spatial_unit": "JR Kanda",
+      "locator": "HTML / basic information",
+      "use": "Opening date and station address.",
+      "checked_on": "2026-10-24",
+      "download_date": null,
+      "rights": "Source remains with publisher; report paraphrases and links",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "web extraction verified"
+    },
+    {
+      "id": "S06",
+      "title": "Ginza Line former stations",
+      "publisher": "東京メトロ / Tokyo Metro",
+      "published_on": "2017-11-28",
+      "data_year": "1930–1931",
+      "url": "https://www.tokyometro.jp/news/2017/190616.html",
+      "spatial_unit": "Manseibashi–Kanda section",
+      "locator": "HTML",
+      "use": "Temporary stop operated until Kanda opened in November 1931.",
+      "checked_on": "2026-10-24",
+      "download_date": null,
+      "rights": "Source remains with publisher; report paraphrases and links",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "web extraction verified"
+    },
+    {
+      "id": "S07",
+      "title": "History of Kanda Matsuri",
+      "publisher": "神田明神 / Kanda Myojin",
+      "published_on": null,
+      "data_year": "Edo–postwar",
+      "url": "https://www.kandamatsuri.com/about/",
+      "spatial_unit": "Kanda shrine parish; wider than course area",
+      "locator": "HTML / three periods",
+      "use": "Festival forms changed with wires, reconstruction and road traffic; first postwar Shinkosai in 1952.",
+      "checked_on": "2026-10-24",
+      "download_date": "2026-10-24",
+      "rights": "Source remains with publisher; report paraphrases and links",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "downloaded source"
+    },
+    {
+      "id": "S08",
+      "title": "History of town associations",
+      "publisher": "千代田区 / Chiyoda City",
+      "published_on": "2026-03-25",
+      "data_year": "Edo–1960s",
+      "url": "https://www.city.chiyoda.lg.jp/koho/kurashi/volunteer/chokai-rengochokai/chokai-naritachi.html",
+      "spatial_unit": "Chiyoda ward",
+      "locator": "HTML",
+      "use": "Changes in governance, 1947 abolition, later voluntary associations and 1955–56 federations.",
+      "checked_on": "2026-10-24",
+      "download_date": "2026-10-24",
+      "rights": "Source remains with publisher; report paraphrases and links",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "downloaded source"
+    },
+    {
+      "id": "S09",
+      "title": "2021 master plan / Chapter 1",
+      "publisher": "千代田区 / Chiyoda City",
+      "published_on": "2021-05",
+      "data_year": "1987; 1992; 1997; 1998; 1999; 2013; 2016; 2017",
+      "url": "https://www.city.chiyoda.lg.jp/documents/17862/toshimasu-1_2.pdf",
+      "spatial_unit": "Chiyoda ward; not Kajicho counts",
+      "locator": "PDF printed pp.13–14,18–20",
+      "use": "Office conversion, housing policy and ward population recovery; regional context.",
+      "checked_on": "2026-10-24",
+      "download_date": "2026-10-24",
+      "rights": "Source remains with publisher; report paraphrases and links",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "downloaded source"
+    },
+    {
+      "id": "S10",
+      "title": "2021 master plan / Chapter 4",
+      "publisher": "千代田区 / Chiyoda City",
+      "published_on": "2021-05",
+      "data_year": "2021 policy",
+      "url": "https://www.city.chiyoda.lg.jp/documents/17862/toshimasu-4_2.pdf",
+      "spatial_unit": "Kanda Park and Izumibashi regions; Kajicho parts",
+      "locator": "PDF printed pp.158,175,183–185 / file pp.48,65,73–75",
+      "use": "Local directions for mixed uses, walking, open spaces and former Imagawa school.",
+      "checked_on": "2026-10-24",
+      "download_date": "2026-10-24",
+      "rights": "Source remains with publisher; report paraphrases and links",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "downloaded source"
+    },
+    {
+      "id": "S11",
+      "title": "1963 floor-area districts / 1998 Economic Survey",
+      "publisher": "内閣府 / Cabinet Office",
+      "published_on": "1998",
+      "data_year": "1963; 1997–1998",
+      "url": "https://www5.cao.go.jp/keizai3/keizaiwp/wp-je98/wp-je98-00305.html",
+      "spatial_unit": "National regulation context",
+      "locator": "HTML / section on FAR",
+      "use": "Retrospective confirmation of 1963 district system; present parcel entitlements need current checks.",
+      "checked_on": "2026-10-24",
+      "download_date": "2026-10-24",
+      "rights": "Source remains with publisher; report paraphrases and links",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "downloaded source"
+    },
+    {
+      "id": "S12",
+      "title": "1970 planning and height-regulation context",
+      "publisher": "国土交通政策研究所 / MLIT PRI",
+      "published_on": "2011",
+      "data_year": "1970",
+      "url": "https://www.mlit.go.jp/pri/kikanshi/pdf/pri_review_40.pdf",
+      "spatial_unit": "National regulation context",
+      "locator": "PDF / height control discussion",
+      "use": "Full introduction of floor-area ratio system in 1970.",
+      "checked_on": "2026-10-24",
+      "download_date": "2026-10-24",
+      "rights": "Source remains with publisher; report paraphrases and links",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "downloaded source"
+    },
+    {
+      "id": "S13",
+      "title": "2050 Zero Carbon Chiyoda",
+      "publisher": "千代田区 / Chiyoda City",
+      "published_on": "2024-08-08",
+      "data_year": "2021-11 declaration; 2050 target",
+      "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/kankyo/2050zerocarbonchiyoda.html",
+      "spatial_unit": "Chiyoda ward",
+      "locator": "HTML",
+      "use": "2021 declaration and net-zero target; a target rather than a completed outcome.",
+      "checked_on": "2026-10-24",
+      "download_date": "2026-10-24",
+      "rights": "Source remains with publisher; report paraphrases and links",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "downloaded source"
+    },
+    {
+      "id": "S14",
+      "title": "GSI tile list and use conditions",
+      "publisher": "国土地理院 / GSI",
+      "published_on": null,
+      "data_year": "1936–42; 1945–50; 1961–69; 1974–78; 1987–90; FY2019",
+      "url": "https://maps.gsi.go.jp/development/ichiran.html",
+      "spatial_unit": "Shared historical view; tile z17",
+      "locator": "Tile list + 252 source tiles",
+      "use": "Acquisition windows, templates and attribution; exact source flight day unresolved.",
+      "checked_on": "2026-10-24",
+      "download_date": "2026-10-24",
+      "rights": "GSI content use conditions; processed GSI tiles with attribution",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "downloaded source"
+    },
+    {
+      "id": "S15",
+      "title": "Nihonbashi-kita Uchikanda map",
+      "publisher": "東京都立図書館 / Tokyo Metropolitan Library",
+      "published_on": null,
+      "data_year": "1850 original / 1859 reprint",
+      "url": "https://archive.library.metro.tokyo.lg.jp/da/detail?tilcod=0000000013-00042247",
+      "spatial_unit": "Uchikanda–Nihonbashi–Ryogoku–Hamacho",
+      "locator": "Map / item 4300035521",
+      "use": "Public-domain original, unregistered; place names and connections only.",
+      "checked_on": "2026-10-24",
+      "download_date": "2026-10-24",
+      "rights": "Public domain; credit Tokyo Metropolitan Library",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "downloaded source"
+    },
+    {
+      "id": "S16",
+      "title": "Official study boundaries / Figure 5",
+      "publisher": "UTokyo Urban Design Studio",
+      "published_on": "2026",
+      "data_year": "2026",
+      "url": "https://github.com/Urshuaige/Urban-Design-Studio-2026-Kajicho/blob/main/docs/COURSE_BOUNDARIES.md",
+      "spatial_unit": "Kajicho primary / approximate wider course area",
+      "locator": "Project boundary record",
+      "use": "Contemporary reference outlines: 10.70383 ha primary and 41.98967 ha wider; RMSE7.43m; screening band25m.",
+      "checked_on": "2026-10-24",
+      "download_date": null,
+      "rights": "Source remains with publisher; report paraphrases and links",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "existing project record"
+    },
+    {
+      "id": "S17",
+      "title": "Current mapped baseline",
+      "publisher": "Studio source compilation",
+      "published_on": "2026-10-18",
+      "data_year": "PLATEAU survey2021 / model2025; POIs2026",
+      "url": "conditions.html",
+      "spatial_unit": "277 primary / 1074 wider model objects",
+      "locator": "study-atlas/statistics.json + source_manifest.json",
+      "use": "Existing full-footprint membership; present baseline rather than a historical series.",
+      "checked_on": "2026-10-24",
+      "download_date": null,
+      "rights": "Source remains with publisher; report paraphrases and links",
+      "kind": "evidence",
+      "accessed_on": "2026-10-24",
+      "read_method": "existing project record"
+    }
+  ],
+  "events": [
+    {
+      "year": 1603,
+      "strand": "policy",
+      "event_zh": "町割与鍛冶町的形成",
+      "sources": [
+        "S01"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1691,
+      "strand": "built",
+      "event_zh": "连接浜町川的堀割",
+      "sources": [
+        "S03"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1824,
+      "strand": "culture",
+      "event_zh": "金物、书籍、鞋履和药品商业记录",
+      "sources": [
+        "S01",
+        "S02"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1857,
+      "strand": "built",
+      "event_zh": "竜閑川第一次填埋",
+      "sources": [
+        "S03"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1883,
+      "strand": "built",
+      "event_zh": "竜閑川重新开削",
+      "sources": [
+        "S03"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1919,
+      "strand": "built",
+      "event_zh": "JR 神田站开业",
+      "sources": [
+        "S05"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1923,
+      "strand": "built",
+      "event_zh": "关东大震灾；帝都复兴开始",
+      "sources": [
+        "S04"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1930,
+      "strand": "policy",
+      "event_zh": "帝都复兴阶段节点",
+      "sources": [
+        "S04"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1931,
+      "strand": "built",
+      "event_zh": "地下铁神田站开业",
+      "sources": [
+        "S06"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1945,
+      "strand": "built",
+      "event_zh": "战损与战后重建",
+      "sources": [
+        "S04"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1947,
+      "strand": "policy",
+      "event_zh": "町会制度的战后废止与后续重组",
+      "sources": [
+        "S08"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1950,
+      "strand": "built",
+      "event_zh": "竜閑川再次填埋",
+      "sources": [
+        "S03"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1950,
+      "strand": "policy",
+      "event_zh": "建筑基准法制定",
+      "sources": [
+        "S04"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1952,
+      "strand": "culture",
+      "event_zh": "战后首次神幸祭",
+      "sources": [
+        "S07"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1955,
+      "strand": "culture",
+      "event_zh": "1955–56 年出张所层级联合町会形成",
+      "sources": [
+        "S08"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1963,
+      "strand": "policy",
+      "event_zh": "容积地区制度引入",
+      "sources": [
+        "S04",
+        "S11"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1970,
+      "strand": "policy",
+      "event_zh": "容积率制度全面导入",
+      "sources": [
+        "S12"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1974,
+      "strand": "policy",
+      "event_zh": "住居表示改为现行鍛冶町一、二丁目名",
+      "sources": [
+        "S02"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1987,
+      "strand": "policy",
+      "event_zh": "区街づくり方針回应定住恢复",
+      "sources": [
+        "S09"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1992,
+      "strand": "policy",
+      "event_zh": "区新基本构想与住宅付置制度",
+      "sources": [
+        "S09"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1997,
+      "strand": "policy",
+      "event_zh": "千代田区型地区计划适用开始；区域需个别核实",
+      "sources": [
+        "S09"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1998,
+      "strand": "policy",
+      "event_zh": "区都市计划总体规划",
+      "sources": [
+        "S09"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 1999,
+      "strand": "culture",
+      "event_zh": "区级定住人口处于低谷；不等同鍛冶町统计",
+      "sources": [
+        "S09"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 2013,
+      "strand": "culture",
+      "event_zh": "区级定住人口回升至五万人；口径含外国居民",
+      "sources": [
+        "S09"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 2016,
+      "strand": "policy",
+      "event_zh": "住环境整备推进制度取代住宅付置制度",
+      "sources": [
+        "S09"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 2021,
+      "strand": "policy",
+      "event_zh": "5 月总体规划修订；11 月气候宣言",
+      "sources": [
+        "S10",
+        "S13"
+      ],
+      "status": "published record"
+    },
+    {
+      "year": 2050,
+      "strand": "policy target",
+      "event_zh": "净零排放目标年；课程规划地平线",
+      "sources": [
+        "S13",
+        "S16"
+      ],
+      "status": "target"
+    }
+  ]
+}

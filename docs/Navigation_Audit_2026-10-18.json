@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-18",
+  "scope": "Navigation hierarchy and current map delivery",
+  "capture": "Live in-app browser; user requested no local result copies, so screenshots were inspected in-session without saving local files",
+  "steps": [
+    {
+      "step": 1,
+      "path": "Research review → Site atlas",
+      "before": "Header changed from four page links to seven mixed page/section links; no selected page colour",
+      "fix": "Four stable global parent links with selected branch background"
+    },
+    {
+      "step": 2,
+      "path": "Atlas → Team desk",
+      "before": "Whole header changed, Portfolio looked selected, no parent or sibling context",
+      "fix": "Shared header, breadcrumb and same-section sibling links"
+    },
+    {
+      "step": 3,
+      "path": "Team desk → Studies → CFD",
+      "before": "Hierarchy unclear; section links and separate pages mixed in one nav",
+      "fix": "Studies stays selected; breadcrumb names child; parameter/CFD peers stay visible"
+    },
+    {
+      "step": 4,
+      "path": "Team download",
+      "before": "Current action said 2026-10-16 and repeated the same GitHub ZIP under several labels",
+      "fix": "One dated current Drive package action, separate source link and direct atlas link"
+    }
+  ],
+  "spacing": {
+    "collapsed_rail_right_px": 62,
+    "desktop_main_start_px": 120,
+    "minimum_gap_px": 58
+  },
+  "accessibility_checks": [
+    "Native links preserve keyboard navigation and browser history",
+    "Current branch uses aria-current; breadcrumb names current page",
+    "Page outline is separately named On this page",
+    "390px Japanese menu has no horizontal overflow",
+    "Parameter controls remain enabled after header shortcut removal"
+  ],
+  "limits": "Observed flow and selected keyboard/responsive checks; no full accessibility compliance claim."
+}

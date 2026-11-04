@@ -1,0 +1,528 @@
+{
+  "checked_on": "2026-10-15",
+  "name": "Chiyoda signs and official mapping",
+  "official_local_reference": {
+    "title": "千代田区公共サインデザインマニュアル 第3章",
+    "url": "https://www.city.chiyoda.lg.jp/documents/4204/designmanual-3.pdf",
+    "locator": "Printed p.32–33; PDF p.4–5",
+    "page_updated": "2025-05-09",
+    "document_revision": "2017-12 revision listed on source index",
+    "colors": [
+      {
+        "name": "Dark grey",
+        "ja": "ダークグレー",
+        "role": "Public sign main color",
+        "cmyk": [
+          0,
+          2,
+          0,
+          68
+        ],
+        "pantone": "Cool Gray 11C"
+      },
+      {
+        "name": "Edo purple",
+        "ja": "江戸紫",
+        "role": "Public sign basic key color",
+        "cmyk": [
+          78,
+          100,
+          0,
+          33
+        ],
+        "pantone": "269C"
+      }
+    ],
+    "font_evidence": "Printed p.36: Hiragino Kaku Gothic and Frutiger are basic fonts; Mincho or brush type is allowed for signs expressing local character such as cultural assets.",
+    "scope": "Official reference values for public signs. No official sRGB value is stated."
+  },
+  "studio_palette": {
+    "status": "Studio digital choices; locality is source-backed, HEX values are not an official Chiyoda RGB standard",
+    "colors": [
+      {
+        "name": "Paper",
+        "hex": "#F7F5EF",
+        "role": "Page and map canvas"
+      },
+      {
+        "name": "Ink",
+        "hex": "#36353A",
+        "role": "Body text and figure ground"
+      },
+      {
+        "name": "Edo purple",
+        "hex": "#59457F",
+        "role": "Navigation, core boundary and active state"
+      },
+      {
+        "name": "Water",
+        "hex": "#799BA7",
+        "role": "General context water; official thematic map uses its own legend"
+      },
+      {
+        "name": "Green",
+        "hex": "#879781",
+        "role": "General context green; official thematic map uses its own legend"
+      },
+      {
+        "name": "Warm grey",
+        "hex": "#D9D5CC",
+        "role": "Background buildings and separators"
+      }
+    ]
+  },
+  "mapping_reference": {
+    "title": "都市計画基礎調査実施要領 第5版",
+    "publisher": "MLIT Urban Bureau",
+    "document_date": "2023-06",
+    "web_revision": "2025-10-28 partial amendment",
+    "source_page": "https://www.mlit.go.jp/toshi/tosiko/kisotyousa001.html",
+    "url": "https://www.mlit.go.jp/toshi/tosiko/content/001617949.pdf",
+    "building_locator": "Printed p.45 / PDF p.51",
+    "land_locator": "Printed p.26 / PDF p.32",
+    "value_status": "Exact published RGB values; hex is lossless conversion",
+    "semantic_warning": "Match source labels and code definitions before applying colors. PLATEAU code lists vary by model version; do not transfer land-use numeric codes blindly."
+  },
+  "building_use": [
+    {
+      "source_code": 401,
+      "ja": "業務施設",
+      "en": "Office",
+      "rgb": [
+        190,
+        30,
+        50
+      ],
+      "hex": "#BE1E32",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 402,
+      "ja": "商業施設",
+      "en": "Retail and services",
+      "rgb": [
+        120,
+        80,
+        40
+      ],
+      "hex": "#785028",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 403,
+      "ja": "宿泊施設",
+      "en": "Hotel",
+      "rgb": [
+        240,
+        140,
+        190
+      ],
+      "hex": "#F08CBE",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 404,
+      "ja": "商業系用途複合施設",
+      "en": "Mixed commercial",
+      "rgb": [
+        240,
+        110,
+        60
+      ],
+      "hex": "#F06E3C",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 411,
+      "ja": "住宅",
+      "en": "House",
+      "rgb": [
+        240,
+        240,
+        160
+      ],
+      "hex": "#F0F0A0",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 412,
+      "ja": "共同住宅",
+      "en": "Apartments",
+      "rgb": [
+        250,
+        170,
+        160
+      ],
+      "hex": "#FAAAA0",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 413,
+      "ja": "店舗等併用住宅",
+      "en": "House with shop",
+      "rgb": [
+        245,
+        240,
+        90
+      ],
+      "hex": "#F5F05A",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 414,
+      "ja": "店舗等併用共同住宅",
+      "en": "Apartments with shop",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "hex": "#FF0000",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 415,
+      "ja": "作業所併用住宅",
+      "en": "Home with workshop",
+      "rgb": [
+        180,
+        140,
+        190
+      ],
+      "hex": "#B48CBE",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 421,
+      "ja": "官公庁施設",
+      "en": "Government",
+      "rgb": [
+        10,
+        120,
+        190
+      ],
+      "hex": "#0A78BE",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 422,
+      "ja": "文教厚生施設",
+      "en": "Education and welfare",
+      "rgb": [
+        250,
+        160,
+        50
+      ],
+      "hex": "#FAA032",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 431,
+      "ja": "運輸倉庫施設",
+      "en": "Transport and storage",
+      "rgb": [
+        40,
+        60,
+        140
+      ],
+      "hex": "#283C8C",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 441,
+      "ja": "工場",
+      "en": "Factory",
+      "rgb": [
+        0,
+        100,
+        60
+      ],
+      "hex": "#00643C",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 451,
+      "ja": "農林漁業用施設",
+      "en": "Agriculture and fisheries",
+      "rgb": [
+        60,
+        170,
+        130
+      ],
+      "hex": "#3CAA82",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 452,
+      "ja": "供給処理施設",
+      "en": "Utilities",
+      "rgb": [
+        80,
+        80,
+        80
+      ],
+      "hex": "#505050",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 453,
+      "ja": "防衛施設",
+      "en": "Defense",
+      "rgb": [
+        40,
+        50,
+        50
+      ],
+      "hex": "#283232",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 454,
+      "ja": "その他",
+      "en": "Other",
+      "rgb": [
+        130,
+        130,
+        130
+      ],
+      "hex": "#828282",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 461,
+      "ja": "不明",
+      "en": "Unknown",
+      "rgb": [
+        190,
+        190,
+        190
+      ],
+      "hex": "#BEBEBE",
+      "pattern": "solid"
+    },
+    {
+      "source_code": 471,
+      "ja": "空家",
+      "en": "Vacant",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "hex": "#FFFFFF",
+      "pattern": "black vertical stripes"
+    }
+  ],
+  "land_use": [
+    {
+      "ja": "田",
+      "en": "Rice fields",
+      "rgb": [
+        180,
+        255,
+        0
+      ],
+      "hex": "#B4FF00",
+      "pattern": "solid"
+    },
+    {
+      "ja": "畑",
+      "en": "Fields",
+      "rgb": [
+        200,
+        200,
+        80
+      ],
+      "hex": "#C8C850",
+      "pattern": "solid"
+    },
+    {
+      "ja": "山林",
+      "en": "Forest",
+      "rgb": [
+        0,
+        220,
+        0
+      ],
+      "hex": "#00DC00",
+      "pattern": "solid"
+    },
+    {
+      "ja": "水面",
+      "en": "Water",
+      "rgb": [
+        120,
+        220,
+        255
+      ],
+      "hex": "#78DCFF",
+      "pattern": "solid"
+    },
+    {
+      "ja": "その他自然地",
+      "en": "Other natural land",
+      "rgb": [
+        160,
+        100,
+        50
+      ],
+      "hex": "#A06432",
+      "pattern": "solid"
+    },
+    {
+      "ja": "住宅用地",
+      "en": "Housing land",
+      "rgb": [
+        255,
+        255,
+        0
+      ],
+      "hex": "#FFFF00",
+      "pattern": "solid"
+    },
+    {
+      "ja": "商業用地",
+      "en": "Commercial land",
+      "rgb": [
+        230,
+        80,
+        80
+      ],
+      "hex": "#E65050",
+      "pattern": "solid"
+    },
+    {
+      "ja": "工業用地",
+      "en": "Industrial land",
+      "rgb": [
+        30,
+        70,
+        255
+      ],
+      "hex": "#1E46FF",
+      "pattern": "solid"
+    },
+    {
+      "ja": "農林漁業施設用地",
+      "en": "Agriculture facilities",
+      "rgb": [
+        255,
+        200,
+        80
+      ],
+      "hex": "#FFC850",
+      "pattern": "solid"
+    },
+    {
+      "ja": "公益施設用地",
+      "en": "Public service land",
+      "rgb": [
+        200,
+        0,
+        220
+      ],
+      "hex": "#C800DC",
+      "pattern": "solid"
+    },
+    {
+      "ja": "道路用地",
+      "en": "Road land",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "hex": "#FFFFFF",
+      "pattern": "solid"
+    },
+    {
+      "ja": "交通施設用地",
+      "en": "Transport land",
+      "rgb": [
+        140,
+        140,
+        140
+      ],
+      "hex": "#8C8C8C",
+      "pattern": "solid"
+    },
+    {
+      "ja": "公共空地",
+      "en": "Public open space",
+      "rgb": [
+        200,
+        255,
+        200
+      ],
+      "hex": "#C8FFC8",
+      "pattern": "solid"
+    },
+    {
+      "ja": "その他公的施設用地",
+      "en": "Other public facilities",
+      "rgb": [
+        150,
+        70,
+        70
+      ],
+      "hex": "#964646",
+      "pattern": "solid"
+    },
+    {
+      "ja": "不明",
+      "en": "Unknown",
+      "rgb": [
+        190,
+        190,
+        190
+      ],
+      "hex": "#BEBEBE",
+      "pattern": "solid"
+    }
+  ],
+  "other_land_patterns": [
+    {
+      "ja": "その他①",
+      "pattern": "red horizontal stripes",
+      "background": "#FFFFFF",
+      "line": "#FF0000"
+    },
+    {
+      "ja": "その他②",
+      "pattern": "red vertical stripes",
+      "background": "#FFFFFF",
+      "line": "#FF0000"
+    },
+    {
+      "ja": "その他③",
+      "pattern": "red downward-left diagonal stripes",
+      "background": "#FFFFFF",
+      "line": "#FF0000"
+    },
+    {
+      "ja": "その他④",
+      "pattern": "red downward-right diagonal stripes",
+      "background": "#FFFFFF",
+      "line": "#FF0000"
+    },
+    {
+      "ja": "低未利用土地",
+      "pattern": "thick black vertical stripes",
+      "background": "#FFFFFF",
+      "line": "#000000"
+    }
+  ],
+  "legal_zoning": {
+    "source": "https://www.city.chiyoda.lg.jp/documents/13803/keikakuzu-1_2.pdf",
+    "locator": "p.1 legend",
+    "note": "The Chiyoda map combines use district and designated FAR colors. Do not replace observed building-use colors with legal zoning colors. No exact official RGB values were extracted from this map."
+  },
+  "downloaded_evidence": [
+    "Chiyoda_Sign_Design_Chapter3.pdf",
+    "Chiyoda_Sign_Color_p33.png",
+    "MLIT_Base_Survey_Guide_2023_amended2025.pdf",
+    "MLIT_Building_Use_Legend_p45.png",
+    "MLIT_Land_Use_Legend_p26.png",
+    "Chiyoda_Zoning_Legend_Source.png"
+  ]
+}

@@ -1,0 +1,4 @@
+﻿ROW_ID,__wider_pk,site_id,label,status,evidence_ids,extent_note,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,1,school_north,School north — cleared core,cleared_school_north_core,E01;E02;E03;E04,Former model footprints only; not a cadastral or full vacant-site boundary.,1,inside_wider,Original source feature or statistical unit; values not recomputed
+2,2,bank,Bank — demolition / construction,bank_demolition_site,E05;E07,Former model footprints only; not a cadastral or full vacant-site boundary.,2,inside_wider,Original source feature or statistical unit; values not recomputed
+3,3,parking,Surface parking,surface_parking,E05;E06;E08,Former model footprints only; not a cadastral or full vacant-site boundary.,3,inside_wider,Original source feature or statistical unit; values not recomputed

@@ -1,0 +1,16 @@
+{
+  "source_url": "https://www.opendata.metro.tokyo.lg.jp/kensetsu/tokyo_gairoju.csv",
+  "catalog_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029",
+  "license": "CC BY; Tokyo Metropolitan Government",
+  "source_year": "FY2020 for Chiyoda/Chuo",
+  "download_date": "2026-10-14",
+  "source_rows": 144183,
+  "selected_rows": 901,
+  "inside_core": 0,
+  "within_25m_of_core": 0,
+  "positive_crowns": 452,
+  "source_crs": "longitude latitude WGS84 as published",
+  "ready_crs": "EPSG:6677",
+  "processing": "CP932 decode; bbox filter 139.765,35.687,139.778,35.697; reproject; core intersection; no inferred tree positions",
+  "scope": "metropolitan roads inventory, not all ward/private trees; keep separate from duplicate inventory shapefile layer"
+}

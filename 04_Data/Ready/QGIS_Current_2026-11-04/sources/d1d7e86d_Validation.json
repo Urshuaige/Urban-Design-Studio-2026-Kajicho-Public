@@ -1,0 +1,19 @@
+{
+  "all_old_fields_and_geometries_preserved": true,
+  "old_new_ids": 1069,
+  "integrity": "ok",
+  "original35": 35,
+  "source_sensitive": 3,
+  "additional_comparisons": 5,
+  "manual_fields_preserved": true,
+  "Kajicho_Master_Renewal_Reviewed_2026-11-03.qgz": {
+    "layers": 449,
+    "review_source_layers": 14,
+    "relative_review_paths": true
+  },
+  "Kajicho_Renewal_Review_Data_2026-11-03.qgz": {
+    "layers": 6,
+    "review_source_layers": 6,
+    "relative_review_paths": true
+  }
+}

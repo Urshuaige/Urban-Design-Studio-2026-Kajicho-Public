@@ -1,0 +1,13 @@
+﻿source_field,shp_field,shp_type,dbf_width_bytes,null_bit,storage,source_non_null,source_null,source_max_text_bytes
+__wider_pk,wider_pk,integer,11,0,shp_and_csv,47,0,
+vt_code,vt_code,text,6,1,shp_and_csv,47,0,6
+vt_text,vt_text,text,48,2,shp_and_csv,35,12,48
+vt_arrng,vt_arrng,text,6,3,shp_and_csv,32,15,6
+vt_arrngagl,vt_arrngag,text,9,4,shp_and_csv,32,15,9
+vt_flag17,vt_flag17,text,6,5,shp_and_csv,47,0,6
+source_tile,source_til,text,14,6,shp_and_csv,47,0,14
+source_feature,source_fea,text,6,7,shp_and_csv,47,0,6
+data_date,data_date,text,10,8,shp_and_csv,47,0,10
+delivery_source_fid,delivery_s,integer,11,9,shp_and_csv,47,0,
+delivery_geometry,delivery_g,text,12,10,shp_and_csv,47,0,12
+delivery_value_scope,delivery_v,text,66,11,shp_and_csv,47,0,66

@@ -1,0 +1,752 @@
+{
+  "schema_version": "1.0",
+  "phase": 2,
+  "deliverable": "Case-source annotations for an integrative review",
+  "search_date": "2026-10-18",
+  "scope": "Eight contrasting district and street initiatives; source collection only. Transfer notes are reader-inferred conditions, not demonstrated effects in Kajicho.",
+  "status": "SOURCE_COLLECTION_COMPLETE",
+  "classification_key": {
+    "project_description": "Authority or operator reports what was planned, built or organised.",
+    "observed_evaluation": "Primary empirical observation; its design and read scope are stated.",
+    "projected_benefit": "Target, estimate or intended benefit, not observed local improvement.",
+    "reader_inferred": "Interpretation by this reviewer; untested in Kajicho."
+  },
+  "cases": [
+    {
+      "slug": "barcelona-superblocks",
+      "name": "Superblocks / Salut als Carrers",
+      "place": "Poblenou, Sant Antoni and Horta, Barcelona, Spain",
+      "authority": "Barcelona City Council; Agència de Salut Pública de Barcelona (ASPB)",
+      "sources": [
+        {
+          "id": "BCN1",
+          "title": "Avaluació de les Superilles",
+          "url": "https://dades.aspb.cat/obsip/avaluacions/superilles",
+          "author": "Agència de Salut Pública de Barcelona",
+          "date": null,
+          "access_date": "2026-10-18",
+          "read_scope": "Overview paragraphs and linked evaluation products (HTML lines 12–29).",
+          "evidence_grade": "VII; administrative evaluation description",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "City public-health agency describes a city programme.",
+          "apa7": "Agència de Salut Pública de Barcelona. (n.d.). Avaluació de les Superilles."
+        },
+        {
+          "id": "BCN2",
+          "title": "Environmental and health effects of the Barcelona superblocks",
+          "url": "https://link.springer.com/article/10.1186/s12889-025-21835-z",
+          "author": "Pérez, K., Palència, L., López, M. J., León-Gómez, B. B., Puig-Ribera, A., Gómez-Gutiérrez, A., Nieuwenhuijsen, M., Carrasco-Turigas, G., & Borrell, C.",
+          "date": "2025-02-17",
+          "access_date": "2026-10-18",
+          "read_scope": "Abstract; Introduction implementation paragraphs; Methods; Results; Discussion; Strengths and limitations (HTML lines 53–212). Tables/figures and supplements not separately inspected.",
+          "evidence_grade": "VI overall mixed-method case evaluation; environmental substudies include pre/post reference comparisons",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "Several authors are affiliated with ASPB; institutional involvement in programme evaluation. Formal competing-interest statement not checked.",
+          "doi": "10.1186/s12889-025-21835-z",
+          "apa7": "Pérez, K., Palència, L., López, M. J., León-Gómez, B. B., Puig-Ribera, A., Gómez-Gutiérrez, A., Nieuwenhuijsen, M., Carrasco-Turigas, G., & Borrell, C. (2025). Environmental and health effects of the Barcelona superblocks. BMC Public Health, 25, Article 634. https://doi.org/10.1186/s12889-025-21835-z"
+        }
+      ],
+      "mechanism": {
+        "label": "project_description",
+        "source_ids": [
+          "BCN1",
+          "BCN2"
+        ],
+        "text": "Restrict through traffic and reassign internal street space to pedestrians, cycling and neighbourhood use; intervention intensity differs across sites."
+      },
+      "actors_funding": {
+        "source_ids": [
+          "BCN1"
+        ],
+        "text": "Municipal urban policy with ASPB evaluation; implementation funding not extracted."
+      },
+      "evidence": [
+        {
+          "label": "observed_evaluation",
+          "source_ids": [
+            "BCN2"
+          ],
+          "text": "Air quality improved at pedestrianised Sant Antoni; Horta had no significant overall pollution change. Residents reported improved tranquillity and social contact, while space use and perceived safety differed by age and place."
+        }
+      ],
+      "method_and_limits": {
+        "source_ids": [
+          "BCN2"
+        ],
+        "text": "Mixed surveys, pollution measurements, walkability audits, observations and focus groups. [Author-acknowledged: Strengths and limitations] Missing pre-intervention observations for some outcomes and COVID-19 disruption restrict change estimates. Health comparison groups were unavailable; some air measurements used reference/control locations. Perceived health improvement is not measured clinical benefit.",
+        "checklist": {
+          "design": "checked: found",
+          "measurement": "checked: found",
+          "comparison": "checked: found",
+          "confounding": "checked: found",
+          "sampling": "checked: found",
+          "statistical_details": "not checked beyond narrative",
+          "tables_and_supplements": "not checked"
+        }
+      },
+      "transfer": {
+        "label": "reader_inferred",
+        "component": "Pair street-space change with air, walking and use observations.",
+        "condition": "Keep delivery access, adjacent traffic routes and different user groups in the evaluation boundary."
+      },
+      "inclusion_reason": "Empirical contrast between traffic removal, incomplete calming and varied social use."
+    },
+    {
+      "slug": "paris-oasis",
+      "name": "Oasis schoolyards",
+      "place": "Paris, France; empirical example: Maryse Hilsz kindergarten, 20th arrondissement",
+      "authority": "Ville de Paris; CAUE 75; LIED/Université Paris Cité and ESIEE Paris; LIEPP; Météo-France",
+      "sources": [
+        {
+          "id": "PAR1",
+          "title": "Les cours oasis",
+          "url": "https://www.paris.fr/pages/les-cours-oasis-7389",
+          "author": "Ville de Paris",
+          "date": "2025-01-15 (displayed update)",
+          "access_date": "2026-10-18",
+          "read_scope": "La méthode oasis; evaluation; EU pilot context, partners and 2019–2022 steps (HTML lines 184–341).",
+          "evidence_grade": "VII; municipal programme documentation",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "Programme owner describes its own delivery.",
+          "apa7": "Ville de Paris. (2025, January 15). Les cours oasis.",
+          "date_note": "Live page contains rollout figures from different periods; none reused as a single-date total."
+        },
+        {
+          "id": "PAR2",
+          "title": "Spatial Microclimatic Characterization of a Parisian “Oasis” Schoolyard",
+          "url": "https://arxiv.org/pdf/2408.07284",
+          "author": "Karam, G., Chanial, M., Parison, S., Hendel, M., & Royon, L.",
+          "date": "2023 proceedings; repository deposited 2024-07-29",
+          "access_date": "2026-10-18",
+          "read_scope": "PDF pp. 1–7: summary, methods, mobile-measurement correction, GIS analysis, results/discussion and conclusions; repository bibliographic record read.",
+          "evidence_grade": "VI; single-site methodological field study",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "ERDF UIA03-344 OASIS funding; one author affiliated with Paris City Hall.",
+          "doi": "10.1007/978-981-19-9822-5_315",
+          "apa7": "Karam, G., Chanial, M., Parison, S., Hendel, M., & Royon, L. (2023). Spatial microclimatic characterization of a Parisian “Oasis” schoolyard. In Proceedings of the 5th International Conference on Building Energy and Environment (pp. 2957–2965). Springer. https://doi.org/10.1007/978-981-19-9822-5_315",
+          "metadata_note": "Proceedings metadata from repository; chapter DOI not independently resolved."
+        },
+        {
+          "id": "PAR3",
+          "title": "Thermal and microclimatic behavior of OASIS schoolyard paving materials",
+          "url": "https://arxiv.org/abs/2408.08317",
+          "author": "Karam, G., Chanial, M., Grados, A., Hendel, M., & Royon, L.",
+          "date": "2024-07-31",
+          "access_date": "2026-10-18",
+          "read_scope": "Abstract and author/date metadata only.",
+          "evidence_grade": "VI provisional; laboratory material comparison, abstract only",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "Study conducted within ERDF UIA OASIS; formal disclosure not read.",
+          "apa7": "Karam, G., Chanial, M., Grados, A., Hendel, M., & Royon, L. (2024). Thermal and microclimatic behavior of OASIS schoolyard paving materials [Preprint]. arXiv. https://arxiv.org/abs/2408.08317"
+        }
+      ],
+      "mechanism": {
+        "label": "project_description",
+        "source_ids": [
+          "PAR1"
+        ],
+        "text": "Co-design with pupils and school adults; add shade, vegetation, permeable ground, water and varied play/rest spaces. Some courtyards open beyond school hours under local arrangements."
+      },
+      "actors_funding": {
+        "source_ids": [
+          "PAR1"
+        ],
+        "text": "City delivery with design, education and research partners. Ten-school pilot supported through EU Urban Innovative Actions/ERDF, 2019–2022."
+      },
+      "evidence": [
+        {
+          "label": "observed_evaluation",
+          "source_ids": [
+            "PAR2"
+          ],
+          "text": "At Maryse Hilsz, fixed/control stations and mobile surveys before and after refurbishment were combined with GIS. Preliminary spatial agreement linked higher heat-stress offsets to exposed locations; the paper primarily tests a measurement method."
+        },
+        {
+          "label": "observed_evaluation",
+          "source_ids": [
+            "PAR3"
+          ],
+          "text": "Abstract reports five pavement samples tested in laboratory heat-wave conditions. Reflective material reduced heat-island contribution but daytime radiation could worsen pedestrian heat stress."
+        }
+      ],
+      "method_and_limits": {
+        "source_ids": [
+          "PAR2",
+          "PAR3"
+        ],
+        "text": "[Author-acknowledged: PAR2 pp. 2–4, 6–7] Mobile surveys need temporal correction; authors call for additional schoolyards to validate preliminary findings. No pooled programme cooling effect extracted. PAR3 weaknesses not assessed (read scope: abstract_only).",
+        "checklist": {
+          "PAR2_design": "checked: found",
+          "PAR2_measurement": "checked: found",
+          "PAR2_temporal_bias": "checked: found",
+          "PAR2_generalisation": "checked: found",
+          "PAR2_raw_data": "not checked",
+          "PAR3_methods": "not assessed: abstract_only"
+        }
+      },
+      "transfer": {
+        "label": "reader_inferred",
+        "component": "Combine accessible shaded refuge design with user co-design and paired thermal observations.",
+        "condition": "Identify an owner, opening schedule, maintenance responsibility and school-safety/access arrangements."
+      },
+      "inclusion_reason": "Links small public facilities, heat exposure, shared access and practical evaluation."
+    },
+    {
+      "slug": "melbourne-urban-forest",
+      "name": "Central City Urban Forest Precinct Plan 2025–2035",
+      "place": "Central City, Melbourne, Australia",
+      "authority": "City of Melbourne; Future Melbourne Committee; Urban Forest and Ecology team",
+      "sources": [
+        {
+          "id": "MEL1",
+          "title": "Plan the urban forest in your neighbourhood",
+          "url": "https://participate.melbourne.vic.gov.au/urban-forest",
+          "author": "City of Melbourne",
+          "date": null,
+          "access_date": "2026-10-18",
+          "read_scope": "Programme overview, endorsed/draft precinct status, timeline and FAQs (HTML lines 27–171).",
+          "evidence_grade": "VII; municipal operational planning description",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "Plan owner and consultation organiser.",
+          "apa7": "City of Melbourne. (n.d.). Plan the urban forest in your neighbourhood."
+        },
+        {
+          "id": "MEL2",
+          "title": "CBD Urban Forest Precinct Plan 2025–2035",
+          "url": "https://participate.melbourne.vic.gov.au/cbd-urban-forest",
+          "author": "City of Melbourne",
+          "date": "2025-03-18 plan endorsement; page undated",
+          "access_date": "2026-10-18",
+          "read_scope": "Consultation closed, timeline and FAQs (HTML lines 26–88). Full final-plan PDF not read.",
+          "evidence_grade": "VII; implementation and consultation record",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "Municipal programme reporting.",
+          "apa7": "City of Melbourne. (n.d.). CBD urban forest precinct plan 2025–2035."
+        }
+      ],
+      "mechanism": {
+        "label": "project_description",
+        "source_ids": [
+          "MEL1",
+          "MEL2"
+        ],
+        "text": "Translate the city strategy into ten-year street planting plans. Central City priorities include low-canopy streets without recent planting. Workshops, surveys and feedback maps inform plans; plant types retain flexibility for later species selection."
+      },
+      "actors_funding": {
+        "source_ids": [
+          "MEL1",
+          "MEL2"
+        ],
+        "text": "Council endorsement and city forestry delivery with community consultation. Funding amount not extracted."
+      },
+      "evidence": [
+        {
+          "label": "project_description",
+          "source_ids": [
+            "MEL2"
+          ],
+          "text": "The page records endorsement in March 2025 and reports first-year implementation. This is delivery evidence; no measured cooling outcome was extracted."
+        },
+        {
+          "label": "projected_benefit",
+          "source_ids": [
+            "MEL1"
+          ],
+          "text": "Shade, cooler streets and ecological benefits are stated programme purposes."
+        }
+      ],
+      "method_and_limits": {
+        "source_ids": [
+          "MEL1",
+          "MEL2"
+        ],
+        "text": "No empirical outcome evaluation in inspected overview/FAQ sections. The ten-year planting schedule does not establish canopy survival or pedestrian thermal comfort.",
+        "provenance": "reader-inferred",
+        "checklist": {
+          "implementation": "checked: found",
+          "stakeholders": "checked: found",
+          "measured_effect": "checked: none found in overview/FAQs",
+          "full_plan": "not checked"
+        }
+      },
+      "transfer": {
+        "label": "reader_inferred",
+        "component": "Use street-level planting priorities with a delivery schedule and community knowledge.",
+        "condition": "Check underground services, growing space, water and long-term maintenance before selecting species."
+      },
+      "inclusion_reason": "Operational bridge between a city-scale target and constrained street-level work."
+    },
+    {
+      "slug": "punggol-digital-district",
+      "name": "Punggol Digital District: district cooling and Open Digital Platform",
+      "place": "Punggol, Singapore",
+      "authority": "JTC; GovTech; ENGIE South East Asia; Singapore Institute of Technology",
+      "sources": [
+        {
+          "id": "PDD1",
+          "title": "What to know about ENGIE DCS at PDD [URL-derived article label; page heading displays Stories]",
+          "url": "https://www.jtc.gov.sg/punggoldigitaldistrict/story-articles/what-to-know-about-engie-dcs-at-pdd",
+          "author": "JTC",
+          "date": null,
+          "access_date": "2026-10-18",
+          "read_scope": "Opening description; Designed for a greener tomorrow; Cooling a district the smart way; A collective effort in district cooling (HTML lines 180–210).",
+          "evidence_grade": "VII; owner/operator project description",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "JTC programme story quotes ENGIE managers; promotional/operator perspective.",
+          "apa7": "JTC. (n.d.). What to know about ENGIE DCS at PDD. Punggol Digital District.",
+          "date_note": "Footer last-updated date 12 October 2026 is site metadata, not established article publication date."
+        },
+        {
+          "id": "PDD2",
+          "title": "First-of-its-kind Open Digital Platform for Smart City Solutions in Punggol Digital District",
+          "url": "https://www.jtc.gov.sg/about-jtc/news-and-stories/press-releases/first-of-its-kind-open-digital-platform-for-smart-city-solutions-in-punggol-digital-district",
+          "author": "JTC",
+          "date": "2018-07-09",
+          "access_date": "2026-10-18",
+          "read_scope": "Search-delivered primary press-release text: MOU, equal co-investment, system integration, data access and digital-twin paragraphs.",
+          "evidence_grade": "VII; dated partnership announcement",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "JTC announcing its planned partnership.",
+          "apa7": "JTC. (2018, July 9). First-of-its-kind open digital platform for smart city solutions in Punggol Digital District."
+        }
+      ],
+      "mechanism": {
+        "label": "project_description",
+        "source_ids": [
+          "PDD1"
+        ],
+        "text": "An underground central cooling plant supplies chilled water through district pipes and building transfer systems. Storage and central monitoring support operation. The platform connects proprietary systems and exchanges status/control data."
+      },
+      "actors_funding": {
+        "source_ids": [
+          "PDD1",
+          "PDD2"
+        ],
+        "text": "ENGIE designs, builds and operates cooling; JTC/GovTech develop the platform; SIT supports applied research. The 2018 JTC–ST Engineering announcement states equal co-investment in the planned platform partnership, not the later cooling project budget."
+      },
+      "evidence": [
+        {
+          "label": "projected_benefit",
+          "source_ids": [
+            "PDD1"
+          ],
+          "text": "Energy and carbon savings in the story are estimates/comparisons to standard buildings. No monitored annual performance dataset was inspected."
+        },
+        {
+          "label": "project_description",
+          "source_ids": [
+            "PDD1"
+          ],
+          "text": "Building services, differing opening dates and load profiles required coordination and staged capacity."
+        }
+      ],
+      "method_and_limits": {
+        "source_ids": [
+          "PDD1",
+          "PDD2"
+        ],
+        "text": "Operator statements describe technical design and intentions; annual metered savings, baseline specification and lifecycle costs not assessed.",
+        "checklist": {
+          "system_description": "checked: found",
+          "actors": "checked: found",
+          "independent_performance": "checked: none found in inspected story",
+          "contracts_and_meter_data": "not checked"
+        }
+      },
+      "transfer": {
+        "label": "reader_inferred",
+        "component": "Shared infrastructure needs common technical interfaces, demand information and an accountable operator.",
+        "condition": "Kajicho would need participating owners, pipe rights, viable load density and agreement on costs/data access; master-planned coordination cannot be assumed."
+      },
+      "inclusion_reason": "Contrasts integrated district development with dispersed building ownership and retrofit constraints."
+    },
+    {
+      "slug": "copenhagen-enghaveparken",
+      "name": "Cloudburst adaptation at Enghaveparken",
+      "place": "Vesterbro, Copenhagen, Denmark",
+      "authority": "City of Copenhagen; HOFOR",
+      "sources": [
+        {
+          "id": "CPH1",
+          "title": "Lånoptag til klimatilpasningsprojekt i Enghaveparken, Vesterbro/Kgs. Enghave",
+          "url": "https://www.kk.dk/dagsordener-og-referater/%C3%98konomiudvalget/m%C3%B8de-12012021/referat/punkt-9",
+          "author": "Københavns Kommune",
+          "date": "2021-01-12",
+          "access_date": "2026-10-18",
+          "read_scope": "Recommendation, problem, solution, construction accounts and economy (HTML lines 20–77).",
+          "evidence_grade": "VII; official finance/completion record",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "Municipality reports its project costs and utility financing.",
+          "apa7": "Københavns Kommune. (2021, January 12). Lånoptag til klimatilpasningsprojekt i Enghaveparken, Vesterbro/Kgs. Enghave."
+        },
+        {
+          "id": "CPH2",
+          "title": "Klimatilpasnings- [truncated search title], Enghaveparken case section",
+          "url": "https://www.kk.dk/sites/default/files/agenda/d60ae350-a195-42f4-a5ef-be2863612f1b/5c60882a-b958-42c8-a8f1-2674a8e99d5a-bilag-2.pdf",
+          "author": "Københavns Kommune",
+          "date": null,
+          "access_date": "2026-10-18",
+          "read_scope": "LIMITED READ: search-extracted Enghaveparken – et grønt åndehul section only; PDF open failed.",
+          "evidence_grade": "VII; municipal project description, limited read",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "Project owner.",
+          "apa7": "Københavns Kommune. (n.d.). [Climate adaptation report, Enghaveparken section].",
+          "bibliographic_limit": "Full report title and document year not verified."
+        },
+        {
+          "id": "CPH3",
+          "title": "Endelig vedtagelse af skybrudsplan",
+          "url": "https://www.kk.dk/dagsordener-og-referater/Teknik-%20og%20Milj%C3%B8udvalget/m%C3%B8de-19112012/referat/punkt-14",
+          "author": "Københavns Kommune",
+          "date": "2012-11-19",
+          "access_date": "2026-10-18",
+          "read_scope": "Search-delivered council record: Skybrudsplanen and Økonomi sections.",
+          "evidence_grade": "VII; planning/adoption record",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "Plan authority.",
+          "apa7": "Københavns Kommune. (2012, November 19). Endelig vedtagelse af skybrudsplan."
+        }
+      ],
+      "mechanism": {
+        "label": "project_description",
+        "source_ids": [
+          "CPH2",
+          "CPH3"
+        ],
+        "text": "Use park paths to route stormwater toward lowered gardens and sports areas; seating edges also act as retaining barriers, with underground storage. The city plan combines surface green/blue measures and pipes/tunnels."
+      },
+      "actors_funding": {
+        "source_ids": [
+          "CPH1"
+        ],
+        "text": "Municipal upfront finance is repaid by HOFOR through water tariffs under the co-financing arrangement. The climate-adaptation component had reported costs of DKK 57.4 million; this is not the cost of all park renewal."
+      },
+      "evidence": [
+        {
+          "label": "project_description",
+          "source_ids": [
+            "CPH1"
+          ],
+          "text": "Park use began in December 2019; the adaptation construction was completed in spring 2020."
+        },
+        {
+          "label": "projected_benefit",
+          "source_ids": [
+            "CPH3"
+          ],
+          "text": "The plan's flood-risk service level is a design criterion, not evidence of losses avoided during a real extreme event."
+        }
+      ],
+      "method_and_limits": {
+        "source_ids": [
+          "CPH1",
+          "CPH2",
+          "CPH3"
+        ],
+        "text": "Completion and financing are documented; no monitored post-storm flood-loss evaluation was read. The 2012 city financing estimates are historical.",
+        "checklist": {
+          "completion": "checked: found",
+          "cost_and_roles": "checked: found",
+          "hydraulic_performance": "not checked",
+          "public_use_evaluation": "not checked"
+        }
+      },
+      "transfer": {
+        "label": "reader_inferred",
+        "component": "Give everyday public space a temporary water-storage function and assign infrastructure costs to named parties.",
+        "condition": "Requires catchment routing, outlet capacity, safe overflow paths and a local funding agreement; park form alone is insufficient."
+      },
+      "inclusion_reason": "Shows public-space design tied to catchment engineering and utility finance."
+    },
+    {
+      "slug": "london-better-bankside",
+      "name": "Better Bankside and Keppel Row Garden",
+      "place": "Bankside, London Borough of Southwark, United Kingdom",
+      "authority": "Better Bankside BID; Southwark Council; Greater London Authority",
+      "sources": [
+        {
+          "id": "LON1",
+          "title": "What is a BID?",
+          "url": "https://betterbankside.co.uk/who-we-are/what-is-a-bid/",
+          "author": "Better Bankside",
+          "date": null,
+          "access_date": "2026-10-18",
+          "read_scope": "Search-delivered primary page body: ballot, levy, additional services and renewal. Direct opening returned metadata; later timed out.",
+          "evidence_grade": "VII; organisation/governance description",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "BID describes its own structure and renewal.",
+          "apa7": "Better Bankside. (n.d.). What is a BID?"
+        },
+        {
+          "id": "LON2",
+          "title": "Alleyway transformed by creation of Keppel Row Garden",
+          "url": "https://www.southwark.gov.uk/news/2019/alleyway-transformed-creation-keppel-row-garden",
+          "author": "Southwark Council",
+          "date": "2019-04-02; page updated 2026-04-17",
+          "access_date": "2026-10-18",
+          "read_scope": "Full article body (HTML lines 26–44).",
+          "evidence_grade": "VII; municipal implementation report",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "Delivery partner describes completed work.",
+          "apa7": "Southwark Council. (2019, April 2). Alleyway transformed by creation of Keppel Row Garden."
+        },
+        {
+          "id": "LON3",
+          "title": "Community Green Space Grants 2018",
+          "url": "https://www.london.gov.uk/programmes-and-strategies/environment-and-climate-change/parks-green-spaces-and-biodiversity/greener-city-fund/community-green-space-grants-2018",
+          "author": "Greater London Authority",
+          "date": "2018 programme; page undated",
+          "access_date": "2026-10-18",
+          "read_scope": "LIMITED READ: search-delivered Keppel Row Garden paragraph; full-page location retrieval did not return matching text.",
+          "evidence_grade": "VII; funding programme record",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "Grant funder reports supported project.",
+          "apa7": "Greater London Authority. (n.d.). Community green space grants 2018."
+        }
+      ],
+      "mechanism": {
+        "label": "project_description",
+        "source_ids": [
+          "LON1",
+          "LON2"
+        ],
+        "text": "A business-led BID uses a levy and periodic ballots to deliver additional neighbourhood services. Keppel Row combines rain gardens, accessible public space and permeable paving above a tank system."
+      },
+      "actors_funding": {
+        "source_ids": [
+          "LON2",
+          "LON3"
+        ],
+        "text": "Southwark, Better Bankside, businesses and residents delivered the alley project. Funding came from Mayor's Air Quality Fund, Greener City Fund and the developer of 61 Southwark Street. GLA records a £48,000 grant."
+      },
+      "evidence": [
+        {
+          "label": "project_description",
+          "source_ids": [
+            "LON2",
+            "LON3"
+          ],
+          "text": "Council records the completed transformation; GLA corroborates the rain garden and permeable surfacing."
+        },
+        {
+          "label": "projected_benefit",
+          "source_ids": [
+            "LON2"
+          ],
+          "text": "Reduced runoff/flood risk is reported as the design function. The council also cites a route-exposure study; its underlying study was not read, so no pollution percentage is used as an intervention outcome."
+        }
+      ],
+      "method_and_limits": {
+        "source_ids": [
+          "LON1",
+          "LON2",
+          "LON3"
+        ],
+        "text": "Multiple project parties corroborate delivery, but are not independent evaluators. No before/after thermal, runoff or air dataset was inspected.",
+        "checklist": {
+          "governance": "checked: found",
+          "funding": "checked: found",
+          "delivery": "checked: found",
+          "causal_outcome": "not checked"
+        }
+      },
+      "transfer": {
+        "label": "reader_inferred",
+        "component": "Combine a continuing area-management body with small street projects and multiple funding sources.",
+        "condition": "Needs a locally legitimate funding/membership arrangement, landowner consent and clear maintenance obligations; UK BID law is context-specific."
+      },
+      "inclusion_reason": "Dense mixed-use alley renewal with collective stewardship and public/private funding."
+    },
+    {
+      "slug": "freiburg-vauban",
+      "name": "Vauban district energy and development agreements",
+      "place": "Vauban, Freiburg im Breisgau, Germany",
+      "authority": "City of Freiburg planning authority",
+      "sources": [
+        {
+          "id": "FRE1",
+          "title": "Umwelt und Energie",
+          "url": "https://www.freiburg.de/pb/208752.html",
+          "author": "Stadt Freiburg im Breisgau",
+          "date": null,
+          "access_date": "2026-10-18",
+          "read_scope": "Search-delivered full Energie and Freiraum/Wasser sections. Direct HTML retrieval exposed navigation; body location retrieval failed.",
+          "evidence_grade": "VII; municipal project description",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "Planning authority describes district implementation.",
+          "apa7": "Stadt Freiburg im Breisgau. (n.d.). Umwelt und Energie."
+        },
+        {
+          "id": "FRE2",
+          "title": "Quartier Vauban: Energie / Energy",
+          "url": "https://www.freiburg.de/pb/site/Freiburg/get/documents/freiburg/daten/bauen/vauban/Vauban_Energie.pdf",
+          "author": "Stadt Freiburg im Breisgau, Stadtplanungsamt",
+          "date": "2008 (printed credit in search text)",
+          "access_date": "2026-10-18",
+          "read_scope": "LIMITED READ: searchable bilingual poster text; PDF has no extracted text. Screenshot call returned reference but no rendered image inspected.",
+          "evidence_grade": "VII; historical planning poster",
+          "verification": "Primary publisher/authority page retrieved or primary-source search extract inspected; no citation API used.",
+          "conflict_or_role": "Municipal promotional/educational material.",
+          "apa7": "Stadt Freiburg im Breisgau, Stadtplanungsamt. (2008). Quartier Vauban: Energie / Energy [Poster].",
+          "date_note": "Search engine publication/crawl date not used as document date."
+        }
+      ],
+      "mechanism": {
+        "label": "project_description",
+        "source_ids": [
+          "FRE1",
+          "FRE2"
+        ],
+        "text": "Low-energy construction requirements were passed to future owners through private land-sale contracts; district heat was supplied through a wood-chip combined heat and power system. The city describes public green corridors and open rainwater infiltration channels."
+      },
+      "actors_funding": {
+        "source_ids": [
+          "FRE1",
+          "FRE2"
+        ],
+        "text": "City planning and building owners negotiated ecological requirements; adjacent residents joined green-space workshops. Funding and current utility ownership not established from these sources."
+      },
+      "evidence": [
+        {
+          "label": "project_description",
+          "source_ids": [
+            "FRE1",
+            "FRE2"
+          ],
+          "text": "Documents describe energy standards and infrastructure. Standard values are requirements, not metered household consumption; no observed energy-saving percentage is extracted."
+        }
+      ],
+      "method_and_limits": {
+        "source_ids": [
+          "FRE1",
+          "FRE2"
+        ],
+        "text": "Historical design documentation; current fuel mix, operating efficiency and measured household demand were not checked. The poster and municipal page are related institutional sources, not independent confirmation.",
+        "checklist": {
+          "contract_mechanism": "checked: found",
+          "technical_concept": "checked: found",
+          "operational_energy": "not checked",
+          "current_system": "not checked"
+        }
+      },
+      "transfer": {
+        "label": "reader_inferred",
+        "component": "Connect building requirements, shared heat services and land/development agreements.",
+        "condition": "A redevelopment land seller can impose conditions more easily than a dispersed existing-owner district; retrofit would require owner agreements and heat-demand feasibility."
+      },
+      "inclusion_reason": "Makes the land-control condition behind district energy explicit."
+    },
+    {
+      "slug": "new-york-cool-neighborhoods",
+      "name": "Cool Neighborhoods NYC / Cool It! NYC",
+      "place": "New York City, United States; priority areas include South Bronx, Northern Manhattan and Central Brooklyn",
+      "authority": "NYC Mayor's Office; NYC Parks; NYC Department of Health and Mental Hygiene",
+      "sources": [
+        {
+          "id": "NYC1",
+          "title": "Cool Neighborhoods NYC: A Comprehensive Approach to Keep Communities Safe in Extreme Heat",
+          "url": "https://www.nyc.gov/assets/orr/pdf/Cool_Neighborhoods_NYC_Report.pdf",
+          "author": "City of New York, Mayor's Office of Recovery and Resiliency",
+          "date": "2017",
+          "access_date": "2026-10-18",
+          "read_scope": "PDF introduction printed pp. 7–9 and targeted street-tree planting printed p. 11; contents and mayoral letter also inspected.",
+          "evidence_grade": "VII; funded programme plan",
+          "verification": "Official report PDF retrieved and text read.",
+          "conflict_or_role": "Programme owner describes intended investment.",
+          "apa7": "City of New York, Mayor's Office of Recovery and Resiliency. (2017). Cool neighborhoods NYC: A comprehensive approach to keep communities safe in extreme heat."
+        },
+        {
+          "id": "NYC2",
+          "title": "Interactive Heat Vulnerability Index",
+          "url": "https://a816-dohbesp.nyc.gov/IndicatorPublic/data-features/hvi/",
+          "author": "NYC Department of Health and Mental Hygiene",
+          "date": null,
+          "access_date": "2026-10-18",
+          "read_scope": "HTML overview, index description and factor explanations (lines 3–80); underlying methods paper and calculations not read.",
+          "evidence_grade": "VII; official analytical tool explanation",
+          "verification": "Official health-data portal retrieved and text read.",
+          "conflict_or_role": "Public-health authority publishes risk tool used for policy.",
+          "apa7": "NYC Department of Health and Mental Hygiene. (n.d.). Interactive heat vulnerability index."
+        },
+        {
+          "id": "NYC3",
+          "title": "Mayor Mamdani Releases PSA to Ready New Yorkers for Extreme Heat Throughout the Summer",
+          "url": "https://www.nyc.gov/mayors-office/news/2026/06/mayor-mamdani-releases-psa-to-ready-new-yorkers-for-extreme-heat",
+          "author": "NYC Mayor's Office",
+          "date": "2026-06 (URL; exact day not verified)",
+          "access_date": "2026-10-18",
+          "read_scope": "LIMITED READ: search-extracted paragraphs on HVI prioritisation and Cool It! NYC outdoor cooling resources.",
+          "evidence_grade": "VII; current service announcement",
+          "verification": "Primary official search text inspected.",
+          "conflict_or_role": "Service provider reports available resources.",
+          "apa7": "NYC Mayor's Office. (2026, June). Mayor Mamdani releases PSA to ready New Yorkers for extreme heat throughout the summer."
+        }
+      ],
+      "mechanism": {
+        "label": "project_description",
+        "source_ids": [
+          "NYC1",
+          "NYC2"
+        ],
+        "text": "Target tree/shade investment and cool roofs using neighbourhood heat vulnerability, alongside social support and cooling access. The index combines environmental exposure with social/access factors; surface temperature differs from air temperature."
+      },
+      "actors_funding": {
+        "source_ids": [
+          "NYC1"
+        ],
+        "text": "The 2017 city plan committed a $106 million programme, including $82 million for targeted street-tree planting led by NYC Parks. Health and academic partners developed the targeting evidence."
+      },
+      "evidence": [
+        {
+          "label": "project_description",
+          "source_ids": [
+            "NYC3"
+          ],
+          "text": "The 2026 announcement describes Cool It! NYC spray showers and drinking fountains alongside cooling centres, with priority to higher-risk communities."
+        },
+        {
+          "label": "projected_benefit",
+          "source_ids": [
+            "NYC1"
+          ],
+          "text": "Lower heat exposure and health protection are programme aims. No causal mortality reduction or citywide temperature effect is extracted."
+        }
+      ],
+      "method_and_limits": {
+        "source_ids": [
+          "NYC1",
+          "NYC2",
+          "NYC3"
+        ],
+        "text": "HVI is a neighbourhood risk tool; its presence does not evaluate programme effectiveness. No local intervention outcome study was inspected; 2017 commitments are not current expenditure totals.",
+        "checklist": {
+          "targeting": "checked: found",
+          "funding_commitment": "checked: found",
+          "service_description": "checked: found",
+          "causal_effect": "not checked"
+        }
+      },
+      "transfer": {
+        "label": "reader_inferred",
+        "component": "Prioritise heat measures using exposure, vulnerability and access to cooling together.",
+        "condition": "Use locally relevant household, worker and visitor evidence; do not import NYC index coefficients or racial categories into Tokyo."
+      },
+      "inclusion_reason": "North American contrast linking heat-equity targeting to both physical works and operating services."
+    }
+  ],
+  "verification_notes": {
+    "programme_vs_effect": "An official source establishes authority, design, funding or reported delivery; it does not by itself establish intervention effectiveness.",
+    "independence": "No formal independent cross-reference rate calculated. London delivery is corroborated by council and funder, who both participated. Barcelona and Paris empirical work comes from programme-connected research.",
+    "bibliographic_check": "Titles, authors and dates recorded only from material actually returned. Citation APIs and external models were not used, as scoped by the parent task.",
+    "journal_checks": "Barcelona: publisher primary article with DOI and peer-review-report link visible; no predatory-journal concern identified from that surface. Indexing, COPE, Cabell and retraction databases not checked. Paris: repository/proceedings metadata inspected; no claim of independent peer-review verification. Official web/report sources: journal checks not applicable.",
+    "coverage": "Five European cases, one Asian, one Australian and one North American case; selected mechanism contrasts, not a representative global sample.",
+    "unresolved_sources": [
+      "CPH2 full title/date and PDF text remain limited",
+      "FRE2 assessed from search-extracted poster text",
+      "LON1 direct read timed out; source text read through search",
+      "LON3 section read through search extract",
+      "NYC3 service description read through search extract; older climate-office landing pages redirect to new homepage."
+    ],
+    "downstream_boundary": "No review synthesis, studio-pilot choice, Site edits or Git changes performed."
+  }
+}

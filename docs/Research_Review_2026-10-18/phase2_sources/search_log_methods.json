@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "search_date": "2026-10-18",
+  "scope": "Targeted discovery for an integrative interdisciplinary review; not systematic review, PRISMA search or exhaustive bibliography.",
+  "criteria": {
+    "include": [
+      "Primary method articles, original theoretical articles, official standards/manuals and a foundational UBEM review directly supporting assigned methods.",
+      "English sources without publication-year cutoff; older foundations combined with current manual/standard versions.",
+      "Claim support requires inspected passages; abstract-only sources retained only for explicitly supported broad facts."
+    ],
+    "exclude": [
+      "Commercial summaries used as evidence",
+      "Unsupported numerical improvement claims",
+      "Secondary paper citations substituted for original method passages"
+    ]
+  },
+  "sources_searched": [
+    "General web search",
+    "Publisher article pages (Springer, Elsevier, Oxford/JSTOR)",
+    "MIT repository",
+    "Official UMEP documentation",
+    "Architectural Institute of Japan",
+    "COST and University of Hamburg",
+    "RICS",
+    "GHG Protocol",
+    "University-hosted original-article mirrors"
+  ],
+  "queries": [
+    "Reinhart Cerezo Davila 2016 Urban building energy modeling review nascent field pdf",
+    "Bröde 2012 deriving operational procedure UTCI pdf",
+    "UMEP SOLWEIG manual inputs mean radiant temperature",
+    "Tominaga Mochida Yoshie Kataoka Nozu Yoshikawa Shirasawa 2008 AIJ guidelines practical applications CFD pedestrian wind pdf",
+    "COST Action 732 best practice guideline CFD urban environment 2007 pdf",
+    "RICS whole life carbon assessment built environment 2nd edition September 2023 pdf",
+    "Ansell Gash 2008 Collaborative Governance Theory Practice pdf",
+    "site.ghgprotocol.org global protocol community scale greenhouse gas inventories 1.1 2021 pdf",
+    "Ostrom 2010 Polycentric systems coping collective action global environmental change pdf",
+    "site.utci.org Bröde operational procedure pdf",
+    "site.berkeley.edu Ansell Gash collaborative governance theory practice pdf",
+    "\"Deriving the operational procedure\" pdf Bröde",
+    "\"Collaborative Governance in Theory and Practice\" \"m um032\" pdf",
+    "site.cost.eu \"Best Practice Guideline\" \"732\"",
+    "\"Ansell\" \"Gash\" \"mum032\" filetype:pdf site:edu",
+    "\"Deriving the operational procedure\" site:repository.lboro.ac.uk",
+    "\"AIJ guidelines\" \"Tominaga\" filetype:pdf site:jp",
+    "\"Urban building energy modeling\" \"2016\" \"Geometry\" Reinhart",
+    "\"Deriving the operational procedure\" \"9347768\" download",
+    "\"Tominaga\" \"2008\" \"1749\" pdf guidelines",
+    "\"Urban building energy modeling\" \"nascent\" filetype:pdf MIT",
+    "\"Polycentric systems\" \"Ostrom\" site:indiana.edu pdf"
+  ],
+  "search_counts": {
+    "total_hits": "not available; search tool returns selected results",
+    "included_sources": 9,
+    "section_read_sources": 7,
+    "abstract_only_sources": 2,
+    "duplicates": "Deduplicated by exact title/DOI; online and issue years preserved separately."
+  },
+  "retrieval_events": [
+    {
+      "source": "UBEM",
+      "result": "MIT metadata verified; full PDF 429. Original published article sections read in ResearchGate text, checked against DOI/title/authors."
+    },
+    {
+      "source": "UTCI",
+      "result": "Springer article URL opened successfully after DOI redirect failed; abstract only. Loughborough accepted-manuscript page found but full text not retrieved."
+    },
+    {
+      "source": "SOLWEIG",
+      "result": "Official live manual read with version distinction."
+    },
+    {
+      "source": "AIJ",
+      "result": "Official indexed reference and indexed original PDF opening inspected. Direct official page anti-bot; publisher fetch failed; remote PDF attempt returned non-PDF. Abstract-only."
+    },
+    {
+      "source": "COST732",
+      "result": "Official Hamburg listing read; linked cloud download 404. Original report read via Airshed mirror, sections 1–5.1. Later deeper-page fetch timed out; no claim uses unread later sections."
+    },
+    {
+      "source": "RICS",
+      "result": "Web PDF timeout; official PDF downloaded remotely to mdx1, pdftotext extracted and selected pages read. Version 3 August 2024."
+    },
+    {
+      "source": "GPC",
+      "result": "Browser rejected 25.9MB PDF; official PDF downloaded remotely to mdx1 and selected pages read; June 2021 update verified."
+    },
+    {
+      "source": "Ansell-Gash",
+      "result": "Publisher redirect failed; original PDF read on Oregon State institutional mirror; journal issue metadata cross-checked on JSTOR."
+    },
+    {
+      "source": "Ostrom",
+      "result": "Publisher metadata/abstract inspected through search; original PDF sections read via Commons blog mirror."
+    }
+  ],
+  "coverage_advisory": {
+    "methodological": "Mix of model method, literature review, standards/manuals and governance theory; no pooled causal-effect estimate.",
+    "geographic": "International foundational sources; none establish a numerical effect in Kajicho.",
+    "age": "Foundational articles 2007–2016 paired with 2021 GPC, RICS Version 3 2024 and living SOLWEIG manual.",
+    "gaps": [
+      "UTCI full methods, approximation bounds and validation data not inspected.",
+      "AIJ full numerical setup prescriptions not inspected.",
+      "UBEM validation cases referenced by the review were not individually verified.",
+      "No source establishes that a particular Kajicho intervention improves performance."
+    ]
+  },
+  "outputs": [
+    "methods_sources.json",
+    "search_log_methods.json"
+  ],
+  "temporary_retrieval_files": "RICS/GPC PDFs and pdftotext files were created only remotely for inspection and removed after annotation; no source PDFs are included in deliverables.",
+  "prohibited_operations_not_used": [
+    "Programmatic citation APIs",
+    "External-model calls",
+    "Local output files",
+    "Downloads",
+    "Git commit/push",
+    "Site editing",
+    "CFD/model computation"
+  ]
+}

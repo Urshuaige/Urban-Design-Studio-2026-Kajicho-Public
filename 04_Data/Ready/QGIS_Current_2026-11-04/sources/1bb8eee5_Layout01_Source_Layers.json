@@ -1,0 +1,116 @@
+[
+  {
+    "source_id": "Study_boundaries___Site_aligned_6ceb4338_7e12_4b62_ae3e_c24d13bad944",
+    "id": "Study_area_197d48ca_7bce_4d65_a49b_298e5118fb88",
+    "name": "Study area",
+    "role": "Layout01 base"
+  },
+  {
+    "source_id": "River_names___English_4fbcdeda_a407_44ee_8497_0f6c298f96f6",
+    "id": "River_names___English_8e837e54_2aed_44e8_a3a0_acfcd602567c",
+    "name": "River names \u00b7 English",
+    "role": "Layout01 base"
+  },
+  {
+    "source_id": "Ward_names___English_229d6cef_e060_4748_b528_ddd8a6dfbfc5",
+    "id": "Ward_names___English_aff22787_22f3_41df_8604_ba3688a9201b",
+    "name": "Ward names \u00b7 English",
+    "role": "Layout01 base"
+  },
+  {
+    "source_id": "Stations___Japanese___English_d5cc9839_18b6_4b27_8c10_02f269b22b9f",
+    "id": "Stations___English_19974159_b9f2_4551_8396_26ff066abefc",
+    "name": "Stations \u00b7 English",
+    "role": "Layout01 base"
+  },
+  {
+    "source_id": "Outside_mask___White_f4590d5c_c726_4aa2_aeef_f49a30c99659",
+    "id": "Outside_local_frame_mask_0cf55764_f3d9_43e0_879e_299fce5c99c9",
+    "name": "Outside local frame mask",
+    "role": "Layout01 base"
+  },
+  {
+    "source_id": "Buildings___Research_area_and_street_frontage_58ade202_b465_4aad_ac4b_74c8953076b5",
+    "id": "Buildings_f73aa40b_428e_46ad_a5a9_27646672402b",
+    "name": "Buildings",
+    "role": "Layout01 base"
+  },
+  {
+    "source_id": "Railway_tracks___Compact_context_bc87b3b4_4ee1_4c73_a0b4_cf88ec168878",
+    "id": "Rail_tracks_536cb577_f9a9_4bda_8df3_8f4bc9b55a17",
+    "name": "Rail tracks",
+    "role": "Layout01 base"
+  },
+  {
+    "source_id": "Roads___Compact_context_bbd99149_b09b_4440_ad71_580ecf1b1d32",
+    "id": "Road_network___continuous_GSI_f759bd32_e8f8_469b_95dc_20ec079aab85",
+    "name": "Road network \u2014 continuous GSI",
+    "role": "Layout01 base"
+  },
+  {
+    "source_id": "Water_edges___Compact_context_ddae5480_d11b_4496_8f5d_f32bc206f5ec",
+    "id": "Water_edges_7286678d_e4f1_4b45_a4aa_8903aabbbe9a",
+    "name": "Water edges",
+    "role": "Layout01 base"
+  },
+  {
+    "source_id": "Buildings___Compact_context_5989881e_2df5_470e_9a1b_c31f4062bb1b",
+    "id": "Context_buildings_2e729711_4da6_48c5_bf67_99dd095ccc3e",
+    "name": "Context buildings",
+    "role": "Layout01 base"
+  },
+  {
+    "source_id": "Water_bodies___Compact_context_5703d058_ccce_40f8_a841_f7e66c1671cc",
+    "id": "Water_ba8eba4b_cd34_4de7_b1c2_249e629f8545",
+    "name": "Water",
+    "role": "Layout01 base"
+  },
+  {
+    "source_id": "Terrain_hillshade___GSI_DEM1A_33bced13_c8a8_4c72_9096_fab80b71ceef",
+    "id": "Terrain_hillshade_a1769d39_fd68_4d9a_b52d_d10cc1042fda",
+    "name": "Terrain hillshade",
+    "role": "Layout01 base"
+  },
+  {
+    "source_id": "Annual_primary_energy___estimated_GJ_year_695006d2_cc4e_4345_bc91_e7db5dae576a",
+    "id": "Annual_primary_energy___estimated_GJ_year_e19d54af_fa72_46d0_8dc3_f27ce004a8fc",
+    "name": "Annual primary energy \u00b7 estimated GJ/year",
+    "role": "analysis"
+  },
+  {
+    "source_id": "Annual_CO2___estimated_t_year_f1bcd504_1f0a_4eda_b6d7_78b889901177",
+    "id": "Annual_CO2___estimated_t_year_2124a218_182c_4ef1_b0a8_1a143c010ce4",
+    "name": "Annual CO2 \u00b7 estimated t/year",
+    "role": "analysis"
+  },
+  {
+    "source_id": "Unresolved_use___total_not_estimated_c7fdf266_60ed_4a69_8da7_340c2e3e5df0",
+    "id": "Unresolved_use___total_not_estimated_cc44c172_88b1_4933_908b_3c2fb024be04",
+    "name": "Unresolved use / total not estimated",
+    "role": "analysis"
+  },
+  {
+    "source_id": "Recorded_green___open_ground___f9d65cf2_0b95_4067_a828_1791296bf16c",
+    "id": "Recorded_green___open_ground___b5f66133_39e2_451e_a9cb_586a6a2175f2",
+    "name": "Recorded green / open ground %",
+    "role": "analysis"
+  },
+  {
+    "source_id": "Building_obstruction___FAI_55790bd0_432f_465e_8a08_1ecbd55fe1c9",
+    "id": "Building_obstruction___FAI_d078c500_1937_47f1_abd6_b00f1db1a9e3",
+    "name": "Building obstruction / FAI",
+    "role": "analysis"
+  },
+  {
+    "source_id": "Building_shade_at_noon_____2307c6f8_2de2_4513_b49e_2dfb31b1e643",
+    "id": "Building_shade_at_noon_____a3b2a608_20ac_4aff_a163_74cd75e1ab4b",
+    "name": "Building shade at noon / %",
+    "role": "analysis"
+  },
+  {
+    "source_id": "Building_outlines_28384771_d819_4554_8c13_3e85ec3608ed",
+    "id": "Building_outlines_15e324a4_fb6f_4bcd_a424_b6fe329fd754",
+    "name": "Building outlines",
+    "role": "analysis"
+  }
+]

@@ -1,0 +1,13 @@
+﻿source_field,shp_field,shp_type,dbf_width_bytes,null_bit,storage,source_non_null,source_null,source_max_text_bytes
+__wider_pk,wider_pk,integer,11,0,shp_and_csv,6,0,
+name,name,text,27,1,shp_and_csv,6,0,27
+kind,kind,text,63,2,shp_and_csv,6,0,63
+species,,text,,,all_null_csv_only,0,6,6
+source_year,source_yea,text,25,3,shp_and_csv,6,0,25
+source_member,source_mem,text,144,4,shp_and_csv,6,0,144
+name_ja,name_ja,text,27,5,shp_and_csv,6,0,27
+display_name_en,display_na,text,52,6,shp_and_csv,6,0,52
+scope_note,scope_note,text,57,7,shp_and_csv,6,0,57
+delivery_source_fid,delivery_s,integer,11,8,shp_and_csv,6,0,
+delivery_geometry,delivery_g,text,12,9,shp_and_csv,6,0,12
+delivery_value_scope,delivery_v,text,66,10,shp_and_csv,6,0,66

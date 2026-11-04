@@ -1,0 +1,2 @@
+﻿ROW_ID,__wider_pk,buffer_m,note,delivery_source_fid,delivery_geometry,delivery_value_scope
+1,0,1500,Routing extends beyond reporting outlines,0,clipped_to_wider,Original source feature or statistical unit; values not recomputed

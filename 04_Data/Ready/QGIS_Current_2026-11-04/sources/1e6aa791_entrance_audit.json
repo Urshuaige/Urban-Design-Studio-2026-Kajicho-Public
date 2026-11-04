@@ -1,0 +1,630 @@
+[
+  {
+    "osm_id": 1744024036,
+    "station": "Kanda",
+    "name": "南口",
+    "ref": "NULL",
+    "kind": "train_station_entrance",
+    "xy": [
+      -5656.531347260172,
+      -34291.523839037705
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "alt_name": "アースジェット口",
+      "description": "日本橋方面",
+      "name": "南口",
+      "name:en": "South Entrance",
+      "name:ja": "南口",
+      "name:ja-Latn": "Minamiguchi",
+      "railway": "train_station_entrance"
+    },
+    "node": 1744024036,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 1928488130,
+    "station": "Kanda",
+    "name": "Kanda Station",
+    "ref": "6",
+    "kind": "subway_entrance",
+    "xy": [
+      -5687.254406654158,
+      -33805.24416298781
+    ],
+    "opening_hours": "07:00-21:00",
+    "source_tags": {
+      "name": "Kanda Station",
+      "name:ja": "神田駅",
+      "opening_hours": "07:00-21:00",
+      "railway": "subway_entrance",
+      "ref": "6",
+      "source": "image,2013-12;GSI/KIBAN 2500;Bing",
+      "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN",
+      "wheelchair": "yes"
+    },
+    "node": 1928488130,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 2010136253,
+    "station": "Iwamotocho",
+    "name": "岩本町",
+    "ref": "A6",
+    "kind": "subway_entrance",
+    "xy": [
+      -5299.9611081358335,
+      -33748.91408190492
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "alt": "3.4",
+      "name": "岩本町",
+      "name:en": "Iwamotocho",
+      "network": "都営地下鉄",
+      "note": "エレベーター",
+      "operator": "東京都交通局",
+      "railway": "subway_entrance",
+      "ref": "A6",
+      "wheelchair": "yes"
+    },
+    "node": 2010136253,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 2178438708,
+    "station": "Iwamotocho",
+    "name": "岩本町",
+    "ref": "A3",
+    "kind": "subway_entrance",
+    "xy": [
+      -5267.894666101068,
+      -33729.5958991457
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "check_date:wheelchair": "2026-06-23",
+      "name": "岩本町",
+      "name:en": "Iwamotocho",
+      "name:ko": "이와모토쵸",
+      "network": "都営地下鉄",
+      "operator": "東京都交通局",
+      "railway": "subway_entrance",
+      "ref": "A3",
+      "wheelchair": "no"
+    },
+    "node": 2178438708,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 2261145987,
+    "station": "Iwamotocho",
+    "name": "岩本町",
+    "ref": "A5",
+    "kind": "subway_entrance",
+    "xy": [
+      -5232.552127289524,
+      -33817.59404603532
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "name": "岩本町",
+      "name:ko": "이와모토쵸",
+      "railway": "subway_entrance",
+      "ref": "A5",
+      "wheelchair": "no"
+    },
+    "edge": 35739,
+    "offset": 0.054107336388403274,
+    "gap_m": 4.669080286370903,
+    "join_xy": [
+      -5237.1914995975485,
+      -33817.068179789865
+    ],
+    "status": "assumed surface connector"
+  },
+  {
+    "osm_id": 2267014618,
+    "station": "Iwamotocho",
+    "name": "NULL",
+    "ref": "A2",
+    "kind": "subway_entrance",
+    "xy": [
+      -5357.60758520317,
+      -33745.88407207892
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "railway": "subway_entrance",
+      "ref": "A2"
+    },
+    "node": 2267014618,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 2267015247,
+    "station": "Iwamotocho",
+    "name": "岩本町",
+    "ref": "A4",
+    "kind": "subway_entrance",
+    "xy": [
+      -5191.332011262053,
+      -33729.45235260207
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "check_date:wheelchair": "2026-07-10",
+      "name": "岩本町",
+      "name:en": "Iwamotocho",
+      "network": "都営地下鉄",
+      "operator": "東京都交通局",
+      "railway": "subway_entrance",
+      "ref": "A4",
+      "wheelchair": "no"
+    },
+    "node": 2267015247,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 2272620307,
+    "station": "Iwamotocho",
+    "name": "岩本町",
+    "ref": "A1",
+    "kind": "subway_entrance",
+    "xy": [
+      -5351.208038217343,
+      -33788.94464707176
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "name": "岩本町",
+      "name:en": "Iwamotocho",
+      "railway": "subway_entrance",
+      "ref": "A1"
+    },
+    "node": 2272620307,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 2569033132,
+    "station": "Kanda",
+    "name": "神田駅",
+    "ref": "5",
+    "kind": "subway_entrance",
+    "xy": [
+      -5668.559934563203,
+      -33894.89750619982
+    ],
+    "opening_hours": "07:00-21:00",
+    "source_tags": {
+      "bicycle": "no",
+      "name": "神田駅",
+      "name:en": "Kanda Station",
+      "opening_hours": "07:00-21:00",
+      "railway": "subway_entrance",
+      "ref": "5",
+      "source": "image,2013-12;GSI/KIBAN 2500;Bing",
+      "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN",
+      "wheelchair": "no"
+    },
+    "node": 2569033132,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 4005256724,
+    "station": "Shin-Nihombashi",
+    "name": "新日本橋駅",
+    "ref": "6",
+    "kind": "subway_entrance",
+    "xy": [
+      -5352.238307096685,
+      -34492.928201607036
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "name": "新日本橋駅",
+      "name:en": "Shin-Nihombashi Station",
+      "railway": "subway_entrance",
+      "ref": "6",
+      "wheelchair": "no"
+    },
+    "node": 4005256724,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 4005256771,
+    "station": "Shin-Nihombashi",
+    "name": "新日本橋駅",
+    "ref": "NULL",
+    "kind": "subway_entrance",
+    "xy": [
+      -5214.109178754254,
+      -34513.57898440824
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "name": "新日本橋駅",
+      "railway": "subway_entrance",
+      "wheelchair": "no"
+    },
+    "node": 4005256771,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 4005320458,
+    "station": "Shin-Nihombashi",
+    "name": "新日本橋駅",
+    "ref": "NULL",
+    "kind": "subway_entrance",
+    "xy": [
+      -5223.340981348359,
+      -34482.84257284923
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "name": "新日本橋駅",
+      "railway": "subway_entrance",
+      "wheelchair": "no"
+    },
+    "node": 4005320458,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 4005321302,
+    "station": "Shin-Nihombashi",
+    "name": "新日本橋駅",
+    "ref": "NULL",
+    "kind": "subway_entrance",
+    "xy": [
+      -5269.828562590881,
+      -34457.54249777638
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "name": "新日本橋駅",
+      "name:en": "Shin-Nihombashi Station",
+      "railway": "subway_entrance",
+      "wheelchair": "no"
+    },
+    "node": 4005321302,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 4414274944,
+    "station": "Kanda",
+    "name": "神田",
+    "ref": "3",
+    "kind": "subway_entrance",
+    "xy": [
+      -5627.929663092387,
+      -34016.74907629101
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "name": "神田",
+      "railway": "subway_entrance",
+      "ref": "3",
+      "wheelchair": "no"
+    },
+    "node": 4414274944,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 4414274945,
+    "station": "Kanda",
+    "name": "神田",
+    "ref": "4",
+    "kind": "subway_entrance",
+    "xy": [
+      -5647.2378552638775,
+      -34023.08272799622
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "name": "神田",
+      "railway": "subway_entrance",
+      "ref": "4",
+      "wheelchair": "no"
+    },
+    "node": 4414274945,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 4414274946,
+    "station": "Kanda",
+    "name": "神田",
+    "ref": "1",
+    "kind": "subway_entrance",
+    "xy": [
+      -5634.7717480987185,
+      -34102.55860232101
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "name": "神田",
+      "railway": "subway_entrance",
+      "ref": "1"
+    },
+    "edge": 1923,
+    "offset": 9.561052018830544,
+    "gap_m": 7.102052952653287,
+    "join_xy": [
+      -5641.171746552715,
+      -34099.479775282816
+    ],
+    "status": "assumed surface connector"
+  },
+  {
+    "osm_id": 4414274947,
+    "station": "Kanda",
+    "name": "神田",
+    "ref": "2",
+    "kind": "subway_entrance",
+    "xy": [
+      -5641.659153182135,
+      -34088.464563001995
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "name": "神田",
+      "railway": "subway_entrance",
+      "ref": "2"
+    },
+    "node": 4414274947,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 6192571427,
+    "station": "Shin-Nihombashi",
+    "name": "新日本橋駅",
+    "ref": "NULL",
+    "kind": "subway_entrance",
+    "xy": [
+      -5438.577100839057,
+      -34514.11013493677
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "name": "新日本橋駅",
+      "name:en": "Shin-Nihombashi Station",
+      "name:ja": "新日本橋駅",
+      "railway": "subway_entrance",
+      "wheelchair": "no"
+    },
+    "node": 6192571427,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 6192583235,
+    "station": "Shin-Nihombashi",
+    "name": "新日本橋駅",
+    "ref": "NULL",
+    "kind": "subway_entrance",
+    "xy": [
+      -5430.5593692022585,
+      -34545.75575429366
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "name": "新日本橋駅",
+      "name:en": "Shin-Nihombashi Station",
+      "name:ja": "新日本橋駅",
+      "railway": "subway_entrance",
+      "wheelchair": "no"
+    },
+    "node": 6192583235,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 6192583236,
+    "station": "Shin-Nihombashi",
+    "name": "新日本橋駅",
+    "ref": "NULL",
+    "kind": "subway_entrance",
+    "xy": [
+      -5412.728055584191,
+      -34558.524983342046
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "name": "新日本橋駅",
+      "name:en": "Shin-Nihombashi Station",
+      "name:ja": "新日本橋駅",
+      "railway": "subway_entrance"
+    },
+    "node": 6192583236,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 6783449294,
+    "station": "Kanda",
+    "name": "北口",
+    "ref": "NULL",
+    "kind": "train_station_entrance",
+    "xy": [
+      -5642.709469606788,
+      -34117.73047048364
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "entrance": "yes",
+      "name": "北口",
+      "name:en": "North Exit",
+      "name:ja": "北口",
+      "name:ja-Latn": "Kitaguchi",
+      "railway": "train_station_entrance"
+    },
+    "edge": 52677,
+    "offset": 0,
+    "gap_m": 5.56632783438875,
+    "join_xy": [
+      -5640.244608409721,
+      -34112.739632393794
+    ],
+    "status": "assumed surface connector"
+  },
+  {
+    "osm_id": 7093700437,
+    "station": "Kanda",
+    "name": "NULL",
+    "ref": "NULL",
+    "kind": "train_station_entrance",
+    "xy": [
+      -5608.692218841331,
+      -34136.8229799099
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "name:ja": "東口",
+      "railway": "train_station_entrance"
+    },
+    "node": 7093700437,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 7093700439,
+    "station": "Kanda",
+    "name": "西口",
+    "ref": "NULL",
+    "kind": "train_station_entrance",
+    "xy": [
+      -5685.897559342711,
+      -34258.95464416795
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "alt_name": "バスロマン口",
+      "description": "大手町方面",
+      "name": "西口",
+      "name:en": "West Entrance",
+      "name:ja": "西口",
+      "railway": "train_station_entrance"
+    },
+    "edge": 52434,
+    "offset": 0,
+    "gap_m": 11.313905932094324,
+    "join_xy": [
+      -5681.863334438521,
+      -34248.38442672162
+    ],
+    "status": "assumed surface connector"
+  },
+  {
+    "osm_id": 8204421728,
+    "station": "Shin-Nihombashi",
+    "name": "新日本橋駅",
+    "ref": "NULL",
+    "kind": "subway_entrance",
+    "xy": [
+      -5432.62753842311,
+      -34582.88684537027
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "name": "新日本橋駅",
+      "name:en": "Shin-Nihombashi Station",
+      "name:ja": "新日本橋駅",
+      "railway": "subway_entrance",
+      "wheelchair": "yes"
+    },
+    "node": 8204421728,
+    "gap_m": 0,
+    "status": "exact network node"
+  },
+  {
+    "osm_id": 12090088663,
+    "station": "Kanda",
+    "name": "南口",
+    "ref": "NULL",
+    "kind": "train_station_entrance",
+    "xy": [
+      -5646.417669050004,
+      -34270.59546639926
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "entrance": "yes",
+      "name": "南口",
+      "name:en": "South Entrance",
+      "name:ja": "南口",
+      "name:ja-Latn": "Minamiguchi",
+      "railway": "train_station_entrance"
+    },
+    "edge": 12998,
+    "offset": 6.15862872536927,
+    "gap_m": 4.309517792896389,
+    "join_xy": [
+      -5642.4801722374505,
+      -34272.34705495209
+    ],
+    "status": "assumed surface connector"
+  },
+  {
+    "osm_id": 13205550550,
+    "station": "Kanda",
+    "name": "東口",
+    "ref": "NULL",
+    "kind": "train_station_entrance",
+    "xy": [
+      -5614.318537124279,
+      -34132.06000395417
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "entrance": "yes",
+      "name": "東口",
+      "name:en": "East Exit",
+      "name:ja": "東口",
+      "name:ja-Latn": "Higashiguchi",
+      "railway": "train_station_entrance"
+    },
+    "edge": 36374,
+    "offset": 3.9552329635321013,
+    "gap_m": 3.5192890885818278,
+    "join_xy": [
+      -5611.038629499662,
+      -34130.784229027704
+    ],
+    "status": "assumed surface connector"
+  },
+  {
+    "osm_id": 13205550558,
+    "station": "Kanda",
+    "name": "東口",
+    "ref": "NULL",
+    "kind": "train_station_entrance",
+    "xy": [
+      -5616.613857264552,
+      -34126.566910979716
+    ],
+    "opening_hours": null,
+    "source_tags": {
+      "entrance": "yes",
+      "name": "東口",
+      "name:en": "East Exit",
+      "name:ja": "東口",
+      "name:ja-Latn": "Higashiguchi",
+      "railway": "train_station_entrance"
+    },
+    "status": "unresolved join"
+  }
+]

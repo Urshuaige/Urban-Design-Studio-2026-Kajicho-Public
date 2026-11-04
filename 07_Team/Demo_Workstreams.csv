@@ -1,0 +1,7 @@
+﻿workstream,description_en,owner,reviewer,scope,first_output,handover_to,status,description_zh,scope_zh,first_output_zh
+Data & GIS,Data and base maps,,,"Boundaries, sources, ID joins and shared projects","Confirmed scope, source register and layer handover",All workstreams,Proposed,数据与底图,边界、来源、ID 连接、共同工程,确认范围、资料登记、图层交接
+Buildings & Energy,Buildings and energy,,,"Use, area, energy, savings and PV","Building inputs, accounting scope and scenario results",Data & GIS; Stakeholders,Proposed,建筑与能源,用途、面积、能耗、节能与光伏,建筑输入表、核算边界、情景结果
+Mobility,Mobility,,,"Walking passages, entrances, deliveries and vehicle flows","Route checks, network data and activity-collection plan",Climate; Buildings & Energy,Proposed,出行,步行通路、出入口、配送和车流,路线核查、网络资料、活动量方案
+Climate & Public Space,Climate and public space,,,"Shade, crowns, resting places and floods","Timed observations, hazard records and candidate streets",Mobility; Stakeholders,Proposed,气候与公共空间,遮阴、树冠、休息点、洪水,指定时段观察、风险资料、候选街段
+Stakeholders & Delivery,Actors and implementation,,,"Ownership, rights, participation, funding and upkeep","Actor register, access conditions and action cards",All workstreams,Proposed,主体与实施,所有权、权限、参与、资金与维护,主体表、访问条件、行动卡
+Integration & Graphics,Integration and graphics,,,"Issues, visions, actions, booklet and presentation","Shared layout, reviewed maps, interim and final files",All workstreams,Proposed,整合与表达,问题、愿景、行动、说明册与展示,共同版式、审阅地图、中期与最终文件

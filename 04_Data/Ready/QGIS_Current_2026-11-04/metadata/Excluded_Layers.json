@@ -1,0 +1,236 @@
+[
+  {
+    "project": "06_Outputs/Building_Age_2011_2026-11-04/Delivery/Kanda_Building_Age_2011.qgz",
+    "group": "Current saved master",
+    "layer": "Actor points",
+    "layer_id": "Actor_points_1e5f2d21_ba62_4f66_ba3c_99868790426e",
+    "provider": "memory",
+    "subset": "",
+    "abstract": "",
+    "metadata_xml": "<resourceMetadata>\n        <identifier />\n        <parentidentifier />\n        <language />\n        <type />\n        <title />\n        <abstract />\n        <links />\n        <dates />\n        <fees />\n        <encoding />\n        <crs>\n          <spatialrefsys nativeFormat=\"Wkt\">\n            <wkt />\n            <proj4 />\n            <srsid>0</srsid>\n            <srid>0</srid>\n            <authid />\n            <description />\n            <projectionacronym />\n            <ellipsoidacronym />\n            <geographicflag>false</geographicflag>\n          </spatialrefsys>\n        </crs>\n        <extent />\n      </resourceMetadata>\n      ",
+    "reason": "Saved memory layer has no persisted feature payload; original session is unavailable"
+  },
+  {
+    "project": "06_Outputs/Building_Age_2011_2026-11-04/Delivery/Kanda_Building_Age_2011.qgz",
+    "group": "Current saved master",
+    "layer": "Change points",
+    "layer_id": "Change_points_49b2a814_78dd_4d02_9b9e_2b8a19eebd7d",
+    "provider": "memory",
+    "subset": "",
+    "abstract": "",
+    "metadata_xml": "<resourceMetadata>\n        <identifier />\n        <parentidentifier />\n        <language />\n        <type />\n        <title />\n        <abstract />\n        <links />\n        <dates />\n        <fees />\n        <encoding />\n        <crs>\n          <spatialrefsys nativeFormat=\"Wkt\">\n            <wkt />\n            <proj4 />\n            <srsid>0</srsid>\n            <srid>0</srid>\n            <authid />\n            <description />\n            <projectionacronym />\n            <ellipsoidacronym />\n            <geographicflag>false</geographicflag>\n          </spatialrefsys>\n        </crs>\n        <extent />\n      </resourceMetadata>\n      ",
+    "reason": "Saved memory layer has no persisted feature payload; original session is unavailable"
+  },
+  {
+    "project": "06_Outputs/Building_Age_2011_2026-11-04/Delivery/Kanda_Building_Age_2011.qgz",
+    "group": "Current saved master",
+    "layer": "Google Maps · satellite reference (capture date unknown)",
+    "layer_id": "Google_Maps___satellite_reference__capture_date_unknown__e0fd2144_623d_4066_b6d9_06f7e2ffc6a1",
+    "provider": "gdal",
+    "subset": "",
+    "abstract": "User-requested visible screenshots, accessed2Nov2026. Google Maps; Imagery ©2026 Airbus, Maxar Technologies. Copyright year is not image capture date.0.5m output sampling, not certified sensor resolution.99.81% study-area coverage. Local educational reference.",
+    "metadata_xml": "<resourceMetadata>\n        <identifier />\n        <parentidentifier />\n        <language />\n        <type>dataset</type>\n        <title />\n        <abstract />\n        <links />\n        <dates />\n        <fees />\n        <encoding />\n        <crs>\n          <spatialrefsys nativeFormat=\"Wkt\">\n            <wkt>PROJCRS[\"JGD2011 / Japan Plane Rectangular CS IX\",BASEGEOGCRS[\"JGD2011\",DATUM[\"Japanese Geodetic Datum 2011\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",6668]],CONVERSION[\"Japan Plane Rectangular CS zone IX\",METHOD[\"Transverse Mercator\",ID[\"EPSG\",9807]],PARAMETER[\"Latitude of natural origin\",36,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",139.833333333333,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"Scale factor at natural origin\",0.9999,SCALEUNIT[\"unity\",1],ID[\"EPSG\",8805]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"northing (X)\",north,ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"easting (Y)\",east,ORDER[2],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Cadastre, engineering survey, topographic mapping (large and medium scale).\"],AREA[\"Japan - onshore - Honshu - Tokyo-to. (Excludes offshore island areas of Tokyo-to covered by Japan Plane Rectangular Coordinate System zones XIV, XVIII and XIX).\"],BBOX[29.31,138.4,37.98,141.11]],ID[\"EPSG\",6677]]</wkt>\n            <proj4>+proj=tmerc +lat_0=36 +lon_0=139.833333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs</proj4>\n            <srsid>28350</srsid>\n            <srid>6677</srid>\n            <authid>EPSG:6677</authid>\n            <description>JGD2011 / Japan Plane Rectangular CS IX</description>\n            <projectionacronym>tmerc</projectionacronym>\n            <ellipsoidacronym>EPSG:7019</ellipsoidacronym>\n            <geographicflag>false</geographicflag>\n          </spatialrefsys>\n        </crs>\n        <extent />\n      </resourceMetadata>\n      ",
+    "source_file": "06_Outputs/Slides/Vegetation_Wind_2026-11-02/data/Google_Visual_Reference.tif",
+    "source_options": {},
+    "reason": "Local imagery reference; source attribution retained, imagery not redistributed"
+  },
+  {
+    "project": "06_Outputs/Building_Age_2011_2026-11-04/Delivery/Kanda_Building_Age_2011.qgz",
+    "group": "Current saved master",
+    "layer": "Railway points",
+    "layer_id": "Railway_points_fed84148_407c_47f3_b555_bb3f82deab85",
+    "provider": "memory",
+    "subset": "",
+    "abstract": "",
+    "metadata_xml": "<resourceMetadata>\n        <identifier />\n        <parentidentifier />\n        <language />\n        <type />\n        <title />\n        <abstract />\n        <links />\n        <dates />\n        <fees />\n        <encoding />\n        <crs>\n          <spatialrefsys nativeFormat=\"Wkt\">\n            <wkt />\n            <proj4 />\n            <srsid>0</srsid>\n            <srid>0</srid>\n            <authid />\n            <description />\n            <projectionacronym />\n            <ellipsoidacronym />\n            <geographicflag>false</geographicflag>\n          </spatialrefsys>\n        </crs>\n        <extent />\n      </resourceMetadata>\n      ",
+    "reason": "Saved memory layer has no persisted feature payload; original session is unavailable"
+  },
+  {
+    "project": "06_Outputs/QGIS_Increment_Merge_2026-11-03/Kajicho_Master_Updated_2026-11-03.qgz",
+    "group": "Additional analysis",
+    "layer": "Actor points",
+    "layer_id": "Actor_points_1e5f2d21_ba62_4f66_ba3c_99868790426e",
+    "provider": "memory",
+    "subset": "",
+    "abstract": "",
+    "metadata_xml": "<resourceMetadata>\n        <identifier />\n        <parentidentifier />\n        <language />\n        <type />\n        <title />\n        <abstract />\n        <links />\n        <dates />\n        <fees />\n        <encoding />\n        <crs>\n          <spatialrefsys nativeFormat=\"Wkt\">\n            <wkt />\n            <proj4 />\n            <srsid>0</srsid>\n            <srid>0</srid>\n            <authid />\n            <description />\n            <projectionacronym />\n            <ellipsoidacronym />\n            <geographicflag>false</geographicflag>\n          </spatialrefsys>\n        </crs>\n        <extent />\n      </resourceMetadata>\n      ",
+    "reason": "Saved memory layer has no persisted feature payload; original session is unavailable"
+  },
+  {
+    "project": "06_Outputs/QGIS_Increment_Merge_2026-11-03/Kajicho_Master_Updated_2026-11-03.qgz",
+    "group": "Additional analysis",
+    "layer": "Change points",
+    "layer_id": "Change_points_49b2a814_78dd_4d02_9b9e_2b8a19eebd7d",
+    "provider": "memory",
+    "subset": "",
+    "abstract": "",
+    "metadata_xml": "<resourceMetadata>\n        <identifier />\n        <parentidentifier />\n        <language />\n        <type />\n        <title />\n        <abstract />\n        <links />\n        <dates />\n        <fees />\n        <encoding />\n        <crs>\n          <spatialrefsys nativeFormat=\"Wkt\">\n            <wkt />\n            <proj4 />\n            <srsid>0</srsid>\n            <srid>0</srid>\n            <authid />\n            <description />\n            <projectionacronym />\n            <ellipsoidacronym />\n            <geographicflag>false</geographicflag>\n          </spatialrefsys>\n        </crs>\n        <extent />\n      </resourceMetadata>\n      ",
+    "reason": "Saved memory layer has no persisted feature payload; original session is unavailable"
+  },
+  {
+    "project": "06_Outputs/QGIS_Increment_Merge_2026-11-03/Kajicho_Master_Updated_2026-11-03.qgz",
+    "group": "Additional analysis",
+    "layer": "Google Maps · satellite reference (capture date unknown)",
+    "layer_id": "Google_Maps___satellite_reference__capture_date_unknown__e0fd2144_623d_4066_b6d9_06f7e2ffc6a1",
+    "provider": "gdal",
+    "subset": "",
+    "abstract": "User-requested visible screenshots, accessed2Nov2026. Google Maps; Imagery ©2026 Airbus, Maxar Technologies. Copyright year is not image capture date.0.5m output sampling, not certified sensor resolution.99.81% study-area coverage. Local educational reference.",
+    "metadata_xml": "<resourceMetadata>\n        <identifier />\n        <parentidentifier />\n        <language />\n        <type>dataset</type>\n        <title />\n        <abstract />\n        <links />\n        <dates />\n        <fees />\n        <encoding />\n        <crs>\n          <spatialrefsys nativeFormat=\"Wkt\">\n            <wkt>PROJCRS[\"JGD2011 / Japan Plane Rectangular CS IX\",BASEGEOGCRS[\"JGD2011\",DATUM[\"Japanese Geodetic Datum 2011\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",6668]],CONVERSION[\"Japan Plane Rectangular CS zone IX\",METHOD[\"Transverse Mercator\",ID[\"EPSG\",9807]],PARAMETER[\"Latitude of natural origin\",36,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",139.833333333333,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"Scale factor at natural origin\",0.9999,SCALEUNIT[\"unity\",1],ID[\"EPSG\",8805]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"northing (X)\",north,ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"easting (Y)\",east,ORDER[2],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Cadastre, engineering survey, topographic mapping (large and medium scale).\"],AREA[\"Japan - onshore - Honshu - Tokyo-to. (Excludes offshore island areas of Tokyo-to covered by Japan Plane Rectangular Coordinate System zones XIV, XVIII and XIX).\"],BBOX[29.31,138.4,37.98,141.11]],ID[\"EPSG\",6677]]</wkt>\n            <proj4>+proj=tmerc +lat_0=36 +lon_0=139.833333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs</proj4>\n            <srsid>28350</srsid>\n            <srid>6677</srid>\n            <authid>EPSG:6677</authid>\n            <description>JGD2011 / Japan Plane Rectangular CS IX</description>\n            <projectionacronym>tmerc</projectionacronym>\n            <ellipsoidacronym>EPSG:7019</ellipsoidacronym>\n            <geographicflag>false</geographicflag>\n          </spatialrefsys>\n        </crs>\n        <extent />\n      </resourceMetadata>\n      ",
+    "source_file": "06_Outputs/Slides/Vegetation_Wind_2026-11-02/data/Google_Visual_Reference.tif",
+    "source_options": {},
+    "reason": "Local imagery reference; source attribution retained, imagery not redistributed"
+  },
+  {
+    "project": "06_Outputs/QGIS_Increment_Merge_2026-11-03/Kajicho_Master_Updated_2026-11-03.qgz",
+    "group": "Additional analysis",
+    "layer": "Railway points",
+    "layer_id": "Railway_points_fed84148_407c_47f3_b555_bb3f82deab85",
+    "provider": "memory",
+    "subset": "",
+    "abstract": "",
+    "metadata_xml": "<resourceMetadata>\n        <identifier />\n        <parentidentifier />\n        <language />\n        <type />\n        <title />\n        <abstract />\n        <links />\n        <dates />\n        <fees />\n        <encoding />\n        <crs>\n          <spatialrefsys nativeFormat=\"Wkt\">\n            <wkt />\n            <proj4 />\n            <srsid>0</srsid>\n            <srid>0</srid>\n            <authid />\n            <description />\n            <projectionacronym />\n            <ellipsoidacronym />\n            <geographicflag>false</geographicflag>\n          </spatialrefsys>\n        </crs>\n        <extent />\n      </resourceMetadata>\n      ",
+    "reason": "Saved memory layer has no persisted feature payload; original session is unavailable"
+  },
+  {
+    "project": "06_Outputs/Slides/Building_Renewal_Figma_2026-11-04/Proposal_V5_Integrated/Integrated_Renewal.qgz",
+    "group": "Renewal proposal",
+    "layer": "Actor points",
+    "layer_id": "Actor_points_1e5f2d21_ba62_4f66_ba3c_99868790426e",
+    "provider": "memory",
+    "subset": "",
+    "abstract": "",
+    "metadata_xml": "<resourceMetadata>\n        <identifier />\n        <parentidentifier />\n        <language />\n        <type />\n        <title />\n        <abstract />\n        <links />\n        <dates />\n        <fees />\n        <encoding />\n        <crs>\n          <spatialrefsys nativeFormat=\"Wkt\">\n            <wkt />\n            <proj4 />\n            <srsid>0</srsid>\n            <srid>0</srid>\n            <authid />\n            <description />\n            <projectionacronym />\n            <ellipsoidacronym />\n            <geographicflag>false</geographicflag>\n          </spatialrefsys>\n        </crs>\n        <extent />\n      </resourceMetadata>\n      ",
+    "reason": "Saved memory layer has no persisted feature payload; original session is unavailable"
+  },
+  {
+    "project": "06_Outputs/Slides/Building_Renewal_Figma_2026-11-04/Proposal_V5_Integrated/Integrated_Renewal.qgz",
+    "group": "Renewal proposal",
+    "layer": "Change points",
+    "layer_id": "Change_points_49b2a814_78dd_4d02_9b9e_2b8a19eebd7d",
+    "provider": "memory",
+    "subset": "",
+    "abstract": "",
+    "metadata_xml": "<resourceMetadata>\n        <identifier />\n        <parentidentifier />\n        <language />\n        <type />\n        <title />\n        <abstract />\n        <links />\n        <dates />\n        <fees />\n        <encoding />\n        <crs>\n          <spatialrefsys nativeFormat=\"Wkt\">\n            <wkt />\n            <proj4 />\n            <srsid>0</srsid>\n            <srid>0</srid>\n            <authid />\n            <description />\n            <projectionacronym />\n            <ellipsoidacronym />\n            <geographicflag>false</geographicflag>\n          </spatialrefsys>\n        </crs>\n        <extent />\n      </resourceMetadata>\n      ",
+    "reason": "Saved memory layer has no persisted feature payload; original session is unavailable"
+  },
+  {
+    "project": "06_Outputs/Slides/Building_Renewal_Figma_2026-11-04/Proposal_V5_Integrated/Integrated_Renewal.qgz",
+    "group": "Renewal proposal",
+    "layer": "Google Maps · satellite reference (capture date unknown)",
+    "layer_id": "Google_Maps___satellite_reference__capture_date_unknown__e0fd2144_623d_4066_b6d9_06f7e2ffc6a1",
+    "provider": "gdal",
+    "subset": "",
+    "abstract": "User-requested visible screenshots, accessed2Nov2026. Google Maps; Imagery ©2026 Airbus, Maxar Technologies. Copyright year is not image capture date.0.5m output sampling, not certified sensor resolution.99.81% study-area coverage. Local educational reference.",
+    "metadata_xml": "<resourceMetadata>\n        <identifier />\n        <parentidentifier />\n        <language />\n        <type>dataset</type>\n        <title />\n        <abstract />\n        <links />\n        <dates />\n        <fees />\n        <encoding />\n        <crs>\n          <spatialrefsys nativeFormat=\"Wkt\">\n            <wkt>PROJCRS[\"JGD2011 / Japan Plane Rectangular CS IX\",BASEGEOGCRS[\"JGD2011\",DATUM[\"Japanese Geodetic Datum 2011\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",6668]],CONVERSION[\"Japan Plane Rectangular CS zone IX\",METHOD[\"Transverse Mercator\",ID[\"EPSG\",9807]],PARAMETER[\"Latitude of natural origin\",36,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",139.833333333333,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"Scale factor at natural origin\",0.9999,SCALEUNIT[\"unity\",1],ID[\"EPSG\",8805]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"northing (X)\",north,ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"easting (Y)\",east,ORDER[2],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Cadastre, engineering survey, topographic mapping (large and medium scale).\"],AREA[\"Japan - onshore - Honshu - Tokyo-to. (Excludes offshore island areas of Tokyo-to covered by Japan Plane Rectangular Coordinate System zones XIV, XVIII and XIX).\"],BBOX[29.31,138.4,37.98,141.11]],ID[\"EPSG\",6677]]</wkt>\n            <proj4>+proj=tmerc +lat_0=36 +lon_0=139.833333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs</proj4>\n            <srsid>28350</srsid>\n            <srid>6677</srid>\n            <authid>EPSG:6677</authid>\n            <description>JGD2011 / Japan Plane Rectangular CS IX</description>\n            <projectionacronym>tmerc</projectionacronym>\n            <ellipsoidacronym>EPSG:7019</ellipsoidacronym>\n            <geographicflag>false</geographicflag>\n          </spatialrefsys>\n        </crs>\n        <extent />\n      </resourceMetadata>\n      ",
+    "source_file": "06_Outputs/Slides/Vegetation_Wind_2026-11-02/data/Google_Visual_Reference.tif",
+    "source_options": {},
+    "reason": "Local imagery reference; source attribution retained, imagery not redistributed"
+  },
+  {
+    "project": "06_Outputs/Slides/Building_Renewal_Figma_2026-11-04/Proposal_V5_Integrated/Integrated_Renewal.qgz",
+    "group": "Renewal proposal",
+    "layer": "Railway points",
+    "layer_id": "Railway_points_fed84148_407c_47f3_b555_bb3f82deab85",
+    "provider": "memory",
+    "subset": "",
+    "abstract": "",
+    "metadata_xml": "<resourceMetadata>\n        <identifier />\n        <parentidentifier />\n        <language />\n        <type />\n        <title />\n        <abstract />\n        <links />\n        <dates />\n        <fees />\n        <encoding />\n        <crs>\n          <spatialrefsys nativeFormat=\"Wkt\">\n            <wkt />\n            <proj4 />\n            <srsid>0</srsid>\n            <srid>0</srid>\n            <authid />\n            <description />\n            <projectionacronym />\n            <ellipsoidacronym />\n            <geographicflag>false</geographicflag>\n          </spatialrefsys>\n        </crs>\n        <extent />\n      </resourceMetadata>\n      ",
+    "reason": "Saved memory layer has no persisted feature payload; original session is unavailable"
+  },
+  {
+    "dataset": "D025_gsi_buildings",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D028_gsi_buildings",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D035_location_centres",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D071_CHO_MOB_R2_Kanto",
+    "reason": "Kanto-wide original table excluded by user scope"
+  },
+  {
+    "dataset": "D072_CHO_POP_R2_Kanto",
+    "reason": "Kanto-wide original table excluded by user scope"
+  },
+  {
+    "dataset": "D073_CHO_JOB_R2_Kanto",
+    "reason": "Kanto-wide original table excluded by user scope"
+  },
+  {
+    "dataset": "D077_green_labels_existing",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D086_festival_places",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D111_gsi_railtrcl",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D112_gsi_railtrcl",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D117_gsi_railcl",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D120_gsi_railcl",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D129_river_names_en",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D138_gsi_rdcl",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D140_gsi_rdcl",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D167_context_ward",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D168_context_ward",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D170_ward_label",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D171_ward_label",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D174_gsi_wa",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D176_gsi_wa",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D179_gsi_wl",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D183_gsi_wl",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  },
+  {
+    "dataset": "D184_context_waterways",
+    "reason": "No retained record in wider boundary or its linked statistical units"
+  }
+]

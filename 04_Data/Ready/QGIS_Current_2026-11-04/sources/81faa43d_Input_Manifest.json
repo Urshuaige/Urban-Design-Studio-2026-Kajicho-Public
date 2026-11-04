@@ -1,0 +1,82 @@
+[
+  {
+    "source": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Neighbourhood_Statistics_2026-10-29/Data/Neighbourhood_Statistics.gpkg",
+    "staged": "towns.gpkg",
+    "sha256": "5199e62bfe6534ef67cbb263cdeb0b88539c008db030b3431329a270fad133f6"
+  },
+  {
+    "source": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Wider_Building_Update_2026-10-28/Wider_Building_Update_2026-10-28.gpkg",
+    "staged": "current.gpkg",
+    "sha256": "7a3172c66e1415de8fe1c74e534fb6ce90ee0acdcf269f603fa9d660eb5b665e"
+  },
+  {
+    "source": "05_QGIS/Projects/Kajicho_QGIS_Master_Map_2026-10-29/data/Kajicho_Base_Map.gpkg",
+    "staged": "base.gpkg",
+    "sha256": "c81e9a3ed277836d026b88df8e6319eca9a7b539b489d0aca8ee4125d8c88b01"
+  },
+  {
+    "source": "04_Data/Raw/PLATEAU_Demo/chiyoda_2025_lod1_tileset.json",
+    "staged": "chiyoda_2025_lod1_tileset.json",
+    "sha256": "37eace6bc1c4cce14c7dab3d81fc221a584a284cce3cf4b905f254aeb09d54e9"
+  },
+  {
+    "source": "04_Data/Raw/PLATEAU_Demo/chiyoda_lod1_tileset.json",
+    "staged": "chiyoda_lod1_tileset.json",
+    "sha256": "85c8a89b07408839969c914fa2fcbd915a0a675b99121045db6ecb8638a3ace0"
+  },
+  {
+    "source": "04_Data/Raw/PLATEAU_Demo/chuo_data20.b3dm",
+    "staged": "chuo_data20.b3dm",
+    "sha256": "0a82b5e0b62928232a55ce7886d2fc9cdfb214aebf12e0f26a98dc3a54559b16"
+  },
+  {
+    "source": "04_Data/Raw/PLATEAU_Demo/chuo_data21.b3dm",
+    "staged": "chuo_data21.b3dm",
+    "sha256": "9bd8eef79026570bd9562d17be9c64dc53855fe5557c0fedd7ac567a5902fb93"
+  },
+  {
+    "source": "04_Data/Raw/PLATEAU_Demo/chuo_data22.b3dm",
+    "staged": "chuo_data22.b3dm",
+    "sha256": "6f02899fca7a9686527c201a720d7b202e7b1b5bb1a5deff39208a8fd3e9d181"
+  },
+  {
+    "source": "04_Data/Raw/PLATEAU_Demo/chuo_data6.b3dm",
+    "staged": "chuo_data6.b3dm",
+    "sha256": "4feaf9e0f517d59bf52c21706edad251bc847a2ad88d8143fea216208884c950"
+  },
+  {
+    "source": "04_Data/Raw/PLATEAU_Demo/chuo_data8.b3dm",
+    "staged": "chuo_data8.b3dm",
+    "sha256": "f02ccd7e0599fb7d89c1f00b1f43062a619bbab2a99462293569cedcdf132739"
+  },
+  {
+    "source": "04_Data/Raw/PLATEAU_Demo/chuo_lod1_tileset.json",
+    "staged": "chuo_lod1_tileset.json",
+    "sha256": "7743bc19f1b5027fdb4bf19a7e3781461e97fae6c1379a9d77bc49b111fa4275"
+  },
+  {
+    "source": "04_Data/Raw/PLATEAU_Demo/chuo_source_lod1_tileset.json",
+    "staged": "chuo_source_lod1_tileset.json",
+    "sha256": "ddf1fa53eec3d312e091660d1c387e3ff49ead1fabe9518289f2882cdf6a212a"
+  },
+  {
+    "source": "04_Data/Raw/PLATEAU_Demo/data10.b3dm",
+    "staged": "data10.b3dm",
+    "sha256": "861cbb13a7fa4cae378c217a1d1401e9fc55a2f3d6cc71f7c7ea8dca74ac8af5"
+  },
+  {
+    "source": "04_Data/Raw/PLATEAU_Demo/data11.b3dm",
+    "staged": "data11.b3dm",
+    "sha256": "ec2804c195b549ea69933d9844e09a93f61e91b78e11ab844171ea7b6488497f"
+  },
+  {
+    "source": "04_Data/Raw/PLATEAU_Demo/data2.b3dm",
+    "staged": "data2.b3dm",
+    "sha256": "67cce9a7d9b97f46b06ddf3ff54915ab3fb9b13ef4625c25dc49251c2377060b"
+  },
+  {
+    "source": "04_Data/Raw/PLATEAU_Demo/data3.b3dm",
+    "staged": "data3.b3dm",
+    "sha256": "8d43648ede39ad9802d83ea0030b3bcc302d1146d4f0dbff51235a4a98e42fb9"
+  }
+]
