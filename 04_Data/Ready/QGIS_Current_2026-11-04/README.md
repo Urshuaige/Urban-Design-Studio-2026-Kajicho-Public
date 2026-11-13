@@ -4,9 +4,17 @@ This delivery uses the current **wider boundary, 42.43712 ha**, to select local 
 
 Clone the repository or download its ZIP. Keep this folder intact and open `Kajicho_Current_Data.qgz` in QGIS. All delivered files are ordinary Git files; Git LFS is not required. This is a data browsing project with relative paths. The original slide layouts remain in their dated local projects.
 
+## Primary building age update — 13 November 2026
+
+The QGIS project displays the [supplied primary building-age layer](shp/Primary_Building_Age_2026-11-13/) above the earlier age views. It contains 277 building models: 221 have a `Byear` value and 56 have no year. These are user-supplied values; the underlying age source, survey year and licence were not identified in the supplied file. The layer retains EPSG:4326 and 3D polygon coordinates. Its [field mapping](shp/Primary_Building_Age_2026-11-13/README.txt) records SHP field-name changes.
+
+The five older age and chronology views in the QGIS project exclude their original `in_primary = 1` records, so the new layer supplies the primary-area display. Their underlying historical datasets remain available for provenance and retain their original attributes; outside the primary area the old views are unchanged. Matching by building ID identifies 256 common models, 21 new-layer models absent from the old 2011 evidence layer, and one old primary model absent from the new file. The source data are separate historical records, so the match is not a statement of changes to physical buildings.
+
+The 4 November counts and dataset descriptions below describe the dated release; this update adds one SHP layer. Older static maps and website source retain their publication dates.
+
 ## Contents
 
-The package contains **178 SHP datasets**, **14 nonspatial tables**, **192 GeoPackage tables** and **17 cropped rasters**. The QGIS project has 351 vector views plus the rasters. [Find data by layer name](metadata/Layer_Index.csv) or [browse sources and methods](SOURCES.md).
+The package contains **179 SHP datasets**, **14 nonspatial tables**, **192 GeoPackage tables** and **17 cropped rasters**. The QGIS project has 352 vector views plus the rasters. [Find data by layer name](metadata/Layer_Index.csv) or [browse sources and methods](SOURCES.md).
 
 | Folder | Contents |
 | --- | --- |
@@ -30,7 +38,7 @@ The building-to-town attribute join is restored in QGIS and recorded in [Joins.j
 
 ## SHP fields
 
-SHP exports use EPSG:6677 and at most 255 DBF fields. Each `_fields.csv` maps original field names to short DBF names and identifies fields retained only in the full CSV. Join `_full.csv` to SHP through `ROW_ID`. GeoPackage retains full field names, text, types and nulls. Complete building geometry matches the saved source exactly. One employment-allocation SHP record retains all ring coordinates but its microscopic rings are regrouped by the SHP reader; use its GeoPackage for the exact ring structure. The record is identified in `metadata/Validation.json`.
+The 4 November SHP exports use EPSG:6677 and at most 255 DBF fields; the 13 November primary building-age layer retains EPSG:4326 and its original nulls. Each `_fields.csv` maps original field names to short DBF names and identifies fields retained only in the full CSV. Join `_full.csv` to SHP through `ROW_ID`. GeoPackage retains full field names, text, types and nulls. Complete building geometry matches the saved source exactly. One employment-allocation SHP record retains all ring coordinates but its microscopic rings are regrouped by the SHP reader; use its GeoPackage for the exact ring structure. The record is identified in `metadata/Validation.json`.
 
 `NUL_BITS` marks missing values using bit positions in the field map. Numeric `-9999` and text `<NULL>` are placeholders only where the corresponding bit is set. CSV nulls use `<NULL>`; exact null/string distinctions remain in GeoPackage. Numeric SHP values have eight decimal places.
 

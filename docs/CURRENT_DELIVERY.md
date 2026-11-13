@@ -1,5 +1,7 @@
 # Current team delivery
 
+**13 November 2026:** The current QGIS project now uses the [supplied primary building-age SHP](../04_Data/Ready/QGIS_Current_2026-11-04/shp/Primary_Building_Age_2026-11-13/) for the primary-area age display. It includes 277 models, including 56 without a `Byear` value. The earlier age views remain for the wider area; their original datasets remain available as historical records. Source provenance for the supplied years is not specified. See the [GIS guide](../04_Data/Ready/QGIS_Current_2026-11-04/README.md#primary-building-age-update--13-november-2026).
+
 Updated 4 November 2026. Scope: the current 42.43712 ha wider boundary. Kanto-wide original tables are excluded. Use the [current GIS data snapshot](../04_Data/Ready/QGIS_Current_2026-11-04/README.md) for SHP, complete GeoPackage attributes, completed analyses and [source links](../04_Data/Ready/QGIS_Current_2026-11-04/SOURCES.md). Open `04_Data/Ready/QGIS_Current_2026-11-04/Kajicho_Current_Data.qgz` with its adjacent data folder. This delivery uses saved QGIS sources through 4 November, including the analysis increment and building-age evidence. The manifest records each input version.
 
 Buildings intersecting the wider boundary retain complete source footprints across all edges. Other spatial data retain the existing wider clipping. Existing values retain their original analysis or statistical support; use the source methods and clip flags when comparing results. Website and Drive releases keep their existing publication state.
