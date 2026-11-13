@@ -1,6 +1,6 @@
 # Kajicho public Site source
 
-This is the static source of [Kajicho Site Atlas](https://kajicho-site-atlas.specialgooood.chatgpt.site), published version 8. It contains the HTML, CSS, JavaScript, maps, data files and fonts used by that version. The published Site and the newer GIS delivery in this repository retain their own dates.
+This is the static source of [Kajicho Site Atlas](https://kajicho-site-atlas.specialgooood.chatgpt.site), published version 10. It contains the HTML, CSS, JavaScript, maps, data files and fonts used by that version. The primary building-age layer was updated on 13 November 2026; other site evidence retains its stated dates.
 
 ## Run locally
 
@@ -24,6 +24,6 @@ Open <http://localhost:8000> in a browser. Stop the server with Ctrl+C. No npm i
 | `site-navigation.js`, `page-outline.js` | Shared navigation and page outline |
 | `fonts/manifest.json` | Font sources and licence links |
 
-Start with the HTML entry, follow its JavaScript module, and inspect the JSON/CSV it reads. Keep source IDs, years and evidence status when making your own version. The [current GIS delivery](../04_Data/Ready/QGIS_Current_2026-11-04/README.md) includes the latest complete intersecting building footprints; this website snapshot is dated 28 October 2026.
+Start with the HTML entry, follow its JavaScript module, and inspect the JSON/CSV it reads. Keep source IDs, years and evidence status when making your own version. The [current GIS delivery](../04_Data/Ready/QGIS_Current_2026-11-04/README.md) includes the latest complete intersecting building footprints; the site snapshot includes the 13 November primary building-age update.
 
 See [source notices](../NOTICE.md) and the data registers for attribution and reuse terms. Hosting credentials, deployment identity and Git history are not part of this source copy.
