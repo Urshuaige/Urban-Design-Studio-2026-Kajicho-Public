@@ -10,7 +10,7 @@ The QGIS project displays the [supplied primary building-age layer](shp/Primary_
 
 The five older age and chronology views in the QGIS project exclude their original `in_primary = 1` records, so the new layer supplies the primary-area display. Their underlying historical datasets remain available for provenance and retain their original attributes; outside the primary area the old views are unchanged. Matching by building ID identifies 256 common models, 21 new-layer models absent from the old 2011 evidence layer, and one old primary model absent from the new file. The source data are separate historical records, so the match is not a statement of changes to physical buildings.
 
-The 4 November counts and dataset descriptions below describe the dated release; this update adds one SHP layer. Older static maps and website source retain their publication dates.
+The 4 November counts and dataset descriptions below describe the dated release; this update adds one SHP layer. The public site and its building-age maps were updated on 13 November; other dated maps retain their publication dates.
 
 ## Contents
 
