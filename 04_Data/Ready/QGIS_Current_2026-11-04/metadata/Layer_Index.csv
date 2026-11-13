@@ -191,3 +191,4 @@ D103_reference_documents,Planning reference documents — index,12,12,,data/D103
 D144_town_age_single_year_2026,Single-year ages — Chiyoda register 2026,1904,3024,,data/D144_town_age_single_year_2026.gpkg,07_Tables/T144_Single_year_ages_Chiyoda_register_2026.csv,,,0
 D148_source_links,Street frontage — Source overlay links,85,85,,data/D148_source_links.gpkg,07_Tables/T148_Street_frontage_Source_overlay_links.csv,,,0
 D169_ward_industry_sales_2024,Ward industry and sales — economic census 2024,324,324,,data/D169_ward_industry_sales_2024.gpkg,07_Tables/T169_Ward_industry_and_sales_economic_census_202.csv,,,0
+D196_primary_building_age_20261113,Primary building age — supplied years,277,277,EPSG:4326,shp/Primary_Building_Age_2026-11-13/Buildings_Kajicho_BYear0.shp,shp/Primary_Building_Age_2026-11-13/Buildings_Kajicho_BYear0.shp,,shp/Primary_Building_Age_2026-11-13/README.txt,0

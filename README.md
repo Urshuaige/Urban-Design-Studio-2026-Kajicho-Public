@@ -14,11 +14,13 @@ Click the preview to explore the public site: [Atlas](https://kajicho-site-atlas
 
 ## Current GIS data
 
+**13 November update:** [Primary building age](04_Data/Ready/QGIS_Current_2026-11-04/shp/Primary_Building_Age_2026-11-13/) uses the newly supplied 277-building SHP in the QGIS project; 56 years are missing and the underlying year source has not been supplied. The older age views continue outside the primary area. [Details](04_Data/Ready/QGIS_Current_2026-11-04/README.md#primary-building-age-update--13-november-2026).
+
 The **4 November 2026** delivery uses the **42.43712 ha wider boundary**. Every intersecting building retains its complete source footprint, including the southern edge. Original attributes and analysis-membership fields are preserved. Kanto-wide original tables are excluded.
 
 | Contents | Files and guidance |
 | --- | --- |
-| 178 SHP datasets | [Layer index](04_Data/Ready/QGIS_Current_2026-11-04/metadata/Layer_Index.csv), with full attributes and short-field mappings |
+| 179 SHP datasets | [Layer index](04_Data/Ready/QGIS_Current_2026-11-04/metadata/Layer_Index.csv), with full attributes and short-field mappings |
 | 192 GeoPackage tables, including 14 nonspatial tables | [Native data](04_Data/Ready/QGIS_Current_2026-11-04/data) |
 | 17 cropped rasters and 368 QGIS layers | [Delivery guide](04_Data/Ready/QGIS_Current_2026-11-04/README.md) |
 | Source links, years and methods | [Source guide](04_Data/Ready/QGIS_Current_2026-11-04/SOURCES.md) |
