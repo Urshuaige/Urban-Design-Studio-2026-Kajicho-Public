@@ -114,7 +114,7 @@ figcaption { margin-top: .68rem; }
 .bars { margin: .9rem 0 .65rem; display: grid; gap: .6rem; font-size: 17px; line-height: 1.35; }
 .bars div { display: grid; grid-template-columns: 1fr auto; gap: .3rem 1rem; align-items: end; }
 .bars dd { font-variant-numeric: tabular-nums; }
-.bars div::after { content: ""; display: block; grid-column: 1 / -1; background: var(--accent); width: var(--fill); height: 4px; transform-origin: left; }
+.bars div::after { content: ""; display: block; grid-column: 1 / -1; background: var(--bar, var(--accent)); width: var(--fill); height: 4px; transform-origin: left; }
 .js .chart.seen .bars div::after { animation: grow .64s var(--motion) both; }
 @keyframes grow { from { transform: scaleX(.06); opacity: .3; } to { transform: scaleX(1); opacity: 1; } }
 .lens { grid-column: 1 / -1; background: var(--light); margin-top: clamp(25px, 4.5vw, 72px); padding: clamp(20px, 4vw, 66px); }
