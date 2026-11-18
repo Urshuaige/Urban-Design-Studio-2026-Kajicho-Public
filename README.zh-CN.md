@@ -4,6 +4,12 @@
 
 [English](README.md) | **简体中文** | [日本語](README.ja.md)
 
+## 中期成果 · 2026 年 11 月 18 日
+
+[**浏览 Between the Centers 成果展**](https://kajicho-site-atlas.specialgooood.chatgpt.site/studio.html) · [项目时间线](docs/STUDIO_TIMELINE.md)
+
+六位组员在三个主题下展示建筑更新、热环境与洪涝，以及步行与公共空间研究。
+
 **东京神田—日本桥与鍛冶町一・二丁目**的共用数据、QGIS 工程和分析代码。Theme B 围绕建筑能源与碳、街道遮阴与辐射环境，以及面向 2050 年的规划与实施开展工作。
 
 **[打开公开场地资料站](https://kajicho-site-atlas.specialgooood.chatgpt.site)** · [获取当前 GIS 数据](04_Data/Ready/QGIS_Current_2026-11-04/README.md) · [查看数据来源](04_Data/Ready/QGIS_Current_2026-11-04/SOURCES.md)
