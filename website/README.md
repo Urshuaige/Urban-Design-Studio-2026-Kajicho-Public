@@ -1,5 +1,7 @@
 # Kajicho public Site source
 
+[**Between the Centers**](https://kajicho-site-atlas.specialgooood.chatgpt.site/studio.html) is the 18 November 2026 interim exhibition. Open [studio.html](studio.html) for the scroll-linked timeline, research plots and interactive street maps. The public Atlas links to this page from its homepage and navigation.
+
 This is the static source of [Kajicho Site Atlas](https://kajicho-site-atlas.specialgooood.chatgpt.site), published version 10. It contains the HTML, CSS, JavaScript, maps, data files and fonts used by that version. The primary building-age layer was updated on 13 November 2026; other site evidence retains its stated dates.
 
 ## Run locally

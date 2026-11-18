@@ -4,11 +4,17 @@ Public teaching copy for downloading GIS base maps, reading analysis methods and
 
 **English** | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)
 
+## Interim studio exhibition · 18 November 2026
+
+[**Explore Between the Centers**](https://kajicho-site-atlas.specialgooood.chatgpt.site/studio.html) · [Studio timeline](docs/STUDIO_TIMELINE.md)
+
+Six contributors across three themes share findings on building renewal, heat and flooding, and how people walk and use local streets.
+
 Shared data, QGIS projects and analysis code for **Kanda–Nihonbashi and Kajicho 1 & 2, Tokyo**. Theme B explores building energy and carbon, street shade and radiation, and planning and implementation towards 2050.
 
 **[Open the public Site Atlas](https://kajicho-site-atlas.specialgooood.chatgpt.site)** · [Get current GIS data](04_Data/Ready/QGIS_Current_2026-11-04/README.md) · [Browse sources](04_Data/Ready/QGIS_Current_2026-11-04/SOURCES.md)
 
-[![Preview of the public Kajicho Site Atlas](06_Outputs/README_Public_Site_2026-11-04/Public_Site_Preview.jpg)](https://kajicho-site-atlas.specialgooood.chatgpt.site)
+[![Preview of the Studio exhibition](06_Outputs/Studio_Interim_2026-11-18/preview.jpg)](https://kajicho-site-atlas.specialgooood.chatgpt.site/studio.html)
 
 Click the preview to explore the public site: [Atlas](https://kajicho-site-atlas.specialgooood.chatgpt.site/) · [History](https://kajicho-site-atlas.specialgooood.chatgpt.site/history.html) · [Policy](https://kajicho-site-atlas.specialgooood.chatgpt.site/policy.html) · [Site data](https://kajicho-site-atlas.specialgooood.chatgpt.site/conditions.html) · [Field visit](https://kajicho-site-atlas.specialgooood.chatgpt.site/field-visit.html).
 

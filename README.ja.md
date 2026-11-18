@@ -4,6 +4,12 @@ GIS基図の取得、分析手法の確認、ウェブサイトコードの学�
 
 [English](README.md) | [简体中文](README.zh-CN.md) | **日本語**
 
+## 中間発表 · 2026年11月18日
+
+[**成果展示 Between the Centers**](https://kajicho-site-atlas.specialgooood.chatgpt.site/studio.html) · [スタジオの記録](docs/STUDIO_TIMELINE.md)
+
+6名が建物の更新、暑熱・浸水対策、歩行と公共空間の研究を3つのテーマで紹介します。
+
 **東京都・神田—日本橋と鍛冶町一・二丁目**を対象とする共通データ、QGISプロジェクト、分析コードです。Theme Bでは、建物のエネルギー・炭素、街路の日陰・放射環境、2050年に向けた計画と実施を扱います。
 
 **[公開の地域資料サイトを開く](https://kajicho-site-atlas.specialgooood.chatgpt.site)** · [現在のGISデータ](04_Data/Ready/QGIS_Current_2026-11-04/README.md) · [データの出典](04_Data/Ready/QGIS_Current_2026-11-04/SOURCES.md)
