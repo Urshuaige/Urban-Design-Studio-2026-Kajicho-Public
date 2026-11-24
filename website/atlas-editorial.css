@@ -1,0 +1,92 @@
+.atlas-cover {
+  margin: 0;
+  padding-top: clamp(32px, 4.2vw, 64px);
+}
+
+.atlas-cover-heading {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  align-items: end;
+  gap: var(--grid-gap);
+  margin-bottom: clamp(20px, 2.4vw, 34px);
+}
+
+.atlas-cover-heading > div:first-child { grid-column: 1 / span 7; }
+.atlas-cover-heading > div:last-child { grid-column: 9 / -1; }
+.atlas-cover-heading .site-kicker { margin: 0 0 var(--size-3); }
+.atlas-cover-heading .site-title { line-height: .98; text-wrap: balance; }
+.atlas-cover-heading .site-lede {
+  margin: 0;
+  font-size: var(--lead-size);
+  line-height: 1.55;
+}
+
+.atlas-cover-plate { margin: 0; }
+
+.atlas-cover-image {
+  --station-x: 37%;
+  --station-y: 46.5%;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  aspect-ratio: var(--atlas-cover-ratio, 12 / 5);
+  background: #272623;
+}
+
+.atlas-cover-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center var(--station-y);
+}
+
+.atlas-station-mark {
+  position: absolute;
+  left: var(--station-x);
+  top: var(--station-y);
+  width: 38px;
+  height: 38px;
+  color: white;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.atlas-station-mark::before,
+.atlas-station-mark::after {
+  position: absolute;
+  content: "";
+  background: currentColor;
+}
+
+.atlas-station-mark::before { inset: 50% 0 auto; height: 1px; }
+.atlas-station-mark::after { inset: 0 auto 0 50%; width: 1px; }
+
+.atlas-plate-caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--size-1) var(--size-6);
+  margin: 0;
+  padding: var(--size-3) 0;
+  border-bottom: 1px solid var(--rule);
+  color: var(--muted);
+  font: var(--caption-size)/1.5 var(--mono);
+}
+
+.atlas-plate-caption a { color: inherit; }
+.atlas-plate-caption a:hover { color: var(--accent); }
+
+@media (max-width: 900px) {
+  .atlas-cover-heading { grid-template-columns: minmax(0, 1fr); gap: var(--size-4); }
+  .atlas-cover-heading > div:first-child,
+  .atlas-cover-heading > div:last-child { grid-column: 1; }
+  .atlas-cover-heading .site-title { text-wrap: initial; }
+  .atlas-cover-image { aspect-ratio: 2 / 1; }
+}
+
+@media (max-width: 560px) {
+  .atlas-cover-image { aspect-ratio: 5 / 4; }
+  .atlas-station-mark { width: 26px; height: 26px; }
+}

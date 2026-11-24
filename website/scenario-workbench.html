@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scenario workbench · Future Vision</title>
+  <meta name="description" content="Compare four tested scenarios for the former Imagawa school and Kanda Kanamono-dori.">
+  <link rel="stylesheet" href="atlas-editorial.css?v=20261119-page-transitions">
+  <link rel="stylesheet" href="/workbench-assets/workbench.css?v=20261120">
+  <link rel="stylesheet" href="site-navigation.css?v=20261124-workshop-page">
+  <script src="/site-motion.js?v=20261120-scenarios"></script>
+  <script type="module" blocking="render" src="/site-navigation.js?v=20261124-workshop-page"></script>
+  <link rel="expect" href="#site-page-end" blocking="render">
+  <script type="module" src="/workbench-assets/workbench-live.js?v=20261120-asuka"></script>
+</head>
+<body class="site-page" data-site-page="scenario-workbench">
+  <a class="site-skip" href="#main" data-site-label="skip">Skip to content</a>
+  <header class="site-header">
+    <div class="site-main-row site-shell">
+      <a class="site-brand" href="/"><b data-site-label="home">Kajicho</b><span data-site-label="brand">Urban Design Studio 2026</span></a>
+      <nav class="site-global-nav" aria-label="Main navigation">
+        <a href="/field-visit" data-site-label="visit">Field Visit</a>
+        <a href="/conditions" data-site-label="conditions">Site Data</a>
+        <a href="/policy" data-site-label="policy">Policies</a>
+        <a href="/studio" data-site-label="studio">Interim Progress</a>
+        <a href="/workshop" data-site-label="workshop">Workshop</a>
+        <a href="/vision" data-site-label="vision" aria-current="location">Future Vision</a>
+      </nav>
+      <div class="site-languages" role="group" aria-label="Page language">
+        <button type="button" data-lang="en" lang="en" aria-label="English" aria-pressed="true">EN</button>
+        <button type="button" data-lang="ja" lang="ja" aria-label="日本語" aria-pressed="false">日</button>
+        <button type="button" data-lang="zh" lang="zh-CN" aria-label="中文" aria-pressed="false">中</button>
+      </div>
+    </div>
+  </header>
+  <div class="site-content">
+<main id="main" class="site-shell workbench" data-workbench>
+  <header class="atlas-cover">
+    <div class="atlas-cover-heading">
+      <div>
+        <a class="site-kicker" href="/vision" data-word="vision">Future Vision</a>
+        <h1 class="site-title" data-word="title">Scenario workbench</h1>
+      </div>
+      <div>
+        <p class="site-lede" data-word="intro">Compare four proposals around the former Imagawa Junior High School and Kanda Kanamono-dori.</p>
+      </div>
+    </div>
+  </header>
+  <section class="wb-selection" aria-labelledby="wb-choice-title">
+    <h2 id="wb-choice-title" class="site-subtitle" data-word="choose">Choose a scenario</h2>
+    <div class="wb-choices" data-choices role="group" aria-labelledby="wb-choice-title"></div>
+    <p class="wb-case-note" data-case-note></p>
+    <p class="site-caption" data-run aria-live="polite">Loading the model results…</p>
+    <p class="site-caption wb-sequence">
+      <a href="#workbench-results" data-word="results">Results</a>
+      <a href="#workbench-conflicts" data-word="conflicts">Conflicts and checks</a>
+      <a href="#workbench-inputs" data-word="inputs">Missing inputs</a>
+    </p>
+  </section>
+  <section class="wb-editor" id="workbench-edit" aria-labelledby="wb-editor-title">
+    <h2 class="site-subtitle" id="wb-editor-title" data-live-copy="title">Edit and recalculate</h2>
+    <p class="site-caption" data-live-notice aria-live="polite"></p>
+    <a data-live-signin href="/signin-with-chatgpt?return_to=%2Fscenario-workbench%23workbench-edit" target="_top" hidden data-live-copy="signin">Sign in to edit</a>
+    <form data-live-form hidden>
+      <div class="wb-input-grid" data-live-fields></div>
+      <button type="submit" class="site-button" data-live-copy="run">Run on mdx1</button>
+    </form>
+    <div class="wb-job" data-live-job hidden>
+      <label for="wb-job-progress" data-live-copy="progress">Calculation progress</label>
+      <progress id="wb-job-progress" data-live-progress max="4" value="0"></progress>
+      <p class="site-caption" data-live-status role="status"></p>
+      <p class="site-caption" data-live-parameters></p>
+      <div class="wb-choices" data-live-actions></div>
+    </div>
+  </section>
+  <section id="workbench-results" class="wb-area" aria-labelledby="wb-results-title">
+    <h2 class="site-section-title" id="wb-results-title" data-word="results">Results</h2>
+    <p class="site-caption" data-word="basis">Each row uses the same model and support for its reference and scenario.</p>
+    <div class="wb-table-wrap" tabindex="0" role="region" aria-labelledby="wb-results-title">
+      <table class="wb-table">
+        <thead><tr>
+          <th scope="col" data-word="measure">Measure</th>
+          <th scope="col" data-word="reference">Reference</th>
+          <th scope="col" data-word="selected">Selected</th>
+          <th scope="col" data-word="delta">Change</th>
+        </tr></thead>
+        <tbody data-results></tbody>
+      </table>
+    </div>
+  </section>
+  <section id="workbench-conflicts" class="wb-area" aria-labelledby="wb-conflict-title">
+    <h2 class="site-section-title" id="wb-conflict-title" data-word="conflicts">Conflicts and checks</h2>
+    <ul class="wb-list" data-checks></ul>
+  </section>
+  <section id="workbench-inputs" class="wb-area" aria-labelledby="wb-input-title">
+    <h2 class="site-section-title" id="wb-input-title" data-word="inputs">Missing inputs</h2>
+    <ul class="wb-list" data-inputs></ul>
+  </section>
+  <section class="wb-area" aria-labelledby="wb-source-title">
+    <h2 class="site-section-title" id="wb-source-title" data-word="sources">Methods and sources</h2>
+    <ul class="wb-list" data-methods></ul>
+    <p class="site-caption"><a href="/workbench-assets/data.json" data-word="record">Download model results</a></p>
+  </section>
+</main>
+  <footer id="site-page-end" class="site-footer" lang="en">
+    <div class="site-shell">
+      <p data-site-label="footer">Urban Design Studio 2026 · Theme B · University of Tokyo</p>
+      <nav aria-label="Website references">
+        <a href="/design-guide" data-site-label="guide">Design Guide</a>
+        <a href="/studio-assets/sources" data-site-label="credits">Figure and photograph credits</a>
+      </nav>
+    </div>
+  </footer>
+  </div>
+</body>
+</html>

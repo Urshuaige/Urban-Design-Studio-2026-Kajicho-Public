@@ -1,0 +1,66 @@
+{
+  "Development and heritage": [
+    "開発と歴史資産",
+    "开发与历史资产"
+  ],
+  "Two maps, one extent. Trace planned development and the expressway corridor, then see how heritage and public assets fit into the same streets.": [
+    "同じ範囲を2枚の地図で読み比べます。開発計画と高速道路の位置を確認し、同じ街路にある歴史資産と公共施設を見ます。",
+    "两张地图采用相同范围。先看开发计划与高速公路走廊，再看同一街道上的历史资产与公共设施。"
+  ],
+  "Open the full-size development map": [
+    "開発地図を原寸で開く",
+    "打开开发地图原图"
+  ],
+  "Map of completed and planned development, cleared sites and the Nihonbashi expressway corridor": [
+    "完成・計画中の開発、解体後の敷地、日本橋周辺の首都高速道路を示す地図",
+    "地图标出已建及规划中的开发项目、拆除后的地块和日本橋周边的首都高速道路"
+  ],
+  "Development projects": [
+    "開発事業",
+    "开发项目"
+  ],
+  "Retail, dining and office projects, with the planned Nihonbashi expressway changes.": [
+    "商業、飲食、オフィスの開発と、日本橋周辺の首都高速道路の計画変更。",
+    "零售、餐饮和办公开发，以及日本橋周边首都高速道路的计划变更。"
+  ],
+  "Open the full-size heritage map": [
+    "歴史資産の地図を原寸で開く",
+    "打开历史资产地图原图"
+  ],
+  "Map of historic banks, school sites and bridges around Kajicho": [
+    "鍛冶町周辺の歴史ある銀行、学校用地、橋を示す地図",
+    "地图标出鍛冶町周边的历史银行建筑、学校用地和桥梁"
+  ],
+  "Heritage & public assets": [
+    "歴史資産と公共施設",
+    "历史资产与公共设施"
+  ],
+  "Former Imagawa Junior High School, Tokiwa Elementary School, Yamanashi Chuo Bank and nearby bridges.": [
+    "旧今川中学校、常盤小学校、山梨中央銀行と周辺の橋。",
+    "旧今川中学校、常盤小学校、山梨中央銀行及周边桥梁。"
+  ],
+  "Maps by Team B. Basemaps use GSI, MLIT PLATEAU and © OpenStreetMap contributors. Development status reflects the interim review.": [
+    "地図制作はTeam B。背景地図には国土地理院、国土交通省 PLATEAU、© OpenStreetMap contributorsのデータを使用。開発状況は中間発表時点。",
+    "地图由 Team B 制作，底图采用国土地理院、国土交通省 PLATEAU 和 © OpenStreetMap contributors 数据。开发状态为中期汇报时点。"
+  ],
+  "Sources and data": [
+    "出典とデータ",
+    "来源与数据"
+  ],
+  "Each map lists its source and data year.": [
+    "各地図に出典とデータ年を記載しています。",
+    "各图均标明数据来源及年份。"
+  ],
+  "Source manifest · JSON": [
+    "出典一覧 · JSON",
+    "来源清单 · JSON"
+  ],
+  "Study boundary · GeoJSON": [
+    "調査範囲 · GeoJSON",
+    "研究范围 · GeoJSON"
+  ],
+  "Close map": [
+    "地図を閉じる",
+    "关闭地图"
+  ]
+}

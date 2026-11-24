@@ -55,60 +55,39 @@ function setUpScroll() {
   const steps = [...document.querySelectorAll(".timeline-entry")];
   const stagePhoto = document.querySelector(".timeline-stage img");
   const stageCaption = document.querySelector(".timeline-stage figcaption");
-  const studioNav = [...document.querySelectorAll('.masthead nav a[href^="#"]')];
-  const navSections = studioNav.map(link => document.querySelector(link.hash));
   const wide = window.matchMedia("(min-width: 900px)");
   let requested = steps[0];
-  let changing = 0;
+  let photoAnimation;
   let frame = 0;
 
-  function showStep(step) {
+  async function showStep(step) {
     if (step === requested) return;
     requested = step;
     const photo = step.querySelector("img");
-    const caption = step.querySelector("figcaption");
     const next = new Image();
-    const sequence = ++changing;
-    next.onload = () => {
-      if (sequence !== changing) return;
-      const swap = () => {
-        if (sequence !== changing) return;
-        stagePhoto.src = next.src;
-        stageCaption.textContent = caption.textContent;
-        stagePhoto.classList.remove("changing");
-      };
-      if (reducedMotion.matches) {
-        swap();
-      } else {
-        stagePhoto.classList.add("changing");
-        window.setTimeout(swap, 150);
-      }
-    };
-    next.onerror = () => {
-      if (sequence === changing) stagePhoto.classList.remove("changing");
-    };
     next.src = photo.src;
+    try {
+      await next.decode();
+    } catch {
+      return;
+    }
+
+    if (step !== requested || stagePhoto.src === next.src) return;
+    stagePhoto.src = next.src;
+    stageCaption.textContent = step.querySelector("figcaption").textContent;
+    photoAnimation?.cancel();
+    if (!reducedMotion.matches) {
+      photoAnimation = stagePhoto.animate([{opacity: .8}, {opacity: 1}], {duration: 150, easing: "ease-out"});
+    }
   }
 
   function update() {
     frame = 0;
-    const distance = root.scrollHeight - innerHeight;
-    root.style.setProperty("--reading-progress", distance > 0 ? Math.min(scrollY / distance, 1) : 0);
-    root.style.setProperty("--hero-shift", reducedMotion.matches ? "0px" : Math.min(scrollY * .08, 28) + "px");
-    let activeNav = -1;
-    for (const [index, section] of navSections.entries()) {
-      const { top, bottom } = section.getBoundingClientRect();
-      if (top < innerHeight * .42 && bottom > innerHeight * .25) activeNav = index;
-    }
-    for (const [index, link] of studioNav.entries()) {
-      if (index === activeNav) link.setAttribute("aria-current", "location");
-      else link.removeAttribute("aria-current");
-    }
-
     if (wide.matches) {
+      const readingLine = stagePhoto.getBoundingClientRect().top + 24;
       let candidate = steps[0];
       for (const step of steps) {
-        if (step.getBoundingClientRect().top <= innerHeight * .53) candidate = step;
+        if (step.getBoundingClientRect().top <= readingLine) candidate = step;
       }
       showStep(candidate);
     }
@@ -120,6 +99,11 @@ function setUpScroll() {
 
   window.addEventListener("scroll", schedule, { passive: true });
   window.addEventListener("resize", schedule);
+  document.addEventListener("site-copy-change", () => {
+    const showing = steps.find(step => step.querySelector("img").src === stagePhoto.src);
+    if (showing) stageCaption.textContent = showing.querySelector("figcaption").textContent;
+    schedule();
+  });
   reducedMotion.addEventListener("change", schedule);
   schedule();
 }

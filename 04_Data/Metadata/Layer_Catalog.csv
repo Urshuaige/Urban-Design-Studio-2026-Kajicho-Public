@@ -104,6 +104,10 @@ dataset_path,layer,data_type,geometry_column,geometry_type,crs,records,id_fields
 04_Data/Ready/Public_Baseline_2026-10-14/Kajicho_Public_Baseline.gpkg,tree_crown_circles,features,geom,MULTIPOLYGON,EPSG:6677,156,
 04_Data/Ready/Public_Baseline_2026-10-14/Kajicho_Public_Baseline.gpkg,water,features,geom,POLYGON,EPSG:6677,5,
 04_Data/Ready/Public_Baseline_2026-10-14/Kajicho_Public_Baseline.gpkg,water_lines,features,geom,LINESTRING,EPSG:6677,18,
+04_Data/Ready/Public_Baseline_2026-10-14/Source_Extents_6677.gpkg,citygml_fld_source_extent,features,geom,MULTIPOLYGON,EPSG:6677,60,gml_id
+04_Data/Ready/Public_Baseline_2026-10-14/Source_Extents_6677.gpkg,citygml_luse_source_extent,features,geom,MULTIPOLYGON,EPSG:6677,1315,gml_id
+04_Data/Ready/Public_Baseline_2026-10-14/Source_Extents_6677.gpkg,citygml_tran_source_extent,features,geom,MULTIPOLYGON,EPSG:6677,969,gml_id
+04_Data/Ready/Public_Baseline_2026-10-14/Source_Extents_6677.gpkg,citygml_urf_source_extent,features,geom,MULTIPOLYGON,EPSG:6677,37,gml_id
 04_Data/Ready/QGIS_Current_2026-11-04/data/D001_cells_10m.gpkg,cells_10m,features,geom,GEOMETRY,EPSG:6677,4424,
 04_Data/Ready/QGIS_Current_2026-11-04/data/D002_50_m_cells.gpkg,50_m_cells,features,geom,GEOMETRY,EPSG:6677,204,
 04_Data/Ready/QGIS_Current_2026-11-04/data/D003_open_ground_5m.gpkg,open_ground_5m,features,geom,GEOMETRY,EPSG:6677,14595,

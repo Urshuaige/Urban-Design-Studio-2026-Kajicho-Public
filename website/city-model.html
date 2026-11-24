@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kajicho in 3D · Future Vision</title>
+  <meta name="description" content="Explore Kajicho in 3D with the studio’s building records, flood depths, vegetation and street access maps.">
+  <link rel="stylesheet" href="/site-navigation.css?v=20261124-workshop-page">
+  <link rel="stylesheet" href="/city-model-assets/city-model.css?v=20261124-renewal-map">
+  <script src="/site-motion.js?v=20261120-scenarios"></script>
+  <script type="module" blocking="render" src="/site-navigation.js?v=20261124-workshop-page"></script>
+  <script type="importmap">{"imports":{"three":"/scenario-atlas/vendor/three.module.min.js"}}</script>
+  <script type="module" src="/city-model-assets/city-model.js?v=20261124-renewal-map"></script>
+</head>
+<body class="site-page city-page" data-site-page="city-model">
+  <a class="site-skip" href="#main" data-site-label="skip">Skip to content</a>
+  <header class="site-header">
+    <div class="site-main-row site-shell">
+      <a class="site-brand" href="/"><b data-site-label="home">Kajicho</b><span data-site-label="brand">Urban Design Studio 2026</span></a>
+      <nav class="site-global-nav" aria-label="Main navigation">
+        <a href="/field-visit" data-site-label="visit">Field Visit</a>
+        <a href="/conditions" data-site-label="conditions">Site Data</a>
+        <a href="/policy" data-site-label="policy">Policies</a>
+        <a href="/studio" data-site-label="studio">Interim Progress</a>
+        <a href="/workshop" data-site-label="workshop">Workshop</a>
+        <a href="/vision" data-site-label="vision" aria-current="location">Future Vision</a>
+      </nav>
+      <div class="site-languages" role="group" aria-label="Page language">
+        <button type="button" data-lang="en" lang="en" aria-label="English" aria-pressed="true">EN</button>
+        <button type="button" data-lang="ja" lang="ja" aria-label="日本語" aria-pressed="false">日</button>
+        <button type="button" data-lang="zh" lang="zh-CN" aria-label="中文" aria-pressed="false">中</button>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="site-content city-app" data-city>
+    <header class="city-heading">
+      <h1 data-copy="title">Kajicho in 3D</h1>
+      <a href="/scenario-workbench" data-copy="workbench">Scenario workbench</a>
+    </header>
+    <div class="city-layout">
+      <aside class="city-sidebar" aria-label="Places and building records">
+        <section class="city-places" aria-labelledby="city-places">
+          <h2 id="city-places" data-copy="places">Places</h2>
+          <button type="button" data-place="kanamono" disabled aria-pressed="false">
+            <span data-copy="kanamono">Kanda Kanamono-dori</span><small data-copy="street">Street view</small>
+          </button>
+          <button type="button" data-place="school" disabled aria-pressed="false">
+            <span data-copy="school">Former Imagawa Junior High School</span><small data-copy="block">Block view</small>
+          </button>
+          <button type="button" data-place="heisei" disabled aria-pressed="false">
+            <span data-copy="heisei">Heisei-dori</span><small data-copy="street">Street view</small>
+          </button>
+          <button type="button" data-place="riverContext" disabled aria-pressed="false">
+            <span data-copy="riverContext">Kanda River &amp; Route 1</span><small data-copy="contextView">Context view</small>
+          </button>
+          <button type="button" data-place="akihabara" disabled aria-pressed="false">
+            <span data-copy="akihabara">Akihabara Station</span><small data-copy="contextView">Context view</small>
+          </button>
+        </section>
+        <section class="city-layer" aria-labelledby="city-layer">
+          <h2 id="city-layer" data-copy="layers">Layers</h2>
+          <h3 class="city-layer-label" id="city-overlays" data-copy="mapOverlays">Map overlays</h3>
+          <div class="city-layer-toggles" data-overlays role="group" aria-labelledby="city-overlays"></div>
+          <h3 class="city-layer-label" id="city-color" data-copy="buildingColor">Building color</h3>
+          <div class="city-layer-toggles city-building-toggles" data-building-layers role="group" aria-labelledby="city-color">
+            <button type="button" role="switch" data-layer="use" aria-checked="false" disabled>
+              <span data-copy="use">Building use</span><span class="city-switch" aria-hidden="true"></span>
+            </button>
+            <button type="button" role="switch" data-layer="solar" aria-checked="false" disabled>
+              <span data-copy="solar">Rooftop solar</span><span class="city-switch" aria-hidden="true"></span>
+            </button>
+          </div>
+          <div class="city-opacity city-building-opacity">
+            <label for="city-building-opacity" data-copy="buildingOpacity">Study buildings opacity</label>
+            <output for="city-building-opacity" data-building-opacity-value>100%</output>
+            <input id="city-building-opacity" type="range" min="0" max="100" value="100" data-building-opacity disabled>
+          </div>
+          <ul class="city-legend" data-legend hidden></ul>
+          <p class="city-coverage" data-coverage aria-live="polite"></p>
+          <p class="city-coverage" data-copy="demandPending">Asuka’s electricity and gas tables pending</p>
+          <details class="city-more-layers" data-more-panel>
+            <summary data-copy="moreLayers">More mapped data</summary>
+            <div class="city-layer-toggles city-building-toggles" data-more-building-layers></div>
+            <div class="city-layer-toggles" data-more-overlays></div>
+          </details>
+        </section>
+        <section class="city-record" aria-labelledby="city-record">
+          <div class="city-record-heading">
+            <h2 id="city-record" data-copy="building">Building</h2>
+            <button type="button" data-clear-selection data-copy="clearSelection" hidden disabled>Clear selection</button>
+          </div>
+          <p data-building-empty data-copy="choose">Select a building in the model.</p>
+          <div data-building hidden>
+            <h3 data-building-title></h3>
+            <dl class="city-facts">
+              <div><dt data-copy="use">Use</dt><dd data-use></dd></div>
+              <div><dt data-copy="height">Height</dt><dd data-height></dd></div>
+              <div><dt data-copy="storeys">Storeys</dt><dd data-storeys></dd></div>
+              <div data-date-fact hidden><dt data-copy="built">Built</dt><dd data-built></dd></div>
+            </dl>
+            <dl class="city-facts city-population">
+              <div><dt data-building-label="workers">Workers</dt><dd data-workers></dd></div>
+              <div><dt data-building-label="residents">Residents</dt><dd data-residents></dd></div>
+              <div><dt data-building-label="households">Households</dt><dd data-households></dd></div>
+            </dl>
+            <div class="city-pv">
+              <p data-copy="potential">Annual rooftop solar potential</p>
+              <strong data-pv></strong>
+              <span data-copy="asuka">Asuka’s method · existing roof</span>
+            </div>
+            <dl class="city-facts city-energy-facts">
+              <div><dt data-copy="electricity">Electricity</dt><dd data-copy="energyTablePending">Source table pending</dd></div>
+              <div><dt data-copy="gas">Gas</dt><dd data-copy="energyTablePending">Source table pending</dd></div>
+            </dl>
+            <p class="city-id"><span data-copy="buildingId">Building ID</span><code data-id></code></p>
+          </div>
+        </section>
+      </aside>
+      <section class="city-sheet" aria-label="Interactive three-dimensional model">
+        <div class="city-view" data-view tabindex="0">
+          <div class="city-canvas" data-canvas></div>
+          <div class="city-view-heading" aria-live="polite">
+            <span data-copy="current">Existing conditions</span>
+            <strong data-view-title>Overview</strong>
+            <small class="city-context-levels" data-context-levels hidden></small>
+          </div>
+          <div class="city-map-tools" role="group" aria-label="View controls">
+            <button type="button" data-reset data-copy="overview" disabled>Overview</button>
+            <button type="button" data-place="study" data-copy="study" aria-pressed="false" disabled>Study area</button>
+            <button type="button" data-aerial data-copy="aerial" aria-pressed="false" disabled>Aerial photo</button>
+            <button type="button" data-zoom="in" aria-label="Zoom in" disabled>+</button>
+            <button type="button" data-zoom="out" aria-label="Zoom out" disabled>−</button>
+          </div>
+          <div class="city-overlay-keys" data-overlay-legend aria-live="polite" hidden></div>
+          <div class="city-overlay-detail" data-overlay-detail aria-live="polite" hidden></div>
+          <ul class="city-ground-key" aria-label="Ground materials">
+            <li data-road-key data-copy="road">Road</li>
+            <li data-highway-key data-copy="highway">Elevated highway</li>
+            <li data-sidewalk-key data-copy="sidewalk" hidden>Sidewalk</li>
+            <li data-rail-key data-copy="railway">Railway</li>
+            <li data-river-key data-copy="river">River</li>
+            <li data-park-key data-copy="parks" hidden>Parks</li>
+            <li data-study-key data-copy="studyBuildings">Study area buildings</li>
+            <li data-tree-key data-copy="trees" title="Street tree inventory locations with simplified crowns" hidden>Street trees</li>
+          </ul>
+          <p class="city-aerial-note" data-aerial-credit hidden>
+            <a href="https://docs.plateauview.mlit.go.jp/datasets/ortho/" target="_blank" rel="noopener" title="PLATEAU-Ortho, Tokyo 23 wards. Cropped and reprojected. CC BY 4.0.">Project PLATEAU</a>
+            <span data-copy="aerialCredit"> · Tokyo 2023 edition · 24 cm/px</span><span> · </span><a href="/city-model-assets/imagery/kajicho-2023.jpg?v=20261122-river-and-imagery" data-copy="aerialFull" target="_blank" rel="noopener">Full image</a>
+          </p>
+          <p class="city-aerial-note" data-aerial-status role="status" hidden></p>
+          <div class="city-message" data-message role="status">
+            <p data-copy="loading">Loading the Kajicho model…</p>
+          </div>
+        </div>
+        <footer class="city-source">
+          <p data-view-help data-copy="orbitHelp">Drag to rotate. Scroll to zoom. Click a building.</p>
+          <p><a href="https://www.geospatial.jp/ckan/dataset/plateau-13101-chiyoda-ku-2025" title="MLIT Project PLATEAU CityGML, Chiyoda and Chuo. Roof and facade imagery converted to monochrome ink. Public Data License 1.0.">PLATEAU 2025 · adapted textures</a><span> · </span><a href="https://www.gsi.go.jp/kiban/">GSI DEM</a><span> · </span><a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a><span data-green-credit hidden><span> · </span><a href="https://www.toshiseibi.metro.tokyo.lg.jp/information/press/r7/01/20260202" title="Tokyo Metropolitan Government, adapted from the CC BY parks and street tree inventories" data-copy="greenInventory">Tokyo green inventory</a></span><span> · </span><a href="/scenario-workbench#workbench-results" data-copy="energySource">Solar method</a></p>
+        </footer>
+      </section>
+    </div>
+  </main>
+  <div id="site-page-end" aria-hidden="true"></div>
+</body>
+</html>

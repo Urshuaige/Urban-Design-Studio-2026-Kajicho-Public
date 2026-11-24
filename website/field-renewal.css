@@ -1,0 +1,247 @@
+#relationship-explorer {
+  border-top: 2px solid var(--ink);
+  padding-block-start: var(--size-8);
+}
+#relationship-explorer [id] {
+  scroll-margin-top: var(--header-offset);
+}
+.renewal-lede {
+  margin-block: var(--size-4) var(--size-6);
+}
+.renewal-figure {
+  margin: 0 0 var(--size-6);
+}
+.renewal-diagram-frame {
+  overflow-x: auto;
+  border: 1px solid var(--rule);
+  border-radius: var(--corner);
+  background: var(--surface);
+}
+.renewal-diagram {
+  display: block;
+  width: 100%;
+  min-width: 900px;
+  height: auto;
+  font-family: var(--site-font);
+}
+.renewal-diagram .node-bg {
+  fill: var(--paper);
+  stroke: var(--rule);
+  stroke-width: 1;
+}
+.renewal-diagram .renewal-node-focal .node-bg {
+  fill: var(--accent-soft);
+  stroke: var(--accent);
+}
+.renewal-diagram .edge {
+  fill: none;
+  stroke: var(--muted);
+  stroke-width: 1.4;
+}
+.renewal-diagram .renewal-check-line {
+  stroke-dasharray: 3.5 3.5;
+}
+.renewal-diagram marker path {
+  fill: var(--muted);
+}
+.renewal-diagram .renewal-divider {
+  fill: none;
+  stroke: var(--rule);
+}
+.renewal-diagram .renewal-lane,
+.renewal-diagram .renewal-node-title {
+  fill: var(--ink);
+  font-weight: 600;
+}
+.renewal-diagram .renewal-lane {
+  font-size: 16px;
+}
+.renewal-diagram .renewal-node-title {
+  font-size: 15px;
+}
+.renewal-diagram .renewal-node-detail,
+.renewal-diagram .renewal-edge-label {
+  fill: var(--muted);
+  font-size: 13px;
+}
+.renewal-figure figcaption {
+  color: var(--muted);
+  margin-top: var(--size-2);
+}
+.renewal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-2) var(--size-4);
+  font-size: var(--caption-size);
+}
+.renewal-links a {
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+}
+.renewal-subsection {
+  margin-top: var(--size-12);
+}
+.renewal-table-wrap {
+  overflow-x: auto;
+}
+.renewal-table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: start;
+  font-size: var(--text-size);
+  line-height: 1.55;
+}
+.renewal-table th,
+.renewal-table td {
+  padding: var(--size-3) var(--size-4);
+  border-bottom: 1px solid var(--rule);
+  text-align: start;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+.renewal-table thead th {
+  background: var(--panel);
+  font-size: var(--caption-size);
+  font-weight: 600;
+  color: var(--muted);
+}
+.renewal-table th:first-child { width: 24%; }
+.renewal-table th:nth-child(2) { width: 28%; }
+.renewal-table th:last-child { width: 14%; }
+.renewal-table tbody th {
+  font-weight: 600;
+}
+.renewal-table td > p {
+  margin: var(--size-1) 0;
+}
+.renewal-case:target h4 {
+  background: var(--accent-soft);
+}
+.renewal-place {
+  display: block;
+  margin-top: var(--size-1);
+  color: var(--muted);
+  font-size: var(--caption-size);
+  font-weight: 400;
+}
+.renewal-source-links {
+  font-size: var(--caption-size);
+}
+.renewal-case {
+  margin-top: var(--size-6);
+}
+.renewal-case h4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--size-1) var(--size-3);
+  margin: 0;
+  font-size: var(--lead-size);
+}
+.renewal-case h4 span {
+  font-size: var(--caption-size);
+  color: var(--accent);
+}
+.renewal-related {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: var(--size-2);
+  margin: 0 0 var(--size-3);
+  font-size: var(--caption-size);
+}
+.renewal-phase {
+  white-space: nowrap;
+}
+.renewal-record {
+  border-top: 1px solid var(--rule);
+  padding-block: var(--size-3);
+}
+.renewal-record summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.renewal-record-list {
+  padding-inline-start: var(--size-6);
+}
+.renewal-record-list li {
+  margin-block: var(--size-3);
+}
+.renewal-record-list p {
+  margin: 0;
+}
+@media print {
+  .renewal-diagram, .renewal-table { min-width: 0; }
+}
+
+.renewal-section-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--size-2) var(--size-4);
+  margin-bottom: var(--size-4);
+}
+.renewal-section-heading h3 { margin: 0; }
+.renewal-section-heading > a { font-size: var(--caption-size); }
+.renewal-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 265px), 1fr));
+  align-items: start;
+  gap: var(--size-3);
+}
+.renewal-project {
+  min-width: 0;
+  padding: var(--size-4);
+  border: 1px solid var(--rule);
+  border-radius: var(--corner);
+  background: var(--surface);
+  line-height: 1.5;
+  font-size: var(--caption-size);
+}
+.renewal-project:target { border-color: var(--accent); }
+.renewal-project .renewal-status {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--size-2);
+  color: var(--ink);
+}
+.renewal-project .renewal-status::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--project-color, #455564);
+}
+.renewal-status[data-stage="cleared"] { --project-color: #a04470; }
+.renewal-status[data-stage="operating"] { --project-color: #127358; }
+.renewal-status[data-stage="study"] { --project-color: #3556a3; }
+.renewal-status[data-stage="planned"] { --project-color: #a95b0e; }
+.renewal-project h4 { margin: var(--size-2) 0 0; font-size: var(--text-size); }
+.renewal-project p { margin: var(--size-1) 0 var(--size-2); }
+.renewal-project details > p, .renewal-project details > div { margin-top: var(--size-2); }
+.renewal-project summary,
+.renewal-option-details summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-size: var(--caption-size);
+}
+.proposal-diagram .proposal-column {
+  fill: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+}
+.proposal-diagram .proposal-label {
+  fill: var(--ink);
+  font-size: 16px;
+}
+.proposal-diagram .proposal-choice .proposal-label { font-weight: 600; }
+.proposal-diagram .proposal-choice .node-bg { fill: var(--accent-soft); }
+#relationship-explorer .proposal-row { scroll-margin-top: calc(var(--header-offset) + 84px); }
+#relationship-explorer .proposal-row + .proposal-row { scroll-margin-top: calc(var(--header-offset) + 182px); }
+.proposal-row.is-linked-option .node-bg { stroke: var(--accent); }
+.renewal-case + .renewal-case { margin-top: var(--size-8); }
+.renewal-option-details { margin-top: var(--size-2); }

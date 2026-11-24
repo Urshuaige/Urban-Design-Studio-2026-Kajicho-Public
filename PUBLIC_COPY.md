@@ -2,7 +2,11 @@
 
 This repository was created on 4 November 2026 as an independent snapshot. It is not a fork and does not contain the private repository's Git history, PRs or issues.
 
-## Snapshot sources
+## Latest public update
+
+On 24 November 2026, the public client mirror was synchronized to Site version 52, source commit `f0d50120d846af3ba067520f370d1cb9a383e37d`. The current GIS was aligned to EPSG:6677. The [coordinate reference](docs/COORDINATE_REFERENCE.md) records the transformed layers and their provenance. [Website source](website/README.md)
+
+## 4 November snapshot sources
 
 - Project files: `Urban-Design-Studio-2026-Kajicho`, main commit `a533c7fbba8c622ea5b30b4486a67f4aed8170c5`.
 - Public website: published Site version 8, source commit `8913761577a0177324f15a26c68eb87107ec1872`, copied from its static `dist` directory into `website/`.

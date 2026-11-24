@@ -1,31 +1,24 @@
 # Kajicho public Site source
 
-[**Between the Centers**](https://kajicho-site-atlas.specialgooood.chatgpt.site/studio.html) is the 18 November 2026 interim exhibition. Open [studio.html](studio.html) for the scroll-linked timeline, research plots and interactive street maps. The public Atlas links to this page from its homepage and navigation.
+This folder contains the 619 public client files from [Kajicho Site Atlas](https://kajicho-site-atlas.specialgooood.chatgpt.site), published version **52** on 24 November 2026. The public files are from deployed source commit `f0d50120d846af3ba067520f370d1cb9a383e37d`. The history report uses the repository’s relative link to Site Data. [Public copy record](../PUBLIC_COPY.json)
 
-This is the static source of [Kajicho Site Atlas](https://kajicho-site-atlas.specialgooood.chatgpt.site), published version 10. It contains the HTML, CSS, JavaScript, maps, data files and fonts used by that version. The primary building-age layer was updated on 13 November 2026; other site evidence retains its stated dates.
+| Start here | Public page | Source |
+| --- | --- | --- |
+| Atlas and current maps | [Site Atlas](https://kajicho-site-atlas.specialgooood.chatgpt.site/) | [index.html](index.html) |
+| Interim exhibition | [Interim Progress](https://kajicho-site-atlas.specialgooood.chatgpt.site/studio) | [studio.html](studio.html) |
+| Workshop and English meeting report | [Summary](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop) · [Full report](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop-report) | [workshop.html](workshop.html) · [workshop-report.html](workshop-report.html) |
+| Planning and implementation | [Future Vision](https://kajicho-site-atlas.specialgooood.chatgpt.site/vision) · [Field Visit](https://kajicho-site-atlas.specialgooood.chatgpt.site/field-visit) | [vision.html](vision.html) · [field-visit.html](field-visit.html) |
+| 3D conditions and proposals | [Kajicho in 3D](https://kajicho-site-atlas.specialgooood.chatgpt.site/city-model) | [city-model.html](city-model.html) · [city-model-assets](city-model-assets/) |
+| Scenario comparison | [Scenario workbench](https://kajicho-site-atlas.specialgooood.chatgpt.site/scenario-workbench) | [scenario-workbench.html](scenario-workbench.html) · [public scenario data](workbench-assets/data.json) |
 
-## Run locally
+## Preview locally
 
-From the repository root, run:
+Run the command from the repository root.
 
 ```sh
-python3 -m http.server 8000 --directory website
+python3 08_Scripts/serve_public_website.py
 ```
 
-Open <http://localhost:8000> in a browser. Stop the server with Ctrl+C. No npm install or build step is required. `package.json` identifies ES modules; its `private` flag controls npm publication, not access to this GitHub repository.
+Open <http://127.0.0.1:8000>. The preview resolves the same extensionless page links as the hosted site. The local workbench can display the supplied scenario results. For live recalculation and saved jobs, use the [hosted workbench](https://kajicho-site-atlas.specialgooood.chatgpt.site/scenario-workbench).
 
-## Read the code
-
-| Files | Purpose |
-| --- | --- |
-| `index.html`, `info.js`, `info.css` | Atlas entry, data loading and page presentation |
-| `history.html`, `history.js`, `history/` | Historical timeline, map periods and source records |
-| `policy.html`, `conditions.html`, `info-data/` | Planning policy and existing-condition data |
-| `field-visit.html`, `field-visit.js`, `field-graphs.js` | Fieldwork reading and relationship diagrams |
-| `building-age.html`, `building-age.js`, `study-atlas/` | Building-age evidence and dated study layers |
-| `site-navigation.js`, `page-outline.js` | Shared navigation and page outline |
-| `fonts/manifest.json` | Font sources and licence links |
-
-Start with the HTML entry, follow its JavaScript module, and inspect the JSON/CSV it reads. Keep source IDs, years and evidence status when making your own version. The [current GIS delivery](../04_Data/Ready/QGIS_Current_2026-11-04/README.md) includes the latest complete intersecting building footprints; the site snapshot includes the 13 November primary building-age update.
-
-See [source notices](../NOTICE.md) and the data registers for attribution and reuse terms. Hosting credentials, deployment identity and Git history are not part of this source copy.
+Published web map exports use the coordinate formats expected by the browser. For distance, area and overlay analysis, use the [EPSG:6677 GIS data](../docs/COORDINATE_REFERENCE.md). [Source notices](../NOTICE.md) · [Font sources and licences](fonts/manifest.json)

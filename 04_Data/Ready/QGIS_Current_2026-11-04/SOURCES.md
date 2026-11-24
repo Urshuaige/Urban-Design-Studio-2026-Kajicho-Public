@@ -12,6 +12,10 @@ The links below come from the project's saved source registers. Their original a
 | Roads and points of interest | [OpenStreetMap](https://www.openstreetmap.org/), [Overpass API](https://overpass-api.de/) | Query dates and tags remain in source records; retain OpenStreetMap attribution |
 | Building-age evidence | [Chiyoda building-plan summaries](https://www.city.chiyoda.lg.jp/koho/machizukuri/kenchiku/shome/etsuran-copy.html), [register certificates](https://www.city.chiyoda.lg.jp/koho/machizukuri/kenchiku/kakunin/shome.html) | Public records, property listings and image-based bounds retain separate confidence |
 
+## Primary building-age data
+
+The supplied file was received on 13 November 2026 as EPSG:4326. The underlying original source, data year and reuse licence are unrecorded. The [current SHP](shp/Primary_Building_Age_2026-11-13/) uses EPSG:6677. See the [coordinate reference](../../../docs/COORDINATE_REFERENCE.md) for the processing and use scope.
+
 ## Dataset-level links
 
 - [Source_Links.csv](metadata/Source_Links.csv): links extracted from dataset attributes and QGIS metadata, with dataset and field identifiers.

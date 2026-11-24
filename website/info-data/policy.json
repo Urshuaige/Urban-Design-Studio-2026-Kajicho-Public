@@ -60,7 +60,7 @@
         "ja": "対象地は二つの地区方針にまたがる"
       },
       "source_fact": {
-        "zh": "区 Master Plan 正文 p.184 将鍛冶町二丁目「一部」列入地区③，重点是秋叶原、神田、岩本町三站邻近性、第三空间和住宅商办协调；同页把鍛冶町一・二丁目「一部」列入地区④，强调从神田站东口到日本桥的复合城区、地上地下连接、绿化与环境防灾节点。",
+        "zh": "区 Master Plan 正文 p.184 将鍛冶町二丁目「一部」列入地区③，重点是秋葉原、神田、岩本町三站邻近性、第三空间和住宅商办协调；同页把鍛冶町一・二丁目「一部」列入地区④，强调从神田駅東口到日本橋的复合城区、地上地下连接、绿化与环境防灾节点。",
         "en": "Printed page 184 includes part of Kajicho 2 in precinct ③, emphasizing access to three stations, third places and a balance of housing and business. Precinct ④ includes parts of Kajicho 1 and 2 and focuses on the east Kanda Station–Nihonbashi mixed district, connections, green space and resilient hubs.",
         "ja": "本文184頁では鍛冶町二丁目の一部を地区③とし、3駅への近接性、サードプレイス、住商業務の調和を重視する。鍛冶町一・二丁目の一部を含む地区④は、神田駅東口から日本橋へ続く複合市街地、地上地下の接続、緑、環境・防災拠点を重視する。"
       },
@@ -88,17 +88,17 @@
     {
       "id": "station_network",
       "title": {
-        "zh": "把神田站、旧今川中学校与两条街道轴接成日常网络",
+        "zh": "把神田駅、旧今川中学校与两条街道轴接成日常网络",
         "en": "Connect the station, local hub and street axes",
         "ja": "神田駅・旧今川中学校・街路軸をつなぐ"
       },
       "source_fact": {
-        "zh": "Master Plan p.182、184、186 将神田站周边列为魅力再生据点；中央通り连接秋叶原—神田—日本桥，神田平成通り承担东西回游，昭和通り等需要保持横断联系。地区④明确把「旧今川中学校」作为社区形成和防灾的核心；原图将其标在神田站东侧。",
+        "zh": "Master Plan p.182、184、186 将神田駅周边列为魅力再生据点；中央通り连接秋葉原—神田・日本橋，神田平成通り承担东西回游，昭和通り等需要保持横断联系。地区④明确把「旧今川中学校」作为社区形成和防灾的核心；原图将其标在神田駅东侧。",
         "en": "Pages 182, 184 and 186 identify Kanda Station as a renewal hub. Chuo-dori links Akihabara, Kanda and Nihonbashi; Kanda Heisei-dori carries east–west circulation. Precinct ④ names the former Imagawa Junior High School as a community and disaster-management hub east of the station.",
         "ja": "182・184・186頁は神田駅を魅力再生の拠点、中央通りを南北連携、神田平成通りを東西回遊の軸とする。地区④は「旧今川中学校」をコミュニティ形成と防災の核とし、図では駅東側に示す。"
       },
       "scope": {
-        "zh": "和泉桥地区方针；旧今川中学校是规划命名节点。",
+        "zh": "和泉橋地区方针；旧今川中学校是规划命名节点。",
         "en": "Izumibashi guidance; the former school is a named planning node.",
         "ja": "和泉橋地域の方針。旧今川中学校は計画上の指定地点。"
       },
@@ -127,12 +127,12 @@
         "ja": "限られた緑を使える空間にする"
       },
       "source_fact": {
-        "zh": "绿地计划 p.4以2018年资料给出和泉桥绿被率3.58%、千代田区23.22%；p.83解释多数町丁目低于5%，小地块与窄巷限制绿化余地。p.59提出地先、屋顶和墙面绿化；p.84要求有限绿地同时服务日常交流、雨水滞蓄和多主体维护。",
+        "zh": "绿地计划 p.4以2018年资料给出和泉橋绿被率3.58%、千代田区23.22%；p.83解释多数町丁目低于5%，小地块与窄巷限制绿化余地。p.59提出地先、屋顶和墙面绿化；p.84要求有限绿地同时服务日常交流、雨水滞蓄和多主体维护。",
         "en": "The green plan reports 2018 coverage of 3.58% in Izumibashi versus 23.22% for Chiyoda. It links limited planting space to small plots and narrow alleys. Its measures include frontage, roof and wall greening, social use, rainwater functions and shared maintenance.",
         "ja": "緑の計画は2018年の和泉橋3.58％、区23.22％を示し、小敷地と路地による緑化余地の制約を説明する。地先・屋上・壁面緑化に加え、交流、雨水機能、複数主体の維持管理を求める。"
       },
       "scope": {
-        "zh": "和泉桥地区旧统计与区级绿化政策；实施候选需逐地点调查。",
+        "zh": "和泉橋地区旧统计与区级绿化政策；实施候选需逐地点调查。",
         "en": "Historic Izumibashi figures and ward greening policy; inspect individual candidate sites.",
         "ja": "和泉橋の過去統計と区の緑化方針。各候補地点は要調査。"
       },
@@ -216,12 +216,12 @@
     {
       "id": "wider_links",
       "title": {
-        "zh": "外围日本桥提供连接对象与比较经验",
+        "zh": "外围日本橋提供连接对象与比较经验",
         "en": "Use Nihonbashi for connections and comparison",
         "ja": "日本橋を接続先と比較対象として読む"
       },
       "source_fact": {
-        "zh": "日本桥川2021愿景把地上、地下、桥头和水岸步行网络连起来，并将建筑更新、开放空间、能源协作和地区持续运行并列。七之部2022愿景针对兜町—茅场町金融片区，指出办公偏重、停留功能不足和小街区更新困难，提出逐街道特色与分期更新。",
+        "zh": "日本橋川2021愿景把地上、地下、桥头和水岸步行网络连起来，并将建筑更新、开放空间、能源协作和地区持续运行并列。七之部2022愿景针对兜町—茅场町金融片区，指出办公偏重、停留功能不足和小街区更新困难，提出逐街道特色与分期更新。",
         "en": "The 2021 river vision connects ground, underground, bridgehead and waterside routes with building renewal, open space, energy cooperation and district continuity. The 2022 Nanobe vision addresses Kabutocho–Kayabacho: office-heavy uses, limited places to stay and difficult renewal of small blocks.",
         "ja": "川沿い2021ビジョンは地上・地下・橋詰・水辺の歩行網を、建物更新、空地、エネルギー連携、地区継続と結ぶ。七の部2022は兜町・茅場町の業務偏重、滞在機能不足、小街区更新を扱い、通りの特色と段階的更新を示す。"
       },
@@ -328,12 +328,12 @@
         "ja": "隣接地区計画が守る住まいと路地"
       },
       "source_fact": {
-        "zh": "神田紺屋町周边地区计划针对批发业与居住共存的约4.5 ha：通过住宅导入、建筑更新及后退形成步行空间。中神田中央约14.8 ha，位于神田站西北，强调上层住宅、低层商办、连续街景和路地的生活尺度；其位置表列有神田鍛冶町三丁目。",
+        "zh": "神田紺屋町周边地区计划针对批发业与居住共存的约4.5 ha：通过住宅导入、建筑更新及后退形成步行空间。中神田中央约14.8 ha，位于神田駅西北，强调上层住宅、低层商办、连续街景和路地的生活尺度；其位置表列有神田鍛冶町三丁目。",
         "en": "The 4.5 ha Kanda Konyacho plan combines housing retention, mixed uses and setback space for walking. The 14.8 ha Naka-Kanda Chuo plan northwest of Kanda Station promotes homes above shops and offices while retaining lanes and a continuous street edge. Its named area includes Kanda-Kajicho 3.",
         "ja": "約4.5 haの神田紺屋町周辺地区計画は、居住継続と複合用途、壁面後退による歩行空間を扱う。神田駅北西の約14.8 haの中神田中央地区計画は、低層部の商業・業務と上層住宅、連続する街並み、路地の生活空間を重視し、位置欄に神田鍛冶町三丁目を含む。"
       },
       "scope": {
-        "zh": "邻接神田紺屋町及神田站西北；未将两计划套用于核心区",
+        "zh": "邻接神田紺屋町及神田駅西北；未将两计划套用于核心区",
         "en": "Adjacent Konyacho and northwest Kanda; not applied as core-area rules",
         "ja": "隣接する神田紺屋町・神田駅北西。対象地へ数値規制を転用しない"
       },
@@ -499,7 +499,7 @@
         "ja": "両町丁目で建物倒壊を確認する"
       },
       "source_fact": {
-        "zh": "东京都第9回地域危险度调查（2022年9月）给鍛冶町一、二丁目的建筑倒塌等级均为3/5，危险量分别4.15与3.81棟/ha；火灾等级分别2和1，综合等级均为2。评价以相同基盘摇晃强度比较5,192个町丁目，综合指标还含灾时活动困难系数。",
+        "zh": "東京都第9回地域危险度调查（2022年9月）给鍛冶町一・二丁目的建筑倒塌等级均为3/5，危险量分别4.15与3.81棟/ha；火灾等级分别2和1，综合等级均为2。评价以相同基盘摇晃强度比较5,192个町丁目，综合指标还含灾时活动困难系数。",
         "en": "Tokyo’s ninth survey, released in September 2022, assigns both Kajicho chome collapse rank 3 of 5, with risk quantities of 4.15 and 3.81 buildings/ha. Fire ranks are 2 and 1; both composite ranks are 2. It compares 5,192 areas under equal bedrock shaking and includes emergency-response difficulty.",
         "ja": "東京都第9回調査（2022年9月）では、鍛冶町一・二丁目の倒壊ランクはともに3／5、危険量は4.15・3.81棟/ha。火災ランクは2・1、総合ランクはともに2である。同じ基盤の揺れを仮定して5,192町丁目を比較し、総合値には災害時活動困難係数を含む。"
       },

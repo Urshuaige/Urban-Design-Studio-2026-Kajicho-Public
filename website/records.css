@@ -1,0 +1,56 @@
+.data-appendix, .credits {
+  padding-block: var(--size-8) var(--section-space);
+}
+.data-appendix .site-title, .credits .site-title { margin-block: var(--size-4) var(--size-6); }
+.data-appendix h2 { margin-top: var(--size-8); font-size: var(--heading-lg); }
+.data-appendix p, .credits p { max-width: var(--measure); }
+.data-appendix figure { margin: 0; }
+.data-appendix img { display: block; max-width: 100%; height: auto; }
+.data-appendix .maps { display: grid; grid-template-columns: 1fr 1fr; gap: var(--grid-gap); }
+.data-appendix figcaption { margin-top: var(--size-2); color: var(--muted); font-size: var(--caption-size); }
+.data-appendix table { width: 100%; border-collapse: collapse; font-size: var(--caption-size); }
+.data-appendix td, .data-appendix th { padding: var(--size-2); border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
+.data-appendix thead { background: var(--panel); }
+.data-appendix input, .data-appendix select {
+  box-sizing: border-box;
+  max-width: 100%;
+  min-height: 44px;
+  margin: var(--size-2);
+  padding: var(--size-2);
+  border: 1px solid var(--rule);
+  border-radius: var(--corner);
+  background: var(--surface);
+  font: inherit;
+}
+.data-appendix .table { overflow-x: auto; }
+.data-appendix tr[hidden] { display: none; }
+.data-appendix .stats { font-weight: 600; }
+.credits h2 { font-size: var(--heading-sm); margin-top: var(--size-8); }
+.credits li { margin-block: var(--size-3); }
+@media (max-width: 740px) {
+  .data-appendix .maps { grid-template-columns: 1fr; }
+  .data-appendix .table td { min-width: 86px; }
+}
+
+.age-section { padding-block: 0 var(--size-12); }
+.data-appendix:has(#age-summary) { padding-top: 0; }
+.data-appendix .page-intro .site-title { margin-block: 0; }
+.age-section .site-section-title { margin-block: 0 var(--size-4); }
+.age-summary-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--size-3); margin-bottom: var(--size-6); }
+.age-summary-grid > div { padding: var(--size-4); }
+.age-summary-grid strong, .age-summary-grid > div > span { display: block; }
+.age-summary-grid strong { color: var(--accent); font-size: clamp(1.5rem, 4vw, 2.65rem); }
+.age-summary-grid small { font-size: 1rem; }
+.age-histogram { display: grid; gap: var(--size-2); max-width: 650px; margin-bottom: 0; }
+.age-histogram > div { display: grid; grid-template-columns: 12ch 1fr; gap: var(--size-2); }
+.age-histogram dd { display: grid; grid-template-columns: 1fr 4ch; gap: var(--size-3); align-items: center; margin: 0; }
+.age-histogram dt { color: var(--muted); font-size: var(--caption-size); }
+.age-bar { height: .6rem; background: var(--panel); }
+.age-bar i { display: block; width: var(--age-share); height: 100%; background: var(--accent); }
+.age-map-link { display: block; width: min(100%, 44rem); }
+.register-filters, .age-pager { display: flex; flex-wrap: wrap; align-items: center; gap: var(--size-2) var(--size-4); }
+.register-filters label { display: flex; align-items: center; flex-wrap: wrap; gap: var(--size-2); }
+.register-filters :is(input, select) { margin: 0; }
+.age-pager { margin-block: var(--size-3); }
+.age-pager span { font: var(--caption-size)/1.5 var(--mono); color: var(--muted); }
+#age-rows td:nth-child(1), #age-rows td:nth-child(3) { font-family: var(--mono); font-variant-numeric: tabular-nums; }

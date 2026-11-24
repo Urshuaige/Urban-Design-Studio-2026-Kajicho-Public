@@ -1,0 +1,270 @@
+{
+  "Workshop summary": [
+    "検討会のまとめ",
+    "会议摘要"
+  ],
+  "Open the full-size study boundary map": [
+    "研究区域の地図を原寸で開く",
+    "打开原尺寸研究范围图"
+  ],
+  "Workshop map with the solid Primary Boundary and dashed wider study area": [
+    "重点区域を実線、周辺区域を破線で示した検討会の地図",
+    "实线标出重点区、虚线标出外围区的会议图"
+  ],
+  "Primary Boundary on the workshop board": [
+    "検討会資料の重点区域",
+    "白板上的重点区边界"
+  ],
+  "Open the full-size marked-up block map": [
+    "街区の書き込み地図を原寸で開く",
+    "打开原尺寸街区标注图"
+  ],
+  "Workshop annotations showing renewal Blocks 1 to 5 in Kajicho": [
+    "鍛冶町の更新検討街区 1〜5 を示す書き込み地図",
+    "标有鍛冶町 1 至 5 号更新街区的会议图"
+  ],
+  "Five working blocks on the workshop board": [
+    "検討会資料の 5 つの街区",
+    "白板上的五个工作街区"
+  ],
+  "Blocks 1, 3 and 5": [
+    "街区 1・3・5",
+    "1、3 和 5 号街区"
+  ],
+  "Block 2": [
+    "街区 2",
+    "2 号街区"
+  ],
+  "Block 4": [
+    "街区 4",
+    "4 号街区"
+  ],
+  "Full redevelopment": [
+    "街区一体の再開発",
+    "整块再开发"
+  ],
+  "Incremental renewal": [
+    "段階的な更新",
+    "渐进更新"
+  ],
+  "Incremental renewal with alleys retained": [
+    "路地を残す段階的な更新",
+    "保留小巷的渐进更新"
+  ],
+  "Individual renewal with homes retained": [
+    "住宅を残す個別更新",
+    "保留住宅的单栋更新"
+  ],
+  "Buildings and phasing": [
+    "建物と更新時期",
+    "建筑与分期"
+  ],
+  "The group discussed putting more floor area where it fits and testing lower buildings in parts of Blocks 4 and 5. Recent or usable buildings could stay in service until a later phase.": [
+    "街区ごとに床面積の配分を考え、街区 4・5 の一部では低い建物を検討しました。築年数が浅い建物や引き続き使える建物には、後の段階での更新も考えられます。",
+    "会上讨论把较多楼面安排在合适的位置，在 4、5 号街区的部分地段试画较低的建筑。较新或仍可使用的建筑可以留到后续阶段再更新。"
+  ],
+  "Streets and access": [
+    "街路とアクセス",
+    "街道与通行"
+  ],
+  "The group proposed drawing walking, cycling, planting and drainage together for two priority streets. It discussed possible links toward Shōwa-dōri and the Kanda River.": [
+    "優先する 2 本の街路で、歩行、自転車、植栽、排水を同じ断面に描く案が出ました。昭和通りや神田川方面への接続も検討しました。",
+    "会上建议将步行、骑行、植栽和排水画进两条优先街道的断面，并讨论了向昭和通和神田川方向的连接。"
+  ],
+  "Open space and roofs": [
+    "地上の空間と屋上",
+    "开放空间与屋顶"
+  ],
+  "The group discussed ground-level squares and planting, and how roof area, sunlight and building renewal affect solar panels, greenery and rainwater storage.": [
+    "地上の広場と植栽に加え、屋上の面積、日照、建物の更新が太陽光発電、緑化、雨水貯留にどう影響するかを話し合いました。",
+    "会上讨论了地面广场、遮阴和植栽的位置。屋顶光伏、绿化和蓄水的安排，要结合可用面积、日照和建筑更新选项。"
+  ],
+  "Land rights and local shops": [
+    "土地の権利と既存店舗",
+    "土地权属与现有商户"
+  ],
+  "The discussion covered who can approve redevelopment, who would maintain shared space and where shops could operate during construction or return afterward.": [
+    "再開発を決める権限、共用空間の維持管理、工事中の店舗の営業場所や工事後の再入居について話し合いました。",
+    "会上讨论了谁有权决定再开发、谁负责维护公共空间，以及商户施工期间在哪里经营、完工后如何回迁。"
+  ],
+  "Set street space": [
+    "街路空間を決める",
+    "确定街道空间"
+  ],
+  "Mark road widths and draw the uses that share each cross-section.": [
+    "道路の幅を示し、断面を使う各機能を描きます。",
+    "标出道路总宽，在断面上画出各项用途。"
+  ],
+  "Reserve open space": [
+    "オープンスペースを確保",
+    "预留开放空间"
+  ],
+  "Set aside ground space for squares, paths and planting.": [
+    "地上に広場、通路、植栽の場所を確保します。",
+    "在地面留出广场、通道和植栽空间。"
+  ],
+  "Sketch building options": [
+    "建物案を描く",
+    "画出建筑选项"
+  ],
+  "Estimate building footprints, storeys and total floor area. Mark the roof uses.": [
+    "建築面積、階数、延べ床面積を概算し、屋上の用途を示します。",
+    "估算建筑占地、层数和总楼面面积，标出屋顶用途。"
+  ],
+  "Compare combinations": [
+    "組み合わせを比べる",
+    "比较街区组合"
+  ],
+  "Draw a few block combinations on one base map and test them against a shared baseline.": [
+    "共通の地図で街区案を組み合わせ、同じ基準で比較します。",
+    "在同一张底图上画出几套街区组合，用同一基线比较。"
+  ],
+  "Energy and solar": [
+    "エネルギーと太陽光",
+    "能源与光伏"
+  ],
+  "Building energy use and rooftop solar generation.": [
+    "建物のエネルギー消費量と屋上の太陽光発電量。",
+    "建筑能耗和屋顶光伏发电量。"
+  ],
+  "Heat, flooding and greenery": [
+    "暑熱・浸水・緑",
+    "暑热、积水与绿化"
+  ],
+  "Microclimate, flood risk and green space.": [
+    "微気候、浸水リスク、緑地。",
+    "微气候、积水风险和绿地。"
+  ],
+  "Street life": [
+    "街路とまちの活動",
+    "街道生活"
+  ],
+  "Streetscape, walking experience, local activity and displacement risk.": [
+    "街並み、歩行環境、地域活動、既存店舗などの移転リスク。",
+    "街景、步行体验、社会与经济活动，以及居民和商户的迁出风险。"
+  ],
+  "Renewal cost": [
+    "更新費用",
+    "更新成本"
+  ],
+  "Redevelopment and retrofit costs.": [
+    "再開発と改修の費用。",
+    "再开发和既有建筑改造的费用。"
+  ],
+  "Priority streets": [
+    "優先する街路",
+    "优先街道"
+  ],
+  "Confirm the two street sections, their measured widths and where the cycling routes connect.": [
+    "対象となる 2 区間、実測幅員、自転車ルートの接続先を確認する。",
+    "确认两条优先街段、断面实测尺寸和骑行线路的接入点。"
+  ],
+  "Buildings and alleys to keep": [
+    "残す建物と路地",
+    "拟保留的建筑和小巷"
+  ],
+  "Check building condition, existing development plans and the alleys each option can retain.": [
+    "建物の状態、既存の開発計画、各案で残せる路地を確認する。",
+    "核对建筑现状和已有开发计划，确定各方案可保留的小巷。"
+  ],
+  "Comparison rules": [
+    "比較条件",
+    "比较口径"
+  ],
+  "Confirm a baseline, measures and thresholds before comparing the block combinations.": [
+    "街区案を組み合わせて比べる前に、基準となる現況、指標、しきい値を確認する。",
+    "比较街区组合前，确认共同基线、指标口径和阈值。"
+  ],
+  "Roles and timing": [
+    "役割と時期",
+    "分工与时序"
+  ],
+  "Confirm approvals, team responsibilities and how shops can keep trading during renewal.": [
+    "必要な許認可、チームの分担、更新中に店舗が営業を続ける方法を確認する。",
+    "确认审批条件、组内分工，以及更新期间商户如何继续经营。"
+  ],
+  "A record of the Kajicho studio workshop, with the five working blocks, renewal options and next steps.": [
+    "鍛冶町のスタジオ検討会で取り上げた 5 つの街区、更新案、次の作業をまとめた記録。",
+    "鍛冶町城市设计会议摘要，记录五个工作街区、更新备选和下一轮工作。"
+  ],
+  "Primary Boundary": [
+    "重点区域の境界",
+    "重点区边界"
+  ],
+  "Design scope": [
+    "対象範囲",
+    "设计范围"
+  ],
+  "Block options": [
+    "街区別の更新案",
+    "街区备选"
+  ],
+  "Discussion": [
+    "主な議論",
+    "会议讨论"
+  ],
+  "Next steps": [
+    "次の作業",
+    "下一步"
+  ],
+  "To confirm": [
+    "確認事項",
+    "待确认"
+  ],
+  "Workshop summary · Kajicho": [
+    "検討会のまとめ · 鍛冶町",
+    "会议摘要 · 鍛冶町"
+  ],
+  "24 November 2026": [
+    "2026 年 11 月 24 日",
+    "2026 年 11 月 24 日"
+  ],
+  "The workshop drew on six interim studies to bring streets, buildings and public space together on one plan for Kajicho.": [
+    "中間報告の 6 つの調査をもとに、鍛冶町の街路、建物、公共空間を一つの計画にまとめる方法を検討しました。",
+    "会议以六项中期研究为基础，讨论怎样把鍛冶町的街道、建筑和公共空间画在同一套方案里。"
+  ],
+  "Workshop sections": [
+    "検討会の目次",
+    "会议摘要目录"
+  ],
+  "The five blocks are in Kajicho 1 and 2, inside the solid outline in Figure 5 of the Theme B brief. Use the wider Kanda–Nihonbashi area to check street and drainage connections.": [
+    "5 つの街区の設計範囲は、Theme B 課題書の図 5 が実線で示す鍛冶町一・二丁目の重点区域です。街路と排水の接続は神田・日本橋の周辺区域で確認します。",
+    "五个工作街区位于鍛冶町一、二丁目，方案范围沿用 Theme B 任务书图 5 的实线边界（Primary Boundary）。神田—日本桥外围区用于核对街道和排水连接。"
+  ],
+  "View study boundaries in 3D": [
+    "研究区域を 3D で見る",
+    "在 3D 模型中查看边界"
+  ],
+  "Options on the board": [
+    "検討会資料の更新案",
+    "白板上的更新选项"
+  ],
+  "Find the blocks on the map": [
+    "地図で街区を確認する",
+    "在地图上查看街区"
+  ],
+  "What we discussed": [
+    "話し合ったこと",
+    "会上讨论了什么"
+  ],
+  "Prepare the next draft": [
+    "次の案を作る",
+    "准备下一版方案"
+  ],
+  "Prepare a shared base map, a sketch for each block option and one comparison sheet.": [
+    "共通の地図、各街区の案ごとのスケッチ、比較表を作ります。",
+    "准备一张共用底图、各街区备选方案的草图和一张统一的比较表。"
+  ],
+  "What to compare": [
+    "比較する項目",
+    "比较指标"
+  ],
+  "Still to confirm": [
+    "これから確認すること",
+    "待确认事项"
+  ],
+  "Read the full report in English": [
+    "英語の詳細レポートを読む",
+    "阅读英文完整版"
+  ]
+}

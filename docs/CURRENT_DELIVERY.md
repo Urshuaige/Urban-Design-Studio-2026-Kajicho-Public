@@ -1,5 +1,9 @@
 # Current team delivery
 
+## 24 November 2026 · Coordinate update and public Site
+
+The current QGIS delivery uses EPSG:6677 for spatial analysis, including the supplied Primary building-age data. See the [coordinate reference](COORDINATE_REFERENCE.md) for source CRS, age provenance and the projected PLATEAU extents. [Workshop summary](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop) · [English report](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop-report) · [Public Site source v52](../website/README.md)
+
 ## 18 November 2026 · Studio interim
 
 [Studio timeline](STUDIO_TIMELINE.md) · [Public exhibition](https://kajicho-site-atlas.specialgooood.chatgpt.site/studio.html)

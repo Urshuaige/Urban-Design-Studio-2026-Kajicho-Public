@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-24",
+  "analysis_crs": "EPSG:6677",
+  "scope": "Kajicho 1 and 2, official Theme B Figure 5 Primary Boundary",
+  "source_record": {
+    "supplied_as": "Buildings_Kajicho_BYear0.geojson",
+    "received": "2026-11-13",
+    "source_url": null,
+    "data_year": null,
+    "licence": null,
+    "crs": "EPSG:4326"
+  },
+  "project": {
+    "name": "Kajicho_Current_Data.qgz",
+    "declared_spatial_layers": 355,
+    "nonspatial_tables": 14
+  },
+  "primary_age": {
+    "features": 277,
+    "layer": "Buildings_Kajicho_BYear0",
+    "dimension": 3,
+    "from": "EPSG:4326",
+    "to": "EPSG:6677",
+    "extent_easting_northing": [
+      -5700.045999968333,
+      -5393.669999966902,
+      -34455.31900000003,
+      -33885.06000000064
+    ],
+    "building_years": {
+      "null": 56,
+      "non_null": 221
+    },
+    "binary_invariants": {
+      "records": 277,
+      "rings": 6949,
+      "vertices": 38165,
+      "dbf_identical": true,
+      "index_records_identical": true,
+      "part_indices_identical": true,
+      "z_and_m_bytes_identical": true
+    },
+    "source_sha256": "cbdfc286864d644925638b0e0d3a09c8ce315f2174bdf7ed753818eaae79caa2"
+  },
+  "published_shp": "shp/Primary_Building_Age_2026-11-13/Buildings_Kajicho_BYear0.shp",
+  "plateau_reference_exports": {
+    "file": "04_Data/Ready/Public_Baseline_2026-10-14/Source_Extents_6677.gpkg",
+    "layers": [
+      {
+        "features": 60,
+        "layer": "citygml_fld_source_extent",
+        "dimension": 2,
+        "from": "EPSG:6668",
+        "to": "EPSG:6677",
+        "extent_easting_northing": [
+          -6411.38879863195,
+          -4589.08865011297,
+          -35130.6226546811,
+          -33281.3370793866
+        ],
+        "building_years": {},
+        "source_sha256": "556343bcd46acec3725842bc5d825efea705d9ff0c4682f988e2f616b05f4d4d"
+      },
+      {
+        "features": 1315,
+        "layer": "citygml_luse_source_extent",
+        "dimension": 2,
+        "from": "EPSG:6668",
+        "to": "EPSG:6677",
+        "extent_easting_northing": [
+          -6253.6699999738,
+          -4830.409999974,
+          -35090.6600001734,
+          -33492.9401001742
+        ],
+        "building_years": {},
+        "source_sha256": "354817b10e7317a0e9486d289532713e127b8668bca2327663cead193cf60d8b"
+      },
+      {
+        "features": 969,
+        "layer": "citygml_tran_source_extent",
+        "dimension": 2,
+        "from": "EPSG:6668",
+        "to": "EPSG:6677",
+        "extent_easting_northing": [
+          -6116.59609997395,
+          -4971.95999997142,
+          -35073.289600174,
+          -33775.7200001765
+        ],
+        "building_years": {},
+        "source_sha256": "ac8727c17d537a9b297c69e6cb939e929b6c1d6483c3e26aaff66eeb69ffd44d"
+      },
+      {
+        "features": 37,
+        "layer": "citygml_urf_source_extent",
+        "dimension": 2,
+        "from": "EPSG:6668",
+        "to": "EPSG:6677",
+        "extent_easting_northing": [
+          -9336.70999997451,
+          -3719.14499997133,
+          -37796.4810001721,
+          -32698.5000001761
+        ],
+        "building_years": {},
+        "source_sha256": "2d03b3c3128a5129e9b7cf9ab108e588e161eb66e6738a65ed09a34f40d40534"
+      }
+    ]
+  },
+  "portable_qgis_check": {
+    "status": "passed",
+    "qgis_version": "3.32.3-Lima",
+    "project_crs": "EPSG:6677",
+    "valid_layers": 369,
+    "spatial_layers": 355,
+    "nonspatial_tables": 14,
+    "storage_crs": {
+      "EPSG:6677": 355
+    },
+    "external_layer_paths": 0,
+    "age": {
+      "rows": 277,
+      "Byear": {
+        "null": 56,
+        "non_null": 221
+      },
+      "z_geometry": true,
+      "extent_width_m": 306.37600000143084,
+      "extent_height_m": 570.2589999993943,
+      "renderer": "RuleRenderer"
+    }
+  }
+}

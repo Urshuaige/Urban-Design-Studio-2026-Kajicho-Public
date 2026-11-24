@@ -61,7 +61,7 @@
       },
       "built": {
         "en": "JR Kanda opened in 1919; underground Kanda followed in 1931. The 1923 earthquake led to road and block rebuilding.",
-        "zh": "1919 年 JR 神田站开业，1931 年地下铁神田站开业。1923 年震灾之后重整道路与街区。",
+        "zh": "1919 年 JR 神田駅开业，1931 年地下铁神田駅开业。1923 年震灾之后重整道路与街区。",
         "ja": "1919年に神田駅、1931年に地下鉄神田駅が開業。1923年震災後に街路・街区を再編。"
       },
       "policy": {
@@ -163,7 +163,7 @@
       },
       "policy": {
         "en": "Kajicho 1 and 2 adopted their current address names in 1974. Chiyoda’s 1987 policy sought residential recovery.",
-        "zh": "1974 年住居表示形成现行鍛冶町一、二丁目名称。1987 年区方针开始回应定住人口问题。",
+        "zh": "1974 年住居表示形成现行鍛冶町一・二丁目名称。1987 年区方针开始回应定住人口问题。",
         "ja": "1974年の住居表示で現在の鍛冶町一・二丁目名に。1987年の区方針は定住回復を目指す。"
       },
       "sources": [
@@ -250,7 +250,7 @@
       },
       "fact": {
         "en": "JR Kanda opened in 1919. The current viaduct and underpasses organise access around the station.",
-        "zh": "JR 神田站于 1919 年开业。现有高架与桥下通道组织车站周边的进入方式。",
+        "zh": "JR 神田駅于 1919 年开业。现有高架与桥下通道组织车站周边的进入方式。",
         "ja": "1919年に神田駅が開業。現行の高架とガード下が駅周辺へのアクセスを構成。"
       },
       "reading": {
@@ -699,7 +699,9 @@
       "sources": [
         "S01"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Formation of Kajicho and its town blocks",
+      "event_ja": "町割と鍛冶町の形成"
     },
     {
       "year": 1691,
@@ -708,7 +710,9 @@
       "sources": [
         "S03"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Canal cut to connect to Hamacho River",
+      "event_ja": "浜町川につながる堀割"
     },
     {
       "year": 1824,
@@ -718,7 +722,9 @@
         "S01",
         "S02"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Records of hardware, book, footwear and medicine trades",
+      "event_ja": "金物・書籍・履物・薬品の商業記録"
     },
     {
       "year": 1857,
@@ -727,7 +733,9 @@
       "sources": [
         "S03"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "First filling of the Ryukan River",
+      "event_ja": "竜閑川の最初の埋立て"
     },
     {
       "year": 1883,
@@ -736,16 +744,20 @@
       "sources": [
         "S03"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Ryukan River re-excavated",
+      "event_ja": "竜閑川を再開削"
     },
     {
       "year": 1919,
       "strand": "built",
-      "event_zh": "JR 神田站开业",
+      "event_zh": "JR 神田駅开业",
       "sources": [
         "S05"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "JR Kanda Station opens",
+      "event_ja": "JR神田駅開業"
     },
     {
       "year": 1923,
@@ -754,7 +766,9 @@
       "sources": [
         "S04"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Great Kanto Earthquake and start of reconstruction",
+      "event_ja": "関東大震災と帝都復興の開始"
     },
     {
       "year": 1930,
@@ -763,16 +777,20 @@
       "sources": [
         "S04"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Milestone in reconstruction of the capital",
+      "event_ja": "帝都復興の節目"
     },
     {
       "year": 1931,
       "strand": "built",
-      "event_zh": "地下铁神田站开业",
+      "event_zh": "地下铁神田駅开业",
       "sources": [
         "S06"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Kanda subway station opens",
+      "event_ja": "地下鉄神田駅開業"
     },
     {
       "year": 1945,
@@ -781,7 +799,9 @@
       "sources": [
         "S04"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "War damage and postwar reconstruction",
+      "event_ja": "戦災と戦後復興"
     },
     {
       "year": 1947,
@@ -790,7 +810,9 @@
       "sources": [
         "S08"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Postwar abolition and later reorganization of neighborhood associations",
+      "event_ja": "町会制度の戦後廃止とその後の再編"
     },
     {
       "year": 1950,
@@ -799,7 +821,9 @@
       "sources": [
         "S03"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Ryukan River filled again",
+      "event_ja": "竜閑川の再埋立て"
     },
     {
       "year": 1950,
@@ -808,7 +832,9 @@
       "sources": [
         "S04"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Building Standards Act enacted",
+      "event_ja": "建築基準法制定"
     },
     {
       "year": 1952,
@@ -817,7 +843,9 @@
       "sources": [
         "S07"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "First postwar Shinko Festival",
+      "event_ja": "戦後初の神幸祭"
     },
     {
       "year": 1955,
@@ -826,7 +854,9 @@
       "sources": [
         "S08"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Federations of neighborhood associations formed at branch-office level in 1955–56",
+      "event_ja": "1955～56年に出張所単位の連合町会が成立"
     },
     {
       "year": 1963,
@@ -836,7 +866,9 @@
         "S04",
         "S11"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Floor-area districts introduced",
+      "event_ja": "容積地区制度の導入"
     },
     {
       "year": 1970,
@@ -845,16 +877,20 @@
       "sources": [
         "S12"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Floor-area ratio rules fully introduced",
+      "event_ja": "容積率制度の全面導入"
     },
     {
       "year": 1974,
       "strand": "policy",
-      "event_zh": "住居表示改为现行鍛冶町一、二丁目名",
+      "event_zh": "住居表示改为现行鍛冶町一・二丁目名",
       "sources": [
         "S02"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Address system adopts the current Kajicho 1-chome and 2-chome names",
+      "event_ja": "住居表示により現行の鍛冶町一・二丁目となる"
     },
     {
       "year": 1987,
@@ -863,7 +899,9 @@
       "sources": [
         "S09"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Ward planning policy addresses recovery of the resident population",
+      "event_ja": "区の街づくり方針が定住人口の回復に対応"
     },
     {
       "year": 1992,
@@ -872,7 +910,9 @@
       "sources": [
         "S09"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "New ward basic concept and housing provision rules",
+      "event_ja": "区の新基本構想と住宅付置制度"
     },
     {
       "year": 1997,
@@ -881,7 +921,9 @@
       "sources": [
         "S09"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Chiyoda-style district plans begin. Verify coverage by site.",
+      "event_ja": "千代田区型地区計画の適用開始。区域は個別に確認が必要"
     },
     {
       "year": 1998,
@@ -890,7 +932,9 @@
       "sources": [
         "S09"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Ward city planning master plan",
+      "event_ja": "区の都市計画マスタープラン"
     },
     {
       "year": 1999,
@@ -899,7 +943,9 @@
       "sources": [
         "S09"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Chiyoda's resident population reaches a low point. The figure is for the ward.",
+      "event_ja": "区の定住人口が低水準に。数値は区全体"
     },
     {
       "year": 2013,
@@ -908,7 +954,9 @@
       "sources": [
         "S09"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Chiyoda recovers to 50,000 residents, including foreign residents",
+      "event_ja": "区の定住人口が5万人に回復。外国人住民を含む"
     },
     {
       "year": 2016,
@@ -917,7 +965,9 @@
       "sources": [
         "S09"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Living environment program replaces the housing provision system",
+      "event_ja": "住環境整備推進制度が住宅付置制度に代わる"
     },
     {
       "year": 2021,
@@ -927,7 +977,9 @@
         "S10",
         "S13"
       ],
-      "status": "published record"
+      "status": "published record",
+      "event_en": "Master plan revised in May. Climate declaration issued in November.",
+      "event_ja": "5月にマスタープランを改定。11月に気候宣言"
     },
     {
       "year": 2050,
@@ -937,7 +989,9 @@
         "S13",
         "S16"
       ],
-      "status": "target"
+      "status": "target",
+      "event_en": "Net-zero emissions goal and studio planning horizon",
+      "event_ja": "排出実質ゼロの目標年とスタジオの計画年次"
     }
   ]
 }

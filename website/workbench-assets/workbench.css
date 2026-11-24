@@ -1,0 +1,56 @@
+.workbench { padding-bottom: var(--section-space); }
+.wb-selection { padding: var(--size-6) 0; border-block: 1px solid var(--rule); }
+.wb-choices, .wb-sequence { display: flex; flex-wrap: wrap; gap: var(--size-2) var(--size-4); }
+.wb-choices { margin-block: var(--size-4); }
+.wb-choices button {
+  min-height: 44px;
+  padding: 8px 14px;
+  font: inherit;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: var(--corner);
+  cursor: pointer;
+}
+.wb-choices button[aria-pressed="true"] {
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+.wb-case-note { max-width: 76ch; margin: var(--size-2) 0; }
+.wb-sequence { margin-top: var(--size-4); }
+.wb-area { padding: var(--size-8) 0; border-bottom: 1px solid var(--rule); }
+.wb-table-wrap { overflow-x: auto; margin-top: var(--size-4); }
+.wb-table { width: 100%; min-width: 35rem; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.wb-table th, .wb-table td { text-align: right; padding: 9px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.wb-table th:first-child, .wb-table .wb-group th { text-align: start; }
+.wb-table th:first-child { width: 51%; }
+.wb-table thead th { color: var(--muted); font-size: var(--caption-size); }
+.wb-table .wb-group th { color: var(--ink); background: var(--panel); }
+.wb-table tbody th[scope="row"] { font-weight: 500; }
+.wb-table .site-caption { display: block; margin: var(--size-1) 0 0; }
+.wb-table .wb-null { color: var(--muted); font-size: var(--caption-size); }
+.wb-list { margin: var(--size-4) 0 0; padding: 0; list-style: none; }
+.wb-list li { border-bottom: 1px solid var(--rule); padding: 12px 0; max-width: 88ch; }
+.wb-list li:last-child { border-bottom: 0; }
+.wb-list p { margin: var(--size-1) 0 0; }
+.wb-rule { color: var(--accent); }
+.wb-editor { padding: var(--size-6) 0; border-bottom: 1px solid var(--rule); }
+.wb-editor [hidden] { display: none; }
+.wb-input-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: var(--grid-gap); margin: var(--size-4) 0; }
+.wb-input-grid fieldset { margin: 0; min-width: 0; border: 1px solid var(--rule); padding: var(--size-3); }
+.wb-input-grid legend { font-weight: 600; }
+.wb-option { display: block; margin-block: var(--size-2); }
+.wb-option :is(input[type=number], input[type=text]) {
+  display: block; max-width: 100%; width: 9rem; min-height: 36px; font: inherit;
+  border: 1px solid var(--rule); color: var(--ink); background: var(--surface); padding-inline: 8px;
+}
+.wb-option input[type=checkbox] { accent-color: var(--accent); }
+.wb-job { margin-block: var(--size-4); }
+.wb-job progress { display: block; width: min(100%,24rem); height: 14px; accent-color: var(--accent); }
+.wb-job button { cursor: pointer; }
+@media(max-width: 760px) { .wb-input-grid { grid-template-columns: 1fr; } }
+@media (max-width: 700px) {
+  .wb-choices { column-gap: var(--size-2); }
+  .wb-area { padding-block: var(--size-6); }
+}

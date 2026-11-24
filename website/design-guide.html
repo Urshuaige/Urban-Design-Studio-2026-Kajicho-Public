@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Design Guide · Kajicho</title>
+  <meta name="description" content="Color, typography, layout, and navigation standards for the Kajicho Urban Design Studio website.">
+  <link rel="stylesheet" href="site-navigation.css?v=20261124-workshop-page">
+  <link rel="stylesheet" href="design-guide.css">
+  <script data-copy-page="guide" src="/site-motion.js?v=20261119-aerial-motion"></script>
+  <script type="module" blocking="render" src="/site-navigation.js?v=20261124-workshop-page"></script>
+  <link rel="expect" href="#site-page-end" blocking="render">
+</head>
+<body class="site-page" data-site-page="guide">
+  <a class="site-skip" href="#main" data-site-label="skip">Skip to content</a>
+  <header class="site-header">
+    <div class="site-main-row site-shell">
+      <a class="site-brand" href="/"><b data-site-label="home">Kajicho</b><span data-site-label="brand">Urban Design Studio 2026</span></a>
+      <nav class="site-global-nav" aria-label="Main navigation">
+        <a href="/field-visit" data-site-label="visit">Field Visit</a>
+        <a href="/conditions" data-site-label="conditions">Site Data</a>
+        <a href="/policy" data-site-label="policy">Policies</a>
+        <a href="/studio" data-site-label="studio">Interim Progress</a>
+        <a href="/workshop" data-site-label="workshop">Workshop</a>
+        <a href="/vision" data-site-label="vision">Future Vision</a>
+      </nav>
+      <div class="site-languages" role="group" aria-label="Page language">
+        <button type="button" data-lang="en" lang="en" aria-label="English" aria-pressed="true">EN</button>
+        <button type="button" data-lang="ja" lang="ja" aria-label="日本語" aria-pressed="false">日</button>
+        <button type="button" data-lang="zh" lang="zh-CN" aria-label="中文" aria-pressed="false">中</button>
+      </div>
+    </div>
+  </header>
+  <div class="site-content">
+  <main id="main" class="site-shell" lang="en">
+    <section class="site-grid guide-intro page-intro" aria-labelledby="guide-title">
+      <div>
+        <p class="site-kicker">Kajicho Site Atlas</p>
+        <h1 class="site-title" id="guide-title">Website Design Guide</h1>
+        <p class="site-lede">Warm paper, charcoal text and terracotta links carry the interim slides’ palette into the atlas. Maps, text and navigation use the same outer grid.</p>
+      </div>
+      <figure>
+        <img src="studio-assets/kajicho-aerial.png" width="1620" height="2000" alt="Grayscale aerial image of Kajicho with white building outlines">
+        <figcaption class="site-caption">Kajicho aerial map · MLIT PLATEAU FY2023 building footprints. <a href="https://docs.google.com/presentation/d/1sOpNqb77JxsTpYza4a7AxarBxY5suXGefKfDq4bFxBM/edit#slide=id.h53753f6bdfb00197_3_2198">Interim slide 7</a></figcaption>
+      </figure>
+    </section>
+
+    <nav class="site-local-nav page-jumps" aria-label="Design Guide sections"><a href="#color">Color</a><a href="#type">Typography</a><a href="#layout">Grid and spacing</a><a href="#components">Components</a><a href="#navigation">Navigation</a></nav>
+    <section class="guide-section" id="color" aria-labelledby="color-title">
+      <h2 class="site-section-title" id="color-title">Color</h2>
+      <p class="site-lede">Use terracotta for links, selections, and focus. Use warm paper for pages and pale gray for grouped information. Map colors follow their own legends. <a href="https://docs.google.com/presentation/d/1sOpNqb77JxsTpYza4a7AxarBxY5suXGefKfDq4bFxBM/edit#slide=id.h53753f6bdfb00197_3_2128">Interim slide 5</a> · <a href="https://docs.google.com/presentation/d/1sOpNqb77JxsTpYza4a7AxarBxY5suXGefKfDq4bFxBM/edit#slide=id.h53753f6bdfb00197_3_2055">Interim cover</a></p>
+      <dl class="guide-swatches">
+        <div class="guide-swatch" style="--sample:var(--accent)"><dt>Terracotta</dt><dd>#8B3A2B <span>Links and emphasis</span></dd></div>
+        <div class="guide-swatch" style="--sample:var(--accent-hover)"><dt>Deep red</dt><dd>#713023 <span>Hover</span></dd></div>
+        <div class="guide-swatch" style="--sample:var(--accent-soft)"><dt>Red tint</dt><dd>#F4EAE5 <span>Selected controls</span></dd></div>
+        <div class="guide-swatch" style="--sample:var(--paper)"><dt>Warm paper</dt><dd>#FBF9F6 <span>Page and header</span></dd></div>
+        <div class="guide-swatch" style="--sample:var(--panel)"><dt>Pale gray</dt><dd>#F3F0ED <span>Grouped information</span></dd></div>
+        <div class="guide-swatch" style="--sample:var(--ink)"><dt>Charcoal</dt><dd>#1C1917 <span>Headings and text</span></dd></div>
+        <div class="guide-swatch" style="--sample:var(--muted)"><dt>Warm gray</dt><dd>#645D56 <span>Captions and sources</span></dd></div>
+        <div class="guide-swatch" style="--sample:var(--rule)"><dt>Border gray</dt><dd>#E4DFD7 <span>Dividers and borders</span></dd></div>
+      </dl>
+    </section>
+
+    <section class="guide-section" id="type" aria-labelledby="type-title">
+      <h2 class="site-section-title" id="type-title">Typography</h2>
+      <p class="site-lede">IBM Plex Sans sets the English type. Noto Sans SC and JP cover Chinese and Japanese characters. Set headings at weight 600 and body text at 400. Use monospace for metrics, years and source labels.</p>
+      <div class="guide-type-row"><span class="site-title">Between the Centers</span><span class="site-caption">Page title · 40–84 px · 1.1 line height</span></div>
+      <div class="guide-type-row"><span class="site-section-title">Resolve conflicts in place</span><span class="site-caption">Section title · 32–52 px · 1.1 line height</span></div>
+      <div class="guide-type-row"><span class="site-subtitle">Street design and drainage</span><span class="site-caption">Subheading · 20–26 px · 1.25 line height</span></div>
+      <div class="guide-type-row"><span class="guide-lead">Kajicho’s street and building studies</span><span class="site-caption">Lead · 18 px · 1.65 line height</span></div>
+      <div class="guide-type-row"><span>Compare the existing street and the proposed layout.</span><span class="site-caption">Body · 16 px · 1.6 line height</span></div>
+      <div class="guide-type-row"><span class="site-caption">Building footprints · MLIT PLATEAU FY2023</span><span class="site-caption">Caption · 14 px · 1.5 line height</span></div>
+    </section>
+
+    <section class="guide-section" id="layout" aria-labelledby="layout-title">
+      <h2 class="site-section-title" id="layout-title">Grid and spacing</h2>
+      <p class="site-lede">Align text, figures, and navigation to the same outer margins. Keep long paragraphs within about 65 characters per line.</p>
+      <figure class="guide-layout">
+        <div class="guide-frame">
+          <p class="site-caption">Outer margins · 20–80 px</p>
+          <div class="site-grid" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          <p class="site-caption">Column gaps · 16–32 px</p>
+        </div>
+        <figcaption class="site-caption">
+          <span>12 columns on wider screens, 4 up to 740 px. Maximum content width 1,280 px.</span>
+          <span>8 px between a figure and caption, 16 px between a heading and text, 24–32 px within groups, and 48–96 px of section padding.</span>
+          <span>Use 1 px borders for tables and form fields. Use 4 px corners and a minimum height of 44 px for controls.</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="guide-section" id="components" aria-labelledby="components-title">
+      <h2 class="site-section-title" id="components-title">Links and sections</h2>
+      <p class="site-lede">Use text labels for actions, a red underline for the current page, and a visible focus outline. On the home page, put the full aerial beside the introduction. Use a wide crop in Future Vision. Keep the outcomes visible together and place maps alongside case comparisons. Put calculation details in notes that expand in place.</p>
+      <div class="guide-example">
+        <div>
+          <h3 class="site-subtitle">Navigation and actions</h3>
+          <p>Use a text link to follow a reference. Use a filled button for a primary action.</p>
+          <nav class="site-global-nav guide-nav-example" aria-label="Selected navigation example"><a href="/studio" aria-current="page">Interim Progress</a><a href="/vision">Future Vision</a></nav>
+          <a href="/vision#locations">Read the case comparisons</a>
+        </div>
+        <div>
+          <h3 class="site-subtitle">An open conflict case</h3>
+          <p><strong>Planting and deliveries on the same street</strong></p>
+          <ul><li>Keep the loading space available.</li><li>Test rain gardens in the remaining curb space.</li><li>Compare runoff and loading access before and after.</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="guide-section" id="navigation" aria-labelledby="routing-title">
+      <h2 class="site-section-title" id="routing-title">Where content belongs</h2>
+      <ul class="guide-routes">
+        <li><a href="/field-visit">Field Visit</a><span>Field observations, the visit route, and notes from the site.</span></li>
+        <li><a href="/conditions">Site Data</a><span>Current maps, statistics, and the local history and building records.</span></li>
+        <li><a href="/policy">Policies</a><span>Official plans, public projects, and relevant rules.</span></li>
+        <li><a href="/studio">Interim Progress</a><span>The studio timeline, six studies, and interim presentation.</span></li>
+        <li><a href="/vision">Future Vision</a><span>The shared framework, conflicts, targets, tests, and phases of the plan.</span></li>
+      </ul>
+    </section>
+  </main>
+  <footer id="site-page-end" class="site-footer" lang="en">
+    <div class="site-shell">
+      <p data-site-label="footer">Urban Design Studio 2026 · Theme B · University of Tokyo</p>
+      <nav aria-label="Website references">
+        <a href="/design-guide" data-site-label="guide">Design Guide</a>
+        <a href="/studio-assets/sources" data-site-label="credits">Figure and photograph credits</a>
+      </nav>
+    </div>
+  </footer>
+  </div>
+</body>
+</html>
