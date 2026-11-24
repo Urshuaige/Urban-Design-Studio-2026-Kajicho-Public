@@ -1,32 +1,27 @@
 # Kajicho · Urban Design Studio 2026
 
-Public teaching copy for downloading GIS base maps, reading analysis methods and studying the website code.
-
 **English** | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)
 
-## November workshop
+Shared data, QGIS projects and analysis code for Theme B at the University of Tokyo. The studio studies building renewal, heat and flooding, and public space in Kanda–Nihonbashi, with a focus on Kajicho 1 & 2.
 
-[Workshop summary](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop) · [Full English report](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop-report) · [Public Site source v52](website/README.md)
+[![Kajicho Site Atlas homepage with an aerial view of JR Kanda Station](06_Outputs/README_Public_Site_2026-11-24/Public_Site_Cover.jpg)](https://kajicho-site-atlas.specialgooood.chatgpt.site)
 
-## Interim studio exhibition · 18 November 2026
+[Open the public Site](https://kajicho-site-atlas.specialgooood.chatgpt.site) · [Get the current GIS data](04_Data/Ready/QGIS_Current_2026-11-04/README.md) · [Browse the Site v52 source](website/README.md)
 
-[**Explore Between the Centers**](https://kajicho-site-atlas.specialgooood.chatgpt.site/studio.html) · [Studio timeline](docs/STUDIO_TIMELINE.md)
+## Explore the studio
 
-Six contributors across three themes share findings on building renewal, heat and flooding, and how people walk and use local streets.
-
-Shared data, QGIS projects and analysis code for **Kanda–Nihonbashi and Kajicho 1 & 2, Tokyo**. Theme B explores building energy and carbon, street shade and radiation, and planning and implementation towards 2050.
-
-**[Open the public Site Atlas](https://kajicho-site-atlas.specialgooood.chatgpt.site)** · [Get current GIS data](04_Data/Ready/QGIS_Current_2026-11-04/README.md) · [Browse sources](04_Data/Ready/QGIS_Current_2026-11-04/SOURCES.md)
-
-[![Preview of the Studio exhibition](06_Outputs/Studio_Interim_2026-11-18/preview.jpg)](https://kajicho-site-atlas.specialgooood.chatgpt.site/studio.html)
-
-Click the preview to explore the public site: [Atlas](https://kajicho-site-atlas.specialgooood.chatgpt.site/) · [History](https://kajicho-site-atlas.specialgooood.chatgpt.site/history.html) · [Policy](https://kajicho-site-atlas.specialgooood.chatgpt.site/policy.html) · [Site data](https://kajicho-site-atlas.specialgooood.chatgpt.site/conditions.html) · [Field visit](https://kajicho-site-atlas.specialgooood.chatgpt.site/field-visit.html).
+| Topic | Start here |
+| --- | --- |
+| 24 November workshop | [Meeting summary](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop) · [Full English report](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop-report) |
+| 18 November interim exhibition | [Between the Centers](https://kajicho-site-atlas.specialgooood.chatgpt.site/studio) · [Studio timeline](docs/STUDIO_TIMELINE.md) |
+| Site evidence | [Site Data](https://kajicho-site-atlas.specialgooood.chatgpt.site/conditions) · [Field Visit](https://kajicho-site-atlas.specialgooood.chatgpt.site/field-visit) · [History](https://kajicho-site-atlas.specialgooood.chatgpt.site/history) · [Policies](https://kajicho-site-atlas.specialgooood.chatgpt.site/policy) |
+| Plan for 2050 | [Future Vision](https://kajicho-site-atlas.specialgooood.chatgpt.site/vision) · [Kajicho in 3D](https://kajicho-site-atlas.specialgooood.chatgpt.site/city-model) · [Scenario workbench](https://kajicho-site-atlas.specialgooood.chatgpt.site/scenario-workbench) |
 
 ## Current GIS data
 
 The current QGIS project and its spatial layers use **EPSG:6677** for overlay, distance and area. [Coordinate reference and original source records](docs/COORDINATE_REFERENCE.md)
 
-**13 November update:** [Primary building age](04_Data/Ready/QGIS_Current_2026-11-04/shp/Primary_Building_Age_2026-11-13/) uses the newly supplied 277-building SHP in the QGIS project; 56 years are missing. The original source, data year and reuse licence are unrecorded. The older age views continue outside the primary area. [Details](04_Data/Ready/QGIS_Current_2026-11-04/README.md#primary-building-age-update--13-november-2026).
+[Primary building age](04_Data/Ready/QGIS_Current_2026-11-04/shp/Primary_Building_Age_2026-11-13/) contains 277 building models, with 56 years missing. The original source, data year and reuse licence are unrecorded. The older age views continue outside the primary area. [Details](04_Data/Ready/QGIS_Current_2026-11-04/README.md#primary-building-age-update--13-november-2026).
 
 The **4 November 2026** delivery uses the **42.43712 ha wider boundary**. Every intersecting building retains its complete source footprint, including the southern edge. Original attributes and analysis-membership fields are preserved. Kanto-wide original tables are excluded.
 
