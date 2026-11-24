@@ -1,26 +1,21 @@
 # Kajicho · Urban Design Studio 2026
 
-GIS基図の取得、分析手法の確認、ウェブサイトコードの学習に使う公開授業資料です。
-
 [English](README.md) | [简体中文](README.zh-CN.md) | **日本語**
 
-## 11月のスタジオ検討会
+東京大学都市デザインスタジオのテーマBの公開授業資料です。データ、QGIS プロジェクト、分析コードを収録しています。神田・日本橋のうち鍛冶町一・二丁目を中心に、建物の更新、暑熱と浸水、公共空間を検討します。
 
-[検討会のまとめ](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop) · [英語の詳細レポート](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop-report) · [公開サイト第52版のソース](website/README.md)
+[![JR 神田駅周辺の俯瞰図を掲載した Kajicho 公開サイトのトップページ](06_Outputs/README_Public_Site_2026-11-24/Public_Site_Cover.jpg)](https://kajicho-site-atlas.specialgooood.chatgpt.site)
 
-## 中間発表 · 2026年11月18日
+[公開サイトを開く](https://kajicho-site-atlas.specialgooood.chatgpt.site) · [現在の GIS データを取得](04_Data/Ready/QGIS_Current_2026-11-04/README.md) · [公開サイト第52版のソース](website/README.md)
 
-[**成果展示 Between the Centers**](https://kajicho-site-atlas.specialgooood.chatgpt.site/studio.html) · [スタジオの記録](docs/STUDIO_TIMELINE.md)
+## スタジオの資料
 
-6名が建物の更新、暑熱・浸水対策、歩行と公共空間の研究を3つのテーマで紹介します。
-
-**東京都・神田—日本橋と鍛冶町一・二丁目**を対象とする共通データ、QGISプロジェクト、分析コードです。Theme Bでは、建物のエネルギー・炭素、街路の日陰・放射環境、2050年に向けた計画と実施を扱います。
-
-**[公開の地域資料サイトを開く](https://kajicho-site-atlas.specialgooood.chatgpt.site)** · [現在のGISデータ](04_Data/Ready/QGIS_Current_2026-11-04/README.md) · [データの出典](04_Data/Ready/QGIS_Current_2026-11-04/SOURCES.md)
-
-[![公開地域資料サイトのプレビュー](06_Outputs/README_Public_Site_2026-11-04/Public_Site_Preview.jpg)](https://kajicho-site-atlas.specialgooood.chatgpt.site)
-
-画像をクリックしてサイトへ：[Atlas（地図）](https://kajicho-site-atlas.specialgooood.chatgpt.site/) · [History（歴史）](https://kajicho-site-atlas.specialgooood.chatgpt.site/history.html) · [Policy（計画・政策）](https://kajicho-site-atlas.specialgooood.chatgpt.site/policy.html) · [Site data（現況資料）](https://kajicho-site-atlas.specialgooood.chatgpt.site/conditions.html) · [Field visit（現地調査）](https://kajicho-site-atlas.specialgooood.chatgpt.site/field-visit.html)。
+| 内容 | リンク |
+| --- | --- |
+| 11月24日の検討会 | [検討会のまとめ](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop) · [英語の詳細レポート](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop-report) |
+| 11月18日の中間発表 | [成果展示 Between the Centers](https://kajicho-site-atlas.specialgooood.chatgpt.site/studio) · [スタジオの記録](docs/STUDIO_TIMELINE.md) |
+| 地域の資料 | [現況データ](https://kajicho-site-atlas.specialgooood.chatgpt.site/conditions) · [現地調査](https://kajicho-site-atlas.specialgooood.chatgpt.site/field-visit) · [歴史](https://kajicho-site-atlas.specialgooood.chatgpt.site/history) · [計画・政策](https://kajicho-site-atlas.specialgooood.chatgpt.site/policy) |
+| 2050年に向けた計画 | [将来構想](https://kajicho-site-atlas.specialgooood.chatgpt.site/vision) · [鍛冶町の3Dモデル](https://kajicho-site-atlas.specialgooood.chatgpt.site/city-model) · [シナリオの比較](https://kajicho-site-atlas.specialgooood.chatgpt.site/scenario-workbench) |
 
 ## 現在のGISデータ
 

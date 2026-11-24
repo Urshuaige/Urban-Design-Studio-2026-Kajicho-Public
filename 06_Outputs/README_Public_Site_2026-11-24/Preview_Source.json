@@ -1,0 +1,14 @@
+{
+  "site_url": "https://kajicho-site-atlas.specialgooood.chatgpt.site",
+  "published_version": 52,
+  "site_source_commit": "f0d50120d846af3ba067520f370d1cb9a383e37d",
+  "access_verified": "public",
+  "retrieved_on": "2026-11-24",
+  "image": "Public_Site_Cover.jpg",
+  "mime_type": "image/jpeg",
+  "width": 1200,
+  "height": 750,
+  "source": "Native desktop screenshot for the published Site version",
+  "sha256": "011b764af6c2418df25b1c9f1c39abfc86115e79a50d121a192e59c6ca9cea54",
+  "display": "Linked cover used by the English, Simplified Chinese and Japanese READMEs"
+}
