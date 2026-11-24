@@ -1,0 +1,298 @@
+{
+  "Kajicho Site Atlas": [
+    "鍛冶町サイトアトラス",
+    "鍛冶町图集"
+  ],
+  "Website Design Guide": [
+    "ウェブサイトのデザインガイド",
+    "网站设计规范"
+  ],
+  "Warm paper, charcoal text and terracotta links carry the interim slides’ palette into the atlas. Maps, text and navigation use the same outer grid.": [
+    "中間発表の配色を受け継ぎ、温かみのある紙色、炭色の文字、れんが色のリンクを使います。地図、本文、ナビゲーションの左右をそろえます。",
+    "图集沿用中期汇报的配色，以暖纸色为背景、炭黑为文字、砖红为链接。地图、正文与导航共用同一外侧网格。"
+  ],
+  "Grayscale aerial image of Kajicho with white building outlines": [
+    "建物の輪郭を白で示す鍛冶町の白黒航空写真",
+    "以白线标出建筑轮廓的鍛冶町黑白航拍"
+  ],
+  "Kajicho aerial map · MLIT PLATEAU FY2023 building footprints. {0}": [
+    "鍛冶町の航空図・建物形状は国土交通省 PLATEAU 2023年度。{0}",
+    "鍛冶町航拍地图 · 建筑轮廓来自国土交通省 PLATEAU 2023 年度。{0}"
+  ],
+  "Interim slide 7": [
+    "中間発表スライド7",
+    "中期汇报第 7 页"
+  ],
+  "Design Guide sections": [
+    "デザインガイドの項目",
+    "设计规范目录"
+  ],
+  "Color": [
+    "色",
+    "配色"
+  ],
+  "Typography": [
+    "文字組み",
+    "字体与排印"
+  ],
+  "Grid and spacing": [
+    "グリッドと余白",
+    "网格与间距"
+  ],
+  "Components": [
+    "部品",
+    "组件"
+  ],
+  "Navigation": [
+    "ナビゲーション",
+    "导航"
+  ],
+  "Use terracotta for links, selections, and focus. Use warm paper for pages and pale gray for grouped information. Map colors follow their own legends. {0} · {1}": [
+    "リンク、選択状態、フォーカスにはれんが色を使います。ページには紙色、情報のまとまりには薄いグレーを使います。地図の色は凡例に従います。{0} · {1}",
+    "链接、选中和焦点使用砖红色。页面使用暖纸色，成组信息用浅灰色。地图颜色以各自图例为准。{0} · {1}"
+  ],
+  "Interim slide 5": [
+    "中間発表スライド5",
+    "中期汇报第 5 页"
+  ],
+  "Interim cover": [
+    "中間発表の表紙",
+    "中期汇报封面"
+  ],
+  "Terracotta": [
+    "れんが色",
+    "砖红色"
+  ],
+  "Links and emphasis": [
+    "リンクと強調",
+    "链接与强调"
+  ],
+  "Deep red": [
+    "深い赤",
+    "深红色"
+  ],
+  "Hover": [
+    "ホバー",
+    "悬停"
+  ],
+  "Red tint": [
+    "赤みのある薄色",
+    "浅红色"
+  ],
+  "Selected controls": [
+    "選択された操作項目",
+    "已选控件"
+  ],
+  "Warm paper": [
+    "温かみのある紙色",
+    "暖纸色"
+  ],
+  "Page and header": [
+    "ページとヘッダー",
+    "页面与页眉"
+  ],
+  "Pale gray": [
+    "薄いグレー",
+    "浅灰色"
+  ],
+  "Grouped information": [
+    "情報のまとまり",
+    "分组信息"
+  ],
+  "Charcoal": [
+    "炭色",
+    "炭黑色"
+  ],
+  "Headings and text": [
+    "見出しと本文",
+    "标题与正文"
+  ],
+  "Warm gray": [
+    "温かみのあるグレー",
+    "暖灰色"
+  ],
+  "Captions and sources": [
+    "キャプションと出典",
+    "图注与来源"
+  ],
+  "Border gray": [
+    "境界線のグレー",
+    "边线灰"
+  ],
+  "Dividers and borders": [
+    "区切りと境界線",
+    "分隔线与边框"
+  ],
+  "IBM Plex Sans sets the English type. Noto Sans SC and JP cover Chinese and Japanese characters. Set headings at weight 600 and body text at 400. Use monospace for metrics, years and source labels.": [
+    "英語にはIBM Plex Sans、中国語と日本語にはNoto Sans SCとJPを使用します。見出しのウェイトは600、本文は400。指標、年、出典ラベルには等幅書体を使います。",
+    "英文采用 IBM Plex Sans，中文与日文采用 Noto Sans SC 和 JP。标题字重为 600，正文为 400。指标、年份及来源标签使用等宽字体。"
+  ],
+  "Between the Centers": [
+    "都心のあいだ",
+    "两个中心之间"
+  ],
+  "Page title · 40–84 px · 1.1 line height": [
+    "ページタイトル・40–84 px・行高1.1",
+    "页面标题 · 40–84 px · 行高 1.1"
+  ],
+  "Resolve conflicts in place": [
+    "現地ごとに課題を調整する",
+    "按场地协调方案"
+  ],
+  "Section title · 32–52 px · 1.1 line height": [
+    "セクションタイトル・32–52 px・行高1.1",
+    "章节标题 · 32–52 px · 行高 1.1"
+  ],
+  "Street design and drainage": [
+    "街路設計と排水",
+    "街道设计与排水"
+  ],
+  "Subheading · 20–26 px · 1.25 line height": [
+    "小見出し・20–26 px・行高1.25",
+    "小标题 · 20–26 px · 行高 1.25"
+  ],
+  "Kajicho’s street and building studies": [
+    "鍛冶町の街路と建物の研究",
+    "鍛冶町街道与建筑研究"
+  ],
+  "Lead · 18 px · 1.65 line height": [
+    "リード文・18 px・行高1.65",
+    "导语 · 18 px · 行高 1.65"
+  ],
+  "Compare the existing street and the proposed layout.": [
+    "既存の街路と提案断面を比較します。",
+    "比较现有街道与设计方案。"
+  ],
+  "Body · 16 px · 1.6 line height": [
+    "本文・16 px・行高1.6",
+    "正文 · 16 px · 行高 1.6"
+  ],
+  "Building footprints · MLIT PLATEAU FY2023": [
+    "建物形状・国土交通省 PLATEAU 2023年度",
+    "建筑轮廓 · 国土交通省 PLATEAU 2023 年度"
+  ],
+  "Caption · 14 px · 1.5 line height": [
+    "キャプション・14 px・行高1.5",
+    "图注 · 14 px · 行高 1.5"
+  ],
+  "Align text, figures, and navigation to the same outer margins. Keep long paragraphs within about 65 characters per line.": [
+    "本文、図版、ナビゲーションの外側の余白をそろえます。英語の長文は1行あたり約65文字を目安にします。",
+    "正文、图版与导航使用相同的外侧边距。较长的英文段落以每行约 65 个字符为宜。"
+  ],
+  "Outer margins · 20–80 px": [
+    "外側の余白・20–80 px",
+    "外侧边距 · 20–80 px"
+  ],
+  "Column gaps · 16–32 px": [
+    "カラムの間隔・16–32 px",
+    "列距 · 16–32 px"
+  ],
+  "12 columns on wider screens, 4 up to 740 px. Maximum content width 1,280 px.": [
+    "広い画面は12列、740 px以下は4列。コンテンツ幅は最大1,280 px。",
+    "宽屏使用 12 列，740 px 及以下使用 4 列。内容最大宽度为 1,280 px。"
+  ],
+  "8 px between a figure and caption, 16 px between a heading and text, 24–32 px within groups, and 48–96 px of section padding.": [
+    "図とキャプションの間は8 px、見出しと本文は16 px、グループ内は24–32 px、セクションの余白は48–96 px。",
+    "图与图注之间为 8 px，标题与正文之间为 16 px，组内间距为 24–32 px，章节内边距为 48–96 px。"
+  ],
+  "Use 1 px borders for tables and form fields. Use 4 px corners and a minimum height of 44 px for controls.": [
+    "表と入力欄の罫線は1 px。操作項目の角丸は4 px、最小高さは44 px。",
+    "表格与输入框边框为 1 px，控件圆角为 4 px，最小高度为 44 px。"
+  ],
+  "Links and sections": [
+    "リンクとセクション",
+    "链接与章节"
+  ],
+  "Use text labels for actions, a red underline for the current page, and a visible focus outline. On the home page, put the full aerial beside the introduction. Use a wide crop in Future Vision. Keep the outcomes visible together and place maps alongside case comparisons. Put calculation details in notes that expand in place.": [
+    "操作はテキストで示し、現在のページに赤い下線を付け、フォーカスが見えるようにします。ホームでは導入文と航空写真の全体を並べ、将来構想では写真を横長に切り出します。目標は並べて示し、地図と案を横に配置します。計算の詳細はページ内で展開できる注記に置きます。",
+    "操作使用文字标签。当前页面加红色下划线，焦点保持可见。首页在引言旁展示完整航拍，未来愿景采用宽幅裁切。并列显示各项目标、地图和方案，计算细节放在页内可展开的说明中。"
+  ],
+  "Navigation and actions": [
+    "ナビゲーションと操作",
+    "导航与操作"
+  ],
+  "Use a text link to follow a reference. Use a filled button for a primary action.": [
+    "参照先にはテキストリンクを使い、主な操作には塗りつぶしのボタンを使います。",
+    "参考资料使用文字链接，主要操作使用实底按钮。"
+  ],
+  "Selected navigation example": [
+    "現在のページを示すナビゲーション例",
+    "选中当前页的导航示例"
+  ],
+  "Interim Progress": [
+    "中間報告",
+    "中期成果"
+  ],
+  "Future Vision": [
+    "将来構想",
+    "未来愿景"
+  ],
+  "Read the case comparisons": [
+    "事例の比較を見る",
+    "查看案例对比"
+  ],
+  "An open conflict case": [
+    "比較検討中の事例",
+    "待讨论的案例"
+  ],
+  "Planting and deliveries on the same street": [
+    "同じ街路での植栽と荷さばき",
+    "同一街道上的种植与装卸"
+  ],
+  "Keep the loading space available.": [
+    "荷さばきの場所を確保します。",
+    "保留可用的装卸空间。"
+  ],
+  "Test rain gardens in the remaining curb space.": [
+    "残りの道路端で雨庭を検討します。",
+    "在剩余路缘空间测试雨水花园。"
+  ],
+  "Compare runoff and loading access before and after.": [
+    "雨水流出と荷さばきのアクセスを前後で比較します。",
+    "比较实施前后的雨水径流和装卸可达性。"
+  ],
+  "Where content belongs": [
+    "ページごとの内容",
+    "各页内容"
+  ],
+  "Field Visit": [
+    "現地調査",
+    "场地调研"
+  ],
+  "Field observations, the visit route, and notes from the site.": [
+    "現地の観察、調査ルート、聞き取りの記録。",
+    "实地观察、调研路线和现场记录。"
+  ],
+  "Site Data": [
+    "現況データ",
+    "现状数据"
+  ],
+  "Current maps, statistics, and the local history and building records.": [
+    "現況の地図、統計、地域の歴史、建物台帳。",
+    "现状地图、统计数据、地方历史和建筑记录。"
+  ],
+  "Policies": [
+    "計画・政策",
+    "规划政策"
+  ],
+  "Official plans, public projects, and relevant rules.": [
+    "公的な計画、公共事業、関係する規則。",
+    "官方规划、公共项目及相关规则。"
+  ],
+  "The studio timeline, six studies, and interim presentation.": [
+    "スタジオの活動の経過、6つの研究、中間発表。",
+    "工作历程、六项研究与中期汇报。"
+  ],
+  "The shared framework, conflicts, targets, tests, and phases of the plan.": [
+    "共通の枠組み、案の競合、目標、検証、実施段階。",
+    "总体框架、方案冲突、目标、验证与实施分期。"
+  ],
+  "Website Design Guide · Kajicho": [
+    "ウェブサイトのデザインガイド｜鍛冶町",
+    "网站设计规范｜鍛冶町"
+  ],
+  "Color, typography, layout, and navigation standards for the Kajicho Urban Design Studio website.": [
+    "鍛冶町の都市デザインスタジオウェブサイトの色、文字、配置、ナビゲーションの規則。",
+    "鍛冶町城市设计工作室网站的配色、字体、布局与导航规范。"
+  ]
+}

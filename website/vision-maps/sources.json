@@ -1,0 +1,93 @@
+{
+  "base_layout": "Basemap",
+  "base_export": "00_Basemap.png",
+  "coordinate_system": "EPSG:6677 (metres)",
+  "road_geometry": "GSI ground centre lines matched to OpenStreetMap names (Nov 2026 studio network). Keisatsu-dori from OSM context.",
+  "building_geometry": "Studio renewal block A and the former Imagawa school footprint from the retained-building layer.",
+  "processing": "Crop the original raster from its QGIS layout extent. Overlay projected road segments and candidate leaders. Accent road strokes are clipped to Kajicho 1 & 2.",
+  "licenses": [
+    "© OpenStreetMap contributors, ODbL",
+    "GSI source terms",
+    "MLIT PLATEAU building data"
+  ],
+  "maps": {
+    "overlap": {
+      "size_px": [
+        1050,
+        1064
+      ],
+      "extent_epsg6677": [
+        -5845,
+        -34590,
+        -5070,
+        -33805
+      ]
+    },
+    "street-corridors": {
+      "size_px": [
+        1200,
+        941
+      ],
+      "extent_epsg6677": [
+        -5890,
+        -34422,
+        -5120,
+        -33818
+      ]
+    },
+    "rooftops": {
+      "size_px": [
+        1200,
+        747
+      ],
+      "extent_epsg6677": [
+        -5760,
+        -34260,
+        -5310,
+        -33980
+      ]
+    },
+    "frontages": {
+      "size_px": [
+        1200,
+        931
+      ],
+      "extent_epsg6677": [
+        -5725,
+        -34158,
+        -5270,
+        -33805
+      ]
+    },
+    "imagawa": {
+      "size_px": [
+        1200,
+        724
+      ],
+      "extent_epsg6677": [
+        -5620,
+        -34342,
+        -5285,
+        -34140
+      ]
+    }
+  },
+  "workshop_board": {
+    "file": "workshop-blocks-20261124.png",
+    "source": "Theme B studio workshop board, 24 November 2026",
+    "area": "Kajicho 1 & 2, five working blocks",
+    "frame": "Crop of the annotated building-stock plan on the board",
+    "coordinate_system": null,
+    "scope_source": "The established primary outline is available from /info-data/study_boundary.geojson",
+    "credit": "Studio workshop board and the building-stock plan shown on the board"
+  },
+  "workshop_boundary": {
+    "file": "workshop-boundary-20261124.png",
+    "source": "Theme B studio workshop board, 24 November 2026",
+    "area": "Solid Kajicho 1 & 2 Primary Boundary and dashed wider Kanda–Nihonbashi outline",
+    "frame": "Crop of the study boundary plan shown on the workshop board",
+    "coordinate_system": null,
+    "scope_source": "/info-data/study_boundary.geojson",
+    "credit": "Theme B studio workshop board and the study area map shown on the board"
+  }
+}

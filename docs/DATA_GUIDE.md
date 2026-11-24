@@ -19,13 +19,13 @@ Open [Kanda_Nihonbashi_Study_2026-10-18.qgz](../05_QGIS/Projects/Kanda_Nihonbash
 | trees / tree_routes / parks | Different source units and coverage; point gaps remain gaps |
 | stations | Separate JR/Ginza Kanda records; no name-only merge |
 
-[Layer catalog](../04_Data/Metadata/Layer_Catalog.csv), [field catalog](../04_Data/Metadata/Layer_Fields.csv) and [glossary](../04_Data/Metadata/Field_Name_Glossary.csv) describe 126 current and dated tables and 1,665 fields. Distinguish them by dataset path.
+[Layer catalog](../04_Data/Metadata/Layer_Catalog.csv), [field catalog](../04_Data/Metadata/Layer_Fields.csv) and [glossary](../04_Data/Metadata/Field_Name_Glossary.csv) list the current and dated GeoPackage tables and fields. Distinguish them by dataset path.
 
 ## Units and methods
 
 Source counts represent PLATEAU LOD1 model objects, not surveyed individual buildings. Wider selection has 764 Chiyoda and 310 Chuo objects. The primary has 277 Chiyoda objects. Only full footprints covered by the chosen trace enter building analysis. Original geometry is retained; crossing and exterior models are grey context. Source measured heights and proxy heights remain separate. Floor proxy（楼面代理量）is projected area × source/proxy levels, not metered floor occupancy or energy.
 
-Analysis and GIS use EPSG:6677 in metres; exchange GeoJSON uses EPSG:4326. Each trace retains its source pixels, affine controls and 25 m screening band. Boundary-sensitive counts are in statistics.json.
+Analysis and GIS use EPSG:6677 in metres. Browser GeoJSON uses WGS 84 longitude and latitude. [Coordinate reference](COORDINATE_REFERENCE.md) Each trace retains its source pixels, affine controls and 25 m screening band. Boundary-sensitive counts are in statistics.json.
 
 ## POI semantics（功能语义）
 

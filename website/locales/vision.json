@@ -1,0 +1,1763 @@
+{
+  "Future Vision": [
+    "将来構想",
+    "未来愿景"
+  ],
+  "Kajicho 2050": [
+    "鍛冶町 2050",
+    "鍛冶町 2050"
+  ],
+  "Prepare one plan for Kajicho 1 & 2 within the Primary Boundary.": [
+    "鍛冶町一・二丁目の重点区域を対象に、一つの計画にまとめます。",
+    "在既有重点区边界内，为鍛冶町一、二丁目编制一套完整方案。"
+  ],
+  "Open full-size aerial image of Kajicho": [
+    "鍛冶町の航空写真を原寸で開く",
+    "打开鍛冶町航拍原图"
+  ],
+  "Black-and-white aerial view of Kajicho showing the building fabric and JR Kanda Station beside the railway": [
+    "建物の形と線路沿いのJR神田駅を示す鍛冶町の白黒航空写真",
+    "鍛冶町的黑白航拍，显示建筑轮廓与铁路旁的 JR 神田駅"
+  ],
+  "Kajicho and the JR Kanda rail corridor": [
+    "鍛冶町とJR神田駅周辺の鉄道沿線",
+    "鍛冶町与 JR 神田駅周边铁路沿线"
+  ],
+  "MLIT PLATEAU FY2023 · Interim slide 7": [
+    "国土交通省 PLATEAU 2023年度・中間発表スライド7",
+    "国土交通省 PLATEAU 2023 年度 · 中期汇报第 7 页"
+  ],
+  "Future Vision sections": [
+    "将来構想の項目",
+    "未来愿景目录"
+  ],
+  "Framework": [
+    "計画の枠組み",
+    "规划框架"
+  ],
+  "Proposal sites": [
+    "提案の対象地",
+    "方案场地"
+  ],
+  "Policy and roles": [
+    "政策と役割",
+    "政策与角色"
+  ],
+  "Targets": [
+    "目標",
+    "目标"
+  ],
+  "Phases": [
+    "実施段階",
+    "实施分期"
+  ],
+  "Sources": [
+    "出典",
+    "来源"
+  ],
+  "Planning framework": [
+    "計画の枠組み",
+    "规划框架"
+  ],
+  "Carry Kajicho forward by lowering operating carbon, adapting to heat and flooding, and supporting local businesses and public life.": [
+    "建物運用時のCO₂を減らし、暑熱と浸水に備え、地域の商いと公共空間での日常生活を支えます。",
+    "通过减少建筑运营碳排放、应对暑热与内涝，支持本地商户和日常公共生活，让鍛冶町持续发展。"
+  ],
+  "Outcomes": [
+    "目指す成果",
+    "预期成果"
+  ],
+  "Six studies": [
+    "6つの研究",
+    "六项研究"
+  ],
+  "2050 targets": [
+    "2050年の目標",
+    "2050 年目标"
+  ],
+  "Decarbonization": [
+    "脱炭素化",
+    "减碳"
+  ],
+  "Studies": [
+    "研究",
+    "研究"
+  ],
+  "Building energy and renewal": [
+    "建物エネルギーと更新",
+    "建筑能源与更新"
+  ],
+  "Retrofit, selectively rebuild and share rooftop solar.": [
+    "建物を改修し、必要なものを選んで建て替え、屋上太陽光の電力を融通します。",
+    "改造既有建筑，选择性重建，并共享屋顶光伏电力。"
+  ],
+  "Land use and local economy": [
+    "土地利用と地域経済",
+    "土地利用与地方经济"
+  ],
+  "Identify uses to keep and space for housing and work.": [
+    "維持する用途と、住まいや仕事のために確保する空間を特定します。",
+    "识别要保留的用途，以及可用于住宅和工作的空间。"
+  ],
+  "Annual operating CO₂": [
+    "年間の運用時CO₂",
+    "年度运营 CO₂"
+  ],
+  "Connected proposal sites": [
+    "関連する提案対象地",
+    "关联方案场地"
+  ],
+  "{0} Solar and green roofs": [
+    "{0} 太陽光発電と屋上緑化",
+    "{0} 屋顶光伏与绿化"
+  ],
+  "{0} Shopfronts and alleys": [
+    "{0} 店舗の間口と路地",
+    "{0} 店铺界面与小巷"
+  ],
+  "Climate resilience": [
+    "気候レジリエンス",
+    "气候韧性"
+  ],
+  "Heat and green space": [
+    "暑熱と緑地",
+    "暑热与绿地"
+  ],
+  "Place shade where people walk and gather.": [
+    "人が歩き、集まる場所に日陰をつくります。",
+    "在步行和聚集的地方增加遮阴。"
+  ],
+  "Flooding and drainage": [
+    "浸水と排水",
+    "内涝与排水"
+  ],
+  "Route runoff to connected planting and storage.": [
+    "雨水を、植栽や貯留施設をつないだ経路に導きます。",
+    "将径流引入相连的种植带和蓄水设施。"
+  ],
+  "Sewer overflow": [
+    "下水道の溢水",
+    "下水道溢流"
+  ],
+  "Pedestrian shade, in percentage points": [
+    "歩行空間の日陰率（ポイント）",
+    "步行空间遮阴比例（百分点）"
+  ],
+  "{0} Street corridors": [
+    "{0} 街路の区間",
+    "{0} 街道走廊"
+  ],
+  "{0} Former Imagawa school": [
+    "{0} 旧今川中学校",
+    "{0} 旧今川中学校"
+  ],
+  "Urban vitality": [
+    "街の活力",
+    "街区活力"
+  ],
+  "Street design and access": [
+    "街路設計とアクセス",
+    "街道设计与通达"
+  ],
+  "Reallocate street space and test access, traffic and deliveries.": [
+    "街路空間を再配分し、通行、交通流、荷さばきを検証します。",
+    "重新分配道路空间，检验通达性、交通运行和配送装卸。"
+  ],
+  "Walking and public life": [
+    "歩行と公共空間での日常生活",
+    "步行与公共生活"
+  ],
+  "Find accessible streets with weak walking conditions or few places to stay.": [
+    "行きやすい一方で歩行環境が悪い、または立ち止まる場所が少ない街路を特定します。",
+    "找出容易到达但步行环境欠佳或缺少停留空间的街道。"
+  ],
+  "Of eligible priority links improved": [
+    "対象となる優先区間の改善率",
+    "符合条件的优先路段改善比例"
+  ],
+  "Time spent in public space": [
+    "公共空間での滞在時間",
+    "公共空间停留时间"
+  ],
+  "From studies to phased work": [
+    "研究から段階的な実施へ",
+    "从研究到分期实施"
+  ],
+  "Place": [
+    "場所",
+    "场地"
+  ],
+  "Bring studies together at four sites": [
+    "4か所で研究をまとめて検討する",
+    "在四处场地综合研究成果"
+  ],
+  "Decision": [
+    "判断",
+    "决策"
+  ],
+  "Check policy, rights and approvals": [
+    "政策、権利、許認可を確認する",
+    "核对政策、权利和审批"
+  ],
+  "Phase the work from 2030 to 2050": [
+    "2030年から2050年まで段階的に進める",
+    "从 2030 年到 2050 年分期实施"
+  ],
+  "The outcomes and studies come from the interim slides. The targets and sites are proposed for studio testing. {0}": [
+    "成果と研究は中間発表に基づきます。目標と対象地はスタジオでの検証案です。{0}",
+    "研究与预期成果来自中期汇报。目标和场地供工作室测试。{0}"
+  ],
+  "Source 1": [
+    "出典1",
+    "来源 1"
+  ],
+  "Where the proposals meet": [
+    "提案が交わる場所",
+    "方案交汇的场地"
+  ],
+  "At four sites, the studies share street width, roof area or public land. Compare the options at each site alongside its map.": [
+    "4か所で、複数の研究が街路幅員、屋上面積、公共用地を共有します。地図と合わせて各案を比較します。",
+    "在四处场地，多项研究共同使用道路宽度、屋顶面积或公共用地。结合地图比较每处的方案。"
+  ],
+  "Kajicho map with four candidate sites for street design, roof use, shopfronts and the former Imagawa school": [
+    "街路設計、屋上利用、店舗の間口、旧今川中学校の4候補地を示す鍛冶町の地図",
+    "鍛冶町的四处候选场地，涉及街道设计、屋顶利用、店铺界面及旧今川中学校"
+  ],
+  "The solid dark line marks Kajicho 1 & 2. {0} · {1}": [
+    "濃い実線は鍛冶町一・二丁目を示します。{0} · {1}",
+    "深色实线标出鍛冶町一・二丁目。{0} · {1}"
+  ],
+  "Full-size study map and scale bar": [
+    "調査地図と縮尺を原寸で見る",
+    "查看研究地图原图与比例尺"
+  ],
+  "Map sources": [
+    "地図の出典",
+    "地图来源"
+  ],
+  "Four candidate sites": [
+    "4つの候補地",
+    "四处候选场地"
+  ],
+  "Heisei-dori and Kanamono-dori": [
+    "神田平成通りと神田金物通り",
+    "神田平成通り与神田金物通り"
+  ],
+  "Climate resilience · Urban vitality": [
+    "気候レジリエンス・街の活力",
+    "气候韧性 · 街区活力"
+  ],
+  "Roof cluster east of JR Kanda": [
+    "JR神田駅東側の屋上群",
+    "JR 神田駅东侧屋顶群"
+  ],
+  "Decarbonization · Climate resilience": [
+    "脱炭素化・気候レジリエンス",
+    "减碳 · 气候韧性"
+  ],
+  "Fureai-dori and Ippachi-dori frontages": [
+    "神田ふれあい通りと一八通りの沿道",
+    "神田ふれあい通り与一八通り的沿街界面"
+  ],
+  "Decarbonization · Urban vitality": [
+    "脱炭素化・街の活力",
+    "减碳 · 街区活力"
+  ],
+  "Former Imagawa school and surrounding streets": [
+    "旧今川中学校と周辺街路",
+    "旧今川中学校与周边街道"
+  ],
+  "Case A": [
+    "事例A",
+    "案例 A"
+  ],
+  "Shair, Dingchao, Regina and Keane": [
+    "Shair、Dingchao、Regina、Keane",
+    "Shair、Dingchao、Regina、Keane"
+  ],
+  "Illustrative street width / total space sought": [
+    "例示した街路幅員／提案に必要な幅員の合計",
+    "示例道路宽度／各项设计所需总宽度"
+  ],
+  "Open full-size map. Heisei-dori and Kanamono-dori with anchored proposals for cycling, loading, shop access, shade and drainage. Kanda Keisatsu-dori is marked to the west.": [
+    "原寸地図を開く。神田平成通りと神田金物通りの自転車、荷さばき、店舗へのアクセス、日陰、排水の提案。西側に神田警察通りを表示。",
+    "打开地图原图。神田平成通り与神田金物通り的自行车、装卸、商铺通达、遮阴与排水方案。西侧标有神田警察通り。"
+  ],
+  "Heisei-dori and Kanamono-dori with anchored proposals for cycling, loading, shop access, shade and drainage. Kanda Keisatsu-dori is marked to the west.": [
+    "神田平成通りと神田金物通りの自転車、荷さばき、店舗アクセス、日陰、排水の提案位置。西側に神田警察通りを表示。",
+    "神田平成通り与神田金物通り的自行车、装卸、商铺通达、遮阴和排水方案位置。西侧标有神田警察通り。"
+  ],
+  "Test street changes on the red segments. Check traffic on the connected network, including Kanda Keisatsu-dori.": [
+    "赤い区間で街路の変更を検討します。神田警察通りを含む接続道路網の交通も確認します。",
+    "在红色路段检验街道调整，同时核对神田警察通り等相连道路的交通。"
+  ],
+  "Loading and rain gardens compete for the curb": [
+    "荷さばきと雨庭が道路端の空間を取り合う",
+    "装卸与雨水花园争用路缘空间"
+  ],
+  "Option A": [
+    "案A",
+    "方案 A"
+  ],
+  "Keep curbside loading": [
+    "路上の荷さばきを残す",
+    "保留路侧装卸"
+  ],
+  "Street width used in the example": [
+    "例示案が使う幅員",
+    "示例方案占用的街道宽度"
+  ],
+  "Keep a loading bay on the street and move rainwater storage elsewhere in the same catchment.": [
+    "街路上の荷さばきスペースを残し、同じ集水域の別の場所で雨水を貯留します。",
+    "保留路侧装卸点，在同一汇水区的其他位置设置雨水蓄水设施。"
+  ],
+  "Option B": [
+    "案B",
+    "方案 B"
+  ],
+  "Move loading to a nearby bay": [
+    "近くの荷さばきスペースに移す",
+    "将装卸移至附近泊位"
+  ],
+  "Make room for a rain garden. Test whether a nearby approved bay can serve the same shops.": [
+    "雨庭の空間を確保します。近くの許可済みの荷さばきスペースで同じ店舗に対応できるか確認します。",
+    "腾出空间设置雨水花园，检验附近获准使用的装卸点能否服务同一批商铺。"
+  ],
+  "Who needs to agree": [
+    "同意・調整が必要な関係者",
+    "需协商的相关方"
+  ],
+  "Road manager & police": [
+    "道路管理者・警察",
+    "道路管理部门与警方"
+  ],
+  "Shops & delivery operators": [
+    "店舗と配送事業者",
+    "商铺与配送运营方"
+  ],
+  "Residents & street users": [
+    "住民と道路利用者",
+    "居民与街道使用者"
+  ],
+  "What to test": [
+    "検証する項目",
+    "待验证事项"
+  ],
+  "Survey width and turning space. Compare peak queues, clear walking width, shade and sewer overflow. The interim layout tests 3 general lanes on both streets. {0} · {1}": [
+    "幅員と車両の旋回スペースを測ります。ピーク時の車列、歩行に使える幅、日陰、下水道の溢水を比較します。中間案では両方の街路で一般車線3本を検討しています。{0} · {1}",
+    "测量道路宽度与转弯空间。比较高峰排队、有效步行宽度、遮阴和下水道溢流。中期方案对两条街道均测试 3 条一般车道。{0} · {1}"
+  ],
+  "Street design": [
+    "街路設計",
+    "街道设计"
+  ],
+  "Drainage model": [
+    "排水モデル",
+    "排水模型"
+  ],
+  "Case A notes": [
+    "事例Aの注記",
+    "案例 A 说明"
+  ],
+  "Case B": [
+    "事例B",
+    "案例 B"
+  ],
+  "Asuka, Regina and Keane": [
+    "Asuka、Regina、Keane",
+    "Asuka、Regina、Keane"
+  ],
+  "Illustrative roof area available / total area sought": [
+    "例示した利用可能な屋上面積／提案に必要な合計面積",
+    "示例可用屋顶面积／设计所需总面积"
+  ],
+  "Open full-size map. Candidate roof cluster east of JR Kanda with leaders for solar panels, planting and rainwater storage.": [
+    "原寸地図を開く。JR神田駅東側の屋上候補群に太陽光パネル、植栽、雨水貯留の提案位置を表示。",
+    "打开地图原图。JR 神田駅东侧屋顶候选群标出了光伏板、种植和雨水蓄水的位置。"
+  ],
+  "Candidate roof cluster east of JR Kanda with leaders for solar panels, planting and rainwater storage.": [
+    "JR神田駅東側の屋上候補群と太陽光パネル、植栽、雨水貯留の提案位置",
+    "JR 神田駅东侧屋顶候选群及光伏板、种植、雨水蓄水的位置"
+  ],
+  "The dashed block marks where to survey possible roofs. The leads indicate uses to test across the cluster.": [
+    "破線で囲んだ街区で利用できる屋上を調べます。引き出し線は屋上群で検討する用途を示します。",
+    "虚线街区内需调查可用屋顶，引线标注该组屋顶上待比较的用途。"
+  ],
+  "Solar panels, planting and storage share roof space": [
+    "太陽光パネル、植栽、貯留が屋上空間を共有する",
+    "光伏板、种植与蓄水共用屋顶空间"
+  ],
+  "Move storage to ground level": [
+    "雨水の貯留を地上へ移す",
+    "将蓄水移到地面"
+  ],
+  "Space for panels in the example": [
+    "例示案でパネルに使う面積",
+    "示例中光伏板的布置面积"
+  ],
+  "Keep the full solar area and find a ground-level site for water storage.": [
+    "太陽光パネルの面積を確保し、地上に雨水貯留の場所を探します。",
+    "保留完整光伏用地，在地面寻找雨水蓄水点。"
+  ],
+  "Keep all three uses on the roof": [
+    "3用途すべてを屋上に置く",
+    "在屋顶保留三种用途"
+  ],
+  "Share roof space between solar, planting and storage. Check loads, access and maintenance.": [
+    "屋上を太陽光発電、植栽、雨水貯留で分け合います。荷重、アクセス、維持管理を確認します。",
+    "屋顶由光伏、种植与蓄水共用，并检查荷载、通达与维护条件。"
+  ],
+  "Owners & building managers": [
+    "所有者と建物管理者",
+    "产权人与建筑管理方"
+  ],
+  "Compare yearly electricity and runoff under the same assumptions. Test against 90% of the feasible solar-only yield. {0} · {1}": [
+    "同じ条件で年間発電量と流出を比較します。設置可能な太陽光専用案の年間発電量の90%を目安に検証します。{0} · {1}",
+    "用相同假设比较年发电量和径流，检验能否达到可行纯光伏布置年发电量的 90%。{0} · {1}"
+  ],
+  "Solar target": [
+    "太陽光発電の目標",
+    "光伏目标"
+  ],
+  "Renewal study": [
+    "建物更新の研究",
+    "建筑更新研究"
+  ],
+  "Case B notes": [
+    "事例Bの注記",
+    "案例 B 说明"
+  ],
+  "Case C": [
+    "事例C",
+    "案例 C"
+  ],
+  "Jiaxiang, Asuka and Dingchao": [
+    "Jiaxiang、Asuka、Dingchao",
+    "Jiaxiang、Asuka、Dingchao"
+  ],
+  "Studio demolition cap by 2040": [
+    "2040年までのスタジオ案の解体上限",
+    "工作室方案的 2040 年拆除上限"
+  ],
+  "Open full-size map. Fureai-dori and Ippachi-dori, with leaders for shop and housing uses, street-side walking conditions and retrofit options.": [
+    "原寸地図を開く。神田ふれあい通りと一八通りでの店舗・住居の使い方、歩行環境、改修案を表示。",
+    "打开地图原图。神田ふれあい通り与一八通り标有商住用途、沿街步行条件和改造方案。"
+  ],
+  "Fureai-dori and Ippachi-dori, with leaders for shop and housing uses, street-side walking conditions and retrofit options.": [
+    "神田ふれあい通りと一八通りの店舗・住宅、歩行環境、改修案の位置",
+    "神田ふれあい通り与一八通り的商住用途、步行条件与改造位置"
+  ],
+  "Fureai-dori and the part of Ippachi-dori inside Kajicho are marked for field checks. Review adjoining blocks for wider effects.": [
+    "神田ふれあい通りと一八通りの鍛冶町内の区間を現地で確認します。隣接街区への影響も調べます。",
+    "现场核对神田ふれあい通り及一八通り位于鍛冶町的路段，并查看对相邻街区的影响。"
+  ],
+  "New space can interrupt shops and alley access": [
+    "新しい空間が店舗営業や路地へのアクセスを妨げるおそれがある",
+    "新增空间可能影响店铺经营和小巷通行"
+  ],
+  "Retrofit and fill gaps": [
+    "改修と空地の活用",
+    "改造与填补空置地"
+  ],
+  "Work to retrofit or defer in the example": [
+    "例示案で改修または延期する面積",
+    "示例中改造或延期的面积"
+  ],
+  "Keep more of the existing buildings and fit entrances and seating to active shopfronts and alleys.": [
+    "既存建物をより多く残し、営業する店舗や路地に合わせて出入口と座る場所を配置します。",
+    "保留更多既有建筑，结合活跃商铺界面与小巷布置入口和座椅。"
+  ],
+  "Rebuild selected premises": [
+    "一部を選んで建て替える",
+    "选择性重建部分房屋"
+  ],
+  "Candidate rebuild in the example": [
+    "例示案の建て替え候補面積",
+    "示例中候选重建面积"
+  ],
+  "Test added housing and workspace. Agree on temporary or return premises and adjust the phase if the rebuild exceeds the cap.": [
+    "追加できる住宅と仕事場を検証します。仮移転先や復帰先を合意し、解体上限を超える場合は実施時期を調整します。",
+    "测试可增加的住宅与工作空间。协商临时经营地点或回迁安排，若拆除超限则调整分期。"
+  ],
+  "Tenants": [
+    "賃借人",
+    "租户"
+  ],
+  "Survey both street sides at different times. Compare retained shops, housing capacity, carbon and alley access. {0} · {1}": [
+    "異なる時間帯に街路の両側を調べます。維持できる店舗、住宅の収容力、CO₂、路地へのアクセスを比較します。{0} · {1}",
+    "在不同时段调查街道两侧，比较保留店铺、住房容量、碳排放和小巷通行。{0} · {1}"
+  ],
+  "Use inventory": [
+    "用途台帳",
+    "用途清单"
+  ],
+  "Frontage study": [
+    "沿道間口の調査",
+    "沿街界面调查"
+  ],
+  "Case C notes": [
+    "事例Cの注記",
+    "案例 C 说明"
+  ],
+  "Case D": [
+    "事例D",
+    "案例 D"
+  ],
+  "Jiaxiang, Regina, Keane and Dingchao": [
+    "Jiaxiang、Regina、Keane、Dingchao",
+    "Jiaxiang、Regina、Keane、Dingchao"
+  ],
+  "Rainfall used for the studio drainage test": [
+    "スタジオの排水検証に用いる降雨強度",
+    "工作室排水测试采用的降雨强度"
+  ],
+  "Open full-size map. Former Imagawa Junior High School footprint and nearby streets, with leaders for shade, rain storage, walking access and daily use.": [
+    "原寸地図を開く。旧今川中学校の建物形状と周辺街路に、日陰、雨水貯留、歩行アクセス、日常利用の検討位置を表示。",
+    "打开地图原图。旧今川中学校建筑轮廓和附近街道标出了遮阴、蓄水、步行通达和日常使用的测试位置。"
+  ],
+  "Former Imagawa Junior High School footprint and nearby streets, with leaders for shade, rain storage, walking access and daily use.": [
+    "旧今川中学校と周辺街路の日陰、雨水貯留、歩行アクセス、日常利用の検討位置",
+    "旧今川中学校及周边街道的遮阴、蓄水、步行通达和日常使用测试位置"
+  ],
+  "The outline marks the former school building. Confirm the public land boundary and entrances before siting a trial.": [
+    "外形線は旧校舎を示します。試行場所を決める前に公共用地の境界と出入口を確認します。",
+    "轮廓线标出旧校舍。选定试点前须核对公共用地边界及出入口。"
+  ],
+  "Rain storage must leave a dry route into the site": [
+    "雨水貯留を設けても、敷地に濡れずに入れる経路を確保する",
+    "雨水蓄水需保留不积水的入场路线"
+  ],
+  "Store rainwater at the school edge": [
+    "学校用地の縁に雨水を貯める",
+    "在校址边缘滞蓄雨水"
+  ],
+  "Use a planted edge for storage and leave a dry path to shaded seating and gathering space.": [
+    "植栽帯で雨水を貯め、日陰のベンチや集まる場所まで濡れずに歩けるようにします。",
+    "利用种植带蓄水，保留一条通往遮阴座位与聚集空间的不积水步行路线。"
+  ],
+  "Store rainwater elsewhere": [
+    "別の場所に雨水を貯める",
+    "在其他位置滞蓄雨水"
+  ],
+  "Test another site in the same catchment and use the school edge for an accessible public space.": [
+    "同じ集水域で別の場所を検証し、学校用地の縁は誰もが使える公共空間にします。",
+    "在同一汇水区测试其他蓄水地块，将校址边缘用于无障碍公共空间。"
+  ],
+  "Chiyoda City": [
+    "千代田区",
+    "千代田区"
+  ],
+  "Site operators": [
+    "施設の運営者",
+    "场地运营方"
+  ],
+  "Observe access, shade and use before and during a reversible trial. Rerun the drainage model for the chosen layout and outlet. {0} · {1}": [
+    "元に戻せる試行の前と実施中に、アクセス、日陰、使われ方を観察します。選んだ配置と排水口で排水モデルを再計算します。{0} · {1}",
+    "在可撤回的试点前及期间观察通达、遮阴和空间使用。用选定的布局及出水口重跑排水模型。{0} · {1}"
+  ],
+  "Public land policy": [
+    "公共用地の政策",
+    "公共用地政策"
+  ],
+  "Local pilot": [
+    "地域の試行事業",
+    "地方试点"
+  ],
+  "Case D notes": [
+    "事例Dの注記",
+    "案例 D 说明"
+  ],
+  "Case notes": [
+    "事例の注記",
+    "案例说明"
+  ],
+  "An illustrative 17 m section has 18.5 m of proposed uses. Moving loading to an approved bay reduces the need to 16.5 m. Keeping loading and moving rain storage uses the full 17 m. In the interim design, Heisei-dori goes from four general lanes to three, and Kanamono-dori keeps three.": [
+    "幅員17 mの例示断面に18.5 m分の用途を配置しようとしています。荷さばきを許可済みの別の場所に移すと、必要幅は16.5 mになります。荷さばきを残して貯留を移す案は幅員17 mを使い切ります。中間設計では神田平成通りの一般車線を4本から3本にし、神田金物通りは3本を維持します。",
+    "示例断面宽 17 m，拟布置的用途共需 18.5 m。将装卸移至获准使用的泊位后，所需宽度为 16.5 m。保留装卸并移走蓄水时用满 17 m。中期设计将神田平成通り的一般车道从 4 条减为 3 条，神田金物通り保留 3 条。"
+  ],
+  "Keane’s two-sided rain garden scenario leaves about 378 m³ of overflow, some 30 m³ above the 2050 target. Compare options at the same inlets and outlets. {0} · {1}": [
+    "Keaneの両側雨庭案では約378 m³が溢水し、2050年目標を約30 m³上回ります。同じ流入口と流出口で案を比較します。{0} · {1}",
+    "Keane 的双侧雨水花园情景仍有约 378 m³ 溢流，比 2050 年目标高约 30 m³。在相同进水口和出水口条件下比较方案。{0} · {1}"
+  ],
+  "Overflow target": [
+    "溢水の目標",
+    "溢流目标"
+  ],
+  "Interim street map": [
+    "中間発表の街路地図",
+    "中期街道地图"
+  ],
+  "Confirm trial approvals, traffic circulation and emergency access.": [
+    "試行の許可、交通の流れ、緊急車両のアクセスを確認します。",
+    "核对试点审批、交通运行和应急通行。"
+  ],
+  "Check delivery times, turning space and the route from the bay to shops.": [
+    "配送時間、旋回スペース、荷さばき場所から店舗への経路を確認します。",
+    "核对配送时段、转弯空间及装卸点到店铺的路线。"
+  ],
+  "Walk the clear route and check crossings.": [
+    "有効幅が取れた経路を歩き、横断部を確認します。",
+    "实地走查保证净宽的路线，并检查过街点。"
+  ],
+  "An illustrative roof has 1,000 m² free and three uses requesting 1,100 m². If the 150 m² storage moves, 950 m² remain in use, including all 700 m² of panels. Keeping all uses on the roof leaves 600 m² for panels. Test whether that still reaches 90% of feasible solar-only yield. Count any shared planting and storage area once. {0}": [
+    "例示する屋上の空き面積は1,000 m²で、3用途に計1,100 m²が必要です。150 m²の貯留を移すと使用面積は950 m²で、パネル700 m²を全て残せます。全用途を残すとパネルは600 m²になります。太陽光専用案の発電可能量の90%に届くかを検証します。植栽と貯留が同じ場所を使う場合は面積を重複計上しません。{0}",
+    "示例屋顶有 1,000 m² 可用面积，三种用途共需 1,100 m²。移走 150 m² 的蓄水设施后占用 950 m²，可保留全部 700 m² 光伏。如果三种用途都留在屋顶，光伏面积为 600 m²。检验其发电量能否达到可行纯光伏方案的 90%。共用的种植与蓄水面积只计一次。{0}"
+  ],
+  "Interim building stock map": [
+    "中間発表の建物ストック地図",
+    "中期既有建筑地图"
+  ],
+  "Confirm roof rights, safe access and who shares electricity, costs and upkeep.": [
+    "屋上の権利と安全なアクセス、電力・費用・維持管理の分担を確認します。",
+    "核对屋顶权利、安全通达条件，以及用电、成本和维护如何分担。"
+  ],
+  "In the 2040 example, 5% of 200,000 m² permits 10,000 m² of demolition. Adding a 1,600 m² rebuild to 9,200 m² already allocated exceeds the cap by 800 m². Retrofit or rephase enough work to stay within the cap. On the Fureai-dori study segment, shops face a parking edge, so assess each side’s needs separately. {0}": [
+    "2040年の例では、200,000 m²の5%である10,000 m²まで解体できます。計上済みの9,200 m²に1,600 m²の建て替えを加えると、800 m²超過します。改修や時期の変更で上限内に収めます。神田ふれあい通りの調査区間では店舗と駐車場の端部が向かい合うため、両側の要件を別々に確認します。{0}",
+    "2040 年的示例中，200,000 m² 的 5% 对应 10,000 m² 拆除上限。在已分配的 9,200 m² 上再加 1,600 m² 重建，会超出 800 m²。通过改造或调整分期控制在上限内。神田ふれあい通り研究段的商铺对着停车场边缘，两侧需求应分别评估。{0}"
+  ],
+  "Interim walking screen": [
+    "中間発表の歩行環境スクリーニング",
+    "中期步行条件筛查"
+  ],
+  "Review leases and the timing of work.": [
+    "賃貸条件と工事時期を確認します。",
+    "查看租赁条件与施工时间。"
+  ],
+  "Check shop continuity, construction access and workable premises.": [
+    "店舗が営業を続けられるか、工事中のアクセスや利用可能な代替場所を確認します。",
+    "核对商铺营业延续、施工通达和可用的替代场所。"
+  ],
+  "Discuss temporary and return premises and access during work.": [
+    "仮移転先や復帰先、工事中の出入りを協議します。",
+    "协商临时和回迁场所，以及施工期间的通达条件。"
+  ],
+  "Check alley and entrance access during construction.": [
+    "工事中も路地と出入口にアクセスできるか確認します。",
+    "检查施工期间小巷与入口是否可达。"
+  ],
+  "Start with a reversible seating and shade trial if Chiyoda agrees. Observe the route and space before and during the trial. Locate permanent storage after checking public facility needs, the site boundary and the drainage connection. {0}": [
+    "千代田区が同意すれば、元に戻せる座席と日陰の試行から始めます。試行の前と実施中に経路と空間を観察します。公共施設の要件、敷地境界、排水接続を確認してから恒久的な貯留施設を配置します。{0}",
+    "若千代田区同意，先试行可撤回的座位和遮阴设施，在试点前及期间观察路线和场地使用。核对公共设施需求、场地边界及排水连接后，再选定永久蓄水设施位置。{0}"
+  ],
+  "Interim public assets map": [
+    "中間発表の公共施設地図",
+    "中期公共资产地图"
+  ],
+  "Confirm the land boundary, compatible uses and opening hours.": [
+    "敷地境界、利用できる用途、開放時間を確認します。",
+    "核对地块边界、允许用途和开放时间。"
+  ],
+  "Test the dry route, seating and hours of use.": [
+    "濡れずに歩ける経路、座れる場所、利用時間帯を試します。",
+    "检验不积水的步行路线、座位和使用时段。"
+  ],
+  "Identify who will run and maintain a trial.": [
+    "試行の運営と維持管理を担う人を確認します。",
+    "明确试点运营和维护的负责人。"
+  ],
+  "Policy and who decides": [
+    "政策と意思決定",
+    "政策与决策主体"
+  ],
+  "Before choosing a design, check which plans apply, who is affected and who can carry out the work.": [
+    "設計を選ぶ前に、適用される計画、影響を受ける人、実施できる人を確認します。",
+    "选择设计前，核对适用规划、受影响群体与能够实施方案的主体。"
+  ],
+  "Plans and local evidence": [
+    "計画と現地で得た情報",
+    "规划与现场证据"
+  ],
+  "Kanda Station walking route": [
+    "神田駅の歩行経路",
+    "神田駅步行路线"
+  ],
+  "Heisei-dori to Kanda Keisatsu-dori. {0}": [
+    "神田平成通りから神田警察通りまで。{0}",
+    "从神田平成通り到神田警察通り。{0}"
+  ],
+  "Izumibashi plan, p. 180": [
+    "和泉橋地域の計画、180ページ",
+    "和泉橋地区规划，第 180 页"
+  ],
+  "Shops and seating": [
+    "店舗と座れる場所",
+    "店铺与座位"
+  ],
+  "Fureai-dori shops and an East Exit parking-bay seating trial. {0}": [
+    "神田ふれあい通りの店舗と、神田駅東口の駐車帯で行ったベンチの試行。{0}",
+    "神田ふれあい通り的商铺，以及神田駅東口停车泊位的座椅试点。{0}"
+  ],
+  "Field Visit": [
+    "現地調査",
+    "场地调研"
+  ],
+  "Trial report": [
+    "試行報告",
+    "试点报告"
+  ],
+  "Walkable design": [
+    "歩きやすい街の設計",
+    "步行友好设计"
+  ],
+  "Public land and building renewal": [
+    "公共用地と建物更新",
+    "公共用地与建筑更新"
+  ],
+  "Chiyoda retains the former Imagawa school site for public facilities. {0}": [
+    "千代田区は旧今川中学校の敷地を公共施設用に留保しています。{0}",
+    "千代田区将旧今川中学校校址保留用于公共设施。{0}"
+  ],
+  "Building rules": [
+    "建築の規則",
+    "建筑规则"
+  ],
+  "People and responsibilities": [
+    "担い手と責任",
+    "相关方与职责"
+  ],
+  "Land and building rights": [
+    "土地・建物の権利",
+    "土地与建筑权利"
+  ],
+  "Landowners, land leaseholders and building owners. {0}": [
+    "土地所有者、借地権者、建物所有者。{0}",
+    "土地所有人、土地承租权人及建筑所有人。{0}"
+  ],
+  "Field Visit rights map": [
+    "現地調査の権利関係図",
+    "实地调研权利关系图"
+  ],
+  "Daily access and use": [
+    "日常のアクセスと利用",
+    "日常通达与使用"
+  ],
+  "Residents, tenants, businesses and people on the street.": [
+    "住民、賃借人、事業者、街路利用者。",
+    "居民、租户、经营者和街道使用者。"
+  ],
+  "Local groups and public managers": [
+    "地域団体と公共施設の管理者",
+    "地方团体与公共管理方"
+  ],
+  "Neighborhood association, East Exit redevelopment preparatory association and the managers of roads, sewers and public sites. {0}": [
+    "町会、東口再開発準備組合、道路・下水道・公共施設の管理者。{0}",
+    "町会、東口再開発準備組合，以及道路、下水道和公共场地的管理方。{0}"
+  ],
+  "Field Visit organizations": [
+    "現地調査で確認した団体",
+    "实地调研涉及的组织"
+  ],
+  "How the studio tests proposals": [
+    "スタジオの提案検証手順",
+    "工作室如何验证方案"
+  ],
+  "Check what applies": [
+    "適用条件を確認する",
+    "核对适用条件"
+  ],
+  "Check plans, site capacity, rights and protected uses. Keep essential access.": [
+    "計画、敷地の収容力、権利、保護対象の用途を確認します。必要なアクセスを維持します。",
+    "核对规划、场地容量、权利和受保护用途，维持必要通行。"
+  ],
+  "Studio test limits": [
+    "スタジオの検証条件",
+    "工作室测试限制"
+  ],
+  "Test the options": [
+    "選択肢を検証する",
+    "测试备选方案"
+  ],
+  "Use the same reference to compare retrofit-first and selective renewal. Show who gains or loses.": [
+    "同じ参照条件で改修優先案と選択的な建物更新案を比較し、誰が利益を得、誰が不利益を受けるかを示します。",
+    "用同一参照方案比较改造优先与选择性更新，并说明受益和受损的群体。"
+  ],
+  "Confirm responsibilities": [
+    "責任分担を確認する",
+    "确认责任分工"
+  ],
+  "Check approvals, terms with affected users, funding and who will run and maintain the work.": [
+    "許可、影響を受ける人との取り決め、資金、運営と維持管理の担当者を確認します。",
+    "核对审批、与受影响使用者的约定、资金，以及运营和维护负责人。"
+  ],
+  "Outcome of the studio checks": [
+    "スタジオでの検証結果",
+    "工作室检验结果"
+  ],
+  "Requirements still open": [
+    "未確認の要件がある",
+    "仍有条件待确认"
+  ],
+  "Revise and retest": [
+    "見直して再検証する",
+    "调整并复测"
+  ],
+  "Change the design, location or timing.": [
+    "設計、場所、時期を変更します。",
+    "调整设计、位置或时间。"
+  ],
+  "Requirements met for this phase": [
+    "この段階の要件を満たした",
+    "满足本阶段要求"
+  ],
+  "Set the phase": [
+    "実施段階を決める",
+    "确定实施阶段"
+  ],
+  "Record who acts, funds and maintains the work.": [
+    "実施、費用負担、維持管理の担当者を記録します。",
+    "记录实施方、出资方和维护方。"
+  ],
+  "Studio test limits and comparison rules": [
+    "スタジオの検証条件と比較ルール",
+    "工作室的测试限制与比较规则"
+  ],
+  "Demolition": [
+    "解体",
+    "拆除"
+  ],
+  "Cap cumulative demolition at 0% by 2030, 5% by 2040 and 10% by 2050. Use existing gross floor area in Kajicho 1 & 2. Count each removed building once.": [
+    "累積解体面積の上限は2030年0%、2040年5%、2050年10%とします。鍛冶町一・二丁目の既存延べ面積を分母とし、各解体建物は一度だけ計上します。",
+    "累计拆除面积上限为 2030 年 0%、2040 年 5%、2050 年 10%。以鍛冶町一・二丁目现有建筑总面积为分母，每栋拆除建筑只计一次。"
+  ],
+  "Drainage and access": [
+    "排水とアクセス",
+    "排水与通行"
+  ],
+  "Keep modeled sewer overflow at zero under 85 mm/h and hold downstream peak discharge to the reference level or below. Keep emergency and essential access.": [
+    "85 mm/hの降雨ではモデル上の下水道溢水をゼロとし、下流のピーク流量を参照条件以下に抑えます。緊急時と日常に必要なアクセスを維持します。",
+    "在 85 mm/h 降雨下，模拟下水道溢流为零，下游峰值流量不超过参照值，同时保留应急和必要通行。"
+  ],
+  "Comparison and funding": [
+    "比較と資金",
+    "方案比较与资金"
+  ],
+  "Include independently confirmed work in the reference. Report the gains, losses and people affected. Assign a funding source, operator and maintenance budget to each scheduled permanent action.": [
+    "個別に確認済みの工事を参照条件に含めます。便益と不利益、影響を受ける人を示します。予定する各恒久事業には財源、運営者、維持管理予算を設定します。",
+    "参照方案纳入已独立确认的工程。报告收益、损失及受影响群体。为计划中的每项永久措施指明出资来源、运营方和维护预算。"
+  ],
+  "Target to Test": [
+    "目標と検証方法",
+    "目标与验证"
+  ],
+  "Twelve proposed targets for 2050. Each shows what we know today and the check to make after a pilot or permanent change.": [
+    "2050年に向けた12の提案目標です。現時点で分かっていることと、試行や恒久整備の後に確認することを示します。",
+    "面向 2050 年的 12 项建议目标。每项列出当前基线和试点或永久实施后的核对方法。"
+  ],
+  "Annual operating carbon": [
+    "年間の運用時炭素排出",
+    "年度运营碳排放"
+  ],
+  "annual operating CO₂": [
+    "年間の運用時CO₂",
+    "年度运营 CO₂"
+  ],
+  "Baseline": [
+    "基準値",
+    "基线"
+  ],
+  "13,090 tCO₂/yr · 243 buildings (modeled)": [
+    "年13,090 tCO₂、243棟（モデル推計）",
+    "每年 13,090 tCO₂，243 栋建筑（模型估计）"
+  ],
+  "Verify": [
+    "検証",
+    "验证"
+  ],
+  "Compare annual energy and CO₂ across the same buildings.": [
+    "同じ建物群で年間のエネルギー消費量とCO₂を比較します。",
+    "比较同一批建筑的年度能耗与 CO₂。"
+  ],
+  "Cumulative carbon": [
+    "累積炭素排出",
+    "累计碳排放"
+  ],
+  "≤ reference": [
+    "参照案以下",
+    "不超过参照方案"
+  ],
+  "total CO₂e through 2050": [
+    "2050年までの総CO₂換算排出量",
+    "截至 2050 年的 CO₂ 当量总排放"
+  ],
+  "Estimate materials and operating emissions for the reference": [
+    "参照案の資材由来・運用時排出を推計する",
+    "估算参照方案的材料与运营排放"
+  ],
+  "Add emissions from construction, demolition and use.": [
+    "建設、解体、運用の排出を合算します。",
+    "合计建设、拆除与运营排放。"
+  ],
+  "Solar electricity on shared roofs": [
+    "屋上の複合利用と太陽光発電",
+    "共用屋顶光伏发电"
+  ],
+  "of feasible solar-only annual yield": [
+    "実現可能な太陽光専用案の年間発電量に対する割合",
+    "占可行纯光伏布置年发电量的比例"
+  ],
+  "Survey installed capacity and roof conditions": [
+    "既設容量と屋上条件を調べる",
+    "调查现有装机容量与屋顶条件"
+  ],
+  "Compare annual kWh for shared-use and solar-only layouts.": [
+    "複合利用案と太陽光専用案の年間発電量（kWh）を比較します。",
+    "比较共用与纯光伏布置的年发电量（kWh）。"
+  ],
+  "Local sewer overflow": [
+    "地区内の下水道溢水",
+    "本地区下水道溢流"
+  ],
+  "sewer overflow (−15%) at 150 mm/h": [
+    "150 mm/hの降雨時の下水道溢水（−15%）",
+    "150 mm/h 降雨下的下水道溢流（−15%）"
+  ],
+  "409 m³ at 150 mm/h (modeled)": [
+    "150 mm/hで409 m³（モデル推計）",
+    "150 mm/h 降雨下为 409 m³（模型估计）"
+  ],
+  "Rerun the same storm and check downstream peak flow.": [
+    "同じ降雨で再計算し、下流のピーク流量を確認します。",
+    "用相同降雨重跑模型，并核对下游峰值流量。"
+  ],
+  "Shade on walkways and places to stay": [
+    "歩行空間と滞在空間の日陰",
+    "步行与停留空间遮阴"
+  ],
+  "percentage points in shaded area": [
+    "日陰面積の割合の変化（ポイント）",
+    "遮阴面积比例变化（百分点）"
+  ],
+  "Map current shade on selected walkways and public spaces": [
+    "選んだ歩行経路と公共空間の現在の日陰を地図にする",
+    "绘制选定步行路线与公共空间的现有遮阴"
+  ],
+  "Compare shade maps at 14:00 on the same summer day.": [
+    "同じ夏の日の14:00の日陰地図を比較します。",
+    "比较同一个夏日 14:00 的遮阴地图。"
+  ],
+  "Outdoor heat stress": [
+    "屋外の暑熱負荷",
+    "户外热应激"
+  ],
+  "mean outdoor heat stress (UTCI)": [
+    "平均屋外暑熱指標（UTCI）",
+    "平均户外热应激指数（UTCI）"
+  ],
+  "Measure pedestrian-level conditions on a hot day": [
+    "暑い日の歩行者の高さで環境を測る",
+    "测量炎热天气下行人高度的环境条件"
+  ],
+  "Repeat heat stress checks at matched sites and times.": [
+    "同じ場所と時間帯で暑熱を再測定します。",
+    "在同一地点与时段重复测量热应激。"
+  ],
+  "Social and economic vitality": [
+    "社会と経済の活力",
+    "社会与经济活力"
+  ],
+  "Priority walking links": [
+    "優先する歩行区間",
+    "优先步行路段"
+  ],
+  "of eligible priority links improved": [
+    "対象となる優先区間の改善率",
+    "符合条件的优先路段改善比例"
+  ],
+  "32 priority and 65 retention links across the wider study area": [
+    "広域調査範囲に改善優先32区間、維持65区間",
+    "外围研究区内有 32 个优先改善路段和 65 个建议保留路段"
+  ],
+  "Audit and resurvey the same priority links inside Kajicho 1 & 2.": [
+    "鍛冶町一・二丁目内の同じ優先区間を点検し、再調査します。",
+    "对鍛冶町一・二丁目内同一批优先路段进行核查和复测。"
+  ],
+  "or more time spent in selected spaces": [
+    "選んだ空間での滞在時間の増加率",
+    "选定场所的停留时间增幅"
+  ],
+  "Count person-minutes per hour before the pilot": [
+    "試行前に観察1時間あたりの滞在量（人・分）を記録する",
+    "试点前记录每观测小时的总停留量（人·分钟）"
+  ],
+  "Repeat counts of time spent sitting, meeting or using the space.": [
+    "座る、会う、空間を使う時間を再計測します。",
+    "重复记录就坐、会面和使用空间的时间。"
+  ],
+  "Housing capacity": [
+    "住宅の収容力",
+    "住宅容量"
+  ],
+  "people in net housing capacity": [
+    "純増する居住可能人数",
+    "净增的居住容量（人数）"
+  ],
+  "Audit existing dwellings. 300 registered residents in Oct 2026": [
+    "既存住宅を調査する。2026年10月の住民登録は300人。",
+    "调查现有住宅。2026 年 10 月登记居民为 300 人。"
+  ],
+  "Compare retained, removed and added capacity from plans.": [
+    "図面で維持、撤去、追加される収容力を比較します。",
+    "依据平面方案比较保留、减少与新增的住房容量。"
+  ],
+  "Workspace capacity": [
+    "仕事場の容量",
+    "工作空间容量"
+  ],
+  "of affected usable workspace kept": [
+    "事業の影響を受ける利用可能な仕事場の面積の維持率",
+    "受项目影响的可用工作空间保留比例"
+  ],
+  "Survey existing usable floor area at project sites": [
+    "事業対象地の現状の有効床面積を調査する",
+    "调查项目场地目前的可用面积"
+  ],
+  "Compare usable m² and small premises by use.": [
+    "用途別に有効面積（m²）と小規模区画を比較します。",
+    "分用途比较可用面积（m²）和小型经营空间。"
+  ],
+  "Deliveries and essential access": [
+    "配送と必要なアクセス",
+    "配送与必要通行"
+  ],
+  "unserved destinations and added junction spillbacks": [
+    "必要なアクセスを失う行き先と新たな交差点への滞留",
+    "失去必要通达的目的地与新增回堵交叉口"
+  ],
+  "Heisei-dori 4 lanes and Kanamono-dori 3. Count peak traffic": [
+    "神田平成通りは4車線、神田金物通りは3車線。ピーク時の交通量を数える。",
+    "神田平成通り有 4 条车道，神田金物通り有 3 条，调查高峰交通量。"
+  ],
+  "Walk the routes and test loading and peak queues.": [
+    "経路を歩き、荷さばきとピーク時の車列を確認します。",
+    "走查通行路线，测试装卸和高峰排队。"
+  ],
+  "Small businesses and heritage": [
+    "小規模店舗と歴史資産",
+    "小商户与历史资产"
+  ],
+  "of displaced small shops offered viable space": [
+    "移転する小規模店舗へ利用可能な区画を提示する割合",
+    "获得可用经营空间安排的受迁小商户比例"
+  ],
+  "Record current shops, protected assets and alley access": [
+    "現在の店舗、保護対象、路地へのアクセスを記録する",
+    "记录现有店铺、受保护资产以及小巷通达条件"
+  ],
+  "Check written offers and verify zero loss of protected assets or links.": [
+    "書面の提示を確認し、保護対象の資産や経路が失われていないか確認します。",
+    "核查书面安排，并确认受保护资产和通道均未损失。"
+  ],
+  "Measurement notes and milestones": [
+    "測定の補足と中間目標",
+    "测量说明与阶段目标"
+  ],
+  "Existing baseline": [
+    "現況の基準値",
+    "现状基线"
+  ],
+  "13,090 tCO₂ per year for 243 existing buildings in Asuka’s interim model. Its −9.2% scenario assumed 151 rebuilds. {0}": [
+    "Asukaの中間モデルでは既存243棟で年間13,090 tCO₂。−9.2%のシナリオは151棟の建て替えを想定しています。{0}",
+    "Asuka 的中期模型涵盖 243 栋既有建筑，年排放为 13,090 tCO₂。−9.2% 情景假定重建 151 栋。{0}"
+  ],
+  "Source 4": [
+    "出典4",
+    "来源 4"
+  ],
+  "Proposed target": [
+    "提案目標",
+    "建议目标"
+  ],
+  "{0} A reduction of 8% on the interim baseline is about 1,047 tCO₂ per year.": [
+    "{0} 中間基準値から8%削減すると、年約1,047 tCO₂の削減です。",
+    "{0} 以中期基线计算，减排 8% 约为每年减少 1,047 tCO₂。"
+  ],
+  "−2% by 2030, −5% by 2040, −8% by 2050.": [
+    "2030年までに−2%、2040年までに−5%、2050年までに−8%。",
+    "到 2030 年减排 2%，2040 年减排 5%，2050 年减排 8%。"
+  ],
+  "How to verify": [
+    "検証方法",
+    "验证方法"
+  ],
+  "Compare each package against its same-year reference. Match the study inventory, uses, occupancy and emission factors. Model energy demand and solar consumed on site. Compare modeled demand with meter data where available. Report total CO₂ and demand per square meter.": [
+    "各案を同年の参照案と比較します。対象建物、用途、入居、排出係数をそろえ、エネルギー需要と敷地内で使われる太陽光電力を推計します。計量データがあれば需要を照合し、CO₂の総量と床面積1 m²あたりの需要を報告します。",
+    "各方案与同年的参照方案比较。统一研究建筑、用途、入住条件和排放因子，模拟能源需求及就地消纳的光伏电力。能获得表计数据时用其核对需求，并报告 CO₂ 总量和每平方米需求量。"
+  ],
+  "The interim assessed operating carbon. Estimate the reference’s materials, construction, demolition, replacements and operation before comparing alternatives.": [
+    "中間発表では運用時の排出を評価しました。代替案の比較に先立ち、参照案の資材、建設、解体、更新、運用の排出を推計します。",
+    "中期研究评估了运营碳。比较备选方案前，估算参照方案的材料、建设、拆除、更换与运营排放。"
+  ],
+  "{0} in tCO₂e, summed from the same start year for every package.": [
+    "{0}。全案を同じ開始年から積算し、単位はtCO₂e。",
+    "{0}。各方案从同一开始年份累计，以 tCO₂e 计。"
+  ],
+  "2050 cumulative emissions at or below the reference": [
+    "2050年までの累積排出は参照案以下",
+    "到 2050 年累计排放不超过参照方案"
+  ],
+  "Derive quantities from the existing and proposed models. Apply the same material factors, service lives and operational assumptions. Report upfront and annual emissions separately, then add them through 2050.": [
+    "現況・提案モデルから数量を算出します。資材の排出係数、耐用年数、運用条件をそろえ、初期排出と年間排出を別々に報告したうえで2050年まで合算します。",
+    "从现状和方案模型提取数量，统一材料排放因子、使用寿命与运营假设。分别报告前期与年度排放，再累计到 2050 年。"
+  ],
+  "The interim’s consolidated-roof example generated about 1.5 times the modeled yield of the existing roof layout. Record current installed capacity and meter data for each chosen cluster. {0}": [
+    "中間発表の屋上集約例では、現状の屋上配置の約1.5倍のモデル発電量を得ました。選んだ屋上群ごとに現在の設置容量と計量データを記録します。{0}",
+    "中期集中布置屋顶的示例，模拟发电约为既有布置的 1.5 倍。记录各选定屋顶群的现有容量与表计数据。{0}"
+  ],
+  "{0} on roofs that also provide planting or water storage.": [
+    "植栽や雨水貯留と屋上を共用する場合も、{0}。",
+    "屋顶与种植或蓄水共用时，{0}。"
+  ],
+  "At least 90% of the feasible solar-only layout’s annual yield": [
+    "実現可能な太陽光専用案の年間発電量の90%以上を確保",
+    "至少达到可行纯光伏方案年发电量的 90%"
+  ],
+  "Run both layouts with the same roof access, load limits, shading and weather. Compare kWh per year, installed area and electricity used on site. Check the installed layout and meter data after completion.": [
+    "同じ屋上アクセス、荷重制限、日陰、気象で両案を試算します。年間kWh、設置面積、敷地内消費電力を比較し、完成後に配置と計量データを確認します。",
+    "用相同屋顶通达、荷载上限、遮挡和天气条件计算两案。比较年发电量（kWh）、安装面积与就地用电，建成后核对安装布局和表计数据。"
+  ],
+  "The interim sewer model gives 0, 23 and 409 m³ for the 85, 115 and 150 mm/h rain events. The outputs apply to the modeled catchments. {0}": [
+    "中間下水道モデルでは85、115、150 mm/hの降雨時にそれぞれ0、23、409 m³の溢水となりました。対象はモデル化した集水域です。{0}",
+    "中期下水道模型在 85、115、150 mm/h 降雨下分别得到 0、23、409 m³ 溢流。结果适用于建模的汇水区。{0}"
+  ],
+  "Source 6": [
+    "出典6",
+    "来源 6"
+  ],
+  "{0} These are 5%, 10% and 15% below the interim reference.": [
+    "{0} 中間参照値よりそれぞれ5%、10%、15%少ない値です。",
+    "{0} 分别比中期参照值低 5%、10%、15%。"
+  ],
+  "At 150 mm/h, ≤388.55 m³ by 2030, ≤368.10 m³ by 2040 and ≤347.65 m³ by 2050.": [
+    "150 mm/hの降雨で2030年までに≤388.55 m³、2040年までに≤368.10 m³、2050年までに≤347.65 m³。",
+    "在 150 mm/h 降雨下，2030 年 ≤388.55 m³、2040 年 ≤368.10 m³、2050 年 ≤347.65 m³。"
+  ],
+  "Rerun the reference and both packages with the same rainfall time series and sewer model. Update the inlet, storage and outlet geometry for each design. Compare overflow volume and downstream peak flow. Check the installed storage and monitor runoff where possible.": [
+    "同じ降雨時系列と下水道モデルで参照案と2案を再計算します。各設計の流入口、貯留施設、流出口の形状を更新し、溢水量と下流のピーク流量を比較します。完成した貯留施設を確認し、可能なら流出を観測します。",
+    "用相同的降雨时间序列和下水道模型重算参照方案及两个备选方案。按设计更新进水口、蓄水设施和出水口的几何，比较溢流量与下游峰值流量。核验建成的蓄水设施，并在可能时监测径流。"
+  ],
+  "August 2026 satellite maps locate hot surfaces and low vegetation. Calculate the existing shaded share within a fixed set of priority walkways and public spaces. {0}": [
+    "2026年8月の衛星地図で高温の地表と植生の少ない場所を特定します。対象を固定した優先歩行経路と公共空間について、現状の日陰率を算出します。{0}",
+    "2026 年 8 月卫星地图标出高温地表和低植被区域。在固定的一组优先步行路线和公共空间内计算现有遮阴比例。{0}"
+  ],
+  "Source 5": [
+    "出典5",
+    "来源 5"
+  ],
+  "{0} at 14:00 on the agreed summer test day.": [
+    "合意した夏の検証日の14:00に、{0}。",
+    "在约定的夏季测试日 14:00，{0}。"
+  ],
+  "5 percentage points more shaded area by 2050": [
+    "2050年までに日陰面積率を5ポイント増やす",
+    "到 2050 年将遮阴面积比例提高 5 个百分点"
+  ],
+  "Map building and tree shadows using the same date, sun angle and walk-and-stay area. Count shade people can reach. State the assumed canopy size for each phase and check shadows on site after installation.": [
+    "同じ日付、太陽高度、歩行・滞在範囲で建物と樹木の日陰を地図化します。人が利用できる日陰を数えます。各段階の樹冠の大きさの仮定を示し、整備後に現地で日陰を確認します。",
+    "用相同日期、太阳角度与步行停留范围绘制建筑和树木投影，统计人可到达的遮阴面积。说明各阶段假定的树冠尺寸，安装后现场核查阴影。"
+  ],
+  "Regina mapped surface temperature. Collect a pedestrian-level hot-day baseline at the chosen streets and public sites. {0}": [
+    "Reginaは地表面温度を地図にしました。選定した街路と公共空間で、暑い日の歩行者の高さの基準データを取得します。{0}",
+    "Regina 绘制了地表温度图。选定街道和公共空间后，在炎热天气采集行人高度的基线数据。{0}"
+  ],
+  "{0} at the matched hot-hour test points by 2050. UTCI is a measure of outdoor heat stress.": [
+    "2050年までに、同じ暑熱時間帯に設定した観測点で{0}。UTCIは屋外の暑熱負荷を示す指標です。",
+    "到 2050 年，在相同高温时段和匹配点位上实现{0}。UTCI 衡量户外热应激。"
+  ],
+  "At least 1 °C lower mean UTCI": [
+    "平均UTCIを少なくとも1 °C低下させる",
+    "平均 UTCI 至少降低 1 °C"
+  ],
+  "Estimate UTCI from air temperature, humidity, wind and radiant temperature at matched points and hours. Compare the same weather and account for model and sensor uncertainty. Repeat observations once the design is in use. {0}": [
+    "同じ地点と時間帯の気温、湿度、風、放射温度からUTCIを推計します。気象条件を合わせて比較し、モデルとセンサーの不確実性を考慮します。整備後の利用時にも再観測します。{0}",
+    "从相同点位与时段的气温、湿度、风和辐射温度估算 UTCI。采用相同天气条件比较，并考虑模型和传感器不确定性。投入使用后重复观测。{0}"
+  ],
+  "Source 13": [
+    "出典13",
+    "来源 13"
+  ],
+  "The interim screen shows 32 priority and 65 retention links across the study area. Field-check the priority links inside Kajicho 1 & 2 and record each link’s original flags. {0}": [
+    "中間のスクリーニングでは、広域調査範囲に優先32区間、維持65区間があります。鍛冶町一・二丁目内の優先区間を現地確認し、各区間に当初付けた課題を記録します。{0}",
+    "中期筛查在研究区内得到 32 个优先改善路段和 65 个保留路段。现场核对鍛冶町一・二丁目内的优先路段，记录每一路段最初标定的问题。{0}"
+  ],
+  "Source 8": [
+    "出典8",
+    "来源 8"
+  ],
+  "{0} Freeze the field-checked list before design.": [
+    "{0}。設計前に現地確認済みの一覧を確定します。",
+    "{0}。在设计前锁定现场核对后的路段清单。"
+  ],
+  "Improve at least half of the eligible priority links within Kajicho 1 & 2 by 2050.": [
+    "2050年までに鍛冶町一・二丁目内の対象優先区間を少なくとも半数改善する",
+    "到 2050 年改善鍛冶町一・二丁目内至少一半符合条件的优先路段"
+  ],
+  "Repeat the same street-side survey. Clear every flagged deficiency on each counted link. Reach a walking score of 3 or more, a frontage score of 1 or more on the flagged side, or at least two stay cues, as applicable. Record protected links retained.": [
+    "同じ街路側で調査を繰り返します。改善に数える区間では指摘された課題を全て解消します。該当する評価基準は歩行スコア3以上、指摘側の沿道スコア1以上、または滞在要素2つ以上です。保護対象で残った経路も記録します。",
+    "复测同一街道侧。计入改善的路段需消除所有已标记问题，按适用条件达到步行评分至少 3 分、标记侧沿街界面评分至少 1 分，或具备至少两个停留要素。记录保留的受保护通道。"
+  ],
+  "The interim maps street features that invite people to stay. Record person-minutes per observation hour at each trial site before installing changes. {0}": [
+    "中間発表では滞在を促す街路要素を図示しました。整備前に各試行地で、観測1時間あたりの滞在量（人・分）を記録します。{0}",
+    "中期地图记录了鼓励停留的街道特征。在安装设施前记录各试点每观测小时的停留量（人·分钟）。{0}"
+  ],
+  "{0} across the selected nodes. At a site with zero baseline, use 10 person-minutes per hour.": [
+    "選定した地点全体で{0}。基準値が0の地点は1時間あたり10人・分を目安とします。",
+    "选定点位总体实现{0}。基线为零的场地采用每小时 10 人·分钟。"
+  ],
+  "At least 20% more person-minutes per hour by 2050": [
+    "2050年までに1時間あたりの滞在量（人・分）を20%以上増やす",
+    "到 2050 年，每小时停留量（人·分钟）至少增加 20%"
+  ],
+  "Repeat observations inside the same boundaries on comparable weekdays, weekends and weather. Total minutes spent sitting, meeting or using each space. Observe a similar unchanged location and record access for residents, workers and visitors.": [
+    "同じ範囲内で、平日・休日と気象条件をそろえて再観測します。座る、会う、使う時間の合計を記録します。類似した未整備の場所も観測し、住民、就業者、来訪者が利用できるかを記録します。",
+    "在相同边界内，按可比的工作日、周末和天气条件复测，合计各空间的就坐、会面和使用时间。观测一处相似且未改造的场地，并记录居民、工作人员和访客的通达条件。"
+  ],
+  "Kajicho 1 & 2 recorded 300 registered residents in October 2026. Audit existing dwellings and unit sizes in the buildings affected by the plan. {0}": [
+    "鍛冶町一・二丁目の2026年10月の住民登録は300人。事業の影響を受ける既存住宅と住戸の大きさを調べます。{0}",
+    "2026 年 10 月，鍛冶町一・二丁目登记居民为 300 人。核查受项目影响的既有住宅及户型面积。{0}"
+  ],
+  "Source 3": [
+    "出典3",
+    "来源 3"
+  ],
+  "{0} in the design. Apply the same occupancy assumptions to both layouts.": [
+    "設計案で{0}。両案の居住密度の仮定はそろえます。",
+    "在设计中实现{0}。两案采用相同的居住人数假设。"
+  ],
+  "Net capacity for 30 more residents by 2050": [
+    "2050年までに居住可能人数を純増30人とする",
+    "到 2050 年住房容量净增 30 人"
+  ],
+  "Count retained, lost and added dwellings by size. Convert floor plans to resident capacity with a consistent occupancy rule. Track subsequent occupation and affordability separately.": [
+    "維持、減少、増加する住戸を規模別に数えます。同じ入居ルールで平面図から居住可能人数を算出し、実際の入居と負担可能性は別に追跡します。",
+    "按面积统计保留、损失和新增的住房单元。按相同入住规则从平面图推算可居住人数，并单独跟踪后续入住与可负担性。"
+  ],
+  "The 2021 Economic Census recorded 13,587 workers in Kajicho 1 & 2. Survey usable workspace area and small business units at the project sites. {0}": [
+    "2021年経済センサスでは鍛冶町一・二丁目の従業者数は13,587人でした。対象地の利用可能な仕事場の面積と小規模事業区画を調べます。{0}",
+    "2021 年经济普查记录鍛冶町一・二丁目有 13,587 名从业人员。调查项目场地的可用工作面积和小型经营空间。{0}"
+  ],
+  "{0} across the buildings affected by 2050 works.": [
+    "2050年までの事業の影響を受ける建物全体で、{0}。",
+    "在 2050 年前工程影响的所有建筑中，{0}。"
+  ],
+  "Retain at least 100% of the baseline usable workspace area": [
+    "基準となる利用可能な仕事場の面積を100%以上維持する",
+    "保留至少 100% 的基线可用工作面积"
+  ],
+  "Compare usable square meters and count small premises by type before and after. Report the change in capacity using the same floor area per worker by use. Record occupied space and rent after handover.": [
+    "整備前後で有効面積と小規模区画数を用途別に比較します。用途別に同じ従業者1人あたり面積を用いて収容力の変化を報告し、引き渡し後に入居面積と賃料を記録します。",
+    "按用途比较改造前后的可用面积及小型经营空间数量。按用途采用同一人均面积假设报告容量变化，交付后记录已使用面积与租金。"
+  ],
+  "Heisei-dori has four general lanes in the interim drawings and Kanamono-dori has three. Survey turns, peak queues, clear widths and deliveries. Interim traffic results use synthetic inputs. {0}": [
+    "中間図面では神田平成通りの一般車線は4本、神田金物通りは3本。右左折、ピーク時の車列、有効幅員、配送を調査します。中間の交通結果は合成入力に基づきます。{0}",
+    "中期图纸中，神田平成通り有 4 条一般车道，神田金物通り有 3 条。调查转向、高峰排队、通行净宽和配送。中期交通结果采用合成输入。{0}"
+  ],
+  "Source 7": [
+    "出典7",
+    "来源 7"
+  ],
+  "{0} in the tested peaks.": [
+    "検証対象のピーク時に、{0}。",
+    "在测试的高峰时段，{0}。"
+  ],
+  "Zero existing destinations left without essential access and zero added junction spillbacks": [
+    "既存の行き先で必要なアクセスを失う箇所はゼロ、交差点への新たな車列のはみ出しもゼロ",
+    "现有目的地失去必要通达的数量为零，新增交叉口回堵为零"
+  ],
+  "Test the street section and adjoining junctions with counted movements, signals and delivery schedules. Walk the accessible route and confirm service and emergency access with the road managers. Check diversion on Kanda Keisatsu-dori. {0}": [
+    "実測した交通動線、信号、配送スケジュールで街路断面と隣接交差点を検証します。歩行経路を確認し、サービス・緊急車両の通行を道路管理者と確認します。神田警察通りへの迂回も確認します。{0}",
+    "用实测交通流向、信号和配送时段测试街道断面及相邻交叉口。走查无障碍路线，与道路管理方核对服务与应急通行，并检查是否分流到神田警察通り。{0}"
+  ],
+  "Source 11": [
+    "出典11",
+    "来源 11"
+  ],
+  "The interim maps facilities, heritage and alleys. Confirm who occupies each affected space and which access routes and assets are protected. {0} {1}": [
+    "中間の地図は施設、歴史資産、路地を示します。影響を受ける各空間の利用者と、保護対象の資産・アクセス経路を確認します。{0} {1}",
+    "中期地图记录了设施、历史资产和小巷。核对各受影响空间的使用者，以及受保护资产和通行路线。{0} {1}"
+  ],
+  "Source 2": [
+    "出典2",
+    "来源 2"
+  ],
+  "Source 9": [
+    "出典9",
+    "来源 9"
+  ],
+  "{0} No loss of protected assets or interruption of protected alley links.": [
+    "{0} 保護対象の資産の喪失と路地の分断を防ぎます。",
+    "{0} 受保护资产零损失，受保护小巷通行不中断。"
+  ],
+  "100% of directly displaced small shops offered viable temporary or return space.": [
+    "直接移転を求められる小規模店舗の100%に、利用可能な仮移転先または復帰先を提示する。",
+    "为全部（100%）直接受迁的小商户提供可用的临时场所或回迁空间。"
+  ],
+  "Record unit size, rent, move dates and written offers. Verify access and retained assets on the layout and on site. Check what the shops and users can access after completion.": [
+    "面積、賃料、移転日程、書面の提示を記録します。図面と現地でアクセスと保全された資産を確認し、完成後に店舗と利用者がどこまで利用できるか調べます。",
+    "记录面积、租金、迁移日期与书面方案。在设计图及现场核实通行与保留资产，检查竣工后商铺与使用者可到达的范围。"
+  ],
+  "Phases to 2050": [
+    "2050年までの実施段階",
+    "到 2050 年的实施分期"
+  ],
+  "Prepare two phased packages for the final review scheduled for {0}. Each action needs an owner, a funding path and a date to measure its effect.": [
+    "{0}に予定する最終講評に向けて、段階的な実施案を2つ用意します。各施策に担当者、資金調達の方法、効果の測定日を設定します。",
+    "为计划于 {0} 举行的最终评审准备两套分期方案。每项措施要明确负责人、资金来源和效果测量日期。"
+  ],
+  "16 December 2026": [
+    "2026年12月16日",
+    "2026 年 12 月 16 日"
+  ],
+  "{0}Survey and pilot": [
+    "{0}調査と試行",
+    "{0}调查与试点"
+  ],
+  "By 2030": [
+    "2030年まで",
+    "到 2030 年"
+  ],
+  "Freeze the existing GIS baseline. Survey street widths, roof capacity, sewer connections, public use and active tenancies. Work with local operators to try seating, shade and loading changes that can be undone.": [
+    "現状のGIS基準データを確定します。幅員、屋上容量、下水道接続、公共空間の利用、入居中の区画を調べます。地元の運営者と、元に戻せる座席、日陰、荷さばきの変更を試します。",
+    "锁定现状 GIS 基线，调查道路宽度、屋顶容量、下水道接入、公共空间使用和现有租户。与本地运营方测试可撤回的座位、遮阴和装卸调整。"
+  ],
+  "{0} No studio-led demolition. Agree who can authorize and maintain each pilot. Collect the before-and-after evidence.": [
+    "{0} スタジオ案による解体は行いません。各試行を許可し維持する担当者を決め、前後の情報を記録します。",
+    "{0} 工作室方案不安排拆除。明确试点审批和维护负责人，并记录实施前后的证据。"
+  ],
+  "Gate.": [
+    "実施条件。",
+    "实施条件。"
+  ],
+  "{0}Connect and retrofit": [
+    "{0}接続と改修",
+    "{0}连接与改造"
+  ],
+  "By 2040": [
+    "2040年まで",
+    "到 2040 年"
+  ],
+  "Extend successful street pilots. Link rain gardens to verified drainage, retrofit approved roof clusters and improve walking links around public sites.": [
+    "成果が出た街路の試行を広げます。排水接続を確認した上で雨庭をつなぎ、承認を得た屋上群を改修し、公共施設周辺の歩行経路を改善します。",
+    "推广验证有效的街道试点。将雨水花园接入核实过的排水系统，改造获批屋顶群，并改善公共场地周边的步行连接。"
+  ],
+  "{0} Cumulative demolition stays within 5%. Road and sewer managers verify access and discharge. Building owners and operators commit to upkeep.": [
+    "{0} 累積解体は5%以内。道路・下水道管理者がアクセスと放流を確認し、建物所有者と運営者が維持管理を引き受けます。",
+    "{0} 累计拆除控制在 5% 以内。道路及下水道管理方核实通行与排水，产权人和运营方承诺维护。"
+  ],
+  "{0}Renew selectively and review": [
+    "{0}選択的に更新し、評価する",
+    "{0}选择性更新并复核"
+  ],
+  "By 2050": [
+    "2050年まで",
+    "到 2050 年"
+  ],
+  "Proceed with selective renewal where the comparison shows district benefits. Coordinate works with owners, tenants and public agencies. Review measured performance and adjust operating arrangements.": [
+    "比較で地区の便益が認められた箇所から選択して建物更新を進めます。所有者、賃借人、行政機関と工事を調整し、実測結果を確認して運用方法を調整します。",
+    "在方案比较显示街区将受益的地方推进选择性更新。与产权人、租户和公共机构协调施工，核对实测表现并调整运营安排。"
+  ],
+  "{0} Cumulative demolition stays within 10%. Secure tenant transitions and maintenance funding. Publish each result against its target and identify any remaining gap.": [
+    "{0} 累積解体は10%以内。賃借人の移転と維持管理費を確保し、結果を目標と照合して公表します。残る課題も示します。",
+    "{0} 累计拆除控制在 10% 以内。保障租户过渡和维护经费，将每项结果与目标对照发布并指出差距。"
+  ],
+  "Planning support": [
+    "計画支援",
+    "规划支持"
+  ],
+  "Give residents, owners, businesses and city staff a shared map of options and the targets each one affects. Compare current and proposed plans at the same scale. Use a street section or a 3D view where space is contested and attach the before-and-after tests.": [
+    "住民、所有者、事業者、行政職員が、案と影響を受ける目標を同じ地図で見られるようにします。現況と提案を同じ縮尺で比較します。空間利用が競合する場所では断面図や3D図を使い、前後の検証を添えます。",
+    "为居民、产权人、商户和政府人员提供共用地图，标明各方案及其影响的目标。以相同尺度比较现状与方案。空间有竞争时，提供街道断面或三维视图，附实施前后测试。"
+  ],
+  "Implementation support": [
+    "実施支援",
+    "实施支持"
+  ],
+  "Give each action an implementation record for the rights holders, public managers and operator. List the agreements and approvals needed, the phase, who pays, who maintains it and when to check the result. Keep work conditional until those responsibilities are agreed.": [
+    "権利者、公共施設の管理者、運営者が使える実施記録を施策ごとに作ります。合意と許可、段階、費用負担、維持管理の担当、結果の確認時期を記載し、責任分担が決まるまで実施を保留します。",
+    "为产权方、公共管理方和运营方建立逐项实施记录。列明所需协议及审批、分期、出资方、维护方和复核时间。各方责任达成一致后再实施。"
+  ],
+  "Sources and notes": [
+    "出典と注記",
+    "来源与说明"
+  ],
+  "Follow the numbered links to the 18 November interim slides, site maps and public records.": [
+    "番号付きのリンクから、11月18日の中間発表、現地地図、公的資料を確認できます。",
+    "编号链接通向 11 月 18 日中期汇报、场地地图及公开记录。"
+  ],
+  "Studio framework and vision": [
+    "スタジオの枠組みと構想",
+    "工作室框架与愿景"
+  ],
+  "Theme B, interim presentation, 18 November 2026.": [
+    "テーマB、2026年11月18日中間発表。",
+    "主题 B，2026 年 11 月 18 日中期汇报。"
+  ],
+  "Studio timeline and vision board": [
+    "スタジオの活動経過と構想ボード",
+    "工作室历程与愿景展板"
+  ],
+  "Team and themes": [
+    "チームと研究テーマ",
+    "团队与研究主题"
+  ],
+  "Synthesis": [
+    "総合整理",
+    "综合归纳"
+  ],
+  "Vision": [
+    "構想",
+    "愿景"
+  ],
+  "School-site concept": [
+    "学校用地の構想",
+    "校址概念方案"
+  ],
+  "Three long-term outcomes": [
+    "3つの長期目標",
+    "三项长期目标"
+  ],
+  "Study extent, maps and history": [
+    "調査範囲・地図・歴史",
+    "研究范围、地图与历史"
+  ],
+  "Team B GIS and the modern panel from Historical Urban Fabric. FY2023 orthophoto and building footprints from MLIT PLATEAU.": [
+    "Team BのGISと、歴史的な街区構成を示す図の現代パネル。2023年度の正射画像と建物形状は国土交通省 PLATEAUによります。",
+    "Team B 的 GIS 及历史街区肌理图的现代部分。2023 年度正射影像与建筑轮廓来自国土交通省 PLATEAU。"
+  ],
+  "Historical Urban Fabric, slide 7": [
+    "歴史的な街区構成、スライド7",
+    "历史街区肌理，第 7 页"
+  ],
+  "Aerial imagery licence": [
+    "航空画像の利用条件",
+    "航拍影像许可"
+  ],
+  "GIS site data": [
+    "GIS現況データ",
+    "GIS 场地数据"
+  ],
+  "Historical maps": [
+    "歴史地図",
+    "历史地图"
+  ],
+  "Heritage and development maps": [
+    "歴史資産と開発の地図",
+    "历史资产与开发地图"
+  ],
+  "Land use and social background": [
+    "土地利用と社会的背景",
+    "土地利用与社会背景"
+  ],
+  "Jiaxiang Zhao, interim presentation and facilities inventory, 25 October 2026.": [
+    "Jiaxiang Zhao、中間発表と2026年10月25日の施設台帳。",
+    "Jiaxiang Zhao，中期汇报与 2026 年 10 月 25 日设施清单。"
+  ],
+  "Land use": [
+    "土地利用",
+    "土地利用"
+  ],
+  "Urban diversity and continuity": [
+    "街の多様性と連続性",
+    "街区多样性与延续"
+  ],
+  "Facility counts": [
+    "施設数",
+    "设施数量"
+  ],
+  "2021 Economic Census table guide": [
+    "2021年経済センサスの表の案内",
+    "2021 年经济普查表指南"
+  ],
+  "Population, employment and building use": [
+    "人口、就業、建物用途",
+    "人口、就业与建筑用途"
+  ],
+  "Building and energy scenarios": [
+    "建物とエネルギーのシナリオ",
+    "建筑与能源情景"
+  ],
+  "Asuka Tanzawa, interim presentation. The carbon and battery results come from modeled scenarios.": [
+    "Asuka Tanzawa、中間発表。炭素と蓄電池の結果はモデルによるシナリオ推計です。",
+    "Asuka Tanzawa，中期汇报。碳排放与电池结果来自模型情景。"
+  ],
+  "Phased renewal and retrofit": [
+    "段階的な更新と改修",
+    "分期更新与改造"
+  ],
+  "Solar sharing": [
+    "太陽光電力の融通",
+    "光伏电力共享"
+  ],
+  "Carbon baseline and reductions": [
+    "炭素排出の基準値と削減量",
+    "碳排放基线与减排量"
+  ],
+  "Stock strategy and renewal groups": [
+    "既存建物の活用方針と更新グループ",
+    "既有建筑策略与更新分组"
+  ],
+  "Green space and surface heat": [
+    "緑地と地表面の暑熱",
+    "绿地与地表热环境"
+  ],
+  "Regina Aura Delazenitha, interim presentation. Landsat 8 imagery, August 2026.": [
+    "Regina Aura Delazenitha、中間発表。Landsat 8画像は2026年8月。",
+    "Regina Aura Delazenitha，中期汇报。Landsat 8 影像为 2026 年 8 月。"
+  ],
+  "Vegetation and surface temperature": [
+    "植生と地表面温度",
+    "植被与地表温度"
+  ],
+  "Greening proposals": [
+    "緑化の提案",
+    "绿化方案"
+  ],
+  "USGS Landsat data guide": [
+    "USGSのLandsatデータガイド",
+    "USGS Landsat 数据指南"
+  ],
+  "Local sewer model and river hazard": [
+    "地区の下水道モデルと河川の浸水想定",
+    "本地下水道模型与河流洪水风险"
+  ],
+  "Keane Carlo G. Lomibao, interim presentation. The Tokyo flood hazard map provides separate river-basin context.": [
+    "Keane Carlo G. Lomibao、中間発表。東京都の浸水想定図は河川流域の状況を示す別資料です。",
+    "Keane Carlo G. Lomibao，中期汇报。東京都洪水危险图另提供流域范围的背景。"
+  ],
+  "Rain scenarios and overflow results": [
+    "降雨シナリオと溢水量",
+    "降雨情景与溢流结果"
+  ],
+  "Tokyo Kanda River basin flood mapping": [
+    "東京都神田川流域の浸水想定図",
+    "東京都神田川流域洪水地图"
+  ],
+  "EPA SWMM documentation": [
+    "EPA SWMMの文書",
+    "EPA SWMM 文档"
+  ],
+  "Street design and crossings": [
+    "街路設計と横断部",
+    "街道设计与跨铁路通道"
+  ],
+  "Shair Muhammad, interim presentation. Road counts are from the 2021 national survey.": [
+    "Shair Muhammad、中間発表。交通量は2021年の全国調査によります。",
+    "Shair Muhammad，中期汇报。道路交通量来自 2021 年全国调查。"
+  ],
+  "Road traffic map": [
+    "道路交通量の地図",
+    "道路交通量地图"
+  ],
+  "Street redesign and traffic test": [
+    "街路再設計と交通検証",
+    "街道再设计与交通测试"
+  ],
+  "Crossing brightness": [
+    "横断部の明るさ",
+    "跨铁路通道亮度"
+  ],
+  "MLIT road and street traffic census": [
+    "国土交通省の道路交通センサス",
+    "国土交通省道路交通普查"
+  ],
+  "Walking experience and public space": [
+    "歩行体験と公共空間",
+    "步行体验与公共空间"
+  ],
+  "Dingchao Shi, interim presentation. The street map screens conditions using sampled imagery, network structure and frontage data.": [
+    "Dingchao Shi、中間発表。街路地図はサンプル画像、街路網の構造、沿道間口のデータから現況を評価します。",
+    "Dingchao Shi，中期汇报。街道地图采用抽样街景、路网结构和沿街界面数据筛查现状。"
+  ],
+  "Station walking access": [
+    "駅までの歩行アクセス",
+    "车站步行可达性"
+  ],
+  "Classification rules": [
+    "分類ルール",
+    "分类规则"
+  ],
+  "Priority and retention map": [
+    "改善優先・維持区間の地図",
+    "优先改善与保留路段地图"
+  ],
+  "Fureai-dori and Ippachi-dori route profile": [
+    "神田ふれあい通りと一八通りの経路プロファイル",
+    "神田ふれあい通り与一八通り的路线剖面"
+  ],
+  "Field visit, early reviews and street trials": [
+    "現地調査、初期講評、街路の試行",
+    "场地调研、早期评审与街道试点"
+  ],
+  "Site work on 25 October, mapping in late October and the Georgia Tech review on 4 November. Chiyoda City records the Kajicho 2-chome trial.": [
+    "10月25日の現地調査、10月下旬の地図作成、11月4日のGeorgia Tech講評。鍛冶町二丁目の試行は千代田区の記録に基づきます。",
+    "10 月 25 日实地调研、10 月下旬制图和 11 月 4 日 Georgia Tech 评审。鍛冶町二丁目试点见千代田区记录。"
+  ],
+  "Public field visit record": [
+    "公開の現地調査記録",
+    "公开实地调研记录"
+  ],
+  "Studio timeline": [
+    "スタジオの活動経過",
+    "工作室历程"
+  ],
+  "2 November early studio deck": [
+    "11月2日の初期発表資料",
+    "11 月 2 日早期汇报"
+  ],
+  "Kajicho Walkable Project 2 report": [
+    "鍛冶町ウォーカブルプロジェクト2の報告",
+    "鍛冶町步行友好项目 2 报告"
+  ],
+  "Written interim feedback": [
+    "中間講評の書面意見",
+    "中期评审书面意见"
+  ],
+  "Public summaries of comments shared with the studio about the 18 November review.": [
+    "11月18日の講評についてスタジオに寄せられた意見の公開要約。",
+    "关于 11 月 18 日评审的意见公开摘要。"
+  ],
+  "Kanda Keisatsu-dori guidance": [
+    "神田警察通りの方針",
+    "神田警察通り指引"
+  ],
+  "Chiyoda City, adopted area planning policy and related records.": [
+    "千代田区が策定した地域別方針と関連資料。",
+    "千代田区已通过的地区规划方针和相关记录。"
+  ],
+  "Chiyoda City street and area plans": [
+    "千代田区の街路と地区の計画",
+    "千代田区街道与地区规划"
+  ],
+  "Former Imagawa school and public land": [
+    "旧今川中学校と公共用地",
+    "旧今川中学校与公共用地"
+  ],
+  "Team B's public asset map and Chiyoda City's policy for land retained for future facilities.": [
+    "Team Bの公共施設地図と、将来の施設用地の留保に関する千代田区の方針。",
+    "Team B 的公共资产地图与千代田区面向未来公共设施的土地保留政策。"
+  ],
+  "Heritage and public assets": [
+    "歴史資産と公共施設",
+    "历史资产与公共设施"
+  ],
+  "Public land retention policy": [
+    "公共用地の留保方針",
+    "公共用地保留政策"
+  ],
+  "District plans, street use and rights": [
+    "地区計画、街路利用、権利",
+    "地区规划、街道使用与权利"
+  ],
+  "Chiyoda City’s Izumibashi master plan connects Heisei-dori and Kanda Keisatsu-dori near Kanda Station, p. 180. The walkable design guides use of public space.": [
+    "千代田区の和泉橋地域のマスタープランでは、神田駅近くで神田平成通りと神田警察通りをつなぎます（180ページ）。ウォーカブルデザインは公共空間の使い方を示します。",
+    "千代田区和泉橋地区总体规划在神田駅附近连接神田平成通り与神田警察通り（第 180 页）。步行友好设计指引公共空间的使用方式。"
+  ],
+  "Izumibashi master plan": [
+    "和泉橋地域のマスタープラン",
+    "和泉橋地区总体规划"
+  ],
+  "Chiyoda walkable design": [
+    "千代田区のウォーカブルデザイン",
+    "千代田区步行友好设计"
+  ],
+  "Land and Building Lease Act": [
+    "借地借家法",
+    "借地借家法"
+  ],
+  "Studio policy summary": [
+    "スタジオの政策概要",
+    "工作室政策概览"
+  ],
+  "Proposal maps": [
+    "提案地図",
+    "方案地图"
+  ],
+  "Studio QGIS Basemap and study boundary. Roads use project GIS with GSI and OpenStreetMap data. Callouts show studio locations for testing.": [
+    "スタジオのQGISベースマップと調査範囲。道路は国土地理院とOpenStreetMapを用いたプロジェクトGISに基づきます。吹き出しはスタジオの検証候補地を示します。",
+    "工作室的 QGIS 底图和研究边界。道路数据来自结合国土地理院与 OpenStreetMap 的项目 GIS，标注点为工作室计划测试的位置。"
+  ],
+  "Map provenance": [
+    "地図の来歴",
+    "地图数据来源"
+  ],
+  "GSI terms": [
+    "国土地理院の利用条件",
+    "国土地理院使用条款"
+  ],
+  "Copernicus Climate Change Service. UTCI uses air temperature, radiation, humidity and wind.": [
+    "Copernicus Climate Change Service。UTCIは気温、放射、湿度、風を用います。",
+    "Copernicus Climate Change Service。UTCI 使用气温、辐射、湿度和风况计算。"
+  ],
+  "UTCI methods": [
+    "UTCIの算出方法",
+    "UTCI 计算方法"
+  ],
+  "Written feedback from the interim review": [
+    "中間講評で寄せられた書面意見",
+    "中期评审的书面反馈"
+  ],
+  "Show where decarbonization, climate resilience and vitality reinforce one another or compete. Use those findings to develop one integrated proposal.": [
+    "脱炭素、気候レジリエンス、街の活力が互いに支え合うところと競合するところを示し、その結果を一つの提案にまとめてください。",
+    "指出减碳、气候韧性和街区活力在哪些场地相互促进或产生冲突，用这些发现形成一套整合方案。"
+  ],
+  "Drawing on Kajicho 2-chome's area-management work, Migita asks who benefits and who controls and maintains each site. Make tree care practical. Test changes to Heisei-dori and Kanamono-dori alongside {0}.": [
+    "鍛冶町二丁目のエリアマネジメントを踏まえ、Migitaは誰が恩恵を受け、誰が場所を管理し維持するかを問いかけています。樹木の管理を実行できる形にしてください。神田平成通りと神田金物通りの変更を、{0}と合わせて検証します。",
+    "结合鍛冶町二丁目地区管理实践，Migita 提醒团队明确各场地谁受益、谁管理与维护，并制定可落实的树木养护办法。把神田平成通り与神田金物通り的改动与{0}一并检验。"
+  ],
+  "Chiyoda City's plan for nearby Kanda Keisatsu-dori [11]": [
+    "近くの神田警察通りに関する千代田区の計画 [11]",
+    "千代田区对附近神田警察通り的规划 [11]"
+  ],
+  "Let Kajicho's small plots and local businesses guide renewal. Look at the history of alleys, land ownership and community groups. Test how business networks can support shared energy and how alley entrances and shopfronts can support everyday life.": [
+    "鍛冶町の小さな敷地と地域の事業者を手掛かりに更新を考えてください。路地、土地所有、地域団体の歴史を調べ、事業者同士のつながりで電力を融通できるか、路地の入口や店舗の間口が日常生活を支えられるかを検証します。",
+    "以鍛冶町的小地块与本地商户为更新线索。了解小巷、土地产权和地区组织的历史，检验商业网络如何支持共享能源，以及巷口和店铺界面如何支持日常生活。"
+  ],
+  "Future Vision · Kajicho 2050": [
+    "将来構想｜鍛冶町 2050",
+    "未来愿景｜鍛冶町 2050"
+  ],
+  "Kajicho’s shared area management framework, how to resolve conflicts on each site, and the targets and tests for a 2050 plan.": [
+    "鍛冶町のエリアマネジメント、各地での提案の調整、2050年計画の目標と検証。",
+    "鍛冶町的地区管理框架、各场地的方案协调，以及 2050 年规划的目标与验证。"
+  ],
+  "Compare roof options": [
+    "屋根の選択肢を比較",
+    "比较屋顶方案"
+  ],
+  "Open Heisei-dori in 3D": [
+    "平成通りを3Dで見る",
+    "在三维模型中查看平成通"
+  ],
+  "View building uses in 3D": [
+    "建物用途を3Dで見る",
+    "在三维模型中查看建筑用途"
+  ],
+  "View the former school in 3D": [
+    "旧今川中学校を3Dで見る",
+    "在三维模型中查看旧今川中学校"
+  ],
+  "Scenario workbench": [
+    "シナリオ比較",
+    "情景工作台"
+  ],
+  "Kajicho in 3D": ["鍛冶町 3D", "鍛冶町三维"],
+  "Stakeholders and agreements": [
+    "関係者と協議事項",
+    "关系者与协商事项"
+  ],
+  "How renewal works": [
+    "地域更新の進め方",
+    "地区更新如何推进"
+  ],
+  "Local developers and projects": [
+    "地域の事業者と計画",
+    "地区开发商与项目"
+  ],
+  "Roles and agreements by proposal": [
+    "提案ごとの役割と協議事項",
+    "按方案查看责任与协商事项"
+  ],
+  "Read the workshop summary": [
+    "検討会のまとめを読む",
+    "阅读会议摘要"
+  ]
+}

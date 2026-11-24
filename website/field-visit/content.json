@@ -87,7 +87,7 @@
       "id": "consensus",
       "title": {
         "en": "Tokyo special wards: redevelopment and consensus",
-        "zh": "东京特别区：再开发与合意形成研究",
+        "zh": "東京特别区：再开发与合意形成研究",
         "ja": "再開発と合意形成に関する調査研究"
       },
       "url": "https://www.tokyo23-kuchokai-kiko.jp/report/7/6_3.html",
@@ -360,7 +360,7 @@
   "guidelines": [
     {
       "en": "A multi-use plaza at Kanda Station’s east side",
-      "zh": "神田站东侧的多功能广场",
+      "zh": "神田駅东侧的多功能广场",
       "ja": "神田駅東側の多様な広場"
     },
     {
@@ -986,7 +986,7 @@
       "articles": "15, 16, 17, 18, 19",
       "text": {
         "en": "Legal competence is divided between prefectural and municipal authorities by planning category, with applicable special arrangements for Tokyo. Planning councils deliberate. Article 17 provides two weeks of public inspection of the draft and permits written opinions from eligible residents and interested parties. Early workshops and this statutory inspection are different stages.",
-        "zh": "法定权限按规划类别在都道府县与市町村之间划分，东京还适用相关特例；审议会承担审议。第17条规定规划案公开阅览两周，并允许相关居民和利害关系人提交意见书。早期工作坊与这一法定阅览环节不同。",
+        "zh": "法定权限按规划类别在都道府县与市町村之间划分，東京还适用相关特例；审议会承担审议。第17条规定规划案公开阅览两周，并允许相关居民和利害关系人提交意见书。早期工作坊与这一法定阅览环节不同。",
         "ja": "計画の種類によって都道府県・市町村の権限が分かれ、東京には関係する特例もある。審議会は審議を担う。17条は案の2週間の縦覧と住民・利害関係人の意見書提出を規定し、初期のワークショップとは異なる段階である。"
       }
     },
@@ -1063,7 +1063,7 @@
   ],
   "consent": {
     "en": "Statutory consent by rights-holders, acceptance by neighbours and the wider community, and commitment to day-to-day operation answer different questions. The 2026 special-ward study received responses from 20 wards covering 37 projects; 16 wards reported difficulty in consensus formation. This is survey context across Tokyo, not a measured approval rate for Kajicho.",
-    "zh": "权利人的法定同意、邻里及社会层面的认同、日常运营参与，回答的是不同问题。2026年特别区研究收集了20区、37项事业的回答，其中16区报告合意形成存在困难。这是东京多区调查背景，不是鍛冶町项目的同意率。",
+    "zh": "权利人的法定同意、邻里及社会层面的认同、日常运营参与，回答的是不同问题。2026年特别区研究收集了20区、37项事业的回答，其中16区报告合意形成存在困难。这是東京多区调查背景，不是鍛冶町项目的同意率。",
     "ja": "権利者の法定同意、周辺・社会の理解、日常運営への参加は異なる論点。2026年の特別区調査は20区・37事業が回答し、16区が合意形成の困難を報告。鍛冶町の賛成率を示す数値ではない。"
   },
   "activity_budget": {
@@ -1088,7 +1088,7 @@
       },
       "text": {
         "en": "The 2021 master plan describes Kanda Station as a circulation starting point connecting Otemachi, Akihabara, Nihombashi and Yaesu. This gives the area a connective role while each surrounding centre has a different mix of functions.",
-        "zh": "2021年总体规划将神田站定位为连接大手町、秋叶原、日本桥和八重洲的回游起点。地区承担联系作用，周边各中心的功能组合又各不相同。",
+        "zh": "2021年总体规划将神田駅定位为连接大手町、秋葉原、日本橋和八重洲的回游起点。地区承担联系作用，周边各中心的功能组合又各不相同。",
         "ja": "2021年マスタープランは神田駅を大手町・秋葉原・日本橋・八重洲をつなぐ回遊の起点と位置付ける。周辺拠点ごとに機能構成は異なる。"
       },
       "refs": [
@@ -1103,7 +1103,7 @@
       },
       "text": {
         "en": "The ward’s Izumibashi-area policy identifies small sites, narrow internal streets and ageing small and medium buildings as conditions affecting rebuilding. That area-level description helps read the street pattern, but does not supply an age for every building.",
-        "zh": "区级和泉桥地区方针指出，较小敷地、街区内部窄路和中小建筑老化会影响更新。这种地区描述有助于理解街道形态，但没有提供每栋建筑的年龄。",
+        "zh": "区级和泉橋地区方针指出，较小敷地、街区内部窄路和中小建筑老化会影响更新。这种地区描述有助于理解街道形态，但没有提供每栋建筑的年龄。",
         "ja": "和泉橋地域の方針は小規模敷地、街区内部の狭い道路、中小建物の老朽化を課題として挙げる。個々の建築年を示すものではない。"
       },
       "refs": [
@@ -1260,7 +1260,7 @@
     "study_area": {
       "name": {
         "en": "Kanda–Nihombashi wider area",
-        "zh": "神田—日本桥外围区",
+        "zh": "神田・日本橋外围区",
         "ja": "神田・日本橋周辺区域"
       },
       "area_ha": 41.98967122381172,

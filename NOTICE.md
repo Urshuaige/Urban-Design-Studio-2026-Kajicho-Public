@@ -6,4 +6,6 @@ PLATEAU: Tokyo Metropolitan Government / Ministry of Land, Infrastructure, Trans
 
 Full source URLs, data years, CRS, licences and processing are retained in `04_Data/Ready/*/Source_Register*.json` and the research protocol.
 
+The supplied Primary building-age layer has unrecorded original provenance, data year and reuse licence. See the [coordinate reference](docs/COORDINATE_REFERENCE.md) and [current source guide](04_Data/Ready/QGIS_Current_2026-11-04/SOURCES.md).
+
 The current public Site source is in `website/`. Font source and licence links are retained in `website/fonts/manifest.json`. Existing vendored library licences are retained alongside their code. Publication does not assign a new blanket licence to third-party material or a new open-source licence to project-authored code.

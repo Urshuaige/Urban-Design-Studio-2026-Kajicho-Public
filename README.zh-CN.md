@@ -4,6 +4,10 @@
 
 [English](README.md) | **简体中文** | [日本語](README.ja.md)
 
+## 11 月工作会议
+
+[会议摘要](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop) · [英文完整版](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop-report) · [公开网站第 52 版源码](website/README.md)
+
 ## 中期成果 · 2026 年 11 月 18 日
 
 [**浏览 Between the Centers 成果展**](https://kajicho-site-atlas.specialgooood.chatgpt.site/studio.html) · [项目时间线](docs/STUDIO_TIMELINE.md)
@@ -20,13 +24,15 @@
 
 ## 当前 GIS 数据
 
+当前 QGIS 工程与空间图层统一采用 **EPSG:6677**，用于空间叠加、距离和面积计算。新版 Primary 年龄数据包括 277 栋建筑，其中 56 栋的年份为空。原始来源、数据年份和许可未记录。 [坐标与数据说明](docs/COORDINATE_REFERENCE.md)
+
 **2026 年 11 月 4 日交付版**使用 **42.43712 ha 的 wider boundary（外围范围）**。所有与边界相交的建筑均保留完整源轮廓，包括南部边缘；原属性和分析成员标记保持不变。关东全域原表未纳入。
 
 | 内容 | 文件与说明 |
 | --- | --- |
-| 178 份 SHP | [图层索引](04_Data/Ready/QGIS_Current_2026-11-04/metadata/Layer_Index.csv)，附完整属性和短字段对照 |
+| 179 份 SHP | [图层索引](04_Data/Ready/QGIS_Current_2026-11-04/metadata/Layer_Index.csv)，附完整属性和短字段对照 |
 | 192 张 GeoPackage 表，其中含 14 张非空间表 | [Native data（完整字段数据）](04_Data/Ready/QGIS_Current_2026-11-04/data) |
-| 17 份裁剪栅格、368 个 QGIS 图层 | [交付说明](04_Data/Ready/QGIS_Current_2026-11-04/README.md) |
+| 17 份裁剪栅格、369 个 QGIS 图层 | [交付说明](04_Data/Ready/QGIS_Current_2026-11-04/README.md) |
 | 来源链接、年份与处理方法 | [来源说明](04_Data/Ready/QGIS_Current_2026-11-04/SOURCES.md) |
 
 1. 克隆仓库，或下载 ZIP 后解压。无需 Git LFS。

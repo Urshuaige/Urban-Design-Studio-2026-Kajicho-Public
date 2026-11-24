@@ -71,18 +71,18 @@
   },
   {
     "file": "Kajicho_Current_Data.qgz",
-    "bytes": 990405,
-    "sha256": "8974455dadfa800525cf57c1bad450621105f1607f397df16e77710696c3f3af"
+    "bytes": 1020832,
+    "sha256": "02419454780352c968e5c7c4f1ca337bd1195763eee607591812e57413634acb"
   },
   {
     "file": "README.md",
-    "bytes": 5610,
-    "sha256": "44d29bece219015430cfdcf348af0601c619e478d2340803cc99804cc72ee590"
+    "bytes": 7226,
+    "sha256": "7c972cea913c8ecdb66e1ad13508314268b5331f7c846e19d0d9e82fb5dc45b0"
   },
   {
     "file": "SOURCES.md",
-    "bytes": 2986,
-    "sha256": "7664f1a885fb736c7c43cdb34b3f7304b05fbca3c84884f9814eac85c4503123"
+    "bytes": 3334,
+    "sha256": "426673b9e23be849e47296915186816e1cf29d4965d03b120171d1879972d475"
   },
   {
     "file": "data/D001_cells_10m.gpkg",
@@ -1266,8 +1266,8 @@
   },
   {
     "file": "metadata/Layer_Index.csv",
-    "bytes": 44234,
-    "sha256": "068a262651ea8c6f52c6ee421edc54fba14b5ee45c58d28157d0f2e5dec5716a"
+    "bytes": 44508,
+    "sha256": "e15414249575236699b3b3b00d2ced985c808304dd8cd9ae74c937d74b3d1664"
   },
   {
     "file": "metadata/Project_Views.json",
@@ -8713,5 +8713,40 @@
     "file": "sources/fcba16f7_Analysis_Summary.json",
     "bytes": 4961,
     "sha256": "6d1366f72930277674243428c746f1c2cc2d7f61c9ff933b79e14fe6bef73bd3"
+  },
+  {
+    "file": "metadata/CRS_Update_2026-11-24.json",
+    "bytes": 3737,
+    "sha256": "01693674d2e64f1a24a2d814e6167848d4d26943d743ab36caffa221d300e420"
+  },
+  {
+    "file": "shp/Primary_Building_Age_2026-11-13/README.txt",
+    "bytes": 1652,
+    "sha256": "e464bfaa3a5af960974ec3939d8e3e07488db3d4fb1da427f24217a949cd013e"
+  },
+  {
+    "file": "shp/Primary_Building_Age_2026-11-13/Buildings_Kajicho_BYear0.shp",
+    "bytes": 962692,
+    "sha256": "ef043d6b5261846fb11f83b29ce9906be940fb40edb2e2b1abfcfa7f17af7163"
+  },
+  {
+    "file": "shp/Primary_Building_Age_2026-11-13/Buildings_Kajicho_BYear0.shx",
+    "bytes": 2316,
+    "sha256": "1aaac014b06590d4357682fa68821e00adfdc3946e34bac7030c2419ce501e71"
+  },
+  {
+    "file": "shp/Primary_Building_Age_2026-11-13/Buildings_Kajicho_BYear0.prj",
+    "bytes": 409,
+    "sha256": "dd04fe0dadf6aae8516c5da566baedd5aa1fb2d120e3a790035b3d5038366ccf"
+  },
+  {
+    "file": "shp/Primary_Building_Age_2026-11-13/Buildings_Kajicho_BYear0.dbf",
+    "bytes": 880736,
+    "sha256": "261c1ca9a9e7e7c4861593f249f4655ef592c8e399120b321f99048dcf4f4939"
+  },
+  {
+    "file": "shp/Primary_Building_Age_2026-11-13/Buildings_Kajicho_BYear0.cpg",
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
   }
 ]

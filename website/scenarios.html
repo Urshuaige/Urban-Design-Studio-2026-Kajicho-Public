@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="/city-model">
+  <title>Kajicho in 3D · Future Vision</title>
+  <script>
+    const previous = new URLSearchParams(location.search);
+    const destinations = new Map([
+      ['kanamono', '?place=kanamono'],
+      ['heisei', '?place=heisei'],
+      ['school', '?place=school'],
+      ['roofs', '?place=study&layer=solar'],
+      ['fureai', '?place=study&layer=use'],
+      ['frontages', '?place=study&layer=use'],
+      ['streets', '?place=kanamono'],
+    ]);
+    const view = destinations.get(previous.get('place')) ?? destinations.get(previous.get('theme')) ?? '';
+    location.replace('/city-model' + view);
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/city-model"></noscript>
+</head>
+<body>
+  <a href="/city-model">Kajicho in 3D</a>
+</body>
+</html>

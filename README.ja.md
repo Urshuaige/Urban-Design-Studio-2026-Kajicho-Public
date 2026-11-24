@@ -4,6 +4,10 @@ GIS基図の取得、分析手法の確認、ウェブサイトコードの学�
 
 [English](README.md) | [简体中文](README.zh-CN.md) | **日本語**
 
+## 11月のスタジオ検討会
+
+[検討会のまとめ](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop) · [英語の詳細レポート](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop-report) · [公開サイト第52版のソース](website/README.md)
+
 ## 中間発表 · 2026年11月18日
 
 [**成果展示 Between the Centers**](https://kajicho-site-atlas.specialgooood.chatgpt.site/studio.html) · [スタジオの記録](docs/STUDIO_TIMELINE.md)
@@ -20,13 +24,15 @@ GIS基図の取得、分析手法の確認、ウェブサイトコードの学�
 
 ## 現在のGISデータ
 
+現行のQGISプロジェクトと空間レイヤーは **EPSG:6677** で統一しています。重ね合わせ、距離、面積の計算に使えます。重点区域の建物年データは277棟分で、56棟は年が未記入です。元の出典、データ年、利用許諾は記録されていません。 [座標とデータの案内](docs/COORDINATE_REFERENCE.md)
+
 **2026年11月4日版**は、**42.43712 haのwider boundary（周辺区域）**を使います。南側を含むすべての境界で、区域と交差する建物は元の輪郭全体を保持します。元の属性と分析対象の所属フィールドは変更していません。関東全域の元データ表は含みません。
 
 | 内容 | ファイルと説明 |
 | --- | --- |
-| 178件のSHPデータセット | [レイヤー索引](04_Data/Ready/QGIS_Current_2026-11-04/metadata/Layer_Index.csv)、完全な属性と短縮フィールド名の対応表 |
+| 179件のSHPデータセット | [レイヤー索引](04_Data/Ready/QGIS_Current_2026-11-04/metadata/Layer_Index.csv)、完全な属性と短縮フィールド名の対応表 |
 | 192件のGeoPackageテーブル、うち14件は非空間テーブル | [Native data（完全な属性データ）](04_Data/Ready/QGIS_Current_2026-11-04/data) |
-| 切り出した17件のラスター、368件のQGISレイヤー | [利用ガイド](04_Data/Ready/QGIS_Current_2026-11-04/README.md) |
+| 切り出した17件のラスター、369件のQGISレイヤー | [利用ガイド](04_Data/Ready/QGIS_Current_2026-11-04/README.md) |
 | 出典リンク、資料年、処理方法 | [出典ガイド](04_Data/Ready/QGIS_Current_2026-11-04/SOURCES.md) |
 
 1. リポジトリをcloneするか、ZIPをダウンロードして展開します。Git LFSは不要です。

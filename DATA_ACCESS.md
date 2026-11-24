@@ -1,6 +1,6 @@
-## Wider-boundary GIS data, 4 November 2026
+## Current GIS data and coordinates
 
-[Browse SHP and native data](04_Data/Ready/QGIS_Current_2026-11-04/README.md) and [source links](04_Data/Ready/QGIS_Current_2026-11-04/SOURCES.md). The data are committed directly in this public teaching repository. Clone it or download its ZIP, then keep the current data folder together when opening the QGIS project.
+[Browse SHP and native data](04_Data/Ready/QGIS_Current_2026-11-04/README.md) and [source links](04_Data/Ready/QGIS_Current_2026-11-04/SOURCES.md). The data are committed directly in this public teaching repository. Clone it or download its ZIP, then keep the current data folder together when opening the QGIS project. Use EPSG:6677 for spatial work. [Coordinate reference](docs/COORDINATE_REFERENCE.md)
 
 # Data access and reuse
 

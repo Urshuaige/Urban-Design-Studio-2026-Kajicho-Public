@@ -1,0 +1,140 @@
+.workshop-intro { padding-block: var(--size-6) var(--size-8); }
+.workshop-plates {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: 2px;
+}
+.workshop-plate { margin: 0; }
+.workshop-map {
+  display: block;
+  background: var(--panel);
+}
+.workshop-map img {
+  display: block;
+  width: 100%;
+  height: clamp(210px, 26vw, 365px);
+  object-fit: contain;
+}
+.workshop-plate figcaption { margin-top: var(--size-2); }
+.workshop-axis {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  align-items: start;
+  gap: var(--grid-gap);
+}
+.workshop-title-row {
+  margin-top: var(--size-8);
+  align-items: end;
+}
+.workshop-title-row .site-title { font-size: clamp(2.75rem, 5.55vw, 5rem); }
+.workshop-title-row .site-lede { max-width: 44ch; font-size: var(--lead-size); }
+.workshop-report-link { margin-top: var(--size-4); }
+.workshop-date {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--lead-size);
+  font-weight: 600;
+}
+.workshop-date time { font-family: inherit; }
+.workshop-page .page-jumps { margin-bottom: var(--size-6); }
+.workshop-section { padding-block: clamp(32px, 4.3vw, 64px); }
+.workshop-section + .workshop-section { border-top: 1px solid var(--rule); }
+.workshop-section :where(h3, p, dl, dd) { margin: 0; }
+.workshop-section :where(h3, dt) { line-height: 1.4; }
+.workshop-scope {
+  padding: clamp(20px, 3vw, 40px);
+  background: var(--accent-soft);
+}
+.workshop-scope h2 { color: var(--accent); }
+.workshop-scope a, .workshop-section-title a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+.workshop-section-title p { margin-top: var(--size-2); }
+.workshop-options {
+  display: grid;
+  gap: var(--size-2);
+}
+.workshop-options > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: var(--size-2) var(--size-4);
+  padding: var(--size-4);
+  background: var(--panel);
+}
+.workshop-options ul, .workshop-steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.workshop-options li {
+  display: grid;
+  grid-template-columns: 1rem minmax(0, 1fr);
+  gap: var(--size-2);
+}
+.workshop-options li + li { margin-top: var(--size-1); }
+.workshop-options b { color: var(--accent); }
+.workshop-discussion {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--size-2);
+  margin-top: var(--size-6);
+}
+.workshop-discussion article {
+  grid-column: span 5;
+  padding: clamp(20px, 3vw, 40px);
+  background: var(--panel);
+}
+.workshop-discussion article:is(:first-child, :last-child) {
+  grid-column: span 7;
+  background: var(--surface);
+}
+.workshop-discussion p, .workshop-steps p, .workshop-comparison dd {
+  margin-top: var(--size-2);
+}
+.workshop-step-title { align-items: center; }
+.workshop-steps, .workshop-comparison dl {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--size-6);
+  margin-top: var(--size-4);
+}
+.workshop-steps { margin-top: var(--size-6); }
+.workshop-steps li {
+  position: relative;
+  padding: var(--size-4);
+  background: var(--panel);
+}
+.workshop-steps li:first-child { background: var(--accent-soft); }
+.workshop-steps li:not(:last-child)::after {
+  position: absolute;
+  inset: 50% auto auto calc(100% + 4px);
+  transform: translateY(-50%);
+  color: var(--accent);
+  content: "→";
+}
+.workshop-comparison { margin-top: var(--size-8); }
+.workshop-comparison dt, .workshop-questions dt { font-weight: 600; }
+.workshop-questions dl { margin-top: var(--size-6); }
+.workshop-questions dl > div {
+  padding: var(--size-4);
+  background: var(--panel);
+}
+.workshop-questions dl > div:nth-child(even) { background: var(--surface); }
+@media (max-width: 860px) {
+  .workshop-axis { grid-template-columns: minmax(0, 1fr); }
+  .workshop-title-row { gap: var(--size-2); }
+  .workshop-steps, .workshop-comparison dl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .workshop-steps li:nth-child(2)::after { content: none; }
+}
+@media (max-width: 600px) {
+  .workshop-discussion { grid-template-columns: minmax(0, 1fr); }
+  .workshop-discussion article, .workshop-discussion article:is(:first-child, :last-child) { grid-column: 1; }
+  .workshop-plates { grid-template-columns: minmax(0, 1fr); gap: var(--size-4); }
+  .workshop-map img { height: auto; max-height: 310px; }
+  .workshop-options > div { grid-template-columns: minmax(0, 1fr); }
+  .workshop-steps, .workshop-comparison dl { grid-template-columns: minmax(0, 1fr); }
+  .workshop-steps li::after { display: none; }
+  .workshop-questions .workshop-axis { gap: var(--size-1); }
+}

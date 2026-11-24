@@ -5,32 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Between the Centers · Kajicho Urban Design Studio 2026</title>
   <meta name="description" content="Six studies of building renewal, climate resilience and walkability in Kajicho, Tokyo.">
-  <link rel="stylesheet" href="typography.css">
-  <link rel="stylesheet" href="studio.css?v=20261118">
-  <script src="studio.js?v=20261118" defer></script>
+  <link rel="stylesheet" href="studio.css?v=20261119-page-transitions">
+  <link rel="stylesheet" href="site-navigation.css?v=20261124-workshop-page">
+  <script src="legacy-links.js?v=20261119-page-transitions" defer></script>
+  <script src="studio.js?v=20261119-languages" defer></script>
+  <script data-copy-page="studio" src="/site-motion.js?v=20261120-scenarios"></script>
+  <script type="module" blocking="render" src="/site-navigation.js?v=20261124-workshop-page"></script>
+  <link rel="expect" href="#site-page-end" blocking="render">
 </head>
-<body>
-  <a class="skip" href="#main">Skip to the project</a>
-  <header class="masthead">
-    <div class="wrap masthead-inner">
-      <a class="wordmark" href="index.html"><b lang="ja">鍛冶町</b><span>Urban Design<br>Studio 2026</span></a>
-      <nav aria-label="Studio sections">
-        <a href="#timeline">Timeline</a>
-        <a href="#studies">Studies</a>
-        <a href="#team">Team</a>
-        <a href="index.html">Atlas ↗</a>
+<body class="site-page studio-page" data-site-page="studio">
+  <a class="site-skip" href="#main" data-site-label="skip">Skip to content</a>
+  <header class="site-header">
+    <div class="site-main-row site-shell">
+      <a class="site-brand" href="/"><b data-site-label="home">Kajicho</b><span data-site-label="brand">Urban Design Studio 2026</span></a>
+      <nav class="site-global-nav" aria-label="Main navigation">
+        <a href="/field-visit" data-site-label="visit">Field Visit</a>
+        <a href="/conditions" data-site-label="conditions">Site Data</a>
+        <a href="/policy" data-site-label="policy">Policies</a>
+        <a href="/studio" data-site-label="studio" aria-current="page">Interim Progress</a>
+        <a href="/workshop" data-site-label="workshop">Workshop</a>
+        <a href="/vision" data-site-label="vision">Future Vision</a>
       </nav>
+      <div class="site-languages" role="group" aria-label="Page language">
+        <button type="button" data-lang="en" lang="en" aria-label="English" aria-pressed="true">EN</button>
+        <button type="button" data-lang="ja" lang="ja" aria-label="日本語" aria-pressed="false">日</button>
+        <button type="button" data-lang="zh" lang="zh-CN" aria-label="中文" aria-pressed="false">中</button>
+      </div>
     </div>
-    <div class="reading-line" aria-hidden="true"></div>
   </header>
+  <div class="site-content">
 
-  <main id="main">
-    <section class="wrap hero" aria-labelledby="hero-title">
-      <h1 id="hero-title"><span>Between</span><span>the Centers</span></h1>
-      <div class="hero-notes">
-        <p class="lead">Six studies for a greener, more walkable Kajicho in central Tokyo.</p>
+  <main id="main" lang="en">
+    <section class="wrap hero page-intro" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="site-kicker">Urban Design Studio 2026 · Theme B</p>
+        <h1 class="site-title" id="hero-title">Interim Progress</h1>
+        <p class="site-lede lead">Six studies for a greener, more walkable Kajicho in central Tokyo.</p>
         <p class="issue"><time datetime="2026-11-18">18 November 2026</time><span>Interim review</span></p>
-        <a class="primary-link" href="#studies">Explore the studies <span aria-hidden="true">↓</span></a>
       </div>
       <figure class="hero-main">
         <div class="image-window"><img src="studio-assets/kanda-rail.webp" width="900" height="990" alt="Aerial study model with the railway cutting diagonally through Kajicho's small blocks" fetchpriority="high"></div>
@@ -40,6 +51,25 @@
         <img src="studio-assets/maruishi.webp" width="900" height="600" alt="Brick façade of the Maruishi Building at a street corner" loading="lazy">
         <figcaption>Maruishi Building · <a href="https://commons.wikimedia.org/wiki/File:Maruishi_building,20250524.jpg">Photo by 妖精書士, CC0</a></figcaption>
       </figure>
+    </section>
+
+    <nav class="site-local-nav page-jumps wrap" aria-label="Interim Progress sections">
+      <a href="#team">Team</a><a href="#timeline">Timeline</a><a href="#studies">Six studies</a><a href="#next">Next steps</a><a href="/city-model">Kajicho in 3D</a>
+    </nav>
+
+    <section id="team" class="wrap chapter team" aria-labelledby="team-title">
+      <div class="team-heading">
+        <h2 id="team-title" data-reveal>Meet the team</h2>
+        <p data-reveal>Six researchers, working in pairs across Theme B of Urban Design Studio 2026 at the University of Tokyo.</p>
+      </div>
+      <div class="team-list">
+        <article data-reveal><img src="studio-assets/asuka.webp" width="440" height="550" alt="Asuka Tanzawa" loading="lazy"><div><h3>Asuka Tanzawa</h3><p>Building Decarbonization &amp; Energy Systems</p><a href="#energy">See the energy study</a></div></article>
+        <article data-reveal><img src="studio-assets/jiaxiang.webp" width="440" height="550" alt="Jiaxiang Zhao" loading="lazy"><div><h3>Jiaxiang Zhao</h3><p>Land Use &amp; Social Background</p><a href="#energy">See the land use study</a></div></article>
+        <article data-reveal><img src="studio-assets/regina.webp" width="440" height="550" alt="Regina Aura Delazenitha" loading="lazy"><div><h3>Regina Aura Delazenitha</h3><p>Green Spaces &amp; Heat</p><a href="#climate">See the heat study</a></div></article>
+        <article data-reveal><img src="studio-assets/keane.webp" width="440" height="550" alt="Keane Carlo G. Lomibao" loading="lazy"><div><h3>Keane Carlo G. Lomibao</h3><p>Flooding &amp; Sustainable Drainage Systems</p><a href="#climate">See the drainage study</a></div></article>
+        <article data-reveal><img src="studio-assets/shair.webp" width="440" height="550" alt="Shair Muhammad" loading="lazy"><div><h3>Shair Muhammad</h3><p>Railway Crossings &amp; Walking and Cycling Design</p><a href="#streets">See the transport study</a></div></article>
+        <article data-reveal><img src="studio-assets/dingchao.webp" width="440" height="550" alt="Dingchao Shi" loading="lazy"><div><h3>Dingchao Shi</h3><p>Walking Experience &amp; Public Space Opportunities</p><a href="#streets">See the street perception study</a></div></article>
+      </div>
     </section>
 
     <section id="timeline" class="wrap chapter" aria-labelledby="timeline-title">
@@ -67,7 +97,7 @@
           <li id="mapping" class="timeline-entry" data-reveal>
             <h3>One shared base map</h3>
             <time datetime="2026-10-29">29 Oct–4 Nov 2026</time>
-            <p>The team combined building, street and environmental layers in QGIS so each study could use the same site boundaries.</p>
+            <p>The team combined building, street and environmental layers in QGIS so each study could use the same site boundaries. <a href="/conditions">View the shared site data</a>.</p>
             <figure>
               <img src="studio-assets/mapping.webp" width="960" height="640" alt="A physical model of the district under construction" loading="lazy">
               <figcaption>District model · T. Yoshida</figcaption>
@@ -78,8 +108,8 @@
             <time datetime="2026-11-04">4 Nov 2026</time>
             <p>We presented our site findings and early design proposals for the district.</p>
             <figure>
-              <img src="studio-assets/georgia-tech.webp" width="422" height="282" alt="Team B sharing its work in a studio review with Georgia Tech" loading="lazy">
-              <figcaption>Georgia Tech studio presentation · Team B</figcaption>
+              <img src="studio-assets/georgia-tech.webp?v=20261119-review" width="2400" height="1800" alt="Participants at the Georgia Tech studio review" loading="lazy">
+              <figcaption>Georgia Tech studio review</figcaption>
             </figure>
           </li>
           <li id="interim" class="timeline-entry" data-reveal>
@@ -95,23 +125,7 @@
       </div>
     </section>
 
-    <section id="district" class="wrap chapter" aria-labelledby="district-title">
-      <div class="section-intro">
-        <h2 id="district-title" data-reveal>Read the district</h2>
-        <p data-reveal>Two maps, one extent. Trace planned development and the expressway corridor, then see how heritage and public assets fit into the same streets.</p>
-      </div>
-      <div class="district-plates">
-        <figure data-reveal>
-          <a href="studio-assets/development.png" aria-label="Open the full-size development map"><img src="studio-assets/development.png" alt="Map of completed and planned development, cleared sites and the Nihonbashi expressway corridor" width="1600" height="1342" loading="lazy"></a>
-          <figcaption><strong>Development projects</strong><span>Retail, dining and office projects, with the planned Nihonbashi expressway changes.</span></figcaption>
-        </figure>
-        <figure data-reveal>
-          <a href="studio-assets/heritage.png" aria-label="Open the full-size heritage map"><img src="studio-assets/heritage.png" alt="Map of historic banks, school sites and bridges around Kajicho" width="1600" height="1342" loading="lazy"></a>
-          <figcaption><strong>Heritage &amp; public assets</strong><span>Former Imagawa Junior High School, Tokiwa Elementary School, Yamanashi Chuo Bank and nearby bridges.</span></figcaption>
-        </figure>
-      </div>
-      <p class="source-note">Maps by Team B. Basemaps use GSI, MLIT PLATEAU and © OpenStreetMap contributors. Development status reflects the interim review.</p>
-    </section>
+
 
     <section id="studies" class="wrap chapter" aria-labelledby="studies-title">
       <div class="section-intro">
@@ -126,7 +140,7 @@
           <dl class="study-stat">
             <dt>11.3%</dt><dd>Modeled energy self-sufficiency with district-wide sharing under the rooftop PV scenario.</dd>
           </dl>
-          <div class="figure-links"><a href="studio-assets/renewal.png">Phased retrofit and renewal map ↗</a></div>
+          <div class="figure-links"><a href="studio-assets/renewal.png">Phased retrofit and renewal map</a></div>
         </div>
         <figure class="study-plate" data-reveal>
           <a href="studio-assets/rooftop-pv.png" aria-label="Open the full-size rooftop solar analysis"><img src="studio-assets/rooftop-pv.png" alt="Roof solar potential and effective-area rankings for the Kajicho target district" width="1800" height="709" loading="lazy"></a>
@@ -168,10 +182,10 @@
           </dl>
           <p>Connect small shaded places along streets and beneath the railway. Where runoff collects, test planted spaces that can hold water.</p>
           <div class="figure-links">
-            <a href="studio-assets/vegetation.png">Vegetation map ↗</a>
-            <a href="studio-assets/greening-priority.png">Greening priorities ↗</a>
-            <a href="studio-assets/sewer-model.png">Sewer model ↗</a>
-            <a href="studio-assets/flood-risk.png">Flood risk map ↗</a>
+            <a href="studio-assets/vegetation.png">Vegetation map</a>
+            <a href="studio-assets/greening-priority.png">Greening priorities</a>
+            <a href="studio-assets/sewer-model.png">Sewer model</a>
+            <a href="studio-assets/flood-risk.png">Flood risk map</a>
           </div>
           <p class="source-note">Vegetation and heat screening by Regina Aura Delazenitha. Flood map from the Tokyo Kanda-basin maximum-scale scenario (2018). Sewer model by Keane Carlo G. Lomibao.</p>
         </div>
@@ -183,8 +197,8 @@
           <p>Shair Muhammad examines railway crossings and designs space for cycling on two Kajicho streets. Dingchao Shi maps how it feels to walk, what is open at street level and where people can pause or meet.</p>
           <p>The aim is to improve connections and make everyday public spaces more comfortable for leisure and social activity.</p>
           <div class="figure-links">
-            <a href="studio-assets/cycle-section.webp">Proposed cycle track ↗</a>
-            <a href="studio-assets/crossings.png">Crossing shade analysis ↗</a>
+            <a href="studio-assets/cycle-section.webp">Proposed cycle track</a>
+            <a href="studio-assets/crossings.png">Crossing shade analysis</a>
           </div>
         </div>
         <figure class="study-plate" data-reveal>
@@ -238,31 +252,18 @@
               <p>Improve access routes where walking, the ground floor or places to stay fall short. Retain small-grain streets with active frontages.</p>
             </div>
           </section>
-          <p class="source-note">Maps and analysis by Dingchao Shi. © OpenStreetMap contributors. Street imagery was used to derive the street observations. The Atlas contains the site context and boundary sources.</p>
+          <p class="source-note">Maps and analysis by Dingchao Shi. © OpenStreetMap contributors. Street imagery was used to derive the street observations. <a href="/conditions#sources">Site context and boundary sources</a>.</p>
         </div>
       </article>
-    </section>
-
-    <section id="team" class="wrap chapter team" aria-labelledby="team-title">
-      <div class="team-heading">
-        <h2 id="team-title" data-reveal>Meet the team</h2>
-        <p data-reveal>Six researchers, working in pairs across Theme B of Urban Design Studio 2026 at the University of Tokyo.</p>
-      </div>
-      <div class="team-list">
-        <article data-reveal><img src="studio-assets/asuka.webp" width="440" height="550" alt="Asuka Tanzawa" loading="lazy"><div><h3>Asuka Tanzawa</h3><p>Building Decarbonization &amp; Energy Systems</p><a href="#energy">See the energy study ↗</a></div></article>
-        <article data-reveal><img src="studio-assets/jiaxiang.webp" width="440" height="550" alt="Jiaxiang Zhao" loading="lazy"><div><h3>Jiaxiang Zhao</h3><p>Land Use &amp; Social Background</p><a href="#energy">See the land use study ↗</a></div></article>
-        <article data-reveal><img src="studio-assets/regina.webp" width="440" height="550" alt="Regina Aura Delazenitha" loading="lazy"><div><h3>Regina Aura Delazenitha</h3><p>Green Spaces &amp; Heat</p><a href="#climate">See the heat study ↗</a></div></article>
-        <article data-reveal><img src="studio-assets/keane.webp" width="440" height="550" alt="Keane Carlo G. Lomibao" loading="lazy"><div><h3>Keane Carlo G. Lomibao</h3><p>Flooding &amp; Sustainable Drainage Systems</p><a href="#climate">See the drainage study ↗</a></div></article>
-        <article data-reveal><img src="studio-assets/shair.webp" width="440" height="550" alt="Shair Muhammad" loading="lazy"><div><h3>Shair Muhammad</h3><p>Railway Crossings &amp; Walking and Cycling Design</p><a href="#streets">See the transport study ↗</a></div></article>
-        <article data-reveal><img src="studio-assets/dingchao.webp" width="440" height="550" alt="Dingchao Shi" loading="lazy"><div><h3>Dingchao Shi</h3><p>Walking Experience &amp; Public Space Opportunities</p><a href="#streets">See the street perception study ↗</a></div></article>
-      </div>
     </section>
 
     <section id="next" class="wrap chapter next" aria-labelledby="next-title">
       <div>
         <h2 id="next-title" data-reveal>Carry Kajicho Forward</h2>
         <p class="lead" data-reveal>Renew buildings in phases and connect greener public spaces.</p>
-        <p data-reveal>Keep everyday streets open to local businesses, residents and visitors. The team will use the interim feedback to refine the design for the final presentation scheduled for <time datetime="2026-12-16">16 December 2026</time>.</p>
+        <p data-reveal>See how the six studies and interim feedback shape a district plan for 2050. Compare proposed targets and phases ahead of the final presentation scheduled for <time datetime="2026-12-16">16 December 2026</time>.</p>
+        <a class="site-button primary-link" href="/vision" data-reveal>Read the Future Vision</a>
+        <p><a href="/workshop">Read the workshop summary</a></p>
       </div>
       <figure data-reveal>
         <img src="studio-assets/pavilion.webp" width="900" height="990" alt="Illustration of a possible garden pavilion on a Kajicho school site" loading="lazy">
@@ -271,18 +272,15 @@
     </section>
   </main>
 
-  <footer class="studio-footer">
-    <div class="wrap">
-      <h2>Explore the Atlas</h2>
-      <nav aria-label="Site Atlas and sources">
-        <a href="index.html">Site Atlas</a>
-        <a href="field-visit.html">Field visit</a>
-        <a href="history.html">History</a>
-        <a href="building-age.html">Building age</a>
-        <a href="https://github.com/Urshuaige/Urban-Design-Studio-2026-Kajicho-Public">Maps, data and website source ↗</a>
+  <footer id="site-page-end" class="site-footer" lang="en">
+    <div class="site-shell">
+      <p data-site-label="footer">Urban Design Studio 2026 · Theme B · University of Tokyo</p>
+      <nav aria-label="Website references">
+        <a href="/design-guide" data-site-label="guide">Design Guide</a>
+        <a href="/studio-assets/sources" data-site-label="credits">Figure and photograph credits</a>
       </nav>
-      <p class="source-note">Urban Design Studio 2026 · Theme B · University of Tokyo. <a href="studio-assets/sources.html">Figure and photograph credits</a></p>
     </div>
   </footer>
+  </div>
 </body>
 </html>

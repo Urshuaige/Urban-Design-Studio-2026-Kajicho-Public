@@ -1,0 +1,565 @@
+{
+  "schema_version": 1,
+  "run_id": "45ff766011bbe984",
+  "created_jst": "2026-11-20T12:20:08+09:00",
+  "compute_host": "mdx1",
+  "cases": [
+    {
+      "id": "reference",
+      "roof": false,
+      "open": false,
+      "metrics": {
+        "pv_mwh": {
+          "value": 170.978827,
+          "status": "potential"
+        },
+        "demand_and_carbon": {
+          "value": null,
+          "status": "pending"
+        },
+        "battery": {
+          "value": null,
+          "status": "pending"
+        },
+        "first_hour_1800": {
+          "value": 1763,
+          "status": "controlled"
+        },
+        "first_hour_3200": {
+          "value": 2821,
+          "status": "controlled"
+        },
+        "queue_wait_3200": {
+          "value": 42.82,
+          "status": "controlled"
+        },
+        "parking_strip": {
+          "value": 5.0,
+          "status": "schematic"
+        },
+        "shade_9": {
+          "value": 11,
+          "status": "controlled"
+        },
+        "shade_12": {
+          "value": 12,
+          "status": "controlled"
+        },
+        "shade_15": {
+          "value": 3,
+          "status": "controlled"
+        },
+        "land_surface": {
+          "value": null,
+          "status": "pending"
+        },
+        "walk_station": {
+          "value": 260.5,
+          "status": "calculated"
+        },
+        "walk_kanamono": {
+          "value": 189.8,
+          "status": "calculated"
+        },
+        "river_overlap_station": {
+          "value": 211.05,
+          "status": "screening"
+        },
+        "river_overlap_kanamono": {
+          "value": 95.71,
+          "status": "screening"
+        },
+        "school_passage": {
+          "value": null,
+          "status": "pending"
+        },
+        "sewer_overflow": {
+          "value": null,
+          "status": "pending"
+        },
+        "facilities": {
+          "value": 15,
+          "status": "inventory"
+        },
+        "pv_school_mwh": {
+          "value": 3.47261,
+          "status": "potential"
+        },
+        "pv_kanamono_mwh": {
+          "value": 167.506217,
+          "status": "potential"
+        },
+        "self_supply_pct": {
+          "value": null,
+          "status": "pending"
+        }
+      },
+      "checks": [
+        {
+          "id": "school_gate",
+          "state": "pending"
+        },
+        {
+          "id": "sewer_connection",
+          "state": "pending"
+        }
+      ]
+    },
+    {
+      "id": "roof",
+      "roof": true,
+      "open": false,
+      "metrics": {
+        "pv_mwh": {
+          "value": 236.590448,
+          "status": "potential"
+        },
+        "demand_and_carbon": {
+          "value": null,
+          "status": "pending"
+        },
+        "battery": {
+          "value": null,
+          "status": "pending"
+        },
+        "first_hour_1800": {
+          "value": 1763,
+          "status": "controlled"
+        },
+        "first_hour_3200": {
+          "value": 2821,
+          "status": "controlled"
+        },
+        "queue_wait_3200": {
+          "value": 42.82,
+          "status": "controlled"
+        },
+        "parking_strip": {
+          "value": 5.0,
+          "status": "schematic"
+        },
+        "shade_9": {
+          "value": 11,
+          "status": "controlled"
+        },
+        "shade_12": {
+          "value": 12,
+          "status": "controlled"
+        },
+        "shade_15": {
+          "value": 3,
+          "status": "controlled"
+        },
+        "land_surface": {
+          "value": null,
+          "status": "pending"
+        },
+        "walk_station": {
+          "value": 260.5,
+          "status": "calculated"
+        },
+        "walk_kanamono": {
+          "value": 189.8,
+          "status": "calculated"
+        },
+        "river_overlap_station": {
+          "value": 211.05,
+          "status": "screening"
+        },
+        "river_overlap_kanamono": {
+          "value": 95.71,
+          "status": "screening"
+        },
+        "school_passage": {
+          "value": null,
+          "status": "pending"
+        },
+        "sewer_overflow": {
+          "value": null,
+          "status": "pending"
+        },
+        "facilities": {
+          "value": 15,
+          "status": "inventory"
+        },
+        "pv_school_mwh": {
+          "value": 3.47261,
+          "status": "potential"
+        },
+        "pv_kanamono_mwh": {
+          "value": 233.117837,
+          "status": "potential"
+        },
+        "self_supply_pct": {
+          "value": null,
+          "status": "pending"
+        }
+      },
+      "checks": [
+        {
+          "id": "school_gate",
+          "state": "pending"
+        },
+        {
+          "id": "sewer_connection",
+          "state": "pending"
+        },
+        {
+          "id": "school_roofs_retained",
+          "state": "fits"
+        },
+        {
+          "id": "roof_structure",
+          "state": "pending"
+        },
+        {
+          "id": "flat_roof_area",
+          "state": "conflict",
+          "affected_roofs": 14
+        }
+      ]
+    },
+    {
+      "id": "open-block",
+      "roof": false,
+      "open": true,
+      "metrics": {
+        "pv_mwh": {
+          "value": 170.978827,
+          "status": "potential"
+        },
+        "demand_and_carbon": {
+          "value": null,
+          "status": "pending"
+        },
+        "battery": {
+          "value": null,
+          "status": "pending"
+        },
+        "first_hour_1800": {
+          "value": 1763,
+          "status": "controlled"
+        },
+        "first_hour_3200": {
+          "value": 2821,
+          "status": "controlled"
+        },
+        "queue_wait_3200": {
+          "value": 42.82,
+          "status": "controlled"
+        },
+        "parking_strip": {
+          "value": 2.5,
+          "status": "schematic"
+        },
+        "shade_9": {
+          "value": 11,
+          "status": "controlled"
+        },
+        "shade_12": {
+          "value": 12,
+          "status": "controlled"
+        },
+        "shade_15": {
+          "value": 4,
+          "status": "controlled"
+        },
+        "land_surface": {
+          "value": null,
+          "status": "pending"
+        },
+        "walk_station": {
+          "value": 260.5,
+          "status": "calculated"
+        },
+        "walk_kanamono": {
+          "value": 189.8,
+          "status": "calculated"
+        },
+        "river_overlap_station": {
+          "value": 211.05,
+          "status": "screening"
+        },
+        "river_overlap_kanamono": {
+          "value": 95.71,
+          "status": "screening"
+        },
+        "school_passage": {
+          "value": null,
+          "status": "pending"
+        },
+        "sewer_overflow": {
+          "value": null,
+          "status": "pending"
+        },
+        "facilities": {
+          "value": 15,
+          "status": "inventory"
+        },
+        "pv_school_mwh": {
+          "value": 3.47261,
+          "status": "potential"
+        },
+        "pv_kanamono_mwh": {
+          "value": 167.506217,
+          "status": "potential"
+        },
+        "self_supply_pct": {
+          "value": null,
+          "status": "pending"
+        }
+      },
+      "checks": [
+        {
+          "id": "school_gate",
+          "state": "pending"
+        },
+        {
+          "id": "sewer_connection",
+          "state": "pending"
+        },
+        {
+          "id": "curb_overlap",
+          "state": "conflict",
+          "excess_m": 2.5
+        },
+        {
+          "id": "available_width",
+          "state": "pending"
+        },
+        {
+          "id": "dry_route",
+          "state": "screening"
+        }
+      ]
+    },
+    {
+      "id": "combined",
+      "roof": true,
+      "open": true,
+      "metrics": {
+        "pv_mwh": {
+          "value": 236.590448,
+          "status": "potential"
+        },
+        "demand_and_carbon": {
+          "value": null,
+          "status": "pending"
+        },
+        "battery": {
+          "value": null,
+          "status": "pending"
+        },
+        "first_hour_1800": {
+          "value": 1763,
+          "status": "controlled"
+        },
+        "first_hour_3200": {
+          "value": 2821,
+          "status": "controlled"
+        },
+        "queue_wait_3200": {
+          "value": 42.82,
+          "status": "controlled"
+        },
+        "parking_strip": {
+          "value": 2.5,
+          "status": "schematic"
+        },
+        "shade_9": {
+          "value": 11,
+          "status": "controlled"
+        },
+        "shade_12": {
+          "value": 12,
+          "status": "controlled"
+        },
+        "shade_15": {
+          "value": 4,
+          "status": "controlled"
+        },
+        "land_surface": {
+          "value": null,
+          "status": "pending"
+        },
+        "walk_station": {
+          "value": 260.5,
+          "status": "calculated"
+        },
+        "walk_kanamono": {
+          "value": 189.8,
+          "status": "calculated"
+        },
+        "river_overlap_station": {
+          "value": 211.05,
+          "status": "screening"
+        },
+        "river_overlap_kanamono": {
+          "value": 95.71,
+          "status": "screening"
+        },
+        "school_passage": {
+          "value": null,
+          "status": "pending"
+        },
+        "sewer_overflow": {
+          "value": null,
+          "status": "pending"
+        },
+        "facilities": {
+          "value": 15,
+          "status": "inventory"
+        },
+        "pv_school_mwh": {
+          "value": 3.47261,
+          "status": "potential"
+        },
+        "pv_kanamono_mwh": {
+          "value": 233.117837,
+          "status": "potential"
+        },
+        "self_supply_pct": {
+          "value": null,
+          "status": "pending"
+        }
+      },
+      "checks": [
+        {
+          "id": "school_gate",
+          "state": "pending"
+        },
+        {
+          "id": "sewer_connection",
+          "state": "pending"
+        },
+        {
+          "id": "school_roofs_retained",
+          "state": "fits"
+        },
+        {
+          "id": "roof_structure",
+          "state": "pending"
+        },
+        {
+          "id": "flat_roof_area",
+          "state": "conflict",
+          "affected_roofs": 14
+        },
+        {
+          "id": "curb_overlap",
+          "state": "conflict",
+          "excess_m": 2.5
+        },
+        {
+          "id": "available_width",
+          "state": "pending"
+        },
+        {
+          "id": "dry_route",
+          "state": "screening"
+        },
+        {
+          "id": "combined_shade_solar",
+          "state": "pending"
+        }
+      ]
+    }
+  ],
+  "support": {
+    "study_area_ha": 1.8118,
+    "crs": "EPSG:6677",
+    "roof": {
+      "stock_rows": 60,
+      "modeled_stock": 39,
+      "paired_roofs": 36,
+      "renewal_roofs": 16,
+      "school_retained_roofs": 2,
+      "area_conflict_roofs": 14,
+      "priority_panel_m2": 1527.559,
+      "priority_current_flat_m2": 1242.558,
+      "reference_mwh": 170.978827,
+      "roof_mwh": 236.590448
+    },
+    "traffic": {
+      "axis_m": 528.07,
+      "axis_intersection_m": 27.62,
+      "support": "study_area",
+      "control": {
+        "demand_rates": [
+          1800,
+          3200
+        ],
+        "demand_s": 3600,
+        "cycle_s": 90,
+        "seed": 42
+      }
+    },
+    "shade": {
+      "date_jst": "2026-08-24",
+      "samples": 24,
+      "windows": 12,
+      "trial_trees": 1,
+      "hours": {
+        "9": {
+          "reference": 11,
+          "open": 11
+        },
+        "12": {
+          "reference": 12,
+          "open": 12
+        },
+        "15": {
+          "reference": 3,
+          "open": 4
+        }
+      },
+      "mapped_width_min_m": 21.99,
+      "mapped_width_max_m": 22.59,
+      "tree_height_m": 7.0,
+      "tree_crown_diameter_m": 5.0,
+      "model_support": "Existing building massing in all four cases"
+    },
+    "walking": {
+      "station_m": 260.5,
+      "office_m": 189.8,
+      "mapped_hazard_station_m": 211.05,
+      "mapped_hazard_office_m": 95.71,
+      "mapped_hazard_area_pct": 37.689
+    },
+    "context": {
+      "poi_count": 15,
+      "poi_categories": {
+        "civic": 1,
+        "culture": 1,
+        "food": 2,
+        "health": 7,
+        "retail": 3,
+        "work": 1
+      },
+      "regina_cells": 18,
+      "regina_priority": {
+        "1": 8,
+        "2": 6,
+        "3": 4
+      },
+      "regina_scene_checks": {
+        "LC08_L2SP_107035_20260804_02_T1": {
+          "tested": 18,
+          "clear_nonwater": 0
+        },
+        "LC08_L2SP_107035_20260820_02_T1": {
+          "tested": 18,
+          "clear_nonwater": 0
+        }
+      }
+    },
+    "asuka_energy": {
+      "created_jst": "2026-11-20T13:39:01+09:00",
+      "reference_hourly_samples": 8760,
+      "baseline_paired_roofs": {
+        "school": 2,
+        "kanamono": 34
+      }
+    }
+  }
+}

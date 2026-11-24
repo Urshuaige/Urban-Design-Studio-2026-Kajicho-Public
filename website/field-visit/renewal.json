@@ -1,0 +1,230 @@
+{
+  "diagram": {
+    "label": ["Renewal and studio proposals", "地域更新とスタジオ提案", "地区更新与工作室方案"],
+    "description": ["Read each row from left to right. Local groups and owners shape the basic plan with the preparatory association and its advisers. Authorities take the applicable planning decisions. The studio places its proposals, checks affected sites and rights, agrees responsibilities, then phases and tests the design. Dashed arrows show where the studio checks local plans and applicable procedures.", "各段を左から読む。地域団体と地権者は準備組合・専門家と基本計画を検討し、所管行政が所定の都市計画手続を担う。スタジオは提案の場所、関係権利、役割分担を確認して、段階ごとに検証する。破線は地域の計画と手続を照合する箇所。", "两行各自从左向右读。地方组织、权利人与准备组合理解需求，和顾问研究基本方案，再由主管部门履行适用的规划程序。工作室先确定方案位置，再查地块与权利、商定责任，最后分期检验。虚线标出应核对当地项目和审批的环节。"],
+    "lanes": [
+      {
+        "label": [["Local", "renewal"], ["地域の", "更新"], ["地区", "更新"]],
+        "steps": [
+          [["Local discussion", "Owners and local groups", "Neighbourhood guideline"], ["地域での話し合い", "地権者・地域団体", "まちづくりの指針"], ["地区讨论", "权利人和地方组织", "地区更新导则"]],
+          [["Basic-plan study", "Preparatory association", "Matsuda Hirata Design"], ["基本計画の検討", "再開発準備組合", "松田平田設計"], ["研究基本方案", "再开发准备组合", "松田平田设计"]],
+          [["Planning procedure", "Chiyoda City / Tokyo", "Decision, if required"], ["都市計画の手続", "千代田区・東京都", "必要に応じ都市計画決定"], ["规划程序", "千代田区／东京都", "按适用程序作出决定"]],
+          [["Project delivery", "Project body and owners", "Rights, relocation, works"], ["事業の実施", "事業主体・権利者", "権利調整・移転・工事"], ["项目实施", "实施主体和权利人", "权利协调、搬迁、施工"]]
+        ]
+      },
+      {
+        "label": [["Studio", "proposals"], ["スタジオ", "提案"], ["工作室", "方案"]],
+        "steps": [
+          [["Place the proposal", "Studio team", "Streets, roofs, blocks, school"], ["提案を配置", "スタジオチーム", "街路・屋上・街区・旧校地"], ["定位设计方案", "工作室团队", "街道、屋顶、街区、旧校"]],
+          [["Check affected sites", "Owners and tenants", "Nearby projects"], ["敷地と権利を確認", "所有者・賃借人", "周辺の開発計画"], ["核对地块与权利", "业主和租户", "周边开发计划"]],
+          [["Agree responsibilities", "Public managers and users", "Consent, permits, upkeep"], ["役割分担を協議", "行政・管理者・利用者", "同意・許可・維持管理"], ["协商责任", "公共设施管理方和使用者", "同意、许可、维护"]],
+          [["Phase and test", "Studio and local partners", "Compare options to 2050"], ["段階を決めて検証", "スタジオ・地域の協力者", "2050年までの案を比較"], ["分期与检验", "工作室与地方伙伴", "对比至 2050 年的方案"]]
+        ]
+      }
+    ],
+    "checks": [
+      ["Check site overlap", "敷地の重なり", "核对地块重叠"],
+      ["Check applicable process", "適用手続の確認", "核对适用的程序"]
+    ]
+  },
+  "projects": [
+    {
+      "id": "school-north",
+      "status": "cleared",
+      "name": ["Cleared site north of the former school", "旧今川中学校北側の更地", "旧今川中学校北侧清场地块"],
+      "place": ["Kajicho 2-chome, east part of block 5", "鍛冶町二丁目5番街区東側", "鍛冶町二丁目 5 街区东侧"],
+      "actor": ["Sumitomo Realty & Development · linked site in studio survey", "住友不動産・現況調査で確認した関連敷地", "住友不动产 · 现状调查记录的关联地块"],
+      "record": ["October field records show a cleared core. A future scheme, its boundary and start date remain unconfirmed.", "10月の現況調査で街区内の更地を記録。今後の事業案、区域、着工日は未確認。", "10 月的现状调查记录了已经清场的核心地块。后续方案、项目边界和开工日期待核实。"],
+      "sources": [["/building-update", ["Site check", "現況調査", "现状核查"]]],
+      "cases": ["school"]
+    },
+    {
+      "id": "former-bank",
+      "status": "cleared",
+      "name": ["Former SMBC building", "旧三井住友銀行ビル", "原三井住友银行楼"],
+      "place": ["Kajicho 2-2-1", "鍛冶町2-2-1", "鍛冶町 2-2-1"],
+      "actor": ["Next project sponsor unconfirmed", "次期事業者は未確認", "后续项目主体待核实"],
+      "record": ["The site survey records demolition. Construction and a replacement scheme remain unconfirmed.", "現況調査に解体を記録。建替え案と新築着工は未確認。", "现状调查记录了拆除。新建方案和施工状态待核实。"],
+      "sources": [["/building-update", ["Site check", "現況調査", "现状核查"]]],
+      "cases": []
+    },
+    {
+      "id": "watage",
+      "status": "operating",
+      "name": ["watage community space and walkable trials", "watageと歩行空間の社会実験", "watage 社区空间与步行试点"],
+      "place": ["Kajicho 2-chome / Kanda Station East Exit", "鍛冶町二丁目・神田駅東口", "鍛冶町二丁目／神田站东口"],
+      "actor": ["Nippon Steel Kowa Real Estate · watage premises; Nomura Real Estate · trial committee", "日鉄興和不動産はwatageの場を提供、野村不動産は実行委員会に参加", "日铁兴和不动产提供 watage 空间；野村不动产参与试点执行委员会"],
+      "record": ["The operator records the space opening in 2024. The public street-trial report names both companies and the 首都圏不燃建築公社 foundation on the local committee.", "運営者は2024年開設と記録。社会実験の報告書には両社と首都圏不燃建築公社が実行委員会の参加者として記載されている。", "运营方记录该空间于 2024 年启用。公开的街道试点报告列出这两家公司及首都圈不燃建筑公社参与地方执行委员会。"],
+      "sources": [["#actor-3", ["Field visit roles", "現地調査の関係者", "调研记录中的角色"]], ["https://www.city.chiyoda.lg.jp/documents/28084/jisshihokoku-8.pdf", ["Chiyoda trial report", "千代田区社会実験報告書", "千代田区试点报告"]]],
+      "cases": ["streets", "blocks"]
+    },
+    {
+      "id": "east-exit",
+      "status": "study",
+      "name": ["Kajicho 2-chome / Kanda Station East Exit", "鍛冶町二丁目地区・神田駅東口", "鍛冶町二丁目地区／神田站东口"],
+      "place": ["District-scale study area", "地区単位の検討区域", "地区层面的研究范围"],
+      "actor": ["East Exit Preparatory Association · project partner undecided", "神田駅東口地区再開発準備組合・事業協力者は未定", "神田站东口再开发准备组合 · 事业合作方未定"],
+      "record": ["Chiyoda’s February 2026 list records a study led by a preparatory association. The October field talk marks basic-plan study. Nippon Steel Kowa and Nomura have documented local roles.", "千代田区の2026年2月資料では準備組合が検討中。10月の現地資料は基本計画の検討段階を示す。日鉄興和不動産・野村不動産には地域活動での役割の記録がある。", "千代田区 2026 年 2 月资料登记为准备组合研究中，10 月调研资料标为基本方案研究。日铁兴和不动产和野村不动产有地方活动参与记录。"],
+      "sources": [["https://gikai-chiyoda-tokyo.jp/about/nittei/files/20260227kanmachishiryou.pdf", ["Chiyoda committee record", "区議会委員会資料", "区议会委员会资料"]], ["https://www.city.chiyoda.lg.jp/koho/machizukuri/toshi/yotochiiki/saikaihatsu.html", ["Chiyoda project map", "千代田区再開発現況図", "千代田区再开发现状图"]], ["#actor-2", ["Field visit roles", "現地調査の関係者", "调研记录中的角色"]]],
+      "cases": ["streets", "blocks", "school"]
+    },
+    {
+      "id": "west-exit",
+      "status": "study",
+      "name": ["Kanda Station West Exit", "神田駅西口地区", "神田站西口地区"],
+      "place": ["Uchikanda 2 & 3, west of the focus area", "内神田二・三丁目、調査重点地区の西側", "内神田二、三丁目，重点区以西"],
+      "actor": ["West Exit Preparatory Association · NTT Urban Development, project partner", "西口地区準備組合・事業協力者はNTT都市開発", "西口地区准备组合 · NTT 都市开发为事业合作方"],
+      "record": ["Chiyoda’s February 2026 list records a district redevelopment study. The published schedule is undecided.", "千代田区の2026年2月資料では再開発の検討段階。日程は未定。", "千代田区 2026 年 2 月资料登记为再开发研究中，日程未定。"],
+      "sources": [["https://gikai-chiyoda-tokyo.jp/about/nittei/files/20260227kanmachishiryou.pdf", ["Chiyoda committee record", "区議会委員会資料", "区议会委员会资料"]], ["https://www.city.chiyoda.lg.jp/documents/32014/jisshinaiyo-kandanishi.pdf", ["West Exit activity report", "西口地区活動報告", "西口活动报告"]]],
+      "cases": ["streets"]
+    },
+    {
+      "id": "syncs",
+      "status": "planned",
+      "name": ["Syncs Kanda Bldg", "シンクス神田", "Syncs Kanda 商业楼"],
+      "place": ["Kajicho 2-chome, block 7", "鍛冶町二丁目7番街区", "鍛冶町二丁目 7 街区"],
+      "actor": ["SYNCS Co., Ltd.", "SYNCS株式会社", "SYNCS 株式会社"],
+      "record": ["A 2025 site notice names SYNCS as the client. The letting agent lists completion for February 2027. Latest site progress remains unconfirmed.", "2025年の現地標識に建築主としてSYNCSを記載。募集資料では2027年2月末竣工予定。直近の工事進捗は未確認。", "2025 年现场公示列出 SYNCS 为建设方。招租资料列出的预计竣工时间为 2027 年 2 月底，现场最新工况待核实。"],
+      "sources": [["/building-update", ["Site check", "現況調査", "现状核查"]], ["https://www.syncs-03rp.com/", ["Letting information", "募集資料", "招租资料"]]],
+      "cases": ["streets", "roofs"]
+    },
+    {
+      "id": "kanda-tsushin",
+      "status": "planned",
+      "name": ["Kanda Tsushin office building", "神田通信株式会社ビル", "神田通信办公楼"],
+      "place": ["Kanda Tomiyamacho 24-1 and 24-9", "神田富山町24番1・24番9", "神田富山町 24-1、24-9"],
+      "actor": ["Kanda Tsushin named in project title · applicant unconfirmed", "計画名に神田通信株式会社・建築主は未確認", "计划名称列有神田通信株式会社 · 申报主体待核实"],
+      "record": ["Chiyoda environmental plan 8019 lists a target completion of 10 Dec 2027. Site start remains unconfirmed.", "千代田区の環境計画書8019では2027年12月10日竣工予定。現地着工は未確認。", "千代田区环境计划 8019 列出预计竣工日 2027 年 12 月 10 日。现场是否开工待核实。"],
+      "sources": [["https://www.city.chiyoda.lg.jp/documents/34300/r8-8019.pdf", ["Chiyoda plan 8019", "千代田区計画書8019", "千代田区计划 8019"]]],
+      "cases": []
+    },
+    {
+      "id": "ark",
+      "status": "planned",
+      "name": ["Ark Kanda Higashimatsushitacho", "（仮称）アーク神田東松下町", "Ark 神田东松下町（暂名）"],
+      "place": ["Kanda Higashimatsushitacho 29-7 and 29-8", "神田東松下町29番地7・8", "神田东松下町 29-7、29-8"],
+      "actor": ["Applicant unconfirmed", "建築主は未確認", "申报主体待核实"],
+      "record": ["Chiyoda environmental plan 8022 lists 13 rental homes and target completion on 30 Sep 2027. Site start remains unconfirmed.", "千代田区の環境計画書8022では賃貸住宅13戸、2027年9月30日竣工予定。現地着工は未確認。", "千代田区环境计划 8022 列出 13 户出租住宅，预计 2027 年 9 月 30 日竣工。现场是否开工待核实。"],
+      "sources": [["https://www.city.chiyoda.lg.jp/documents/34300/r8-8022.pdf", ["Chiyoda plan 8022", "千代田区計画書8022", "千代田区计划 8022"]]],
+      "cases": []
+    },
+    {
+      "id": "dscape",
+      "status": "complete",
+      "name": ["D-Scape Kanda", "D-Scape Kanda", "D-Scape Kanda"],
+      "place": ["Kajicho 1-chome", "鍛冶町一丁目", "鍛冶町一丁目"],
+      "actor": ["Daiwa House Industry", "大和ハウス工業", "大和房屋工业"],
+      "record": ["Daiwa House reports completion in August 2026.", "大和ハウス工業の公表資料によると2026年8月竣工。", "大和房屋工业公布的竣工时间为 2026 年 8 月。"],
+      "sources": [["https://www.daiwahouse.co.jp/about/release/house/pdf/release_20261111.pdf", ["Daiwa House report", "大和ハウス工業公表資料", "大和房屋报告"]]],
+      "cases": []
+    },
+    {
+      "id": "circles",
+      "status": "complete",
+      "name": ["CIRCLES Kanda Ekimae", "CIRCLES神田駅前", "CIRCLES 神田站前"],
+      "place": ["Kajicho 2-7-14", "鍛冶町2-7-14", "鍛冶町 2-7-14"],
+      "actor": ["Mitsubishi Estate", "三菱地所", "三菱地所"],
+      "record": ["The developer lists completion on 15 Dec 2023.", "事業者の物件概要では2023年12月15日竣工。", "开发商项目页列出的竣工日期为 2023 年 12 月 15 日。"],
+      "sources": [["https://mec-circles.com/series/outline/kanda", ["Developer project page", "事業者の物件概要", "开发商项目页"]]],
+      "cases": []
+    }
+  ],
+  "cases": [
+    {
+      "id": "streets",
+      "letter": "A",
+      "name": ["Heisei-dori and Kanamono-dori", "平成通り・神田金物通り", "平成通与神田金物通"],
+      "studies": ["shair", "dingchao", "regina", "keane"],
+      "steps": [
+        {
+          "id": "street-loading",
+          "flow": [[["Keep curbside loading"], ["路上荷さばきを残す"], ["保留路边装卸"]], [["Shops, carriers and police", "Road and sewer managers"], ["店舗・配送事業者・警察", "道路・下水道管理者"], ["商户、配送方和警方", "道路与排水管理方"]], [["Keep emergency access clear", "Find other rain storage"], ["緊急車両の動線を確保", "別の雨水貯留先を探す"], ["保留应急通道", "寻找其他雨水调蓄点"]]],
+          "name": ["Keep curbside loading", "路上荷さばきを残す", "保留路边装卸"],
+          "actors": ["Road manager, local police, shops and delivery operators; sewer manager for the receiving site.", "道路管理者、所轄警察、沿道店舗、配送事業者。移設先は下水道管理者にも確認。", "道路管理者、辖区警察、沿街商户和配送方；另与排水管理方确认调蓄点。"],
+          "check": ["Keep loading and emergency access clear. Find storage in the same catchment and check the outlet.", "荷さばきと緊急車両の動線を確保。同じ集水域で貯留先と排水口を確認する。", "保留装卸及应急通道，在同一汇水区内找调蓄空间并核对排水口。"],
+          "phases": [2030, 2040]
+        },
+        {
+          "id": "street-rain-garden",
+          "flow": [[["Move loading", "Add a rain garden"], ["荷さばきを移す", "雨庭を設ける"], ["转移装卸", "增设雨水花园"]], [["Shops, carriers and bay owner", "Road, police and sewer teams"], ["店舗・配送・移設先所有者", "道路・警察・下水道"], ["商户、配送方、装卸点业主", "道路、警方与排水管理方"]], [["Agree delivery hours and space", "Check access and drainage"], ["荷さばきの場所・時間を協議", "転回・歩行幅・排水を確認"], ["商定装卸位置和时段", "核对转弯、步行净宽与排水"]]],
+          "name": ["Move loading and add a rain garden", "荷さばきを移し雨庭を設ける", "转移装卸并增设雨水花园"],
+          "actors": ["Shops, carriers and the loading-bay owner; road manager, police and sewer manager.", "沿道店舗、配送事業者、移設先の所有者、道路管理者、警察、下水道管理者。", "沿街商户、配送方和替代装卸点业主，以及道路管理者、警方和排水管理方。"],
+          "check": ["Agree on the bay and delivery hours. Check turns, clear walking width, drainage and who maintains the rain garden.", "荷さばき場所と時間帯を合意。車両の転回、歩行幅、排水、雨庭の管理者を確認する。", "商定替代装卸点和配送时段，核对转弯、行人净宽、排水与雨水花园维护责任。"],
+          "phases": [2030, 2040]
+        }
+      ]
+    },
+    {
+      "id": "roofs",
+      "letter": "B",
+      "name": ["Roof cluster east of JR Kanda", "JR神田駅東側の屋上群", "JR 神田站以东的屋顶组团"],
+      "studies": ["asuka", "regina", "keane"],
+      "steps": [
+        {
+          "id": "roofs-ground",
+          "flow": [[["Keep solar area", "Move rain storage to ground"], ["太陽光の面積を保つ", "雨水貯留を地上へ"], ["保留光伏面积", "地面调蓄雨水"]], [["Roof and receiving site owners", "Building and sewer managers"], ["屋上・移設先の所有者", "建物・下水道管理者"], ["屋顶及调蓄用地业主", "物业和排水管理方"]], [["Confirm roof access and upkeep", "Secure land and an outlet"], ["屋上点検動線・管理を確認", "用地と排水口を確保"], ["确认屋顶通道和维护", "落实调蓄用地与排水口"]]],
+          "name": ["Keep solar area and move storage to the ground", "太陽光の面積を保ち貯留を地上へ", "保留光伏面积，将调蓄移至地面"],
+          "actors": ["Roof owners and building managers; owner of the receiving land and sewer manager.", "屋上の所有者・建物管理者、貯留候補地の所有者、下水道管理者。", "屋顶业主和物业管理方、地面调蓄候选用地的业主及排水管理方。"],
+          "check": ["Secure roof access and a maintenance agreement. Agree on storage land and verify the outlet.", "屋上へのアクセスと維持管理を取り決める。地上の用地を確保し、排水口を確認する。", "落实屋顶维护通道和维护协议，协商地面调蓄用地与排水口。"],
+          "phases": [2030, 2040]
+        },
+        {
+          "id": "roofs-combined",
+          "flow": [[["Share roofs", "Solar, planting and storage"], ["屋上を共用", "太陽光・緑化・貯留"], ["共用屋顶", "光伏、绿化和调蓄"]], [["Owners and site managers", "Structural and equipment teams"], ["所有者・建物管理者", "構造設計・設備運用者"], ["业主和物业管理方", "结构工程师与设备运营方"]], [["Check wet loads and access", "Compare solar output and runoff"], ["飽水荷重と点検動線を確認", "発電量と流出量を比較"], ["核对饱水荷载与检修通道", "比较发电量和雨水径流"]]],
+          "name": ["Share roofs between solar, planting and storage", "太陽光・緑化・貯留で屋上を共用", "屋顶兼设光伏、绿化和雨水调蓄"],
+          "actors": ["Owners or unit-owners’ association, building manager, structural engineer and equipment operators.", "所有者または管理組合、建物管理者、構造設計者、設備運用者。", "业主或区分所有管理组合、物业管理方、结构工程师及设备运营方。"],
+          "check": ["Verify wet loading, waterproofing, access and upkeep before comparing solar output and runoff.", "飽水時の荷重、防水、点検動線と維持管理を確認し、発電量と流出量を比較する。", "先查饱水荷载、防水、检修通道和维护安排，再比较发电量和雨水径流。"],
+          "phases": [2030, 2040]
+        }
+      ]
+    },
+    {
+      "id": "blocks",
+      "letter": "C",
+      "name": ["Fureai-dori and Ippachi-dori frontages", "ふれあい通り・一八通り沿道", "Fureai 通和 Ippachi 通沿街界面"],
+      "studies": ["jiaxiang", "asuka", "dingchao"],
+      "steps": [
+        {
+          "id": "block-retrofit",
+          "flow": [[["Keep shops", "Retrofit the frontage"], ["店舗を残す", "沿道を改修"], ["保留商铺", "改造沿街界面"]], [["Owners, tenants and residents", "Road manager if street changes"], ["所有者・賃借人・住民", "道路にかかれば道路管理者"], ["业主、租户和居民", "涉及道路时联系道路管理者"]], [["Keep shops trading", "Check entrances and alley width"], ["工事中の営業継続", "出入口・路地幅を確認"], ["保障施工期间营业", "核对出入口和巷道净宽"]]],
+          "name": ["Retain shops and retrofit the frontage", "店舗を残して沿道を改修", "保留商铺并改造沿街界面"],
+          "actors": ["Land and building owners, shop tenants, residents and alley users; road manager where work reaches the street.", "土地・建物所有者、店舗賃借人、住民、路地利用者。道路にかかる場合は道路管理者。", "土地和建筑业主、承租商户、居民与巷道使用者；涉及道路时联系道路管理者。"],
+          "check": ["Confirm entrances, work hours and alley clearance. Agree how shops keep trading and who maintains shared space.", "出入口、工事時間、路地幅を確認。営業継続と共用部管理を取り決める。", "核对出入口、施工时段和巷道净宽，商定商铺如何继续营业以及谁维护共用空间。"],
+          "phases": [2030, 2040]
+        },
+        {
+          "id": "block-rebuild",
+          "flow": [[["Select buildings", "Demolish and rebuild"], ["対象建物を選ぶ", "解体して建替え"], ["选定建筑", "拆除并重建"]], [["Owners, leaseholders, tenants", "Building authority"], ["所有者・借地権者・賃借人", "建築担当行政"], ["业主、借地权人和租户", "建筑主管部门"]], [["Agree relocation and return", "Check permits and demolition cap"], ["仮移転・再入居を協議", "手続と解体上限を確認"], ["商定临时安置和回迁", "核对审批与阶段拆除上限"]]],
+          "name": ["Demolish and rebuild selected premises", "選定した建物を解体して建替え", "选择性拆除并重建"],
+          "actors": ["Parcel owners, land leaseholders, shop and residential tenants, and the building authority. Consult the preparatory association or developer where parcels overlap.", "敷地所有者、借地権者、店舗・住宅の賃借人、建築担当行政。敷地が重なる場合は準備組合や関係事業者にも確認。", "地块业主、借地权人、商铺和住宅租户以及建筑主管部门。地块有重叠时，再与准备组合或对应开发商核对。"],
+          "check": ["Verify parcel rights and the approval route. Agree on temporary or return premises and test the phase’s demolition cap.", "敷地の権利と適用手続を確認。仮移転・再入居の条件を協議し、段階ごとの解体上限に照らす。", "先核实地块权利和适用程序，商量临时安置或回迁条件，再核对该阶段的拆除上限。"],
+          "phases": [2040, 2050]
+        }
+      ]
+    },
+    {
+      "id": "school",
+      "letter": "D",
+      "name": ["Former Imagawa Junior High School", "旧今川中学校と周辺街路", "旧今川中学校与周边街道"],
+      "studies": ["jiaxiang", "regina", "keane", "dingchao"],
+      "steps": [
+        {
+          "id": "school-edge",
+          "flow": [[["Store rainwater", "Use the school edge"], ["雨水を貯留", "旧校地の縁を使う"], ["用旧校地边缘调蓄"]], [["Chiyoda, town groups, operators", "Sewer manager and site users"], ["千代田区・町会・運営者", "下水道管理者・利用者"], ["千代田区、町会与运营方", "排水管理方与使用者"]], [["Keep a dry route", "Check discharge and trial access"], ["浸水しない動線を確保", "排水と暫定開放を確認"], ["保留不被淹的通行路线", "核对排水与试点开放条件"]]],
+          "name": ["Store rainwater at the school edge", "旧校地の縁で雨水を貯留", "在旧校地边缘调蓄雨水"],
+          "actors": ["Chiyoda City as public land manager, town associations, site users and operators, and the sewer manager.", "区有地を管理する千代田区、町会、利用者・運営者、下水道管理者。", "管理公有地的千代田区、当地町会、场地使用者与运营方，以及排水管理方。"],
+          "check": ["Agree on trial access and operation. Keep a dry route and verify discharge. Coordinate the northern edge if nearby works affect access.", "暫定利用の出入りと運営を協議。浸水しない動線と排水を確認し、北側の工事が出入りに影響するときは調整する。", "商定临时开放和运营条件，保留不被淹的通行路线并核验排水。北侧工程影响出入时，再协调边界。"],
+          "phases": [2030, 2040]
+        },
+        {
+          "id": "school-offsite",
+          "flow": [[["Move rain storage", "Open the school edge"], ["貯留を別の場所へ", "旧校地の縁を開く"], ["异地调蓄", "开放旧校地边缘"]], [["Chiyoda, residents and operators", "Receiving owner and sewer manager"], ["千代田区・住民・運営者", "移設先所有者・下水道管理者"], ["千代田区、居民和场地运营方", "调蓄点业主与排水管理方"]], [["Verify the same catchment", "Agree access hours and upkeep"], ["同じ集水域か確認", "開放時間と管理を協議"], ["核对是否属于同一汇水区", "商定开放时段与维护"]]],
+          "name": ["Store water elsewhere and open the school edge", "貯留を移し旧校地の縁を開く", "另设调蓄空间并开放旧校地边缘"],
+          "actors": ["Chiyoda City and site operators; receiving landowner and sewer manager; residents and town associations.", "千代田区、旧校地の運営者、貯留先の土地所有者、下水道管理者、住民・町会。", "千代田区和学校场地运营方、异地调蓄用地业主及排水管理方，还有居民和町会。"],
+          "check": ["Test a receiving site in the same catchment. Agree on open hours, accessibility and maintenance for the school edge.", "同じ集水域で移設先を検証。旧校地の開放時間、アクセシビリティ、維持管理を協議する。", "在同一汇水区验证调蓄候选点，落实旧校地开放时段、无障碍和维护安排。"],
+          "phases": [2030, 2040]
+        }
+      ]
+    }
+  ]
+}
