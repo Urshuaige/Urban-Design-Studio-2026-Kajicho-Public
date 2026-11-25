@@ -1,0 +1,742 @@
+full_field,shapefile_field,source
+OBJECTID,OBJECTID,supplied age
+fid,fid,supplied age
+id,id,supplied age
+descriptio,descriptio,supplied age
+name,name,supplied age
+creationDa,creationDa,supplied age
+terminatio,terminatio,supplied age
+genericAtt,genericAtt,supplied age
+class,class,supplied age
+function,function,supplied age
+usage,usage,supplied age
+yearOfCons,yearOfCons,supplied age
+yearOfDemo,yearOfDemo,supplied age
+roofType,roofType,supplied age
+measuredHe,measuredHe,supplied age
+storeysAbo,storeysAbo,supplied age
+storeysBel,storeysBel,supplied age
+storeyHeig,storeyHeig,supplied age
+storeyHe_1,storeyHe_1,supplied age
+outerBuild,outerBuild,supplied age
+interiorBu,interiorBu,supplied age
+boundedBy,boundedBy,supplied age
+interiorRo,interiorRo,supplied age
+consistsOf,consistsOf,supplied age
+address,address,supplied age
+buildingDa,buildingDa,supplied age
+buildingDi,buildingDi,supplied age
+bldgDmAttr,bldgDmAttr,supplied age
+bldgFacili,bldgFacili,supplied age
+bldgFaci_1,bldgFaci_1,supplied age
+bldgFaci_2,bldgFaci_2,supplied age
+keyValuePa,keyValuePa,supplied age
+bldgRealEs,bldgRealEs,supplied age
+bldgUsecas,bldgUsecas,supplied age
+buildingDe,buildingDe,supplied age
+buildingID,buildingID,supplied age
+ifcBuildin,ifcBuildin,supplied age
+indoorBuil,indoorBuil,supplied age
+largeCusto,largeCusto,supplied age
+parentId,parentId,supplied age
+parentType,parentType,supplied age
+kid,kid,supplied age
+kid_1,kid_1,supplied age
+Byear,Byear,supplied age
+Notes,Notes,supplied age
+Shape_Leng,Shape_Leng,supplied age
+Shape_Area,Shape_Area,supplied age
+asset_id,asset_id,current register
+ward_code,ward_code,current register
+gml_id,gml_id,current register
+building_id,building_i,current register
+usage_code,usage_code,current register
+detailed_use,detailed_u,current register
+height_m,height_m,current register
+height_source,height_sou,current register
+levels,levels,current register
+levels_source,levels_sou,current register
+plan_area_m2,plan_area_,current register
+floor_proxy_m2,floor_prox,current register
+survey_year,survey_yea,current register
+model_year,model_year,current register
+creation_date,creation_d,current register
+source_member,source_mem,current register
+site_in_wider,site_in_wi,current register
+site_in_primary,site_in_pr,current register
+in_wider,in_wider,current register
+crosses_wider,crosses_wi,current register
+in_primary,in_primary,current register
+crosses_primary,crosses_pr,current register
+boundary_ids,boundary_i,current register
+crossing_boundary_ids,crossing_b,current register
+teacher_area_ids,teacher_ar,current register
+teacher_nskre,teacher_ns,current register
+teacher_sumitomo,teacher_su,current register
+teacher_former_school,teacher_fo,current register
+teacher_incremental,teacher_in,current register
+building_use_ja,building_1,current register
+building_use_en,building_u,current register
+raw_height_m,raw_height,current register
+raw_levels,raw_levels,current register
+height_band_en,height_ban,current register
+footprint_area_m2,footprint_,current register
+annual_energy_kwh,annual_ene,current register
+annual_co2_kg,annual_co2,current register
+energy_status,energy_sta,energy
+land_use_code,land_use_c,current register
+land_use_en,land_use_e,current register
+land_use_ja,land_use_j,current register
+zone_en,zone_en,current register
+zone_ja,zone_ja,current register
+far_pct,far_pct,current register
+bcr_pct,bcr_pct,current register
+land_use_detail_ja,land_use_d,current register
+land_use_overlap_pct,land_use_o,current register
+planning_zone_parts,,current register
+multiple_planning_zones,multiple_p,current register
+flood_scenario_parts,,current register
+flood_intersections,flood_inte,current register
+flood_note,flood_note,current register
+planning_status,planning_s,current register
+teacher_area_overlap_parts,teacher_a1,current register
+fire_prevention_en,fire_preve,current register
+fire_prevention_names_ja,fire_prev1,current register
+fire_prevention_match_count,fire_prev2,current register
+district_plans_en,district_p,current register
+district_plans_names_ja,district_1,current register
+district_plans_match_count,district_2,current register
+efficient_land_use_en,efficient_,current register
+efficient_land_use_names_ja,efficient1,current register
+efficient_land_use_match_count,efficient2,current register
+height_control_en,height_con,current register
+height_control_names_ja,height_co1,current register
+height_control_match_count,height_co2,current register
+special_far_en,special_fa,current register
+special_far_names_ja,special_f1,current register
+special_far_match_count,special_f2,current register
+urban_renaissance_en,urban_rena,current register
+urban_renaissance_names_ja,urban_ren1,current register
+urban_renaissance_match_count,urban_ren2,current register
+town_code,town_code,current register
+town_name_ja,town_name_,current register
+town_match_rule,town_match,current register
+town_collapse_risk_rank,town_colla,current register
+town_fire_risk_rank,town_fire_,current register
+town_overall_risk_rank,town_overa,current register
+town_response_difficulty,town_respo,current register
+town_ground_type_ja,town_groun,current register
+town_risk_year,town_risk_,current register
+town_risk_unit,town_risk1,current register
+control_join_rule,control_jo,current register
+official_height_m,official_h,current register
+official_storeys,official_s,current register
+construction_year,construct1,current register
+building_age_2026,building_a,current register
+construction_year_status,constructi,current register
+construction_year_raw,construct2,current register
+basement_storeys,basement_s,current register
+structure_code,structure_,current register
+structure_org_code,structure1,current register
+fireproof_structure_code,fireproof_,current register
+roof_type_code,roof_type_,current register
+official_site_area_m2,official_1,current register
+official_total_floor_area_m2,official_t,current register
+attribute_source_file,,current register
+research_role,research_r,current register
+in_research_set,in_researc,current register
+street_frontage_id,street_fro,current register
+street_frontage_en,street_fr1,current register
+street_name_ja,street_nam,current register
+frontage_samples_m,frontage_s,current register
+min_road_distance_m,min_road_d,current register
+selection_method,,current register
+original_relation,original_r,current register
+source_fid,source_fid,current register
+review_status,,current register
+review_date,review_dat,current register
+evidence_ids,,current register
+review_note,,current register
+demolition_date,,current register
+pub_name,,current register
+pub_address,,current register
+pub_built_year,pub_built_,current register
+pub_built_month,,current register
+pub_age_2026,,current register
+pub_age_band,,current register
+pub_year_low,,current register
+pub_year_high,,current register
+pub_year_status,pub_year_s,current register
+pub_structure,,current register
+pub_floors,,current register
+pub_source_url,pub_source,current register
+pub_source_type,,current register
+pub_match,,current register
+pub_note,,current register
+pub_checked,,current register
+pub_model_review,,current register
+osm_cover,,current register
+gsi_cover,,current register
+land_status_matches,,current register
+checked_on,,current register
+status_as_of,,current register
+current_status,current_st,current register
+status_basis,,current register
+baseline_use_ja,,current register
+baseline_use_en,,current register
+baseline_height_m,,current register
+baseline_levels,,current register
+current_use_source,,current register
+geometry_status,geometry_s,current register
+geometry_source_url,,current register
+age_evidence,age_eviden,current register
+age_year_exact,age_year_e,current register
+age_year_from,age_year_f,current register
+age_year_to,age_year_t,current register
+age_min_2026,,current register
+age_max_2026,,current register
+age_confidence,age_confid,current register
+age_source_urls,,current register
+age_method,age_method,current register
+age_note,age_note,current register
+age_checked,,current register
+age_review_sector,age_review,current register
+age_display,age_displa,current register
+primary_source_objectid,,current register
+primary_source_note,,current register
+energy___wider_pk,,energy
+energy_asset_id,,energy
+energy_gml_id,,energy
+energy_height_m,,energy
+energy_height_source,,energy
+energy_levels,,energy
+energy_usage_raw,,energy
+energy_address_raw,,energy
+energy_survey_year_raw,,energy
+energy_creation_date,,energy
+energy_model_year,,energy
+energy_source_tile,,energy
+energy_footprint_m2,,energy
+energy_use_en,,energy
+energy_building_state,,energy
+energy_is_current,,energy
+energy_review_source,,energy
+energy_known_post2021,,energy
+energy_levels_source,,energy
+energy_official_floor_m2,,energy
+energy_is_removed,,energy
+energy_town_key,,energy
+energy_town_overlap_fraction,,energy
+energy_town_match_count,,energy
+energy_levels_imputed,,energy
+energy_gross_floor_m2,,energy
+energy_floor_method,,energy
+energy_unknown_use,,energy
+energy_mix_use,,energy
+energy_res_share,,energy
+energy_work_share,energy_wor,energy
+energy_eligible2021,,energy
+energy_wide_fraction,,energy
+energy_primary_fraction,,energy
+energy_in_wider,,energy
+energy_in_primary,,energy
+energy_res_floor_m2,,energy
+energy_work_floor_m2,,energy
+energy_assumption,,energy
+energy_confidence,,energy
+energy_town_name_ja,,energy
+energy_building_source_url,,energy
+energy_data_crs,,energy
+energy_estimate_status,,energy
+energy_residents_main,,energy
+energy_residents_weight,,energy
+energy_residents_footprint,,energy
+energy_residents_mixed50,,energy
+energy_residents_unknown_imputed,,energy
+energy_residents_sensitivity_low,,energy
+energy_residents_sensitivity_high,,energy
+energy_residents_source_year,,energy
+energy_residents_town_total,,energy
+energy_households_main,,energy
+energy_households_weight,,energy
+energy_households_footprint,,energy
+energy_households_mixed50,,energy
+energy_households_unknown_imputed,,energy
+energy_households_sensitivity_low,,energy
+energy_households_sensitivity_high,,energy
+energy_households_source_year,,energy
+energy_households_town_total,,energy
+energy_register_date,,energy
+energy_population_source_url,,energy
+energy_residential_electricity_scenario_kwh_y,,energy
+energy_electricity_coefficient,,energy
+energy_demand_floor_proxy_m2,,energy
+energy_nonres_floor_proxy_m2,,energy
+energy_annual_nonres_kwh,,energy
+energy_cooling_peak_kw,,energy
+energy_demand_method,,energy
+energy_distance_mapped_green_m,,energy
+energy_distance_water_m,,energy
+energy_green_distance_note,,energy
+energy_households_expected,,energy
+energy_assessment_status,,energy
+energy_assessment_scope,,energy
+energy_benchmark_class,,energy
+energy_benchmark_year,,energy
+energy_geometry_asof,,energy
+energy_energy_est_gj_y,energy_ene,energy
+energy_co2_est_t_y,energy_co2,energy
+energy_energy_int_mj_m2_y,,energy
+energy_co2_int_kg_m2_y,,energy
+energy_nonres_energy_gj_y,,energy
+energy_nonres_co2_t_y,,energy
+energy_dwelling_primary_gj_y,,energy
+energy_dwelling_final_gj_y,,energy
+energy_dwelling_elec_kwh_y,,energy
+energy_dwelling_co2_t_y,,energy
+energy_covered_energy_gj_y,,energy
+energy_covered_co2_t_y,,energy
+energy_ref25_energy_gj_y,,energy
+energy_ref25_co2_t_y,,energy
+energy_co2_apartment_alt_t_y,,energy
+energy_energy_floor_minus1_gj_y,,energy
+energy_energy_floor_plus1_gj_y,,energy
+energy_co2_floor_minus1_t_y,,energy
+energy_co2_floor_plus1_t_y,,energy
+energy_office_own_alt_gj_y,,energy
+energy_office_tenant_alt_gj_y,,energy
+energy_nonres_eui_mj_m2_y,,energy
+energy_nonres_co2i_kg_m2_y,,energy
+energy_benchmark_sample_n,,energy
+energy_has_height_floor_proxy,,energy
+energy_actual_metered,,energy
+energy_energy_basis,,energy
+energy_carbon_basis,,energy
+energy_method_note,,energy
+energy_source_ref,,energy
+energy_energy_mixed50_gj_y,,energy
+energy_co2_mixed50_t_y,,energy
+energy_co2_total_rank,,energy
+energy_energy_total_rank,,energy
+energy_review_priority,,energy
+energy_modeled_floor_m2,,energy
+energy_delivery_source_fid,,energy
+energy_delivery_geometry,,energy
+energy_delivery_value_scope,,energy
+people___wider_pk,,people
+people_asset_id,,people
+people_gml_id,,people
+people_height_m,,people
+people_height_source,,people
+people_levels,,people
+people_usage_raw,,people
+people_address_raw,,people
+people_survey_year_raw,,people
+people_creation_date,,people
+people_model_year,,people
+people_source_tile,,people
+people_footprint_m2,,people
+people_use_en,,people
+people_building_state,,people
+people_is_current,,people
+people_review_source,,people
+people_known_post2021,,people
+people_levels_source,,people
+people_official_floor_m2,,people
+people_is_removed,,people
+people_town_key,,people
+people_town_overlap_fraction,,people
+people_town_match_count,,people
+people_levels_imputed,,people
+people_gross_floor_m2,,people
+people_floor_method,,people
+people_unknown_use,,people
+people_mix_use,,people
+people_res_share,,people
+people_work_share,,people
+people_eligible2021,,people
+people_wide_fraction,,people
+people_primary_fraction,,people
+people_in_wider,,people
+people_in_primary,,people
+people_res_floor_m2,,people
+people_work_floor_m2,people_wor,people
+people_assumption,,people
+people_confidence,,people
+people_town_name_ja,,people
+people_building_source_url,,people
+people_data_crs,,people
+people_estimate_status,,people
+people_residents_main,people_res,people
+people_residents_weight,,people
+people_residents_footprint,,people
+people_residents_mixed50,,people
+people_residents_unknown_imputed,,people
+people_residents_sensitivity_low,,people
+people_residents_sensitivity_high,,people
+people_residents_source_year,people_re1,people
+people_residents_town_total,,people
+people_households_main,,people
+people_households_weight,,people
+people_households_footprint,,people
+people_households_mixed50,,people
+people_households_unknown_imputed,,people
+people_households_sensitivity_low,,people
+people_households_sensitivity_high,,people
+people_households_source_year,,people
+people_households_town_total,,people
+people_register_date,,people
+people_population_source_url,,people
+people_residential_electricity_scenario_kwh_y,,people
+people_electricity_coefficient,,people
+people_demand_floor_proxy_m2,,people
+people_nonres_floor_proxy_m2,,people
+people_annual_nonres_kwh,,people
+people_cooling_peak_kw,,people
+people_demand_method,,people
+people_distance_mapped_green_m,,people
+people_distance_water_m,,people
+people_green_distance_note,,people
+people_delivery_source_fid,,people
+people_delivery_geometry,,people
+people_delivery_value_scope,,people
+chronology___wider_pk,,chronology
+chronology_asset_id,,chronology
+chronology_ward_code,,chronology
+chronology_gml_id,,chronology
+chronology_building_id,,chronology
+chronology_usage_code,,chronology
+chronology_detailed_use,,chronology
+chronology_height_m,,chronology
+chronology_height_source,,chronology
+chronology_levels,,chronology
+chronology_levels_source,,chronology
+chronology_plan_area_m2,,chronology
+chronology_floor_proxy_m2,,chronology
+chronology_survey_year,,chronology
+chronology_model_year,,chronology
+chronology_creation_date,,chronology
+chronology_source_member,,chronology
+chronology_site_in_wider,,chronology
+chronology_site_in_primary,,chronology
+chronology_in_wider,,chronology
+chronology_crosses_wider,,chronology
+chronology_in_primary,,chronology
+chronology_crosses_primary,,chronology
+chronology_boundary_ids,,chronology
+chronology_crossing_boundary_ids,,chronology
+chronology_teacher_area_ids,,chronology
+chronology_teacher_nskre,,chronology
+chronology_teacher_sumitomo,,chronology
+chronology_teacher_former_school,,chronology
+chronology_teacher_incremental,,chronology
+chronology_building_use_ja,,chronology
+chronology_building_use_en,,chronology
+chronology_raw_height_m,,chronology
+chronology_raw_levels,,chronology
+chronology_height_band_en,,chronology
+chronology_footprint_area_m2,,chronology
+chronology_annual_energy_kwh,,chronology
+chronology_annual_co2_kg,,chronology
+chronology_energy_status,,chronology
+chronology_land_use_code,,chronology
+chronology_land_use_en,,chronology
+chronology_land_use_ja,,chronology
+chronology_zone_en,,chronology
+chronology_zone_ja,,chronology
+chronology_far_pct,,chronology
+chronology_bcr_pct,,chronology
+chronology_land_use_detail_ja,,chronology
+chronology_land_use_overlap_pct,,chronology
+chronology_planning_zone_parts,,chronology
+chronology_multiple_planning_zones,,chronology
+chronology_flood_scenario_parts,,chronology
+chronology_flood_intersections,,chronology
+chronology_flood_note,,chronology
+chronology_planning_status,,chronology
+chronology_teacher_area_overlap_parts,,chronology
+chronology_fire_prevention_en,,chronology
+chronology_fire_prevention_names_ja,,chronology
+chronology_fire_prevention_match_count,,chronology
+chronology_district_plans_en,,chronology
+chronology_district_plans_names_ja,,chronology
+chronology_district_plans_match_count,,chronology
+chronology_efficient_land_use_en,,chronology
+chronology_efficient_land_use_names_ja,,chronology
+chronology_efficient_land_use_match_count,,chronology
+chronology_height_control_en,,chronology
+chronology_height_control_names_ja,,chronology
+chronology_height_control_match_count,,chronology
+chronology_special_far_en,,chronology
+chronology_special_far_names_ja,,chronology
+chronology_special_far_match_count,,chronology
+chronology_urban_renaissance_en,,chronology
+chronology_urban_renaissance_names_ja,,chronology
+chronology_urban_renaissance_match_count,,chronology
+chronology_town_code,,chronology
+chronology_town_name_ja,,chronology
+chronology_town_match_rule,,chronology
+chronology_town_collapse_risk_rank,,chronology
+chronology_town_fire_risk_rank,,chronology
+chronology_town_overall_risk_rank,,chronology
+chronology_town_response_difficulty,,chronology
+chronology_town_ground_type_ja,,chronology
+chronology_town_risk_year,,chronology
+chronology_town_risk_unit,,chronology
+chronology_control_join_rule,,chronology
+chronology_official_height_m,,chronology
+chronology_official_storeys,,chronology
+chronology_construction_year,,chronology
+chronology_building_age_2026,,chronology
+chronology_construction_year_status,,chronology
+chronology_construction_year_raw,,chronology
+chronology_basement_storeys,,chronology
+chronology_structure_code,,chronology
+chronology_structure_org_code,,chronology
+chronology_fireproof_structure_code,,chronology
+chronology_roof_type_code,,chronology
+chronology_official_site_area_m2,,chronology
+chronology_official_total_floor_area_m2,,chronology
+chronology_attribute_source_file,,chronology
+chronology_research_role,,chronology
+chronology_in_research_set,,chronology
+chronology_street_frontage_id,,chronology
+chronology_street_frontage_en,,chronology
+chronology_street_name_ja,,chronology
+chronology_frontage_samples_m,,chronology
+chronology_min_road_distance_m,,chronology
+chronology_selection_method,,chronology
+chronology_original_relation,,chronology
+chronology_source_fid,,chronology
+chronology_review_status,,chronology
+chronology_review_date,,chronology
+chronology_evidence_ids,,chronology
+chronology_review_note,,chronology
+chronology_demolition_date,,chronology
+chronology_pub_name,,chronology
+chronology_pub_address,,chronology
+chronology_pub_built_year,,chronology
+chronology_pub_built_month,,chronology
+chronology_pub_age_2026,,chronology
+chronology_pub_age_band,,chronology
+chronology_pub_year_low,,chronology
+chronology_pub_year_high,,chronology
+chronology_pub_year_status,,chronology
+chronology_pub_structure,,chronology
+chronology_pub_floors,,chronology
+chronology_pub_source_url,,chronology
+chronology_pub_source_type,,chronology
+chronology_pub_match,,chronology
+chronology_pub_note,,chronology
+chronology_pub_checked,,chronology
+chronology_pub_model_review,,chronology
+chronology_osm_cover,,chronology
+chronology_gsi_cover,,chronology
+chronology_land_status_matches,,chronology
+chronology_checked_on,,chronology
+chronology_status_as_of,,chronology
+chronology_current_status,,chronology
+chronology_status_basis,,chronology
+chronology_baseline_use_ja,,chronology
+chronology_baseline_use_en,,chronology
+chronology_baseline_height_m,,chronology
+chronology_baseline_levels,,chronology
+chronology_current_use_source,,chronology
+chronology_geometry_status,,chronology
+chronology_geometry_source_url,,chronology
+chronology_age_evidence,,chronology
+chronology_age_year_exact,,chronology
+chronology_age_year_from,,chronology
+chronology_age_year_to,,chronology
+chronology_age_min_2026,,chronology
+chronology_age_max_2026,,chronology
+chronology_age_confidence,,chronology
+chronology_age_source_urls,,chronology
+chronology_age_method,,chronology
+chronology_age_note,,chronology
+chronology_age_checked,,chronology
+chronology_age_review_sector,,chronology
+chronology_age_display,,chronology
+chronology_epoch_2011,chronology,chronology
+chronology_epoch_basis,,chronology
+chronology_pilot_id,,chronology
+chronology_pilot_review,,chronology
+chronology_rebuild_post2011,,chronology
+chronology_rebuild_code,,chronology
+chronology_rebuild_name,,chronology
+chronology_rebuild_year,,chronology
+chronology_rebuild_source,,chronology
+chronology_rebuild_note,,chronology
+chronology_eq2011_cause,,chronology
+chronology_delivery_source_fid,,chronology
+chronology_delivery_geometry,,chronology
+chronology_delivery_value_scope,,chronology
+renewal___wider_pk,,renewal
+renewal_asset_id,,renewal
+renewal_name,,renewal
+renewal_address,,renewal
+renewal_renew_grade,renewal_re,renewal
+renewal_score_balanced,,renewal
+renewal_data_review_class,,renewal
+renewal_review_reason_zh,,renewal
+renewal_was_primary35,,renewal
+renewal_primary_extra_compare,,renewal
+renewal_grid_score_variant,,renewal
+renewal_gsi_clear_score_variant,,renewal
+renewal_manual_action,,renewal
+renewal_manual_note,,renewal
+renewal_recommendation,,renewal
+renewal_balanced_low,,renewal
+renewal_balanced_high,,renewal
+renewal_rank_balanced,,renewal
+renewal_top20_share,,renewal
+renewal_remove_in_model,,renewal
+renewal_stock_fid,,renewal
+renewal_energy_fid,,renewal
+renewal_source_set,,renewal
+renewal_in_energy_scope,,renewal
+renewal_in_primary,,renewal
+renewal_in_wider,,renewal
+renewal_town,,renewal
+renewal_use_en,,renewal
+renewal_footprint_m2,,renewal
+renewal_floor_m2,,renewal
+renewal_storeys,,renewal
+renewal_floor_imputed,,renewal
+renewal_floor_per_ground,,renewal
+renewal_height_m,,renewal
+renewal_residents_model,,renewal
+renewal_households_model,,renewal
+renewal_res_floor_m2,,renewal
+renewal_occupancy_measured,,renewal
+renewal_unknown_use,,renewal
+renewal_age_year,,renewal
+renewal_age_to,,renewal
+renewal_age_evidence,,renewal
+renewal_age_confidence,,renewal
+renewal_current_status,,renewal
+renewal_geometry_status,,renewal
+renewal_energy_gj_y,,renewal
+renewal_co2_t_y,,renewal
+renewal_energy_status,,renewal
+renewal_energy_measured,,renewal
+renewal_energy_rank,,renewal
+renewal_town_risk_rank,,renewal
+renewal_flood_context,,renewal
+renewal_coverage40_pct,,renewal
+renewal_green40_pct,,renewal
+renewal_road_width_class,,renewal
+renewal_road_dist_m,,renewal
+renewal_narrow_dist_m,,renewal
+renewal_street_name,,renewal
+renewal_syntax_dist_m,,renewal
+renewal_nain400,,renewal
+renewal_nach800,,renewal
+renewal_station_dist_m,,renewal
+renewal_school_dist_m,,renewal
+renewal_cleared_dist_m,,renewal
+renewal_station_blocks,,renewal
+renewal_festival_dist_m,,renewal
+renewal_heritage_key,,renewal
+renewal_heritage_name,,renewal
+renewal_heritage_source,,renewal
+renewal_rail_dist_m,,renewal
+renewal_detailed_use,,renewal
+renewal_retain_basis,,renewal
+renewal_score_coverage,,renewal
+renewal_score_green_gap,,renewal
+renewal_score_lane,,renewal
+renewal_score_reach,,renewal
+renewal_score_nodes,,renewal
+renewal_score_floor,,renewal
+renewal_score_local,,renewal
+renewal_local_low,,renewal
+renewal_local_high,,renewal
+renewal_score_station,,renewal
+renewal_station_low,,renewal
+renewal_station_high,,renewal
+renewal_score_community,,renewal
+renewal_community_low,,renewal
+renewal_community_high,,renewal
+renewal_score_support,,renewal
+renewal_project_near20,,renewal
+renewal_planned_block_ref,,renewal
+renewal_construction_overlap,,renewal
+renewal_cultural_poi,,renewal
+renewal_shop_poi_count,,renewal
+renewal_shop_poi_names,,renewal
+renewal_fai_near20,,renewal
+renewal_noon_shade_near20,,renewal
+renewal_outdoor_support_m2,,renewal
+renewal_review_flags,,renewal
+renewal_recent_since2016,,renewal
+renewal_candidate_local,,renewal
+renewal_candidate_station,,renewal
+renewal_candidate_community,,renewal
+renewal_reviewed_by,,renewal
+renewal_reviewed_on,,renewal
+renewal_occupation_status,,renewal
+renewal_heritage_coverage,,renewal
+renewal_weight_low,,renewal
+renewal_weight_high,,renewal
+renewal_review_version,,renewal
+renewal_v1_grade,,renewal
+renewal_v1_score,,renewal
+renewal_v1_rank,,renewal
+renewal_grid_coverage40_pct,,renewal
+renewal_gsi_exact40_pct,,renewal
+renewal_gsi_clear_adjusted40_pct,,renewal
+renewal_grid_minus_v1_pp,,renewal
+renewal_grid_minus_gsi_pp,,renewal
+renewal_clearance_overlap40_m2,,renewal
+renewal_grid_far40,,renewal
+renewal_grid_far_support_pct,,renewal
+renewal_grid_mix40,,renewal
+renewal_grid_mix_support_pct,,renewal
+renewal_grid_land40,,renewal
+renewal_grid_land_support_pct,,renewal
+renewal_grid_land_at_building,,renewal
+renewal_grid_land_building_pct,,renewal
+renewal_grid_far_at_building,,renewal
+renewal_grid_far_building_pct,,renewal
+renewal_grid_score_delta,,renewal
+renewal_grid_grade_variant,,renewal
+renewal_gsi_clear_grade_variant,,renewal
+renewal_updated_use_match,,renewal
+renewal_updated_levels_match,,renewal
+renewal_updated_geometry_diff_m2,,renewal
+renewal_updated_floor_diff_m2,,renewal
+renewal_updated_town_rank,,renewal
+renewal_town_rank_match,,renewal
+renewal_poi_bin_total,,renewal
+renewal_poi_bin_food_retail,,renewal
+renewal_poi_bin_culture,,renewal
+renewal_poi_bin_civic,,renewal
+renewal_poi_bin_key,,renewal
+renewal_poi_50m_total,,renewal
+renewal_poi_50m_food_retail,,renewal
+renewal_poi_50m_culture,,renewal
+renewal_poi_50m_names,,renewal
+renewal_traffic_nearest,,renewal
+renewal_traffic_dist_m,,renewal
+renewal_traffic_reference_12h,,renewal
+renewal_traffic_reference_kind,,renewal
+renewal_traffic_context,,renewal
+renewal_environment_cell,,renewal
+renewal_environment_fai,,renewal
+renewal_environment_noon_shade,,renewal
+renewal_environment_green,,renewal
+renewal_grade_change,,renewal
+renewal_review_basis,,renewal
+renewal_coverage_choice,,renewal
+renewal_review_area,,renewal
+renewal_spatial_purpose,,renewal
+renewal_review_detail,,renewal
+renewal_primary_source_sensitive,,renewal
+renewal_primary_review_pool,,renewal
+renewal_review_decision,,renewal
+renewal_mix_context_basis,,renewal
+renewal_environment_sample_basis,,renewal
+renewal_delivery_source_fid,,renewal
+renewal_delivery_geometry,,renewal
+renewal_delivery_value_scope,,renewal

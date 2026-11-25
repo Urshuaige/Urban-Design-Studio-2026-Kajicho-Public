@@ -21,15 +21,15 @@ Shared data, QGIS projects and analysis code for Theme B at the University of To
 
 The current QGIS project and its spatial layers use **EPSG:6677** for overlay, distance and area. [Coordinate reference and original source records](docs/COORDINATE_REFERENCE.md)
 
-[Primary building age](04_Data/Ready/QGIS_Current_2026-11-04/shp/Primary_Building_Age_2026-11-13/) contains 277 building models, with 56 years missing. The original source, data year and reuse licence are unrecorded. The older age views continue outside the primary area. [Details](04_Data/Ready/QGIS_Current_2026-11-04/README.md#primary-building-age-update--13-november-2026).
+**[Download the Primary building SHP for ArcMap](https://raw.githubusercontent.com/Urshuaige/Urban-Design-Studio-2026-Kajicho-Public/main/04_Data/Ready/QGIS_Current_2026-11-04/shp/Primary_Building_Age_2026-11-13/Kajicho_Primary_Buildings_ArcMap.zip).** The ZIP includes the 2D layer, its companion files and the field guide. It covers 277 building models in Kajicho 1 & 2. Set unique values to `Byear` and label `0` as unknown. See the [full data and 3D faces](04_Data/Ready/QGIS_Current_2026-11-04/README.md#primary-buildings--26-november-2026).
 
 The **4 November 2026** delivery uses the **42.43712 ha wider boundary**. Every intersecting building retains its complete source footprint, including the southern edge. Original attributes and analysis-membership fields are preserved. Kanto-wide original tables are excluded.
 
 | Contents | Files and guidance |
 | --- | --- |
 | 179 SHP datasets | [Layer index](04_Data/Ready/QGIS_Current_2026-11-04/metadata/Layer_Index.csv), with full attributes and short-field mappings |
-| 192 GeoPackage tables, including 14 nonspatial tables | [Native data](04_Data/Ready/QGIS_Current_2026-11-04/data) |
-| 17 cropped rasters and 369 QGIS layers | [Delivery guide](04_Data/Ready/QGIS_Current_2026-11-04/README.md) |
+| 194 GeoPackage tables, including 14 nonspatial tables | [Native data](04_Data/Ready/QGIS_Current_2026-11-04/data) |
+| 17 cropped rasters and 371 QGIS layers | [Delivery guide](04_Data/Ready/QGIS_Current_2026-11-04/README.md) |
 | Source links, years and methods | [Source guide](04_Data/Ready/QGIS_Current_2026-11-04/SOURCES.md) |
 
 1. Clone this repository or download and extract its ZIP. Git LFS is not required.
