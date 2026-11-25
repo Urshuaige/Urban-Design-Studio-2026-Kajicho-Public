@@ -1,5 +1,9 @@
 # Current team delivery
 
+## 26 November 2026 · Primary building footprints
+
+[Download the ArcMap ZIP](https://raw.githubusercontent.com/Urshuaige/Urban-Design-Studio-2026-Kajicho-Public/main/04_Data/Ready/QGIS_Current_2026-11-04/shp/Primary_Building_Age_2026-11-13/Kajicho_Primary_Buildings_ArcMap.zip) or open the [updated QGIS map](../04_Data/Ready/QGIS_Current_2026-11-04/Kajicho_Current_Data.qgz). The [GIS guide](../04_Data/Ready/QGIS_Current_2026-11-04/README.md#primary-buildings--26-november-2026) links the 2D footprints, complete attributes and 3D appearance layer.
+
 ## 24 November 2026 · Coordinate update and public Site
 
 The current QGIS delivery uses EPSG:6677 for spatial analysis, including the supplied Primary building-age data. See the [coordinate reference](COORDINATE_REFERENCE.md) for source CRS, age provenance and the projected PLATEAU extents. [Workshop summary](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop) · [English report](https://kajicho-site-atlas.specialgooood.chatgpt.site/workshop-report) · [Public Site source v52](../website/README.md)

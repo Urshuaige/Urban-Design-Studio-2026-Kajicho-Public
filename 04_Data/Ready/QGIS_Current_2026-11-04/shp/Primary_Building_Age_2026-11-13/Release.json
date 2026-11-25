@@ -1,0 +1,21 @@
+{
+  "records": 277,
+  "recorded_years": 221,
+  "unknown_years": 56,
+  "epsg": 6677,
+  "data_source": "Published Primary age PolygonZ, 24 November 2026 projection",
+  "full_fields": 741,
+  "shp_fields": 173,
+  "dbf_record_bytes": 3247,
+  "theme_unique_key_matches": {
+    "energy": 256,
+    "people": 256,
+    "chronology": 256,
+    "renewal": 256
+  },
+  "surface_counts": {
+    "Roof": 2534,
+    "Wall": 4127,
+    "Base": 288
+  }
+}

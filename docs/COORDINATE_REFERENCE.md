@@ -4,7 +4,7 @@ Use **EPSG:6677** (JGD2011 / Japan Plane Rectangular CS IX) for local QGIS analy
 
 | Data | Coordinates and access |
 | --- | --- |
-| Primary building age | The supplied file used EPSG:4326 (WGS 84 longitude and latitude). The [current PolygonZ Shapefile](../04_Data/Ready/QGIS_Current_2026-11-04/shp/Primary_Building_Age_2026-11-13/) uses EPSG:6677. The update transforms the horizontal vertices and retains feature order, ring parts, attributes and Z values. |
+| Primary building age | The supplied file used EPSG:4326. The [current 2D Shapefile and separate Z faces](../04_Data/Ready/QGIS_Current_2026-11-04/README.md#primary-buildings--26-november-2026) use EPSG:6677. |
 | Building height, older age views and current GIS | Use the existing EPSG:6677 layers from the [current QGIS project](../04_Data/Ready/QGIS_Current_2026-11-04/Kajicho_Current_Data.qgz). |
 | PLATEAU source extents | The four saved excerpts use EPSG:6668 (JGD2011 geographic). For these same records in metres, use the [EPSG:6677 GeoPackage](../04_Data/Ready/Public_Baseline_2026-10-14/Source_Extents_6677.gpkg). It contains 60 flood, 1,315 land-use, 969 transport and 37 planning records with their source fields and IDs. |
 | Browser maps | The standard [GeoJSON](https://www.rfc-editor.org/rfc/rfc7946#section-4) display exports use WGS 84 longitude and latitude. The website mirror includes those exports. GeoJSON files named with `6677` are projected GIS products with an explicit CRS. |

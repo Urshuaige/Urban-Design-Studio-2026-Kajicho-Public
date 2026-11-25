@@ -8,6 +8,8 @@
 
 [公開サイトを開く](https://kajicho-site-atlas.specialgooood.chatgpt.site) · [現在の GIS データを取得](04_Data/Ready/QGIS_Current_2026-11-04/README.md) · [公開サイト第52版のソース](website/README.md)
 
+**[重点地区の建物 SHP をダウンロード（ArcMap）](https://raw.githubusercontent.com/Urshuaige/Urban-Design-Studio-2026-Kajicho-Public/main/04_Data/Ready/QGIS_Current_2026-11-04/shp/Primary_Building_Age_2026-11-13/Kajicho_Primary_Buildings_ArcMap.zip)。** ZIP には 277 棟の二次元建物形状、付属ファイルとフィールド表があります。`Byear` で色分けし、`0` は年不明です。[全属性と三次元表面](04_Data/Ready/QGIS_Current_2026-11-04/README.md#primary-buildings--26-november-2026)。
+
 ## スタジオの資料
 
 | 内容 | リンク |

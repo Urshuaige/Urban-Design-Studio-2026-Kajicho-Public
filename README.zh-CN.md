@@ -8,6 +8,8 @@
 
 [打开公开 Site](https://kajicho-site-atlas.specialgooood.chatgpt.site) · [下载当前 GIS 数据](04_Data/Ready/QGIS_Current_2026-11-04/README.md) · [浏览 Site 第 52 版源码](website/README.md)
 
+**[下载重点区建筑 SHP（ArcMap）](https://raw.githubusercontent.com/Urshuaige/Urban-Design-Studio-2026-Kajicho-Public/main/04_Data/Ready/QGIS_Current_2026-11-04/shp/Primary_Building_Age_2026-11-13/Kajicho_Primary_Buildings_ArcMap.zip)。** ZIP 包含 277 个建筑的二维平面投影、配套文件和字段对照。用 `Byear` 分类，`0` 表示年份未知。[完整属性与三维表面](04_Data/Ready/QGIS_Current_2026-11-04/README.md#primary-buildings--26-november-2026)。
+
 ## 项目入口
 
 | 内容 | 链接 |

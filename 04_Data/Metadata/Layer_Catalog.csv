@@ -300,6 +300,8 @@ dataset_path,layer,data_type,geometry_column,geometry_type,crs,records,id_fields
 04_Data/Ready/QGIS_Current_2026-11-04/data/D238_proposal_buildings.gpkg,proposal_buildings,features,geom,MULTIPOLYGON,EPSG:6677,1069,
 04_Data/Ready/QGIS_Current_2026-11-04/data/D239_proposal_nodes.gpkg,proposal_nodes,features,geom,GEOMETRY,EPSG:6677,4,
 04_Data/Ready/QGIS_Current_2026-11-04/data/D240_block_sites.gpkg,block_sites,features,geom,GEOMETRY,EPSG:6677,3,
+04_Data/Ready/QGIS_Current_2026-11-04/data/Primary_Building_Surfaces.gpkg,building_surfaces,features,geom,POLYGON,EPSG:6677,6949,
+04_Data/Ready/QGIS_Current_2026-11-04/data/Primary_Buildings_Full.gpkg,primary_buildings,features,geom,MULTIPOLYGON,EPSG:6677,277,id;gml_id;building_id
 04_Data/Ready/Study_Area_2026-10-18/Kanda_Nihonbashi_Study.gpkg,analysis_buildings_primary,features,geom,MULTIPOLYGON,EPSG:6677,277,gml_id;building_id
 04_Data/Ready/Study_Area_2026-10-18/Kanda_Nihonbashi_Study.gpkg,analysis_buildings_wider,features,geom,MULTIPOLYGON,EPSG:6677,1074,gml_id;building_id
 04_Data/Ready/Study_Area_2026-10-18/Kanda_Nihonbashi_Study.gpkg,buildings,features,geom,MULTIPOLYGON,EPSG:6677,9244,gml_id;building_id

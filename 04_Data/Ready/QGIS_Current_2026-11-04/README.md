@@ -4,17 +4,21 @@ This delivery uses the current **wider boundary, 42.43712 ha**, to select local 
 
 Clone the repository or download its ZIP. Keep this folder intact and open `Kajicho_Current_Data.qgz` in QGIS. All delivered files are ordinary Git files; Git LFS is not required. This is a data browsing project with relative paths. The original slide layouts remain in their dated local projects.
 
-## Primary building age update — 13 November 2026
+## Primary buildings · 26 November 2026
 
-The QGIS project displays the [supplied primary building-age layer](shp/Primary_Building_Age_2026-11-13/) above the earlier age views. It contains 277 building models: 221 have a `Byear` value and 56 have no year. These are user-supplied values; the underlying age source, survey year and licence were not identified in the supplied file. The supplied geometry was EPSG:4326. The current SHP and QGIS layer use EPSG:6677 with the original 3D polygon Z values, part order and attributes. Its [field mapping](shp/Primary_Building_Age_2026-11-13/README.txt) records SHP field-name changes.
+[Download the ArcMap-ready building ZIP](https://raw.githubusercontent.com/Urshuaige/Urban-Design-Studio-2026-Kajicho-Public/main/04_Data/Ready/QGIS_Current_2026-11-04/shp/Primary_Building_Age_2026-11-13/Kajicho_Primary_Buildings_ArcMap.zip). Extract it and add `Buildings_Kajicho_BYear0.shp`. The 2D layer contains one horizontal model projection for each of the 277 Primary Area records. Use `Byear` for unique values. The 221 recorded years retain their source values. Label `0` as unknown for the remaining 56 buildings.
 
-The five older age and chronology views in the QGIS project exclude their original `in_primary = 1` records, so the new layer supplies the primary-area display. Their underlying historical datasets remain available for provenance and retain their original attributes; outside the primary area the old views are unchanged. Matching by building ID identifies 256 common models, 21 new-layer models absent from the old 2011 evidence layer, and one old primary model absent from the new file. The source data are separate historical records, so the match is not a statement of changes to physical buildings.
+The SHP contains all 47 supplied fields and additional public building attributes. It includes building use, height, floor area, planning, energy, population allocation and renewal evidence by building ID. See the [field map](shp/Primary_Building_Age_2026-11-13/Building_Fields.csv) for shortened ArcMap field names. Four separate theme tables match 256 of the 277 IDs. The remaining 21 have missing values for those joins. [Release counts](shp/Primary_Building_Age_2026-11-13/Release.json)
 
-The 4 November counts and dataset descriptions below describe the dated release; this update adds one SHP layer. The public site and its building-age maps were updated on 13 November; other dated maps retain their publication dates.
+- [Full building attributes](data/Primary_Buildings_Full.gpkg) retains all 741 source and joined fields, long strings and null values. The dBASE limits for a Shapefile restrict its columns and record width.
+- [Appearance surfaces](data/Primary_Building_Surfaces.gpkg) keeps the original Z values for 6,949 faces. The Base, Roof and Wall classes use face slope and height above the model base. Use this layer to style the 3D model.
+- [Current QGIS map](Kajicho_Current_Data.qgz) colors the 2D SHP by year. The full attribute layer and styled 3D faces are in the optional Primary buildings group. The older age views provide context outside the Primary Area.
+
+The supplied age file arrived on 13 November 2026. It did not specify the underlying survey date, method or reuse licence. The 2D outlines can include roof overhangs. Published energy and population estimates retain their source definitions. The [original projected PolygonZ](https://github.com/Urshuaige/Urban-Design-Studio-2026-Kajicho-Public/blob/cb212c2236dd802bbe6bd597443c982536df453b/04_Data/Ready/QGIS_Current_2026-11-04/shp/Primary_Building_Age_2026-11-13/Buildings_Kajicho_BYear0.shp) is available at its dated revision.
 
 ## Contents
 
-The package contains **179 SHP datasets**, **14 nonspatial tables**, **192 GeoPackage tables** and **17 cropped rasters**. The QGIS project has 352 vector views plus the rasters. [Find data by layer name](metadata/Layer_Index.csv) or [browse sources and methods](SOURCES.md).
+The package contains **179 SHP datasets**, **14 nonspatial tables**, **194 GeoPackage tables** and **17 cropped rasters**. The QGIS project has 354 vector views plus the rasters. [Find data by layer name](metadata/Layer_Index.csv) or [browse sources and methods](SOURCES.md).
 
 | Folder | Contents |
 | --- | --- |
@@ -38,7 +42,7 @@ The building-to-town attribute join is restored in QGIS and recorded in [Joins.j
 
 ## SHP fields
 
-All current spatial layers use EPSG:6677, including the Primary building-age SHP from 13 November. Its 56 missing years are preserved. The 4 November SHP exports use at most 255 DBF fields. Each `_fields.csv` maps original field names to short DBF names and identifies fields retained only in the full CSV. Join `_full.csv` to SHP through `ROW_ID`. GeoPackage retains full field names, text, types and nulls. Complete building geometry matches the saved source exactly. One employment-allocation SHP record retains all ring coordinates but its microscopic rings are regrouped by the SHP reader; use its GeoPackage for the exact ring structure. The record is identified in `metadata/Validation.json`.
+All current spatial layers use EPSG:6677, including the Primary building-age SHP from 13 November. The Primary SHP codes 56 unknown years as `0`. The full GeoPackage stores them as nulls. The 4 November SHP exports use at most 255 DBF fields. Each `_fields.csv` maps original field names to short DBF names and identifies fields retained only in the full CSV. Join `_full.csv` to SHP through `ROW_ID`. GeoPackage retains full field names, text, types and nulls. Complete building geometry matches the saved source exactly. One employment-allocation SHP record retains all ring coordinates but its microscopic rings are regrouped by the SHP reader; use its GeoPackage for the exact ring structure. The record is identified in `metadata/Validation.json`.
 
 `NUL_BITS` marks missing values using bit positions in the field map. Numeric `-9999` and text `<NULL>` are placeholders only where the corresponding bit is set. CSV nulls use `<NULL>`; exact null/string distinctions remain in GeoPackage. Numeric SHP values have eight decimal places.
 

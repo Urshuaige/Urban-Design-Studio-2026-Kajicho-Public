@@ -14,7 +14,7 @@ The links below come from the project's saved source registers. Their original a
 
 ## Primary building-age data
 
-The supplied file was received on 13 November 2026 as EPSG:4326. The underlying original source, data year and reuse licence are unrecorded. The [current SHP](shp/Primary_Building_Age_2026-11-13/) uses EPSG:6677. See the [coordinate reference](../../../docs/COORDINATE_REFERENCE.md) for the processing and use scope.
+The supplied file was received on 13 November 2026 as EPSG:4326. The underlying original source, data year and reuse licence are unrecorded. The [26 November 2D SHP and appearance layer](shp/Primary_Building_Age_2026-11-13/) use EPSG:6677. See the [coordinate reference](../../../docs/COORDINATE_REFERENCE.md) for the processing and use scope.
 
 ## Dataset-level links
 
